@@ -10,7 +10,19 @@ redirect_from:
 
 {% include base_path %}
 
-## Davis Lab Vision and Mission
+## The Davis Lab
+
+## Actively recruiting
+
+I am currently looking for **graduate** and **undergraduate** researchers to work on problems that improve the quality of computing systems. Please review the lab vision and mission statement (below) to understand whether you are interested in joining our work.
+
+### Why you should join the Davis Lab
+
+Computing systems will transform the day-to-day human experience during this century. The Davis Lab studies how to increase the quality of these computing systems. The work is exciting, and the potential impact is enormous! For example, some of our research results have been adopted by major companies (Microsoft, IBM), others were incorporated into Node.js, and others have led to security patches in the Python runtime.
+
+Learning how to “do research” is a long journey. To help you understand what life will be like in my lab, let me tell you about my philosophy of training.
+
+## Vision and Mission
 
 We believe that computing systems will eventually mediate most human interactions with other humans and the surrounding world.
 We therefore seek is to improve the human experience by improving the quality of computing systems.
@@ -22,28 +34,12 @@ Three factors are foundational to our success:
 
 ### Which computing systems?
 
-There are many ways to answer this question. Here are some of the dimensions that we consider.
+In order to improve the quality of *existing* computing systems, we take a scientific engineering approach. We empirically study engineering practices in order to drive the development of tools and systems that reflect practitioners’ needs and address their misconceptions. We blend techniques from software engineering, systems, and security in order to understand, measure, and ameliorate the issues that computing practitioners face.
 
-#### Time
-
-We consider both existing and future computing systems.
-
-In order to improve the quality of existing computing systems, we take a scientific engineering approach. We empirically study engineering practices in order to drive the development of tools and systems that reflect practitioners’ needs and address their misconceptions. We blend techniques from software engineering, systems, and security in order to understand, measure, and ameliorate the issues that computing practitioners face.
-
-In order to improve the quality of future computing systems, we are interested in:
+In order to improve the quality of *future* computing systems, we are interested in:
 
 1. Proposing new paradigms to transform how these systems are designed, built, and deployed.
 2. Improving computing education. If future computing professionals are better prepared, they are less likely to make the kinds of errors that lead to bugs and security flaws, and to avoid practices that lead to inequitable computing systems.
-
-#### Domain
-
-- We study *web technologies*, for example input processing tools like regular expressions.
-- We study *emerging paradigms*, for example server-side event-driven programming/Node.js and web-friendly query languages/GraphQL).
-- In addition, we will soon begin studying scientific computing and other domains as well.
-
-#### Age
-
-We are interested in improving legacy and new systems alike.
 
 ## Research projects
 
