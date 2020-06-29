@@ -8,6 +8,8 @@ redirect_from:
   - /lab.html
 ---
 
+{% include base_path %}
+
 ## Davis Lab Vision and Mission
 
 We believe that computing systems will eventually mediate most human interactions with other humans and the surrounding world.
