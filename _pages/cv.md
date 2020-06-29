@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+I hold a PhD in Computer Science from Virginia Tech (2020) under [Dr. Dongyoon Lee](https://www3.cs.stonybrook.edu/~dongyoon/).
 I also interned at
   Microsoft Research (summer 2019 under [Patrice Godefroid](https://www.microsoft.com/en-us/research/people/pg/))
   and
