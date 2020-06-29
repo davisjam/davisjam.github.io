@@ -9,6 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
+I also interned at
+  Microsoft Research (summer 2019 under [Patrice Godefroid](https://www.microsoft.com/en-us/research/people/pg/))
+  and
+  IBM Research Almaden (summer 2018 under [Deepavali Bhagwat](https://researcher.watson.ibm.com/researcher/view.php?person=us-deepavali))
+Before that, I was a software engineer at IBM (2012-2015) working on the [GPFS](https://en.wikipedia.org/wiki/GPFS) file system.
+
 Education
 ======
 * B.S. in GitHub, GitHub University, 2012
