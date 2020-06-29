@@ -1,4 +1,6 @@
 <!-- Sidebar -->
+<link rel="stylesheet" href="academicicons-1.8.6/css/academicicons.min.css"> 
+
 {% include base_path %}
 
 {% if page.author and site.data.authors[page.author] %}
@@ -33,11 +35,13 @@
       <a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i></a>
     {% endif %}
     {% if author.googlescholar %}
-      <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
+      <a href="{{ author.googlescholar }}"><i class="fab fa-fw ai-google-scholar"></i></a>
     {% endif %}
     {% if author.github %}
       <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
     {% endif %}
+
+    <a href="{{ url }}/{{ baseurl }}/{{ filesurl }}/professional/JamesDavis-CV.pdf"><i class="fab fa-fw ai-cv"></i></a>
 
     <!--
       {% endif %}
