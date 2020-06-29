@@ -14,13 +14,33 @@ redirect_from:
 
 ## Actively recruiting
 
-I am currently looking for **graduate** and **undergraduate** researchers to work on problems that improve the quality of computing systems. Please review the lab vision and mission statement (below) to understand whether you are interested in joining our work.
+I am currently looking for **graduate** and **undergraduate** researchers to work on problems that improve the quality of computing systems. Please review the lab vision and mission statement (below) to understand whether you are interested in joining our work. Then follow [these instructions](join-lab).
 
 ### Why you should join the Davis Lab
 
 Computing systems will transform the day-to-day human experience during this century. The Davis Lab studies how to increase the quality of these computing systems. The work is exciting, and the potential impact is enormous! For example, some of our research results have been adopted by major companies (Microsoft, IBM), others were incorporated into Node.js, and others have led to security patches in the Python runtime.
 
-Learning how to “do research” is a long journey. To help you understand what life will be like in my lab, let me tell you about my philosophy of training.
+## Philosophy of training
+
+Learning how to "do research" is a long journey. To help you understand what life will be like in my lab, let me tell you about my philosophy of training.
+
+A research laboratory has two responsibilities.
+  First, we create *new knowledge*.
+  Second, we create *new researchers*.
+
+Every lab member will contribute to the creation and sharing of new knowledge. This typically takes the form of understanding the state of the art (research literature), designing studies, implementing systems or studying humans, and writing up results.
+
+Research is learned through apprenticeship.
+  My lab members will become
+    **disciplined thinkers**,
+    **thoughtful and thorough researchers**,
+    and
+    **exemplary communicators**.
+  I will provide you with
+    one-on-one mentoring in these areas,
+    feedback to help you understand your strengths and weaknesses,
+    and
+    resources to help you improve. In addition, senior lab members will help transmit these ideals to junior lab members.
 
 ## Vision and Mission
 
