@@ -56,4 +56,4 @@ Writings
 
 My lab prepares writeups to summarize our research findings in ways that can benefit the practitioner community.
 You can read them [here](https://medium.com/@davisjam).
-12,000 views and counting!
+13,000 views and counting!
