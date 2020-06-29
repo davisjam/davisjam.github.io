@@ -14,8 +14,6 @@ If you take one of my courses, you will learn to ask and answer not only "*What?
 Courses taught
 =====
 
-Here are the courses I have taught so far:
-
 Fall 2020 (Purdue)
 -----
 
