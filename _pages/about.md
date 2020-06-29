@@ -11,8 +11,7 @@ redirect_from:
 Hi, I'm Jamie!
 I am an Assistant Professor at Purdue University, in the department of Electrical and Computer Engineering (ECE).
 
-Professional
-=====
+## Professional
 
 I hold a PhD in Computer Science from Virginia Tech (2020) under [Dr. Dongyoon Lee](https://www3.cs.stonybrook.edu/~dongyoon/).
 I also interned at
@@ -21,13 +20,14 @@ I also interned at
   IBM Research Almaden (summer 2018 under [Deepavali Bhagwat](https://researcher.watson.ibm.com/researcher/view.php?person=us-deepavali))
 Before that, I was a software engineer at IBM (2012-2015) working on the [GPFS](https://en.wikipedia.org/wiki/GPFS) file system.
 
-You can download my full CV [here](files/professional/JamesDavis-CV.pdf).
+You can download my CV [here](files/professional/JamesDavis-CV.pdf).
 
-Personal
-=====
+## Personal
 
 Some fun facts:
 
 - My wife [Kirsten Davis](https://engineering.purdue.edu/ENE/People) is a faculty member in the department of Engineering Education.
 - In 2019 I was Virginia Tech's intramural racquetball champion (singles and doubles).
 - I do much of the cooking for my household. I make a mean chili & cornbread.
+- I bike to work whenever possible.
+- My pets are fermented.
