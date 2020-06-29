@@ -8,6 +8,8 @@ redirect_from:
   - /home.html
 ---
 
+**I am recruiting PhD students starting in Fall 2020. See [lab page](research/) for details.**
+
 Hi, I'm Jamie!
 I am an Assistant Professor at Purdue University, in the department of Electrical and Computer Engineering (ECE).
 
