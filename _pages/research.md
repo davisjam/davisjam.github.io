@@ -8,3 +8,4 @@ redirect_from:
 ---
 
 Research page.
+- See my [Research page](research) to learn more about the vision and activities of my research lab.
