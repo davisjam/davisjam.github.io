@@ -8,9 +8,6 @@ redirect_from:
 
 {% include base_path %}
 
-Philosophy
-=====
-
 I strive to build my students' expertise and critical thought.
 If you take one of my courses, you will learn to ask and answer not only "*What?*" and "*How?*" but also "*Why?*" and "*How else?*". 
 
