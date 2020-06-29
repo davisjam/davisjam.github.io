@@ -11,7 +11,7 @@ redirect_from:
 About me
 =====
 
-I am an Assistant Professor at Purdue, in the department of Electrical and Computer Engineering (ECE).
+I am an Assistant Professor at Purdue University, in the department of Electrical and Computer Engineering (ECE).
 
 As a scientist, I study the engineering of computing systems.
 I believe that computing systems will eventually mediate most human interactions with other humans and the surrounding world.
