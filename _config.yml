@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "James C. Davis (Jamie)/ My website"
+title                    : "James C. Davis (Jamie)"
 title_separator          : "-"
 name                     : &name "Jamie Davis"
 description              : &description "Assistant Professor, ECE@Purdue"
@@ -103,7 +103,7 @@ author:
   impactstory      :
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : #https://stackoverflow.com/users/2591870/jamie-davis
