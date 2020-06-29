@@ -26,19 +26,19 @@
     <button class="btn btn--inverse">Follow</button>
 
     {% if author.email %}
-      <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope fa-2x" aria-hidden="true"></i></a>
+      <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope fa-3x" aria-hidden="true"></i></a>
     {% endif %}
     {% if author.twitter %}
-      <a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter fa-2x" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter fa-3x" aria-hidden="true"></i></a>
     {% endif %}
     {% if author.googlescholar %}
-      <a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-2x"></i></a>
+      <a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-3x"></i></a>
     {% endif %}
     {% if author.github %}
-      <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github fa-2x" aria-hidden="true"></i></a>
+      <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github fa-3x" aria-hidden="true"></i></a>
     {% endif %}
 
-    <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/professional/JamesDavis-CV.pdf"><i class="ai ai-cv ai-2x"></i></a>
+    <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/professional/JamesDavis-CV.pdf"><i class="ai ai-cv ai-3x"></i></a>
 
     <!--
       {% endif %}
