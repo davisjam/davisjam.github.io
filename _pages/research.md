@@ -27,6 +27,30 @@ Our research often has an empirical bent, as we must understand engineering prac
 
 ### Troublesome tools
 
+#### A practical look at regular expressions
+
+Regular expressions (regexes) are a widely used, hard to master engineering tool.
+They often cause software defects.
+In my regex investigations, I have measured the difficulties that practitioners experience, and guided programming language designers toward regex engines that reflect the needs of practitioners.
+
+Here are the questions we've investigated:
+
+1. <i class="fa fa-trophy" aria-hidden="true"></i> **[ESEC/FSE'18](downloads/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf)** How widespread of a problem is Regex Denial of Service ([ReDoS](https://en.wikipedia.org/wiki/ReDoS))?
+	- We measured the extent of super-linear regexes in two software ecosystems, npm and pypi.
+	- We found ReDoS vulnerabilities in thousands of projects, including [Node.js core](https://nodejs.org/en/blog/vulnerability/march-2018-security-releases/#denial-of-service-dos-vulnerability), [Python core](https://github.com/python/cpython/pull/5955), [MongoDB](https://www.mongodb.com/security), [Django](https://www.djangoproject.com/weblog/2018/mar/06/security-releases/), and [Hapi](https://github.com/hapijs/content/commit/96beb34f7c38a08d024dbf9cd63865c56e2955d9). We also disclosed vulnerabilities to Microsoft, which acknowledged us [here](https://www.microsoft.com/en-us/msrc/researcher-acknowledgments-online-services?rtc=1) in July 2018. Many more of our finds are listed in [Snyk.io's vulnerability database](https://snyk.io/vuln/?packageManager=all), mostly under *npm*.
+2. **[ESEC/FSE'19](downloads/publications/DavisMichaelCoghlanServantLee-LinguaFranca-ESECFSE19.pdf)** How portable are regexes?
+	- The Internet is full of anecdotes of regex portability problems. We measured them scientifically.
+	- We surveyed 150 developers to understand their perspectives about regex re-use and found thousands of regexes re-used from Stack Overflow and RegExLib.
+	- We experimentally measured the extent of syntactic, semantic, and performance portability problems when moving regexes across programming languages.
+3. <i class="fa fa-trophy" aria-hidden="true"></i> **[ASE'19](downloads/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf)** How hard are regexes to work with?
+	- We surveyed 279 developers and interviewed 17 developers to learn more about regex practices.
+	- They told us that "Regexes Are Hard" in many ways, suggesting many avenues for further research to support them.
+4. **[ASE'19](downloads/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf)** How generalizable is regex research?
+	- A deep dive on the generalizability of prior empirical regex research.
+	- We investigated whether researchers' regex samples are biased by (1) regex extraction methodology; or (2) programming language.
+5. <i class="fa fa-trophy" aria-hidden="true"></i> **[ESEC/FSE'19 SRC](downloads/publications/Davis-RethinkingRegexEngines-ESECFSE19SRC.pdf)** Can we address ReDoS at the regex engine level?
+	- Clearly, real software contains ReDoS vulnerabilities. Can we address this issue without major overhauls to the regex engines?
+
 ### Emerging paradigms
 
 ### Computing education
@@ -37,6 +61,7 @@ How can we
 
 We believe that computing systems will eventually mediate most human interactions with other humans and the surrounding world.
 We therefore seek is to improve the human experience by improving the quality of computing systems.
+We blend techniques from software engineering, systems, and security in order to understand, measure, and ameliorate the issues that computing practitioners face.
 Three factors are foundational to our success:
 
 1. Our **diverse team** helps us understand the ways that computing systems are used and perceived by many kinds of humans. Computing systems will touch all of humanity, and so all of humanity is needed to develop them.
