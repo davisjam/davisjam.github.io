@@ -52,10 +52,10 @@ def pub2md(pub):
     if len(pub['authors']) > 1:
         authList += ", and " + pub['authors'][-1]
 
-    cite = "*{}*  \n {}.  \n {} {}.  ".format(
+    cite = "*{}*.  \n {}.  \n {} {}.  ".format(
         pub['title'],
-        pub['venue'], pub['year'],
         authList,
+        pub['venue'], pub['year'],
     )
     return cite + "\n " + ' '.join(links)
 
