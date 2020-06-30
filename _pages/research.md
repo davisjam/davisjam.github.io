@@ -38,13 +38,13 @@ In our regex investigations, we have measured the difficulties that practitioner
 
 Here are the questions we've investigated:
 
-1. How widespread of a problem is Regex Denial of Service ([ReDoS](https://en.wikipedia.org/wiki/ReDoS)? ([ESEC/FSE'18](/files/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf){: .btn}).
+1. How widespread of a problem is Regex Denial of Service? ([ESEC/FSE'18](/files/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf)).
     - We found ReDoS vulnerabilities in thousands of projects, including [Node.js core](https://nodejs.org/en/blog/vulnerability/march-2018-security-releases/#denial-of-service-dos-vulnerability), [Python core](https://github.com/python/cpython/pull/5955), [MongoDB](https://www.mongodb.com/security), [Django](https://www.djangoproject.com/weblog/2018/mar/06/security-releases/), and [Hapi](https://github.com/hapijs/content/commit/96beb34f7c38a08d024dbf9cd63865c56e2955d9). We also disclosed vulnerabilities to Microsoft, which acknowledged us [here](https://www.microsoft.com/en-us/msrc/researcher-acknowledgments-online-services?rtc=1) in July 2018. Many more of our finds are listed in [Snyk.io's vulnerability database](https://snyk.io/vuln/?packageManager=all), mostly under *npm*.
-2. How portable are regexes? ([ESEC/FSE'19](../files/publications/DavisMichaelCoghlanServantLee-LinguaFranca-ESECFSE19.pdf){: .btn})
+2. How portable are regexes? ([ESEC/FSE'19](/files/publications/DavisMichaelCoghlanServantLee-LinguaFranca-ESECFSE19.pdf))
    - We used mixed-methods approaches to understand engineering practices and risks around regex re-use.
-3. How hard are regexes to work with? ([ASE'19](/files/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf){: .btn})
+3. How hard are regexes to work with? ([ASE'19](/files/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf))
    - In surveys and interviews with about 300 practitioners, we learned that "Regexes Are Hard" in many ways, suggesting many avenues for further research to support them.
-4. How generalizable is regex research? ([ASE'19](downloads/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf){: .btn})
+4. How generalizable is regex research? ([ASE'19](/files/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf))
    - This work was a deep dive on the generalizability of prior empirical regex research.
 
 ### Emerging paradigms
