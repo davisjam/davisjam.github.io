@@ -47,7 +47,7 @@ def pub2md(pub):
             pub['blogURL']
         ))
     if 'bestPaperAward' in pub and pub['bestPaperAward']:
-        links.append('[Best Paper Award](){: .btn}')
+        links.append('[Best Paper Award](){: .btn--info}')
     
     authList = ', '.join(pub['authors'][:-1])
     if len(pub['authors']) > 1:

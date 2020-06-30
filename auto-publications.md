@@ -33,7 +33,7 @@ To see them organized by project, see [here](/research).
 6. *Regexes are Hard: Decision-making, Difficulties, and Risks in Programming Regular Expressions*.  
  Michael, Donohue, **Davis**, Lee, and Servant.  
  ASE 2019.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/record/3424069"><i class="fas fa-truck"></i></a> <a href="https://www.youtube.com/watch?v=EWIPCaGfvb0"><i class="fas fa-video-camera"></i></a> <a href="https://medium.com/@davisjam/regexes-are-hard-e7933ae3122d"><i class="fab fa-medium"></i></a> [Best Paper Award](){: .btn}
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/record/3424069"><i class="fas fa-truck"></i></a> <a href="https://www.youtube.com/watch?v=EWIPCaGfvb0"><i class="fas fa-video-camera"></i></a> <a href="https://medium.com/@davisjam/regexes-are-hard-e7933ae3122d"><i class="fab fa-medium"></i></a> [Best Paper Award](){: .btn--info}
 7. *Testing Regex Generalizability And Its Implications: A Large-Scale Many-Language Measurement Study*.  
  **Davis**, Moyer, Kazerouni, and Lee.  
  ASE 2019.  
@@ -45,7 +45,7 @@ To see them organized by project, see [here](/research).
 9. *The Impact of Regular Expression Denial of Service (REDOS) in Practice: an Empirical Study at the Ecosystem Scale*.  
  **Davis**, Coghlan, Servant, and Lee.  
  ESEC/FSE 2018.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.1294300"><i class="fas fa-truck"></i></a> <a href="https://medium.com/@davisjam/introduction-987fdc4c7b0"><i class="fab fa-medium"></i></a> [Best Paper Award](){: .btn}
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.1294300"><i class="fas fa-truck"></i></a> <a href="https://medium.com/@davisjam/introduction-987fdc4c7b0"><i class="fab fa-medium"></i></a> [Best Paper Award](){: .btn--info}
 10. *Node.fz: Fuzzing the server-side event-driven architecture*.  
  **Davis**, Thekumparampil, and Lee.  
  EuroSys 2017.  
