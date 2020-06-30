@@ -25,7 +25,7 @@ As discussed below, our lab's vision is to improve the quality of computing syst
 This mandate is broadly writ; most of our projects focus on **correctness** and **security**.
 Our research often has an empirical bent, as we must understand engineering practice before we can influence it.
 
-This section situates our publications within their broader research ventures.
+Here are some of our projects, past and present.
 For a full list of our publications, see [here](/publications).
 
 ### A practical look at regular expressions

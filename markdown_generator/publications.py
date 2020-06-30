@@ -76,6 +76,7 @@ def writeShortPubs(handle, pubs):
         handle.write("{}. {}\n".format(i+1, pub2md(pub)))
 
 def writePatents(handle, pubs):
+    # TODO
     if False:
         handle.write('\n## Patents\n\n')
         for i, pub in enumerate(pubs):
