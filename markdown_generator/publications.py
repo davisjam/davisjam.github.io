@@ -25,10 +25,6 @@ FILE_PATH = "{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications"
 
 def pub2md(pub):
     links = []
-    if 'bestPaperAward' in pub and pub['bestPaperAward']:
-        links.append('<span class="label label-danger">Best Paper Award</span>')
-    if 'wonAward' in pub and pub['wonAward']:
-        links.append('<i class="fas fa-trophy"></i>')
     if 'paperBasename' in pub and pub['paperBasename']:
         links.append('<a href="{}/{}"><i class="fas fa-file-pdf"></i></a>'.format(
             FILE_PATH, pub['paperBasename']
@@ -49,6 +45,10 @@ def pub2md(pub):
         links.append('<a href="{}"><i class="fab fa-medium"></i></a>'.format(
             pub['blogURL']
         ))
+    if 'bestPaperAward' in pub and pub['bestPaperAward']:
+        links.append('<span class="label label-danger">Best Paper Award</span>')
+    if 'wonAward' in pub and pub['wonAward']:
+        links.append('<i class="fas fa-trophy"></i>')
     
     authList = ', '.join(pub['authors'][:-1])
     if len(pub['authors']) > 1:
