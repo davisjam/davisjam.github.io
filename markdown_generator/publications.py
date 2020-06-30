@@ -46,18 +46,16 @@ def pub2md(pub):
             pub['blogURL']
         ))
     if 'bestPaperAward' in pub and pub['bestPaperAward']:
-        links.append('Best Paper Award{: .btn}')
-    if 'wonAward' in pub and pub['wonAward']:
-        links.append('<i class="fas fa-trophy"></i>')
+        links.append('[Best Paper Award](){: .btn}')
     
     authList = ', '.join(pub['authors'][:-1])
     if len(pub['authors']) > 1:
         authList += ", and " + pub['authors'][-1]
 
-    cite = "**{}**  \n {}  \n {} {}.  ".format(
+    cite = "*{}*  \n {}.  \n {} {}.  ".format(
         pub['title'],
-        authList,
         pub['venue'], pub['year']
+        authList,
     )
     return cite + "\n " + ' '.join(links)
 
