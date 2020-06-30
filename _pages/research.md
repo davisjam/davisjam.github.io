@@ -10,11 +10,9 @@ redirect_from:
 
 {% include base_path %}
 
-## The Davis Lab
-
 ## Actively recruiting
 
-I am currently looking for **graduate** and **undergraduate** researchers to work on problems that improve the quality of computing systems. Please review the lab vision and mission statement (below) to understand whether you are interested in joining our work. Then follow [these instructions](../join-lab).
+{: notice} I am currently looking for **graduate** and **undergraduate** researchers to work on problems that improve the quality of computing systems. Please review the lab vision and mission statement (below) to understand whether you are interested in joining our work. Then follow [these instructions](../join-lab).
 
 ### Why you should join the Davis Lab
 
