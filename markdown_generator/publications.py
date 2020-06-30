@@ -47,14 +47,17 @@ def pub2md(pub):
         links.append('<a href="{}"><i class="fab fa-medium"></i></a>'.format(
             pub['blogURL']
         ))
+    
+    authList = ', '.join(pub['authors'][:-1])
+    if len(pub['authors']) > 1:
+        authList += ", and " + pub['authors'][-1]
 
-    cite = "{}. *{}*. ({} {}).".format(
-        ', '.join(pub['authors']),
+    cite = "**{}**\n {}\n {} {}.".format(
         pub['title'],
-        pub['venue'],
-        pub['year']
+        authList,
+        pub['venue'], pub['year']
     )
-    return '\n '.join(links) + " " + cite
+    return cite + "\n " + ' '.join(links)
 
 def writeConfPubs(handle, pubs):
     handle.write('\n## Conference papers\n\n')
@@ -68,6 +71,11 @@ def writeJournalPubs(handle, pubs):
 
 def writeShortPubs(handle, pubs):
     handle.write('\n## Short papers\n\n')
+    for i, pub in enumerate(pubs):
+        handle.write("{}. {}\n".format(i+1, pub2md(pub)))
+
+def writePatents(handle, pubs):
+    handle.write('\n## Patents\n\n')
     for i, pub in enumerate(pubs):
         handle.write("{}. {}\n".format(i+1, pub2md(pub)))
 
