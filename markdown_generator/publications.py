@@ -46,7 +46,7 @@ def pub2md(pub):
             pub['blogURL']
         ))
     if 'bestPaperAward' in pub and pub['bestPaperAward']:
-        links.append('<span class="label label-danger">Best Paper Award</span>')
+        links.append('Best Paper Award{: .btn}')
     if 'wonAward' in pub and pub['wonAward']:
         links.append('<i class="fas fa-trophy"></i>')
     
