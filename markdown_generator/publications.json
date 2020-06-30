@@ -1,0 +1,15 @@
+{
+    "publications": [
+        {
+            "type": "conference",
+            "authors": ["**Davis**", "Thekumparampil", "Lee"],
+            "title": "Node.fz: Fuzzing the server-side event-driven architecture",
+            "venue": "EuroSys",
+            "year": 2017,
+            "wonAward": false,
+            "paperBasename": "DavisThekumparampilLee-NodeFz-EuroSys17.pdf",
+            "slidesBasename": "DavisThekumparampilLee-NodeFz-EuroSys17-slides.pptx",
+            "artifactURL": "https://github.com/VTLeeLab/NodeFz"
+        }
+    ]
+}

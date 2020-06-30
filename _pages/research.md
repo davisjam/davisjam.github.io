@@ -122,7 +122,3 @@ Research is learned through apprenticeship.
     feedback to help you understand your strengths and weaknesses,
     and
     resources to help you improve. In addition, senior lab members will help transmit these ideals to junior lab members.
-
-<!--
-<i class="fa fa-trophy"></i> 
--->
