@@ -8,6 +8,7 @@ import json
 JOURNAL_PUB = "journal"
 CONFERENCE_PUB = "conference"
 SHORT_PUB = "short"
+PATENT_PUB = "patent"
 
 def writeOutPrefix(handle):
     handle.write("""---
@@ -75,9 +76,10 @@ def writeShortPubs(handle, pubs):
         handle.write("{}. {}\n".format(i+1, pub2md(pub)))
 
 def writePatents(handle, pubs):
-    handle.write('\n## Patents\n\n')
-    for i, pub in enumerate(pubs):
-        handle.write("{}. {}\n".format(i+1, pub2md(pub)))
+    if False:
+        handle.write('\n## Patents\n\n')
+        for i, pub in enumerate(pubs):
+            handle.write("{}. {}\n".format(i+1, pub2md(pub)))
 
 with open('publications.json', 'r') as infile, open('../auto-publications.md', 'w') as outfile:
     writeOutPrefix(outfile)
@@ -87,6 +89,7 @@ with open('publications.json', 'r') as infile, open('../auto-publications.md', '
     confPubs = [ pub for pub in pubs if pub['type'] == CONFERENCE_PUB ]
     journalPubs = [ pub for pub in pubs if pub['type'] == JOURNAL_PUB ]
     shortPubs = [ pub for pub in pubs if pub['type'] == SHORT_PUB ]
+    patentPubs = [ pub for pub in pubs if pub['type'] == PATENT_PUB ]
 
     if confPubs:
         print("Writing the {} conference pubs".format(len(confPubs)))
@@ -97,4 +100,7 @@ with open('publications.json', 'r') as infile, open('../auto-publications.md', '
     if shortPubs:
         print("Writing the {} short pubs".format(len(shortPubs)))
         writeShortPubs(outfile, shortPubs)
+    if patentPubs:
+        print("Writing the {} patents".format(len(patentPubs)))
+        writePatentPubs(outfile, patentPubs)
     outfile.write('\n')
