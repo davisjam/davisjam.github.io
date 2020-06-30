@@ -40,6 +40,10 @@ def pub2md(pub):
         links.append('<a href="{}"><i class="fas fa-video-camera"></i></a>'.format(
             pub['videoURL']
         ))
+    if 'blog' in pub and pub['blog']:
+        links.append('<a href="{}"><i class="fab fa-medium"></i></a>'.format(
+            pub['blogURL']
+        ))
 
     cite = "{}. *{}*. ({} {}).".format(
         ', '.join(pub['authors']),
