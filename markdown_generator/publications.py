@@ -43,7 +43,7 @@ def pub2md(pub):
         links.append('<a href="{}"><i class="fas fa-video-camera"></i></a>'.format(
             pub['videoURL']
         ))
-    if 'blog' in pub and pub['blog']:
+    if 'blogURL' in pub and pub['blogURL']:
         links.append('<a href="{}"><i class="fab fa-medium"></i></a>'.format(
             pub['blogURL']
         ))
