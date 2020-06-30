@@ -22,21 +22,21 @@ FILE_PATH = "{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications"
 
 def pub2md(pub):
     links = []
-    if False and pub['wonAward']:
+    if pub['wonAward']:
         links.append('<i class="fas fa-trophy"></i>')
-    if False and pub['paperBasename']:
-        links.append('<a href="{}/{}"><i class="fas fa.fa-file-text-o"></i></a>'.format(
+    if pub['paperBasename']:
+        links.append('<a href="{}/{}"><i class="fas fa-file-text-o"></i></a>'.format(
             FILE_PATH, pub['paperBasename']
         ))
     if pub['slidesBasename']:
-        links.append('<a href="{}/{}"><i class="fas fa.fa-file-powerpoint-o"></i></a>'.format(
+        links.append('<a href="{}/{}"><i class="fas fa-file-powerpoint-o"></i></a>'.format(
             FILE_PATH, pub['slidesBasename']
         ))
-    if False and pub['artifactURL']:
+    if pub['artifactURL']:
         links.append('<a href="{}"><i class="fas fa-camera"></i></a>'.format(
             pub['artifactURL']
         ))
-    if False and pub['videoURL']:
+    if pub['videoURL']:
         links.append('<a href="{}"><i class="fas fa-video-camera"></i></a>'.format(
             pub['videoURL']
         ))
@@ -47,7 +47,7 @@ def pub2md(pub):
         pub['venue'],
         pub['year']
     )
-    return ' '.join(links) + " " + cite
+    return '\n '.join(links) + " " + cite
 
 def writeConfPubs(handle, pubs):
     handle.write('\n## Conference papers\n\n')
