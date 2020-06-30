@@ -54,7 +54,7 @@ def pub2md(pub):
 
     cite = "*{}*  \n {}.  \n {} {}.  ".format(
         pub['title'],
-        pub['venue'], pub['year']
+        pub['venue'], pub['year'],
         authList,
     )
     return cite + "\n " + ' '.join(links)
