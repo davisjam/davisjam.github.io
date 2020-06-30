@@ -5,10 +5,11 @@ excerpt: "Home"
 author_profile: true
 redirect_from: 
   - /
+  - /index.html
   - /home.html
 ---
 
-**I am recruiting students (esp. PhD) starting in Fall 2020. See [lab page](research/){: .btn} for details.**
+**I am recruiting students (esp. PhD) starting in Fall 2020. See [lab page](research/){: .btn .btn--info} for details.**
 {: .notice--info}
 
 Hi, I'm Jamie!
