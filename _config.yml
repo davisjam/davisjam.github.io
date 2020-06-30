@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jamie's website"
+title                    : "J.C. Davis"
 title_separator          : "-"
 name                     : &name "Jamie Davis"
 description              : &description "The Davis Lab in ECE@Purdue"
