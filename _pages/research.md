@@ -12,7 +12,7 @@ redirect_from:
 
 ## Actively recruiting
 
-**I am currently looking for *graduate* and *undergraduate* researchers to work on problems that improve the quality of computing systems.** Please review the lab vision and mission statement (below) to understand whether you are interested in joining our work. Then follow [these instructions](../join-lab).
+**I am currently looking for *graduate* and *undergraduate* researchers to work on problems that improve the quality of computing systems.** Please review the lab vision and mission statement (below) to understand whether you are interested in joining our work. Then follow [these instructions](/join-lab).
 {: .notice--info}
 
 ### Why you should join the Davis Lab
@@ -24,6 +24,9 @@ Computing systems will transform the day-to-day human experience during this cen
 As discussed below, our lab's vision is to improve the quality of computing systems.
 This mandate is broadly writ; most of our projects focus on **correctness** and **security**.
 Our research often has an empirical bent, as we must understand engineering practice before we can influence it.
+
+This section situates our publications within their broader research ventures.
+For a full list of our publications, see [here](/publications).
 
 ### A practical look at regular expressions
 
@@ -59,10 +62,10 @@ The web community is considering GraphQL as a means of addressing management iss
 We have worked with a team at IBM Research (Yorktown) on understanding and ameliorating issues with this technology.
 Aspects of our research have been incorporated into IBM's API Connect And Data Power product [v10.0.0](https://community.ibm.com/community/user/imwuc/blogs/rob-thelen1/2020/06/16/api-connect-and-datapower-v1000-are-generally-avai).
 
-2. How can we defend against GraphQL denial of service attacks? ([ESEC/FSE'20](.))
-   - Our findings at ICSOC'19 motivated us to explore accurate static cost estimation for GraphQL queries.
 1. What do GraphQL schemas look like? ([ICSOC'19](/files/publications/WitternChaDavisBaudartMandel-EmpiricalGraphQL-ICSOC19.pdf))
    - We identified idioms to help new adopters write easy-to-understand schemas, and evaluated the extent of denial of service vulnerabilities in schemas.
+2. How can we defend against GraphQL denial of service attacks? ([ESEC/FSE'20](.))
+   - Our findings at ICSOC'19 motivated us to explore accurate static cost estimation for GraphQL queries.
 
 ### Data science
 
@@ -74,9 +77,9 @@ We have worked with a team at IBM Research (Almaden) on applying data provenance
 1. How might provenance be applied to assist data scientists? ([VLDB'20](.))
    - We built a system called Ursprung tailored to the data science context.
 
+<!--
 ### Computing education
-
-How can we
+-->
 
 ## Vision and Mission
 
@@ -98,7 +101,7 @@ In order to improve the quality of *future* computing systems, we are interested
 1. Proposing new paradigms to transform how these systems are designed, built, and deployed.
 2. Improving computing education. If future computing professionals are better prepared, they are less likely to make the kinds of errors that lead to bugs and security flaws, and to avoid practices that lead to inequitable computing systems.
 
-## Philosophy of training
+### Philosophy of training
 
 Learning how to "do research" is a long journey. To help you understand what life will be like in my lab, let me tell you about my philosophy of training.
 
@@ -111,7 +114,7 @@ Every lab member will contribute to the creation and sharing of new knowledge. T
 Research is learned through apprenticeship.
   My lab members will become
     **disciplined thinkers**,
-    **thoughtful and thorough researchers**,
+    **thoughtful researchers**,
     and
     **exemplary communicators**.
   I will provide you with
