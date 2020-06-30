@@ -49,6 +49,48 @@ Here are the questions we've investigated:
 
 ### Emerging paradigms
 
+Shifting to a new software paradigm is difficult.
+Every new paradigm presents an opportunity for researchers to contribute, with empirical work characterizing best practices or systems work evaluating the frameworks.
+
+#### Server-side event-driven programming
+
+I have investigated the correctness and security risks that resulted from one recent industry shift: adopting the event-driven paradigm on the server side.
+Thousands of companies have done so as they shift to the Node.js platform, unifying their stack on one programming language.
+Though this paradigmatic transition has brought business benefits, it has also led to many software defects due to fundamental limitations (non-determinism, security flaws) in the architecture of the Node.js framework.
+
+1. **[EuroSys'17](downloads/publications/DavisThekumparampilLee-NodeFz-EuroSys17.pdf)** What are the race conditions in Node.js programs?
+	- We investigated concurrency errors in Node.js applications.
+	- We studied bug reports to demonstrate that these occur in practice, and built a schedule fuzzing tool called Node.fz to make these bugs more likely to manifest.
+2. **[USENIX Security'18](downloads/publications/DavisWilliamsonLee-SenseOfTime-USENIXSecurity18.pdf)** What are the denial of service attacks against Node.js programs?
+	- We evaluated the avenues for Event Handler Poisoning in Node.js and prototyped a complete defense mechanism: first-class timeouts.
+	- We also wrote a [guide on nodejs.org](https://nodejs.org/en/docs/guides/dont-block-the-event-loop/), [made fs.readFile safe](https://github.com/nodejs/node/pull/17054), and added [documentation](https://github.com/nodejs/node/pull/17250) on potential DoS vectors.
+3. What are the performance issues in Node.js programs?
+	- I am working on improving Node.js performance down in libuv. See my [meta-issue](https://github.com/libuv/libuv/issues/1959) about the state of the libuv threadpool and my [pull request](https://github.com/libuv/libuv/pull/1726) enabling a pluggable threadpool.
+	- My undergraduate student Jonathan Alexander [won first place](https://www.vturcs.cs.vt.edu/spring19.php) at the VT Undergraduate Research in CS competition for his work on this project. Congratulations, Jonathan!
+
+#### GraphQL
+
+The web community is considering GraphQL as a means of addressing management issues with traditional REST-style APIs.
+I have worked with a team at IBM Research (Yorktown) on understanding and ameliorating issues with this technology.
+
+1. **[ICSOC'19](downloads/publications/WitternChaDavisBaudartMandel-EmpiricalGraphQL-ICSOC19.pdf)** What do GraphQL schemas look like?
+	- We mined GitHub and commercial GraphQL APIs for their schemas.
+	- We identified idioms to help new adopters write easy-to-understand schemas, and evaluated the extent of denial of service vulnerabilities in schemas.
+2. **[ESEC/FSE'20](https://people.cs.vt.edu/~davisjam/)** How can we defend against GraphQL denial of service attacks?
+	- Our findings at ICSOC'19 motivated us to explore accurate static cost estimation for GraphQL queries.
+
+Aspects of our research have been incorporated into IBM's API Connect And Data Power product [v10.0.0](https://community.ibm.com/community/user/imwuc/blogs/rob-thelen1/2020/06/16/api-connect-and-datapower-v1000-are-generally-avai).
+
+#### Data science
+
+Data science techniques have been adopted across most business enterprises.
+These techniques include the use of analysis pipelines to automatically and repeatedly process batches of data.
+Reproducing and extending these pipelines is a critical aspect of modern data science, and it is also an error-prone task.
+I have worked with a team at IBM Research (Almaden) on applying data provenance techniques to the data science context, facilitating pipeline reproduction and extension.
+
+1. **[VLDB'20]()** How might provenance be applied to assist data scientists?
+	- We built a system called Ursprung tailored to the data science context.
+
 ### Computing education
 
 How can we
