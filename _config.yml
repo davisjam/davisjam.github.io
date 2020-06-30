@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "James C. Davis (Jamie)"
+title                    : "Jamie's website"
 title_separator          : "-"
 name                     : &name "Jamie Davis"
-description              : &description "Assistant Professor, ECE@Purdue"
+description              : &description "The Davis Lab in ECE@Purdue"
 url                      : "https://davisjam.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 filesurl                 : "files"
