@@ -36,5 +36,17 @@
             "artifactURL": "",
             "videoURL": ""
         }
+        {
+            "type": "short",
+            "authors": ["**Davis**", "Kildow", "Lee"],
+            "title": "The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture",
+            "venue": "EuroSec",
+            "year": 2017,
+            "wonAward": false,
+            "paperBasename": "DavisKildowLee-EHP-EUroSec17.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        }
     ]
 }
