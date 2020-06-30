@@ -11,5 +11,5 @@ author_profile: true
 
 ## Short papers
 
-1. <i class="fas fa-trophy"/> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-ACMSRCGrandFinals-2019.pdf"><i class="fas fa-file-text-o"></i></a> **Davis**. *On the Impact and Defeat of Regex DoS*. (ACM SRC Grand Finals 2019).
+1. <i class="fas fa-trophy"></i> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-ACMSRCGrandFinals-2019.pdf"><i class="fas fa-file-text-o"></i></a> **Davis**. *On the Impact and Defeat of Regex DoS*. (ACM SRC Grand Finals 2019).
 

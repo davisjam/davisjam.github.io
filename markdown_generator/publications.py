@@ -23,7 +23,7 @@ FILE_PATH = "{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications"
 def pub2md(pub):
     links = []
     if pub['wonAward']:
-        links.append('<i class="fas fa-trophy"/>')
+        links.append('<i class="fas fa-trophy"></i>')
     if pub['paperBasename']:
         links.append('<a href="{}/{}"><i class="fas fa-file-text-o"></i></a>'.format(
             FILE_PATH, pub['paperBasename']
