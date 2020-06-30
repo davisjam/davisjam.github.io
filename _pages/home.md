@@ -1,10 +1,9 @@
 ---
-permalink: /home
+permalink: /
 title: "Home"
 excerpt: "Home"
 author_profile: true
 redirect_from: 
-  - /
   - /index.html
   - /home.html
 ---
