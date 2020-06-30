@@ -25,20 +25,20 @@ def pub2md(pub):
     if pub['wonAward']:
         links.append('<i class="fas fa-trophy"/>')
     if pub['paperBasename']:
-        links.append('<a href="{}/{}"><i class="fas fa-file-text-o"/></a>'.format(
+        links.append('<a href="{}/{}"><i class="fas fa-file-text-o"></i></a>'.format(
             FILE_PATH, pub['paperBasename']
         ))
     if pub['slidesBasename']:
-        links.append('<a href="{}/{}"><i class="fas fa-file-powerpoint-o"/></a>'.format(
-            FILE_PATH, pub['paperBasename']
+        links.append('<a href="{}/{}"><i class="fas fa-file-powerpoint-o"></i></a>'.format(
+            FILE_PATH, pub['slidesBasename']
         ))
     if pub['artifactURL']:
-        links.append('<a href="{}/{}"><i class="fas fa-camera"/></a>'.format(
-            FILE_PATH, pub['artifactURL']
+        links.append('<a href="{}"><i class="fas fa-camera"></i></a>'.format(
+            pub['artifactURL']
         ))
     if pub['videoURL']:
-        links.append('<a href="{}/{}"><i class="fas fa-video-camera"/></a>'.format(
-            FILE_PATH, pub['videoURL']
+        links.append('<a href="{}"><i class="fas fa-video-camera"></i></a>'.format(
+            pub['videoURL']
         ))
 
     cite = "{}. *{}*. ({} {}).".format(
@@ -52,17 +52,17 @@ def pub2md(pub):
 def writeConfPubs(handle, pubs):
     handle.write('\n## Conference papers\n\n')
     for i, pub in enumerate(pubs):
-        handle.write("{}. {}".format(i+1, pub2md(pub)))
+        handle.write("{}. {}\n".format(i+1, pub2md(pub)))
 
 def writeJournalPubs(handle, pubs):
     handle.write('\n## Journal papers\n\n')
     for i, pub in enumerate(pubs):
-        handle.write("{}. {}".format(i+1, pub2md(pub)))
+        handle.write("{}. {}\n".format(i+1, pub2md(pub)))
 
 def writeShortPubs(handle, pubs):
     handle.write('\n## Short papers\n\n')
     for i, pub in enumerate(pubs):
-        handle.write("{}. {}".format(i+1, pub2md(pub)))
+        handle.write("{}. {}\n".format(i+1, pub2md(pub)))
 
 with open('publications.json', 'r') as infile, open('../auto-publications.md', 'w') as outfile:
     writeOutPrefix(outfile)
