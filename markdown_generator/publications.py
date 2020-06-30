@@ -22,21 +22,21 @@ FILE_PATH = "{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications"
 
 def pub2md(pub):
     links = []
-    if pub['wonAward']:
+    if False and pub['wonAward']:
         links.append('<i class="fas fa-trophy"></i>')
     if pub['paperBasename']:
         links.append('<a href="{}/{}"><i class="fas fa-file-text-o"></i></a>'.format(
             FILE_PATH, pub['paperBasename']
         ))
-    if pub['slidesBasename']:
+    if False and pub['slidesBasename']:
         links.append('<a href="{}/{}"><i class="fas fa-file-powerpoint-o"></i></a>'.format(
             FILE_PATH, pub['slidesBasename']
         ))
-    if pub['artifactURL']:
+    if False and pub['artifactURL']:
         links.append('<a href="{}"><i class="fas fa-camera"></i></a>'.format(
             pub['artifactURL']
         ))
-    if pub['videoURL']:
+    if False and pub['videoURL']:
         links.append('<a href="{}"><i class="fas fa-video-camera"></i></a>'.format(
             pub['videoURL']
         ))
