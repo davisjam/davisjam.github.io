@@ -23,6 +23,18 @@
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
+        },
+        {
+            "type": "short",
+            "authors": ["Rupprecht", "**Davis**", "Lubbock", "Tyson", "Bhagwat"],
+            "title": "Ursprung: Provenance for Large-Scale Analytics Environments",
+            "venue": "SIGMOD (demo)",
+            "year": 2019,
+            "wonAward": false,
+            "paperBasename": "RupprechtDavisetal-SIGMOD-Demo-19.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
         }
     ]
 }

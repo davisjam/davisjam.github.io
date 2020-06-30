@@ -15,4 +15,5 @@ author_profile: true
 
 1. <i class="fas fa-trophy fa-lg"></i>
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-ACMSRCGrandFinals-2019.pdf"><i class="fa fa-file-text-o fa-lg"></i></a> **Davis**. *On the Impact and Defeat of Regex DoS*. (ACM SRC Grand Finals 2019).
+2. <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf"><i class="fa fa-file-text-o fa-lg"></i></a> Rupprecht, **Davis**, Lubbock, Tyson, Bhagwat. *Ursprung: Provenance for Large-Scale Analytics Environments*. (SIGMOD (demo) 2019).
 
