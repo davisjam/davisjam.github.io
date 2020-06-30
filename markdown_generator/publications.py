@@ -31,7 +31,7 @@ def pub2md(pub):
             FILE_PATH, pub['paperBasename']
         ))
     if 'slidesBasename' in pub and pub['slidesBasename']:
-        links.append('<a href="{}/{}"><i class="fas fa-presentation"></i></a>'.format(
+        links.append('<a href="{}/{}"><i class="far fa-presentation"></i></a>'.format(
             FILE_PATH, pub['slidesBasename']
         ))
     if 'artifactURL' in pub and pub['artifactURL']:
@@ -47,7 +47,7 @@ def pub2md(pub):
             pub['blogURL']
         ))
     if 'bestPaperAward' in pub and pub['bestPaperAward']:
-        links.append('[Best Paper Award](){: .btn--info}')
+        links.append('[Best Paper Award](){: .btn}')
     
     authList = ', '.join(pub['authors'][:-1])
     if len(pub['authors']) > 1:
