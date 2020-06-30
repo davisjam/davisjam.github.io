@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "J.C. Davis"
+title                    : "Davis Lab" # Appears in upper left on each page, and in the browser tab
 title_separator          : "-"
 name                     : &name "Jamie Davis"
 description              : &description "The Davis Lab in ECE@Purdue"
