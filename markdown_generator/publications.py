@@ -35,7 +35,7 @@ def pub2md(pub):
             FILE_PATH, pub['slidesBasename']
         ))
     if 'artifactURL' in pub and pub['artifactURL']:
-        links.append('<a href="{}"><i class="fas fa-code"></i></a>'.format(
+        links.append('<a href="{}"><i class="fas fa-file-code"></i></a>'.format(
             pub['artifactURL']
         ))
     if 'videoURL' in pub and pub['videoURL']:
