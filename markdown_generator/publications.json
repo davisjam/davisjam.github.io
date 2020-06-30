@@ -72,9 +72,22 @@
             "wonAward": false,
             "paperBasename": "WitternChaDavisBaudartMandel-EmpiricalGraphQL-ICSOC19.pdf",
             "slidesBasename": "WitternChaDavisBaudartMandel-EmpiricalGraphQL-ICSOC19-slides-modified.pptx",
-            "artifactURL": "",
+            "artifactURL": "https://zenodo.org/record/3352420#.XvuF8JNKhQI",
             "videoURL": "https://www.youtube.com/watch?v=9-CnPyrtjic&feature=youtu.be",
             "blogURL": "https://medium.com/@davisjam/empirical-study-graphql-icsoc19-29038c48da5"
+        },
+        {
+            "type": "conference",
+            "authors": ["Michael", "Donohue", "**Davis**", "Lee", "Servant"],
+            "title": "Regexes are Hard: Decision-making, Difficulties, and Risks in Programming Regular Expressions",
+            "venue": "ASE",
+            "year": 2019,
+            "wonAward": true,
+            "paperBasename": "MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf",
+            "slidesBasename": "MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19-slides.pptx",
+            "artifactURL": "https://zenodo.org/record/3424069",
+            "videoURL": "https://www.youtube.com/watch?v=EWIPCaGfvb0",
+            "blogURL": "https://medium.com/@davisjam/regexes-are-hard-e7933ae3122d"
         },
         {
             "type": "short",
