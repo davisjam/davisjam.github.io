@@ -67,6 +67,7 @@ def writeShortPubs(handle, pubs):
 with open('publications.json', 'r') as infile, open('../auto-publications.md', 'w') as outfile:
     writeOutPrefix(outfile)
     pubs = json.load(infile)['publications']
+    pubs = sorted(pubs, key=lambda p: p['year'], reverse=True)
 
     confPubs = [ pub for pub in pubs if pub['type'] == CONFERENCE_PUB ]
     journalPubs = [ pub for pub in pubs if pub['type'] == JOURNAL_PUB ]

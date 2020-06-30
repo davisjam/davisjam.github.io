@@ -11,6 +11,18 @@
             "slidesBasename": "DavisThekumparampilLee-NodeFz-EuroSys17-slides.pptx",
             "artifactURL": "https://github.com/VTLeeLab/NodeFz",
             "videoURL": ""
+        },
+        {
+            "type": "short",
+            "authors": ["**Davis**"],
+            "title": "On the Impact and Defeat of Regex DoS",
+            "venue": "ACM SRC Grand Finals",
+            "year": 2019,
+            "wonAward": true,
+            "paperBasename": "Davis-ACMSRCGrandFinals-2019.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
         }
     ]
 }
