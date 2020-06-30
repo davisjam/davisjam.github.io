@@ -74,9 +74,12 @@ with open('publications.json', 'r') as infile, open('../auto-publications.md', '
     shortPubs = [ pub for pub in pubs if pub['type'] == SHORT_PUB ]
 
     if confPubs:
+        print("Writing the {} conference pubs".format(len(confPubs)))
         writeConfPubs(outfile, confPubs)
     if journalPubs:
+        print("Writing the {} journal pubs".format(len(journalPubs)))
         writeJournalPubs(outfile, journalPubs)
     if shortPubs:
+        print("Writing the {} short pubs".format(len(shortPubs)))
         writeShortPubs(outfile, shortPubs)
     outfile.write('\n')
