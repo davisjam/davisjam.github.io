@@ -47,7 +47,7 @@ def pub2md(pub):
         pub['venue'],
         pub['year']
     )
-    return ' '.join(links) + cite
+    return ' '.join(links) + " " + cite
 
 def writeConfPubs(handle, pubs):
     handle.write('\n## Conference papers\n\n')
