@@ -25,6 +25,18 @@
             "videoURL": "https://www.usenix.org/conference/usenixsecurity18/presentation/davis"
         },
         {
+            "type": "conference",
+            "authors": ["**Davis**", "Coghlan", "Servant", "Lee"],
+            "title": "The Impact of Regular Expression Denial of Service (REDOS) in Practice: an Empirical Study at the Ecosystem Scale",
+            "venue": "ESEC/FSE",
+            "year": 2018,
+            "wonAward": true,
+            "paperBasename": "DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf",
+            "slidesBasename": "DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18-slides.pptx",
+            "artifactURL": "https://doi.org/10.5281/zenodo.1294300",
+            "videoURL": ""
+        },
+        {
             "type": "short",
             "authors": ["**Davis**"],
             "title": "On the Impact and Defeat of Regex DoS",
