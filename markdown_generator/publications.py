@@ -25,6 +25,8 @@ FILE_PATH = "{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications"
 
 def pub2md(pub):
     links = []
+    if 'bestPaperAward' in pub and pub['bestPaperAward']:
+        links.append('<span class="label label-danger">Best Paper Award</span>')
     if 'wonAward' in pub and pub['wonAward']:
         links.append('<i class="fas fa-trophy"></i>')
     if 'paperBasename' in pub and pub['paperBasename']:
