@@ -45,7 +45,7 @@ Here are the questions we've investigated:
 3. How hard are regexes to work with? ([ASE'19](/files/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf))
    - In surveys and interviews with about 300 practitioners, we learned that "Regexes Are Hard" in many ways, suggesting many avenues for further research to support them.
 4. How generalizable is regex research? ([ASE'19](/files/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf))
-   - This work was a deep dive on the generalizability of prior empirical regex research.
+   - We found that "most regexes are regexes", with no significant outliers by programming language or extraction methodology.
 
 ### Emerging paradigms
 
