@@ -33,10 +33,10 @@ Finally, to match the filter, please Include the magic word *xyzzy* somewhere in
 
 ## Graduate students
 
-If you are a *current* Purdue graduate student in the ECE or CS departments, send me the email described above, with the subject "*Prospective assistant: graduate (current)*".
+If you are a *current* Purdue graduate student in the ECE department, send me the email described above, with the subject "*Prospective assistant: graduate (current)*".
 
 If you are *applying* to Purdue’s ECE department for graduate work, send me the email described above, with the subject "*Prospective assistant: graduate (applicant)*".
 
 ## Undergraduate students
 
-If you are a current Purdue undergraduate in the ECE or CS departments, send me the email described above, with the subject "*Prospective assistant: undergraduate*".
+If you are a current Purdue undergraduate in the ECE department, send me the email described above, with the subject "*Prospective assistant: undergraduate*".
