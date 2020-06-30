@@ -23,21 +23,21 @@ FILE_PATH = "{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications"
 def pub2md(pub):
     links = []
     if pub['wonAward']:
-        links.append('<i class="fas fa-trophy fa-lg"></i>')
+        links.append('<i class="fas fa-trophy fa-lg">Award</i>')
     if pub['paperBasename']:
-        links.append('<a href="{}/{}"><i class="fa fa-file-text-o fa-lg"></i></a>'.format(
+        links.append('<a href="{}/{}"><i class="fa fa-file-text-o fa-lg"></i>Paper</a>'.format(
             FILE_PATH, pub['paperBasename']
         ))
     if pub['slidesBasename']:
-        links.append('<a href="{}/{}"><i class="fa fa-file-powerpoint-o fa-lg"></i></a>'.format(
+        links.append('<a href="{}/{}"><i class="fa fa-file-powerpoint-o fa-lg"></i>Slides</a>'.format(
             FILE_PATH, pub['slidesBasename']
         ))
     if pub['artifactURL']:
-        links.append('<a href="{}"><i class="fa fa-certificate fa-lg"></i></a>'.format(
+        links.append('<a href="{}"><i class="fa fa-certificate fa-lg"></i>Artifact</a>'.format(
             pub['artifactURL']
         ))
     if pub['videoURL']:
-        links.append('<a href="{}"><i class="fa fa-video-camera fa-lg"></i></a>'.format(
+        links.append('<a href="{}"><i class="fa fa-video-camera fa-lg"></i>Video</a>'.format(
             pub['videoURL']
         ))
 
