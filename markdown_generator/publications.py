@@ -31,7 +31,7 @@ def pub2md(pub):
             FILE_PATH, pub['paperBasename']
         ))
     if 'slidesBasename' in pub and pub['slidesBasename']:
-        links.append('<a href="{}/{}"><i class="far fa-presentation"></i></a>'.format(
+        links.append('<a href="{}/{}"><i class="fas fa-file-powerpoint"></i></a>'.format(
             FILE_PATH, pub['slidesBasename']
         ))
     if 'artifactURL' in pub and pub['artifactURL']:
@@ -39,7 +39,7 @@ def pub2md(pub):
             pub['artifactURL']
         ))
     if 'videoURL' in pub and pub['videoURL']:
-        links.append('<a href="{}"><i class="fas fa-video-camera"></i></a>'.format(
+        links.append('<a href="{}"><i class="fas fa-video"></i></a>'.format(
             pub['videoURL']
         ))
     if 'blogURL' in pub and pub['blogURL']:
