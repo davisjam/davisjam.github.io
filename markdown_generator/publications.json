@@ -13,6 +13,18 @@
             "videoURL": ""
         },
         {
+            "type": "conference",
+            "authors": ["**Davis**", "Williamson", "Lee"],
+            "title": "A Sense of Time for JavaScript and Node.js: First-Class Timeouts as a Cure for Event Handler Poisoning",
+            "venue": "USENIX Security",
+            "year": 2018,
+            "wonAward": false,
+            "paperBasename": "DavisWilliamsonLee-SenseOfTime-USENIXSecurity18.pdf",
+            "slidesBasename": "DavisWilliamsonLee-SenseOfTime-USENIXSecurity18-slides.pptx",
+            "artifactURL": "https://github.com/VTLeeLab/node-cure",
+            "videoURL": "https://www.usenix.org/conference/usenixsecurity18/presentation/davis"
+        }
+        {
             "type": "short",
             "authors": ["**Davis**"],
             "title": "On the Impact and Defeat of Regex DoS",
@@ -47,6 +59,6 @@
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
-        }
+        },
     ]
 }
