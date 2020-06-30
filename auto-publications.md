@@ -16,7 +16,7 @@ To see them organized by project, see [here](/research).
  <a href="https://zenodo.org/record/3878220#.XvTDvZNKhQI"><i class="fas fa-code"></i></a> <a href="https://medium.com/@davisjam/a-principled-approach-to-graphql-query-cost-analysis-8c7243de42c1"><i class="fab fa-medium"></i></a>
 2. *Improving Reproducibility of Data Science Pipelines through Transparent Provenance Capture*.  
  Rupprecht, **Davis**, Arnold, Gur, and Bhagwat.  
- VLDB Industry 2020.  
+ VLDB (Industry track) 2020.  
  
 3. *EdgeWise: A Better Stream Processing Engine for the Edge*.  
  Fu, Ghaffar, **Davis**, and Lee.  
@@ -55,7 +55,7 @@ To see them organized by project, see [here](/research).
 
 1. *Ursprung: Provenance for Large-Scale Analytics Environments*.  
  Rupprecht, **Davis**, Lubbock, Tyson, and Bhagwat.  
- SIGMOD Demo 2019.  
+ SIGMOD (demo track) 2019.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf"><i class="fas fa-file-pdf"></i></a>
 2. *The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture*.  
  **Davis**, Kildow, and Lee.  
