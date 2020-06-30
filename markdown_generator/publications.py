@@ -25,19 +25,19 @@ def pub2md(pub):
     if pub['wonAward']:
         links.append('<i class="fas fa-trophy"></i>')
     if pub['paperBasename']:
-        links.append('<a href="{}/{}"><i class="fas fa-file-text-o"></i></a>'.format(
+        links.append('<a href="{}/{}"><i class="fa fa-file-text-o"></i></a>'.format(
             FILE_PATH, pub['paperBasename']
         ))
     if pub['slidesBasename']:
-        links.append('<a href="{}/{}"><i class="fas fa-file-powerpoint-o"></i></a>'.format(
+        links.append('<a href="{}/{}"><i class="fa fa-file-powerpoint-o"></i></a>'.format(
             FILE_PATH, pub['slidesBasename']
         ))
     if pub['artifactURL']:
-        links.append('<a href="{}"><i class="fas fa-camera"></i></a>'.format(
+        links.append('<a href="{}"><i class="fa fa-certificate"></i></a>'.format(
             pub['artifactURL']
         ))
     if pub['videoURL']:
-        links.append('<a href="{}"><i class="fas fa-video-camera"></i></a>'.format(
+        links.append('<a href="{}"><i class="fa fa-video-camera"></i></a>'.format(
             pub['videoURL']
         ))
 
