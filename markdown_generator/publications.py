@@ -16,6 +16,9 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+
+Here are the peer-reviewed publications to which I have contributed.
+To see them organized by project, see [here](/research).
 """)
 
 FILE_PATH = "{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications"

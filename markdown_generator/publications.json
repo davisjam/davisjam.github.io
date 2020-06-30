@@ -90,6 +90,45 @@
             "blogURL": "https://medium.com/@davisjam/regexes-are-hard-e7933ae3122d"
         },
         {
+            "type": "conference",
+            "authors": ["**Davis**", "Moyer", "Kazerouni", "Lee"],
+            "title": "Testing Regex Generalizability And Its Implications: A Large-Scale Many-Language Measurement Study",
+            "venue": "ASE",
+            "year": 2019,
+            "wonAward": false,
+            "paperBasename": "DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf",
+            "slidesBasename": "DavisMoyerKazerouniLee-RegexGeneralizability-ASE19-slides.pptx",
+            "artifactURL": "https://zenodo.org/record/3424961",
+            "videoURL": "https://www.youtube.com/watch?v=HQq6iXTjk1I",
+            "blogURL": "https://medium.com/@davisjam/testing-regex-generalizability-and-its-implications-ase19-63da1edadcdb"
+        },
+        {
+            "type": "conference",
+            "authors": ["Cha", "Wittern", "Baudart", "**Davis**", "Mandel", "Laredo"],
+            "title": "A Principled Approach to GraphQL Query Cost Analysis",
+            "venue": "ESEC/FSE",
+            "year": 2020,
+            "wonAward": false,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "https://zenodo.org/record/3878220#.XvTDvZNKhQI",
+            "videoURL": "",
+            "blogURL": "https://medium.com/@davisjam/a-principled-approach-to-graphql-query-cost-analysis-8c7243de42c1"
+        },
+        {
+            "type": "conference",
+            "authors": ["Rupprecht", "**Davis**", "Arnold", "Gur", "Bhagwat"],
+            "title": "Improving Reproducibility of Data Science Pipelines through Transparent Provenance Capture",
+            "venue": "VLDB Industry",
+            "year": 2020,
+            "wonAward": false,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
+        {
             "type": "short",
             "authors": ["**Davis**"],
             "title": "On the Impact and Defeat of Regex DoS",
