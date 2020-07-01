@@ -18,7 +18,7 @@ If I don’t respond after five business days, feel free to send a follow-up ema
 
 I believe that anyone with a will to learn can succeed in research, but to help me understand how you might fit into the team I would like to know:
 
-- Why are interested in my lab in particular?
+- Why are you interested in my lab in particular?
 - What experience do you have in research? (e.g., teaching yourself new things, reading technical papers)
 - What experience do you have in building software? (e.g., internships, projects)
 
