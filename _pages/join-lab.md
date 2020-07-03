@@ -25,7 +25,7 @@ I believe that anyone with a will to learn can succeed in research, but to help 
 To help me get to know you better, please:
 
 - Attach a resume or CV.
-- Point me to something relevant that you are proud of. For example, this might be a computing system you built (e.g. an open-source software project you maintain or contributed to), a challenging final project you completed, a research paper you wrote for a class or published, or a piece of craftsmanship (have you built a bookshelf, nurtured a garden, or written poetry?).
+- Point me to something you are proud of. For example, this might be a computing system you built (e.g. an open-source software project you maintain or contributed to), a challenging final project you completed, a research paper you wrote for a class or published, or a piece of craftsmanship (have you built a bookshelf, nurtured a garden, or written poetry?).
 - Provide contact information for a person who can comment on your character.
 - If possible, provide contact information for a person who can comment on your potential to conduct research. For example, this might be a prior research advisor, or perhaps a teacher who has observed you work independently.
 
