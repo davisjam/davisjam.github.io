@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Joining the lab"
+title: "Joining the Duality Lab"
 permalink: /join-lab/
 author_profile: true
 redirect_from: 

@@ -17,7 +17,7 @@ redirect_from:
 
 ### Why you should join the Duality Lab
 
-Computing systems will transform the day-to-day human experience during this century. The Davis Lab studies how to increase the quality of these computing systems. The work is exciting, and the potential impact is enormous! For example, some of our research results have been adopted by major companies (Microsoft, IBM), others were incorporated into Node.js, and others have led to security patches in the Python runtime.
+Computing systems will transform the day-to-day human experience during this century. The Duality Lab studies how to increase the quality of these computing systems. The work is exciting, and the potential impact is enormous! For example, some of our research results have been adopted by major companies (Microsoft, IBM), others were incorporated into Node.js, and others have led to security patches in the Python runtime.
 
 ## Research projects
 
