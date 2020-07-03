@@ -29,7 +29,7 @@ To help me get to know you better, please:
 - Provide contact information for a person who can comment on your character.
 - If possible, provide contact information for a person who can comment on your potential to conduct research. For example, this might be a prior research advisor, or perhaps a teacher who has observed you work independently.
 
-Finally, to match the filter, please Include the magic word *xyzzy* somewhere in your email.
+Finally, to match the filter, please include the magic word *xyzzy* somewhere in your email.
 
 ## Graduate students
 
