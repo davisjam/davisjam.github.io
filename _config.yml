@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Davis Lab" # Appears in upper left on each page, and in the browser tab
+title                    : "Duality Lab" # Appears in upper left on each page, and in the browser tab
 title_separator          : "-"
 name                     : &name "Jamie Davis"
-description              : &description "The Davis Lab in ECE@Purdue"
+description              : &description "The Duality Lab in ECE@Purdue"
 url                      : "https://davisjam.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 filesurl                 : "files"
