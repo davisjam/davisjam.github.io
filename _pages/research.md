@@ -15,6 +15,8 @@ redirect_from:
 **I am currently looking for *graduate* and *undergraduate* researchers to work on problems that improve the quality of computing systems.** Please review the lab vision and mission statement (below) to understand whether you are interested in joining our work. Then follow [these instructions](/join-lab).
 {: .notice--info}
 
+I have a range of projects appropriate for undergraduates, MS students, and PhD students. Send me an email and we can discuss more.
+
 ### Why you should join the Duality Lab
 
 Computing systems will transform the day-to-day human experience during this century. The Duality Lab studies how to increase the quality of these computing systems. The work is exciting, and the potential impact is enormous! For example, some of our research results have been adopted by major companies (Microsoft, IBM), others were incorporated into Node.js, and others have led to security patches in the Python runtime.
@@ -22,8 +24,8 @@ Computing systems will transform the day-to-day human experience during this cen
 ## Research projects
 
 As discussed below, our lab's vision is to improve the quality of computing systems.
-This mandate is broadly writ; most of our projects focus on **correctness** and **security**.
-Our research often has an empirical bent, as we must understand engineering practice before we can influence it.
+This mandate is broadly writ; most of our projects focus on software **correctness** and **security**.
+Our research often has an empirical bent. We must understand engineering practice before we can influence it.
 
 Here are some of our projects, past and present.
 For a full list of our publications, see [here](/publications).
@@ -72,7 +74,7 @@ Aspects of our research have been incorporated into IBM's API Connect And Data P
 Data science techniques have been adopted across most business enterprises.
 These techniques include the use of analysis pipelines to automatically and repeatedly process batches of data.
 Reproducing and extending these pipelines is a critical aspect of modern data science, and it is also an error-prone task.
-We have worked with a team at IBM Research (Almaden) on applying data provenance techniques to the data science context, facilitating pipeline reproduction and extension.
+We have worked with a team at IBM Research (Almaden) on applying provenance techniques to the data science context, facilitating pipeline reproduction and extension.
 
 1. How might provenance be applied to assist data scientists? ([VLDB'20](.))
    - We built a system called Ursprung tailored to the data science context.
@@ -89,11 +91,11 @@ The Duality Lab is an abbreviation of the **D**avis Q**uality** Lab.
 Quality is often approached dualistically &mdash; technical or social, but not both.
 We aim to unite these perspectives.
 
-- Designing high-quality systems requires technical sophistication.
-- Designing high-quality systems requires considering how humans will use it.
+- We believe that designing a high-quality system requires technical sophistication.
+- We also believe that designing a high-quality system requires considering how humans will use it.
 
 Call this what you will: human-in-the-loop, a socio-technical perspective, etc.
-We believe it is the only way to reach truly high-quality computing systems.
+We believe it is the only way to achieve truly high-quality computing systems.
 
 ### Vision and Mission
 
@@ -106,7 +108,7 @@ Three factors are foundational to our success:
 2. Our **data-driven** approach grounds our work in real-world computing systems, ensuring that our findings and proposals impact the quality of computing systems in the here-and-now, not in the what-might-be.
 3. Our **readiness to re-imagine** enables us to propose, design, and implement new paradigms.
 
-In order to improve the quality of *existing* computing systems, we take a scientific engineering approach. We empirically study engineering practices in order to drive the development of tools and systems that reflect practitioners’ needs and address their misconceptions. We blend techniques from software engineering, systems, and security in order to understand, measure, and ameliorate the issues that computing practitioners face.
+In order to improve the quality of *existing* computing systems, we take a scientific engineering approach. We empirically study engineering practices in order to drive the development of tools and systems that reflect practitioners’ needs and address their misconceptions. We blend techniques from software engineering, systems, and security in order to understand, measure, and ameliorate the issues that computing practitioners face. We apply methodologies appropriate to the task at hand: static and dynamic program analysis, pattern recognition and machine learning, algorithm development, and plenty of system building and hacking.
 
 In order to improve the quality of *future* computing systems, we are interested in:
 
@@ -121,7 +123,7 @@ A research laboratory has two responsibilities.
   First, we create *new knowledge*.
   Second, we create *new researchers*.
 
-Every lab member will contribute to the creation and sharing of new knowledge. This typically takes the form of understanding the state of the art (research literature), designing studies, implementing systems or studying humans, and writing up results.
+Every lab member will contribute to the creation and sharing of new knowledge. This typically takes the form of understanding the state of the art (research literature) and of the practice (existing tools and systems), and then designing studies, implementing systems or studying humans, and writing up results.
 
 Research is learned through apprenticeship.
   My lab members will become
@@ -133,4 +135,5 @@ Research is learned through apprenticeship.
     one-on-one mentoring in these areas,
     feedback to help you understand your strengths and weaknesses,
     and
-    resources to help you improve. In addition, senior lab members will help transmit these ideals to junior lab members.
+    resources to help you improve.
+  In addition, senior lab members will be given opportunities to help train more junior lab members.
