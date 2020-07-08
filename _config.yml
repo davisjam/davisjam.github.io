@@ -7,7 +7,8 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Duality Lab" # Appears in upper left on each page, and in the browser tab
+title                    : "Duality Lab" # Textual title for the browser tab.
+title_mastheadImage      : "/images/logo.png" # An image that appears in upper left on each page, and in the browser tab.
 title_separator          : "-"
 name                     : &name "Jamie Davis"
 description              : &description "The Duality Lab in ECE@Purdue"
