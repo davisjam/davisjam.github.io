@@ -52,6 +52,8 @@ def pub2md(pub):
     
     if len(pub['authors']) == 1:
         authList = pub['authors'][0]
+    elif len(pub['authors']) == 2:
+        authList = ' and '.join(pub['authors'])
     else:
         authList = ', '.join(pub['authors'][:-1])
         authList += ", and " + pub['authors'][-1]

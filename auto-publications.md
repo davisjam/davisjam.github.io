@@ -65,11 +65,11 @@ To see them organized by project, see [here](/research).
 ## Patents
 
 1. *Testing of lock managers in computing environments*.  
- Davis, and **Davis**.  
+ Davis and **Davis**.  
  US Patent Office 2020.  
  
 2. *File metadata verification in a distributed file system*.  
- **Davis**, and Davis.  
+ **Davis** and Davis.  
  US Patent Office held by IBM 2020.  
  
 3. *Detection of file corruption in a distributed file system*.  
