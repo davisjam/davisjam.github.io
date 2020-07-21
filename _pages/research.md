@@ -16,6 +16,15 @@ redirect_from:
 {: .notice--info}
 
 I have a range of projects appropriate for undergraduates, MS students, and PhD students. Send me an email and we can discuss more.
+Sample topics:
+
+- Regular expressions
+- Web security
+- Automatic bug detection and repair
+- Domain-specific languages (e.g. Verilog)
+- Software archaeology
+- Software system optimization
+- Adversarial software engineering
 
 ### Why you should join the Duality Lab
 
