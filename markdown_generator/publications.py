@@ -8,6 +8,7 @@ import json
 JOURNAL_PUB = "journal"
 CONFERENCE_PUB = "conference"
 SHORT_PUB = "short"
+DISSERTATION_PUB = "dissertation"
 PATENT_PUB = "patent"
 
 def writeOutPrefix(handle):
@@ -49,8 +50,10 @@ def pub2md(pub):
     if 'bestPaperAward' in pub and pub['bestPaperAward']:
         links.append('[Best Paper Award](){: .btn}')
     
-    authList = ', '.join(pub['authors'][:-1])
-    if len(pub['authors']) > 1:
+    if len(pub['authors']) == 1:
+        authList = pub['authors'][0]
+    else:
+        authList = ', '.join(pub['authors'][:-1])
         authList += ", and " + pub['authors'][-1]
 
     cite = "*{}*.  \n {}.  \n {} {}.  ".format(
@@ -60,27 +63,10 @@ def pub2md(pub):
     )
     return cite + "\n " + ' '.join(links)
 
-def writeConfPubs(handle, pubs):
-    handle.write('\n## Conference papers\n\n')
+def writePubs(handle, headingTitle, pubs):
+    handle.write('\n## {}\n\n'.format(headingTitle))
     for i, pub in enumerate(pubs):
         handle.write("{}. {}\n".format(i+1, pub2md(pub)))
-
-def writeJournalPubs(handle, pubs):
-    handle.write('\n## Journal papers\n\n')
-    for i, pub in enumerate(pubs):
-        handle.write("{}. {}\n".format(i+1, pub2md(pub)))
-
-def writeShortPubs(handle, pubs):
-    handle.write('\n## Short papers\n\n')
-    for i, pub in enumerate(pubs):
-        handle.write("{}. {}\n".format(i+1, pub2md(pub)))
-
-def writePatents(handle, pubs):
-    # TODO
-    if False:
-        handle.write('\n## Patents\n\n')
-        for i, pub in enumerate(pubs):
-            handle.write("{}. {}\n".format(i+1, pub2md(pub)))
 
 with open('publications.json', 'r') as infile, open('../auto-publications.md', 'w') as outfile:
     writeOutPrefix(outfile)
@@ -91,17 +77,21 @@ with open('publications.json', 'r') as infile, open('../auto-publications.md', '
     journalPubs = [ pub for pub in pubs if pub['type'] == JOURNAL_PUB ]
     shortPubs = [ pub for pub in pubs if pub['type'] == SHORT_PUB ]
     patentPubs = [ pub for pub in pubs if pub['type'] == PATENT_PUB ]
+    dissertationPubs = [ pub for pub in pubs if pub['type'] == DISSERTATION_PUB ]
 
     if confPubs:
         print("Writing the {} conference pubs".format(len(confPubs)))
-        writeConfPubs(outfile, confPubs)
+        writePubs(outfile, "Conference papers", confPubs)
     if journalPubs:
         print("Writing the {} journal pubs".format(len(journalPubs)))
-        writeJournalPubs(outfile, journalPubs)
+        writePubs(outfile, "Journal papers", journalPubs)
     if shortPubs:
         print("Writing the {} short pubs".format(len(shortPubs)))
-        writeShortPubs(outfile, shortPubs)
+        writePubs(outfile, "Short papers", shortPubs)
     if patentPubs:
         print("Writing the {} patents".format(len(patentPubs)))
-        writePatentPubs(outfile, patentPubs)
+        writePubs(outfile, "Patents", patentPubs)
+    if dissertationPubs:
+        print("Writing the {} dissertations".format(len(dissertationPubs)))
+        writePubs(outfile, "Dissertation", dissertationPubs)
     outfile.write('\n')

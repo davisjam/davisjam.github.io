@@ -60,5 +60,27 @@ To see them organized by project, see [here](/research).
 2. *The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture*.  
  **Davis**, Kildow, and Lee.  
  EuroSec 2017.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisKildowLee-EHP-EUroSec17.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisKildowLee-EHP-EuroSec17.pdf"><i class="fas fa-file-pdf"></i></a>
+
+## Patents
+
+1. *Testing of lock managers in computing environments*.  
+ Davis, and **Davis**.  
+ US Patent Office 2020.  
+ 
+2. *File metadata verification in a distributed file system*.  
+ **Davis**, and Davis.  
+ US Patent Office held by IBM 2020.  
+ 
+3. *Detection of file corruption in a distributed file system*.  
+ **Davis**, Davis, and Knop.  
+ US Patent Office 2018.  
+ 
+
+## Dissertation
+
+1. *On the Impact and Defeat of Regex Denial of Service*.  
+ **Davis**.  
+ PhD, Computer Science, Virginia Tech 2020.  
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-Dissertation-2020.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-Dissertation-OralDefense.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://www.youtube.com/watch?v=TDIlcm3joq0&t=2s"><i class="fas fa-video"></i></a>
 

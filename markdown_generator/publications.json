@@ -137,7 +137,51 @@
             "title": "The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture",
             "venue": "EuroSec",
             "year": 2017,
-            "paperBasename": "DavisKildowLee-EHP-EUroSec17.pdf",
+            "paperBasename": "DavisKildowLee-EHP-EuroSec17.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "dissertation",
+            "authors": ["**Davis**"],
+            "title": "On the Impact and Defeat of Regex Denial of Service",
+            "venue": "PhD, Computer Science, Virginia Tech",
+            "year": 2020,
+            "paperBasename": "Davis-Dissertation-2020.pdf",
+            "slidesBasename": "Davis-Dissertation-OralDefense.pptx",
+            "artifactURL": "",
+            "videoURL": "https://www.youtube.com/watch?v=TDIlcm3joq0&t=2s"
+        },
+        {
+            "type": "patent",
+            "authors": ["**Davis**", "Davis", "Knop"],
+            "title": "Detection of file corruption in a distributed file system",
+            "venue": "US Patent Office",
+            "year": 2018,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "patent",
+            "authors": ["Davis", "**Davis**"],
+            "title": "Testing of lock managers in computing environments",
+            "venue": "US Patent Office",
+            "year": 2020,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "patent",
+            "authors": ["**Davis**", "Davis"],
+            "title": "File metadata verification in a distributed file system",
+            "venue": "US Patent Office held by IBM",
+            "year": 2020,
+            "paperBasename": "",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
