@@ -17,7 +17,7 @@ To see them organized by project, see [here](/research).
 2. *Improving Reproducibility of Data Science Pipelines through Transparent Provenance Capture*.  
  Rupprecht, **Davis**, Arnold, Gur, and Bhagwat.  
  VLDB (Industry track) 2020.  
- 
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf"><i class="fas fa-file-pdf"></i></a>
 3. *EdgeWise: A Better Stream Processing Engine for the Edge*.  
  Fu, Ghaffar, **Davis**, and Lee.  
  USENIX ATC 2019.  
