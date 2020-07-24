@@ -90,7 +90,8 @@ These techniques include the development of machine learning models, and the use
 Engineering models and reproducing and extending pipelines are critical aspects of modern data science, and getting them right is a major challenge.
 
 1. How might provenance be applied to assist data scientists? ([VLDB'20](/files/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf), [SIGMOD'19 demo](/files/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf))
-   - With a team at IBM Research (Almaden), we applied provenance techniques to the data science context. Our Ursprung system facilitates pipeline reproduction and extenstion.
+   - With a team at IBM Research (Almaden), we applied provenance techniques to the data science context.
+     Our Ursprung system facilitates pipeline reproduction and extension.
 2. What should high-quality machine learning software look like?
    - I work with a [team of students](https://engineering.purdue.edu/VIP/teams/tensorflow) sponsored by Google's [TensorFlow Model Garden](https://blog.tensorflow.org/2020/03/introducing-model-garden-for-tensorflow-2.html) project.
      We are developing high-quality examples of machine learning software in TensorFlow.
