@@ -18,8 +18,9 @@ redirect_from:
 I have a range of projects appropriate for undergraduates, MS students, and PhD students. Send me an email and we can discuss more.
 Sample topics:
 
-- Regular expressions
+- Regular expression theory and practice
 - Web security
+- "Software 2.0" - Software engineering and its intersection with AI + Machine Learning
 - Automatic bug detection and repair
 - Domain-specific languages (e.g. Verilog)
 - Software archaeology
@@ -28,7 +29,10 @@ Sample topics:
 
 ### Why you should join the Duality Lab
 
-Computing systems will transform the day-to-day human experience during this century. The Duality Lab studies how to increase the quality of these computing systems. The work is exciting, and the potential impact is enormous! For example, some of our research results have been adopted by major companies (Microsoft, IBM), others were incorporated into Node.js, and others have led to security patches in the Python runtime.
+Computing systems will transform the day-to-day human experience during this century.
+The Duality Lab studies how to increase the quality of these computing systems.
+The work is exciting, and the potential impact is enormous!
+For example, some of our research results have been adopted by major companies (Microsoft, IBM), others were incorporated into Node.js, and others have led to security patches in the Python runtime.
 
 ## Research projects
 
@@ -87,6 +91,11 @@ We have worked with a team at IBM Research (Almaden) on applying provenance tech
 
 1. How might provenance be applied to assist data scientists? ([VLDB'20](.))
    - We built a system called Ursprung tailored to the data science context.
+
+### Machine learning
+
+I work with a [team of students](https://engineering.purdue.edu/VIP/teams/tensorflow) on Google's [TensorFlow Model Garden](https://blog.tensorflow.org/2020/03/introducing-model-garden-for-tensorflow-2.html) project.
+We are developing high-quality examples of machine learning software in TensorFlow.
 
 <!--
 ### Computing education
