@@ -58,7 +58,7 @@ In our regex investigations, we have measured the difficulties that practitioner
 4. How generalizable is regex research? ([ASE'19](/files/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf))
    - We found that "most regexes are regexes", with no significant outliers by programming language or extraction methodology.
 
-### Server-side event-driven programming
+### Node.js: Getting server-side event-driven programming right
 
 We have investigated the correctness and security risks that resulted from one recent industry shift: adopting the event-driven paradigm on the server side.
 Thousands of companies have done so as they shift to the Node.js platform, unifying their stack on one programming language.
@@ -71,7 +71,7 @@ Though this paradigmatic transition has brought business benefits, it has also l
 3. What are the performance issues in Node.js programs?
    - My undergraduate student Jonathan Alexander [won first place](https://www.vturcs.cs.vt.edu/spring19.php) at the VT Undergraduate Research in CS competition for his work on this project. Congratulations, Jonathan!
 
-### GraphQL
+### GraphQL security in practice
 
 The web community is considering GraphQL as a means of addressing management issues with traditional REST-style APIs.
 We have worked with a team at IBM Research (Yorktown) on understanding and ameliorating issues with this technology.
@@ -82,20 +82,18 @@ Aspects of our research have been incorporated into IBM's API Connect And Data P
 2. How can we defend against GraphQL denial of service attacks? ([ESEC/FSE'20](.))
    - Our findings at ICSOC'19 motivated us to explore accurate static cost estimation for GraphQL queries.
 
-### Data science
+### Machine learning and Data science
 
-Data science techniques have been adopted across most business enterprises.
-These techniques include the use of analysis pipelines to automatically and repeatedly process batches of data.
-Reproducing and extending these pipelines is a critical aspect of modern data science, and it is also an error-prone task.
-We have worked with a team at IBM Research (Almaden) on applying provenance techniques to the data science context, facilitating pipeline reproduction and extension.
+[Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35) has arrived.
+Machine learning and data science techniques have been adopted across most business enterprises.
+These techniques include the development of machine learning models, and the use of analysis pipelines to automatically and repeatedly process batches of data.
+Engineering models and reproducing and extending pipelines are critical aspects of modern data science, and getting them right is a major challenge.
 
-1. How might provenance be applied to assist data scientists? ([VLDB'20](.))
-   - We built a system called Ursprung tailored to the data science context.
-
-### Machine learning
-
-I work with a [team of students](https://engineering.purdue.edu/VIP/teams/tensorflow) on Google's [TensorFlow Model Garden](https://blog.tensorflow.org/2020/03/introducing-model-garden-for-tensorflow-2.html) project.
-We are developing high-quality examples of machine learning software in TensorFlow.
+1. How might provenance be applied to assist data scientists? ([VLDB'20](/files/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf), [SIGMOD'19 demo](/files/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf))
+   - With a team at IBM Research (Almaden), we applied provenance techniques to the data science context. Our Ursprung system facilitates pipeline reproduction and extenstion.
+2. What should high-quality machine learning software look like?
+   - I work with a [team of students](https://engineering.purdue.edu/VIP/teams/tensorflow) sponsored by Google's [TensorFlow Model Garden](https://blog.tensorflow.org/2020/03/introducing-model-garden-for-tensorflow-2.html) project.
+     We are developing high-quality examples of machine learning software in TensorFlow.
 
 <!--
 ### Computing education
