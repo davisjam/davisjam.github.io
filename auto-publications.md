@@ -51,6 +51,13 @@ To see them organized by project, see [here](/research).
  EuroSys 2017.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisThekumparampilLee-NodeFz-EuroSys17.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisThekumparampilLee-NodeFz-EuroSys17-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/VTLeeLab/NodeFz"><i class="fas fa-file-code"></i></a>
 
+## Journal papers
+
+1. *Expectations and Experiences of Short-Term Study Abroad Leadership Teams*.  
+ Ozkan, Davis, **Davis**, James, Murzi, and Knight.  
+ Journal of International Engineering Education 2020.  
+ 
+
 ## Short papers
 
 1. *Ursprung: Provenance for Large-Scale Analytics Environments*.  

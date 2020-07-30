@@ -1,6 +1,18 @@
 {
     "publications": [
         {
+            "type": "journal",
+            "authors": ["Ozkan", "Davis", "**Davis**", "James", "Murzi", "Knight"],
+            "title": "Expectations and Experiences of Short-Term Study Abroad Leadership Teams",
+            "venue": "Journal of International Engineering Education",
+            "year": 2020,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
+        {
             "type": "conference",
             "authors": ["**Davis**", "Thekumparampil", "Lee"],
             "title": "Node.fz: Fuzzing the server-side event-driven architecture",
