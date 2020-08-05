@@ -16,6 +16,8 @@ If you take one of my courses, you will learn to ask and answer not only "*What?
 ### Fall 2020 (Purdue)
 
 - [ECE 368: Data Structures](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=542&show=true&type=undergrad) with Cheng-Kok Koh.
+- [VIP: TensorFlow Team](https://engineering.purdue.edu/VIP/teams/tensorflow) with Yung-Hsiang Lu.
+- [VIP: Regex Team](https://engineering.purdue.edu/VIP/teams/saferegex).
 
 ### Fall 2019 (Virginia Tech)
 
