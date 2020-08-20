@@ -114,6 +114,7 @@
             "title": "A Principled Approach to GraphQL Query Cost Analysis",
             "venue": "ESEC/FSE",
             "year": 2020,
+            "bestPaperAward": true,
             "paperBasename": "",
             "slidesBasename": "",
             "artifactURL": "https://zenodo.org/record/3878220#.XvTDvZNKhQI",
