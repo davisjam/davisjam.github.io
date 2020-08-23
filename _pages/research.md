@@ -26,6 +26,7 @@ Sample topics:
 - Software archaeology
 - Software system optimization
 - Adversarial software engineering
+- Intercultural engineering education
 
 ### Why you should join the Duality Lab
 
