@@ -158,7 +158,7 @@
         {
             "type": "dissertation",
             "authors": ["**Davis**"],
-            "title": "On the Impact and Defeat of Regex Denial of Service",
+            "title": "On the Impact and Defeat of Regular Expression Denial of Service",
             "venue": "PhD, Computer Science, Virginia Tech",
             "year": 2020,
             "paperBasename": "Davis-Dissertation-2020.pdf",
