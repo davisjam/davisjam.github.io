@@ -96,9 +96,18 @@ Engineering models and reproducing and extending pipelines are critical aspects 
    - I work with a [team of students](https://engineering.purdue.edu/VIP/teams/tensorflow) sponsored by Google's [TensorFlow Model Garden](https://blog.tensorflow.org/2020/03/introducing-model-garden-for-tensorflow-2.html) project.
      We are developing high-quality examples of machine learning software in TensorFlow.
 
-<!--
-### Computing education
--->
+### Intercultural Engineering Education
+
+Intercultural intelligence is one key to success in the engineering workforce.
+Engineering firms are full of folks from different cultures, with different perspectives and different beliefs.
+Engineering products are used by people all over the world.
+If an engineer cannot identify with the Other, they cannot realize their full potential --- to their own detriment and that of human society.
+
+I collaborate with engineering education researchers to investigate ways to promote intercultural intelligence.
+Some of these collaborations involve study-abroad programs like Virginia Tech's [*Rising Sophomore Abroad Program*](https://enge.vt.edu/undergraduate/RSAP.html).
+However, studying abroad is expensive; to improve accessibility, I am also interested in ways to promote intercultural learning more locally.
+
+1. Study-abroad programs are sustained by faculty member involvement. These leaders constantly encounter the unexpected while abroad, perhaps decreasing their willingness to lead again. In what ways are those faculty members surprised (pleasantly and unpleasantly) by their experiences? ([JIEE'21](/files/publications/OzkanDavisDavisJamesMurziKnight-JIEE21.pdf)).
 
 ## About the Duality Lab
 
