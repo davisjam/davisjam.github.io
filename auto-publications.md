@@ -77,15 +77,15 @@ To see them organized by project, see [here](/research).
 
 1. *Testing of lock managers in computing environments*.  
  Davis and **Davis**.  
- US Patent Office 2020.  
+ US patent, held by IBM 2020.  
  
 2. *File metadata verification in a distributed file system*.  
  **Davis** and Davis.  
- US Patent Office held by IBM 2020.  
+ US patent, held by IBM 2020.  
  
 3. *Detection of file corruption in a distributed file system*.  
  **Davis**, Davis, and Knop.  
- US Patent Office 2018.  
+ US patent, held by IBM 2018.  
  
 
 ## Dissertation
