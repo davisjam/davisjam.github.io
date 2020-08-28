@@ -134,6 +134,17 @@
             "blogURL": ""
         },
         {
+            "type": "conference",
+            "authors": ["**Davis**", "Servant", "Lee"],
+            "title": "Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)",
+            "venue": "IEEE S&P",
+            "year": 2021,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
             "type": "short",
             "authors": ["Rupprecht", "**Davis**", "Lubbock", "Tyson", "Bhagwat"],
             "title": "Ursprung: Provenance for Large-Scale Analytics Environments",
