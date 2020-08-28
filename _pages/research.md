@@ -58,7 +58,7 @@ In our regex investigations, we have measured the difficulties that practitioner
    - In surveys and interviews with about 300 practitioners, we learned that "Regexes Are Hard" in many ways, suggesting many avenues for further research to support them.
 4. How generalizable is regex research? ([ASE'19](/files/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf))
    - We found that "most regexes are regexes", with no significant outliers by programming language or extraction methodology.
-5. How can we address Regex Denial of Service in a backwards-compatible way? (S&P'21)
+5. How can we address Regex Denial of Service in a backwards-compatible way? (IEEE S&P'21)
    - We describe how selective memoization can protect existing regex engines without major changes.
 
 ### Node.js: Getting server-side event-driven programming right
