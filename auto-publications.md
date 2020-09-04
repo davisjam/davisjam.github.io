@@ -13,7 +13,7 @@ To see them organized by project, see [here](/research).
 1. *Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)*.  
  **Davis**, Servant, and Lee.  
  IEEE S&P 2021.  
- 
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf"><i class="fas fa-file-pdf"></i></a>
 2. *A Principled Approach to GraphQL Query Cost Analysis*.  
  Cha, Wittern, Baudart, **Davis**, Mandel, and Laredo.  
  ESEC/FSE 2020.  
