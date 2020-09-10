@@ -17,7 +17,7 @@ To see them organized by project, see [here](/research).
 2. *A Principled Approach to GraphQL Query Cost Analysis*.  
  Cha, Wittern, Baudart, **Davis**, Mandel, and Laredo.  
  ESEC/FSE 2020.  
- <a href="https://zenodo.org/record/3878220#.XvTDvZNKhQI"><i class="fas fa-file-code"></i></a> <a href="https://medium.com/@davisjam/a-principled-approach-to-graphql-query-cost-analysis-8c7243de42c1"><i class="fab fa-medium"></i></a> [Best Paper Award](){: .btn}
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://zenodo.org/record/3878220#.XvTDvZNKhQI"><i class="fas fa-file-code"></i></a> <a href="https://medium.com/@davisjam/a-principled-approach-to-graphql-query-cost-analysis-8c7243de42c1"><i class="fab fa-medium"></i></a> [Best Paper Award](){: .btn}
 3. *Improving Reproducibility of Data Science Pipelines through Transparent Provenance Capture*.  
  Rupprecht, **Davis**, Arnold, Gur, and Bhagwat.  
  VLDB (Industry track) 2020.  
