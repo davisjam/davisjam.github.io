@@ -61,6 +61,20 @@ In our regex investigations, we have measured the difficulties that practitioner
 5. How can we address Regex Denial of Service in a backwards-compatible way? (IEEE S&P'21)
    - We describe how selective memoization can protect existing regex engines without major changes.
 
+### Machine learning and Data science
+
+[Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35) has arrived.
+Machine learning and data science techniques have been adopted across most business enterprises.
+These techniques include the development of machine learning models, and the use of analysis pipelines to automatically and repeatedly process batches of data.
+Engineering models and reproducing and extending pipelines are critical aspects of modern data science, and getting them right is a major challenge.
+
+1. How might provenance be applied to assist data scientists? ([VLDB'20](/files/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf), [SIGMOD'19 demo](/files/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf))
+   - With a team at IBM Research (Almaden), we applied provenance techniques to the data science context.
+     Our Ursprung system facilitates pipeline reproduction and extension.
+2. What should high-quality machine learning software look like? ([CSE'20 poster]())
+   - I work with a [team of students](https://engineering.purdue.edu/VIP/teams/tensorflow) sponsored by Google's [TensorFlow Model Garden](https://blog.tensorflow.org/2020/03/introducing-model-garden-for-tensorflow-2.html) project.
+     We are developing high-quality examples of machine learning software in TensorFlow.
+
 ### Node.js: Getting server-side event-driven programming right
 
 We have investigated the correctness and security risks that resulted from one recent industry shift: adopting the event-driven paradigm on the server side.
@@ -85,19 +99,6 @@ Aspects of our research have been incorporated into IBM's API Connect And Data P
 2. How can we defend against GraphQL denial of service attacks? ([ESEC/FSE'20](.))
    - Our findings at ICSOC'19 motivated us to explore accurate static cost estimation for GraphQL queries.
 
-### Machine learning and Data science
-
-[Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35) has arrived.
-Machine learning and data science techniques have been adopted across most business enterprises.
-These techniques include the development of machine learning models, and the use of analysis pipelines to automatically and repeatedly process batches of data.
-Engineering models and reproducing and extending pipelines are critical aspects of modern data science, and getting them right is a major challenge.
-
-1. How might provenance be applied to assist data scientists? ([VLDB'20](/files/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf), [SIGMOD'19 demo](/files/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf))
-   - With a team at IBM Research (Almaden), we applied provenance techniques to the data science context.
-     Our Ursprung system facilitates pipeline reproduction and extension.
-2. What should high-quality machine learning software look like?
-   - I work with a [team of students](https://engineering.purdue.edu/VIP/teams/tensorflow) sponsored by Google's [TensorFlow Model Garden](https://blog.tensorflow.org/2020/03/introducing-model-garden-for-tensorflow-2.html) project.
-     We are developing high-quality examples of machine learning software in TensorFlow.
 
 ### Intercultural Engineering Education
 
