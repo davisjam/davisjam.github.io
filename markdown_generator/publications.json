@@ -1,6 +1,18 @@
 {
     "publications": [
         {
+            "type": "poster",
+            "authors": ["Vivek", "Chinnakotla", "Banna", "Vegesana", "Yan", "**Davis**", "Lu", "Thiruvathukal"],
+            "title": "Exemplars for Machine Learning: Towards Software Engineering & Reproducibility",
+            "venue": "SIAM Conference on Computational Science and Engineering (CSE'20)",
+            "year": 2020,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
+        {
             "type": "journal",
             "authors": ["Ozkan", "Davis", "**Davis**", "James", "Murzi", "Knight"],
             "title": "Expectations and Experiences of Short-Term Study Abroad Leadership Teams",

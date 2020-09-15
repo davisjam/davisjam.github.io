@@ -10,6 +10,7 @@ CONFERENCE_PUB = "conference"
 SHORT_PUB = "short"
 DISSERTATION_PUB = "dissertation"
 PATENT_PUB = "patent"
+POSTER_PUB = "poster"
 
 def writeOutPrefix(handle):
     handle.write("""---
@@ -78,6 +79,7 @@ with open('publications.json', 'r') as infile, open('../auto-publications.md', '
     confPubs = [ pub for pub in pubs if pub['type'] == CONFERENCE_PUB ]
     journalPubs = [ pub for pub in pubs if pub['type'] == JOURNAL_PUB ]
     shortPubs = [ pub for pub in pubs if pub['type'] == SHORT_PUB ]
+    posterPubs = [ pub for pub in pubs if pub['type'] == POSTER_PUB ]
     patentPubs = [ pub for pub in pubs if pub['type'] == PATENT_PUB ]
     dissertationPubs = [ pub for pub in pubs if pub['type'] == DISSERTATION_PUB ]
 
@@ -90,6 +92,9 @@ with open('publications.json', 'r') as infile, open('../auto-publications.md', '
     if shortPubs:
         print("Writing the {} short pubs".format(len(shortPubs)))
         writePubs(outfile, "Short papers", shortPubs)
+    if posterPubs:
+        print("Writing the {} posters".format(len(posterPubs)))
+        writePubs(outfile, "Posters", posterPubs)
     if patentPubs:
         print("Writing the {} patents".format(len(patentPubs)))
         writePubs(outfile, "Patents", patentPubs)

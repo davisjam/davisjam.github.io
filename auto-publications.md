@@ -73,6 +73,13 @@ To see them organized by project, see [here](/research).
  EuroSec 2017.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisKildowLee-EHP-EuroSec17.pdf"><i class="fas fa-file-pdf"></i></a>
 
+## Posters
+
+1. *Exemplars for Machine Learning: Towards Software Engineering & Reproducibility*.  
+ Vivek, Chinnakotla, Banna, Vegesana, Yan, **Davis**, Lu, and Thiruvathukal.  
+ SIAM Conference on Computational Science and Engineering (CSE'20) 2020.  
+ 
+
 ## Patents
 
 1. *Testing of lock managers in computing environments*.  
