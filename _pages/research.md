@@ -167,3 +167,14 @@ Research is learned through apprenticeship.
     and
     resources to help you improve.
   In addition, senior lab members will be given opportunities to help train more junior lab members.
+
+### Lab members
+
+I am delighted to be supervising these talented students:
+
+- Albert Sun
+- Jitesh Motati
+- Tuhin Sarkar
+- Evan Williams
+
+You could join them! [Here are the instructions to get started](/join-lab).
