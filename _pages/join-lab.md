@@ -21,6 +21,7 @@ I believe that anyone with a will to learn can succeed in research, but to help 
 - Why are you interested in my lab in particular?
 - What experience do you have in research? (e.g., teaching yourself new things, reading technical papers)
 - What experience do you have in building software? (e.g., internships, projects)
+- How much time do you have available to work in my lab (hours/week), and how long do you anticipate doing so? (semesters, years?)
 
 To help me get to know you better, please:
 
