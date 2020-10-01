@@ -21,12 +21,9 @@ Sample topics:
 - Regular expression theory and practice
 - Web security
 - "Software 2.0" - Software engineering and its intersection with AI + Machine Learning
+- Software systems (e.g. optimization)
 - Automatic bug detection and repair
-- Domain-specific languages (e.g. Verilog)
-- Software archaeology
-- Software system optimization
-- Adversarial software engineering
-- Intercultural engineering education
+- Domain-specific languages (e.g. SQL, Verilog)
 
 ### Why you should join the Duality Lab
 

@@ -14,6 +14,21 @@ I receive a lot of email and sometimes things get lost. I have special email fil
 
 If I don’t respond after five business days, feel free to send a follow-up email. But double-check that you followed the instructions! Your email might not have made it into the right folder.
 
+## Minimum requirements
+
+Applicants should have appropriate technical skills, and enough time. Some guidelines:
+
+- **Technical skills**:
+ Much of my research involves prototyping and system-building.
+ You'll need good fundamentals to make a contribution.
+ If you are not yet fluent in any programming language, please take time to develop fluency before you contact me.
+- **Time**:
+ Research does not happen overnight!
+ If you are an undergraduate, know that my most successful undergraduate researchers join the lab early, work often, and stay involved for a long time.
+ Contributing meaningfully to the collection of human knowledge (i.e., research) will require you to master cutting-edge knowledge and techniques.
+
+It is not my intention to discourage applicants, but I want you to be ready to be challenged.
+
 ## General instructions
 
 I believe that anyone with a will to learn can succeed in research, but to help me understand how you might fit into the team I would like to know:
