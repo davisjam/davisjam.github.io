@@ -52,7 +52,7 @@ In our regex investigations, we have measured the difficulties that practitioner
 2. How portable are regexes? ([ESEC/FSE'19](/files/publications/DavisMichaelCoghlanServantLee-LinguaFranca-ESECFSE19.pdf))
    - We used mixed-methods approaches to understand engineering practices and risks around regex re-use.
 3. How hard are regexes to work with? ([ASE'19](/files/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf))
-   - In surveys and interviews with about 300 practitioners, we learned that "Regexes Are Hard" in many ways, suggesting many avenues for further research to support them.
+   - In surveys and interviews with about 300 practitioners, we learned that "Regexes Are Hard" in many ways, suggesting directions for further research to support them.
 4. How generalizable is regex research? ([ASE'19](/files/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf))
    - We found that "most regexes are regexes", with no significant outliers by programming language or extraction methodology.
 5. How can we address Regex Denial of Service in a backwards-compatible way? ([IEEE S&P'21](/files/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf))
