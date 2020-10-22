@@ -60,7 +60,7 @@ To see them organized by project, see [here](/research).
 1. *Expectations and Experiences of Short-Term Study Abroad Leadership Teams*.  
  Ozkan, Davis, **Davis**, James, Murzi, and Knight.  
  Journal of International Engineering Education (JIEE) 2020.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OzkanDavisDavisJamesMurziKnight-JIEE21.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OzkanDavisDavisJamesMurziKnight-JIEE20.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OzkanDavisDavisJamesMurziKnight-JIEE20-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 
 ## Short papers
 
