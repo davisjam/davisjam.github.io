@@ -128,9 +128,9 @@
             "year": 2020,
             "bestPaperAward": true,
             "paperBasename": "ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20.pdf",
-            "slidesBasename": "",
+            "slidesBasename": "ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20-slides.pptx",
             "artifactURL": "https://zenodo.org/record/3878220#.XvTDvZNKhQI",
-            "videoURL": "",
+            "videoURL": "https://www.youtube.com/watch?v=gHzgEKeRidk",
             "blogURL": "https://medium.com/@davisjam/a-principled-approach-to-graphql-query-cost-analysis-8c7243de42c1"
         },
         {
