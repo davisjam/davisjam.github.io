@@ -17,7 +17,7 @@ I hold a PhD in Computer Science from Virginia Tech (2020) under [Dr. Dongyoon L
 I also interned at
   Microsoft Research (summer 2019 with [Patrice Godefroid](https://www.microsoft.com/en-us/research/people/pg/))
   and
-  IBM Research Almaden (summer 2018 with [Deepavali Bhagwat](https://researcher.watson.ibm.com/researcher/view.php?person=us-deepavali))
+  IBM Research Almaden (summer 2018 with [Deepavali Bhagwat](https://researcher.watson.ibm.com/researcher/view.php?person=us-deepavali)).
 Before that, I was a software engineer at IBM (2012-2015) working on the [GPFS](https://en.wikipedia.org/wiki/GPFS) file system.
 
 You can download my CV [here](files/professional/JamesDavis-CV.pdf).
