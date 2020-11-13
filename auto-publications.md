@@ -5,10 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
-Here are the peer-reviewed publications to which I have contributed.
+Here are the publications to which I have contributed.
 To see them organized by project, see [here](/research).
 
-## Conference papers
+## Peer-reviewed conference papers
 
 1. *Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)*.  
  **Davis**, Servant, and Lee.  
@@ -55,14 +55,14 @@ To see them organized by project, see [here](/research).
  EuroSys 2017.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisThekumparampilLee-NodeFz-EuroSys17.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisThekumparampilLee-NodeFz-EuroSys17-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/VTLeeLab/NodeFz"><i class="fas fa-file-code"></i></a>
 
-## Journal papers
+## Peer-reviewed journal papers
 
 1. *Expectations and Experiences of Short-Term Study Abroad Leadership Teams*.  
  Ozkan, Davis, **Davis**, James, Murzi, and Knight.  
  Journal of International Engineering Education (JIEE) 2020.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OzkanDavisDavisJamesMurziKnight-JIEE20.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OzkanDavisDavisJamesMurziKnight-JIEE20-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 
-## Short papers
+## Peer-reviewed short papers
 
 1. *Ursprung: Provenance for Large-Scale Analytics Environments*.  
  Rupprecht, **Davis**, Lubbock, Tyson, and Bhagwat.  
@@ -78,7 +78,7 @@ To see them organized by project, see [here](/research).
 1. *Large-Scale Manual Validation of Bug Fixing Commits: A Fine-grained Analysis of Tangling*.  
  Herbold, Trautsch, ..., **Davis**, Serebrenik, and ....  
  arXiv 2020.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HerboldEtAl-TandledCommits-Arxiv2020.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HerboldEtAl-TangledCommits-Arxiv2020.pdf"><i class="fas fa-file-pdf"></i></a>
 
 ## Posters
 
@@ -87,7 +87,7 @@ To see them organized by project, see [here](/research).
  SIAM Conference on Computational Science and Engineering (CSE'20) 2020.  
  
 
-## Patents
+## US Patents
 
 1. *Testing of lock managers in computing environments*.  
  Davis and **Davis**.  

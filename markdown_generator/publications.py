@@ -21,7 +21,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-Here are the peer-reviewed publications to which I have contributed.
+Here are the publications to which I have contributed.
 To see them organized by project, see [here](/research).
 """)
 
@@ -87,13 +87,13 @@ with open('publications.json', 'r') as infile, open('../auto-publications.md', '
 
     if confPubs:
         print("Writing the {} conference pubs".format(len(confPubs)))
-        writePubs(outfile, "Conference papers", confPubs)
+        writePubs(outfile, "Peer-reviewed conference papers", confPubs)
     if journalPubs:
         print("Writing the {} journal pubs".format(len(journalPubs)))
-        writePubs(outfile, "Journal papers", journalPubs)
+        writePubs(outfile, "Peer-reviewed journal papers", journalPubs)
     if shortPubs:
         print("Writing the {} short pubs".format(len(shortPubs)))
-        writePubs(outfile, "Short papers", shortPubs)
+        writePubs(outfile, "Peer-reviewed short papers", shortPubs)
     if arxivPubs:
         print("Writing the {} arxiv pubs".format(len(arxivPubs)))
         writePubs(outfile, "arXiv papers", arxivPubs)
@@ -102,7 +102,7 @@ with open('publications.json', 'r') as infile, open('../auto-publications.md', '
         writePubs(outfile, "Posters", posterPubs)
     if patentPubs:
         print("Writing the {} patents".format(len(patentPubs)))
-        writePubs(outfile, "Patents", patentPubs)
+        writePubs(outfile, "US Patents", patentPubs)
     if dissertationPubs:
         print("Writing the {} dissertations".format(len(dissertationPubs)))
         writePubs(outfile, "Dissertation", dissertationPubs)
