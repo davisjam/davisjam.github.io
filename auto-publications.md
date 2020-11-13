@@ -73,6 +73,13 @@ To see them organized by project, see [here](/research).
  EuroSec 2017.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisKildowLee-EHP-EuroSec17.pdf"><i class="fas fa-file-pdf"></i></a>
 
+## arXiv papers
+
+1. *Large-Scale Manual Validation of Bug Fixing Commits: A Fine-grained Analysis of Tangling*.  
+ Herbold, Trautsch, ..., **Davis**, Serebrenik, and ....  
+ arXiv 2020.  
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HerboldEtAl-TandledCommits-Arxiv2020.pdf"><i class="fas fa-file-pdf"></i></a>
+
 ## Posters
 
 1. *Exemplars for Machine Learning: Towards Software Engineering & Reproducibility*.  

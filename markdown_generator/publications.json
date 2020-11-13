@@ -180,6 +180,17 @@
             "videoURL": ""
         },
         {
+            "type": "arxiv",
+            "authors": ["Herbold", "Trautsch", "...", "**Davis**", "Serebrenik", "..."],
+            "title": "Large-Scale Manual Validation of Bug Fixing Commits: A Fine-grained Analysis of Tangling",
+            "venue": "arXiv",
+            "year": 2020,
+            "paperBasename": "HerboldEtAl-TandledCommits-Arxiv2020.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
             "type": "dissertation",
             "authors": ["**Davis**"],
             "title": "On the Impact and Defeat of Regular Expression Denial of Service",
