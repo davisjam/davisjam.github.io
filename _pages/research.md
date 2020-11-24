@@ -15,15 +15,11 @@ redirect_from:
 **I am currently looking for *graduate* and *undergraduate* researchers to work on problems that improve the quality of computing systems.** Please review the lab vision and mission statement (below) to understand whether you are interested in joining our work. Then follow [these instructions](/join-lab).
 {: .notice--info}
 
-I have a range of projects appropriate for undergraduates, MS students, and PhD students. Send me an email and we can discuss more.
-Sample topics:
+I have a range of projects appropriate for undergraduates, MS students, and PhD students. Sample topics:
 
-- Regular expression theory and practice
-- Web security
+- Software engineering for regular expressions and other domain-specific languages
+- Cyber-security -- e.g. Internet security, IoT security
 - "Software 2.0" - Software engineering and its intersection with AI + Machine Learning
-- Software systems (e.g. optimization)
-- Automatic bug detection and repair
-- Domain-specific languages (e.g. SQL, Verilog)
 
 ### Why you should join the Duality Lab
 
@@ -41,7 +37,7 @@ Our research often has an empirical bent. We must understand engineering practic
 Here are some of our projects, past and present.
 For a full list of our publications, see [here](/publications).
 
-### A practical look at regular expressions
+### A practical look at regular expressions (*Active project*)
 
 Regular expressions (regexes) are a widely used, hard to master engineering tool.
 They often cause software defects.
@@ -58,7 +54,7 @@ In our regex investigations, we have measured the difficulties that practitioner
 5. How can we address Regex Denial of Service in a backwards-compatible way? ([IEEE S&P'21](/files/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf))
    - We describe how selective memoization can protect existing regex engines without major changes.
 
-### Machine learning and Data science
+### Reproducible machine learning and data science (*Active project*)
 
 [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35) has arrived.
 Machine learning and data science techniques have been adopted across most business enterprises.
@@ -70,9 +66,12 @@ Engineering models and reproducing and extending pipelines are critical aspects 
      Our Ursprung system facilitates pipeline reproduction and extension.
 2. What should high-quality machine learning software look like? ([CSE'20 poster]())
    - I work with a [team of students](https://engineering.purdue.edu/VIP/teams/tensorflow) sponsored by Google's [TensorFlow Model Garden](https://blog.tensorflow.org/2020/03/introducing-model-garden-for-tensorflow-2.html) project.
-     We are developing high-quality examples of machine learning software in TensorFlow.
+     We are developing high-quality examples of machine learning software in TensorFlow, focused on problems in computer vision.
 
-### Node.js: Getting server-side event-driven programming right
+This line of research has many applications.
+For example, enabling reproducible, high-quality machine learning and computer vision software will be critical for efforts in national security and national defense.
+
+### Node.js: Getting server-side event-driven programming right (*Inactive project*)
 
 We have investigated the correctness and security risks that resulted from one recent industry shift: adopting the event-driven paradigm on the server side.
 Thousands of companies have done so as they shift to the Node.js platform, unifying their stack on one programming language.
@@ -85,7 +84,7 @@ Though this paradigmatic transition has brought business benefits, it has also l
 3. What are the performance issues in Node.js programs?
    - My undergraduate student Jonathan Alexander [won first place](https://www.vturcs.cs.vt.edu/spring19.php) at the VT Undergraduate Research in CS competition for his work on this project. Congratulations, Jonathan!
 
-### GraphQL security in practice
+### GraphQL security in practice (*Inactive project*)
 
 The web community is considering GraphQL as a means of addressing management issues with traditional REST-style APIs.
 We have worked with a team at IBM Research (Yorktown) on understanding and ameliorating issues with this technology.
@@ -93,11 +92,10 @@ Aspects of our research have been incorporated into IBM's API Connect And Data P
 
 1. What do GraphQL schemas look like? ([ICSOC'19](/files/publications/WitternChaDavisBaudartMandel-EmpiricalGraphQL-ICSOC19.pdf))
    - We identified idioms to help new adopters write easy-to-understand schemas, and evaluated the extent of denial of service vulnerabilities in schemas.
-2. How can we defend against GraphQL denial of service attacks? ([ESEC/FSE'20](.))
+2. How can we defend against GraphQL denial of service attacks? ([ESEC/FSE'20](/files/publications/ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20.pdf))
    - Our findings at ICSOC'19 motivated us to explore accurate static cost estimation for GraphQL queries.
 
-
-### Intercultural Engineering Education
+### Intercultural Engineering Education (*Active project*)
 
 Intercultural intelligence is one key to success in the engineering workforce.
 Engineering firms are full of folks from different cultures, with different perspectives and different beliefs.
