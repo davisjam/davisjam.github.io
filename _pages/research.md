@@ -15,7 +15,7 @@ redirect_from:
 **I am currently looking for *graduate* and *undergraduate* researchers to work on problems that improve the quality of computing systems.** Please review the lab vision and mission statement (below) to understand whether you are interested in joining our work. Then follow [these instructions](/join-lab).
 {: .notice--info}
 
-I have a range of projects appropriate for undergraduates, MS students, and PhD students. Sample topics:
+There are a range of projects appropriate for undergraduates, MS students, and PhD students. Sample topics:
 
 - Software engineering for regular expressions and other domain-specific languages
 - Cyber-security -- e.g. Internet security, IoT security
@@ -23,7 +23,7 @@ I have a range of projects appropriate for undergraduates, MS students, and PhD 
 
 ### Why you should join the Duality Lab
 
-Computing systems will transform the day-to-day human experience during this century.
+Computing systems will transform the human experience during this century, from the day-to-day (I sure like my robotic vacuum) to romance (Can your intelligent assistant find you a good partner?) to keeping society safe (Can computer vision safely support policing and national defense?).
 The Duality Lab studies how to increase the quality of these computing systems.
 The work is exciting, and the potential impact is enormous!
 For example, some of our research results have been adopted by major companies (Microsoft, IBM), others were incorporated into Node.js, and others have led to security patches in the Python runtime.
@@ -54,6 +54,10 @@ In our regex investigations, we have measured the difficulties that practitioner
 5. How can we address Regex Denial of Service in a backwards-compatible way? ([IEEE S&P'21](/files/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf))
    - We describe how selective memoization can protect existing regex engines without major changes.
 
+This line of research aims to shore up what might be called "crumbling cyber-infrastructure".
+Regexes gone awry have caused [Internet-scale outages](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/) and are a [potent denial of service vector](https://www.usenix.org/conference/usenixsecurity18/presentation/staicu).
+Regexes have been around since the 1940s but their engineering considerations have gone overlooked.
+
 ### Reproducible machine learning and data science (*Active project*)
 
 [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35) has arrived.
@@ -68,7 +72,7 @@ Engineering models and reproducing and extending pipelines are critical aspects 
    - I work with a [team of students](https://engineering.purdue.edu/VIP/teams/tensorflow) sponsored by Google's [TensorFlow Model Garden](https://blog.tensorflow.org/2020/03/introducing-model-garden-for-tensorflow-2.html) project.
      We are developing high-quality examples of machine learning software in TensorFlow, focused on problems in computer vision.
 
-This line of research has many applications.
+This line of research has many applications in the 21st century.
 For example, enabling reproducible, high-quality machine learning and computer vision software will be critical for efforts in national security and national defense.
 
 ### Node.js: Getting server-side event-driven programming right (*Inactive project*)
