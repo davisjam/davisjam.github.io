@@ -55,8 +55,8 @@ In our regex investigations, we have measured the difficulties that practitioner
    - We describe how selective memoization can protect existing regex engines without major changes.
 
 This line of research aims to shore up what might be called "crumbling cyber-infrastructure".
+Regexes have been around since the 1940s but their engineering considerations have been overlooked.
 Regexes gone awry have caused [Internet-scale outages](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/) and are a [potent denial of service vector](https://www.usenix.org/conference/usenixsecurity18/presentation/staicu).
-Regexes have been around since the 1940s but their engineering considerations have gone overlooked.
 
 ### Reproducible machine learning and data science (*Active project*)
 
