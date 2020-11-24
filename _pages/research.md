@@ -18,8 +18,8 @@ redirect_from:
 There are a range of projects appropriate for undergraduates, MS students, and PhD students. Sample topics:
 
 - Software engineering for regular expressions and other domain-specific languages
-- Cyber-security -- e.g. Internet security, IoT security
 - "Software 2.0" - Software engineering and its intersection with AI + Machine Learning
+- Cyber-security -- e.g. Internet security, IoT security
 
 ### Why you should join the Duality Lab
 
@@ -37,7 +37,7 @@ Our research often has an empirical bent. We must understand engineering practic
 Here are some of our projects, past and present.
 For a full list of our publications, see [here](/publications).
 
-### A practical look at regular expressions (*Active project*)
+### Security and software engineering for regular expressions (*Active project*)
 
 Regular expressions (regexes) are a widely used, hard to master engineering tool.
 They often cause software defects.
