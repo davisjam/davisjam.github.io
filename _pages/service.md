@@ -44,4 +44,4 @@ Here are the tools we currently support:
 
 My lab prepares writeups to summarize our research findings in ways that can benefit the practitioner community.
 You can read them [here](https://medium.com/@davisjam).
-These appear to be helpful &mdash; 30,000 visitors and counting!
+These appear to be helpful &mdash; 33,000 visitors and counting!
