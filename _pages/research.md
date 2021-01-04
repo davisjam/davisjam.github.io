@@ -112,6 +112,13 @@ However, studying abroad is expensive; to improve accessibility, I am also inter
 
 1. Study-abroad programs are sustained by faculty member involvement. These leaders constantly encounter the unexpected while abroad, perhaps decreasing their willingness to lead again. In what ways are those faculty members surprised (pleasantly and unpleasantly) by their experiences? ([JIEE'21](/files/publications/OzkanDavisDavisJamesMurziKnight-JIEE21.pdf)).
 
+### Computing Education (*Active project*)
+
+I collaborate with [Ayaan Kazerouni](http://ayaankazerouni.github.io) on bringing mutation testing into the classroom.
+
+1. How can we make mutation analysis cheap enough for use on student projects? ([JSS'21](/files/publications/KazerouniDavisBasakShafferServantEdwards-JSS21.pdf))
+   - We identified a subset of mutation operators that approximate the mutation discovery capacity of the full set of operators, yet at a fraction of the cost. This makes mutation analysis potentially practical in the classroom.
+
 ## About the Duality Lab
 
 ### What's in a name?
