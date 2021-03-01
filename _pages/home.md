@@ -8,7 +8,7 @@ redirect_from:
   - /home.html
 ---
 
-**I am recruiting *graduate* and *undergraduate* students (esp. PhD) starting in Fall 2020. See [lab page](research/) for details.**
+**I am recruiting *graduate* and *undergraduate* students (esp. PhD) starting in Fall 2021. See [lab page](research/) for details.**
 {: .notice--info}
 
 Hi, I'm Jamie!
