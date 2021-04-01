@@ -65,7 +65,7 @@ If you are *applying* to Purdue’s ECE department for graduate work, send me th
 ### Notes for undergraduate students
 
 If you are a current Purdue undergraduate, send me the email described above, with the subject "*Prospective assistant: undergraduate*".
-My preference is given to ECE students, but I am happy to hear from students in CS, CIT, and related majors.
+I am happy to hear from students in ECE, CS, CIT, and related majors.
 
 ## Onboarding
 
