@@ -45,7 +45,7 @@ Here are my questions:
 
 1. Why are you interested in my lab in particular?
 2. What experience do you have in research? (e.g., teaching yourself new things, reading technical papers)
-3. What experience do you have in building software? (e.g., internships, projects). (Have you worked professionally? Have you compiled the Linux kernel? Do you have an Android app to demonstrate? Have you read the Node.js source code? Have you contributed to an open-source project? Are you skilled in using a machine learning framework?)
+3. What experience do you have in engineering software? (*Have you worked professionally? Done an internship? Have you compiled the Linux kernel? Do you have an Android app to demonstrate? Have you read the Node.js source code? Have you contributed to an open-source project? Are you skilled in using a machine learning framework?*)
 4. How much time do you have available to work in my lab (hours/week), and how long do you anticipate doing so? (semesters, years?)
 5. Which project(s) listed on my website are you interested in? Why? (Or explain a project you would like to pursue under my mentorship)
 
