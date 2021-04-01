@@ -14,56 +14,58 @@ I receive a lot of email and sometimes things get lost. I have special email fil
 
 If I don’t respond after five business days, feel free to send a follow-up email. But double-check that you followed the instructions! Your email might not have made it into the right folder.
 
+## General
+
+I am a software engineering researcher --- I am interested in understanding how to engineer correct and secure software.
+To conduct this kind of research, you need to be a reasonably proficient software engineer.
+This background is necessary in human-subjects research (asking the right questions), in systems analysis research (knowing how to understand a system), and in system-building research (building a reasonable prototype quickly).
+You will need good fundamentals to make a contribution.
+
 ## Minimum requirements
 
-Applicants should have appropriate technical skills, and enough time.
-It is not my intention to discourage applicants, but I want you to understand what you are asking for, and to be ready to be challenged.
-Some guidelines:
+It is not my intention to discourage you, but I want you to understand what you are asking for, and to be ready to be challenged.
+This table highlights the three main requirements for success in the research that my lab conducts.
 
-- **Technical skills**:
- I am a software engineering researcher --- I am interested in understanding how to engineer correct and secure software.
- To conduct this kind of research, you need to be a reasonably proficient software engineer.
- This background is necessary in human-subjects research (asking the right questions), in systems analysis research (knowing how to understand a system), and in system-building research (building a reasonable prototype quickly).
- You will need good fundamentals to make a contribution.
- I expect my students to be fluent in several programming languages (e.g. Python, JavaScript, and something in the Java/C++/C family), and to have a reasonable command of modern software engineering techniques (e.g. unit testing, CI, object-oriented programming, software registries, git, GitHub).
- If you are not yet fluent in any programming language, please take time to develop fluency before you contact me.
- As a guideline, if you have written fewer than 5,000 lines of code in a language, you are not yet fluent.
- Not there yet? Practice makes perfect. There are lots of "30 days of code"-type curricula, e.g. [Advent of Code](https://adventofcode.com).
- For modern SE techniques, I recommend the textbook "Software Engineering at Google" (free e-copy through Purdue library).
- It is well worth $30 and the time spent reading it.
-- **Time**:
- Research does not happen overnight!
- As a researcher, you will need to join the lab early in your degree, work often, and stay involved for several semesters.
- Contributing meaningfully to the collection of human knowledge (i.e., research) will require you to master cutting-edge knowledge and techniques.
- I expect graduate research assistants to commit to 20+ hours/week.
- I expect undergraduate research assistants to work for 10-20 hours/week, with peaks and valleys tied to exams and projects.
+The most critical of these is *time*.
+If you have the will to learn, you can succeed in research -- but you must invest and persevere.
+
+| Requirement | Description | Metric | How to get there |
+|-|-|-|-|
+| Time | "Research" means "contributing meaningfully to the collection of human knowledge". Progress is made through disciplined long-term focus. | I expect graduate research assistants to commit to 20+ hours/week. I expect undergraduate research assistants to work for 10-20 hours/week, with peaks and valleys tied to exams and projects. | **Identify your priorities**. If you want to *be* a researcher, you may need to choose *not* to be something else (e.g. not the student in 5 clubs and 2 intramural leagues; not the student with perfect grades). |
+| Technical fundamentals* | You should be fluent in several programming languages (e.g. Python, JavaScript, and C/C++/Java). | You can write interesting programs with minimal reference to online documentation ([ref](https://softwareengineering.stackexchange.com/a/154884)). | Practice. There are lots of "30 days of code"-type curricula, e.g. [Advent of Code](https://adventofcode.com). |
+| Engineering knowledge | You should have a reasonable command of modern software engineering techniques (e.g. unit testing, CI, object-oriented programming, software registries, git, GitHub). | You have used these techniques on a non-trivial project that you can show me. | Use free versions of modern tools through GitHub. Read the book [Software Engineering at Google](https://learning.oreilly.com/library/view/software-engineering-at/9781492082781/). |
+
+*Some of my projects are focused on human subjects.
+If you have a background in human subjects research methods (e.g. surveys, interviews), that is a good substitute for some technical fundamentals.
 
 ## General instructions
 
-I believe that anyone with a will to learn can succeed in research, but to help me understand how you might fit into the team I would like to know:
+Please write me an email and tell me how you might fit into my team.
+Here are my questions:
 
-- Why are you interested in my lab in particular?
-- What experience do you have in research? (e.g., teaching yourself new things, reading technical papers)
-- What experience do you have in building software? (e.g., internships, projects). (Have you worked professionally? Have you compiled the Linux kernel? Do you have an Android app to demonstrate? Have you read the Node.js source code? Have you contributed to an open-source project? Are you skilled in using a machine learning framework?)
-- How much time do you have available to work in my lab (hours/week), and how long do you anticipate doing so? (semesters, years?)
-- Which project(s) listed on my website are you interested in? Or something else?
+1. Why are you interested in my lab in particular?
+2. What experience do you have in research? (e.g., teaching yourself new things, reading technical papers)
+3. What experience do you have in building software? (e.g., internships, projects). (Have you worked professionally? Have you compiled the Linux kernel? Do you have an Android app to demonstrate? Have you read the Node.js source code? Have you contributed to an open-source project? Are you skilled in using a machine learning framework?)
+4. How much time do you have available to work in my lab (hours/week), and how long do you anticipate doing so? (semesters, years?)
+5. Which project(s) listed on my website are you interested in? Or something else?
 
 To help me get to know you better, please:
 
 - Attach a resume or CV.
-- Attach 1-3 relevant and representative projects (e.g. open-source code), reports, or publications, and explain your role in the project. These should demonstrate your potential to conduct research in my lab. If you do not have anything along these lines, your email should explain why you think you are prepared to engage in research.
+- Attach 1-3 relevant and representative projects (e.g. open-source code), reports, or publications, and explain your role in the project. These should demonstrate your potential to conduct research in my lab. If you do not have anything to show along these lines, your email should explain why you think you are prepared to engage in research.
 
 Finally, to match my email filter, please include the magic word *xyzzy* somewhere in your email.
 
-### Graduate students
+### Notes for graduate students
 
 If you are a *current* or *incoming* Purdue graduate student in the ECE department, send me the email described above, with the subject "*Prospective assistant: graduate (current)*".
 
 If you are *applying* to Purdue’s ECE department for graduate work, send me the email described above, with the subject "*Prospective assistant: graduate (applicant)*".
 
-### Undergraduate students
+### Notes for undergraduate students
 
-If you are a current Purdue undergraduate in the ECE department, send me the email described above, with the subject "*Prospective assistant: undergraduate*".
+If you are a current Purdue undergraduate, send me the email described above, with the subject "*Prospective assistant: undergraduate*".
+My preference is given to ECE students, but I am happy to hear from students in CS, CIT, and related majors.
 
 ## Onboarding
 
