@@ -31,7 +31,7 @@ If you have the will to learn, you can succeed in research -- but you must inves
 
 | Requirement | Description | Metric | How to get there |
 |-|-|-|-|
-| Time | "Research" means "contributing meaningfully to the collection of human knowledge". Progress is made through disciplined long-term focus. | I expect graduate research assistants to commit to 20+ hours/week. I expect undergraduate research assistants to work for 10-20 hours/week, with peaks and valleys tied to exams and projects. | **Identify your priorities**. If you want to *be* a researcher, you may need to choose *not* to be something else (e.g. not the student in 5 clubs and 2 intramural leagues; not the student with perfect grades). |
+| Time | "Research" means "contributing meaningfully to the collection of human knowledge". Progress is made through disciplined long-term focus. | I expect *graduate* research assistants to commit to 20 hours/week on a project, with peaks and valleys tied to grant and paper deadlines. I expect *undergraduate* research assistants to work for around 10 hours/week, with peaks and valleys tied to exams and projects. | **Identify your priorities**. If you want to *be* a researcher, you may need to choose *not* to be something else (e.g. not the student in 5 clubs and 2 intramural leagues; or not the student with a 4.0). |
 | Technical fundamentals* | You should be fluent in several programming languages (e.g. Python, JavaScript, and C/C++/Java). | You can write interesting programs with minimal reference to online documentation ([ref](https://softwareengineering.stackexchange.com/a/154884)). | Practice. There are lots of "30 days of code"-type curricula, e.g. [Advent of Code](https://adventofcode.com). |
 | Engineering knowledge | You should have a reasonable command of modern software engineering techniques (e.g. unit testing, CI, object-oriented programming, software registries, git, GitHub). | You have used these techniques on a non-trivial project that you can show me. | Use free versions of modern tools through GitHub. Read the book [Software Engineering at Google](https://learning.oreilly.com/library/view/software-engineering-at/9781492082781/). |
 
@@ -44,7 +44,7 @@ Please write me an email and tell me how you might fit into my team.
 Here are my questions:
 
 1. Why are you interested in my lab in particular?
-2. What experience do you have in research? (e.g., teaching yourself new things, reading technical papers)
+2. What experience do you have in research? (e.g., teaching yourself new things, reading research papers)
 3. What experience do you have in engineering software? (*Have you worked professionally? Done an internship? Have you compiled the Linux kernel? Do you have an Android app to demonstrate? Have you read the Node.js source code? Have you contributed to an open-source project? Are you skilled in using a machine learning framework?*)
 4. How much time do you have available to work in my lab (hours/week), and how long do you anticipate doing so? (semesters, years?)
 5. Which project(s) listed on my website are you interested in? Why? (Or explain a project you would like to pursue under my mentorship)
@@ -67,7 +67,8 @@ If you are *applying* to Purdue’s ECE department for graduate work, send me th
 If you are a current Purdue undergraduate, send me the email described above, with the subject "*Prospective assistant: undergraduate*".
 I am happy to hear from undergraduate students in ECE, CS, CIT, and related majors, and further afield if you think it's a good fit.
 
-## Onboarding
+## Onboarding process
 
-If I like the looks of your application, I will probably ask you to work on something small for 4-6 weeks to get a sense of your commitment, interests, and skill set.
+If I like the looks of your application, I will set up an interview.
+If that goes well, I will ask you to work on something small for 4-6 weeks to get a sense of your commitment, interests, and skill set.
 Then we can discuss a longer-term relationship.
