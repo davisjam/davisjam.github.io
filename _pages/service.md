@@ -14,20 +14,16 @@ I try to do my part to support the research community.
 
 ### Conferences
 
-- PC member, ICSE 2021 demonstrations track
-- PC member, ESEC/FSE 2020 artifact track
-- PC member, CGO 2019 artifact committee
-- External reviewer, CGO 2019
-- External reviewer, HPCA 2019
-- External reviewer, ISMM 2019
-- External reviewer, EuroSys 2018
-- External reviewer, ASPLOS 2018
-- External reviewer, MASCOTS 2018
+- ASE 2021 program committee
+- ICSE 2021 demonstrations committee
+- ESEC/FSE 2021 artifact committee
+- ESEC/FSE 2020 artifact committee
+- CGO 2019 artifact committee
 
 ### Journals
 
-- Reviewer, Springer Empirical Software Engineering (EMSE)
 - Reviewer, IEEE Transactions on Software Engineering (TSE)
+- Reviewer, Springer Empirical Software Engineering (EMSE)
 
 ## Practitioner community
 
@@ -44,4 +40,4 @@ Here are the tools we currently support:
 
 My lab prepares writeups to summarize our research findings in ways that can benefit the practitioner community.
 You can read them [here](https://medium.com/@davisjam).
-These appear to be helpful &mdash; 33,000 visitors and counting!
+These appear to be helpful &mdash; 41,000 visitors and counting!
