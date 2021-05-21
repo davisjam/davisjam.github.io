@@ -16,7 +16,7 @@ If I don’t respond after five business days, feel free to send a follow-up ema
 
 ## General
 
-I am a software engineering researcher --- I am interested in understanding how to engineer correct and secure software.
+I am a software engineering researcher --- I want to understand how to engineer complex computing systems.
 To conduct this kind of research, you need to be a reasonably proficient software engineer.
 This background is necessary in human-subjects research (asking the right questions), in systems analysis research (knowing how to understand a system), and in system-building research (building a reasonable prototype quickly).
 You will need good fundamentals to make a contribution.
@@ -31,7 +31,7 @@ If you have the will to learn, you can succeed in research -- but you must inves
 
 | Requirement | Description | Metric | How to get there |
 |-|-|-|-|
-| Time | "Research" means "contributing meaningfully to the collection of human knowledge". Progress is made through disciplined long-term focus. | I expect *graduate* research assistants to commit to 20 hours/week on a project, with peaks and valleys tied to grant and paper deadlines. I expect *undergraduate* research assistants to work for around 10 hours/week, with peaks and valleys tied to exams and projects. | **Identify your priorities**. If you want to *be* a researcher, you may need to choose *not* to be something else (e.g. not the student in 5 clubs and 2 intramural leagues; or not the student with a 4.0). |
+| Time | "Research" means "contributing meaningfully to the collection of human knowledge". Progress is made through disciplined long-term focus. | I expect *graduate* research assistants to commit to 20 hours/week on a project, with peaks and valleys tied to grant and paper deadlines. I expect *undergraduate* research assistants to work for around 10 hours/week, with peaks and valleys tied to exams and projects. | **Identify your priorities**. If you want to *be* a researcher, you may need to choose *not* to be something else (e.g. not participating in 5 clubs and 2 intramural leagues). |
 | Technical fundamentals* | You should be fluent in several programming languages (e.g. Python, JavaScript, and C/C++/Java). | You can write interesting programs with minimal reference to online documentation ([ref](https://softwareengineering.stackexchange.com/a/154884)). | Practice. There are lots of "30 days of code"-type curricula, e.g. [Advent of Code](https://adventofcode.com). |
 | Engineering knowledge | You should have a reasonable command of modern software engineering techniques (e.g. unit testing, CI, object-oriented programming, software registries, git, GitHub). | You have used these techniques on a non-trivial project that you can show me. | Use free versions of modern tools through GitHub. Read the book [Software Engineering at Google](https://learning.oreilly.com/library/view/software-engineering-at/9781492082781/). |
 
