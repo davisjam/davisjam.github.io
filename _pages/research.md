@@ -19,7 +19,7 @@ For a full publication list of our publications, see [here](/publications).
 Here are some of our current projects:
 
 - Software engineering for domain-specific languages
-- "Software 2.0" &mdash; Software engineering and its intersection with AI + Machine Learning
+- "[Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)" &mdash; Software engineering and its intersection with AI + Machine Learning
 - Cybersecurity &mdash; e.g. Internet security, IoT security
 
 ## About the Duality Lab
@@ -108,9 +108,12 @@ Here are some of the active projects in the lab.
 
 ### Security and software engineering for domain-specific languages
 
+Domain-specific languages (DSLs) are a technique used to simplify the engineering of complex computing systems.
+DSLs allow engineers to express domain-specific information fluently, rather than staggering through an articulation in a general-purpose language.
+
 **DSL #1: Regular expressions**
 
-Regular expressions (regexes) are a widely used, hard to master engineering tool.
+Regular expressions (regexes) are a widely used, hard to master DSL for string-matching problems.
 They often cause software defects.
 In our regex investigations, we have measured the difficulties that practitioners experience, and guided programming language designers toward regex engines that reflect the needs of practitioners.
 
@@ -133,7 +136,7 @@ Regexes gone awry have caused [Internet-scale outages](https://blog.cloudflare.c
 
 **DSL #2: GraphQL**
 
-The web community is considering GraphQL as a means of addressing management issues with traditional REST-style APIs.
+The web community is considering GraphQL as a means of addressing data and website management issues with traditional REST-style APIs.
 We have worked with a team at IBM Research (Yorktown) on understanding and ameliorating issues with this technology.
 Aspects of our research have been incorporated into IBM's API Connect And Data Power product [v10.0.0](https://community.ibm.com/community/user/imwuc/blogs/rob-thelen1/2020/06/16/api-connect-and-datapower-v1000-are-generally-avai).
 
@@ -146,10 +149,11 @@ Aspects of our research have been incorporated into IBM's API Connect And Data P
 
 ### Reproducible machine learning and data science
 
-[Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35) has arrived.
+Complex computing systems increasingly rely on components derived from machine learning and data science.
 Machine learning and data science techniques have been adopted across most business enterprises.
 These techniques include the development of machine learning models, and the use of analysis pipelines to automatically and repeatedly process batches of data.
-Engineering models and reproducing and extending pipelines are critical aspects of modern data science, and getting them right is a major challenge.
+Engineering these models, and reproducing and extending analysis pipelines, are critical aspects of modern computing.
+It is also hard! Getting them right is a major challenge.
 This line of research has many applications in the 21st century.
 For example, enabling reproducible, high-quality machine learning and computer vision software will support efforts for national security and national defense.
 
@@ -163,6 +167,9 @@ For example, enabling reproducible, high-quality machine learning and computer v
      We are developing high-quality examples of machine learning software in TensorFlow, focused on problems in computer vision.
 
 ### Computing Education
+
+Skilled engineering teams are one key to realizing high-quality computing systems.
+What kinds of training do computer engineers need?
 
 **Area #1: Intercultural intelligence**
 
@@ -179,7 +186,7 @@ However, studying abroad is expensive; to improve accessibility, I am also inter
 
 1. Study-abroad programs are sustained by faculty member involvement. These leaders constantly encounter the unexpected while abroad, perhaps decreasing their willingness to lead again. In what ways are those faculty members surprised (pleasantly and unpleasantly) by their experiences? ([JIEE'21](/files/publications/OzkanDavisDavisJamesMurziKnight-JIEE21.pdf)).
 
-**Area #2: Teaching testing**
+**Area #2: Teaching software testing**
 
 I collaborate with [Ayaan Kazerouni](http://ayaankazerouni.github.io) on bringing mutation testing into the classroom.
 
