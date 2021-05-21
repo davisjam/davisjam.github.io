@@ -1,42 +1,6 @@
 {
     "publications": [
         {
-            "type": "journal",
-            "authors": ["Kazerouni", "**Davis**", "Basak", "Shaffer", "Servant", "Edwards"],
-            "title": "Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis",
-            "venue": "Journal of Systems and Software (JSS)",
-            "year": 2021,
-            "paperBasename": "KazerouniDavisBasakShafferServantEdwards-JSS21.pdf",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": "",
-            "blogURL": ""
-        },
-        {
-            "type": "poster",
-            "authors": ["Vivek", "Chinnakotla", "Banna", "Vegesana", "Yan", "**Davis**", "Lu", "Thiruvathukal"],
-            "title": "Exemplars for Machine Learning: Towards Software Engineering & Reproducibility",
-            "venue": "SIAM Conference on Computational Science and Engineering (CSE'20)",
-            "year": 2020,
-            "paperBasename": "",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": "",
-            "blogURL": ""
-        },
-        {
-            "type": "journal",
-            "authors": ["Ozkan", "Davis", "**Davis**", "James", "Murzi", "Knight"],
-            "title": "Expectations and Experiences of Short-Term Study Abroad Leadership Teams",
-            "venue": "Journal of International Engineering Education (JIEE)",
-            "year": 2020,
-            "paperBasename": "OzkanDavisDavisJamesMurziKnight-JIEE20.pdf",
-            "slidesBasename": "OzkanDavisDavisJamesMurziKnight-JIEE20-slides.pptx",
-            "artifactURL": "",
-            "videoURL": "",
-            "blogURL": ""
-        },
-        {
             "type": "conference",
             "authors": ["**Davis**", "Thekumparampil", "Lee"],
             "title": "Node.fz: Fuzzing the server-side event-driven architecture",
@@ -170,6 +134,20 @@
             "blogURL": "https://medium.com/@davisjam/using-selective-memoization-to-defeat-regular-expression-denial-of-service-f7acbbd34792"
         },
         {
+            "type": "conference",
+            "authors": ["Goel", "Tung", "Hu", "Wang", "**Davis**", "Thiruvathukal", "Lu"],
+            "title": "Low-Power Multi-Camera Object Re-Identication using Hierarchical Neural Networks",
+            "venue": "ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED'21)",
+            "year": 2021,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
+
+
+        {
             "type": "short",
             "authors": ["Rupprecht", "**Davis**", "Lubbock", "Tyson", "Bhagwat"],
             "title": "Ursprung: Provenance for Large-Scale Analytics Environments",
@@ -191,6 +169,9 @@
             "artifactURL": "",
             "videoURL": ""
         },
+
+
+
         {
             "type": "arxiv",
             "authors": ["Herbold", "Trautsch", "...", "**Davis**", "Serebrenik", "..."],
@@ -202,6 +183,9 @@
             "artifactURL": "",
             "videoURL": ""
         },
+
+
+
         {
             "type": "dissertation",
             "authors": ["**Davis**"],
@@ -213,6 +197,9 @@
             "artifactURL": "",
             "videoURL": "https://www.youtube.com/watch?v=TDIlcm3joq0&t=2s"
         },
+
+
+
         {
             "type": "patent",
             "authors": ["**Davis**", "Davis", "Knop"],
@@ -245,6 +232,44 @@
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
+        },
+        
+
+        {
+            "type": "journal",
+            "authors": ["Kazerouni", "**Davis**", "Basak", "Shaffer", "Servant", "Edwards"],
+            "title": "Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis",
+            "venue": "Journal of Systems and Software (JSS)",
+            "year": 2021,
+            "paperBasename": "KazerouniDavisBasakShafferServantEdwards-JSS21.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
+        {
+            "type": "journal",
+            "authors": ["Ozkan", "Davis", "**Davis**", "James", "Murzi", "Knight"],
+            "title": "Expectations and Experiences of Short-Term Study Abroad Leadership Teams",
+            "venue": "Journal of International Engineering Education (JIEE)",
+            "year": 2020,
+            "paperBasename": "OzkanDavisDavisJamesMurziKnight-JIEE20.pdf",
+            "slidesBasename": "OzkanDavisDavisJamesMurziKnight-JIEE20-slides.pptx",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
+        {
+            "type": "poster",
+            "authors": ["Vivek", "Chinnakotla", "Banna", "Vegesana", "Yan", "**Davis**", "Lu", "Thiruvathukal"],
+            "title": "Exemplars for Machine Learning: Towards Software Engineering & Reproducibility",
+            "venue": "SIAM Conference on Computational Science and Engineering (CSE'20)",
+            "year": 2020,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
         }
     ]
 }

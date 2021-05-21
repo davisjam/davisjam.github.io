@@ -17,7 +17,7 @@ redirect_from:
 
 There are a range of projects appropriate for undergraduates, MS students, and PhD students. Sample topics:
 
-- Software engineering for regular expressions and other domain-specific languages
+- Software engineering for domain-specific languages
 - "Software 2.0" - Software engineering and its intersection with AI + Machine Learning
 - Cyber-security -- e.g. Internet security, IoT security
 
@@ -26,11 +26,11 @@ There are a range of projects appropriate for undergraduates, MS students, and P
 Computing systems will transform the human experience during this century, from the day-to-day (I sure like my robotic vacuum) to romance (Can your intelligent assistant find you a good partner?) to keeping society safe (Can computer vision safely support policing and national defense?).
 The Duality Lab studies how to increase the quality of these computing systems.
 The work is exciting, and the potential impact is enormous!
-For example, some of our research results have been adopted by major companies (Microsoft, IBM), others were incorporated into Node.js, and others have led to security patches in the Python runtime.
+For example, some of our research results have been adopted by major companies (Microsoft, IBM, Google) and major software systems (Node.js, Python).
 
 ## Research projects
 
-As discussed below, our lab's vision is to improve the quality of computing systems.
+Our lab's vision is to improve the quality of computing systems.
 This mandate is broadly writ; most of our projects focus on software **correctness** and **security**.
 Our research often has an empirical bent. We must understand engineering practice before we can influence it.
 
