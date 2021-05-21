@@ -166,7 +166,7 @@ For example, enabling reproducible, high-quality machine learning and computer v
    - I work with a [team of students](https://engineering.purdue.edu/VIP/teams/tensorflow) sponsored by Google's [TensorFlow Model Garden](https://blog.tensorflow.org/2020/03/introducing-model-garden-for-tensorflow-2.html) project.
      We are developing high-quality examples of machine learning software in TensorFlow, focused on problems in computer vision.
 
-### Computing Education
+### Skilled practitioners through computing education
 
 Skilled engineering teams are one key to realizing high-quality computing systems.
 What kinds of training do computer engineers need?
