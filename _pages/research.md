@@ -37,11 +37,19 @@ Our research often has an empirical bent. We must understand engineering practic
 Here are some of our projects, past and present.
 For a full list of our publications, see [here](/publications).
 
-### Security and software engineering for regular expressions (*Active project*)
+### Security and software engineering for domain-specific languages (*Active project*)
+
+**DSL #1: Regular expressions**
 
 Regular expressions (regexes) are a widely used, hard to master engineering tool.
 They often cause software defects.
 In our regex investigations, we have measured the difficulties that practitioners experience, and guided programming language designers toward regex engines that reflect the needs of practitioners.
+
+This line of research aims to shore up what might be called "crumbling cyber-infrastructure".
+Regexes have been around since the 1940s but their engineering considerations have been overlooked.
+Regexes gone awry have caused [Internet-scale outages](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/) and are a [potent denial of service vector](https://www.usenix.org/conference/usenixsecurity18/presentation/staicu).
+
+*Specific projects:*
 
 1. How widespread of a problem is Regex Denial of Service? ([ESEC/FSE'18](/files/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf)).
     - We found ReDoS vulnerabilities in thousands of projects, including [Node.js core](https://nodejs.org/en/blog/vulnerability/march-2018-security-releases/#denial-of-service-dos-vulnerability), [Python core](https://github.com/python/cpython/pull/5955), [MongoDB](https://www.mongodb.com/security), [Django](https://www.djangoproject.com/weblog/2018/mar/06/security-releases/), and [Hapi](https://github.com/hapijs/content/commit/96beb34f7c38a08d024dbf9cd63865c56e2955d9). We also disclosed vulnerabilities to Microsoft, which acknowledged us [here](https://www.microsoft.com/en-us/msrc/researcher-acknowledgments-online-services?rtc=1) in July 2018. Many more of our finds are listed in [Snyk.io's vulnerability database](https://snyk.io/vuln/?packageManager=all), mostly under *npm*.
@@ -54,9 +62,18 @@ In our regex investigations, we have measured the difficulties that practitioner
 5. How can we address Regex Denial of Service in a backwards-compatible way? ([IEEE S&P'21](/files/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf))
    - We describe how selective memoization can protect existing regex engines without major changes.
 
-This line of research aims to shore up what might be called "crumbling cyber-infrastructure".
-Regexes have been around since the 1940s but their engineering considerations have been overlooked.
-Regexes gone awry have caused [Internet-scale outages](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/) and are a [potent denial of service vector](https://www.usenix.org/conference/usenixsecurity18/presentation/staicu).
+**DSL #2: GraphQL**
+
+The web community is considering GraphQL as a means of addressing management issues with traditional REST-style APIs.
+We have worked with a team at IBM Research (Yorktown) on understanding and ameliorating issues with this technology.
+Aspects of our research have been incorporated into IBM's API Connect And Data Power product [v10.0.0](https://community.ibm.com/community/user/imwuc/blogs/rob-thelen1/2020/06/16/api-connect-and-datapower-v1000-are-generally-avai).
+
+*Specific projects:*
+
+1. What do GraphQL schemas look like? ([ICSOC'19](/files/publications/WitternChaDavisBaudartMandel-EmpiricalGraphQL-ICSOC19.pdf))
+   - We identified idioms to help new adopters write easy-to-understand schemas, and evaluated the extent of denial of service vulnerabilities in schemas.
+2. How can we defend against GraphQL denial of service attacks? ([ESEC/FSE'20](/files/publications/ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20.pdf))
+   - Our findings at ICSOC'19 motivated us to explore accurate static cost estimation for GraphQL queries.
 
 ### Reproducible machine learning and data science (*Active project*)
 
@@ -64,6 +81,8 @@ Regexes gone awry have caused [Internet-scale outages](https://blog.cloudflare.c
 Machine learning and data science techniques have been adopted across most business enterprises.
 These techniques include the development of machine learning models, and the use of analysis pipelines to automatically and repeatedly process batches of data.
 Engineering models and reproducing and extending pipelines are critical aspects of modern data science, and getting them right is a major challenge.
+
+*Specific projects:*
 
 1. How might provenance be applied to assist data scientists? ([VLDB'20](/files/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf), [SIGMOD'19 demo](/files/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf))
    - With a team at IBM Research (Almaden), we applied provenance techniques to the data science context.
@@ -73,33 +92,11 @@ Engineering models and reproducing and extending pipelines are critical aspects 
      We are developing high-quality examples of machine learning software in TensorFlow, focused on problems in computer vision.
 
 This line of research has many applications in the 21st century.
-For example, enabling reproducible, high-quality machine learning and computer vision software will be critical for efforts in national security and national defense.
+For example, enabling reproducible, high-quality machine learning and computer vision software will support efforts for national security and national defense.
 
-### Node.js: Getting server-side event-driven programming right (*Inactive project*)
+### Computing Education (*Active project*)
 
-We have investigated the correctness and security risks that resulted from one recent industry shift: adopting the event-driven paradigm on the server side.
-Thousands of companies have done so as they shift to the Node.js platform, unifying their stack on one programming language.
-Though this paradigmatic transition has brought business benefits, it has also led to many software defects due to fundamental limitations (non-determinism, security flaws) in the architecture of the Node.js framework.
-
-1. What are the race conditions in Node.js programs? ([EuroSys'17](/files/publications/DavisThekumparampilLee-NodeFz-EuroSys17.pdf))
-   - We analyzed bug reports on race conditions, then built a fuzzing tool to make these bugs more likely to manifest.
-2. What are the denial of service attacks against Node.js programs? ([USENIX Security'18](/files/publications/DavisWilliamsonLee-SenseOfTime-USENIXSecurity18.pdf))
-   - We evaluated the avenues for Event Handler Poisoning in Node.js and prototyped a complete defense mechanism: first-class timeouts.
-3. What are the performance issues in Node.js programs?
-   - My undergraduate student Jonathan Alexander [won first place](https://www.vturcs.cs.vt.edu/spring19.php) at the VT Undergraduate Research in CS competition for his work on this project. Congratulations, Jonathan!
-
-### GraphQL security in practice (*Inactive project*)
-
-The web community is considering GraphQL as a means of addressing management issues with traditional REST-style APIs.
-We have worked with a team at IBM Research (Yorktown) on understanding and ameliorating issues with this technology.
-Aspects of our research have been incorporated into IBM's API Connect And Data Power product [v10.0.0](https://community.ibm.com/community/user/imwuc/blogs/rob-thelen1/2020/06/16/api-connect-and-datapower-v1000-are-generally-avai).
-
-1. What do GraphQL schemas look like? ([ICSOC'19](/files/publications/WitternChaDavisBaudartMandel-EmpiricalGraphQL-ICSOC19.pdf))
-   - We identified idioms to help new adopters write easy-to-understand schemas, and evaluated the extent of denial of service vulnerabilities in schemas.
-2. How can we defend against GraphQL denial of service attacks? ([ESEC/FSE'20](/files/publications/ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20.pdf))
-   - Our findings at ICSOC'19 motivated us to explore accurate static cost estimation for GraphQL queries.
-
-### Intercultural Engineering Education (*Active project*)
+**Area #1: Intercultural intelligence**
 
 Intercultural intelligence is one key to success in the engineering workforce.
 Engineering firms are full of folks from different cultures, with different perspectives and different beliefs.
@@ -110,14 +107,34 @@ I collaborate with engineering education researchers to investigate ways to prom
 Some of these collaborations involve study-abroad programs like Virginia Tech's [*Rising Sophomore Abroad Program*](https://enge.vt.edu/undergraduate/RSAP.html).
 However, studying abroad is expensive; to improve accessibility, I am also interested in ways to promote intercultural learning more locally.
 
+*Specific projects:*
+
 1. Study-abroad programs are sustained by faculty member involvement. These leaders constantly encounter the unexpected while abroad, perhaps decreasing their willingness to lead again. In what ways are those faculty members surprised (pleasantly and unpleasantly) by their experiences? ([JIEE'21](/files/publications/OzkanDavisDavisJamesMurziKnight-JIEE21.pdf)).
 
-### Computing Education (*Active project*)
+**Area #2: Teaching testing**
 
 I collaborate with [Ayaan Kazerouni](http://ayaankazerouni.github.io) on bringing mutation testing into the classroom.
 
+*Specific projects:*
+
 1. How can we make mutation analysis cheap enough for use on student projects? ([JSS'21](/files/publications/KazerouniDavisBasakShafferServantEdwards-JSS21.pdf))
    - We identified a subset of mutation operators that approximate the mutation discovery capacity of the full set of operators, yet at a fraction of the cost. This makes mutation analysis potentially practical in the classroom.
+
+### Node.js: Getting server-side event-driven programming right (*Inactive project*)
+
+We have investigated the correctness and security risks that resulted from one recent industry shift: adopting the event-driven paradigm on the server side.
+Thousands of companies have done so as they shift to the Node.js platform, unifying their stack on one programming language.
+Though this paradigmatic transition has brought business benefits, it has also led to many software defects due to fundamental limitations (non-determinism, security flaws) in the architecture of the Node.js framework.
+
+*Specific projects:*
+
+1. What are the race conditions in Node.js programs? ([EuroSys'17](/files/publications/DavisThekumparampilLee-NodeFz-EuroSys17.pdf))
+   - We analyzed bug reports on race conditions, then built a fuzzing tool to make these bugs more likely to manifest.
+2. What are the denial of service attacks against Node.js programs? ([USENIX Security'18](/files/publications/DavisWilliamsonLee-SenseOfTime-USENIXSecurity18.pdf))
+   - We evaluated the avenues for Event Handler Poisoning in Node.js and prototyped a complete defense mechanism: first-class timeouts.
+3. What are the performance issues in Node.js programs?
+   - My undergraduate student Jonathan Alexander [won first place](https://www.vturcs.cs.vt.edu/spring19.php) at the VT Undergraduate Research in CS competition for his work on this project. Congratulations, Jonathan!
+
 
 ## About the Duality Lab
 
