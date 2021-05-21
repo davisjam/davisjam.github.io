@@ -16,7 +16,7 @@ If I don’t respond after five business days, feel free to send a follow-up ema
 
 ## General
 
-I am a software engineering researcher --- I want to understand how to engineer complex computing systems.
+I bring a software engineering perspective to my research &mdash; I want to understand how to engineer complex computing systems.
 To conduct this kind of research, you need to be a reasonably proficient software engineer.
 This background is necessary in human-subjects research (asking the right questions), in systems analysis research (knowing how to understand a system), and in system-building research (building a reasonable prototype quickly).
 You will need good fundamentals to make a contribution.

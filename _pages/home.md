@@ -15,8 +15,8 @@ Hi, I'm Jamie!
 I am an Assistant Professor at Purdue University, in the department of Electrical and Computer Engineering (ECE).
 
 I lead the [Duality Lab](/research).
-In our research, we study the engineering of computing systems.
-We improve the human experience by improving the quality of computing systems.
-Our primary interests are in software *correctness*, *security*, and *usability*.
+In our research, we study the engineering of complex computing systems.
+**We improve the human experience by improving the quality of complex computing systems**.
+Our primary interests are in software *correctness* and *security*, achieved in part through effective *engineering processes*.
 
 Use the links at the top to learn more about my activities.
