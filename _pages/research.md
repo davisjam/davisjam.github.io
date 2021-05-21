@@ -29,9 +29,9 @@ Computing systems will transform the human experience during this century,
   and for society (Can computer vision safely support policing and national defense?).
 Achieving this transformation requires high-quality software &mdash; an increasingly-difficult challenge as computing systems become more complex.
 
-### Vision and Mission
+### Vision
 
-*The mission of the Duality Lab is to improve the quality of complex computing systems.*
+*The vision of the Duality Lab is to improve the quality of complex computing systems.*
 
 We believe that computing systems will eventually mediate many human interactions with other humans and with the surrounding world.
 We therefore seek to improve the human experience by improving the quality of computing systems.
