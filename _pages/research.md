@@ -174,13 +174,30 @@ Research is learned through apprenticeship.
     resources to help you improve.
   In addition, senior lab members will be given opportunities to help train more junior lab members.
 
-### Lab members
+## Lab members
 
-I am delighted to be supervising these talented students:
+I am delighted to supervise many talented students:
 
-- Albert Sun
-- Jitesh Motati
+### PhD
+
+- Wenxin Jiang
+
+### Undergraduate
+
+*Current* 
+
+- Vishnu Banna
+- Efe Barlas
+- Xin Du
+- Nikita Ravi
 - Tuhin Sarkar
+- Apoorva Balasubramanian
+- Nicole Hornbrook
+- Charlie Sale
 - Evan Williams
+
+*Alumni* 
+
+- Anirudh Vegesana (Pursuing MS at Stanford)
 
 You could join them! [Here are the instructions to get started](/join-lab).
