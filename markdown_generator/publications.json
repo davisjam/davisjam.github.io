@@ -128,9 +128,9 @@
             "venue": "IEEE S&P",
             "year": 2021,
             "paperBasename": "DavisServantLee-SelectiveMemo-IEEE-SP21.pdf",
-            "slidesBasename": "",
-            "artifactURL": "https://github.com/PurdueDualityLab/memoized-regex-engine",
-            "videoURL": "",
+            "slidesBasename": "DavisServantLee-SelectiveMemo-IEEE-SP21-slides.pptx",
+            "artifactURL": "https://doi.org/10.5281/zenodo.4718966",
+            "videoURL": "https://www.youtube.com/channel/UC6pXMS7qre9GZW7A7FVM90Q",
             "blogURL": "https://medium.com/@davisjam/using-selective-memoization-to-defeat-regular-expression-denial-of-service-f7acbbd34792"
         },
         {
