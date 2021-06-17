@@ -202,20 +202,24 @@ I am delighted to supervise many talented students:
 ### PhD
 
 - Wenxin Jiang
+- [Dharun Anand](https://www.linkedin.com/in/dharunanand/)
+- [Paschal Amusuo](https://www.linkedin.com/in/paschal-amusuo-134146b3/)
+
+### MS
+
+- [William "Trey" Maxam](https://www.linkedin.com/in/william-m-714184114/)
 
 ### Undergraduate
 
 *Current* 
 
 - Vishnu Banna
+- Akhil Chinnakotla
 - Efe Barlas
 - Xin Du
-- Nikita Ravi
-- Tuhin Sarkar
-- Apoorva Balasubramanian
-- Nicole Hornbrook
 - Charlie Sale
 - Evan Williams
+- Yuqing Fan
 
 *Alumni* 
 
