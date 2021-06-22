@@ -17,7 +17,7 @@ To see them organized by project, see [here](/research).
 2. *Low-Power Multi-Camera Object Re-Identication using Hierarchical Neural Networks*.  
  Goel, Tung, Hu, Wang, **Davis**, Thiruvathukal, and Lu.  
  ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED'21) 2021.  
- 
+ <a href="https://arxiv.org/pdf/2106.10588.pdf"><i class="fas fa-file-pdf"></i></a>
 3. *A Principled Approach to GraphQL Query Cost Analysis*.  
  Cha, Wittern, Baudart, **Davis**, Mandel, and Laredo.  
  ESEC/FSE 2020.  
