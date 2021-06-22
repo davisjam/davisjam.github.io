@@ -97,15 +97,19 @@ To see them organized by project, see [here](/research).
 
 ## US Patents
 
-1. *Testing of lock managers in computing environments*.  
+1. *Performing hierarchical provenance collection*.  
+ **Davis**, Rupprecht, Bhagwat, Arnold, and Sawdon.  
+ US patent, held by IBM 2021.  
+ 
+2. *Testing of lock managers in computing environments*.  
  Davis and **Davis**.  
  US patent, held by IBM 2020.  
  
-2. *File metadata verification in a distributed file system*.  
+3. *File metadata verification in a distributed file system*.  
  **Davis** and Davis.  
  US patent, held by IBM 2020.  
  
-3. *Detection of file corruption in a distributed file system*.  
+4. *Detection of file corruption in a distributed file system*.  
  **Davis**, Davis, and Knop.  
  US patent, held by IBM 2018.  
  

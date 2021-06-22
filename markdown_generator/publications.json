@@ -233,6 +233,17 @@
             "artifactURL": "",
             "videoURL": ""
         },
+        {
+            "type": "patent",
+            "authors": ["**Davis**", "Rupprecht", "Bhagwat", "Arnold", "Sawdon"],
+            "title": "Performing hierarchical provenance collection",
+            "venue": "US patent, held by IBM",
+            "year": 2021,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
         
 
         {
