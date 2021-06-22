@@ -223,6 +223,5 @@ I am delighted to supervise many talented students:
 *Alumni* 
 
 - Anirudh Vegesana (BS, Pursuing MS at Stanford)
-- Evan Williams (Transferred to Cornell to finish BS)
 
 You could join them! [Here are the instructions to get started](/join-lab).
