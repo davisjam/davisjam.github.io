@@ -218,11 +218,11 @@ I am delighted to supervise many talented students:
 - Efe Barlas
 - Xin Du
 - Charlie Sale
-- Evan Williams
 - Yuqing Fan
 
 *Alumni* 
 
-- Anirudh Vegesana (Pursuing MS at Stanford)
+- Anirudh Vegesana (BS, Pursuing MS at Stanford)
+- Evan Williams (Transferred to Cornell to finish BS)
 
 You could join them! [Here are the instructions to get started](/join-lab).
