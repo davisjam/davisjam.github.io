@@ -27,27 +27,33 @@ To see them organized by project, see [here](/research).
 
 FILE_PATH = "{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications"
 
+def makeLink(url):
+    if 'http' in url:
+        return url 
+    else:
+        return "{}/{}".format(FILE_PATH, url)
+
 def pub2md(pub):
     links = []
     if 'paperBasename' in pub and pub['paperBasename']:
-        links.append('<a href="{}/{}"><i class="fas fa-file-pdf"></i></a>'.format(
-            FILE_PATH, pub['paperBasename']
+        links.append('<a href="{}"><i class="fas fa-file-pdf"></i></a>'.format(
+            makeLink(pub['paperBasename'])
         ))
     if 'slidesBasename' in pub and pub['slidesBasename']:
-        links.append('<a href="{}/{}"><i class="fas fa-file-powerpoint"></i></a>'.format(
-            FILE_PATH, pub['slidesBasename']
+        links.append('<a href="{}"><i class="fas fa-file-powerpoint"></i></a>'.format(
+            makeLink(pub['slidesBasename'])
         ))
     if 'artifactURL' in pub and pub['artifactURL']:
         links.append('<a href="{}"><i class="fas fa-file-code"></i></a>'.format(
-            pub['artifactURL']
+            makeLink(pub['artifactURL'])
         ))
     if 'videoURL' in pub and pub['videoURL']:
         links.append('<a href="{}"><i class="fas fa-video"></i></a>'.format(
-            pub['videoURL']
+            makeLink(pub['videoURL'])
         ))
     if 'blogURL' in pub and pub['blogURL']:
         links.append('<a href="{}"><i class="fab fa-medium"></i></a>'.format(
-            pub['blogURL']
+            makeLink(pub['blogURL'])
         ))
     if 'bestPaperAward' in pub and pub['bestPaperAward']:
         links.append('[Best Paper Award](){: .btn}')
