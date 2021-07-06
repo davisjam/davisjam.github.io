@@ -83,7 +83,11 @@ To see them organized by project, see [here](/research).
 
 ## arXiv papers
 
-1. *Large-Scale Manual Validation of Bug Fixing Commits: A Fine-grained Analysis of Tangling*.  
+1. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+ Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
+ arXiv 2021.  
+ <a href="https://arxiv.org/abs/2107.00821"><i class="fas fa-file-pdf"></i></a>
+2. *Large-Scale Manual Validation of Bug Fixing Commits: A Fine-grained Analysis of Tangling*.  
  Herbold, Trautsch, ..., **Davis**, Serebrenik, and ....  
  arXiv 2020.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HerboldEtAl-TangledCommits-Arxiv2020.pdf"><i class="fas fa-file-pdf"></i></a>
