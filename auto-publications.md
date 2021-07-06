@@ -90,7 +90,7 @@ To see them organized by project, see [here](/research).
 2. *Large-Scale Manual Validation of Bug Fixing Commits: A Fine-grained Analysis of Tangling*.  
  Herbold, Trautsch, ..., **Davis**, Serebrenik, and ....  
  arXiv 2020.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HerboldEtAl-TangledCommits-Arxiv2020.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/abs/2011.06244"><i class="fas fa-file-pdf"></i></a>
 
 ## Posters
 
