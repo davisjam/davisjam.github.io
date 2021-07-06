@@ -101,22 +101,26 @@ To see them organized by project, see [here](/research).
 
 ## US Patents
 
-1. *Performing hierarchical provenance collection*.  
+1. *Injection of simulated hardware failure(s) in a file system for establishing file system tolerance-to-storage-failure(s)*.  
+ **Davis** and Davis.  
+ US patent, held by IBM 2021.  
+ <a href="https://patents.google.com/patent/US11023341B2/en"><i class="fas fa-file-pdf"></i></a>
+2. *Performing hierarchical provenance collection*.  
  **Davis**, Rupprecht, Bhagwat, Arnold, and Sawdon.  
  US patent, held by IBM 2021.  
- 
-2. *Testing of lock managers in computing environments*.  
+ <a href="https://patents.google.com/patent/US10891174B1/en"><i class="fas fa-file-pdf"></i></a>
+3. *Testing of lock managers in computing environments*.  
  Davis and **Davis**.  
  US patent, held by IBM 2020.  
- 
-3. *File metadata verification in a distributed file system*.  
+ <a href="https://patents.google.com/patent/US10614040B2/en"><i class="fas fa-file-pdf"></i></a>
+4. *File metadata verification in a distributed file system*.  
  **Davis** and Davis.  
  US patent, held by IBM 2020.  
- 
-4. *Detection of file corruption in a distributed file system*.  
+ <a href="https://patents.google.com/patent/US10642796B2/en"><i class="fas fa-file-pdf"></i></a>
+5. *Detection of file corruption in a distributed file system*.  
  **Davis**, Davis, and Knop.  
  US patent, held by IBM 2018.  
- 
+ <a href="https://patents.google.com/patent/US10229121B2/en"><i class="fas fa-file-pdf"></i></a>
 
 ## Dissertation
 

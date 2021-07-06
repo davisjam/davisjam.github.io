@@ -217,7 +217,7 @@
             "title": "Detection of file corruption in a distributed file system",
             "venue": "US patent, held by IBM",
             "year": 2018,
-            "paperBasename": "",
+            "paperBasename": "https://patents.google.com/patent/US10229121B2/en",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
@@ -228,7 +228,7 @@
             "title": "Testing of lock managers in computing environments",
             "venue": "US patent, held by IBM",
             "year": 2020,
-            "paperBasename": "",
+            "paperBasename": "https://patents.google.com/patent/US10614040B2/en",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
@@ -239,18 +239,30 @@
             "title": "File metadata verification in a distributed file system",
             "venue": "US patent, held by IBM",
             "year": 2020,
-            "paperBasename": "",
+            "paperBasename": "https://patents.google.com/patent/US10642796B2/en",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
         },
         {
             "type": "patent",
+            "authors": ["**Davis**", "Davis"],
+            "title": "Injection of simulated hardware failure(s) in a file system for establishing file system tolerance-to-storage-failure(s)",
+            "venue": "US patent, held by IBM",
+            "year": 2021,
+            "paperBasename": "https://patents.google.com/patent/US11023341B2/en",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        
+        {
+            "type": "patent",
             "authors": ["**Davis**", "Rupprecht", "Bhagwat", "Arnold", "Sawdon"],
             "title": "Performing hierarchical provenance collection",
             "venue": "US patent, held by IBM",
             "year": 2021,
-            "paperBasename": "",
+            "paperBasename": "https://patents.google.com/patent/US10891174B1/en",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
