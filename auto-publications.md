@@ -92,13 +92,6 @@ To see them organized by project, see [here](/research).
  arXiv 2020.  
  <a href="https://arxiv.org/abs/2011.06244"><i class="fas fa-file-pdf"></i></a>
 
-## Posters
-
-1. *Exemplars for Machine Learning: Towards Software Engineering & Reproducibility*.  
- Vivek, Chinnakotla, Banna, Vegesana, Yan, **Davis**, Lu, and Thiruvathukal.  
- SIAM Conference on Computational Science and Engineering (CSE'20) 2020.  
- 
-
 ## US Patents
 
 1. *Injection of simulated hardware failure(s) in a file system for establishing file system tolerance-to-storage-failure(s)*.  
@@ -121,6 +114,13 @@ To see them organized by project, see [here](/research).
  **Davis**, Davis, and Knop.  
  US patent, held by IBM 2018.  
  <a href="https://patents.google.com/patent/US10229121B2/en"><i class="fas fa-file-pdf"></i></a>
+
+## Posters
+
+1. *Exemplars for Machine Learning: Towards Software Engineering & Reproducibility*.  
+ Vivek, Chinnakotla, Banna, Vegesana, Yan, **Davis**, Lu, and Thiruvathukal.  
+ SIAM Conference on Computational Science and Engineering (CSE'20) 2020.  
+ 
 
 ## Dissertation
 

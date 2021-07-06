@@ -87,8 +87,8 @@ with open('publications.json', 'r') as infile, open('../auto-publications.md', '
     journalPubs = [ pub for pub in pubs if pub['type'] == JOURNAL_PUB ]
     shortPubs = [ pub for pub in pubs if pub['type'] == SHORT_PUB ]
     arxivPubs = [ pub for pub in pubs if pub['type'] == ARXIV_PUB ]
-    posterPubs = [ pub for pub in pubs if pub['type'] == POSTER_PUB ]
     patentPubs = [ pub for pub in pubs if pub['type'] == PATENT_PUB ]
+    posterPubs = [ pub for pub in pubs if pub['type'] == POSTER_PUB ]
     dissertationPubs = [ pub for pub in pubs if pub['type'] == DISSERTATION_PUB ]
 
     if confPubs:
@@ -103,12 +103,12 @@ with open('publications.json', 'r') as infile, open('../auto-publications.md', '
     if arxivPubs:
         print("Writing the {} arxiv pubs".format(len(arxivPubs)))
         writePubs(outfile, "arXiv papers", arxivPubs)
-    if posterPubs:
-        print("Writing the {} posters".format(len(posterPubs)))
-        writePubs(outfile, "Posters", posterPubs)
     if patentPubs:
         print("Writing the {} patents".format(len(patentPubs)))
         writePubs(outfile, "US Patents", patentPubs)
+    if posterPubs:
+        print("Writing the {} posters".format(len(posterPubs)))
+        writePubs(outfile, "Posters", posterPubs)
     if dissertationPubs:
         print("Writing the {} dissertations".format(len(dissertationPubs)))
         writePubs(outfile, "Dissertation", dissertationPubs)
