@@ -162,9 +162,13 @@ For example, enabling reproducible, high-quality machine learning and computer v
 1. How might provenance be applied to assist data scientists? ([VLDB'20](/files/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf), [SIGMOD'19 demo](/files/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf))
    - With a team at IBM Research (Almaden), we applied provenance techniques to the data science context.
      Our Ursprung system facilitates pipeline reproduction and extension.
-2. What should high-quality machine learning software look like? ([CSE'20 poster]())
+2. What should high-quality machine learning software look like? ([CSE'20 poster](), [arXiv'21 report](https://arxiv.org/abs/2107.00821))
    - I work with a [team of students](https://engineering.purdue.edu/VIP/teams/tensorflow) sponsored by Google's [TensorFlow Model Garden](https://blog.tensorflow.org/2020/03/introducing-model-garden-for-tensorflow-2.html) project.
      We are developing high-quality examples of machine learning software in TensorFlow, focused on problems in computer vision.
+
+This research involves a collaboration with Yung-Hsiang Lu, George K. Thiruvathukal, and Neil Klingensmith, and is supported financially by:
+- NSF [#2107230](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2107230)
+- Gifts from Google
 
 ### Skilled practitioners through computing education
 
