@@ -149,6 +149,17 @@
 
         {
             "type": "short",
+            "authors": ["Winkler", "Agarwal", "Tung", "Ugalde", "Jung", "**Davis**"],
+            "title": "A Replication of \"DeepBugs: A Learning Approach to Name-based Bug Detection\"",
+            "venue": "ESEC/FSE (artifact track)",
+            "year": 2021,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "short",
             "authors": ["Rupprecht", "**Davis**", "Lubbock", "Tyson", "Bhagwat"],
             "title": "Ursprung: Provenance for Large-Scale Analytics Environments",
             "venue": "SIGMOD (demo track)",

@@ -72,11 +72,15 @@ To see them organized by project, see [here](/research).
 
 ## Peer-reviewed short papers
 
-1. *Ursprung: Provenance for Large-Scale Analytics Environments*.  
+1. *A Replication of "DeepBugs: A Learning Approach to Name-based Bug Detection"*.  
+ Winkler, Agarwal, Tung, Ugalde, Jung, and **Davis**.  
+ ESEC/FSE (artifact track) 2021.  
+ 
+2. *Ursprung: Provenance for Large-Scale Analytics Environments*.  
  Rupprecht, **Davis**, Lubbock, Tyson, and Bhagwat.  
  SIGMOD (demo track) 2019.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf"><i class="fas fa-file-pdf"></i></a>
-2. *The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture*.  
+3. *The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture*.  
  **Davis**, Kildow, and Lee.  
  EuroSec 2017.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisKildowLee-EHP-EuroSec17.pdf"><i class="fas fa-file-pdf"></i></a>
