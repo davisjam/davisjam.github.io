@@ -156,7 +156,8 @@
             "paperBasename": "https://github.com/PurdueDualityLab/deepbugs-jr/raw/develop/paper/Deepbugs_Replication_Paper_cameraReady.pdf",
             "slidesBasename": "",
             "artifactURL": "https://doi.org/10.5281/zenodo.5110820",
-            "videoURL": ""
+            "videoURL": "",
+            "blogURL": "https://davisjam.medium.com/a-partial-replication-of-deepbugs-a-learning-approach-to-name-based-bug-detection-1e35421a69e"
         },
         {
             "type": "short",
