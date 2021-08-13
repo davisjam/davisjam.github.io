@@ -217,11 +217,10 @@ I am delighted to supervise many talented students:
 
 *Current* 
 
-- Vishnu Banna
-- Akhil Chinnakotla
-- Efe Barlas
-- Xin Du
-- Charlie Sale
+- The TensorFlow Model Garden research team, led by Vishnu Banna
+- Efe Barlas (SURF)
+- Xin Du (SURF)
+- Charlie Sale (OUR Scholar)
 
 *Alumni* 
 
