@@ -31,9 +31,9 @@ If you have the will to learn, you can succeed in research -- but you must inves
 
 | Requirement | Description | Metric | How to get there |
 |-|-|-|-|
-| Time | "Research" means "contributing meaningfully to the collection of human knowledge". Progress is made through disciplined long-term focus. | I expect *graduate* research assistants to commit to 20 hours/week on a project, with peaks and valleys tied to grant and paper deadlines. I expect *undergraduate* research assistants to work for around 10 hours/week, with peaks and valleys tied to exams and projects. | **Identify your priorities**. If you want to *be* a researcher, you may need to choose *not* to be something else (e.g. not participating in 5 clubs and 2 intramural leagues). |
-| Technical fundamentals* | You should be fluent in several programming languages (e.g. Python, JavaScript, and C/C++/Java). | You can write interesting programs with minimal reference to online documentation ([ref](https://softwareengineering.stackexchange.com/a/154884)). | Practice. There are lots of "30 days of code"-type curricula, e.g. [Advent of Code](https://adventofcode.com). |
-| Engineering knowledge | You should have a reasonable command of modern software engineering techniques (e.g. unit testing, CI, object-oriented programming, software registries, git, GitHub). | You have used these techniques on a non-trivial project that you can show me. | Use free versions of modern tools through GitHub. Read the book [Software Engineering at Google](https://learning.oreilly.com/library/view/software-engineering-at/9781492082781/). |
+| Time | "Research" means "contributing meaningfully to the collection of human knowledge". Progress is made through disciplined long-term focus. | I expect *graduate* research assistants to commit to 20+ hours/week on a project, with peaks and valleys tied to grant and paper deadlines. I expect *undergraduate* research assistants to work for around 10 hours/week, with peaks and valleys tied to exams and projects. | **Identify your priorities**. If you want to *be* a researcher, you may need to choose *not* to be something else (e.g. not participating in 5 clubs and 2 intramural leagues). |
+| Technical fundamentals* | You should be fluent in several programming languages (e.g. Python, JavaScript, and C/C++/Java). | You can write interesting programs with minimal reference to online documentation ([ref](https://softwareengineering.stackexchange.com/a/154884)). | Practice. There are lots of "30 days of code"-type curricula, e.g. [Advent of Code](https://adventofcode.com). Try the problems from [Cracking the Coding Interview](https://en.wikipedia.org/wiki/Cracking_the_Coding_Interview). |
+| Engineering knowledge | You should have a reasonable command of modern software engineering techniques (e.g. unit testing, CI, object-oriented programming, software registries, git, GitHub). | You have used these techniques on a non-trivial project that you can show me. | Use free versions of modern tools through GitHub. Read the book [Software Engineering at Google](https://learning.oreilly.com/library/view/software-engineering-at/9781492082781/) (free through the Purdue library) |
 
 *Some of my projects are focused on human subjects.
 If you have a background in human subjects research methods (e.g. surveys, interviews), that is a good substitute for some technical fundamentals.
@@ -41,7 +41,7 @@ If you have a background in human subjects research methods (e.g. surveys, inter
 ## General instructions
 
 Please write me an email and tell me how you might fit into my team.
-Here are my questions:
+There are detailed notes for graduate vs. undergraduate students further down, but I have the same general questions for everyone:
 
 1. Why are you interested in my lab in particular?
 2. What experience do you have in research? (e.g., teaching yourself new things, reading research papers)
@@ -66,6 +66,12 @@ If you are *applying* to Purdue’s ECE department for graduate work, send me th
 
 If you are a current Purdue undergraduate, send me the email described above, with the subject "*Prospective assistant: undergraduate*".
 I am happy to hear from undergraduate students in ECE, CS, CIT, and related majors, and further afield if you think it's a good fit.
+
+However, I do not do "freelance" mentoring. If you want to be an undergraduate researcher in my lab, you will need to use one of Purdue's mechanisms:
+- VIP teams (if I am leading one at the moment, e.g. the TensorFlow Model Garden team)
+- The [OUR Scholars](https://www.purdue.edu/undergrad-research/students/OUR-Scholars.php) academic-year program (requires my sponsorship)
+- The [SURF](https://engineering.purdue.edu/Engr/Research/EURO/SURF) summer research program (requires my sponsorship)
+- I am willing to consider an independent study, but only when you intend to springboard into the OUR Scholars or SURF programs.
 
 ## Onboarding process
 
