@@ -13,6 +13,17 @@ If you take one of my courses, you will learn to ask and answer not only "*What?
 
 ## Courses taught
 
+### Fall 2021 (Purdue)
+
+- [ECE 461: Software Engineering](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo/AboutUs?courseid=402&show=true&type=undergrad).
+- [VIP: TensorFlow Team](https://engineering.purdue.edu/VIP/teams/tensorflow).
+
+### Spring 2021 (Purdue)
+
+- [ECE 595: Advanced Software Engineering](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=542&show=true&type=undergrad).
+- [VIP: TensorFlow Team](https://engineering.purdue.edu/VIP/teams/tensorflow).
+- [VIP: Regex Team](https://engineering.purdue.edu/VIP/teams/saferegex).
+
 ### Fall 2020 (Purdue)
 
 - [ECE 368: Data Structures](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=542&show=true&type=undergrad) with Cheng-Kok Koh.
