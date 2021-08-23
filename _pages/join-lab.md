@@ -53,6 +53,7 @@ To help me get to know you better, please:
 
 - Attach a resume or CV.
 - Attach 1-3 relevant and representative projects (e.g. open-source code), reports, or publications, and explain your role in the project. These should demonstrate your potential to conduct research in my lab. If you do not have anything to show along these lines, your email should explain why you think you are prepared to engage in research.
+- Read one or more of my recent research publications and suggest some ideas for a follow-up study.
 
 Finally, to match my email filter, please include the magic word *xyzzy* somewhere in your email.
 
