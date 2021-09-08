@@ -12,7 +12,8 @@ redirect_from:
 
 ## Actively recruiting
 
-**I welcome *graduate* and *undergraduate* researchers passionate about improving the quality of computing systems.** Please review the lab description and the active projects to understand whether you are interested in joining our work. If so, follow [these instructions](/join-lab) to check your qualifications and submit your application.
+**I welcome *graduate* and *undergraduate* researchers passionate about improving the quality of computing systems.**
+Please review the lab description and the active projects to understand whether you are interested in joining our work. If so, follow [these instructions](/join-lab) to check your qualifications and submit your application.
 {: .notice--info}
 
 For a full publication list of our publications, see [here](/publications).
@@ -20,7 +21,7 @@ Here are some of our current projects:
 
 - Software engineering for domain-specific languages
 - "[Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)" &mdash; Software engineering and its intersection with AI + Machine Learning
-- Cybersecurity &mdash; e.g. Internet security, IoT security
+- Engineering for safety and security &mdash; in both cyber- and cyber-physical systems.
 
 ## About the Duality Lab
 
@@ -218,8 +219,7 @@ I am delighted to supervise many talented students:
 *Current* 
 
 - The TensorFlow Model Garden research team, led by Vishnu Banna
-- Efe Barlas (SURF)
-- Xin Du (SURF)
+- Efe Barlas (OUR Scholar)
 - Charlie Sale (OUR Scholar)
 
 *Alumni* 
