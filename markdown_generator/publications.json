@@ -151,7 +151,7 @@
             "title": "Efficient  Computer  Vision  on  Edge  Devices  with  Pipeline-Parallel Hierarchical Neural Network",
             "venue": "Proceedings of the 27th Asia and South Pacific Design Automation Conference (ASP-DAC)",
             "year": 2022,
-            "paperBasename": "",
+            "paperBasename": "GoelTungHuThiruvathukalDavisLu-ASPDAC2022.pdf",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": "",
@@ -197,11 +197,11 @@
 
 
         {
-            "type": "arxiv",
+            "type": "journal",
             "authors": ["Herbold", "Trautsch", "...", "**Davis**", "Serebrenik", "..."],
-            "title": "Large-Scale Manual Validation of Bug Fixing Commits: A Fine-grained Analysis of Tangling",
-            "venue": "arXiv",
-            "year": 2020,
+            "title": "A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits",
+            "venue": "Empirical Software Engineering (EMSE)",
+            "year": 2021,
             "paperBasename": "https://arxiv.org/abs/2011.06244",
             "slidesBasename": "",
             "artifactURL": "",
@@ -322,7 +322,7 @@
             "title": "An Intercultural Engineering Module for Software Engineers",
             "venue": "2021 Annual Colloquium for International Engineering Education (ACIEE)",
             "year": 2021,
-            "paperBasename": "",
+            "paperBasename": "HornbrookDavis-InterculturalLearningModule-ACIEE2021.pdf",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": "",

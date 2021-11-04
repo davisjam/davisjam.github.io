@@ -13,7 +13,7 @@ To see them organized by project, see [here](/research).
 1. *Efficient  Computer  Vision  on  Edge  Devices  with  Pipeline-Parallel Hierarchical Neural Network*.  
  Goel, Tung, Hu, Thiruvathukal, **Davis**, and Lu.  
  Proceedings of the 27th Asia and South Pacific Design Automation Conference (ASP-DAC) 2022.  
- 
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GoelTungHuThiruvathukalDavisLu-ASPDAC2022.pdf"><i class="fas fa-file-pdf"></i></a>
 2. *Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)*.  
  **Davis**, Servant, and Lee.  
  IEEE S&P 2021.  
@@ -65,11 +65,15 @@ To see them organized by project, see [here](/research).
 
 ## Peer-reviewed journal papers
 
-1. *Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis*.  
+1. *A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits*.  
+ Herbold, Trautsch, ..., **Davis**, Serebrenik, and ....  
+ Empirical Software Engineering (EMSE) 2021.  
+ <a href="https://arxiv.org/abs/2011.06244"><i class="fas fa-file-pdf"></i></a>
+2. *Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis*.  
  Kazerouni, **Davis**, Basak, Shaffer, Servant, and Edwards.  
  Journal of Systems and Software (JSS) 2021.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/KazerouniDavisBasakShafferServantEdwards-JSS21.pdf"><i class="fas fa-file-pdf"></i></a>
-2. *Expectations and Experiences of Short-Term Study Abroad Leadership Teams*.  
+3. *Expectations and Experiences of Short-Term Study Abroad Leadership Teams*.  
  Ozkan, Davis, **Davis**, James, Murzi, and Knight.  
  Journal of International Engineering Education (JIEE) 2020.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OzkanDavisDavisJamesMurziKnight-JIEE20.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OzkanDavisDavisJamesMurziKnight-JIEE20-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
@@ -95,10 +99,6 @@ To see them organized by project, see [here](/research).
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/abs/2107.00821"><i class="fas fa-file-pdf"></i></a>
-2. *Large-Scale Manual Validation of Bug Fixing Commits: A Fine-grained Analysis of Tangling*.  
- Herbold, Trautsch, ..., **Davis**, Serebrenik, and ....  
- arXiv 2020.  
- <a href="https://arxiv.org/abs/2011.06244"><i class="fas fa-file-pdf"></i></a>
 
 ## US Patents
 
@@ -128,7 +128,7 @@ To see them organized by project, see [here](/research).
 1. *An Intercultural Engineering Module for Software Engineers*.  
  Hornbrook and **Davis**.  
  2021 Annual Colloquium for International Engineering Education (ACIEE) 2021.  
- 
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HornbrookDavis-InterculturalLearningModule-ACIEE2021.pdf"><i class="fas fa-file-pdf"></i></a>
 2. *Exemplars for Machine Learning: Towards Software Engineering & Reproducibility*.  
  Vivek, Chinnakotla, Banna, Vegesana, Yan, **Davis**, Lu, and Thiruvathukal.  
  SIAM Conference on Computational Science and Engineering (CSE'20) 2020.  
