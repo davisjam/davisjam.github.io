@@ -128,7 +128,7 @@ To see them organized by project, see [here](/research).
 1. *An Intercultural Engineering Module for Software Engineers*.  
  Hornbrook and **Davis**.  
  2021 Annual Colloquium for International Engineering Education (ACIEE) 2021.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HornbrookDavis-InterculturalLearningModule-ACIEE2021.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HornbrookDavis-InterculturalLearningModule-ACIEE2021.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HornbrookDavis-InterculturalLearningModule-ACIEE2021-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 2. *Exemplars for Machine Learning: Towards Software Engineering & Reproducibility*.  
  Vivek, Chinnakotla, Banna, Vegesana, Yan, **Davis**, Lu, and Thiruvathukal.  
  SIAM Conference on Computational Science and Engineering (CSE'20) 2020.  
