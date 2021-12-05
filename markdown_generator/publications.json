@@ -157,6 +157,18 @@
             "videoURL": "",
             "blogURL": ""
         },
+        {
+            "type": "conference",
+            "authors": ["Barlas", "Du", "**Davis**"],
+            "title": "Exploiting Input Sanitization for Regex Denial of Service",
+            "venue": "Proceedings of the ACM/IEEE 44th International Conference on Software Engineering (ICSE)",
+            "year": 2022,
+            "paperBasename": "BarlasDuDavis-WebREDOS-ICSE2022.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
 
 
         {
@@ -194,19 +206,6 @@
             "videoURL": ""
         },
 
-
-
-        {
-            "type": "journal",
-            "authors": ["Herbold", "Trautsch", "...", "**Davis**", "Serebrenik", "..."],
-            "title": "A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits",
-            "venue": "Empirical Software Engineering (EMSE)",
-            "year": 2021,
-            "paperBasename": "https://arxiv.org/abs/2011.06244",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": ""
-        },
         {
             "type": "arxiv",
             "authors": ["Banna", "Chinnakotla", "Yan", "Vegesana", "Vivek", "Krishnappa", "Jiang", "Lu", "Thiruvathukal", "**Davis**"],
@@ -291,7 +290,17 @@
             "videoURL": ""
         },
         
-
+        {
+            "type": "journal",
+            "authors": ["Herbold", "Trautsch", "...", "**Davis**", "Serebrenik", "..."],
+            "title": "A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits",
+            "venue": "Empirical Software Engineering (EMSE)",
+            "year": 2021,
+            "paperBasename": "https://arxiv.org/abs/2011.06244",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
         {
             "type": "journal",
             "authors": ["Kazerouni", "**Davis**", "Basak", "Shaffer", "Servant", "Edwards"],
@@ -316,6 +325,7 @@
             "videoURL": "",
             "blogURL": ""
         },
+
         {
             "type": "poster",
             "authors": ["Hornbrook", "**Davis**"],

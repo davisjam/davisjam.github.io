@@ -134,6 +134,7 @@ Regexes gone awry have caused [Internet-scale outages](https://blog.cloudflare.c
    - We found that "most regexes are regexes", with no significant outliers by programming language or extraction methodology.
 5. How can we address Regex Denial of Service in a backwards-compatible way? ([IEEE S&P'21](/files/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf))
    - We describe how selective memoization can protect existing regex engines without major changes.
+6. Does sharing valid input formats with clients expose web services to Regex Denial of Service? ([ICSE'22](/files/publications/BarlasDuDavis-WebREDOS-ICSE22.pdf))
 
 **DSL #2: GraphQL**
 
