@@ -169,6 +169,18 @@
             "videoURL": "",
             "blogURL": ""
         },
+        {
+            "type": "conference",
+            "authors": ["Xu", "**Davis**", "Hu", "Jindal"],
+            "title": "An Empirical Study on the Impact of Parameters on Mobile App Energy Usage",
+            "venue": "Proceedings of the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2022,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
 
 
         {
