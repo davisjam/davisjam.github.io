@@ -21,7 +21,7 @@ To see them organized by project, see [here](/research).
 3. *An Empirical Study on the Impact of Parameters on Mobile App Energy Usage*.  
  Xu, **Davis**, Hu, and Jindal.  
  Proceedings of the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER) 2022.  
- 
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/XuDavisHuJindal-AndroidDeepParameters-SANER2022.pdf"><i class="fas fa-file-pdf"></i></a>
 4. *Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)*.  
  **Davis**, Servant, and Lee.  
  IEEE S&P 2021.  
