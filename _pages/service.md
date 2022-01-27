@@ -33,11 +33,11 @@ My lab maintains software that assists in improving software quality.
 
 Here are the tools we currently support:
 
-- [safe-regex](https://github.com/davisjam/safe-regex): Check if your regexes are linear-time. The [npm module](https://github.com/davisjam/safe-regex) gets 40M downloads/month. The project has 5M dependents amongst GitHub projects.
+- [safe-regex](https://github.com/davisjam/safe-regex): Check if your regexes are linear-time. The [npm module](https://github.com/davisjam/safe-regex) gets 76M downloads/month. The project has 5M dependents amongst GitHub projects.
 - [vuln-regex-detector](https://github.com/davisjam/vuln-regex-detector): Ensemble-based approach to check if your regexes are linear-time. Includes variant testing.
 
 ### Writings
 
 My lab prepares writeups to summarize our research findings in ways that can benefit the practitioner community.
 You can read them [here](https://medium.com/@davisjam).
-These appear to be helpful &mdash; 47,000 visitors and counting!
+These appear to be helpful &mdash; 51,000 visitors and counting!

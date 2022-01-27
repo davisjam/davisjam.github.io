@@ -17,6 +17,8 @@ I am an Assistant Professor at Purdue University, in the department of Electrica
 I lead the [Duality Lab](/research).
 In our research, we study the engineering of complex computing systems.
 **We improve the human experience by improving the quality of complex computing systems**.
-Our primary interests are in the *safety* and *security* of software-centric systems, achieved in part through effective *engineering processes*.
+My primary interests are in the *safety* and *security* of software-centric systems, achieved in part through effective *engineering processes*.
 
-Use the links at the top to learn more about my activities.
+My lab's work is typically published in software engineering (ICSE, FSE, ASE) and cybersecurity (S&P, USENIX) conferences.
+
+Use the links at the top to learn more about our activities.

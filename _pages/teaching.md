@@ -13,6 +13,11 @@ If you take one of my courses, you will learn to ask and answer not only "*What?
 
 ## Courses taught
 
+### Spring 2022 (Purdue)
+
+- [ECE 595: Advanced Software Engineering](https://engineering.purdue.edu/ECE/Academics/Online/Courses/advanced-software-engineering).
+- [VIP: TensorFlow Team](https://engineering.purdue.edu/VIP/teams/tensorflow).
+
 ### Fall 2021 (Purdue)
 
 - [ECE 461: Software Engineering](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo/AboutUs?courseid=402&show=true&type=undergrad).
@@ -20,7 +25,7 @@ If you take one of my courses, you will learn to ask and answer not only "*What?
 
 ### Spring 2021 (Purdue)
 
-- [ECE 595: Advanced Software Engineering](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=542&show=true&type=undergrad).
+- [ECE 595: Advanced Software Engineering](https://engineering.purdue.edu/ECE/Academics/Online/Courses/advanced-software-engineering).
 - [VIP: TensorFlow Team](https://engineering.purdue.edu/VIP/teams/tensorflow).
 - [VIP: Regex Team](https://engineering.purdue.edu/VIP/teams/saferegex).
 

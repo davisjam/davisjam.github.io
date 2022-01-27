@@ -301,6 +301,17 @@
             "artifactURL": "",
             "videoURL": ""
         },
+        {
+            "type": "patent",
+            "authors": ["Davis", "**Davis**"],
+            "title": "Verification of the Integrity of Data Files Stored in Copy-on-Write (CoW) Based File System Snapshots",
+            "venue": "US patent, held by IBM",
+            "year": 2021,
+            "paperBasename": "https://patents.google.com/patent/US11176090B2/en",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
         
         {
             "type": "journal",

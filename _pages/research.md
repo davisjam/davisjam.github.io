@@ -13,15 +13,16 @@ redirect_from:
 ## Actively recruiting
 
 **I welcome *graduate* and *undergraduate* researchers passionate about improving the quality of computing systems.**
-Please review the lab description and the active projects to understand whether you are interested in joining our work. If so, follow [these instructions](/join-lab) to check your qualifications and submit your application.
+Please review the lab description and the active projects to understand whether you are interested in joining our work.
+If so, follow [these instructions](/join-lab) to check your qualifications and submit your application.
 {: .notice--info}
 
-For a full publication list of our publications, see [here](/publications).
+For a full list of our publications, see [here](/publications).
 Here are some of our current projects:
 
-- Software engineering for domain-specific languages
+- Secure software engineering for domain-specific languages (regexes, GraphQL)
 - "[Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)" &mdash; Software engineering and its intersection with AI + Machine Learning
-- Engineering for safety and security &mdash; in both cyber- and cyber-physical systems.
+- Engineering for safety and security &mdash; in cyber- and cyber-physical systems
 
 ## About the Duality Lab
 
@@ -43,7 +44,10 @@ Three factors are foundational to our success:
 2. Our **data-driven** approach grounds our work in real-world computing systems, ensuring that our findings and proposals impact the quality of computing systems in the here-and-now, not in the what-might-be.
 3. Our **readiness to re-imagine** enables us to propose, design, and implement new paradigms.
 
-In order to improve the quality of *existing* computing systems, we take a scientific engineering approach. We empirically study engineering practices in order to drive the development of tools and systems that reflect practitioners’ needs and address their misconceptions. We blend techniques from software engineering, systems, and security in order to understand, measure, and ameliorate the issues that computing practitioners face. We apply methodologies appropriate to the task at hand: static and dynamic program analysis, pattern recognition and machine learning, algorithm development, and plenty of system building and hacking.
+In order to improve the quality of *existing* computing systems, we take a scientific engineering approach.
+We empirically study engineering failures in order to drive the development of tools and systems that reflect practitioners’ needs and address their misconceptions.
+We blend techniques from software engineering, systems, and security in order to understand, measure, and ameliorate the issues that computing practitioners face.
+We apply methodologies appropriate to the task at hand: static and dynamic program analysis, pattern recognition and machine learning, algorithm development, and plenty of system building and hacking.
 
 In order to improve the quality of *future* computing systems, we are interested in:
 
@@ -133,8 +137,9 @@ Regexes gone awry have caused [Internet-scale outages](https://blog.cloudflare.c
 4. How generalizable is regex research? ([ASE'19](/files/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf))
    - We found that "most regexes are regexes", with no significant outliers by programming language or extraction methodology.
 5. How can we address Regex Denial of Service in a backwards-compatible way? ([IEEE S&P'21](/files/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf))
-   - We describe how selective memoization can protect existing regex engines without major changes.
+   - We described how selective memoization can protect existing regex engines without major changes.
 6. Does sharing valid input formats with clients expose web services to Regex Denial of Service? ([ICSE'22](/files/publications/BarlasDuDavis-WebREDOS-ICSE22.pdf))
+   - We proposed a black-box technique to measure the risks of ReDoS in live web services.
 
 **DSL #2: GraphQL**
 
@@ -190,7 +195,8 @@ However, studying abroad is expensive; to improve accessibility, I am also inter
 
 *Specific projects:*
 
-1. Study-abroad programs are sustained by faculty member involvement. These leaders constantly encounter the unexpected while abroad, perhaps decreasing their willingness to lead again. In what ways are those faculty members surprised (pleasantly and unpleasantly) by their experiences? ([JIEE'21](/files/publications/OzkanDavisDavisJamesMurziKnight-JIEE21.pdf)).
+1. Study-abroad programs are sustained by faculty member involvement. These leaders constantly encounter the unexpected while abroad, perhaps decreasing their willingness to lead again. In what ways are those faculty members surprised (pleasantly and unpleasantly) by their experiences? ([JIEE'21](/files/publications/OzkanDavisDavisJamesMurziKnight-JIEE21.pdf)). 
+2. An intercultural learning module for software engineers. ([ACIEE'21](/files/publications/HornbrookDavis-InterculturalLearningModule-ACIEE2021.pdf)).
 
 **Area #2: Teaching software testing**
 
@@ -207,13 +213,14 @@ I am delighted to supervise many talented students:
 
 ### PhD
 
-- Wenxin Jiang
+- [Wenxin Jiang](https://www.linkedin.com/in/wenxin-jiang/)
 - [Dharun Anand](https://www.linkedin.com/in/dharunanand/)
 - [Paschal Amusuo](https://www.linkedin.com/in/paschal-amusuo-134146b3/)
 
 ### MS
 
 - [William "Trey" Maxam](https://www.linkedin.com/in/william-m-714184114/)
+- [Geoffrey Cramer](https://www.linkedin.com/in/geoff-cramer-85b430129/)
 
 ### Undergraduate
 
