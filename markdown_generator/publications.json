@@ -185,6 +185,30 @@
 
         {
             "type": "short",
+            "authors": ["Gopalakrishna", "Anandayuvaraj", "Detti", "Bland", "Rahaman", "**Davis**"],
+            "title": "“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices",
+            "venue": "ICSE-SERP4IoT (8-page track)",
+            "year": 2022,
+            "paperBasename": "GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
+        {
+            "type": "short",
+            "authors": ["**Davis**", "Amusuo", "Bushagour"],
+            "title": "Experience Paper: A First Offering of Software Engineering",
+            "venue": "ICSE-DREE",
+            "year": 2022,
+            "paperBasename": "DavisAmusuoBushagour-ExperienceIn461.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
+        {
+            "type": "short",
             "authors": ["Winkler", "Agarwal", "Tung", "Ugalde", "Jung", "**Davis**"],
             "title": "A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'",
             "venue": "ESEC/FSE (artifact track)",
