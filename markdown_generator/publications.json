@@ -185,6 +185,18 @@
 
         {
             "type": "short",
+            "authors": ["Veselsky", "West", "Ahlgren", "Goel", "Jiang", "Lee", "Kim", "**Davis**", "Thiruvathukal", "Klingensmith"],
+            "title": "Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach",
+            "venue": "DI-CPS",
+            "year": 2022,
+            "paperBasename": "VeselskyWestAhlgrenGoelJiangLeeKimDavisThiruvathukalKlingensmith-V2VTrust.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
+        {
+            "type": "short",
             "authors": ["Gopalakrishna", "Anandayuvaraj", "Detti", "Bland", "Rahaman", "**Davis**"],
             "title": "“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices",
             "venue": "ICSE-SERP4IoT (8-page track)",

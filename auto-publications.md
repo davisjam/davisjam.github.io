@@ -88,23 +88,27 @@ To see them organized by project, see [here](/research).
 
 ## Peer-reviewed short papers
 
-1. *“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices*.  
+1. *Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach*.  
+ Veselsky, West, Ahlgren, Goel, Jiang, Lee, Kim, **Davis**, Thiruvathukal, and Klingensmith.  
+ DI-CPS 2022.  
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/VeselskyWestAhlgrenGoelJiangLeeKimDavisThiruvathukalKlingensmith-V2VTrust.pdf"><i class="fas fa-file-pdf"></i></a>
+2. *“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices*.  
  Gopalakrishna, Anandayuvaraj, Detti, Bland, Rahaman, and **Davis**.  
  ICSE-SERP4IoT (8-page track) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf"><i class="fas fa-file-pdf"></i></a>
-2. *Experience Paper: A First Offering of Software Engineering*.  
+3. *Experience Paper: A First Offering of Software Engineering*.  
  **Davis**, Amusuo, and Bushagour.  
  ICSE-DREE 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisAmusuoBushagour-ExperienceIn461.pdf"><i class="fas fa-file-pdf"></i></a>
-3. *A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'*.  
+4. *A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'*.  
  Winkler, Agarwal, Tung, Ugalde, Jung, and **Davis**.  
  ESEC/FSE (artifact track) 2021.  
  <a href="https://github.com/PurdueDualityLab/deepbugs-jr/blob/develop/paper/Deepbugs_Replication_Paper_Abstract.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://doi.org/10.5281/zenodo.5110820"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/a-partial-replication-of-deepbugs-a-learning-approach-to-name-based-bug-detection-1e35421a69e"><i class="fab fa-medium"></i></a>
-4. *Ursprung: Provenance for Large-Scale Analytics Environments*.  
+5. *Ursprung: Provenance for Large-Scale Analytics Environments*.  
  Rupprecht, **Davis**, Lubbock, Tyson, and Bhagwat.  
  SIGMOD (demo track) 2019.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf"><i class="fas fa-file-pdf"></i></a>
-5. *The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture*.  
+6. *The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture*.  
  **Davis**, Kildow, and Lee.  
  EuroSec 2017.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisKildowLee-EHP-EuroSec17.pdf"><i class="fas fa-file-pdf"></i></a>
