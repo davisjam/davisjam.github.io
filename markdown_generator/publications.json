@@ -148,7 +148,7 @@
         {
             "type": "conference",
             "authors": ["Goel", "Tung", "Hu", "Thiruvathukal", "**Davis**", "Lu"],
-            "title": "Efficient  Computer  Vision  on  Edge  Devices  with  Pipeline-Parallel Hierarchical Neural Network",
+            "title": "Efficient Computer Vision on Edge Devices with Pipeline-Parallel Hierarchical Neural Network",
             "venue": "Proceedings of the 27th Asia and South Pacific Design Automation Conference (ASP-DAC)",
             "year": 2022,
             "paperBasename": "GoelTungHuThiruvathukalDavisLu-ASPDAC2022.pdf",
@@ -167,7 +167,7 @@
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": "",
-            "blogURL": ""
+            "blogURL": "https://davisjam.medium.com/exploiting-input-sanitization-for-regex-denial-of-service-2366ff8c7c42"
         },
         {
             "type": "conference",

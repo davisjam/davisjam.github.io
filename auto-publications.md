@@ -10,14 +10,14 @@ To see them organized by project, see [here](/research).
 
 ## Peer-reviewed conference papers
 
-1. *Efficient  Computer  Vision  on  Edge  Devices  with  Pipeline-Parallel Hierarchical Neural Network*.  
+1. *Efficient Computer Vision on Edge Devices with Pipeline-Parallel Hierarchical Neural Network*.  
  Goel, Tung, Hu, Thiruvathukal, **Davis**, and Lu.  
  Proceedings of the 27th Asia and South Pacific Design Automation Conference (ASP-DAC) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GoelTungHuThiruvathukalDavisLu-ASPDAC2022.pdf"><i class="fas fa-file-pdf"></i></a>
 2. *Exploiting Input Sanitization for Regex Denial of Service*.  
  Barlas, Du, and **Davis**.  
  Proceedings of the ACM/IEEE 44th International Conference on Software Engineering (ICSE) 2022.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/BarlasDuDavis-WebREDOS-ICSE2022.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/BarlasDuDavis-WebREDOS-ICSE2022.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/exploiting-input-sanitization-for-regex-denial-of-service-2366ff8c7c42"><i class="fab fa-medium"></i></a>
 3. *An Empirical Study on the Impact of Parameters on Mobile App Energy Usage*.  
  Xu, **Davis**, Hu, and Jindal.  
  Proceedings of the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER) 2022.  
