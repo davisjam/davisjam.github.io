@@ -17,7 +17,7 @@ To see them organized by project, see [here](/research).
 2. *Exploiting Input Sanitization for Regex Denial of Service*.  
  Barlas, Du, and **Davis**.  
  Proceedings of the ACM/IEEE 44th International Conference on Software Engineering (ICSE) 2022.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/BarlasDuDavis-WebREDOS-ICSE2022.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/exploiting-input-sanitization-for-regex-denial-of-service-2366ff8c7c42"><i class="fab fa-medium"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/BarlasDuDavis-WebREDOS-ICSE2022.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/BarlasDuDavis-WebREDOS-ICSE2022-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.5916441"><i class="fas fa-file-code"></i></a> <a href="https://youtu.be/6fCBGQhBf2I"><i class="fas fa-video"></i></a> <a href="https://davisjam.medium.com/exploiting-input-sanitization-for-regex-denial-of-service-2366ff8c7c42"><i class="fab fa-medium"></i></a>
 3. *An Empirical Study on the Impact of Parameters on Mobile App Energy Usage*.  
  Xu, **Davis**, Hu, and Jindal.  
  Proceedings of the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER) 2022.  

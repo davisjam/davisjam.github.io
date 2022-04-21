@@ -164,9 +164,9 @@
             "venue": "Proceedings of the ACM/IEEE 44th International Conference on Software Engineering (ICSE)",
             "year": 2022,
             "paperBasename": "BarlasDuDavis-WebREDOS-ICSE2022.pdf",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": "",
+            "slidesBasename": "BarlasDuDavis-WebREDOS-ICSE2022-slides.pptx",
+            "artifactURL": "https://doi.org/10.5281/zenodo.5916441",
+            "videoURL": "https://youtu.be/6fCBGQhBf2I",
             "blogURL": "https://davisjam.medium.com/exploiting-input-sanitization-for-regex-denial-of-service-2366ff8c7c42"
         },
         {
