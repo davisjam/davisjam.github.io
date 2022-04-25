@@ -80,7 +80,7 @@ To see them organized by project, see [here](/research).
 2. *A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits*.  
  Herbold, Trautsch, ..., **Davis**, Serebrenik, and ....  
  Empirical Software Engineering (EMSE) (also presented at ICSE'22-JournalFirst) 2021.  
- <a href="https://arxiv.org/abs/2011.06244"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/abs/2011.06244"><i class="fas fa-file-pdf"></i></a> <a href="https://www.youtube.com/watch?v=JKYkw-nxE8M"><i class="fas fa-video"></i></a>
 3. *Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis*.  
  Kazerouni, **Davis**, Basak, Shaffer, Servant, and Edwards.  
  Journal of Systems and Software (JSS) 2021.  
