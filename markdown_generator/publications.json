@@ -183,12 +183,12 @@
         },
         {
             "type": "conference",
-            "authors": ["Goel", "Tung", "Hu", "Eliopoulos", "Thiruvathukal", "**Davis**", "Lu"],
+            "authors": ["TODO", "Goel", "Tung", "Hu", "Eliopoulos", "Thiruvathukal", "**Davis**", "Lu"],
             "title": "Directed Acyclic Graph-based Neural Networks for Tunable Low-Power Computer Vision",
             "venue": "ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED)",
             "year": 2022,
-            "paperBasename": "GoelTungHuEliopoulosThiruvathukalDavisLu-DAGHNN-ISLPED22.pdf",
-            "slidesBasename": "GoelTungHuEliopoulosThiruvathukalDavisLu-DAGHNN-ISLPED22.pptx",
+            "paperBasename": "TODO-GoelTungHuEliopoulosThiruvathukalDavisLu-DAGHNN-ISLPED22.pdf",
+            "slidesBasename": "TODO-GoelTungHuEliopoulosThiruvathukalDavisLu-DAGHNN-ISLPED22.pptx",
             "artifactURL": "",
             "videoURL": "",
             "blogURL": ""
