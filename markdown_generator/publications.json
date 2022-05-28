@@ -139,8 +139,8 @@
             "title": "Low-Power Multi-Camera Object Re-Identication using Hierarchical Neural Networks",
             "venue": "ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED)",
             "year": 2021,
-            "paperBasename": "https://arxiv.org/pdf/2106.10588.pdf",
-            "slidesBasename": "GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21.pptx",
+            "paperBasename": "GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21.pptx",
+            "slidesBasename": "GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21-slides.pptx",
             "artifactURL": "",
             "videoURL": "",
             "blogURL": "https://davisjam.medium.com/low-power-multi-camera-object-re-identification-using-hierarchical-neural-networks-275663db83d6"
