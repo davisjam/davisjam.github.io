@@ -99,7 +99,7 @@ To see them organized by project, see [here](/research).
 1. *“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices*.  
  Gopalakrishna, Anandayuvaraj, Detti, Bland, Rahaman, and **Davis**.  
  ICSE-SERP4IoT (8-page track) 2022.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://doi.org/10.5281/zenodo.6383066"><i class="fas fa-file-code"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.6383066"><i class="fas fa-file-code"></i></a>
 2. *Experience Paper: A First Offering of Software Engineering*.  
  **Davis**, Amusuo, and Bushagour.  
  ICSE-DREE 2022.  
