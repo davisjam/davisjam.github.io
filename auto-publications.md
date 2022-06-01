@@ -23,7 +23,7 @@ To see them organized by project, see [here](/research).
  Proceedings of the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/XuDavisHuJindal-AndroidDeepParameters-SANER2022.pdf"><i class="fas fa-file-pdf"></i></a>
 4. *Directed Acyclic Graph-based Neural Networks for Tunable Low-Power Computer Vision*.  
- TODO, Goel, Tung, Hu, Eliopoulos, Thiruvathukal, **Davis**, and Lu.  
+ Goel, Tung, Eliopoulos, Hu, Thiruvathukal, **Davis**, and Lu.  
  ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/TODO-GoelTungHuEliopoulosThiruvathukalDavisLu-DAGHNN-ISLPED22.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/TODO-GoelTungHuEliopoulosThiruvathukalDavisLu-DAGHNN-ISLPED22.pptx"><i class="fas fa-file-powerpoint"></i></a>
 5. *Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)*.  
