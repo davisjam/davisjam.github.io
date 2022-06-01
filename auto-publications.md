@@ -25,7 +25,7 @@ To see them organized by project, see [here](/research).
 4. *Directed Acyclic Graph-based Neural Networks for Tunable Low-Power Computer Vision*.  
  Goel, Tung, Eliopoulos, Hu, Thiruvathukal, **Davis**, and Lu.  
  ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED) 2022.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/TODO-GoelTungHuEliopoulosThiruvathukalDavisLu-DAGHNN-ISLPED22.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/TODO-GoelTungHuEliopoulosThiruvathukalDavisLu-DAGHNN-ISLPED22.pptx"><i class="fas fa-file-powerpoint"></i></a>
+ 
 5. *Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)*.  
  **Davis**, Servant, and Lee.  
  IEEE S&P 2021.  
@@ -33,7 +33,7 @@ To see them organized by project, see [here](/research).
 6. *Low-Power Multi-Camera Object Re-Identication using Hierarchical Neural Networks*.  
  Goel, Tung, Hu, Wang, **Davis**, Thiruvathukal, and Lu.  
  ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED) 2021.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21.pptx"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://davisjam.medium.com/low-power-multi-camera-object-re-identification-using-hierarchical-neural-networks-275663db83d6"><i class="fab fa-medium"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://davisjam.medium.com/low-power-multi-camera-object-re-identification-using-hierarchical-neural-networks-275663db83d6"><i class="fab fa-medium"></i></a>
 7. *A Principled Approach to GraphQL Query Cost Analysis*.  
  Cha, Wittern, Baudart, **Davis**, Mandel, and Laredo.  
  ESEC/FSE 2020.  
