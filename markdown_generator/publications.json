@@ -235,7 +235,7 @@
             "type": "short",
             "authors": ["Winkler", "Agarwal", "Tung", "Ugalde", "Jung", "**Davis**"],
             "title": "A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'",
-            "venue": "ESEC/FSE (artifact track)",
+            "venue": "ESEC/FSE Artifacts",
             "year": 2021,
             "paperBasename": "https://github.com/PurdueDualityLab/deepbugs-jr/blob/develop/paper/Deepbugs_Replication_Paper_Abstract.pdf",
             "slidesBasename": "",

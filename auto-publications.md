@@ -110,7 +110,7 @@ To see them organized by project, see [here](/research).
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisAmusuoBushagour-ExperienceIn461.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisAmusuoBushagour-ExperienceIn461-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.5828087"><i class="fas fa-file-code"></i></a> <a href="https://youtu.be/HeMwfk1Ina0"><i class="fas fa-video"></i></a>
 4. *A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'*.  
  Winkler, Agarwal, Tung, Ugalde, Jung, and **Davis**.  
- ESEC/FSE (artifact track) 2021.  
+ ESEC/FSE Artifacts 2021.  
  <a href="https://github.com/PurdueDualityLab/deepbugs-jr/blob/develop/paper/Deepbugs_Replication_Paper_Abstract.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://doi.org/10.5281/zenodo.5110820"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/a-partial-replication-of-deepbugs-a-learning-approach-to-name-based-bug-detection-1e35421a69e"><i class="fab fa-medium"></i></a>
 5. *Ursprung: Provenance for Large-Scale Analytics Environments*.  
  Rupprecht, **Davis**, Lubbock, Tyson, and Bhagwat.  
