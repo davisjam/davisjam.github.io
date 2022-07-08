@@ -197,6 +197,18 @@
 
         {
             "type": "short",
+            "authors": ["Synovic", "Hyatt", "Sethi", "Thota", "Shilpika", "Miller", "Jiang", "Pinderski", "Läufer", "Hayward", "Klingensmith", "**Davis**", "Thiruvathukal"],
+            "title": "Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics",
+            "venue": "ASE-Demonstrations",
+            "year": 2022,
+            "paperBasename": "SynovicHyattSethiThotaShilpikaMillerJiangPinderskiLauferHaywardKlingensmithDavisThiruvathukal-LongitudinalMetrics-ASE22Demo.pdf",
+            "slidesBasename": "",
+            "artifactURL": "https://github.com/SoftwareSystemsLaboratory/prime",
+            "videoURL": "https://youtu.be/YigEHy3_JCo",
+            "blogURL": ""
+        },
+        {
+            "type": "short",
             "authors": ["Gopalakrishna", "Anandayuvaraj", "Detti", "Bland", "Rahaman", "**Davis**"],
             "title": "“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices",
             "venue": "ICSE-SERP4IoT (8-page track)",
