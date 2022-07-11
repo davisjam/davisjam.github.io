@@ -96,27 +96,31 @@ To see them organized by project, see [here](/research).
 
 ## Peer-reviewed short papers
 
-1. *Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics*.  
+1. *Reflecting on Recurring Failures in IoT Development*.  
+ Anandayuvaraj and **Davis**.  
+ ASE-NIER 2022.  
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://tinyurl.com/3h2c85rc"><i class="fas fa-file-code"></i></a>
+2. *Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics*.  
  Synovic, Hyatt, Sethi, Thota, Shilpika, Miller, Jiang, Pinderski, Läufer, Hayward, Klingensmith, **Davis**, and Thiruvathukal.  
  ASE-Demonstrations 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SynovicHyattSethiThotaShilpikaMillerJiangPinderskiLauferHaywardKlingensmithDavisThiruvathukal-LongitudinalMetrics-ASE22Demo.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/SoftwareSystemsLaboratory/prime"><i class="fas fa-file-code"></i></a> <a href="https://youtu.be/YigEHy3_JCo"><i class="fas fa-video"></i></a>
-2. *“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices*.  
+3. *“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices*.  
  Gopalakrishna, Anandayuvaraj, Detti, Bland, Rahaman, and **Davis**.  
  ICSE-SERP4IoT (8-page track) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.6383066"><i class="fas fa-file-code"></i></a>
-3. *Experience Paper: A First Offering of Software Engineering*.  
+4. *Experience Paper: A First Offering of Software Engineering*.  
  **Davis**, Amusuo, and Bushagour.  
  ICSE-DREE 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisAmusuoBushagour-ExperienceIn461.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisAmusuoBushagour-ExperienceIn461-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.5828087"><i class="fas fa-file-code"></i></a> <a href="https://youtu.be/HeMwfk1Ina0"><i class="fas fa-video"></i></a>
-4. *A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'*.  
+5. *A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'*.  
  Winkler, Agarwal, Tung, Ugalde, Jung, and **Davis**.  
  ESEC/FSE Artifacts 2021.  
  <a href="https://github.com/PurdueDualityLab/deepbugs-jr/blob/develop/paper/Deepbugs_Replication_Paper_Abstract.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://doi.org/10.5281/zenodo.5110820"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/a-partial-replication-of-deepbugs-a-learning-approach-to-name-based-bug-detection-1e35421a69e"><i class="fab fa-medium"></i></a>
-5. *Ursprung: Provenance for Large-Scale Analytics Environments*.  
+6. *Ursprung: Provenance for Large-Scale Analytics Environments*.  
  Rupprecht, **Davis**, Lubbock, Tyson, and Bhagwat.  
  SIGMOD (demo track) 2019.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf"><i class="fas fa-file-pdf"></i></a>
-6. *The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture*.  
+7. *The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture*.  
  **Davis**, Kildow, and Lee.  
  EuroSec 2017.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisKildowLee-EHP-EuroSec17.pdf"><i class="fas fa-file-pdf"></i></a>

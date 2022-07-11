@@ -194,7 +194,18 @@
             "blogURL": ""
         },
 
-
+        {
+            "type": "short",
+            "authors": ["Anandayuvaraj", "**Davis**"],
+            "title": "Reflecting on Recurring Failures in IoT Development",
+            "venue": "ASE-NIER",
+            "year": 2022,
+            "paperBasename": "AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf",
+            "slidesBasename": "",
+            "artifactURL": "https://tinyurl.com/3h2c85rc",
+            "videoURL": "",
+            "blogURL": ""
+        },
         {
             "type": "short",
             "authors": ["Synovic", "Hyatt", "Sethi", "Thota", "Shilpika", "Miller", "Jiang", "Pinderski", "Läufer", "Hayward", "Klingensmith", "**Davis**", "Thiruvathukal"],
