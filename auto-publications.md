@@ -25,7 +25,7 @@ To see them organized by project, see [here](/research).
 4. *Directed Acyclic Graph-based Neural Networks for Tunable Low-Power Computer Vision*.  
  Goel, Tung, Eliopoulos, Hu, Thiruvathukal, **Davis**, and Lu.  
  ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED) 2022.  
- 
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GoelTungEliopoulosHuThiruvathukalDavisLu-DAGHNNs-ISLPED2022.pdf"><i class="fas fa-file-pdf"></i></a>
 5. *Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)*.  
  **Davis**, Servant, and Lee.  
  IEEE S&P 2021.  
