@@ -1,3 +1,4 @@
+# This file supports comment lines - all lines with a # are deleted
 {
     "publications": [
         {
@@ -98,6 +99,17 @@
         },
         {
             "type": "conference",
+            "authors": ["Rupprecht", "**Davis**", "Lubbock", "Tyson", "Bhagwat"],
+            "title": "Ursprung: Provenance for Large-Scale Analytics Environments",
+            "venue": "SIGMOD (demo track)",
+            "year": 2019,
+            "paperBasename": "RupprechtDavisetal-SIGMOD-Demo-19.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "conference",
             "authors": ["Cha", "Wittern", "Baudart", "**Davis**", "Mandel", "Laredo"],
             "title": "A Principled Approach to GraphQL Query Cost Analysis",
             "venue": "ESEC/FSE",
@@ -193,9 +205,8 @@
             "videoURL": "",
             "blogURL": ""
         },
-
         {
-            "type": "short",
+            "type": "conference",
             "authors": ["Anandayuvaraj", "**Davis**"],
             "title": "Reflecting on Recurring Failures in IoT Development",
             "venue": "ASE-NIER",
@@ -207,7 +218,56 @@
             "blogURL": ""
         },
         {
-            "type": "short",
+            "type": "conference",
+            "authors": ["Montes", "Peerapatanapokin", "Schultz", "Guo", "Jiang", "**Davis**"],
+            "title": "Discrepancies among Pre-trained Deep Neural Networks: A New Threat to Model Zoo Reliability",
+            "venue": "ESEC/FSE-IVR",
+            "year": 2022,
+            "paperBasename": "MontesPeerapatanapokinSchultzGuoJiangDavis-ModelZoo-FSE22IVR.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
+        {
+            "type": "conference",
+            "authors": ["Amusuo", "Sharma", "Rao", "Vincent", "**Davis**"],
+            "title": "Reflections on Software Failure Analysis",
+            "venue": "ESEC/FSE-IVR",
+            "year": 2022,
+            "paperBasename": "AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
+
+        {
+            "type": "workshop",
+            "authors": ["Okafor", "Schorlemmer", "Torres-Arias", "**Davis**"],
+            "title": "SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties",
+            "venue": "SCORED",
+            "year": 2022,
+            #"paperBasename": "OkaforSchorlemmerTorresAriasDavis-SOKSecureSupplyChainProperties-SCORED22.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
+        {
+            "type": "workshop",
+            "authors": ["Jiang", "Synovic", "Sethi", "Indarapu", "Hyatt", "Schorlemmer", "Thiruvathukal", "**Davis**"],
+            "title": "An Empirical Study of Artifacts and Security Practices in the Pre-trained Model Supply Chain",
+            "venue": "SCORED",
+            "year": 2022,
+            #"paperBasename": "JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukal-PTMSupplyChain-SCORED22.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
+        {
+            "type": "workshop",
             "authors": ["Synovic", "Hyatt", "Sethi", "Thota", "Shilpika", "Miller", "Jiang", "Pinderski", "Läufer", "Hayward", "Klingensmith", "**Davis**", "Thiruvathukal"],
             "title": "Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics",
             "venue": "ASE-Demonstrations",
@@ -219,7 +279,7 @@
             "blogURL": ""
         },
         {
-            "type": "short",
+            "type": "workshop",
             "authors": ["Gopalakrishna", "Anandayuvaraj", "Detti", "Bland", "Rahaman", "**Davis**"],
             "title": "“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices",
             "venue": "ICSE-SERP4IoT (8-page track)",
@@ -231,7 +291,7 @@
             "blogURL": ""
         },
         {
-            "type": "short",
+            "type": "workshop",
             "authors": ["**Davis**", "Amusuo", "Bushagour"],
             "title": "Experience Paper: A First Offering of Software Engineering",
             "venue": "ICSE-DREE",
@@ -243,7 +303,7 @@
             "blogURL": ""
         },
         {
-            "type": "short",
+            "type": "workshop",
             "authors": ["Winkler", "Agarwal", "Tung", "Ugalde", "Jung", "**Davis**"],
             "title": "A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'",
             "venue": "ESEC/FSE Artifacts",
@@ -255,18 +315,7 @@
             "blogURL": "https://davisjam.medium.com/a-partial-replication-of-deepbugs-a-learning-approach-to-name-based-bug-detection-1e35421a69e"
         },
         {
-            "type": "short",
-            "authors": ["Rupprecht", "**Davis**", "Lubbock", "Tyson", "Bhagwat"],
-            "title": "Ursprung: Provenance for Large-Scale Analytics Environments",
-            "venue": "SIGMOD (demo track)",
-            "year": 2019,
-            "paperBasename": "RupprechtDavisetal-SIGMOD-Demo-19.pdf",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "short",
+            "type": "workshop",
             "authors": ["**Davis**", "Kildow", "Lee"],
             "title": "The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture",
             "venue": "EuroSec",

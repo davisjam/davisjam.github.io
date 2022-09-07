@@ -4,10 +4,14 @@
 # Caution: Overwrites ../auto-publications.md
 
 import json
+import sys
+
+PUBFILE = sys.argv[1]
+print("Pubfile: " + PUBFILE)
 
 JOURNAL_PUB = "journal"
 CONFERENCE_PUB = "conference"
-SHORT_PUB = "short"
+WORKSHOP_PUB = "workshop"
 ARXIV_PUB = "arxiv"
 DISSERTATION_PUB = "dissertation"
 PATENT_PUB = "patent"
@@ -78,14 +82,14 @@ def writePubs(handle, headingTitle, pubs):
     for i, pub in enumerate(pubs):
         handle.write("{}. {}\n".format(i+1, pub2md(pub)))
 
-with open('publications.json', 'r') as infile, open('../auto-publications.md', 'w') as outfile:
+with open(PUBFILE, 'r') as infile, open('../auto-publications.md', 'w') as outfile:
     writeOutPrefix(outfile)
     pubs = json.load(infile)['publications']
     pubs = sorted(pubs, key=lambda p: p['year'], reverse=True)
 
     confPubs = [ pub for pub in pubs if pub['type'] == CONFERENCE_PUB ]
     journalPubs = [ pub for pub in pubs if pub['type'] == JOURNAL_PUB ]
-    shortPubs = [ pub for pub in pubs if pub['type'] == SHORT_PUB ]
+    workshopPubs = [ pub for pub in pubs if pub['type'] == WORKSHOP_PUB ]
     arxivPubs = [ pub for pub in pubs if pub['type'] == ARXIV_PUB ]
     patentPubs = [ pub for pub in pubs if pub['type'] == PATENT_PUB ]
     posterPubs = [ pub for pub in pubs if pub['type'] == POSTER_PUB ]
@@ -93,13 +97,13 @@ with open('publications.json', 'r') as infile, open('../auto-publications.md', '
 
     if confPubs:
         print("Writing the {} conference pubs".format(len(confPubs)))
-        writePubs(outfile, "Peer-reviewed conference papers", confPubs)
+        writePubs(outfile, "Peer-reviewed conference papers (full and short)", confPubs)
     if journalPubs:
         print("Writing the {} journal pubs".format(len(journalPubs)))
         writePubs(outfile, "Peer-reviewed journal papers", journalPubs)
-    if shortPubs:
-        print("Writing the {} short pubs".format(len(shortPubs)))
-        writePubs(outfile, "Peer-reviewed short papers", shortPubs)
+    if workshopPubs:
+        print("Writing the {} workshop pubs".format(len(workshopPubs)))
+        writePubs(outfile, "Peer-reviewed workshop papers", workshopPubs)
     if arxivPubs:
         print("Writing the {} arxiv pubs".format(len(arxivPubs)))
         writePubs(outfile, "arXiv papers", arxivPubs)
