@@ -22,14 +22,15 @@ Here are some of our current projects:
 
 - Secure software engineering for domain-specific languages (regexes, GraphQL)
 - "[Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)" &mdash; Software engineering and its intersection with AI + Machine Learning
-- Engineering for safety and security &mdash; in cyber- and cyber-physical systems
+- Engineering for safety and security in cyber- and cyber-physical systems
 
 ## About the Duality Lab
 
 Computing systems will transform the human experience during this century,
   for individuals (I sure like my robotic vacuum)
   and for society (Can computer vision safely support policing and national defense?).
-Achieving this transformation requires high-quality software &mdash; an increasingly-difficult challenge as computing systems become more complex.
+Achieving this transformation requires high-quality software.
+This is an increasingly-difficult challenge as computing systems become more complex.
 
 ### Vision
 
@@ -37,7 +38,6 @@ Achieving this transformation requires high-quality software &mdash; an increasi
 
 We believe that computing systems will eventually mediate many human interactions with other humans and with the surrounding world.
 We therefore seek to improve the human experience by improving the quality of computing systems.
-We blend techniques from software engineering, systems, and security in order to understand, measure, and ameliorate the issues that computing practitioners face.
 Three factors are foundational to our success:
 
 1. Our **diverse team** helps us understand the ways that computing systems are used and perceived by many kinds of humans. Computing systems will touch all of humanity, and so all of humanity is needed to develop them.
@@ -154,15 +154,16 @@ Aspects of our research have been incorporated into IBM's API Connect And Data P
 2. How can we defend against GraphQL denial of service attacks? ([ESEC/FSE'20](/files/publications/ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20.pdf))
    - Our findings at ICSOC'19 motivated us to explore accurate static cost estimation for GraphQL queries.
 
-### Reproducible machine learning and data science
+This research involves a collaboration with Dr. Dongyoon Lee, and is supported financially by:
+- NSF [#2135156:](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2135156)
 
-Complex computing systems increasingly rely on components derived from machine learning and data science.
-Machine learning and data science techniques have been adopted across most business enterprises.
+### Software engineering for data-centric computing
+
+Complex computing systems increasingly rely on components derived from data-centric computing, variously referred to as "machine learning" and "data science".
+These techniques have been adopted across most enterprise businesses.
 These techniques include the development of machine learning models, and the use of analysis pipelines to automatically and repeatedly process batches of data.
-Engineering these models, and reproducing and extending analysis pipelines, are critical aspects of modern computing.
-It is also hard! Getting them right is a major challenge.
-This line of research has many applications in the 21st century.
-For example, enabling reproducible, high-quality machine learning and computer vision software will support efforts for national security and national defense.
+Correctly engineering these models, and reproducing and extending analysis pipelines, are critical aspects of modern computing.
+The implications are broad, including business success and national defense.
 
 *Specific projects:*
 
@@ -172,31 +173,41 @@ For example, enabling reproducible, high-quality machine learning and computer v
 2. What should high-quality machine learning software look like? ([CSE'20 poster](), [arXiv'21 report](https://arxiv.org/abs/2107.00821))
    - I work with a [team of students](https://engineering.purdue.edu/VIP/teams/tensorflow) sponsored by Google's [TensorFlow Model Garden](https://blog.tensorflow.org/2020/03/introducing-model-garden-for-tensorflow-2.html) project.
      We are developing high-quality examples of machine learning software in TensorFlow, focused on problems in computer vision.
+3. What are the challenges and practices for the reuse of machine learning models? ([ESEC/FSE-IVR'22](/files/publications/MontesPeerapatanapokinSchultzGuoJiangDavis-ModelZoo-FSE22IVR.pdf))
 
-This research involves a collaboration with Yung-Hsiang Lu, George K. Thiruvathukal, and Neil Klingensmith, and is supported financially by:
+This research involves a collaboration with Drs. Yung-Hsiang Lu, George K. Thiruvathukal, and Neil Klingensmith, and is supported financially by:
 - NSF [#2107230](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2107230)
-- Gifts from Google
+- Google
+- Cisco
+
+### Engineering for safety and security in cyber- and cyber-physical systems
+
+*Specific projects:*
+
+1. How do software engineers think about machine learning and cybersecurity for IoT products? ([SERP4IOT'22](/files/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf))
+2. What are the characteristics of failures in IoT systems? ([ASE-NIER'22](/files/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf)) 
+3. Are software engineering researchers consistent and coherent in their analysis of failures? ([ESEC/FSE-IVR'22](/files/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR.pdf))
+
+This research involves collaborations with Drs. Aravind Machiry, Santiago Torres-Arias, and Sazzadur Rahaman, and is supported financially by:
+- Cisco
+- Rolls Royce
 
 ### Skilled practitioners through computing education
 
 Skilled engineering teams are one key to realizing high-quality computing systems.
 What kinds of training do computer engineers need?
 
-**Area #1: Intercultural intelligence**
+**Area #1: Teaching software engineering**
 
-Intercultural intelligence is one key to success in the engineering workforce.
-Engineering firms are full of folks from different cultures, with different perspectives and different beliefs.
-Engineering products are used by people all over the world.
-If an engineer cannot identify with the Other, they cannot realize their full potential &mdash; to their own detriment and that of human society.
-
-I collaborate with engineering education researchers to investigate ways to promote intercultural intelligence.
-Some of these collaborations involve study-abroad programs like Virginia Tech's [*Rising Sophomore Abroad Program*](https://enge.vt.edu/undergraduate/RSAP.html).
-However, studying abroad is expensive; to improve accessibility, I am also interested in ways to promote intercultural learning more locally.
+Many computer engineering students take on software engineering roles after graduation. 
+I teach undergraduate and graduate Software Engineering courses at Purdue, and think about how best to prepare my students for the challenges of professional work?
 
 *Specific projects:*
 
-1. Study-abroad programs are sustained by faculty member involvement. These leaders constantly encounter the unexpected while abroad, perhaps decreasing their willingness to lead again. In what ways are those faculty members surprised (pleasantly and unpleasantly) by their experiences? ([JIEE'21](/files/publications/OzkanDavisDavisJamesMurziKnight-JIEE21.pdf)). 
-2. An intercultural learning module for software engineers. ([ACIEE'21](/files/publications/HornbrookDavis-InterculturalLearningModule-ACIEE2021.pdf)).
+1. If you could design a software engineering course from scratch to prepare students for modern agile software engineering, what would it look like? ([DREE'22](/files/publications/DavisAmusuoBushagour-ExperienceIn461.pdf))
+   - The paper describes a project-based learning approach to software engineering education, and reports on experiences in the Fall 2021 edition of the course.
+2.  What kinds of intercultural issues might software engineers encounter in the engineering workforce? Engineering firms are full of folks from different cultures, with different perspectives and different beliefs. ([ACIEE'21](/files/publications/HornbrookDavis-InterculturalLearningModule-ACIEE2021.pdf)).
+   - An intercultural learning module for software engineers.
 
 **Area #2: Teaching software testing**
 
@@ -221,18 +232,25 @@ I am delighted to supervise many talented students:
 
 - [William "Trey" Maxam](https://www.linkedin.com/in/william-m-714184114/)
 - [Geoffrey Cramer](https://www.linkedin.com/in/geoff-cramer-85b430129/)
+- [Taylor Schorlemmer](https://www.linkedin.com/in/taylor-reeves-schorlemmer/)
 
 ### Undergraduate
 
 *Current* 
 
-- The TensorFlow Model Garden research team, led by Vishnu Banna
-- Efe Barlas (OUR Scholar)
-- Charlie Sale (OUR Scholar)
+- The TensorFlow Model Garden research team, led by Abhi Raja, Dan Peerapatanapokin, and Ibrahim Saeed
+- Diego Montes
+- Charlie Sale
 
 *Alumni* 
 
-- Anirudh Vegesana (BS, Pursuing MS at Stanford)
+- Anirudh Vegesana (Pursuing MS at Stanford)
+- Vishnu Banna (Apple)
+- David Li (Google)
+- Zach Ghera (Google)
+- Allen Liu (Amazon)
+- Feny Patel (Meta)
+- Efe Barlas (Amazon)
 - Evan Williams (Transferred to Cornell)
 
 You could join them! [Here are the instructions to get started](/join-lab).

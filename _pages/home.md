@@ -8,17 +8,18 @@ redirect_from:
   - /home.html
 ---
 
-**I am recruiting *graduate* and *undergraduate* students (esp. PhD). See [lab page](research/) for details.**
+**I am recruiting *graduate* and *undergraduate* research assistants (esp. PhD). See [lab page](research/) for details.**
 {: .notice--info}
 
 Hi, I'm Jamie!
 I am an Assistant Professor at Purdue University, in the department of Electrical and Computer Engineering (ECE).
 
 I lead the [Duality Lab](/research).
-In our research, we study the engineering of complex computing systems.
-**We improve the human experience by improving the quality of complex computing systems**.
-My primary interests are in the *safety* and *security* of software-centric systems, achieved in part through effective *engineering processes*.
+We study the engineering of software-intensive computing systems, writ broad.
+Our primary interests are in safety (e.g. correct and usable) and security, achieved in part through effective engineering processes.
+We apply a "dual" socio-technical philosophy &mdash; high-quality systems must be engineered using both human and technical perspectives.
+We are empiricists; we strive to measure the practical impact of problems and solutions.
 
-My lab's work is typically published in software engineering (ICSE, FSE, ASE) and cybersecurity (S&P, USENIX) conferences.
+Our work is typically published in software engineering (ICSE, FSE, ASE) and cybersecurity (S&P, USENIX) conferences.
 
 Use the links at the top to learn more about our activities.

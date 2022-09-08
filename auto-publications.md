@@ -92,7 +92,7 @@ To see them organized by project, see [here](/research).
 1. *Applying Experiential Learning Theory to Understand Study Abroad Leaders' Experiences Using Real-Time Perspectives*.  
  Davis, Deters, Ozkan, **Davis**, and Murzi.  
  Frontiers: The Interdisciplinary Journal of Study Abroad 2022.  
- 
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisDetersOzkanDavisMurzi-Frontiers22.pdf"><i class="fas fa-file-pdf"></i></a>
 2. *A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits*.  
  Herbold, Trautsch, ..., **Davis**, Serebrenik, and ....  
  Empirical Software Engineering (EMSE) (also presented at ICSE'22-JournalFirst) 2021.  
