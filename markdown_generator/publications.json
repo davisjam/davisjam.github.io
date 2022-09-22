@@ -328,6 +328,17 @@
 
         {
             "type": "arxiv",
+            "authors": ["Anandayuvaraj", "Thulluri", "Figueroa", "Shandilya", "**Davis**"],
+            "title": "Towards a Failure-Aware SDLC for Internet of Things",
+            "venue": "arXiv",
+            "year": 2022,
+            "paperBasename": "https://arxiv.org/abs/2206.13562",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Banna", "Chinnakotla", "Yan", "Vegesana", "Vivek", "Krishnappa", "Jiang", "Lu", "Thiruvathukal", "**Davis**"],
             "title": "An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors",
             "venue": "arXiv",

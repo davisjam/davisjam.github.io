@@ -143,7 +143,11 @@ To see them organized by project, see [here](/research).
 
 ## arXiv papers
 
-1. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+1. *Towards a Failure-Aware SDLC for Internet of Things*.  
+ Anandayuvaraj, Thulluri, Figueroa, Shandilya, and **Davis**.  
+ arXiv 2022.  
+ <a href="https://arxiv.org/abs/2206.13562"><i class="fas fa-file-pdf"></i></a>
+2. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/abs/2107.00821"><i class="fas fa-file-pdf"></i></a>
