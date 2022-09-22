@@ -111,11 +111,11 @@ To see them organized by project, see [here](/research).
 1. *SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties*.  
  Okafor, Schorlemmer, Torres-Arias, and **Davis**.  
  Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2022.  
- 
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OkaforSchorlemmerTorresAriasDavis-SOKSecureSupplyChainProperties-SCORED22.pdf"><i class="fas fa-file-pdf"></i></a>
 2. *An Empirical Study of Artifacts and Security Practices in the Pre-trained Model Supply Chain*.  
  Jiang, Synovic, Sethi, Indarapu, Hyatt, Schorlemmer, Thiruvathukal, and **Davis**.  
  Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2022.  
- 
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukal-PTMSupplyChain-SCORED22.pdf"><i class="fas fa-file-pdf"></i></a>
 3. *Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics*.  
  Synovic, Hyatt, Sethi, Thota, Shilpika, Miller, Jiang, Pinderski, Läufer, Hayward, Klingensmith, **Davis**, and Thiruvathukal.  
  Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering: Demonstrations track (ASE-Demonstrations) 2022.  
