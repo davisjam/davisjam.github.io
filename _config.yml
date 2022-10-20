@@ -16,7 +16,7 @@ url                      : "https://davisjam.github.io" # the base hostname & pr
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 filesurl                 : "files"
 repository               : "davisjam/davisjam.github.io"
-teaser                   : "JamesDavis.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "JamesDavis-Headshot-2022.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
