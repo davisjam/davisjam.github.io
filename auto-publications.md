@@ -89,19 +89,23 @@ To see them organized by project, see [here](/research).
 
 ## Peer-reviewed journal papers
 
-1. *Applying Experiential Learning Theory to Understand Study Abroad Leaders' Experiences Using Real-Time Perspectives*.  
+1. *Tree-based Unidirectional Neural Networks for Low-Power Computer Vision*.  
+ Goel, Tung, Eliopouls, Thiruvathukal, **Davis**, and Lee.  
+ IEEE Design & Test 2022.  
+ 
+2. *Applying Experiential Learning Theory to Understand Study Abroad Leaders' Experiences Using Real-Time Perspectives*.  
  Davis, Deters, Ozkan, **Davis**, and Murzi.  
  Frontiers: The Interdisciplinary Journal of Study Abroad 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisDetersOzkanDavisMurzi-Frontiers22.pdf"><i class="fas fa-file-pdf"></i></a>
-2. *A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits*.  
+3. *A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits*.  
  Herbold, Trautsch, ..., **Davis**, Serebrenik, and ....  
  Empirical Software Engineering (EMSE) (also presented at ICSE'22-JournalFirst) 2021.  
  <a href="https://arxiv.org/abs/2011.06244"><i class="fas fa-file-pdf"></i></a> <a href="https://www.youtube.com/watch?v=JKYkw-nxE8M"><i class="fas fa-video"></i></a>
-3. *Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis*.  
+4. *Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis*.  
  Kazerouni, **Davis**, Basak, Shaffer, Servant, and Edwards.  
  Journal of Systems and Software (JSS) 2021.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/KazerouniDavisBasakShafferServantEdwards-JSS21.pdf"><i class="fas fa-file-pdf"></i></a>
-4. *Expectations and Experiences of Short-Term Study Abroad Leadership Teams*.  
+5. *Expectations and Experiences of Short-Term Study Abroad Leadership Teams*.  
  Ozkan, Davis, **Davis**, James, Murzi, and Knight.  
  Journal of International Engineering Education (JIEE) 2020.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OzkanDavisDavisJamesMurziKnight-JIEE20.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OzkanDavisDavisJamesMurziKnight-JIEE20-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
