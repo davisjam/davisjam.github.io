@@ -98,7 +98,7 @@ To see them organized by project, see [here](/research).
  Frontiers: The Interdisciplinary Journal of Study Abroad 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisDetersOzkanDavisMurzi-Frontiers22.pdf"><i class="fas fa-file-pdf"></i></a>
 3. *A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits*.  
- Herbold, Trautsch, ..., **Davis**, Serebrenik, and ....  
+ Herbold, Trautsch, Ledel, Aghamohammadi, Ghaleb, Chahal, Bossenmaier, Nagaria, Makedonski, Nili Ahmadabadi, Szabados, Spieker, Madeja, Hoy, Lenarduzzi, Wang, Rodríguez-Pérez, Colomo-Palacios, Verdecchia, Singh, Qin, Chakroborti, Davis, Walunj, Wu, Marcilio, Alam, Aldaeej, Amit, Turhan, Eismann, Wickert, Malavolta, Sulír, Fard, Henley, Kourtzanidis, Tuzun, Treude, Shamasbi, Pashchenko, Wyrich, **Davis**, Serebrenik, Albrecht, Aktas, Strüber, and Erbel.  
  Empirical Software Engineering (EMSE) (also presented at ICSE'22-JournalFirst) 2021.  
  <a href="https://arxiv.org/abs/2011.06244"><i class="fas fa-file-pdf"></i></a> <a href="https://www.youtube.com/watch?v=JKYkw-nxE8M"><i class="fas fa-video"></i></a>
 4. *Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis*.  

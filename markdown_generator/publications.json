@@ -456,7 +456,7 @@
         },
         {
             "type": "journal",
-            "authors": ["Herbold", "Trautsch", "...", "**Davis**", "Serebrenik", "..."],
+            "authors": ["Herbold", "Trautsch", "Ledel", "Aghamohammadi", "Ghaleb", "Chahal", "Bossenmaier", "Nagaria", "Makedonski", "Nili Ahmadabadi", "Szabados", "Spieker", "Madeja", "Hoy", "Lenarduzzi", "Wang", "Rodríguez-Pérez", "Colomo-Palacios", "Verdecchia", "Singh", "Qin", "Chakroborti", "Davis", "Walunj", "Wu", "Marcilio", "Alam", "Aldaeej", "Amit", "Turhan", "Eismann", "Wickert", "Malavolta", "Sulír", "Fard", "Henley", "Kourtzanidis", "Tuzun", "Treude", "Shamasbi", "Pashchenko", "Wyrich", "**Davis**", "Serebrenik", "Albrecht", "Aktas", "Strüber", "Erbel"],
             "title": "A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits",
             "venue": "Empirical Software Engineering (EMSE) (also presented at ICSE'22-JournalFirst)",
             "year": 2021,
