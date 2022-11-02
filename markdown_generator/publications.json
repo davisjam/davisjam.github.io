@@ -434,7 +434,7 @@
         
         {
             "type": "journal",
-            "authors": ["Goel", "Tung", "Eliopouls", "Thiruvathukal", "**Davis**", "Lee"],
+            "authors": ["Goel", "Tung", "Eliopoulos", "Thiruvathukal", "**Davis**", "Lu"],
             "title": "Tree-based Unidirectional Neural Networks for Low-Power Computer Vision",
             "venue": "IEEE Design & Test",
             "year": 2022,

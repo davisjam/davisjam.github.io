@@ -90,7 +90,7 @@ To see them organized by project, see [here](/research).
 ## Peer-reviewed journal papers
 
 1. *Tree-based Unidirectional Neural Networks for Low-Power Computer Vision*.  
- Goel, Tung, Eliopouls, Thiruvathukal, **Davis**, and Lee.  
+ Goel, Tung, Eliopoulos, Thiruvathukal, **Davis**, and Lu.  
  IEEE Design & Test 2022.  
  
 2. *Applying Experiential Learning Theory to Understand Study Abroad Leaders' Experiences Using Real-Time Perspectives*.  
