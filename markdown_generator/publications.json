@@ -230,6 +230,18 @@
             "videoURL": "",
             "blogURL": ""
         },
+        {
+            "type": "conference",
+            "authors": ["Hassan", "Aamir", "Lee", "**Davis**", "Servant"],
+            "title": "Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies",
+            "venue": "Proceedings of the 44th IEEE Symposium on Security and Privacy (IEEE S&P)",
+            "year": 2023,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
 
         {
             "type": "workshop",
