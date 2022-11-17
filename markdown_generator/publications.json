@@ -225,7 +225,7 @@
             "venue": "Proceedings of the 30th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR)",
             "year": 2022,
             "paperBasename": "AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR.pdf",
-            "slidesBasename": "",
+            "slidesBasename": "AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR-slides.pptx",
             "artifactURL": "",
             "videoURL": "",
             "blogURL": ""
@@ -250,7 +250,7 @@
             "venue": "Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)",
             "year": 2022,
             "paperBasename": "https://docs.lib.purdue.edu/ecepubs/160/",
-            "slidesBasename": "",
+            "slidesBasename": "OkaforSchorlemmerTorresAriasDavis-SupplyChainSoK-SCORED22-slides.pptx",
             "artifactURL": "",
             "videoURL": "",
             "blogURL": ""
@@ -261,8 +261,8 @@
             "title": "An Empirical Study of Artifacts and Security Practices in the Pre-trained Model Supply Chain",
             "venue": "Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)",
             "year": 2022,
-            "paperBasename": "JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukal-PTMSupplyChain-SCORED22.pdf",
-            "slidesBasename": "",
+            "paperBasename": "JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukalDavis-PTMSupplyChain-SCORED22.pdf",
+            "slidesBasename": "JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukalDavis-PTMSupplyChain-SCORED22-slides.pptx",
             "artifactURL": "",
             "videoURL": "",
             "blogURL": "https://davisjam.medium.com/an-empirical-study-of-artifacts-and-security-risks-in-the-pre-trained-model-supply-chain-2c75fd99942b"

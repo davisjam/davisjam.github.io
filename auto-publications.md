@@ -41,7 +41,7 @@ To see them organized by project, see [here](/research).
 8. *Reflections on Software Failure Analysis*.  
  Amusuo, Sharma, Rao, Vincent, and **Davis**.  
  Proceedings of the 30th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR) 2022.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 9. *Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)*.  
  **Davis**, Servant, and Lee.  
  IEEE Security & Privacy (S&P) 2021.  
@@ -119,11 +119,11 @@ To see them organized by project, see [here](/research).
 1. *SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties*.  
  Okafor, Schorlemmer, Torres-Arias, and **Davis**.  
  Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2022.  
- <a href="https://docs.lib.purdue.edu/ecepubs/160/"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://docs.lib.purdue.edu/ecepubs/160/"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OkaforSchorlemmerTorresAriasDavis-SupplyChainSoK-SCORED22-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 2. *An Empirical Study of Artifacts and Security Practices in the Pre-trained Model Supply Chain*.  
  Jiang, Synovic, Sethi, Indarapu, Hyatt, Schorlemmer, Thiruvathukal, and **Davis**.  
  Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2022.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukal-PTMSupplyChain-SCORED22.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/an-empirical-study-of-artifacts-and-security-risks-in-the-pre-trained-model-supply-chain-2c75fd99942b"><i class="fab fa-medium"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukalDavis-PTMSupplyChain-SCORED22.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukalDavis-PTMSupplyChain-SCORED22-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://davisjam.medium.com/an-empirical-study-of-artifacts-and-security-risks-in-the-pre-trained-model-supply-chain-2c75fd99942b"><i class="fab fa-medium"></i></a>
 3. *Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics*.  
  Synovic, Hyatt, Sethi, Thota, Shilpika, Miller, Jiang, Pinderski, Läufer, Hayward, Klingensmith, **Davis**, and Thiruvathukal.  
  Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering: Demonstrations track (ASE-Demonstrations) 2022.  
