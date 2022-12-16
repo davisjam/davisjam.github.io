@@ -33,7 +33,7 @@ To see them organized by project, see [here](/research).
 6. *Reflecting on Recurring Failures in IoT Development*.  
  Anandayuvaraj and **Davis**.  
  Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering: New Ideas and Emerging Results track (ASE-NIER) 2022.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://tinyurl.com/3h2c85rc"><i class="fas fa-file-code"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://tinyurl.com/3h2c85rc"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/reflecting-on-recurring-failures-in-iot-development-68df5b45a837"><i class="fab fa-medium"></i></a>
 7. *Discrepancies among Pre-trained Deep Neural Networks: A New Threat to Model Zoo Reliability*.  
  Montes, Peerapatanapokin, Schultz, Guo, Jiang, and **Davis**.  
  Proceedings of the 30th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR) 2022.  
