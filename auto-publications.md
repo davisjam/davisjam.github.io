@@ -41,7 +41,7 @@ To see them organized by project, see [here](/research).
 8. *Reflections on Software Failure Analysis*.  
  Amusuo, Sharma, Rao, Vincent, and **Davis**.  
  Proceedings of the 30th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR) 2022.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://davisjam.medium.com/reflections-on-software-failure-analysis-cd28d57539ba"><i class="fab fa-medium"></i></a>
 9. *Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)*.  
  **Davis**, Servant, and Lee.  
  IEEE Security & Privacy (S&P) 2021.  
