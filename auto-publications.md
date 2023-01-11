@@ -21,11 +21,11 @@ To see them organized by project, see [here](/research).
 3. *Exploiting Input Sanitization for Regex Denial of Service*.  
  Barlas, Du, and **Davis**.  
  Proceedings of the ACM/IEEE 44th International Conference on Software Engineering (ICSE) 2022.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/BarlasDuDavis-WebREDOS-ICSE2022.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/BarlasDuDavis-WebREDOS-ICSE2022-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.5916441"><i class="fas fa-file-code"></i></a> <a href="https://youtu.be/6fCBGQhBf2I"><i class="fas fa-video"></i></a> <a href="https://davisjam.medium.com/exploiting-input-sanitization-for-regex-denial-of-service-2366ff8c7c42"><i class="fab fa-medium"></i></a>
+ <a href="https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1179&context=ecepubs"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/BarlasDuDavis-WebREDOS-ICSE2022-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.5916441"><i class="fas fa-file-code"></i></a> <a href="https://youtu.be/6fCBGQhBf2I"><i class="fas fa-video"></i></a> <a href="https://davisjam.medium.com/exploiting-input-sanitization-for-regex-denial-of-service-2366ff8c7c42"><i class="fab fa-medium"></i></a>
 4. *An Empirical Study on the Impact of Parameters on Mobile App Energy Usage*.  
  Xu, **Davis**, Hu, and Jindal.  
  Proceedings of the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER) 2022.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/XuDavisHuJindal-AndroidDeepParameters-SANER2022.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1182&context=ecepubs"><i class="fas fa-file-pdf"></i></a>
 5. *Directed Acyclic Graph-based Neural Networks for Tunable Low-Power Computer Vision*.  
  Goel, Tung, Eliopoulos, Hu, Thiruvathukal, **Davis**, and Lu.  
  ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED) 2022.  
@@ -33,11 +33,11 @@ To see them organized by project, see [here](/research).
 6. *Reflecting on Recurring Failures in IoT Development*.  
  Anandayuvaraj and **Davis**.  
  Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering: New Ideas and Emerging Results track (ASE-NIER) 2022.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://tinyurl.com/3h2c85rc"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/reflecting-on-recurring-failures-in-iot-development-68df5b45a837"><i class="fab fa-medium"></i></a>
+ <a href="https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1180&context=ecepubs"><i class="fas fa-file-pdf"></i></a> <a href="https://tinyurl.com/3h2c85rc"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/reflecting-on-recurring-failures-in-iot-development-68df5b45a837"><i class="fab fa-medium"></i></a>
 7. *Discrepancies among Pre-trained Deep Neural Networks: A New Threat to Model Zoo Reliability*.  
  Montes, Peerapatanapokin, Schultz, Guo, Jiang, and **Davis**.  
  Proceedings of the 30th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR) 2022.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/MontesPeerapatanapokinSchultzGuoJiangDavis-ModelZoo-FSE22IVR.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/MontesPeerapatanapokinSchultzGuoJiangDavis-ModelZoo-FSE22IVR-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
+ <a href="https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1181&context=ecepubs"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/MontesPeerapatanapokinSchultzGuoJiangDavis-ModelZoo-FSE22IVR-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 8. *Reflections on Software Failure Analysis*.  
  Amusuo, Sharma, Rao, Vincent, and **Davis**.  
  Proceedings of the 30th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR) 2022.  
