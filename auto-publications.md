@@ -14,10 +14,10 @@ To see them organized by project, see [here](/research).
  Hassan, Aamir, Lee, **Davis**, and Servant.  
  Proceedings of the 44th IEEE Symposium on Security and Privacy (IEEE S&P) 2023.  
  <a href="https://docs.lib.purdue.edu/ecepubs/161"><i class="fas fa-file-pdf"></i></a> <a href="https://doi.org/10.5281/zenodo.7419006"><i class="fas fa-file-code"></i></a>
-2. *An Empirical Study of Artifacts and Security Practices in the Pre-trained Model Supply Chain*.  
+2. *An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry*.  
  Jiang, Synovic, Hyatt, Schorlemmer, Sethi, Lu, Thiruvathukal, and **Davis**.  
  Proceedings of the ACM/IEEE 45th International Conference on Software Engineering (ICSE) 2023.  
- 
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace"><i class="fas fa-file-pdf"></i></a>
 3. *Efficient Computer Vision on Edge Devices with Pipeline-Parallel Hierarchical Neural Network*.  
  Goel, Tung, Hu, Thiruvathukal, **Davis**, and Lu.  
  Proceedings of the 27th Asia and South Pacific Design Automation Conference (ASP-DAC) 2022.  
