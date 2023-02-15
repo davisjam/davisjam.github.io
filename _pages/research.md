@@ -23,6 +23,7 @@ For a full list of publications, see [here](/publications).
 - Software engineering for domain-specific languages (regexes)
 - "[Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)" &mdash; Software engineering and its intersection with AI + Machine Learning
 - Software engineering in cyber-physical systems
+- Software supply chains
 
 ## Research projects
 
@@ -73,49 +74,18 @@ This research involves a collaboration with Drs. Yung-Hsiang Lu, George K. Thiru
 2. What are the characteristics of failures in IoT systems? ([ASE-NIER'22](/files/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf)) 
 3. Are software engineering researchers consistent and coherent in their analysis of failures? ([ESEC/FSE-IVR'22](/files/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR.pdf))
 
-This research involves collaborations with Drs. Aravind Machiry, Santiago Torres-Arias, and Sazzadur Rahaman, and is supported financially by:
+This research is supported financially by:
 - Cisco
 - Rolls Royce
 
-## Lab members
+### Software supply chains
 
-I supervise many talented students:
+1. What are general principles of secure software supply chains? ([SCORED'22](/files/publications/OkaforSchorlemmerTorresAriasDavis-SOKSecureSupplyChainProperties-SCORED22.pdf))
+2. What are the characteristics of software supply chains in machine learning? ([SCORED'22](/files/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukal-PTMSupplyChain-SCORED22.pdf))
 
-### PhD
-
-- [Wenxin Jiang](https://www.linkedin.com/in/wenxin-jiang/)
-- [Dharun Anand](https://www.linkedin.com/in/dharunanand/)
-- [Paschal C. Amusuo](https://www.linkedin.com/in/paschal-amusuo-134146b3/)
-- [Kelechi G. Kalu](https://www.linkedin.com/in/kelechi-gabriel-kalu-40697b123/)
-
-### MSc
-
-- [William "Trey" Maxam](https://www.linkedin.com/in/william-m-714184114/)
-- [Geoffrey Cramer](https://www.linkedin.com/in/geoff-cramer-85b430129/)
-- [Taylor Schorlemmer](https://www.linkedin.com/in/taylor-reeves-schorlemmer/)
-
-### Undergraduate
-
-*Current* 
-
-- The TensorFlow Model Garden research team, led by Abhi Raja, Dan Peerapatanapokin, Ibrahim Saeed, and Ananya Singh
-- Charlie Sale
-- Ricardo Calvo
-
-*Alumni* 
-
-- Anirudh Vegesana (Pursuing MS at Stanford)
-- Vishnu Banna (Apple)
-- David Li (Google)
-- Zach Ghera (Google)
-- Allen Liu (Amazon)
-- Feny Patel (Meta)
-- Efe Barlas (Amazon)
-- Xin Du (Aviatrix)
-- Diego Montes (SpaceX)
-- Evan Williams (Transferred to Cornell)
-
-You could join them! [Here are the instructions to get started](/join-lab).
+This research is supported financially by:
+- Cisco
+- NSF [POSE-22297403](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2229703&HistoricalAwards=false)
 
 ## About the Duality Lab
 
