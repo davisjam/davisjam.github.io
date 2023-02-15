@@ -17,12 +17,105 @@ Please review the lab description and the active projects to understand whether 
 If so, follow [these instructions](/join-lab) to check your qualifications and submit your application.
 {: .notice--info}
 
-For a full list of our publications, see [here](/publications).
-Here are some of our current projects:
+This page describes some of my lab's broad directions.
+For a full list of publications, see [here](/publications).
 
-- Secure software engineering for domain-specific languages (regexes, GraphQL)
+- Software engineering for domain-specific languages (regexes)
 - "[Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)" &mdash; Software engineering and its intersection with AI + Machine Learning
-- Engineering for safety and security in cyber- and cyber-physical systems
+- Software engineering in cyber-physical systems
+
+## Research projects
+
+### Software engineering for domain-specific languages
+
+Domain-specific languages (DSLs) are a technique used to simplify the engineering of complex computing systems.
+DSLs allow engineers to express domain-specific information fluently, rather than staggering through an articulation in a general-purpose language.
+
+Regular expressions (regexes) are a widely used, hard to master DSL for string-matching problems.
+They often cause software defects.
+Regexes gone awry have caused [Internet-scale outages](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/) and are a [potent denial of service vector](https://www.usenix.org/conference/usenixsecurity18/presentation/staicu).
+
+In our regex investigations, we have measured the difficulties that practitioners experience, and guided programming language designers toward regex engines that reflect the needs of practitioners.
+
+1. How widespread of a problem is Regex Denial of Service? ([ESEC/FSE'18](/files/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf)).
+2. How portable are regexes? ([ESEC/FSE'19](/files/publications/DavisMichaelCoghlanServantLee-LinguaFranca-ESECFSE19.pdf))
+3. How hard are regexes to work with? ([ASE'19](/files/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf))
+4. How generalizable is regex research? ([ASE'19](/files/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf))
+5. How can we address Regex Denial of Service in a backwards-compatible way? ([IEEE S&P'21](/files/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf))
+6. Does sharing valid input formats with clients expose web services to Regex Denial of Service? ([ICSE'22](/files/publications/BarlasDuDavis-WebREDOS-ICSE22.pdf))
+
+This work is supported by NSF [SaTC-2135156](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2135156).
+
+### Software engineering for data-centric computing
+
+Complex computing systems increasingly rely on components derived from data-centric computing, variously referred to as "machine learning" and "data science".
+These techniques have been adopted across most enterprise businesses.
+These techniques include the development of machine learning models, and the use of analysis pipelines to automatically and repeatedly process batches of data.
+Correctly engineering these models, and reproducing and extending analysis pipelines, are critical aspects of modern computing.
+The implications are broad, including business success and national defense.
+
+*Here are some of the questions we have explored*:
+
+1. How might provenance be applied to assist data scientists? ([VLDB'20](/files/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf), [SIGMOD'19 demo](/files/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf))
+2. What should high-quality machine learning software look like? ([CSE'20 poster](), [arXiv'21 report](https://arxiv.org/abs/2107.00821))
+3. What are the challenges and practices for the reuse of machine learning models? ([ESEC/FSE-IVR'22](/files/publications/MontesPeerapatanapokinSchultzGuoJiangDavis-ModelZoo-FSE22IVR.pdf), [ICSE'23](/files/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace.pdf))
+
+This research involves a collaboration with Drs. Yung-Hsiang Lu, George K. Thiruvathukal, and Neil Klingensmith, and is supported financially by:
+- NSF [OAC-2107230](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2107230)
+- Google
+- Cisco
+
+### Software engineering in cyber-physical systems
+
+*Here are some of the questions we have explored*:
+
+1. How do software engineers think about machine learning and cybersecurity for IoT products? ([SERP4IOT'22](/files/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf))
+2. What are the characteristics of failures in IoT systems? ([ASE-NIER'22](/files/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf)) 
+3. Are software engineering researchers consistent and coherent in their analysis of failures? ([ESEC/FSE-IVR'22](/files/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR.pdf))
+
+This research involves collaborations with Drs. Aravind Machiry, Santiago Torres-Arias, and Sazzadur Rahaman, and is supported financially by:
+- Cisco
+- Rolls Royce
+
+## Lab members
+
+I supervise many talented students:
+
+### PhD
+
+- [Wenxin Jiang](https://www.linkedin.com/in/wenxin-jiang/)
+- [Dharun Anand](https://www.linkedin.com/in/dharunanand/)
+- [Paschal C. Amusuo](https://www.linkedin.com/in/paschal-amusuo-134146b3/)
+- [Kelechi G. Kalu](https://www.linkedin.com/in/kelechi-gabriel-kalu-40697b123/)
+
+### MSc
+
+- [William "Trey" Maxam](https://www.linkedin.com/in/william-m-714184114/)
+- [Geoffrey Cramer](https://www.linkedin.com/in/geoff-cramer-85b430129/)
+- [Taylor Schorlemmer](https://www.linkedin.com/in/taylor-reeves-schorlemmer/)
+
+### Undergraduate
+
+*Current* 
+
+- The TensorFlow Model Garden research team, led by Abhi Raja, Dan Peerapatanapokin, Ibrahim Saeed, and Ananya Singh
+- Charlie Sale
+- Ricardo Calvo
+
+*Alumni* 
+
+- Anirudh Vegesana (Pursuing MS at Stanford)
+- Vishnu Banna (Apple)
+- David Li (Google)
+- Zach Ghera (Google)
+- Allen Liu (Amazon)
+- Feny Patel (Meta)
+- Efe Barlas (Amazon)
+- Xin Du (Aviatrix)
+- Diego Montes (SpaceX)
+- Evan Williams (Transferred to Cornell)
+
+You could join them! [Here are the instructions to get started](/join-lab).
 
 ## About the Duality Lab
 
@@ -44,15 +137,10 @@ Three factors are foundational to our success:
 2. Our **data-driven** approach grounds our work in real-world computing systems, ensuring that our findings and proposals impact the quality of computing systems in the here-and-now, not in the what-might-be.
 3. Our **readiness to re-imagine** enables us to propose, design, and implement new paradigms.
 
-In order to improve the quality of *existing* computing systems, we take a scientific engineering approach.
-We empirically study engineering failures in order to drive the development of tools and systems that reflect practitioners’ needs and address their misconceptions.
-We blend techniques from software engineering, systems, and security in order to understand, measure, and ameliorate the issues that computing practitioners face.
-We apply methodologies appropriate to the task at hand: static and dynamic program analysis, pattern recognition and machine learning, algorithm development, and plenty of system building and hacking.
-
-In order to improve the quality of *future* computing systems, we are interested in:
-
-1. Proposing new paradigms to transform how these systems are designed, built, and deployed.
-2. Improving computing education. If future computing professionals are better prepared, they are less likely to make the kinds of errors that lead to bugs and security flaws, and to avoid practices that lead to inequitable computing systems.
+In order to improve the quality of software-intensive computing systems, we take a scientific engineering approach.
+   - We empirically study engineering failures in order to drive the development of tools and systems that reflect practitioners' needs and address their misconceptions.
+   - We blend techniques from software engineering, systems, and security in order to understand, measure, and ameliorate the issues that computing practitioners face.
+   - We apply methodologies appropriate to the task at hand: static and dynamic program analysis, pattern recognition and machine learning, algorithm development, and plenty of system building and hacking.
 
 ### What's in a name?
 
@@ -60,7 +148,7 @@ The Duality Lab is an abbreviation of the **D**avis Q**uality** Lab.
 
 **"Quality"**
 
-What do we mean by "quality"?  Our mandate is broadly writ.  Some of our projects focus on functional properties like **correctness** and **security**, while others consider **engineering process** and **human perspectives**.
+What do we mean by "quality"? Some of our projects focus on functional properties like **correctness** and **security**, while others consider **engineering process** and **human perspectives**.
 
 Since we must understand engineering practice before we can improve it, our research often has an **empirical** bent &mdash; examining engineering artifacts (e.g. mining software repositories) and engineers themselves (e.g. surveys and interviews).
 
@@ -103,154 +191,4 @@ My complete *Advisor-Advisee Compact* is available on request.
 ### Impact
 
 Our lab conducts research with an eye to practical impact.
-Our research results have been adopted by major companies (Microsoft, IBM, Google) and major software systems (Node.js, Python).
-
-## Research projects
-
-Our lab's vision is to improve the quality of computing systems.
-
-Here are some of the active projects in the lab.
-
-### Security and software engineering for domain-specific languages
-
-Domain-specific languages (DSLs) are a technique used to simplify the engineering of complex computing systems.
-DSLs allow engineers to express domain-specific information fluently, rather than staggering through an articulation in a general-purpose language.
-
-**DSL #1: Regular expressions**
-
-Regular expressions (regexes) are a widely used, hard to master DSL for string-matching problems.
-They often cause software defects.
-In our regex investigations, we have measured the difficulties that practitioners experience, and guided programming language designers toward regex engines that reflect the needs of practitioners.
-
-This line of research aims to shore up what might be called "crumbling cyber-infrastructure".
-Regexes have been around since the 1940s but their engineering considerations have been overlooked.
-Regexes gone awry have caused [Internet-scale outages](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/) and are a [potent denial of service vector](https://www.usenix.org/conference/usenixsecurity18/presentation/staicu).
-
-*Specific projects:*
-
-1. How widespread of a problem is Regex Denial of Service? ([ESEC/FSE'18](/files/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf)).
-    - We found ReDoS vulnerabilities in thousands of projects, including [Node.js core](https://nodejs.org/en/blog/vulnerability/march-2018-security-releases/#denial-of-service-dos-vulnerability), [Python core](https://github.com/python/cpython/pull/5955), [MongoDB](https://www.mongodb.com/security), [Django](https://www.djangoproject.com/weblog/2018/mar/06/security-releases/), and [Hapi](https://github.com/hapijs/content/commit/96beb34f7c38a08d024dbf9cd63865c56e2955d9). We also disclosed vulnerabilities to Microsoft, which acknowledged us [here](https://www.microsoft.com/en-us/msrc/researcher-acknowledgments-online-services?rtc=1) in July 2018. Many more of our finds are listed in [Snyk.io's vulnerability database](https://snyk.io/vuln/?packageManager=all), mostly under *npm*.
-2. How portable are regexes? ([ESEC/FSE'19](/files/publications/DavisMichaelCoghlanServantLee-LinguaFranca-ESECFSE19.pdf))
-   - We used mixed-methods approaches to understand engineering practices and risks around regex re-use.
-3. How hard are regexes to work with? ([ASE'19](/files/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf))
-   - In surveys and interviews with about 300 practitioners, we learned that "Regexes Are Hard" in many ways, suggesting directions for further research to support them.
-4. How generalizable is regex research? ([ASE'19](/files/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf))
-   - We found that "most regexes are regexes", with no significant outliers by programming language or extraction methodology.
-5. How can we address Regex Denial of Service in a backwards-compatible way? ([IEEE S&P'21](/files/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf))
-   - We described how selective memoization can protect existing regex engines without major changes.
-6. Does sharing valid input formats with clients expose web services to Regex Denial of Service? ([ICSE'22](/files/publications/BarlasDuDavis-WebREDOS-ICSE22.pdf))
-   - We proposed a black-box technique to measure the risks of ReDoS in live web services.
-
-**DSL #2: GraphQL**
-
-The web community is considering GraphQL as a means of addressing data and website management issues with traditional REST-style APIs.
-We have worked with a team at IBM Research (Yorktown) on understanding and ameliorating issues with this technology.
-Aspects of our research have been incorporated into IBM's API Connect And Data Power product [v10.0.0](https://community.ibm.com/community/user/imwuc/blogs/rob-thelen1/2020/06/16/api-connect-and-datapower-v1000-are-generally-avai).
-
-*Specific projects:*
-
-1. What do GraphQL schemas look like? ([ICSOC'19](/files/publications/WitternChaDavisBaudartMandel-EmpiricalGraphQL-ICSOC19.pdf))
-   - We identified idioms to help new adopters write easy-to-understand schemas, and evaluated the extent of denial of service vulnerabilities in schemas.
-2. How can we defend against GraphQL denial of service attacks? ([ESEC/FSE'20](/files/publications/ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20.pdf))
-   - Our findings at ICSOC'19 motivated us to explore accurate static cost estimation for GraphQL queries.
-
-This research involves a collaboration with Dr. Dongyoon Lee, and is supported financially by:
-- NSF [#2135156:](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2135156)
-
-### Software engineering for data-centric computing
-
-Complex computing systems increasingly rely on components derived from data-centric computing, variously referred to as "machine learning" and "data science".
-These techniques have been adopted across most enterprise businesses.
-These techniques include the development of machine learning models, and the use of analysis pipelines to automatically and repeatedly process batches of data.
-Correctly engineering these models, and reproducing and extending analysis pipelines, are critical aspects of modern computing.
-The implications are broad, including business success and national defense.
-
-*Specific projects:*
-
-1. How might provenance be applied to assist data scientists? ([VLDB'20](/files/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf), [SIGMOD'19 demo](/files/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf))
-   - With a team at IBM Research (Almaden), we applied provenance techniques to the data science context.
-     Our Ursprung system facilitates pipeline reproduction and extension.
-2. What should high-quality machine learning software look like? ([CSE'20 poster](), [arXiv'21 report](https://arxiv.org/abs/2107.00821))
-   - I work with a [team of students](https://engineering.purdue.edu/VIP/teams/tensorflow) sponsored by Google's [TensorFlow Model Garden](https://blog.tensorflow.org/2020/03/introducing-model-garden-for-tensorflow-2.html) project.
-     We are developing high-quality examples of machine learning software in TensorFlow, focused on problems in computer vision.
-3. What are the challenges and practices for the reuse of machine learning models? ([ESEC/FSE-IVR'22](/files/publications/MontesPeerapatanapokinSchultzGuoJiangDavis-ModelZoo-FSE22IVR.pdf))
-
-This research involves a collaboration with Drs. Yung-Hsiang Lu, George K. Thiruvathukal, and Neil Klingensmith, and is supported financially by:
-- NSF [#2107230](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2107230)
-- Google
-- Cisco
-
-### Engineering for safety and security in cyber- and cyber-physical systems
-
-*Specific projects:*
-
-1. How do software engineers think about machine learning and cybersecurity for IoT products? ([SERP4IOT'22](/files/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf))
-2. What are the characteristics of failures in IoT systems? ([ASE-NIER'22](/files/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf)) 
-3. Are software engineering researchers consistent and coherent in their analysis of failures? ([ESEC/FSE-IVR'22](/files/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR.pdf))
-
-This research involves collaborations with Drs. Aravind Machiry, Santiago Torres-Arias, and Sazzadur Rahaman, and is supported financially by:
-- Cisco
-- Rolls Royce
-
-### Skilled practitioners through computing education
-
-Skilled engineering teams are one key to realizing high-quality computing systems.
-What kinds of training do computer engineers need?
-
-**Area #1: Teaching software engineering**
-
-Many computer engineering students take on software engineering roles after graduation. 
-I teach undergraduate and graduate Software Engineering courses at Purdue, and think about how best to prepare my students for the challenges of professional work?
-
-*Specific projects:*
-
-1. If you could design a software engineering course from scratch to prepare students for modern agile software engineering, what would it look like? ([DREE'22](/files/publications/DavisAmusuoBushagour-ExperienceIn461.pdf))
-   - The paper describes a project-based learning approach to software engineering education, and reports on experiences in the Fall 2021 edition of the course.
-2.  What kinds of intercultural issues might software engineers encounter in the engineering workforce? Engineering firms are full of folks from different cultures, with different perspectives and different beliefs. ([ACIEE'21](/files/publications/HornbrookDavis-InterculturalLearningModule-ACIEE2021.pdf)).
-   - An intercultural learning module for software engineers.
-
-**Area #2: Teaching software testing**
-
-I collaborate with [Ayaan Kazerouni](http://ayaankazerouni.github.io) on bringing mutation testing into the classroom.
-
-*Specific projects:*
-
-1. How can we make mutation analysis cheap enough for use on student projects? ([JSS'21](/files/publications/KazerouniDavisBasakShafferServantEdwards-JSS21.pdf))
-   - We identified a subset of mutation operators that approximate the mutation discovery capacity of the full set of operators, yet at a fraction of the cost. This makes mutation analysis potentially practical in the classroom.
-
-## Lab members
-
-I am delighted to supervise many talented students:
-
-### PhD
-
-- [Wenxin Jiang](https://www.linkedin.com/in/wenxin-jiang/)
-- [Dharun Anand](https://www.linkedin.com/in/dharunanand/)
-- [Paschal Amusuo](https://www.linkedin.com/in/paschal-amusuo-134146b3/)
-
-### MS
-
-- [William "Trey" Maxam](https://www.linkedin.com/in/william-m-714184114/)
-- [Geoffrey Cramer](https://www.linkedin.com/in/geoff-cramer-85b430129/)
-- [Taylor Schorlemmer](https://www.linkedin.com/in/taylor-reeves-schorlemmer/)
-
-### Undergraduate
-
-*Current* 
-
-- The TensorFlow Model Garden research team, led by Abhi Raja, Dan Peerapatanapokin, and Ibrahim Saeed
-- Diego Montes
-- Charlie Sale
-
-*Alumni* 
-
-- Anirudh Vegesana (Pursuing MS at Stanford)
-- Vishnu Banna (Apple)
-- David Li (Google)
-- Zach Ghera (Google)
-- Allen Liu (Amazon)
-- Feny Patel (Meta)
-- Efe Barlas (Amazon)
-- Evan Williams (Transferred to Cornell)
-
-You could join them! [Here are the instructions to get started](/join-lab).
+Our research results have been adopted by major companies (Microsoft, IBM, Google) and major software systems (Node.js, Python, Ruby).
