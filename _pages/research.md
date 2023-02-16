@@ -27,7 +27,7 @@ For a full list of publications, see [here](/publications).
 
 ## Research projects
 
-### Software engineering for domain-specific languages
+### 1. Software engineering for domain-specific languages
 
 Domain-specific languages (DSLs) are a technique used to simplify the engineering of complex computing systems.
 DSLs allow engineers to express domain-specific information fluently, rather than staggering through an articulation in a general-purpose language.
@@ -47,7 +47,7 @@ In our regex investigations, we have measured the difficulties that practitioner
 
 This work is supported by NSF [SaTC-2135156](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2135156).
 
-### Software engineering for data-centric computing
+### 2. Software engineering for data-centric computing (SE4ML)
 
 Complex computing systems increasingly rely on components derived from data-centric computing, variously referred to as "machine learning" and "data science".
 These techniques have been adopted across most enterprise businesses.
@@ -63,7 +63,7 @@ The implications are broad, including business success and national defense.
 
 This research is supported financially by Google, Cisco, and NSF [OAC-2107230](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2107230).
 
-### Software engineering in cyber-physical systems
+### 3. Software engineering in cyber-physical systems
 
 *Here are some of the questions we have explored*:
 
@@ -73,7 +73,7 @@ This research is supported financially by Google, Cisco, and NSF [OAC-2107230](h
 
 This research is supported financially by Cisco and Rolls Royce.
 
-### Software supply chains
+### 4. Software supply chains
 
 *Here are some of the questions we have explored*:
 
