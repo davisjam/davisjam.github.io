@@ -15,7 +15,7 @@ I am an Assistant Professor at Purdue University, in the department of Electrica
 
 I hold a PhD in Computer Science from Virginia Tech (2020) under [Dr. Dongyoon Lee](https://www3.cs.stonybrook.edu/~dongyoon/).
 I also interned at
-  Microsoft Research (summer 2019 with [Patrice Godefroid](https://www.microsoft.com/en-us/research/people/pg/))
+  Microsoft Research (summer 2019 with [Patrice Godefroid](https://patricegodefroid.github.io))
   and
   IBM Research Almaden (summer 2018 with [Deepavali Bhagwat](https://scholar.google.com/citations?user=Errs7tgAAAAJ&hl=en&oi=ao)).
 Before that, I was a software engineer at IBM (2012-2015) working on the [GPFS](https://en.wikipedia.org/wiki/GPFS) file system.
