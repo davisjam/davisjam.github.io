@@ -26,7 +26,7 @@ You can download my CV [here](/files/professional/JamesDavis-CV.pdf).
 
 Some fun facts:
 
-- My wife [Kirsten Davis](https://engineering.purdue.edu/ENE/People) is a faculty member in the department of Engineering Education.
+- My wife [Kirsten Davis](https://engineering.purdue.edu/ENE/People/ptProfile?resource_id=242800) is a faculty member in the department of Engineering Education.
 - In 2019 I was Virginia Tech's intramural racquetball champion (singles and doubles).
 - I do much of the cooking for my household. I make a mean chili & cornbread.
 - I bike to work whenever possible ("nor rain nor snow nor sleet nor hail").
