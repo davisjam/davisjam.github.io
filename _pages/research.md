@@ -61,10 +61,7 @@ The implications are broad, including business success and national defense.
 2. What should high-quality machine learning software look like? ([CSE'20 poster](), [arXiv'21 report](https://arxiv.org/abs/2107.00821))
 3. What are the challenges and practices for the reuse of machine learning models? ([ESEC/FSE-IVR'22](/files/publications/MontesPeerapatanapokinSchultzGuoJiangDavis-ModelZoo-FSE22IVR.pdf), [ICSE'23](/files/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace.pdf))
 
-This research involves a collaboration with Drs. Yung-Hsiang Lu, George K. Thiruvathukal, and Neil Klingensmith, and is supported financially by:
-- NSF [OAC-2107230](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2107230)
-- Google
-- Cisco
+This research is supported financially by Google, Cisco, and NSF [OAC-2107230](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2107230).
 
 ### Software engineering in cyber-physical systems
 
@@ -74,9 +71,7 @@ This research involves a collaboration with Drs. Yung-Hsiang Lu, George K. Thiru
 2. What are the characteristics of failures in IoT systems? ([ASE-NIER'22](/files/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf)) 
 3. Are software engineering researchers consistent and coherent in their analysis of failures? ([ESEC/FSE-IVR'22](/files/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR.pdf))
 
-This research is supported financially by:
-- Cisco
-- Rolls Royce
+This research is supported financially by Cisco and Rolls Royce.
 
 ### Software supply chains
 
@@ -85,9 +80,7 @@ This research is supported financially by:
 1. What are general principles of secure software supply chains? ([SCORED'22](/files/publications/OkaforSchorlemmerTorresAriasDavis-SOKSecureSupplyChainProperties-SCORED22.pdf))
 2. What are the characteristics of software supply chains in machine learning? ([SCORED'22](/files/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukal-PTMSupplyChain-SCORED22.pdf))
 
-This research is supported financially by:
-- Cisco
-- NSF [POSE-22297403](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2229703&HistoricalAwards=false)
+This research is supported financially by Cisco and NSF [POSE-22297403](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2229703&HistoricalAwards=false).
 
 ## About the Duality Lab
 
