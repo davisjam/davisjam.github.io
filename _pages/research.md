@@ -80,6 +80,8 @@ This research is supported financially by:
 
 ### Software supply chains
 
+*Here are some of the questions we have explored*:
+
 1. What are general principles of secure software supply chains? ([SCORED'22](/files/publications/OkaforSchorlemmerTorresAriasDavis-SOKSecureSupplyChainProperties-SCORED22.pdf))
 2. What are the characteristics of software supply chains in machine learning? ([SCORED'22](/files/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukal-PTMSupplyChain-SCORED22.pdf))
 
