@@ -249,6 +249,18 @@
         },
         {
             "type": "conference",
+            "authors": ["Jiang", "Synovic", "Jajal", "Schorlemmer", "Tewari", "Pareek", "Thiruvathukal", "**Davis**"],
+            "title": "PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages",
+            "venue": "Proceedings of the 20th Annual Conference on Mining Software Repositories — Data and Tool Showcase Track (MSR- Data’23)",
+            "year": 2023,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
+        {
+            "type": "conference",
             "authors": ["Jiang", "Synovic", "Hyatt", "Schorlemmer", "Sethi", "Lu", "Thiruvathukal", "**Davis**"],
             "title": "An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry",
             "venue": "Proceedings of the ACM/IEEE 45th International Conference on Software Engineering (ICSE)",
@@ -260,6 +272,20 @@
             "blogURL": ""
         },
 
+
+
+        {
+            "type": "workshop",
+            "authors": ["Anandayuvaraj", "Thulluri", "Figueroa", "Shandilya", "**Davis**"],
+            "title": "A Controlled Experiment on Incorporating Failure Knowledge into Design Decisions for Internet of Things Systems",
+            "venue": "Proceedings of the 5th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT)",
+            "year": 2023,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
         {
             "type": "workshop",
             "authors": ["Okafor", "Schorlemmer", "Torres-Arias", "**Davis**"],
