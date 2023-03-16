@@ -383,6 +383,17 @@
 
         {
             "type": "arxiv",
+            "authors": ["Jiang", "Banna", "Vivek", "Goel", "Synovic", "Thiruvathukal", "**Davis**"],
+            "title": "Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision",
+            "venue": "arXiv",
+            "year": 2023,
+            "paperBasename": "https://arxiv.org/abs/2303.07476",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Anandayuvaraj", "Thulluri", "Figueroa", "Shandilya", "**Davis**"],
             "title": "Towards a Failure-Aware SDLC for Internet of Things",
             "venue": "arXiv",
