@@ -283,7 +283,7 @@
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
-        },
+        }, 
         {
             "type": "workshop",
             "authors": ["Okafor", "Schorlemmer", "Torres-Arias", "**Davis**"],
