@@ -124,10 +124,10 @@ To see them organized by project, see [here](/research).
 
 ## Peer-reviewed workshop papers
 
-1. *A Controlled Experiment on Incorporating Failure Knowledge into Design Decisions for Internet of Things Systems*.  
+1. *Incorporating Failure Knowledge into Design Decisions for IoT Systems: A Controlled Experiment on Novices*.  
  Anandayuvaraj, Thulluri, Figueroa, Shandilya, and **Davis**.  
- Proceedings of the 5th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT) 2023.  
- 
+ 5th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT 2023) 2023.  
+ <a href="https://arxiv.org/abs/2206.13562"><i class="fas fa-file-pdf"></i></a>
 2. *SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties*.  
  Okafor, Schorlemmer, Torres-Arias, and **Davis**.  
  Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2022.  
@@ -167,11 +167,7 @@ To see them organized by project, see [here](/research).
  Jiang, Banna, Vivek, Goel, Synovic, Thiruvathukal, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2303.07476"><i class="fas fa-file-pdf"></i></a>
-2. *Towards a Failure-Aware SDLC for Internet of Things*.  
- Anandayuvaraj, Thulluri, Figueroa, Shandilya, and **Davis**.  
- arXiv 2022.  
- <a href="https://arxiv.org/abs/2206.13562"><i class="fas fa-file-pdf"></i></a>
-3. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+2. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/abs/2107.00821"><i class="fas fa-file-pdf"></i></a>

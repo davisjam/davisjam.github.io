@@ -273,18 +273,16 @@
         },
 
 
-
         {
             "type": "workshop",
             "authors": ["Anandayuvaraj", "Thulluri", "Figueroa", "Shandilya", "**Davis**"],
-            "title": "A Controlled Experiment on Incorporating Failure Knowledge into Design Decisions for Internet of Things Systems",
-            "venue": "Proceedings of the 5th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT)",
+            "title": "Incorporating Failure Knowledge into Design Decisions for IoT Systems: A Controlled Experiment on Novices",
+            "venue": "5th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT 2023)",
             "year": 2023,
-            "paperBasename": "",
+            "paperBasename": "https://arxiv.org/abs/2206.13562",
             "slidesBasename": "",
             "artifactURL": "",
-            "videoURL": "",
-            "blogURL": ""
+            "videoURL": ""
         },
         {
             "type": "workshop",
@@ -388,17 +386,6 @@
             "venue": "arXiv",
             "year": 2023,
             "paperBasename": "https://arxiv.org/abs/2303.07476",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
-            "authors": ["Anandayuvaraj", "Thulluri", "Figueroa", "Shandilya", "**Davis**"],
-            "title": "Towards a Failure-Aware SDLC for Internet of Things",
-            "venue": "arXiv",
-            "year": 2022,
-            "paperBasename": "https://arxiv.org/abs/2206.13562",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
