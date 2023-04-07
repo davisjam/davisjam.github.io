@@ -381,6 +381,17 @@
 
         {
             "type": "arxiv",
+            "authors": ["Jajal", "Jiang", "Tewari", "Woo", "Lu", "Thiruvathukal", "**Davis**"],
+            "title": "Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem",
+            "venue": "arXiv",
+            "year": 2023,
+            "paperBasename": "https://arxiv.org/abs/2303.17708",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Jiang", "Banna", "Vivek", "Goel", "Synovic", "Thiruvathukal", "**Davis**"],
             "title": "Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision",
             "venue": "arXiv",
