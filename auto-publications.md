@@ -17,7 +17,7 @@ To see them organized by project, see [here](/research).
 2. *PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages*.  
  Jiang, Synovic, Jajal, Schorlemmer, Tewari, Pareek, Thiruvathukal, and **Davis**.  
  Proceedings of the 20th Annual Conference on Mining Software Repositories — Data and Tool Showcase Track (MSR- Data’23) 2023.  
- 
+ <a href="https://arxiv.org/abs/2303.08934"><i class="fas fa-file-pdf"></i></a>
 3. *An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry*.  
  Jiang, Synovic, Hyatt, Schorlemmer, Sethi, Lu, Thiruvathukal, and **Davis**.  
  Proceedings of the ACM/IEEE 45th International Conference on Software Engineering (ICSE) 2023.  
