@@ -25,7 +25,7 @@ To see them organized by project, see [here](/research).
 4. *Towards Rehosting Embedded Applications as Linux Applications*.  
  Srinivasan, Tanksalkar, Amusuo, **Davis**, and Machiry.  
  Proceedings of the 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks — Disrupt track (DSN-Disrupt'23) 2023.  
- 
+ <a href="https://figshare.com/articles/conference_contribution/Towards_Rehosting_Embedded_Applications_as_Linux_Applications/22731767"><i class="fas fa-file-pdf"></i></a>
 5. *Efficient Computer Vision on Edge Devices with Pipeline-Parallel Hierarchical Neural Network*.  
  Goel, Tung, Hu, Thiruvathukal, **Davis**, and Lu.  
  Proceedings of the 27th Asia and South Pacific Design Automation Conference (ASP-DAC) 2022.  
