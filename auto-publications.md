@@ -27,9 +27,9 @@ To see them organized by project, see [here](/research).
  Proceedings of the 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks — Disrupt track (DSN-Disrupt'23) 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SrinivasanTanksalkarAmusuoDavisMachiry-Rehosting-DSN2023.pdf"><i class="fas fa-file-pdf"></i></a>
 5. *Towards Automated Identification of Layering Violations in Embedded Applications (WIP)*.  
- Shen, **Davis**, **Davis**, and Machiry.  
+ Shen, **Davis**, and Machiry.  
  Proceedings of the 24th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES) 2023.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/ShenDavisMachiry-NCMAs-LCTES23.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/ShendavisMachiry-NCMAs-LCTES23.pdf"><i class="fas fa-file-pdf"></i></a>
 6. *Efficient Computer Vision on Edge Devices with Pipeline-Parallel Hierarchical Neural Network*.  
  Goel, Tung, Hu, Thiruvathukal, **Davis**, and Lu.  
  Proceedings of the 27th Asia and South Pacific Design Automation Conference (ASP-DAC) 2022.  
