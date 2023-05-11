@@ -24,7 +24,7 @@ To see them organized by project, see [here](/research).
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace.pdf"><i class="fas fa-file-pdf"></i></a>
 4. *Towards Rehosting Embedded Applications as Linux Applications*.  
  Srinivasan, Tanksalkar, Amusuo, **Davis**, and Machiry.  
- Proceedings of the 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks — Disrupt track (DSN-Disrupt'23) 2023.  
+ Proceedings of the 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks — Disrupt track (DSN-Disrupt) 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SrinivasanTanksalkarAmusuoDavisMachiry-Rehosting-DSN2023.pdf"><i class="fas fa-file-pdf"></i></a>
 5. *Towards Automated Identification of Layering Violations in Embedded Applications (WIP)*.  
  Shen, **Davis**, and Machiry.  

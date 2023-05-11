@@ -275,7 +275,7 @@
             "type": "conference",
             "authors": ["Srinivasan", "Tanksalkar", "Amusuo", "**Davis**", "Machiry"],
             "title": "Towards Rehosting Embedded Applications as Linux Applications",
-            "venue": "Proceedings of the 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks — Disrupt track (DSN-Disrupt'23)",
+            "venue": "Proceedings of the 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks — Disrupt track (DSN-Disrupt)",
             "year": 2023,
             "paperBasename": "SrinivasanTanksalkarAmusuoDavisMachiry-Rehosting-DSN2023.pdf",
             "slidesBasename": "",
