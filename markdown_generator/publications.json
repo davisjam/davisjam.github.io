@@ -405,6 +405,17 @@
 
         {
             "type": "arxiv",
+            "authors": ["Cramer", "Maxam", "Li", "**Davis**"],
+            "title": "An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms",
+            "venue": "arXiv",
+            "year": 2023,
+            "paperBasename": "CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Jajal", "Jiang", "Tewari", "Woo", "Lu", "Thiruvathukal", "**Davis**"],
             "title": "Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem",
             "venue": "arXiv",
