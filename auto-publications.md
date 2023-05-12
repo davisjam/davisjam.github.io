@@ -232,11 +232,11 @@ To see them organized by project, see [here](/research).
 
 ## Dissertation
 
-1. *On the Impact and Defeat of Regular Expression Denial of Service*.  
+1. *An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
  **Cramer**.  
  MSc, Electrical & Computer Engineering, Purdue University 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Cramer-TrustAndSafetyInSMPs-2023-MScThesis.pdf"><i class="fas fa-file-pdf"></i></a>
-2. **.  
+2. *Discovering U.S. Government Threat Hunting Processes and Improvements*.  
  **Maxam**.  
  MSc, Electrical & Computer Engineering, Purdue University 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Maxam-ThreatHunt-2023-MScThesis.pdf"><i class="fas fa-file-pdf"></i></a>

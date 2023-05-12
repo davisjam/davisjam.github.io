@@ -115,5 +115,5 @@ with open(PUBFILE, 'r') as infile, open('../auto-publications.md', 'w') as outfi
         writePubs(outfile, "Posters", posterPubs)
     if dissertationPubs:
         print("Writing the {} dissertations".format(len(dissertationPubs)))
-        writePubs(outfile, "Dissertation", dissertationPubs)
+        writePubs(outfile, "Dissertations and Theses", dissertationPubs)
     outfile.write('\n')

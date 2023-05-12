@@ -453,7 +453,7 @@
         {
             "type": "dissertation",
             "authors": ["**Cramer**"],
-            "title": "On the Impact and Defeat of Regular Expression Denial of Service",
+            "title": "An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms",
             "venue": "MSc, Electrical & Computer Engineering, Purdue University",
             "year": 2023,
             "paperBasename": "Cramer-TrustAndSafetyInSMPs-2023-MScThesis.pdf",
@@ -464,7 +464,7 @@
         {
             "type": "dissertation",
             "authors": ["**Maxam**"],
-            "title": "",
+            "title": "Discovering U.S. Government Threat Hunting Processes and Improvements",
             "venue": "MSc, Electrical & Computer Engineering, Purdue University",
             "year": 2023,
             "paperBasename": "Maxam-ThreatHunt-2023-MScThesis.pdf",
