@@ -8,7 +8,7 @@ author_profile: true
 Here are the publications to which I have contributed.
 To see them organized by project, see [here](/research).
 
-## Peer-reviewed conference papers (full and short)
+## Peer-reviewed conference papers, full and short
 
 1. *Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies*.  
  Hassan, Aamir, Lee, **Davis**, and Servant.  
@@ -169,7 +169,7 @@ To see them organized by project, see [here](/research).
  Proceedings of the 10th European Workshop on Systems Security (EuroSec) 2017.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisKildowLee-EHP-EuroSec17.pdf"><i class="fas fa-file-pdf"></i></a>
 
-## arXiv papers
+## Technical reports
 
 1. *An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
  Cramer, Maxam, Li, and **Davis**.  
@@ -188,7 +188,7 @@ To see them organized by project, see [here](/research).
  arXiv 2021.  
  <a href="https://arxiv.org/abs/2107.00821"><i class="fas fa-file-pdf"></i></a>
 
-## US Patents
+## US patents
 
 1. *Injection of simulated hardware failure(s) in a file system for establishing file system tolerance-to-storage-failure(s)*.  
  **Davis** and Davis.  
@@ -230,7 +230,7 @@ To see them organized by project, see [here](/research).
  SIAM Conference on Computational Science and Engineering (CSE) 2020.  
  
 
-## Dissertations and Theses
+## Dissertations and theses
 
 1. *An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
  **Cramer**.  

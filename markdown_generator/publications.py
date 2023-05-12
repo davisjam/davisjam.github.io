@@ -97,7 +97,7 @@ with open(PUBFILE, 'r') as infile, open('../auto-publications.md', 'w') as outfi
 
     if confPubs:
         print("Writing the {} conference pubs".format(len(confPubs)))
-        writePubs(outfile, "Peer-reviewed conference papers (full and short)", confPubs)
+        writePubs(outfile, "Peer-reviewed conference papers, full and short", confPubs)
     if journalPubs:
         print("Writing the {} journal pubs".format(len(journalPubs)))
         writePubs(outfile, "Peer-reviewed journal papers", journalPubs)
@@ -106,14 +106,14 @@ with open(PUBFILE, 'r') as infile, open('../auto-publications.md', 'w') as outfi
         writePubs(outfile, "Peer-reviewed workshop papers", workshopPubs)
     if arxivPubs:
         print("Writing the {} arxiv pubs".format(len(arxivPubs)))
-        writePubs(outfile, "arXiv papers", arxivPubs)
+        writePubs(outfile, "Technical reports", arxivPubs)
     if patentPubs:
         print("Writing the {} patents".format(len(patentPubs)))
-        writePubs(outfile, "US Patents", patentPubs)
+        writePubs(outfile, "US patents", patentPubs)
     if posterPubs:
         print("Writing the {} posters".format(len(posterPubs)))
         writePubs(outfile, "Posters", posterPubs)
     if dissertationPubs:
         print("Writing the {} dissertations".format(len(dissertationPubs)))
-        writePubs(outfile, "Dissertations and Theses", dissertationPubs)
+        writePubs(outfile, "Dissertations and theses", dissertationPubs)
     outfile.write('\n')
