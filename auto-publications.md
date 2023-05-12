@@ -233,6 +233,14 @@ To see them organized by project, see [here](/research).
 ## Dissertation
 
 1. *On the Impact and Defeat of Regular Expression Denial of Service*.  
+ **Cramer**.  
+ MSc, Electrical & Computer Engineering, Purdue University 2023.  
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Cramer-TrustAndSafetyInSMPs-2023-MScThesis.pdf"><i class="fas fa-file-pdf"></i></a>
+2. **.  
+ **Maxam**.  
+ MSc, Electrical & Computer Engineering, Purdue University 2023.  
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Maxam-ThreatHunt-2023-MScThesis.pdf"><i class="fas fa-file-pdf"></i></a>
+3. *On the Impact and Defeat of Regular Expression Denial of Service*.  
  **Davis**.  
  PhD, Computer Science, Virginia Tech 2020.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-Dissertation-2020.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-Dissertation-OralDefense.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://www.youtube.com/watch?v=TDIlcm3joq0&t=2s"><i class="fas fa-video"></i></a>
