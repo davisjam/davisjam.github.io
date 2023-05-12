@@ -230,7 +230,7 @@ To see them organized by project, see [here](/research).
  SIAM Conference on Computational Science and Engineering (CSE) 2020.  
  
 
-## Dissertation
+## Dissertations and Theses
 
 1. *An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
  **Cramer**.  
