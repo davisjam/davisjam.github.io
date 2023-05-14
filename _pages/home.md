@@ -12,7 +12,7 @@ redirect_from:
 {: .notice--info}
 
 Hi, I'm Jamie!
-I am an Assistant Professor at Purdue University, in the department of Electrical and Computer Engineering (ECE).
+I am an Assistant Professor at Purdue University, in the Elmore Family School (department) of Electrical and Computer Engineering (ECE).
 
 I lead the [Duality Lab](/research).
 We study the engineering of software-intensive computing systems.
