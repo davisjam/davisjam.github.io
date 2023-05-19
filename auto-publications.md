@@ -135,7 +135,7 @@ To see them organized by project, see [here](/research).
 1. *Incorporating Failure Knowledge into Design Decisions for IoT Systems: A Controlled Experiment on Novices*.  
  Anandayuvaraj, Thulluri, Figueroa, Shandilya, and **Davis**.  
  5th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT 2023) 2023.  
- <a href="https://arxiv.org/abs/2206.13562"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AnandayuvarajThulluriFigueroaShandilyaDavis-FailureKnowledgeAndDesignDecisions-SERP4IoT2023.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AnandayuvarajThulluriFigueroaShandilyaDavis-FailureKnowledgeAndDesignDecisions-SERP4IoT2023-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 2. *SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties*.  
  Okafor, Schorlemmer, Torres-Arias, and **Davis**.  
  Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2022.  
