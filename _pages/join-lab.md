@@ -16,14 +16,14 @@ If I don’t respond after five business days, feel free to send a follow-up ema
 
 ## General
 
-I bring a software engineering perspective to my research &mdash; I want to understand how to engineer complex computing systems.
-To conduct this kind of research, you need to be a reasonably proficient software engineer.
-This background is necessary in human-subjects research (asking the right questions), in systems analysis research (knowing how to understand a system), and in system-building research (building a reasonable prototype quickly).
-You will need good fundamentals to make a contribution.
+I bring a systems perspective to my software engineering research &mdash; I want to understand how to engineer complex computing systems.
+To conduct this kind of research, you must be a reasonably proficient software engineer.
+This background is necessary in human-subjects research (asking the right questions), in systems analysis research (knowing how to understand a system), and in systems-building research (building a reasonable prototype quickly).
+You will need good engineering fundamentals to make a contribution.
 
 ## Minimum requirements
 
-It is not my intention to discourage you, but I want you to understand what you are asking for, and to be ready to be challenged.
+It is not my intention to discourage you, but I want you to understand what you are asking for, and to make you ready to be challenged.
 This table highlights the three main requirements for success in the research that my lab conducts.
 
 The most critical of these is *time*.
@@ -31,12 +31,12 @@ If you have the will to learn, you can succeed in research -- but you must inves
 
 | Requirement | Description | Metric | How to get there |
 |-|-|-|-|
-| Time | "Research" means "contributing meaningfully to the collection of human knowledge". Progress is made through disciplined long-term focus. | I expect *graduate* research assistants to commit to 20+ hours/week on a project, with peaks and valleys tied to grant and paper deadlines. I expect *undergraduate* research assistants to work for around 10 hours/week, with peaks and valleys tied to exams and projects. | **Identify your priorities**. If you want to *be* a researcher, you may need to choose *not* to be something else (e.g. not participating in 5 clubs and 2 intramural leagues). |
-| Technical fundamentals* | You should be fluent in several programming languages (e.g. Python, JavaScript, and C/C++/Java). | You can write interesting programs with minimal reference to online documentation ([ref](https://softwareengineering.stackexchange.com/a/154884)). | **Practice**. There are lots of "30 days of code"-type curricula, e.g. [Advent of Code](https://adventofcode.com). Try the problems from [Cracking the Coding Interview](https://en.wikipedia.org/wiki/Cracking_the_Coding_Interview). |
+| Time | "Research" means "contributing meaningfully to the collection of human knowledge". Progress is made through disciplined long-term focus. | I expect *graduate* research assistants to commit to 20+ hours/week on a project, with peaks and valleys tied to grant and paper deadlines. I expect *undergraduate* research assistants to work for around 10 hours/week, with peaks and valleys tied to exams and projects. | **Identify your priorities**. If you want to *be* a researcher, you may need to choose *not* to be something else (e.g. *not* participating in 5 clubs and 2 intramural leagues). |
+| Software fundamentals | You should be fluent in several programming languages (e.g. Python, JavaScript, and C/C++/Java). | You can write interesting programs with minimal reference to online documentation ([ref](https://softwareengineering.stackexchange.com/a/154884)). | **Practice**. There are lots of "30 days of code"-type curricula, e.g. [Advent of Code](https://adventofcode.com). Try the problems from [Cracking the Coding Interview](https://en.wikipedia.org/wiki/Cracking_the_Coding_Interview). |
 | Engineering knowledge | You should have a reasonable command of modern software engineering techniques (e.g. unit testing, CI, object-oriented programming, software registries, git, GitHub). | You have used these techniques on a non-trivial project that you can show me. | **Practice**. Use free versions of modern tools through GitHub. Read the book [Software Engineering at Google](https://learning.oreilly.com/library/view/software-engineering-at/9781492082781/) (free through the Purdue library) |
 
-*Some of my projects are focused on human subjects.
-If you have a background in human subjects research methods (e.g. surveys, interviews), that is a good substitute for some technical fundamentals.
+Note: Some of my projects are focused on human subjects.
+If you wish to apply these methods (e.g. surveys, interviews, ethnographies), knowing about these research methods is a good substitute for some technical know-how.
 
 ## General instructions
 
@@ -53,7 +53,7 @@ Please organize your email with headings so I can read it.
 To help me get to know you better, please:
 
 - Attach a resume or CV.
-- Appoint me to 1-3 relevant and representative projects (e.g. open-source code), reports, or publications, and explain your role in the project. These should demonstrate your potential to conduct research in my lab. If you do not have anything to show along these lines, your email should explain why you think you are prepared to engage in research.
+- Appoint me to 1-3 relevant and representative projects (e.g. open-source code), reports, or publications, and explain your role in the project. These should demonstrate your potential to conduct research in my lab. If you do not have anything to show along these lines (perhaps you are a first-year student?), your email should explain why you think you are prepared to engage in research.
 - Read one or more of my recent research publications and suggest some ideas for a follow-up study.
 
 Finally, to match my email filter, please include the magic word *xyzzy* somewhere in your email.
@@ -80,3 +80,6 @@ However, I do not do "freelance" mentoring. If you want to be an undergraduate r
 If I like the looks of your application, I will set up an interview.
 If that goes well, I will ask you to work on something small for 4-6 weeks to get a sense of your commitment, interests, and skill set.
 Then we can discuss a longer-term relationship.
+
+Undergraduate students will generally be assigned to support an existing project. 
+You must learn to walk before you can run.
