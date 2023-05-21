@@ -17,6 +17,8 @@ Please review the lab description and the active projects to understand whether 
 If so, follow [these instructions](/join-lab) to check your qualifications and submit your application.
 {: .notice--info}
 
+## Introduction
+
 This page describes the lab's general directions (first section), as well as some details about the lab (second section)
 For a full list of publications, see [here](/publications).
 
