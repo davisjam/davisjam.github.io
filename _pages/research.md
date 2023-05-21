@@ -17,19 +17,20 @@ Please review the lab description and the active projects to understand whether 
 If so, follow [these instructions](/join-lab) to check your qualifications and submit your application.
 {: .notice--info}
 
-This page describes some of my lab's broad directions.
+This page describes the lab's general directions (first section), as well as some details about the lab (second section)
 For a full list of publications, see [here](/publications).
 
-- Software engineering for domain-specific languages (regexes)
-- "[Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)" &mdash; Software engineering and its intersection with AI + Machine Learning
-- Software engineering in cyber-physical systems
-- Software supply chains
+Our lab conducts software engineering research with an eye to practical impact.
+We understand two modes of impact:
+- Empirical: Our tools have found plenty of defects and security vulnerabilities. Our research results have been adopted by major companies (Microsoft, IBM, Google) and major software systems (Node.js, Python, Ruby).
+- Theoretical: Software engineering is always changing. Part of software engineering theory is to articulate and organize concepts so that practicing engineers can make sense of them (ontology). We write papers about this, and convey key ideas to practitioners through a Medium blog (65,000 views and counting).
 
-## Research projects
+## Research directions
 
-### 1. Software engineering for domain-specific languages
+### Web security, or, Software engineering for domain-specific languages
 
-Domain-specific languages (DSLs) are a technique used to simplify the engineering of complex computing systems.
+This research topic is "theoretically" about domain-specific languages, with applications to web security.
+Domain-specific languages (DSLs) simplify the engineering of complex computing systems.
 DSLs allow engineers to express domain-specific information fluently, rather than staggering through an articulation in a general-purpose language.
 
 Regular expressions (regexes) are a widely used, hard to master DSL for string-matching problems.
@@ -38,72 +39,77 @@ Regexes gone awry have caused [Internet-scale outages](https://blog.cloudflare.c
 
 In our regex investigations, we have measured the difficulties that practitioners experience, and guided programming language designers toward regex engines that reflect the needs of practitioners.
 
-1. How widespread of a problem is Regex Denial of Service? ([ESEC/FSE'18](/files/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf)).
-2. How portable are regexes? ([ESEC/FSE'19](/files/publications/DavisMichaelCoghlanServantLee-LinguaFranca-ESECFSE19.pdf))
-3. How hard are regexes to work with? ([ASE'19](/files/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf))
+*Here are some of the questions we have explored*:
+
+1. How widespread of a problem is Regex Denial of Service? ([ESEC/FSE'18](/files/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf), [ICSE'22](/files/publications/BarlasDuDavis-WebREDOS-ICSE22.pdf)).
+3. How hard are regexes to work with? ([ESEC/FSE'19](/files/publications/DavisMichaelCoghlanServantLee-LinguaFranca-ESECFSE19.pdf), [ASE'19](/files/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf))
 4. How generalizable is regex research? ([ASE'19](/files/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf))
-5. How can we address Regex Denial of Service in a backwards-compatible way? ([IEEE S&P'21](/files/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf))
-6. Does sharing valid input formats with clients expose web services to Regex Denial of Service? ([ICSE'22](/files/publications/BarlasDuDavis-WebREDOS-ICSE22.pdf))
+5. How might we address Regex Denial of Service? ([IEEE S&P'21](/files/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf), [IEEE S&P'23](/files/publications/HassanAamirLeeDavisServant-ReDoSUsability-SP23.pdf))
 
 This work is supported by NSF [SaTC-2135156](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2135156).
 
-### 2. Software engineering for data-centric computing (SE4ML)
+### Software engineering for data-centric computing (SE4ML, pre-trained models)
 
-Complex computing systems increasingly rely on components derived from data-centric computing, variously referred to as "machine learning" and "data science".
-These techniques have been adopted across most enterprise businesses.
-These techniques include the development of machine learning models, and the use of analysis pipelines to automatically and repeatedly process batches of data.
-Correctly engineering these models, and reproducing and extending analysis pipelines, are critical aspects of modern computing.
-The implications are broad, including business success and national defense.
+Complex computing systems incorporate machine learning models -- data-centric computing components that predict the future based on the past (e.g. data science, ML, deep learning).
+Correct machine learning models requires the development of the models themselves, and the use of analysis pipelines to automatically and repeatedly process batches of data.
+Engineering these models is a critical aspect of modern computing.
+
+Some problems in this domain are traditional, e.g. documenting one's code, promoting modularity, and porting concepts from one programming language (or ML framework) to another.
+Other problems are new, e.g. understanding the nature of software re-use in this context (pre-trained models).
 
 *Here are some of the questions we have explored*:
 
 1. How might provenance be applied to assist data scientists? ([VLDB'20](/files/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf), [SIGMOD'19 demo](/files/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf))
-2. What should high-quality machine learning software look like? ([CSE'20 poster](), [arXiv'21 report](https://arxiv.org/abs/2107.00821))
-3. What are the challenges and practices for the reuse of machine learning models? ([ESEC/FSE-IVR'22](/files/publications/MontesPeerapatanapokinSchultzGuoJiangDavis-ModelZoo-FSE22IVR.pdf), [ICSE'23](/files/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace.pdf))
+2. What should high-quality machine learning software look like? (CSE'20 poster, [arXiv'21](https://arxiv.org/abs/2107.00821))
+3. What are the challenges and practices for the reuse of machine learning models? ([ESEC/FSE-IVR'22](/files/publications/MontesPeerapatanapokinSchultzGuoJiangDavis-ModelZoo-FSE22IVR.pdf), [ICSE'23](/files/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace.pdf), [MSR-Dataset'23](https://arxiv.org/abs/2303.08934))
 
 This research is supported financially by Google, Cisco, and NSF [OAC-2107230](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2107230).
 
-### 3. Software engineering in cyber-physical systems
+### Software engineering in cyber-physical systems (IoT)
+
+Software influences the physical world one way or another.
+Unlike traditional business software, in which physical-world effects are mediated by humans, Internet of Things (IoT) systems allow software to directly interact with the physical world through interconnected devices.
+
+Embedded systems are some of the oldest computing systems (e.g. avionics), and there are well established engineering methods to reduce catastrophic failure.
+However, these methods are not being applied in many safety-sensitive contexts such as medical devices.
 
 *Here are some of the questions we have explored*:
 
 1. How do software engineers think about machine learning and cybersecurity for IoT products? ([SERP4IOT'22](/files/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf))
 2. What are the characteristics of failures in IoT systems? ([ASE-NIER'22](/files/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf)) 
 3. Are software engineering researchers consistent and coherent in their analysis of failures? ([ESEC/FSE-IVR'22](/files/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR.pdf))
+4. How do engineering students respond to lessons about failures? ([SERP4IoT'23](/files/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf))
+5. Can we apply traditional program analyses to embedded software applications? ([DSN-Disrupt'23](/files/publications/SrinivasanTanksalkarAmusuoDavisMachiry-Rehosting-DSNDisrupt23.pdf), [LCTES-WIP'23](/files/publications/ShenDavisMachiry-NCMAs-LCTES23.pdf)).
+6. How do we achieve good performance in resource-constrained environments? ([HotMobile'22](/files/publications/VeselskyWestAhlgrenGoelJiangLeeKimDavisThiruvathukalKlingensmith-V2VTrust-HotMobile.pdf), [ISLPED'21](/files/publications/GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21.pdf), [ASP-DAC'22](/files/publications/GoelTungHuThiruvathukalDavisLu-ASPDAC2022.pdf), [ISLPED'22](/files/publications/GoelTungEliopoulosHuThiruvathukalDavisLu-DAGHNNs-ISLPED2022.pdf), [Computer'23](TODO)).
 
 This research is supported financially by Cisco and Rolls Royce.
 
-### 4. Software supply chains
+### Software supply chains
 
 *Here are some of the questions we have explored*:
 
 1. What are general principles of secure software supply chains? ([SCORED'22](/files/publications/OkaforSchorlemmerTorresAriasDavis-SOKSecureSupplyChainProperties-SCORED22.pdf))
 2. What are the characteristics of software supply chains in machine learning? ([SCORED'22](/files/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukal-PTMSupplyChain-SCORED22.pdf))
 
+Some papers from other areas (notably my work on pre-trained models) also fall into this category.
+
 This research is supported financially by Cisco and NSF [POSE-22297403](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2229703&HistoricalAwards=false).
 
 ## About the Duality Lab
 
-Computing systems will transform the human experience during this century,
-  for individuals (I sure like my robotic vacuum)
-  and for society (Can computer vision safely support policing and national defense?).
-Achieving this transformation requires high-quality software.
-This is an increasingly-difficult challenge as computing systems become more complex.
-
-### Vision
+### Overview
 
 *The vision of the Duality Lab is to improve the quality of complex computing systems.*
 
 We believe that computing systems will eventually mediate many human interactions with other humans and with the surrounding world.
 We therefore seek to improve the human experience by improving the quality of computing systems.
-Three factors are foundational to our success:
+Two factors are foundational to our success:
 
 1. Our **diverse team** helps us understand the ways that computing systems are used and perceived by many kinds of humans. Computing systems will touch all of humanity, and so all of humanity is needed to develop them.
-2. Our **data-driven** approach grounds our work in real-world computing systems, ensuring that our findings and proposals impact the quality of computing systems in the here-and-now, not in the what-might-be.
-3. Our **readiness to re-imagine** enables us to propose, design, and implement new paradigms.
+2. Our **data-driven and systems** approach grounds our work in real-world computing systems, ensuring that our findings and proposals impact the quality of computing systems in the here-and-now, not in the what-might-be.
 
 In order to improve the quality of software-intensive computing systems, we take a scientific engineering approach.
-   - We empirically study engineering failures in order to drive the development of tools and systems that reflect practitioners' needs and address their misconceptions.
+   - We empirically study engineering failures to drive the development of tools and systems that reflect practitioners' needs and address their misconceptions.
    - We blend techniques from software engineering, systems, and security in order to understand, measure, and ameliorate the issues that computing practitioners face.
    - We apply methodologies appropriate to the task at hand: static and dynamic program analysis, pattern recognition and machine learning, algorithm development, and plenty of system building and hacking.
 
@@ -127,33 +133,3 @@ We aim to unite these perspectives.
 
 Call this what you will: human-in-the-loop, a socio-technical perspective, etc.
 We believe it is the only way to achieve truly high-quality computing systems.
-
-### Philosophy of training
-
-Learning how to "do research" is a long journey. To help you understand what life will be like in my lab, let me tell you about my philosophy of training.
-
-A research laboratory has two responsibilities.
-  First, we create *new knowledge*.
-  Second, we create *new researchers*.
-
-Every lab member will contribute to the creation and sharing of new knowledge. This typically takes the form of understanding the state of the art (research literature) and of the practice (existing tools and systems), and then designing studies, implementing systems or studying humans, and writing up results.
-
-Research is learned through apprenticeship.
-  My lab members will become
-    **disciplined thinkers**,
-    **thoughtful researchers**,
-    and
-    **exemplary communicators**.
-  I will provide you with
-    one-on-one mentoring in these areas,
-    feedback to help you understand your strengths and weaknesses,
-    and
-    resources to help you improve.
-  In addition, senior lab members will be given opportunities to help train more junior lab members.
-
-My complete *Advisor-Advisee Compact* is available on request.
-
-### Impact
-
-Our lab conducts research with an eye to practical impact.
-Our research results have been adopted by major companies (Microsoft, IBM, Google) and major software systems (Node.js, Python, Ruby).

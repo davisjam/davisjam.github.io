@@ -26,7 +26,7 @@ author_profile: true
 ---
 
 Here are the publications to which I have contributed.
-To see them organized by project, see [here](/research).
+To see them organized approximately by project, see [here](/research).
 """)
 
 FILE_PATH = "{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications"

@@ -37,7 +37,7 @@ If you have the will to learn, you can succeed in research -- but you must inves
 
 ### Going beyond the minimum
 
-Beyond this general know-how, you will need to develop topic-specific skills.
+Beyond this general know-how, you will need to develop topic-specific skills as you engage in research.
 It is my job to point out the knowledge you need to acquire, but your job to develop it.
 I will not lecture you.
 For example:
@@ -93,3 +93,28 @@ Then we can discuss a longer-term relationship.
 
 Undergraduate students will generally be assigned to support an existing project. 
 You must learn to walk before you can run.
+
+## Philosophy of training
+
+Learning how to "do research" is a long journey. To help you understand what life will be like in my lab, let me tell you about my philosophy of training.
+
+A research laboratory has two responsibilities.
+  First, we create *new knowledge*.
+  Second, we create *new researchers*.
+
+Every lab member will contribute to the creation and sharing of new knowledge. This typically takes the form of understanding the state of the art (research literature) and of the practice (existing tools and systems), and then designing studies, implementing systems or studying humans, and writing up results.
+
+Research is learned through apprenticeship.
+  My lab members will become
+    **disciplined thinkers**,
+    **thoughtful researchers**,
+    and
+    **exemplary communicators**.
+  I will provide you with
+    one-on-one mentoring in these areas,
+    feedback to help you understand your strengths and weaknesses,
+    and
+    resources to help you improve.
+  In addition, senior lab members will be given opportunities to help train more junior lab members.
+
+My complete *Advisor-Advisee Compact* is available on request.

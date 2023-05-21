@@ -555,6 +555,17 @@
         
         {
             "type": "journal",
+            "authors": ["Hu", "Jiao", "Kocher", "Wu", "Liu", "**Davis**", "Thiruvathukal", "Lu"],
+            "title": "Evolution of Winning Solutions in the 2021 Low-Power Computer Vision Challenge",
+            "venue": "IEEE Computer",
+            "year": 2023,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "journal",
             "authors": ["Goel", "Tung", "Eliopoulos", "Wang", "**Davis**", "Thiruvathukal", "Lu"],
             "title": "Tree-based Unidirectional Neural Networks for Low-Power Computer Vision",
             "venue": "IEEE Design & Test",
