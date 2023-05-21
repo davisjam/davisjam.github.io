@@ -14,14 +14,14 @@ I receive a lot of email and sometimes things get lost. I have special email fil
 
 If I don’t respond after five business days, feel free to send a follow-up email. But double-check that you followed the instructions! Your email might not have made it into the right folder.
 
-## General
+## General information
 
 I bring a systems perspective to my software engineering research &mdash; I want to understand how to engineer complex computing systems.
 To conduct this kind of research, you must be a reasonably proficient software engineer.
 This background is necessary in human-subjects research (asking the right questions), in systems analysis research (knowing how to understand a system), and in systems-building research (building a reasonable prototype quickly).
 You will need good engineering fundamentals to make a contribution.
 
-## Minimum requirements
+### Minimum requirements
 
 It is not my intention to discourage you, but I want you to understand what you are asking for, and to make you ready to be challenged.
 This table highlights the three main requirements for success in the research that my lab conducts.
@@ -35,10 +35,20 @@ If you have the will to learn, you can succeed in research -- but you must inves
 | Software fundamentals | You should be fluent in several programming languages (e.g. Python, JavaScript, and C/C++/Java). | You can write interesting programs with minimal reference to online documentation ([ref](https://softwareengineering.stackexchange.com/a/154884)). | **Practice**. There are lots of "30 days of code"-type curricula, e.g. [Advent of Code](https://adventofcode.com). Try the problems from [Cracking the Coding Interview](https://en.wikipedia.org/wiki/Cracking_the_Coding_Interview). |
 | Engineering knowledge | You should have a reasonable command of modern software engineering techniques (e.g. unit testing, CI, object-oriented programming, software registries, git, GitHub). | You have used these techniques on a non-trivial project that you can show me. | **Practice**. Use free versions of modern tools through GitHub. Read the book [Software Engineering at Google](https://learning.oreilly.com/library/view/software-engineering-at/9781492082781/) (free through the Purdue library) |
 
-Note: Some of my projects are focused on human subjects.
-If you wish to apply these methods (e.g. surveys, interviews, ethnographies), knowing about these research methods is a good substitute for some technical know-how.
+### Going beyond the minimum
 
-## General instructions
+Beyond this general know-how, you will need to develop topic-specific skills.
+It is my job to point out the knowledge you need to acquire, but your job to develop it.
+I will not lecture you.
+For example:
+1. Some of my projects are focused on human subjects. If you wish to apply these methods (e.g. surveys, interviews, ethnographies), knowing about these research methods is a good substitute for some technical know-how. I will expect you to study these methods independently.
+2. Some of my projects involve machine learning. If you wish to study engineering failures in deep learning projects, then you will need to be an expert in deep learning first. If you join such a project, I will expect you to study the relevant material independently. 
+
+You might benefit from enrolling in pertinent courses, completing online certificates, or getting a textbook out of the library.
+If you need knowledge for research, you must not rely on Googling stuff and ChatGPT as a substitute for expertise.
+If you are not actively developing knowledge you need, I will ask you to leave.
+
+## Instructions to apply
 
 Write me an email and tell me how you might fit into my team.
 There are detailed notes for graduate vs. undergraduate students further down, but I have the same general questions for everyone.
@@ -58,13 +68,13 @@ To help me get to know you better, please:
 
 Finally, to match my email filter, please include the magic word *xyzzy* somewhere in your email.
 
-### Notes for graduate students
+### Application notes for graduate students
 
 If you are a *current* or *incoming* Purdue graduate student in the ECE department, send me the email described above, with the subject "*Prospective assistant: graduate (current)*".
 
 If you are *applying* to Purdue's ECE department for graduate work, send me the email described above, with the subject "*Prospective assistant: graduate (applicant)*".
 
-### Notes for undergraduate students
+### Application notes for undergraduate students
 
 If you are a current Purdue undergraduate, send me the email described above, with the subject "*Prospective assistant: undergraduate*".
 I am happy to hear from undergraduate students in ECE, CS, CIT, and related majors, and further afield if you think it's a good fit.
