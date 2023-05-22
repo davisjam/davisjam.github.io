@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-## Actively recruiting
+## Joining the lab
 
 **I welcome *graduate* and *undergraduate* researchers passionate about improving the quality of computing systems.**
 Please review the lab description and the active projects to understand whether you are interested in joining our work.
