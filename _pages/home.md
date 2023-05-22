@@ -45,8 +45,8 @@ This disorganized list summarizes my research, teaching, and service activities.
 - (Best) poster on securing the machine learning supply chain.  Congrats Taylor!
 - Paschal will take a 2023 internship on software supply chain security with a research group at Google.
 - Dharun will take a 2023 internship on learning from engineering failure with the German NASA.
-- Cisco funds research on software engineering for computer vision
-- Serving on an NSF:CISE panel
+- Cisco funds research on software engineering for computer vision.
+- Serving on an NSF:CISE panel.
 - Paper on learning from engineering failure: SERP4IoT 2023. Congrats Dharun!
 - Paper on security for embedded systems: LCTES 2023. Congrats Ming!
 - Paper on security for embedded systems: DSN-Disrupt 2023. Congrats Jayashree!
@@ -55,7 +55,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Paper on pre-trained models: ICSE 2023. Congrats Wenxin!
 - Serving on the ESEC/FSE 2023 PC.
 - Paper on secure regular expressions: S&P 2023
-- Google renews funding research on software engineering for machine learning
+- <i class="fa-regular fa-sack-dollar"></i> Google renews support for our research on software engineering for machine learning
 
 ## 2022
 
@@ -75,22 +75,23 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Award for engineering education: Ruth and Joel Spira Outstanding Teacher Award, ECE@Purdue 2022. Thank you.
 - Paper on engineering education: DREE 2022. Congrats to me!
 - Paper on pre-trained models: SCORED 2022. Congrats Wenxin!
-- Serving on the SCORED 2022 PC
+- Serving on the SCORED 2022 PC.
 - Paper on secure software supply chains: SCORED 2022. Congrats Chinenye+Taylor!
 - Paper on secure regular expressions: ICSE 2022. Congrats Efe+Xin!
 
 ## 2021
 
-- Rolls Royce funds research on embedded systems security
-- Google funds research on software engineering for machine learning
-- Purdue funds research on computing education
-- Serving on the ICSE 2021 Demonstrations PC
-- NSF funds research on secure regular expressions
-- NSF funds research on software engineering for computer vision
+- Rolls Royce funds research on embedded systems security.
+- Google funds research on software engineering for machine learning.
+- Purdue funds research on computing education.
+- Serving on the ICSE 2021 Demonstrations PC.
+- NSF funds research on secure regular expressions.
+- Paper on computer vision: ISLPED 2021. Congrats Abhinav!
+- NSF funds research on software engineering for computer vision.
 - Award for engineering education: VIP Outstanding Mentor, 2021. Thank you.
 - Paper on engineering education: ACIEE 2021. Congrats Nicole!
 - Serving on the ASE 2021 PC. Distinguished reviewer award!
-- Serving on the ESEC/FSE 2021 Artifact PC
+- Serving on the ESEC/FSE 2021 Artifact PC.
 
 ## 2020
 
