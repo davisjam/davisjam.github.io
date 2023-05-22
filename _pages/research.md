@@ -24,14 +24,14 @@ For a full list of publications, see [here](/publications).
 
 Our lab conducts software engineering research with an eye to practical impact.
 We understand two modes of impact:
-- Empirical: Our tools have found plenty of defects and security vulnerabilities. Our research results have been adopted by major companies (Microsoft, IBM, Google) and major software systems (Node.js, Python, Ruby).
-- Theoretical: Software engineering is always changing. Part of software engineering theory is to articulate and organize concepts so that practicing engineers can make sense of them (ontology). We write papers about this, and convey key ideas to practitioners through a Medium blog (65,000 views and counting).
+- *Empirical*: Our tools have found plenty of defects and security vulnerabilities. Our research results have been adopted by major companies (Microsoft, IBM, Google) and major software systems (Node.js, Python, Ruby).
+- *Theoretical*: Software engineering is always changing. Part of software engineering theory is to articulate and organize concepts so that practicing engineers can make sense of them (ontology). We write papers about this, and convey key ideas to practitioners through a Medium blog (65,000 views and counting).
 
 ## Research directions
 
 ### Web security, or, Software engineering for domain-specific languages
 
-This research topic is "theoretically" about domain-specific languages, with applications to web security.
+This research topic is about domain-specific languages, with applications to web security.
 Domain-specific languages (DSLs) simplify the engineering of complex computing systems.
 DSLs allow engineers to express domain-specific information fluently, rather than staggering through an articulation in a general-purpose language.
 
@@ -61,7 +61,7 @@ Other problems are new, e.g. understanding the nature of software re-use in this
 
 *Here are some of the questions we have explored*:
 
-1. How might provenance be applied to assist data scientists? ([VLDB'20](/files/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf), [SIGMOD'19 demo](/files/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf))
+1. How might provenance be applied to assist data scientists? ([SIGMOD'19 demo](/files/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf), [VLDB'20](/files/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf))
 2. What should high-quality machine learning software look like? (CSE'20 poster, [arXiv'21](https://arxiv.org/abs/2107.00821))
 3. What are the challenges and practices for the reuse of machine learning models? ([ESEC/FSE-IVR'22](/files/publications/MontesPeerapatanapokinSchultzGuoJiangDavis-ModelZoo-FSE22IVR.pdf), [ICSE'23](/files/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace.pdf), [MSR-Dataset'23](https://arxiv.org/abs/2303.08934))
 
@@ -77,11 +77,11 @@ However, these methods are not being applied in many safety-sensitive contexts s
 
 *Here are some of the questions we have explored*:
 
-1. How do software engineers think about machine learning and cybersecurity for IoT products? ([SERP4IOT'22](/files/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf))
+1. How do software engineers think about machine learning and cybersecurity for IoT products? ([SERP4IoT'22](/files/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf))
 2. What are the characteristics of failures in IoT systems? ([ASE-NIER'22](/files/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf)) 
 3. Are software engineering researchers consistent and coherent in their analysis of failures? ([ESEC/FSE-IVR'22](/files/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR.pdf))
 4. How do engineering students respond to lessons about failures? ([SERP4IoT'23](/files/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf))
-5. Can we apply traditional program analyses to embedded software applications? ([DSN-Disrupt'23](/files/publications/SrinivasanTanksalkarAmusuoDavisMachiry-Rehosting-DSNDisrupt23.pdf), [LCTES-WIP'23](/files/publications/ShenDavisMachiry-NCMAs-LCTES23.pdf)).
+5. Can we apply traditional program analyses to embedded software applications? ([DSN-Disrupt'23](/files/publications/SrinivasanTanksalkarAmusuoDavisMachiry-Rehosting-DSN23.pdf), [LCTES-WIP'23](/files/publications/ShenDavisMachiry-NCMAs-LCTES23.pdf)).
 6. How do we achieve good performance in resource-constrained environments? ([HotMobile'22](/files/publications/VeselskyWestAhlgrenGoelJiangLeeKimDavisThiruvathukalKlingensmith-V2VTrust-HotMobile.pdf), [ISLPED'21](/files/publications/GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21.pdf), [ASP-DAC'22](/files/publications/GoelTungHuThiruvathukalDavisLu-ASPDAC2022.pdf), [ISLPED'22](/files/publications/GoelTungEliopoulosHuThiruvathukalDavisLu-DAGHNNs-ISLPED2022.pdf), [Computer'23](TODO)).
 
 This research is supported financially by Cisco and Rolls Royce.

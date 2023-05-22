@@ -55,7 +55,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Paper on pre-trained models: ICSE 2023. Congrats Wenxin!
 - Serving on the ESEC/FSE 2023 PC.
 - Paper on secure regular expressions: S&P 2023
-- <i class="fa-regular fa-sack-dollar"></i> Google renews support for our research on software engineering for machine learning
+- Google renews support for our research on software engineering for machine learning
 
 ## 2022
 

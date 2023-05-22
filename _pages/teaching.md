@@ -8,37 +8,16 @@ redirect_from:
 
 {% include base_path %}
 
+# Philosophy
+
 I strive to build my students' expertise and critical thought.
 If you take one of my courses, you will learn to ask and answer not only "*What?*" and "*How?*" but also "*Why?*" and "*How else?*".
 
-## Courses taught
+My courses involve lengthy, often-team-based projects.
+This approach is supported by educational research, e.g. problem-based learning (PBL).
 
-### Spring 2022 (Purdue)
+# Offerings
 
-- [ECE 595: Advanced Software Engineering](https://engineering.purdue.edu/ECE/Academics/Online/Courses/advanced-software-engineering).
-- [VIP: TensorFlow Team](https://engineering.purdue.edu/VIP/teams/tensorflow).
+At the undergraduate level, I primarily teach the Software Engineering course, known variously as ECE 461 and ECE 30861 ([link](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo/AboutUs?courseid=402&show=true&type=undergrad)).
 
-### Fall 2021 (Purdue)
-
-- [ECE 461: Software Engineering](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo/AboutUs?courseid=402&show=true&type=undergrad).
-- [VIP: TensorFlow Team](https://engineering.purdue.edu/VIP/teams/tensorflow).
-
-### Spring 2021 (Purdue)
-
-- [ECE 595: Advanced Software Engineering](https://engineering.purdue.edu/ECE/Academics/Online/Courses/advanced-software-engineering).
-- [VIP: TensorFlow Team](https://engineering.purdue.edu/VIP/teams/tensorflow).
-- [VIP: Regex Team](https://engineering.purdue.edu/VIP/teams/saferegex).
-
-### Fall 2020 (Purdue)
-
-- [ECE 368: Data Structures](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=542&show=true&type=undergrad) with Cheng-Kok Koh.
-- [VIP: TensorFlow Team](https://engineering.purdue.edu/VIP/teams/tensorflow) with Yung-Hsiang Lu.
-- [VIP: Regex Team](https://engineering.purdue.edu/VIP/teams/saferegex).
-
-### Fall 2019 (Virginia Tech)
-
-- [CS 3114: Data Structures & Algorithms](https://cs.vt.edu/Undergraduate/courses/CS3114.html) with Yang Cao.
-
-### Spring 2019 (Virginia Tech)
-
-- [CS 1064: Introduction to Programming in Python](https://cs.vt.edu/Undergraduate/courses/CS1064.html) with John Wenskovitch.
+At the graduate level, I teach Advanced Software Engineering, currently known as ECE 595 ([link](https://engineering.purdue.edu/ECE/Academics/Online/Courses/advanced-software-engineering)).
