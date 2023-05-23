@@ -112,7 +112,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Evolution of Winning Solutions in the 2021 Low-Power Computer Vision Challenge*.  
  Hu, Jiao, Kocher, Wu, Liu, **Davis**, Thiruvathukal, and Lu.  
  IEEE Computer 2023.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HuJiaoKocherWuLiuDavisThiruvathukalLu-LPCVC-Computer2023"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HuJiaoKocherWuLiuDavisThiruvathukalLu-LPCVC-Computer2023.pdf"><i class="fas fa-file-pdf"></i></a>
 2. *Tree-based Unidirectional Neural Networks for Low-Power Computer Vision*.  
  Goel, Tung, Eliopoulos, Wang, **Davis**, Thiruvathukal, and Lu.  
  IEEE Design & Test 2022.  
