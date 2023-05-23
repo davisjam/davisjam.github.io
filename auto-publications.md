@@ -13,7 +13,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies*.  
  Hassan, Aamir, Lee, **Davis**, and Servant.  
  Proceedings of the 44th IEEE Symposium on Security and Privacy (IEEE S&P) 2023.  
- <a href="https://docs.lib.purdue.edu/ecepubs/161"><i class="fas fa-file-pdf"></i></a> <a href="https://doi.org/10.5281/zenodo.7419006"><i class="fas fa-file-code"></i></a>
+ <a href="https://docs.lib.purdue.edu/ecepubs/161"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HassanAamirLeeDavisServant-ReDoSUsability-SP23-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.7419006"><i class="fas fa-file-code"></i></a>
 2. *PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages*.  
  Jiang, Synovic, Jajal, Schorlemmer, Tewari, Pareek, Thiruvathukal, and **Davis**.  
  Proceedings of the 20th Annual Conference on Mining Software Repositories — Data and Tool Showcase Track (MSR-Data’23) 2023.  
@@ -112,7 +112,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Evolution of Winning Solutions in the 2021 Low-Power Computer Vision Challenge*.  
  Hu, Jiao, Kocher, Wu, Liu, **Davis**, Thiruvathukal, and Lu.  
  IEEE Computer 2023.  
- 
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HuJiaoKocherWuLiuDavisThiruvathukalLu-LPCVC-Computer2023"><i class="fas fa-file-pdf"></i></a>
 2. *Tree-based Unidirectional Neural Networks for Low-Power Computer Vision*.  
  Goel, Tung, Eliopoulos, Wang, **Davis**, Thiruvathukal, and Lu.  
  IEEE Design & Test 2022.  
