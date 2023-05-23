@@ -90,8 +90,8 @@ This research is supported financially by Cisco and Rolls Royce.
 
 *Here are some of the questions we have explored*:
 
-1. What are general principles of secure software supply chains? ([SCORED'22](/files/publications/OkaforSchorlemmerTorresAriasDavis-SOKSecureSupplyChainProperties-SCORED22.pdf))
-2. What are the characteristics of software supply chains in machine learning? ([SCORED'22](/files/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukal-PTMSupplyChain-SCORED22.pdf))
+1. What are general principles of secure software supply chains? ([SCORED'22a](/files/publications/OkaforSchorlemmerTorresAriasDavis-SOKSecureSupplyChainProperties-SCORED22.pdf))
+2. What are the characteristics of software supply chains in machine learning? ([SCORED'22b](/files/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukal-PTMSupplyChain-SCORED22.pdf))
 
 Some papers from other areas (notably my work on pre-trained models) also fall into this category.
 
