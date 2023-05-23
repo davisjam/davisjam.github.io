@@ -177,11 +177,10 @@
             "title": "An Empirical Study on the Impact of Parameters on Mobile App Energy Usage",
             "venue": "Proceedings of the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
             "year": 2022,
-            "paperBasename": "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1182&context=ecepubs",
-            #"paperBasename": "XuDavisHuJindal-AndroidDeepParameters-SANER2022.pdf",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": "",
+            "paperBasename": "XuDavisHuJindal-AndroidDeepParameters-SANER2022.pdf",
+            "slidesBasename": "XuDavisHuJindal-AndroidDeepParameters-SANER2022-slides.pdf",
+            "artifactURL": "https://doi.org/10.5281/zenodo.5823364",
+            "videoURL": "https://www.youtube.com/watch?v=kJr4vOdfddk",
             "blogURL": ""
         },
         {
