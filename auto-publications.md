@@ -21,7 +21,7 @@ To see them organized approximately by project, see [here](/research).
 3. *An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry*.  
  Jiang, Synovic, Hyatt, Schorlemmer, Sethi, Lu, Thiruvathukal, and **Davis**.  
  Proceedings of the ACM/IEEE 45th International Conference on Software Engineering (ICSE) 2023.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 4. *Towards Rehosting Embedded Applications as Linux Applications*.  
  Srinivasan, Tanksalkar, Amusuo, **Davis**, and Machiry.  
  Proceedings of the 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks — Disrupt track (DSN-Disrupt) 2023.  
