@@ -41,7 +41,7 @@ To see them organized approximately by project, see [here](/research).
 8. *An Empirical Study on the Impact of Parameters on Mobile App Energy Usage*.  
  Xu, **Davis**, Hu, and Jindal.  
  Proceedings of the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER) 2022.  
- <a href="https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1182&context=ecepubs"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/XuDavisHuJindal-AndroidDeepParameters-SANER2022.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/XuDavisHuJindal-AndroidDeepParameters-SANER2022-slides.pdf"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.5823364"><i class="fas fa-file-code"></i></a> <a href="https://www.youtube.com/watch?v=kJr4vOdfddk"><i class="fas fa-video"></i></a>
 9. *Directed Acyclic Graph-based Neural Networks for Tunable Low-Power Computer Vision*.  
  Goel, Tung, Eliopoulos, Hu, Thiruvathukal, **Davis**, and Lu.  
  ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED) 2022.  
