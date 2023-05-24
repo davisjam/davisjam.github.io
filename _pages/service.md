@@ -14,6 +14,12 @@ I try to do my part to support the research community.
 
 ### Conferences
 
+- ISSTA 2024 program committee
+- ESEC/FSE 2023 program committee
+- LCTES 2023 program committee
+- SCORED 2023 program committee
+- ASE 2022 doctoral symposium committee
+- SCORED 2022 program committee
 - ASE 2021 program committee
 - ICSE 2021 demonstrations committee
 - ESEC/FSE 2021 artifact committee
@@ -40,4 +46,4 @@ Here are the tools we currently support:
 
 My lab prepares writeups to summarize our research findings in ways that can benefit the practitioner community.
 You can read them [here](https://medium.com/@davisjam).
-These appear to be helpful &mdash; 51,000 visitors and counting!
+These appear to be helpful &mdash; 68,000 visitors and counting!
