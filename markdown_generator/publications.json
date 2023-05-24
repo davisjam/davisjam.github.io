@@ -306,7 +306,8 @@
             "paperBasename": "AnandayuvarajThulluriFigueroaShandilyaDavis-FailureKnowledgeAndDesignDecisions-SERP4IoT2023.pdf",
             "slidesBasename": "AnandayuvarajThulluriFigueroaShandilyaDavis-FailureKnowledgeAndDesignDecisions-SERP4IoT2023-slides.pptx",
             "artifactURL": "",
-            "videoURL": ""
+            "videoURL": "",
+            "blogURL": "https://davisjam.medium.com/incorporating-failure-knowledge-into-design-decisions-for-iot-systems-a-controlled-experiment-825464c55f59"
         }, 
         {
             "type": "workshop",
