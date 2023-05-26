@@ -257,7 +257,7 @@
             "slidesBasename": "Jiang-PTMTorrent-MSR23-slides.pptx",
             "artifactURL": "https://doi.org/10.5281/zenodo.7570357",
             "videoURL": "",
-            "blogURL": ""
+            "blogURL": "https://medium.com/@davisjam/an-empirical-study-of-pre-trained-model-reuse-in-the-hugging-face-deep-learning-model-registry-6ccfb0e58809"
         },
         {
             "type": "conference",
@@ -267,9 +267,9 @@
             "year": 2023,
             "paperBasename": "JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace.pdf",
             "slidesBasename": "JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace-slides.pptx",
-            "artifactURL": "",
+            "artifactURL": "https://doi.org/10.5281/zenodo.7555464",
             "videoURL": "",
-            "blogURL": ""
+            "blogURL": "https://medium.com/@davisjam/an-empirical-study-of-pre-trained-model-reuse-in-the-hugging-face-deep-learning-model-registry-6ccfb0e58809"
         },
         {
             "type": "conference",
