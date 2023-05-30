@@ -295,6 +295,18 @@
             "videoURL": "",
             "blogURL": ""
         },
+        {
+            "type": "conference",
+            "authors": ["**Davis**", "Jajal", "Jiang", "Schorlemmer", "Synovic", "Thiruvathukal"],
+            "title": "Reusing Deep Learning Models: Challenges and Directions in Software Engineering",
+            "venue": "Proceedings of the IEEE John Vincent Atanasoff Symposium on Modern Computing (JVA’23)",
+            "year": 2023,
+            "paperBasename": "DavisJajalJiangSchorlemmerSynovicThiruvathukal-DNNReuse-JVA23.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
 
 
         {
