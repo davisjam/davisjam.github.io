@@ -38,6 +38,8 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2023
 
+- Invited to speak at the ONNX Community Day event hosted by NVIDIA. Purvish Jajal will give the talk. 
+- Serving on the SCAM 2023 PC
 - Paper on software engineering for machine learning: JVA 2023. Congrats to the whole team.
 - Geoffrey Cramer defends his MSc thesis: "An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms".
 - William "Trey" Maxam defends his MSc thesis: "Discovering U.S. Government Threat Hunting Processes and Improvements". He returns to the US Coast Guard Academy as an instuctor.

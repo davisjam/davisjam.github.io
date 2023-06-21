@@ -29,7 +29,7 @@ To see them organized approximately by project, see [here](/research).
 5. *Towards Automated Identification of Layering Violations in Embedded Applications (WIP)*.  
  Shen, **Davis**, and Machiry.  
  Proceedings of the 24th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES) 2023.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/ShenDavisMachiry-NCMAs-LCTES23.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/ShenDavisMachiry-NCMAs-LCTES23.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/ShenDavisMachiry-NCMAs-LCTES23-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 6. *Reusing Deep Learning Models: Challenges and Directions in Software Engineering*.  
  **Davis**, Jajal, Jiang, Schorlemmer, Synovic, and Thiruvathukal.  
  Proceedings of the IEEE John Vincent Atanasoff Symposium on Modern Computing (JVA’23) 2023.  
