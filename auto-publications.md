@@ -13,7 +13,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies*.  
  Hassan, Aamir, Lee, **Davis**, and Servant.  
  Proceedings of the 44th IEEE Symposium on Security and Privacy (IEEE S&P) 2023.  
- <a href="https://docs.lib.purdue.edu/ecepubs/161"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HassanAamirLeeDavisServant-ReDoSUsability-SP23-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.7419006"><i class="fas fa-file-code"></i></a>
+ <a href="https://docs.lib.purdue.edu/ecepubs/161"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HassanAamirLeeDavisServant-ReDoSUsability-SP23-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.7419006"><i class="fas fa-file-code"></i></a> <a href="https://www.youtube.com/watch?v=It8QodA2zd8"><i class="fas fa-video"></i></a>
 2. *PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages*.  
  Jiang, Synovic, Jajal, Schorlemmer, Tewari, Pareek, Thiruvathukal, and **Davis**.  
  Proceedings of the 20th Annual Conference on Mining Software Repositories — Data and Tool Showcase Track (MSR-Data’23) 2023.  
