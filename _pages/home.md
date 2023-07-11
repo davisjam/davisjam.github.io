@@ -34,12 +34,13 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2024
 
-- Serving on the ISSTA 2024 PC
+- Serving on the ISSTA 2024 PC, Technical track
+- Serving on the SANER 2024 PC, Early Research Achievements track
 
 ## 2023
 
 - Invited to speak at the ONNX Community Day event hosted by NVIDIA. Joint talk by me and Purvish Jajal. 
-- Serving on the SCAM 2023 PC
+- Serving on the SCAM 2023 PC, Engineering track
 - Paper on software engineering for machine learning: JVA 2023. Congrats to the whole team.
 - Geoffrey Cramer defends his MSc thesis: "An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms".
 - William "Trey" Maxam defends his MSc thesis: "Discovering U.S. Government Threat Hunting Processes and Improvements". He returns to the US Coast Guard Academy as an instuctor.
@@ -54,9 +55,9 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Paper on security for embedded systems: LCTES 2023. Congrats Ming!
 - Paper on security for embedded systems: DSN-Disrupt 2023. Congrats Jayashree!
 - Paper on pre-trained models: MSR-Dataset 2023. Congrats Wenxin+Nick!
-- Serving on the LCTES 2023 PC
+- Serving on the LCTES 2023 PC, Technical track
 - Paper on pre-trained models: ICSE 2023. Congrats Wenxin!
-- Serving on the ESEC/FSE 2023 PC.
+- Serving on the ESEC/FSE 2023 PC, Technical track.
 - Paper on secure regular expressions: S&P 2023
 - Google renews support for our research on software engineering for machine learning
 
@@ -64,7 +65,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 - Paper on engineering education: Frontiers journal on study abroad (2022). Congrats Kirsten!
 - Cisco funds research on software engineering for pre-trained neural network models
-- Serving on the ASE 2022 Doctoral Symposium PC
+- Serving on the ASE 2022 PC, Doctoral Symposium track
 - Paper on mining software repositories: ASE-Tools 2022. Congrats Nick!
 - Paper on software engineering for machine learning: SERP4IoT 2022. Congrats Nikhil!
 - Elevated to IEEE Senior Member.
@@ -78,7 +79,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Award for engineering education: Ruth and Joel Spira Outstanding Teacher Award, ECE@Purdue 2022. Thank you.
 - Paper on engineering education: DREE 2022. Congrats to me!
 - Paper on pre-trained models: SCORED 2022. Congrats Wenxin!
-- Serving on the SCORED 2022 PC.
+- Serving on the SCORED 2022 PC, Technical track
 - Paper on secure software supply chains: SCORED 2022. Congrats Chinenye+Taylor!
 - Paper on secure regular expressions: ICSE 2022. Congrats Efe+Xin!
 
@@ -87,14 +88,14 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Rolls Royce funds research on embedded systems security.
 - Google funds research on software engineering for machine learning.
 - Purdue funds research on computing education.
-- Serving on the ICSE 2021 Demonstrations PC.
+- Serving on the ICSE 2021 PC, Demonstrations track.
 - NSF funds research on secure regular expressions.
 - Paper on computer vision: ISLPED 2021. Congrats Abhinav!
 - NSF funds research on software engineering for computer vision.
 - Award for engineering education: VIP Outstanding Mentor, 2021. Thank you.
 - Paper on engineering education: ACIEE 2021. Congrats Nicole!
-- Serving on the ASE 2021 PC. Distinguished reviewer award!
-- Serving on the ESEC/FSE 2021 Artifact PC.
+- Serving on the ASE 2021 PC, Technical track. Distinguished reviewer award!
+- Serving on the ESEC/FSE 2021 PC, Artifact track.
 
 ## 2020
 
