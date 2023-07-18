@@ -307,6 +307,18 @@
             "videoURL": "",
             "blogURL": ""
         },
+        {
+            "type": "conference",
+            "authors": ["Amusuo", "Méndez", "Xu", "Machiry", "**Davis**"],
+            "title": "Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks",
+            "venue": "Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE'23)",
+            "year": 2023,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
 
 
         {
