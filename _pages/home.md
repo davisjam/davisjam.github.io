@@ -40,6 +40,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 ## 2023
 
 - Paper on discovering cybersecurity vulnerabilities in embedded network stacks: ASE 2023. Congrats to Paschal and the team!
+- Paper on the role of policy-process-product theory in empirical software engineering: ESEC/FSE-IVR 2023. Congrats to Kelechi and the team!
 - Invited to speak at the ONNX Community Day event hosted by NVIDIA. Joint talk by me and Purvish Jajal. 
 - Serving on the SCAM 2023 PC, Engineering track
 - Paper on software engineering for machine learning: JVA 2023. Congrats to the whole team.
