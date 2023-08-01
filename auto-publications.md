@@ -33,7 +33,7 @@ To see them organized approximately by project, see [here](/research).
 6. *Reusing Deep Learning Models: Challenges and Directions in Software Engineering*.  
  **Davis**, Jajal, Jiang, Schorlemmer, Synovic, and Thiruvathukal.  
  Proceedings of the IEEE John Vincent Atanasoff Symposium on Modern Computing (JVA’23) 2023.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisJajalJiangSchorlemmerSynovicThiruvathukal-DNNReuse-JVA23.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisJajalJiangSchorlemmerSynovicThiruvathukal-DNNReuse-JVA23.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisJajalJiangSchorlemmerSynovicThiruvathukal-DNNReuse-JVA23-slides.pdf"><i class="fas fa-file-powerpoint"></i></a>
 7. *Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks*.  
  Amusuo, Méndez, Xu, Machiry, and **Davis**.  
  Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE'23) 2023.  
