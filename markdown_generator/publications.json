@@ -442,6 +442,17 @@
 
         {
             "type": "arxiv",
+            "authors": ["Singla", "Anandayuvaraj", "Kalu", "Schorlemmer", "**Davis**"],
+            "title": "An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures",
+            "venue": "arXiv",
+            "year": 2023,
+            "paperBasename": "https://arxiv.org/pdf/2308.04898.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Cramer", "Maxam", "Li", "**Davis**"],
             "title": "An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms",
             "venue": "arXiv",
