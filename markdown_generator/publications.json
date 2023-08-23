@@ -313,7 +313,7 @@
             "title": "Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks",
             "venue": "Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE'23)",
             "year": 2023,
-            "paperBasename": "AmusuoMendezXuMachiryDavis-EmNetTest-ASE2023.pdf",
+            "paperBasename": "https://arxiv.org/abs/2308.10965",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": "",
@@ -333,6 +333,18 @@
         },
 
 
+        {
+            "type": "workshop",
+            "authors": ["Singla", "Anandayuvaraj", "Kalu", "Schorlemmer", "**Davis**"],
+            "title": "An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures",
+            # "venue": "arXiv",
+            "venue": "Proceedings of the 2nd ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)",
+            "year": 2023,
+            "paperBasename": "https://arxiv.org/pdf/2308.04898.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
         {
             "type": "workshop",
             "authors": ["Anandayuvaraj", "Thulluri", "Figueroa", "Shandilya", "**Davis**"],
@@ -440,17 +452,6 @@
             "videoURL": ""
         },
 
-        {
-            "type": "arxiv",
-            "authors": ["Singla", "Anandayuvaraj", "Kalu", "Schorlemmer", "**Davis**"],
-            "title": "An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures",
-            "venue": "arXiv",
-            "year": 2023,
-            "paperBasename": "https://arxiv.org/pdf/2308.04898.pdf",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": ""
-        },
         {
             "type": "arxiv",
             "authors": ["Cramer", "Maxam", "Li", "**Davis**"],
