@@ -37,7 +37,7 @@ To see them organized approximately by project, see [here](/research).
 7. *Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks*.  
  Amusuo, Méndez, Xu, Machiry, and **Davis**.  
  Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE'23) 2023.  
- <a href="https://arxiv.org/abs/2308.10965"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/abs/2308.10965"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/systematically-detecting-packet-validation-vulnerabilities-in-embedded-network-stacks-4a9954ff393d"><i class="fab fa-medium"></i></a>
 8. *Reflecting on the use of the Policy-Process-Product Theory in Empirical Software Engineering*.  
  Kalu, Schorlemmer, Chen, Robinson, Kocinare, and **Davis**.  
  Proceedings of the 31st ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR) 2023.  
