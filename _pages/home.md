@@ -39,11 +39,14 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2023
 
+- Paper on applying large language models to cybersecurity failures: SCORED 2023. Congrats to Tanmay, Dharun and the team!
+- Presentation at Argonne National Labs about pre-trained models.
 - Paper on discovering cybersecurity vulnerabilities in embedded network stacks: ASE 2023. Congrats to Paschal and the team!
+- Serving as a judge for CSAW 2023
 - Paper on the role of policy-process-product theory in empirical software engineering: ESEC/FSE-IVR 2023. Congrats to Kelechi and the team!
-- Invited to speak at the ONNX Community Day event hosted by NVIDIA. Joint talk by me and Purvish Jajal. 
+- Presentation at the ONNX Community Day event hosted by NVIDIA. Joint talk by me and Purvish Jajal. 
 - Serving on the SCAM 2023 PC, Engineering track
-- Paper on software engineering for machine learning: JVA 2023. Congrats to the whole team.
+- Paper on software engineering for machine learning: JVA 2023. Congrats to the whole team -- This one was "authors sorted alphabetically"
 - Geoffrey Cramer defends his MSc thesis: "An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms".
 - William "Trey" Maxam defends his MSc thesis: "Discovering U.S. Government Threat Hunting Processes and Improvements". He returns to the US Coast Guard Academy as an instuctor.
 - ECE@Purdue renewed my three-year contract -- now it's tenure or bust
