@@ -340,9 +340,9 @@
             # "venue": "arXiv",
             "venue": "Proceedings of the 2nd ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)",
             "year": 2023,
-            "paperBasename": "https://arxiv.org/pdf/2308.04898.pdf",
+            "paperBasename": "SinglaAnandayuvarajKaluSchorlemmerDavis-LLMsForSupplyChainFailureAnalysis-SCORED2023",
             "slidesBasename": "",
-            "artifactURL": "",
+            "artifactURL": "https://zenodo.org/record/8365116",
             "videoURL": ""
         },
         {
