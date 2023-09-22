@@ -314,7 +314,7 @@
             "venue": "Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE'23)",
             "year": 2023,
             "paperBasename": "https://arxiv.org/abs/2308.10965",
-            "slidesBasename": "",
+            "slidesBasename": "AmusuoMendezXuMachiryDavis-EmNetTest-ASE2023-slides.pptx",
             "artifactURL": "https://doi.org/10.5281/zenodo.8247917",
             "videoURL": "",
             "blogURL": "https://davisjam.medium.com/systematically-detecting-packet-validation-vulnerabilities-in-embedded-network-stacks-4a9954ff393d"
