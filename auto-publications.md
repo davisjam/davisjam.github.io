@@ -151,7 +151,7 @@ To see them organized approximately by project, see [here](/research).
 1. *An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures*.  
  Singla, Anandayuvaraj, Kalu, Schorlemmer, and **Davis**.  
  Proceedings of the 2nd ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2023.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SinglaAnandayuvarajKaluSchorlemmerDavis-LLMsForSupplyChainFailureAnalysis-SCORED2023"><i class="fas fa-file-pdf"></i></a> <a href="https://zenodo.org/record/8365116"><i class="fas fa-file-code"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SinglaAnandayuvarajKaluSchorlemmerDavis-LLMsForSupplyChainFailureAnalysis-SCORED2023.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://zenodo.org/record/8365116"><i class="fas fa-file-code"></i></a>
 2. *Incorporating Failure Knowledge into Design Decisions for IoT Systems: A Controlled Experiment on Novices*.  
  Anandayuvaraj, Thulluri, Figueroa, Shandilya, and **Davis**.  
  5th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT 2023) 2023.  
