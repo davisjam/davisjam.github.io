@@ -601,6 +601,17 @@
             "artifactURL": "",
             "videoURL": ""
         },
+        {
+            "type": "patent",
+            "authors": ["**Davis**", "Davis"],
+            "title": "Determining a validity of an event emitter based on a rule",
+            "venue": "US patent application",
+            "year": 2021,
+            "paperBasename": "https://patents.google.com/patent/US20220374265A1/en",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
         
         {
             "type": "journal",
