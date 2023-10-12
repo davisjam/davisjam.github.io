@@ -454,6 +454,50 @@
 
         {
             "type": "arxiv",
+            "authors": ["Shen", "Pillai", "Yuan", "**Davis**", "Machiry"],
+            "title": "An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software",
+            "venue": "arXiv",
+            "year": 2023,
+            "paperBasename": "https://arxiv.org/abs/2310.00205",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
+            "authors": ["Chen", "Anandayuvaraj", "**Davis**", "Rahaman"],
+            "title": "A Unified Taxonomy and Evaluation of IoT Security Guidelines",
+            "venue": "arXiv",
+            "year": 2023,
+            "paperBasename": "https://arxiv.org/abs/2310.01653",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
+            "authors": ["Jiang", "Jones", "Yasmin", "Synovic", "Sashti", "Chen", "Thiruvathukal", "Tian", "**Davis**"],
+            "title": "PeaTMOSS: Mining Pre-Trained Models in Open-Source Software",
+            "venue": "arXiv",
+            "year": 2023,
+            "paperBasename": "https://arxiv.org/abs/2310.03620",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
+            "authors": ["Jiang", "Cheung", "Thiruvathukal", "**Davis**"],
+            "title": "Exploring Naming Conventions (and Defects) of Pre-trained Deep Learning Models in Hugging Face and Other Model Hubs",
+            "venue": "arXiv",
+            "year": 2023,
+            "paperBasename": "https://arxiv.org/abs/2310.01642",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Cramer", "Maxam", "Li", "**Davis**"],
             "title": "An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms",
             "venue": "arXiv",
