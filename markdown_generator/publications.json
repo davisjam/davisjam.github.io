@@ -454,6 +454,17 @@
 
         {
             "type": "arxiv",
+            "authors": ["Amusuo", "Robinson", "Torres-Arias", "Simon", "**Davis**"],
+            "title": "Preventing Supply Chain Vulnerabilities in Java with a Fine-Grained Permission Manager",
+            "venue": "arXiv",
+            "year": 2023,
+            "paperBasename": "https://arxiv.org/pdf/2310.14117",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Shen", "Pillai", "Yuan", "**Davis**", "Machiry"],
             "title": "An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software",
             "venue": "arXiv",
