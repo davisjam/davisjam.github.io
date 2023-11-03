@@ -37,6 +37,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Serving on the ICSE 2025 PC, Technical track
 - Presentation at Carnegie Mellon University about software engineering with pre-trained models
 - Paper on applying large language models to cybersecurity failures: SCORED 2023. Congrats to Tanmay, Dharun and the team!
+- Presentation at the University of Notre Dame about the challenges of working with pre-trained models
 - Serving on the ISSTA 2024 PC, Technical track
 - Presentation at Argonne National Labs about pre-trained models.
 - Serving on the SANER 2024 PC, Early Research Achievements track
