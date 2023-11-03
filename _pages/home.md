@@ -32,15 +32,14 @@ Use the links at the top to learn more about our activities.
 
 This disorganized list summarizes my research, teaching, and service activities.
 
-## 2024
-
-- Serving on the ISSTA 2024 PC, Technical track
-- Serving on the SANER 2024 PC, Early Research Achievements track
-
 ## 2023
 
+- Serving on the ICSE 2025 PC, Technical track
+- Presentation at Carnegie Mellon University about software engineering with pre-trained models
 - Paper on applying large language models to cybersecurity failures: SCORED 2023. Congrats to Tanmay, Dharun and the team!
+- Serving on the ISSTA 2024 PC, Technical track
 - Presentation at Argonne National Labs about pre-trained models.
+- Serving on the SANER 2024 PC, Early Research Achievements track
 - Paper on discovering cybersecurity vulnerabilities in embedded network stacks: ASE 2023. Congrats to Paschal and the team!
 - Serving as a judge for CSAW 2023
 - Paper on the role of policy-process-product theory in empirical software engineering: ESEC/FSE-IVR 2023. Congrats to Kelechi and the team!
