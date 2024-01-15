@@ -331,6 +331,18 @@
             "videoURL": "",
             "blogURL": "https://davisjam.medium.com/reflecting-on-the-use-of-the-policy-process-product-theory-b95c4957840c"
         },
+        {
+            "type": "conference",
+            "authors": ["Jiang", "Yasmin", "Jones", "Synovic", "Kuo", "Bielanski", "Tian", "Thiruvathukal", "**Davis**"],
+            "title": "PeaTMOSS: A Dataset and Initial Analysis of Pre-Trained Models in Open-Source Software",
+            "venue": "Proceedings of the 21st Annual Conference on Mining Software Repositories (MSR-Data’24)",
+            "year": 2024,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
 
 
         {

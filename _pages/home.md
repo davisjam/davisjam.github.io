@@ -32,6 +32,10 @@ Use the links at the top to learn more about our activities.
 
 This disorganized list summarizes my research, teaching, and service activities.
 
+## 2024
+
+- Paper on pre-trained models: MSR 2024. Congrats to Wenxin and the team!
+
 ## 2023
 
 - Serving on the ICSE 2025 PC, Technical track
