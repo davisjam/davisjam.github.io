@@ -12,7 +12,7 @@ To see them organized approximately by project, see [here](/research).
 
 1. *PeaTMOSS: A Dataset and Initial Analysis of Pre-Trained Models in Open-Source Software*.  
  Jiang, Yasmin, Jones, Synovic, Kuo, Bielanski, Tian, Thiruvathukal, and **Davis**.  
- Proceedings of the 21st Annual Conference on Mining Software Repositories (MSR-Data’24) 2024.  
+ Proceedings of the 21st Annual Conference on Mining Software Repositories (MSR'24) 2024.  
  
 2. *Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies*.  
  Hassan, Aamir, Lee, **Davis**, and Servant.  
