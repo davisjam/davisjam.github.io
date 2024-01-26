@@ -269,15 +269,19 @@ To see them organized approximately by project, see [here](/research).
 
 ## Posters
 
-1. *Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach*.  
+1. *A First Look at the General Data Protection Regulation (GDPR) in Open-Source Software*.  
+ Franke, Liang, Brantly, **Davis**, and Brown.  
+ Proceedings of the ACM/IEEE 46th International Conference on Software Engineering -- Poster Track (ICSE-Poster) 2024.  
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/FrankeLiangBrantlyDavisBrown-GDPRAndOSS-ICSEPoster2024"><i class="fas fa-file-pdf"></i></a>
+2. *Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach*.  
  Veselsky, West, Ahlgren, Goel, Jiang, Lee, Kim, **Davis**, Thiruvathukal, and Klingensmith.  
  Proceedings of the 23rd Annual International Workshop on Mobile Computing Systems and Application (HotMobile) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/VeselskyWestAhlgrenGoelJiangLeeKimDavisThiruvathukalKlingensmith-V2VTrust-HotMobile.pdf"><i class="fas fa-file-pdf"></i></a>
-2. *An Intercultural Engineering Module for Software Engineers*.  
+3. *An Intercultural Engineering Module for Software Engineers*.  
  Hornbrook and **Davis**.  
  2021 Annual Colloquium for International Engineering Education (ACIEE) 2021.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HornbrookDavis-InterculturalLearningModule-ACIEE2021.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HornbrookDavis-InterculturalLearningModule-ACIEE2021-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
-3. *Exemplars for Machine Learning: Towards Software Engineering & Reproducibility*.  
+4. *Exemplars for Machine Learning: Towards Software Engineering & Reproducibility*.  
  Vivek, Chinnakotla, Banna, Vegesana, Yan, **Davis**, Lu, and Thiruvathukal.  
  SIAM Conference on Computational Science and Engineering (CSE) 2020.  
  

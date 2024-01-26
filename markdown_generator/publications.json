@@ -762,6 +762,18 @@
 
         {
             "type": "poster",
+            "authors": ["Franke", "Liang", "Brantly", "**Davis**", "Brown"],
+            "title": "A First Look at the General Data Protection Regulation (GDPR) in Open-Source Software",
+            "venue": "Proceedings of the ACM/IEEE 46th International Conference on Software Engineering -- Poster Track (ICSE-Poster)",
+            "year": 2024,
+            "paperBasename": "FrankeLiangBrantlyDavisBrown-GDPRAndOSS-ICSEPoster2024",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },
+        {
+            "type": "poster",
             "authors": ["Veselsky", "West", "Ahlgren", "Goel", "Jiang", "Lee", "Kim", "**Davis**", "Thiruvathukal", "Klingensmith"],
             "title": "Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach",
             "venue": "Proceedings of the 23rd Annual International Workshop on Mobile Computing Systems and Application (HotMobile)",
