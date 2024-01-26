@@ -466,6 +466,17 @@
 
         {
             "type": "arxiv",
+            "authors": [ "Schorlemmer", "Kalu", "Chigges", "Ko", "Ishgair", "Bagchi", "Torres-Arias", "**Davis**"],
+            "title": "Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors",
+            "venue": "arXiv",
+            "year": 2024,
+            "paperBasename": "SchorlemmerKaluChiggesKoIshgairBagchiTorresAriasDavis-Signing-TechReport.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Amusuo", "Robinson", "Torres-Arias", "Simon", "**Davis**"],
             "title": "Preventing Supply Chain Vulnerabilities in Java with a Fine-Grained Permission Manager",
             "venue": "arXiv",

@@ -195,39 +195,43 @@ To see them organized approximately by project, see [here](/research).
 
 ## Technical reports
 
-1. *Preventing Supply Chain Vulnerabilities in Java with a Fine-Grained Permission Manager*.  
+1. *Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors*.  
+ Schorlemmer, Kalu, Chigges, Ko, Ishgair, Bagchi, Torres-Arias, and **Davis**.  
+ arXiv 2024.  
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SchorlemmerKaluChiggesKoIshgairBagchiTorresAriasDavis-Signing-TechReport.pdf"><i class="fas fa-file-pdf"></i></a>
+2. *Preventing Supply Chain Vulnerabilities in Java with a Fine-Grained Permission Manager*.  
  Amusuo, Robinson, Torres-Arias, Simon, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/pdf/2310.14117"><i class="fas fa-file-pdf"></i></a>
-2. *An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software*.  
+3. *An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software*.  
  Shen, Pillai, Yuan, **Davis**, and Machiry.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2310.00205"><i class="fas fa-file-pdf"></i></a>
-3. *A Unified Taxonomy and Evaluation of IoT Security Guidelines*.  
+4. *A Unified Taxonomy and Evaluation of IoT Security Guidelines*.  
  Chen, Anandayuvaraj, **Davis**, and Rahaman.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2310.01653"><i class="fas fa-file-pdf"></i></a>
-4. *PeaTMOSS: Mining Pre-Trained Models in Open-Source Software*.  
+5. *PeaTMOSS: Mining Pre-Trained Models in Open-Source Software*.  
  Jiang, Jones, Yasmin, Synovic, Sashti, Chen, Thiruvathukal, Tian, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2310.03620"><i class="fas fa-file-pdf"></i></a>
-5. *Exploring Naming Conventions (and Defects) of Pre-trained Deep Learning Models in Hugging Face and Other Model Hubs*.  
+6. *Exploring Naming Conventions (and Defects) of Pre-trained Deep Learning Models in Hugging Face and Other Model Hubs*.  
  Jiang, Cheung, Thiruvathukal, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2310.01642"><i class="fas fa-file-pdf"></i></a>
-6. *An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
+7. *An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
  Cramer, Maxam, Li, and **Davis**.  
  arXiv 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf"><i class="fas fa-file-pdf"></i></a>
-7. *Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem*.  
+8. *Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem*.  
  Jajal, Jiang, Tewari, Woo, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2303.17708"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JajalJiangTewariWooLuThiruvathukalDavis-ONNXFailures-ONNXCommunityDay2023.pptx"><i class="fas fa-file-powerpoint"></i></a>
-8. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
+9. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
  Jiang, Banna, Vivek, Goel, Synovic, Thiruvathukal, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2303.07476"><i class="fas fa-file-pdf"></i></a>
-9. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+10. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/abs/2107.00821"><i class="fas fa-file-pdf"></i></a>
