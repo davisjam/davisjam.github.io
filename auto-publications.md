@@ -198,7 +198,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors*.  
  Schorlemmer, Kalu, Chigges, Ko, Ishgair, Bagchi, Torres-Arias, and **Davis**.  
  arXiv 2024.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SchorlemmerKaluChiggesKoIshgairBagchiTorresAriasDavis-Signing-TechReport.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/abs/2401.14635"><i class="fas fa-file-pdf"></i></a>
 2. *Preventing Supply Chain Vulnerabilities in Java with a Fine-Grained Permission Manager*.  
  Amusuo, Robinson, Torres-Arias, Simon, and **Davis**.  
  arXiv 2023.  
@@ -272,7 +272,7 @@ To see them organized approximately by project, see [here](/research).
 1. *A First Look at the General Data Protection Regulation (GDPR) in Open-Source Software*.  
  Franke, Liang, Brantly, **Davis**, and Brown.  
  Proceedings of the ACM/IEEE 46th International Conference on Software Engineering -- Poster Track (ICSE-Poster) 2024.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/FrankeLiangBrantlyDavisBrown-GDPRAndOSS-ICSEPoster2024"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/abs/2401.14629"><i class="fas fa-file-pdf"></i></a>
 2. *Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach*.  
  Veselsky, West, Ahlgren, Goel, Jiang, Lee, Kim, **Davis**, Thiruvathukal, and Klingensmith.  
  Proceedings of the 23rd Annual International Workshop on Mobile Computing Systems and Application (HotMobile) 2022.  
