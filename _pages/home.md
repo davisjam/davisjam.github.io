@@ -34,6 +34,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2024
 
+- Conditional acceptance (shepherding) to USENIX Security 2024. This work is about Cyber Threat Hunt. Congrats to Trey for sharing his MSc thesis with the world.
 - Poster on GDPR: ICSE-Poster 2024. Congrats to the Virginia Tech collaborators!
 - Presentation at Michigan Tech University about software engineering with pre-trained models
 - Paper on pre-trained models: MSR 2024. Congrats to Wenxin and the team!
