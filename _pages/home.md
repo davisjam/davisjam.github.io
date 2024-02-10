@@ -19,10 +19,12 @@ I am an Assistant Professor at Purdue University, in the Elmore Family School (d
 I lead the [Duality Lab](/research).
 We study the engineering of software-intensive computing systems.
 We are specifically interested in how software-intensive systems *fail* and how these failure modes can be mitigated.
+We want to reduce the number of times that engineers repeat their mistakes.
+Two values inform our research:
 - We apply a "dual" socio-technical philosophy &mdash; high-quality systems must be engineered using both human and technical perspectives, and analysis of failures and mitigations must consider the engineered product as well as the underlying engineering process.
 - We are *empiricists*; we strive to measure the practical impact of problems and solutions.
 
-Our research is typically published in software engineering (ICSE, ESEC/FSE, ASE) and cybersecurity (S&P, USENIX) conferences.
+We present our research in software engineering (ICSE, FSE, ASE) and cybersecurity (S&P, USENIX) conferences.
 
 Several organizations support our research, including the US National Science Foundation, Google, Cisco, and Rolls Royce.
 
@@ -34,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2024
 
+- Dharun will intern with the RISE team at Microsoft Research this summer. Congrats, Dharun!
 - Conditional acceptance (shepherding) to USENIX Security 2024. This work is about Cyber Threat Hunt. Congrats to Trey for sharing his MSc thesis with the world.
 - Poster on GDPR: ICSE-Poster 2024. Congrats to the Virginia Tech collaborators!
 - Presentation at Michigan Tech University about software engineering with pre-trained models

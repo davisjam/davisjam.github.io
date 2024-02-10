@@ -25,9 +25,11 @@ For a full list of publications, see [here](/publications).
 Our lab conducts software engineering research with an eye to practical impact.
 We understand two modes of impact:
 - *Empirical*: Our tools have found plenty of defects and security vulnerabilities. Our research results have been adopted by major companies (Microsoft, IBM, Google) and major software systems (Node.js, Python, Ruby).
-- *Theoretical*: Software engineering is always changing. Part of software engineering theory is to articulate and organize concepts so that practicing engineers can make sense of them (ontology). We write papers about this, and convey key ideas to practitioners through a Medium blog (65,000 views and counting).
+- *Theoretical*: Software engineering is always changing. Part of software engineering theory is to articulate and organize concepts so that practicing engineers can make sense of them (ontology). We write papers about this, and convey key ideas to practitioners through a Medium blog (70,000 views and counting).
 
 ## Research directions
+
+_This part of my website is not updated super regularly with the latest papers. See the publications page and the news on the homepage for those. However, these directions are ongoing interest and are suitable for prospective students to understand the kind of work we do._ 
 
 ### Web security, or, Software engineering for domain-specific languages
 
@@ -143,20 +145,22 @@ You could join them! [Here are the instructions to get started](/join-lab).
 
 #### PhD
 
-- [Wenxin Jiang](https://www.linkedin.com/in/wenxin-jiang/)
+- [Wenxin Jiang](https://wenxin-jiang.github.io)
 - [Dharun Anand](https://www.linkedin.com/in/dharunanand/)
-- [Paschal C. Amusuo](https://www.linkedin.com/in/paschal-amusuo-134146b3/)
+- [Paschal C. Amusuo](https://ampaschal.github.io)
 - [Kelechi G. Kalu](https://www.linkedin.com/in/kelechi-gabriel-kalu-40697b123/)
+- [Purvish Jajal](https://www.linkedin.com/in/purvish-jajal-989774190)
+- [Berk Çakar](https://berkcakar.dev)
 
 #### MSc
 
 - [Taylor Schorlemmer](https://www.linkedin.com/in/taylor-reeves-schorlemmer/)
-- [Sridurga Krithivasan](https://www.linkedin.com/in/sridurga-krithivasan)
+- [Jason Jones](https://www.linkedin.com/in/jonesjasonh/)
 
 #### Alums
 
 - [William "Trey" Maxam](https://www.linkedin.com/in/william-m-714184114/), MSc 2023, will serve as an instructor at the US Coast Guard Academy
-- [Geoffrey Cramer](https://www.linkedin.com/in/geoff-cramer-85b430129/), MSc 2023
+- [Geoffrey Cramer](https://www.linkedin.com/in/geoff-cramer-85b430129/), MSc 2023, Boundless
 - Anirudh Vegesana, BSc 2021, Pursuing MSc in CS@Stanford
 - [Vishnu Banna](https://www.linkedin.com/in/vishnubanna/), BSc 2021, Apple
 - [David Li](https://www.linkedin.com/in/davidli12/), BSc 2022, Google
