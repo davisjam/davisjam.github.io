@@ -157,12 +157,20 @@ You could join them! [Here are the instructions to get started](/join-lab).
 - [Taylor Schorlemmer](https://www.linkedin.com/in/taylor-reeves-schorlemmer/)
 - [Jason Jones](https://www.linkedin.com/in/jonesjasonh/)
 
+#### Undergraduate
+
+- The Pre-Trained Models research team (through Purdue's VIP program)
+- Charlie Sale
+- Shantanu Sinha
+- Matthew Campbell
+- Tanmay Singla
+- Kyle Robinson
+
 #### Alums
 
 - [William "Trey" Maxam](https://www.linkedin.com/in/william-m-714184114/), MSc 2023, will serve as an instructor at the US Coast Guard Academy
 - [Geoffrey Cramer](https://www.linkedin.com/in/geoff-cramer-85b430129/), MSc 2023, Boundless
-- Anirudh Vegesana, BSc 2021, Pursuing MSc in CS@Stanford
-- [Vishnu Banna](https://www.linkedin.com/in/vishnubanna/), BSc 2021, Apple
+- [Ananya Singh](https://www.linkedin.com/in/imananyasingh/), BSc 2023, Google
 - [David Li](https://www.linkedin.com/in/davidli12/), BSc 2022, Google
 - [Zach Ghera](https://www.linkedin.com/in/zghera/), BSc 2022, Google
 - [Allen Liu](https://www.linkedin.com/in/lenliu3/), BSc 2022, Amazon
@@ -171,9 +179,6 @@ You could join them! [Here are the instructions to get started](/join-lab).
 - [Xin Du](https://www.linkedin.com/in/xin-du/), BSc 2022, Aviatrix
 - [Diego Montes](https://www.linkedin.com/in/montes-diego/), BSc 2022, SpaceX
 - [Evan Williams](https://www.linkedin.com/in/evanwilliams02/), Transferred to Cornell
-
-#### Undergraduate
-
-- The TensorFlow Model Garden research team, led by Abhi Raja, Dan Peerapatanapokin, Ibrahim Saeed, and Ananya Singh
-- Charlie Sale
-- Ricardo Calvo
+- [Naveen Vivek](https://www.linkedin.com/in/naveen-vivek/), BSc 2022, AMD
+- Anirudh Vegesana, BSc 2021, Pursuing MSc in CS@Stanford
+- [Vishnu Banna](https://www.linkedin.com/in/vishnubanna/), BSc 2021, Apple
