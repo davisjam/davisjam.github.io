@@ -171,6 +171,7 @@ You could join them! [Here are the instructions to get started](/join-lab).
 - [William "Trey" Maxam](https://www.linkedin.com/in/william-m-714184114/), MSc 2023, will serve as an instructor at the US Coast Guard Academy
 - [Geoffrey Cramer](https://www.linkedin.com/in/geoff-cramer-85b430129/), MSc 2023, Boundless
 - [Ananya Singh](https://www.linkedin.com/in/imananyasingh/), BSc 2023, Google
+- [Evan Williams](https://www.linkedin.com/in/evanwilliams02/), BSc 2023 (transferred to Cornell), SWE at AWS
 - [David Li](https://www.linkedin.com/in/davidli12/), BSc 2022, Google
 - [Zach Ghera](https://www.linkedin.com/in/zghera/), BSc 2022, Google
 - [Allen Liu](https://www.linkedin.com/in/lenliu3/), BSc 2022, Amazon
@@ -178,7 +179,6 @@ You could join them! [Here are the instructions to get started](/join-lab).
 - [Efe Barlas](https://www.linkedin.com/in/efebarlas/), BSc 2022, Amazon
 - [Xin Du](https://www.linkedin.com/in/xin-du/), BSc 2022, Aviatrix
 - [Diego Montes](https://www.linkedin.com/in/montes-diego/), BSc 2022, SpaceX
-- [Evan Williams](https://www.linkedin.com/in/evanwilliams02/), Transferred to Cornell
 - [Naveen Vivek](https://www.linkedin.com/in/naveen-vivek/), BSc 2022, AMD
 - Anirudh Vegesana, BSc 2021, Pursuing MSc in CS@Stanford
 - [Vishnu Banna](https://www.linkedin.com/in/vishnubanna/), BSc 2021, Apple
