@@ -466,6 +466,28 @@
 
         {
             "type": "arxiv",
+            "authors": [ "Tanay", "Arinze", "Joshi", "Davis", "**Davis**"],
+            "title": "An Exploratory Study on Upper-Level Computing Students' Use of Large Language Models as Tools in a Semester-Long Project",
+            "venue": "arXiv",
+            "year": 2024,
+            "paperBasename": "TanayArinzeJoshiDavisDavis-LLM-TechReport2024.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
+            "authors": [ "Joshi", "Mukherjee", "Davis", "**Davis**"],
+            "title": "Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency",
+            "venue": "arXiv",
+            "year": 2024,
+            "paperBasename": "JoshiMukherjeeDavisDavis-ThreatModeling-TechReport-2024.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": [ "Schorlemmer", "Kalu", "Chigges", "Ko", "Ishgair", "Bagchi", "Torres-Arias", "**Davis**"],
             "title": "Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors",
             "venue": "arXiv",
