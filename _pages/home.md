@@ -36,9 +36,9 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2024
 
-- Paschal will serve on the program committee for IEEE SecDev 2024. Be wise, Paschal.
+- Paschal and I will serve on the program committee for IEEE SecDev 2024.
+- Paper on Cyber Threat Hunt: USENIX Security 2024. Congrats to Trey for sharing his MSc thesis with the world.
 - Dharun will intern with the RISE team at Microsoft Research this summer. Congrats, Dharun!
-- Conditional acceptance (shepherding) to USENIX Security 2024. This work is about Cyber Threat Hunt. Congrats to Trey for sharing his MSc thesis with the world.
 - Poster on GDPR: ICSE-Poster 2024. Congrats to the Virginia Tech collaborators!
 - Presentation at Michigan Tech University about software engineering with pre-trained models
 - Paper on pre-trained models: MSR 2024. Congrats to Wenxin and the team!
