@@ -17,7 +17,7 @@ To see them organized approximately by project, see [here](/research).
 2. *An Interview Study on Third-Party Cyber Threat Hunting Processes in the U.S. Department of Homeland Security*.  
  Maxam and **Davis**.  
  Proceedings of the 33rd USENIX Security Symposium (SECURITY'24) 2024.  
- 
+ <a href="https://arxiv.org/abs/2402.12252"><i class="fas fa-file-pdf"></i></a>
 3. *Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies*.  
  Hassan, Aamir, Lee, **Davis**, and Servant.  
  Proceedings of the 44th IEEE Symposium on Security and Privacy (IEEE S&P) 2023.  
