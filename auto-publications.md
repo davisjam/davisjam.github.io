@@ -18,111 +18,119 @@ To see them organized approximately by project, see [here](/research).
  Maxam and **Davis**.  
  Proceedings of the 33rd USENIX Security Symposium (SECURITY'24) 2024.  
  <a href="https://arxiv.org/abs/2402.12252"><i class="fas fa-file-pdf"></i></a>
-3. *Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies*.  
+3. *An Exploratory Study on Upper-Level Computing Students' Use of Large Language Models as Tools in a Semester-Long Project*.  
+ Tanay, Arinze, Joshi, Davis, and **Davis**.  
+ Annual Conference of the American Society for Engineering Education (ASEE'24) 2024.  
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/TanayArinzeJoshiDavisDavis-LLM-TechReport2024.pdf"><i class="fas fa-file-pdf"></i></a>
+4. *Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency*.  
+ Joshi, Mukherjee, Davis, and **Davis**.  
+ Annual Conference of the American Society for Engineering Education (ASEE'24) 2024.  
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JoshiMukherjeeDavisDavis-ThreatModeling-TechReport-2024.pdf"><i class="fas fa-file-pdf"></i></a>
+5. *Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies*.  
  Hassan, Aamir, Lee, **Davis**, and Servant.  
  Proceedings of the 44th IEEE Symposium on Security and Privacy (IEEE S&P) 2023.  
  <a href="https://docs.lib.purdue.edu/ecepubs/161"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HassanAamirLeeDavisServant-ReDoSUsability-SP23-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.7419006"><i class="fas fa-file-code"></i></a> <a href="https://www.youtube.com/watch?v=It8QodA2zd8"><i class="fas fa-video"></i></a>
-4. *PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages*.  
+6. *PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages*.  
  Jiang, Synovic, Jajal, Schorlemmer, Tewari, Pareek, Thiruvathukal, and **Davis**.  
  Proceedings of the 20th Annual Conference on Mining Software Repositories — Data and Tool Showcase Track (MSR-Data’23) 2023.  
  <a href="https://arxiv.org/abs/2303.08934"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Jiang-PTMTorrent-MSR23-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.7570357"><i class="fas fa-file-code"></i></a> <a href="https://medium.com/@davisjam/an-empirical-study-of-pre-trained-model-reuse-in-the-hugging-face-deep-learning-model-registry-6ccfb0e58809"><i class="fab fa-medium"></i></a>
-5. *An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry*.  
+7. *An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry*.  
  Jiang, Synovic, Hyatt, Schorlemmer, Sethi, Lu, Thiruvathukal, and **Davis**.  
  Proceedings of the ACM/IEEE 45th International Conference on Software Engineering (ICSE) 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.7555464"><i class="fas fa-file-code"></i></a> <a href="https://medium.com/@davisjam/an-empirical-study-of-pre-trained-model-reuse-in-the-hugging-face-deep-learning-model-registry-6ccfb0e58809"><i class="fab fa-medium"></i></a>
-6. *Towards Rehosting Embedded Applications as Linux Applications*.  
+8. *Towards Rehosting Embedded Applications as Linux Applications*.  
  Srinivasan, Tanksalkar, Amusuo, **Davis**, and Machiry.  
  Proceedings of the 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks — Disrupt track (DSN-Disrupt) 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SrinivasanTanksalkarAmusuoDavisMachiry-Rehosting-DSN2023.pdf"><i class="fas fa-file-pdf"></i></a>
-7. *Towards Automated Identification of Layering Violations in Embedded Applications (WIP)*.  
+9. *Towards Automated Identification of Layering Violations in Embedded Applications (WIP)*.  
  Shen, **Davis**, and Machiry.  
  Proceedings of the 24th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES) 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/ShenDavisMachiry-NCMAs-LCTES23.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/ShenDavisMachiry-NCMAs-LCTES23-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
-8. *Reusing Deep Learning Models: Challenges and Directions in Software Engineering*.  
+10. *Reusing Deep Learning Models: Challenges and Directions in Software Engineering*.  
  **Davis**, Jajal, Jiang, Schorlemmer, Synovic, and Thiruvathukal.  
  Proceedings of the IEEE John Vincent Atanasoff Symposium on Modern Computing (JVA’23) 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisJajalJiangSchorlemmerSynovicThiruvathukal-DNNReuse-JVA23.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisJajalJiangSchorlemmerSynovicThiruvathukal-DNNReuse-JVA23-slides.pdf"><i class="fas fa-file-powerpoint"></i></a>
-9. *Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks*.  
+11. *Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks*.  
  Amusuo, Méndez, Xu, Machiry, and **Davis**.  
  Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE'23) 2023.  
  <a href="https://arxiv.org/abs/2308.10965"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoMendezXuMachiryDavis-EmNetTest-ASE2023-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.8247917"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/systematically-detecting-packet-validation-vulnerabilities-in-embedded-network-stacks-4a9954ff393d"><i class="fab fa-medium"></i></a>
-10. *Reflecting on the use of the Policy-Process-Product Theory in Empirical Software Engineering*.  
+12. *Reflecting on the use of the Policy-Process-Product Theory in Empirical Software Engineering*.  
  Kalu, Schorlemmer, Chen, Robinson, Kocinare, and **Davis**.  
  Proceedings of the 31st ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR) 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/KaluSchorlemmerChenRobinsonKocinareDavis-PPPTheory-FSEIVR2023.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/reflecting-on-the-use-of-the-policy-process-product-theory-b95c4957840c"><i class="fab fa-medium"></i></a>
-11. *Efficient Computer Vision on Edge Devices with Pipeline-Parallel Hierarchical Neural Network*.  
+13. *Efficient Computer Vision on Edge Devices with Pipeline-Parallel Hierarchical Neural Network*.  
  Goel, Tung, Hu, Thiruvathukal, **Davis**, and Lu.  
  Proceedings of the 27th Asia and South Pacific Design Automation Conference (ASP-DAC) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GoelTungHuThiruvathukalDavisLu-ASPDAC2022.pdf"><i class="fas fa-file-pdf"></i></a>
-12. *Exploiting Input Sanitization for Regex Denial of Service*.  
+14. *Exploiting Input Sanitization for Regex Denial of Service*.  
  Barlas, Du, and **Davis**.  
  Proceedings of the ACM/IEEE 44th International Conference on Software Engineering (ICSE) 2022.  
  <a href="https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1179&context=ecepubs"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/BarlasDuDavis-WebREDOS-ICSE2022-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.5916441"><i class="fas fa-file-code"></i></a> <a href="https://youtu.be/6fCBGQhBf2I"><i class="fas fa-video"></i></a> <a href="https://davisjam.medium.com/exploiting-input-sanitization-for-regex-denial-of-service-2366ff8c7c42"><i class="fab fa-medium"></i></a>
-13. *An Empirical Study on the Impact of Parameters on Mobile App Energy Usage*.  
+15. *An Empirical Study on the Impact of Parameters on Mobile App Energy Usage*.  
  Xu, **Davis**, Hu, and Jindal.  
  Proceedings of the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/XuDavisHuJindal-AndroidDeepParameters-SANER2022.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/XuDavisHuJindal-AndroidDeepParameters-SANER2022-slides.pdf"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.5823364"><i class="fas fa-file-code"></i></a> <a href="https://www.youtube.com/watch?v=kJr4vOdfddk"><i class="fas fa-video"></i></a>
-14. *Directed Acyclic Graph-based Neural Networks for Tunable Low-Power Computer Vision*.  
+16. *Directed Acyclic Graph-based Neural Networks for Tunable Low-Power Computer Vision*.  
  Goel, Tung, Eliopoulos, Hu, Thiruvathukal, **Davis**, and Lu.  
  ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GoelTungEliopoulosHuThiruvathukalDavisLu-DAGHNNs-ISLPED2022.pdf"><i class="fas fa-file-pdf"></i></a>
-15. *Reflecting on Recurring Failures in IoT Development*.  
+17. *Reflecting on Recurring Failures in IoT Development*.  
  Anandayuvaraj and **Davis**.  
  Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering: New Ideas and Emerging Results track (ASE-NIER) 2022.  
  <a href="https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1180&context=ecepubs"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://tinyurl.com/3h2c85rc"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/reflecting-on-recurring-failures-in-iot-development-68df5b45a837"><i class="fab fa-medium"></i></a>
-16. *Discrepancies among Pre-trained Deep Neural Networks: A New Threat to Model Zoo Reliability*.  
+18. *Discrepancies among Pre-trained Deep Neural Networks: A New Threat to Model Zoo Reliability*.  
  Montes, Peerapatanapokin, Schultz, Guo, Jiang, and **Davis**.  
  Proceedings of the 30th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR) 2022.  
  <a href="https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1181&context=ecepubs"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/MontesPeerapatanapokinSchultzGuoJiangDavis-ModelZoo-FSE22IVR-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
-17. *Reflections on Software Failure Analysis*.  
+19. *Reflections on Software Failure Analysis*.  
  Amusuo, Sharma, Rao, Vincent, and **Davis**.  
  Proceedings of the 30th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR) 2022.  
  <a href="https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1183&context=ecepubs"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://davisjam.medium.com/reflections-on-software-failure-analysis-cd28d57539ba"><i class="fab fa-medium"></i></a>
-18. *Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)*.  
+20. *Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)*.  
  **Davis**, Servant, and Lee.  
  IEEE Security & Privacy (S&P) 2021.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisServantLee-SelectiveMemo-IEEE-SP21-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.4718966"><i class="fas fa-file-code"></i></a> <a href="https://www.youtube.com/channel/UC6pXMS7qre9GZW7A7FVM90Q"><i class="fas fa-video"></i></a> <a href="https://medium.com/@davisjam/using-selective-memoization-to-defeat-regular-expression-denial-of-service-f7acbbd34792"><i class="fab fa-medium"></i></a>
-19. *Low-Power Multi-Camera Object Re-Identication using Hierarchical Neural Networks*.  
+21. *Low-Power Multi-Camera Object Re-Identication using Hierarchical Neural Networks*.  
  Goel, Tung, Hu, Wang, **Davis**, Thiruvathukal, and Lu.  
  ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED) 2021.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://davisjam.medium.com/low-power-multi-camera-object-re-identification-using-hierarchical-neural-networks-275663db83d6"><i class="fab fa-medium"></i></a>
-20. *A Principled Approach to GraphQL Query Cost Analysis*.  
+22. *A Principled Approach to GraphQL Query Cost Analysis*.  
  Cha, Wittern, Baudart, **Davis**, Mandel, and Laredo.  
  Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2020.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://www.youtube.com/watch?v=gHzgEKeRidk"><i class="fas fa-video"></i></a> <a href="https://medium.com/@davisjam/a-principled-approach-to-graphql-query-cost-analysis-8c7243de42c1"><i class="fab fa-medium"></i></a> [Best Paper Award](){: .btn}
-21. *Improving Reproducibility of Data Science Pipelines through Transparent Provenance Capture*.  
+23. *Improving Reproducibility of Data Science Pipelines through Transparent Provenance Capture*.  
  Rupprecht, **Davis**, Arnold, Gur, and Bhagwat.  
  Proceedings of the 46th International Conference on Very Large Databases: Industry track (VLDB-Industry) 2020.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf"><i class="fas fa-file-pdf"></i></a>
-22. *EdgeWise: A Better Stream Processing Engine for the Edge*.  
+24. *EdgeWise: A Better Stream Processing Engine for the Edge*.  
  Fu, Ghaffar, **Davis**, and Lee.  
  Proceedings of the 2019 USENIX Annual Technical Conference (USENIX ATC) 2019.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/FuGhaffarDavisLee-EdgeWise-ATC19.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/FuGhaffarDavisLee-EdgeWise-ATC19-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/VTLeeLab/EdgeWise-ATC-19"><i class="fas fa-file-code"></i></a> <a href="https://medium.com/@davisjam/edgewise-a-better-stream-processing-engine-for-the-edge-898cc0d3e5fe"><i class="fab fa-medium"></i></a>
-23. *Why Aren't Regular Expressions a Lingua Franca? An Empirical Study on the Re-use and Portability of Regular Expressions*.  
+25. *Why Aren't Regular Expressions a Lingua Franca? An Empirical Study on the Re-use and Portability of Regular Expressions*.  
  **Davis**, Michael, Coghlan, Servant, and Lee.  
  Proceedings of the 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2019.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisMichaelCoghlanServantLee-LinguaFranca-ESECFSE19.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisMichaelCoghlanServantLee-LinguaFranca-ESECFSE19-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.3257777"><i class="fas fa-file-code"></i></a> <a href="https://medium.com/@davisjam/why-arent-regexes-a-lingua-franca-esecfse19-a36348df3a2"><i class="fab fa-medium"></i></a>
-24. *An Empirical Study of GraphQL Schemas*.  
+26. *An Empirical Study of GraphQL Schemas*.  
  Wittern, Cha, **Davis**, Baudart, and Mandel.  
  Proceedings of the 17th International Conference on Service-Oriented Computing (ICSOC) 2019.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/WitternChaDavisBaudartMandel-EmpiricalGraphQL-ICSOC19.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/WitternChaDavisBaudartMandel-EmpiricalGraphQL-ICSOC19-slides-modified.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://www.youtube.com/watch?v=9-CnPyrtjic&feature=youtu.be"><i class="fas fa-video"></i></a> <a href="https://medium.com/@davisjam/empirical-study-graphql-icsoc19-29038c48da5"><i class="fab fa-medium"></i></a>
-25. *Regexes are Hard: Decision-making, Difficulties, and Risks in Programming Regular Expressions*.  
+27. *Regexes are Hard: Decision-making, Difficulties, and Risks in Programming Regular Expressions*.  
  Michael, Donohue, **Davis**, Lee, and Servant.  
  Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE) 2019.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/record/3424069"><i class="fas fa-file-code"></i></a> <a href="https://www.youtube.com/watch?v=EWIPCaGfvb0"><i class="fas fa-video"></i></a> <a href="https://medium.com/@davisjam/regexes-are-hard-e7933ae3122d"><i class="fab fa-medium"></i></a> [Best Paper Award](){: .btn}
-26. *Testing Regex Generalizability And Its Implications: A Large-Scale Many-Language Measurement Study*.  
+28. *Testing Regex Generalizability And Its Implications: A Large-Scale Many-Language Measurement Study*.  
  **Davis**, Moyer, Kazerouni, and Lee.  
  Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE) 2019.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/record/3424961"><i class="fas fa-file-code"></i></a> <a href="https://www.youtube.com/watch?v=HQq6iXTjk1I"><i class="fas fa-video"></i></a> <a href="https://medium.com/@davisjam/testing-regex-generalizability-and-its-implications-ase19-63da1edadcdb"><i class="fab fa-medium"></i></a>
-27. *A Sense of Time for JavaScript and Node.js: First-Class Timeouts as a Cure for Event Handler Poisoning*.  
+29. *A Sense of Time for JavaScript and Node.js: First-Class Timeouts as a Cure for Event Handler Poisoning*.  
  **Davis**, Williamson, and Lee.  
  Proceedings of the 27th USENIX Security Symposium (SECURITY'18) 2018.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisWilliamsonLee-SenseOfTime-USENIXSecurity18.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisWilliamsonLee-SenseOfTime-USENIXSecurity18-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/VTLeeLab/node-cure"><i class="fas fa-file-code"></i></a> <a href="https://www.usenix.org/conference/usenixsecurity18/presentation/davis"><i class="fas fa-video"></i></a>
-28. *The Impact of Regular Expression Denial of Service (REDOS) in Practice: an Empirical Study at the Ecosystem Scale*.  
+30. *The Impact of Regular Expression Denial of Service (REDOS) in Practice: an Empirical Study at the Ecosystem Scale*.  
  **Davis**, Coghlan, Servant, and Lee.  
  Proceedings of the 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2018.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.1294300"><i class="fas fa-file-code"></i></a> <a href="https://medium.com/@davisjam/introduction-987fdc4c7b0"><i class="fab fa-medium"></i></a> [Best Paper Award](){: .btn}
-29. *Node.fz: Fuzzing the server-side event-driven architecture*.  
+31. *Node.fz: Fuzzing the server-side event-driven architecture*.  
  **Davis**, Thekumparampil, and Lee.  
  Proceedings of the European Conference on Computer Systems (EuroSys) 2017.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisThekumparampilLee-NodeFz-EuroSys17.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisThekumparampilLee-NodeFz-EuroSys17-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/VTLeeLab/NodeFz"><i class="fas fa-file-code"></i></a>
@@ -199,51 +207,43 @@ To see them organized approximately by project, see [here](/research).
 
 ## Technical reports
 
-1. *An Exploratory Study on Upper-Level Computing Students' Use of Large Language Models as Tools in a Semester-Long Project*.  
- Tanay, Arinze, Joshi, Davis, and **Davis**.  
- arXiv 2024.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/TanayArinzeJoshiDavisDavis-LLM-TechReport2024.pdf"><i class="fas fa-file-pdf"></i></a>
-2. *Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency*.  
- Joshi, Mukherjee, Davis, and **Davis**.  
- arXiv 2024.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JoshiMukherjeeDavisDavis-ThreatModeling-TechReport-2024.pdf"><i class="fas fa-file-pdf"></i></a>
-3. *Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors*.  
+1. *Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors*.  
  Schorlemmer, Kalu, Chigges, Ko, Ishgair, Bagchi, Torres-Arias, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2401.14635"><i class="fas fa-file-pdf"></i></a>
-4. *Preventing Supply Chain Vulnerabilities in Java with a Fine-Grained Permission Manager*.  
+2. *Preventing Supply Chain Vulnerabilities in Java with a Fine-Grained Permission Manager*.  
  Amusuo, Robinson, Torres-Arias, Simon, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/pdf/2310.14117"><i class="fas fa-file-pdf"></i></a>
-5. *An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software*.  
+3. *An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software*.  
  Shen, Pillai, Yuan, **Davis**, and Machiry.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2310.00205"><i class="fas fa-file-pdf"></i></a>
-6. *A Unified Taxonomy and Evaluation of IoT Security Guidelines*.  
+4. *A Unified Taxonomy and Evaluation of IoT Security Guidelines*.  
  Chen, Anandayuvaraj, **Davis**, and Rahaman.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2310.01653"><i class="fas fa-file-pdf"></i></a>
-7. *PeaTMOSS: Mining Pre-Trained Models in Open-Source Software*.  
+5. *PeaTMOSS: Mining Pre-Trained Models in Open-Source Software*.  
  Jiang, Jones, Yasmin, Synovic, Sashti, Chen, Thiruvathukal, Tian, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2310.03620"><i class="fas fa-file-pdf"></i></a>
-8. *Exploring Naming Conventions (and Defects) of Pre-trained Deep Learning Models in Hugging Face and Other Model Hubs*.  
+6. *Exploring Naming Conventions (and Defects) of Pre-trained Deep Learning Models in Hugging Face and Other Model Hubs*.  
  Jiang, Cheung, Thiruvathukal, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2310.01642"><i class="fas fa-file-pdf"></i></a>
-9. *An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
+7. *An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
  Cramer, Maxam, Li, and **Davis**.  
  arXiv 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf"><i class="fas fa-file-pdf"></i></a>
-10. *Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem*.  
+8. *Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem*.  
  Jajal, Jiang, Tewari, Woo, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2303.17708"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JajalJiangTewariWooLuThiruvathukalDavis-ONNXFailures-ONNXCommunityDay2023.pptx"><i class="fas fa-file-powerpoint"></i></a>
-11. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
+9. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
  Jiang, Banna, Vivek, Goel, Synovic, Thiruvathukal, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2303.07476"><i class="fas fa-file-pdf"></i></a>
-12. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+10. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/abs/2107.00821"><i class="fas fa-file-pdf"></i></a>
