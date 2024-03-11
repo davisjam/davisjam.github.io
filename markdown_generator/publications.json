@@ -265,7 +265,7 @@
             "title": "An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry",
             "venue": "Proceedings of the ACM/IEEE 45th International Conference on Software Engineering (ICSE)",
             "year": 2023,
-            "paperBasename": "JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace.pdf",
+            "paperBasename": "https://arxiv.org/abs/2303.02552",
             "slidesBasename": "JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace-slides.pptx",
             "artifactURL": "https://doi.org/10.5281/zenodo.7555464",
             "videoURL": "",
