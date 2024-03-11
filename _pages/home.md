@@ -38,7 +38,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 - Paper on Software Signing: **IEEE S&P 2024**. Congrats to Taylor for sharing his MSc thesis with the world.
 - Paper on Cyber Threat Hunt: **USENIX Security 2024**. Congrats to Trey for sharing his MSc thesis with the world.
-- Paschal will intern with the security team at Qualcomm this summer. Congrats, Dharun!
+- Paschal will intern with the security team at Qualcomm this summer. Congrats, Paschal!
 - Paper on pre-trained models: **MSR 2024**. Congrats to Wenxin and the team!
 - Educational research paper on applying systems thinking to teach threat modeling: **ASEE 2024**. Congrats to Sid and Preeti, and thanks to the patient students of ECE 461.
 - Educational research paper on the unfettered use of LLMs in a software engineering course: **ASEE 2024**. Congrats to Ben, Lexy, and Sid.
