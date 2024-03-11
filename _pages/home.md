@@ -87,7 +87,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Paper on engineering education: Frontiers journal on study abroad (**Frontiers 2022**). Congrats Kirsten!
 - Cisco funds research on software engineering for pre-trained neural network models
 - Serving on the ASE 2022 PC, Doctoral Symposium track
-- Paper on mining software repositories: **ASE-Tools 2022*. Congrats Nick!
+- Paper on mining software repositories: **ASE-Tools 2022**. Congrats Nick!
 - Paper on software engineering for machine learning: **SERP4IoT 2022**. Congrats Nikhil!
 - Elevated to IEEE Senior Member.
 - Cisco funds research on securing software supply chains
