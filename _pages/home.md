@@ -113,8 +113,9 @@ This disorganized list summarizes my research, teaching, and service activities.
 - NSF funds research on secure regular expressions.
 - Paper on computer vision: **ISLPED 2021**. Congrats Abhinav!
 - NSF funds research on software engineering for computer vision.
+- Paper on mutation analysis in software engineering education: **JSS 2021**.
 - Award for engineering education: VIP Outstanding Mentor, 2021. Thank you.
-- Paper on engineering education: **ACIEE 2021**. Congrats Nicole!
+- Paper on intercultural competency in software engineering education: **ACIEE 2021**. Congrats Nicole!
 - Serving on the ASE 2021 PC, Technical track. Distinguished reviewer award!
 - Serving on the ESEC/FSE 2021 PC, Artifact track.
 
