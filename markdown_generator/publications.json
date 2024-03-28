@@ -263,7 +263,7 @@
             "type": "conference",
             "authors": ["Jiang", "Synovic", "Hyatt", "Schorlemmer", "Sethi", "Lu", "Thiruvathukal", "**Davis**"],
             "title": "An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry",
-            "venue": "Proceedings of the ACM/IEEE 45th International Conference on Software Engineering (ICSE)",
+            "venue": "Proceedings of the ACM/IEEE 45th International Conference on Sofjtware Engineering (ICSE)",
             "year": 2023,
             "paperBasename": "https://arxiv.org/abs/2303.02552",
             "slidesBasename": "JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace-slides.pptx",
@@ -361,7 +361,7 @@
             "title": "An Exploratory Study on Upper-Level Computing Students' Use of Large Language Models as Tools in a Semester-Long Project",
             "venue": "Annual Conference of the American Society for Engineering Education (ASEE'24)",
             "year": 2024,
-            "paperBasename": "TanayArinzeJoshiDavisDavis-LLMEducation-ASEE2024.pdf",
+            "paperBasename": "https://arxiv.org/abs/2403.18679",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""

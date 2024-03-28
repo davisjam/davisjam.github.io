@@ -21,7 +21,7 @@ To see them organized approximately by project, see [here](/research).
 3. *An Exploratory Study on Upper-Level Computing Students' Use of Large Language Models as Tools in a Semester-Long Project*.  
  Tanay, Arinze, Joshi, Davis, and **Davis**.  
  Annual Conference of the American Society for Engineering Education (ASEE'24) 2024.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/TanayArinzeJoshiDavisDavis-LLMEducation-ASEE2024.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/abs/2403.18679"><i class="fas fa-file-pdf"></i></a>
 4. *Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency*.  
  Joshi, Mukherjee, Davis, and **Davis**.  
  Annual Conference of the American Society for Engineering Education (ASEE'24) 2024.  
@@ -40,7 +40,7 @@ To see them organized approximately by project, see [here](/research).
  <a href="https://arxiv.org/abs/2303.08934"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Jiang-PTMTorrent-MSR23-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.7570357"><i class="fas fa-file-code"></i></a> <a href="https://medium.com/@davisjam/an-empirical-study-of-pre-trained-model-reuse-in-the-hugging-face-deep-learning-model-registry-6ccfb0e58809"><i class="fab fa-medium"></i></a>
 8. *An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry*.  
  Jiang, Synovic, Hyatt, Schorlemmer, Sethi, Lu, Thiruvathukal, and **Davis**.  
- Proceedings of the ACM/IEEE 45th International Conference on Software Engineering (ICSE) 2023.  
+ Proceedings of the ACM/IEEE 45th International Conference on Sofjtware Engineering (ICSE) 2023.  
  <a href="https://arxiv.org/abs/2303.02552"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.7555464"><i class="fas fa-file-code"></i></a> <a href="https://medium.com/@davisjam/an-empirical-study-of-pre-trained-model-reuse-in-the-hugging-face-deep-learning-model-registry-6ccfb0e58809"><i class="fab fa-medium"></i></a>
 9. *Towards Rehosting Embedded Applications as Linux Applications*.  
  Srinivasan, Tanksalkar, Amusuo, **Davis**, and Machiry.  
