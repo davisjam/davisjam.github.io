@@ -21,7 +21,7 @@ To see them organized approximately by project, see [here](/research).
 3. *An Exploratory Study on Upper-Level Computing Students' Use of Large Language Models as Tools in a Semester-Long Project*.  
  Tanay, Arinze, Joshi, Davis, and **Davis**.  
  Annual Conference of the American Society for Engineering Education (ASEE'24) 2024.  
- <a href="https://arxiv.org/abs/2403.18679"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/abs/2403.18679"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/MaxamDavis-ThreatHunt-USENIXSecurity2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 4. *Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency*.  
  Joshi, Mukherjee, Davis, and **Davis**.  
  Annual Conference of the American Society for Engineering Education (ASEE'24) 2024.  
