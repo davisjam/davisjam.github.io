@@ -311,7 +311,7 @@ To see them organized approximately by project, see [here](/research).
 3. *Discovering U.S. Government Threat Hunting Processes and Improvements*.  
  **Maxam**.  
  MSc, Electrical & Computer Engineering, Purdue University 2023.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Maxam-ThreatHunt-2023-MScThesis.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Maxam-ThreatHunt-2023-MScThesis-slides.pdf"><i class="fas fa-file-powerpoint"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Maxam-ThreatHunt-2023-MScThesis.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Maxam-ThreatHunt-2023-MScThesis-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 4. *On the Impact and Defeat of Regular Expression Denial of Service*.  
  **Davis**.  
  PhD, Computer Science, Virginia Tech 2020.  
