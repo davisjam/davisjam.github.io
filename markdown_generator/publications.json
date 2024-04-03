@@ -350,7 +350,7 @@
             "venue": "Proceedings of the 33rd USENIX Security Symposium (SECURITY'24)",
             "year": 2024,
             "paperBasename": "https://arxiv.org/abs/2402.12252",
-            "slidesBasename": "",
+            "slidesBasename": "MaxamDavis-ThreatHunt-USENIXSecurity2024-slides.pptx",
             "artifactURL": "",
             "videoURL": "",
             "blogURL": ""
@@ -362,7 +362,7 @@
             "venue": "Annual Conference of the American Society for Engineering Education (ASEE'24)",
             "year": 2024,
             "paperBasename": "https://arxiv.org/abs/2403.18679",
-            "slidesBasename": "MaxamDavis-ThreatHunt-USENIXSecurity2024-slides.pptx",
+            "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
         },
