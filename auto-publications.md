@@ -300,15 +300,19 @@ To see them organized approximately by project, see [here](/research).
 
 ## Dissertations and theses
 
-1. *An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
+1. *Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures*.  
+ **Schorlemmer**.  
+ MSc, Electrical & Computer Engineering, Purdue University 2024.  
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Schorlemmer-SoftwareSupplyChainSecurity-FocusedOnSigning-2023-MScThesis-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
+2. *An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
  **Cramer**.  
  MSc, Electrical & Computer Engineering, Purdue University 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Cramer-TrustAndSafetyInSMPs-2023-MScThesis.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Cramer-TrustAndSafetyInSMPs-2023-MScThesis-slides.pdf"><i class="fas fa-file-powerpoint"></i></a>
-2. *Discovering U.S. Government Threat Hunting Processes and Improvements*.  
+3. *Discovering U.S. Government Threat Hunting Processes and Improvements*.  
  **Maxam**.  
  MSc, Electrical & Computer Engineering, Purdue University 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Maxam-ThreatHunt-2023-MScThesis.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Maxam-ThreatHunt-2023-MScThesis-slides.pdf"><i class="fas fa-file-powerpoint"></i></a>
-3. *On the Impact and Defeat of Regular Expression Denial of Service*.  
+4. *On the Impact and Defeat of Regular Expression Denial of Service*.  
  **Davis**.  
  PhD, Computer Science, Virginia Tech 2020.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-Dissertation-2020.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-Dissertation-OralDefense.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://www.youtube.com/watch?v=TDIlcm3joq0&t=2s"><i class="fas fa-video"></i></a>

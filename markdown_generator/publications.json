@@ -609,7 +609,17 @@
         },
 
 
-
+        {
+            "type": "dissertation",
+            "authors": ["**Schorlemmer**"],
+            "title": "Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures",
+            "venue": "MSc, Electrical & Computer Engineering, Purdue University",
+            "year": 2024,
+            "paperBasename": "",
+            "slidesBasename": "Schorlemmer-SoftwareSupplyChainSecurity-FocusedOnSigning-2023-MScThesis-slides.pptx",
+            "artifactURL": "",
+            "videoURL": ""
+        },
         {
             "type": "dissertation",
             "authors": ["**Cramer**"],
