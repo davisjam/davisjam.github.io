@@ -550,7 +550,8 @@
             "paperBasename": "https://arxiv.org/abs/2310.03620",
             "slidesBasename": "",
             "artifactURL": "",
-            "videoURL": ""
+            "videoURL": "",
+            "suppress": true
         },
         {
             "type": "arxiv",

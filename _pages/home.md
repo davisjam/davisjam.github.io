@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2024
 
+- REU alumnus and collaborator Matt Hyatt of Loyola University-Chicago receives NSF GRFP and DOD NDSEG fellowships. Congrats, Matt!
 - Taylor R. Schorlemmer defends his MSc thesis: "Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures".
 - With Prof. Machiry, Ritvik, Jayashree, Srihari, and Paschal's poster won Best Poster at Purdue's 2024 CERIAS symposium. Congrats folks!
 - Paper on Software Signing: **IEEE S&P 2024**. Congrats to Taylor for sharing his MSc thesis with the world.

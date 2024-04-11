@@ -85,6 +85,7 @@ def writePubs(handle, headingTitle, pubs):
 with open(PUBFILE, 'r') as infile, open('../auto-publications.md', 'w') as outfile:
     writeOutPrefix(outfile)
     pubs = json.load(infile)['publications']
+    pubs = [p for p in pubs if not p.get('suppress', False)]
     pubs = sorted(pubs, key=lambda p: p['year'], reverse=True)
 
     confPubs = [ pub for pub in pubs if pub['type'] == CONFERENCE_PUB ]

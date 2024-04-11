@@ -223,27 +223,23 @@ To see them organized approximately by project, see [here](/research).
  Chen, Anandayuvaraj, **Davis**, and Rahaman.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2310.01653"><i class="fas fa-file-pdf"></i></a>
-4. *PeaTMOSS: Mining Pre-Trained Models in Open-Source Software*.  
- Jiang, Jones, Yasmin, Synovic, Sashti, Chen, Thiruvathukal, Tian, and **Davis**.  
- arXiv 2023.  
- <a href="https://arxiv.org/abs/2310.03620"><i class="fas fa-file-pdf"></i></a>
-5. *Exploring Naming Conventions (and Defects) of Pre-trained Deep Learning Models in Hugging Face and Other Model Hubs*.  
+4. *Exploring Naming Conventions (and Defects) of Pre-trained Deep Learning Models in Hugging Face and Other Model Hubs*.  
  Jiang, Cheung, Thiruvathukal, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2310.01642"><i class="fas fa-file-pdf"></i></a>
-6. *An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
+5. *An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
  Cramer, Maxam, Li, and **Davis**.  
  arXiv 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf"><i class="fas fa-file-pdf"></i></a>
-7. *Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem*.  
+6. *Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem*.  
  Jajal, Jiang, Tewari, Woo, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2303.17708"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JajalJiangTewariWooLuThiruvathukalDavis-ONNXFailures-ONNXCommunityDay2023.pptx"><i class="fas fa-file-powerpoint"></i></a>
-8. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
+7. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
  Jiang, Banna, Vivek, Goel, Synovic, Thiruvathukal, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2303.07476"><i class="fas fa-file-pdf"></i></a>
-9. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+8. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/abs/2107.00821"><i class="fas fa-file-pdf"></i></a>
