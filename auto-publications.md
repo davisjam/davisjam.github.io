@@ -280,7 +280,7 @@ To see them organized approximately by project, see [here](/research).
 1. *A First Look at the General Data Protection Regulation (GDPR) in Open-Source Software*.  
  Franke, Liang, Brantly, **Davis**, and Brown.  
  Proceedings of the ACM/IEEE 46th International Conference on Software Engineering -- Poster Track (ICSE-Poster) 2024.  
- <a href="https://arxiv.org/abs/2401.14629"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/abs/2401.14629"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/FrankeLiangBrantlyDavisBrown-GDPRAndOSS-ICSEPoster2024-slides-poster.pptx"><i class="fas fa-file-powerpoint"></i></a>
 2. *Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach*.  
  Veselsky, West, Ahlgren, Goel, Jiang, Lee, Kim, **Davis**, Thiruvathukal, and Klingensmith.  
  Proceedings of the 23rd Annual International Workshop on Mobile Computing Systems and Application (HotMobile) 2022.  
