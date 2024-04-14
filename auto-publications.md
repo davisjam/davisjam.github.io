@@ -13,7 +13,7 @@ To see them organized approximately by project, see [here](/research).
 1. *PeaTMOSS: A Dataset and Initial Analysis of Pre-Trained Models in Open-Source Software*.  
  Jiang, Yasmin, Jones, Synovic, Kuo, Bielanski, Tian, Thiruvathukal, and **Davis**.  
  Proceedings of the 21st Annual Conference on Mining Software Repositories (MSR'24) 2024.  
- <a href="https://arxiv.org/abs/2402.00699"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/abs/2402.00699"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/PurdueDualityLab/PeaTMOSS-Artifact"><i class="fas fa-file-code"></i></a>
 2. *An Interview Study on Third-Party Cyber Threat Hunting Processes in the U.S. Department of Homeland Security*.  
  Maxam and **Davis**.  
  Proceedings of the 33rd USENIX Security Symposium (SECURITY'24) 2024.  
