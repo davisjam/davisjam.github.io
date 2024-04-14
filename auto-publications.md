@@ -29,7 +29,7 @@ To see them organized approximately by project, see [here](/research).
 5. *Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors*.  
  Schorlemmer, Kalu, Chigges, Ko, Ishgair, Bagchi, Torres-Arias, and **Davis**.  
  Proceedings of the 45th IEEE Symposium on Security and Privacy (S&P'24) 2024.  
- <a href="https://arxiv.org/abs/2401.14635"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SchorlemmerKaluChiggesKoIshgairBagchiTorresAriasDavis-SigningMeasurements-IEEE-SP24.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/PurdueDualityLab/signature-adoption"><i class="fas fa-file-code"></i></a>
 6. *Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies*.  
  Hassan, Aamir, Lee, **Davis**, and Servant.  
  Proceedings of the 44th IEEE Symposium on Security and Privacy (S&P'23) 2023.  

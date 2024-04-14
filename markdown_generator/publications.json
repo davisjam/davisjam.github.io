@@ -383,9 +383,9 @@
             "title": "Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors",
             "venue": "Proceedings of the 45th IEEE Symposium on Security and Privacy (S&P'24)",
             "year": 2024,
-            "paperBasename": "https://arxiv.org/abs/2401.14635",
+            "paperBasename": "SchorlemmerKaluChiggesKoIshgairBagchiTorresAriasDavis-SigningMeasurements-IEEE-SP24.pdf",
             "slidesBasename": "",
-            "artifactURL": "",
+            "artifactURL": "https://github.com/PurdueDualityLab/signature-adoption",
             "videoURL": ""
         },
 
