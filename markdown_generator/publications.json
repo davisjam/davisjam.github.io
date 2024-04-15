@@ -388,6 +388,18 @@
             "artifactURL": "https://github.com/PurdueDualityLab/signature-adoption",
             "videoURL": ""
         },
+        {
+            "type": "conference",
+            "authors": [ "Chen", "Anandayuvaraj", "**Davis**", "Rahaman"],
+            "title": "On the Contents and Utility of IoT Cybersecurity Guidelines",
+            "venue": "Proceedings of the ACM on Software Engineering (PACMSE), Issue FSE 2024 (FSE)",
+            "year": 2024,
+            "paperBasename": "https://arxiv.org/abs/2310.01653",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+
 
         {
             "type": "workshop",
@@ -526,17 +538,6 @@
             "venue": "arXiv",
             "year": 2023,
             "paperBasename": "https://arxiv.org/abs/2310.00205",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
-            "authors": ["Chen", "Anandayuvaraj", "**Davis**", "Rahaman"],
-            "title": "A Unified Taxonomy and Evaluation of IoT Security Guidelines",
-            "venue": "arXiv",
-            "year": 2023,
-            "paperBasename": "https://arxiv.org/abs/2310.01653",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
