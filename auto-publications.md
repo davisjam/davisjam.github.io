@@ -32,7 +32,7 @@ To see them organized approximately by project, see [here](/research).
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SchorlemmerKaluChiggesKoIshgairBagchiTorresAriasDavis-SigningMeasurements-IEEE-SP24.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/PurdueDualityLab/signature-adoption"><i class="fas fa-file-code"></i></a>
 6. *On the Contents and Utility of IoT Cybersecurity Guidelines*.  
  Chen, Anandayuvaraj, **Davis**, and Rahaman.  
- Proceedings of the ACM on Software Engineering (PACMSE), Issue FSE 2024 (FSE) 2024.  
+ Proceedings of the ACM on Software Engineering (PACMSE), Issue FSE 2024 (FSE'24) 2024.  
  <a href="https://arxiv.org/abs/2310.01653"><i class="fas fa-file-pdf"></i></a>
 7. *Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies*.  
  Hassan, Aamir, Lee, **Davis**, and Servant.  
