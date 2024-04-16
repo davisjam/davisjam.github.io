@@ -29,7 +29,7 @@ To see them organized approximately by project, see [here](/research).
 5. *Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors*.  
  Schorlemmer, Kalu, Chigges, Ko, Ishgair, Bagchi, Torres-Arias, and **Davis**.  
  Proceedings of the 45th IEEE Symposium on Security and Privacy (S&P'24) 2024.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SchorlemmerKaluChiggesKoIshgairBagchiTorresAriasDavis-SigningMeasurements-IEEE-SP24.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/PurdueDualityLab/signature-adoption"><i class="fas fa-file-code"></i></a>
+ <a href="https://arxiv.org/abs/2401.14635"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/PurdueDualityLab/signature-adoption"><i class="fas fa-file-code"></i></a>
 6. *On the Contents and Utility of IoT Cybersecurity Guidelines*.  
  Chen, Anandayuvaraj, **Davis**, and Rahaman.  
  Proceedings of the ACM on Software Engineering (PACMSE), Issue FSE 2024 (FSE'24) 2024.  
