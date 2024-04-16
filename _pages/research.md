@@ -154,8 +154,7 @@ You could join them! [Here are the instructions to get started](/join-lab).
 
 #### MSc
 
-- [Taylor Schorlemmer](https://www.linkedin.com/in/taylor-reeves-schorlemmer/)
-- [Jason Jones](https://www.linkedin.com/in/jonesjasonh/)
+- [Sofia Okorafor](https://www.linkedin.com/in/sofia-okorafor-b7ba12251/)
 
 #### Undergraduate
 
@@ -168,6 +167,8 @@ You could join them! [Here are the instructions to get started](/join-lab).
 
 #### Alums
 
+- [Taylor Schorlemmer](https://www.linkedin.com/in/taylor-reeves-schorlemmer/), MSc 2024, will serve as a cyber-officer in the US Army
+- [Jason Jones](https://www.linkedin.com/in/jonesjasonh/), MSc 2024
 - [William "Trey" Maxam](https://www.linkedin.com/in/william-m-714184114/), MSc 2023, will serve as an instructor at the US Coast Guard Academy
 - [Geoffrey Cramer](https://www.linkedin.com/in/geoff-cramer-85b430129/), MSc 2023, Boundless
 - [Ananya Singh](https://www.linkedin.com/in/imananyasingh/), BSc 2023, Google
