@@ -613,12 +613,23 @@
 
         {
             "type": "dissertation",
+            "authors": ["**Jones**"],
+            "title": "A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries",
+            "venue": "MSc, Electrical & Computer Engineering, Purdue University",
+            "year": 2024,
+            "paperBasename": "",
+            "slidesBasename": "Jones-QuantitativeComparisonOfPTMAndTraditionalPackageRegistries-2024-MScThesis-slides.pptx",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "dissertation",
             "authors": ["**Schorlemmer**"],
             "title": "Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures",
             "venue": "MSc, Electrical & Computer Engineering, Purdue University",
             "year": 2024,
             "paperBasename": "",
-            "slidesBasename": "Schorlemmer-SoftwareSupplyChainSecurity-FocusedOnSigning-2023-MScThesis-slides.pptx",
+            "slidesBasename": "Schorlemmer-SoftwareSupplyChainSecurity-FocusedOnSigning-2024-MScThesis-slides.pptx",
             "artifactURL": "",
             "videoURL": ""
         },
