@@ -361,7 +361,7 @@
             "title": "An Exploratory Study on Upper-Level Computing Students' Use of Large Language Models as Tools in a Semester-Long Project",
             "venue": "Annual Conference of the American Society for Engineering Education (ASEE'24)",
             "year": 2024,
-            "paperBasename": "TanayArinzeJoshiDavisDavis-LLMEducation-ASEE2024.pdf",
+            "paperBasename": "https://arxiv.org/abs/2403.18679",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
@@ -372,7 +372,7 @@
             "title": "Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency",
             "venue": "Annual Conference of the American Society for Engineering Education (ASEE'24)",
             "year": 2024,
-            "paperBasename": "JoshiMukherjeeDavisDavis-ThreatModeling-TechReport-2024.pdf",
+            "paperBasename": "JoshiMukherjeeDavisDavis-ThreatModeling-ASEE2024.pdf",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
@@ -556,10 +556,10 @@
         },
         {
             "type": "arxiv",
-            "authors": ["Jiang", "Cheung", "Thiruvathukal", "**Davis**"],
-            "title": "Exploring Naming Conventions (and Defects) of Pre-trained Deep Learning Models in Hugging Face and Other Model Hubs",
+            "authors": ["Jiang", "Cheung", "Kim", "Kim", "Thiruvathukal", "**Davis**"],
+            "title": "Naming Practices of Pre-Trained Models in Hugging Face",
             "venue": "arXiv",
-            "year": 2023,
+            "year": 2024,
             "paperBasename": "https://arxiv.org/abs/2310.01642",
             "slidesBasename": "",
             "artifactURL": "",

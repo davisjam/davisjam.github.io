@@ -21,11 +21,11 @@ To see them organized approximately by project, see [here](/research).
 3. *An Exploratory Study on Upper-Level Computing Students' Use of Large Language Models as Tools in a Semester-Long Project*.  
  Tanay, Arinze, Joshi, Davis, and **Davis**.  
  Annual Conference of the American Society for Engineering Education (ASEE'24) 2024.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/TanayArinzeJoshiDavisDavis-LLMEducation-ASEE2024.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/abs/2403.18679"><i class="fas fa-file-pdf"></i></a>
 4. *Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency*.  
  Joshi, Mukherjee, Davis, and **Davis**.  
  Annual Conference of the American Society for Engineering Education (ASEE'24) 2024.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JoshiMukherjeeDavisDavis-ThreatModeling-TechReport-2024.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JoshiMukherjeeDavisDavis-ThreatModeling-ASEE2024.pdf"><i class="fas fa-file-pdf"></i></a>
 5. *Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors*.  
  Schorlemmer, Kalu, Chigges, Ko, Ishgair, Bagchi, Torres-Arias, and **Davis**.  
  Proceedings of the 45th IEEE Symposium on Security and Privacy (S&P'24) 2024.  
@@ -215,18 +215,18 @@ To see them organized approximately by project, see [here](/research).
 
 ## Technical reports
 
-1. *Preventing Supply Chain Vulnerabilities in Java with a Fine-Grained Permission Manager*.  
+1. *Naming Practices of Pre-Trained Models in Hugging Face*.  
+ Jiang, Cheung, Kim, Kim, Thiruvathukal, and **Davis**.  
+ arXiv 2024.  
+ <a href="https://arxiv.org/abs/2310.01642"><i class="fas fa-file-pdf"></i></a>
+2. *Preventing Supply Chain Vulnerabilities in Java with a Fine-Grained Permission Manager*.  
  Amusuo, Robinson, Torres-Arias, Simon, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/pdf/2310.14117"><i class="fas fa-file-pdf"></i></a>
-2. *An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software*.  
+3. *An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software*.  
  Shen, Pillai, Yuan, **Davis**, and Machiry.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2310.00205"><i class="fas fa-file-pdf"></i></a>
-3. *Exploring Naming Conventions (and Defects) of Pre-trained Deep Learning Models in Hugging Face and Other Model Hubs*.  
- Jiang, Cheung, Thiruvathukal, and **Davis**.  
- arXiv 2023.  
- <a href="https://arxiv.org/abs/2310.01642"><i class="fas fa-file-pdf"></i></a>
 4. *An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
  Cramer, Maxam, Li, and **Davis**.  
  arXiv 2023.  
