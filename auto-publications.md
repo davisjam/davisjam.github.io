@@ -219,22 +219,22 @@ To see them organized approximately by project, see [here](/research).
  Jiang, Cheung, Kim, Kim, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2310.01642"><i class="fas fa-file-pdf"></i></a>
-2. *Preventing Supply Chain Vulnerabilities in Java with a Fine-Grained Permission Manager*.  
+2. *Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem*.  
+ Jajal, Jiang, Tewari, Woo, Lu, Thiruvathukal, and **Davis**.  
+ arXiv 2024.  
+ <a href="https://arxiv.org/abs/2303.17708"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JajalJiangTewariWooLuThiruvathukalDavis-ONNXFailures-ONNXCommunityDay2023.pptx"><i class="fas fa-file-powerpoint"></i></a>
+3. *Preventing Supply Chain Vulnerabilities in Java with a Fine-Grained Permission Manager*.  
  Amusuo, Robinson, Torres-Arias, Simon, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/pdf/2310.14117"><i class="fas fa-file-pdf"></i></a>
-3. *An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software*.  
+4. *An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software*.  
  Shen, Pillai, Yuan, **Davis**, and Machiry.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2310.00205"><i class="fas fa-file-pdf"></i></a>
-4. *An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
+5. *An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
  Cramer, Maxam, Li, and **Davis**.  
  arXiv 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf"><i class="fas fa-file-pdf"></i></a>
-5. *Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem*.  
- Jajal, Jiang, Tewari, Woo, Lu, Thiruvathukal, and **Davis**.  
- arXiv 2023.  
- <a href="https://arxiv.org/abs/2303.17708"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JajalJiangTewariWooLuThiruvathukalDavis-ONNXFailures-ONNXCommunityDay2023.pptx"><i class="fas fa-file-powerpoint"></i></a>
 6. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
  Jiang, Banna, Vivek, Goel, Synovic, Thiruvathukal, and **Davis**.  
  arXiv 2023.  

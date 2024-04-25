@@ -581,7 +581,7 @@
             "authors": ["Jajal", "Jiang", "Tewari", "Woo", "Lu", "Thiruvathukal", "**Davis**"],
             "title": "Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem",
             "venue": "arXiv",
-            "year": 2023,
+            "year": 2024,
             "paperBasename": "https://arxiv.org/abs/2303.17708",
             "slidesBasename": "JajalJiangTewariWooLuThiruvathukalDavis-ONNXFailures-ONNXCommunityDay2023.pptx",
             "artifactURL": "",
