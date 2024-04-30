@@ -215,31 +215,35 @@ To see them organized approximately by project, see [here](/research).
 
 ## Technical reports
 
-1. *Naming Practices of Pre-Trained Models in Hugging Face*.  
+1. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
+ Purohit, Jiang, Ravikiran, and **Davis**.  
+ arXiv 2024.  
+ <a href="https://arxiv.org/pdf/2404.18801"><i class="fas fa-file-pdf"></i></a>
+2. *Naming Practices of Pre-Trained Models in Hugging Face*.  
  Jiang, Cheung, Kim, Kim, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2310.01642"><i class="fas fa-file-pdf"></i></a>
-2. *Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem*.  
+3. *Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem*.  
  Jajal, Jiang, Tewari, Woo, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2303.17708"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JajalJiangTewariWooLuThiruvathukalDavis-ONNXFailures-ONNXCommunityDay2023.pptx"><i class="fas fa-file-powerpoint"></i></a>
-3. *Preventing Supply Chain Vulnerabilities in Java with a Fine-Grained Permission Manager*.  
+4. *Preventing Supply Chain Vulnerabilities in Java with a Fine-Grained Permission Manager*.  
  Amusuo, Robinson, Torres-Arias, Simon, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/pdf/2310.14117"><i class="fas fa-file-pdf"></i></a>
-4. *An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software*.  
+5. *An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software*.  
  Shen, Pillai, Yuan, **Davis**, and Machiry.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2310.00205"><i class="fas fa-file-pdf"></i></a>
-5. *An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
+6. *An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
  Cramer, Maxam, Li, and **Davis**.  
  arXiv 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf"><i class="fas fa-file-pdf"></i></a>
-6. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
+7. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
  Jiang, Banna, Vivek, Goel, Synovic, Thiruvathukal, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/abs/2303.07476"><i class="fas fa-file-pdf"></i></a>
-7. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+8. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/abs/2107.00821"><i class="fas fa-file-pdf"></i></a>

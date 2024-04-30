@@ -405,7 +405,6 @@
             "type": "workshop",
             "authors": ["Singla", "Anandayuvaraj", "Kalu", "Schorlemmer", "**Davis**"],
             "title": "An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures",
-            # "venue": "arXiv",
             "venue": "Proceedings of the 2nd ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)",
             "year": 2023,
             "paperBasename": "SinglaAnandayuvarajKaluSchorlemmerDavis-LLMsForSupplyChainFailureAnalysis-SCORED2023.pdf",
@@ -520,6 +519,17 @@
             "videoURL": ""
         },
 
+        {
+            "type": "arxiv",
+            "authors": ["Purohit", "Jiang", "Ravikiran", "**Davis**"],
+            "title": "A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden",
+            "venue": "arXiv",
+            "year": 2024,
+            "paperBasename": "https://arxiv.org/pdf/2404.18801",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
         {
             "type": "arxiv",
             "authors": ["Amusuo", "Robinson", "Torres-Arias", "Simon", "**Davis**"],
