@@ -219,22 +219,22 @@ To see them organized approximately by project, see [here](/research).
  Purohit, Jiang, Ravikiran, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2404.18801"><i class="fas fa-file-pdf"></i></a>
-2. *Naming Practices of Pre-Trained Models in Hugging Face*.  
+2. *Usage and Effectiveness of Static Analysis in Open-Source Embedded Software: CodeQL Finds Hundreds of Defects*.  
+ Shen, Yuan, Pillai, Zhang, **Davis**, and Machiry.  
+ arXiv 2024.  
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/ShenYuanPillaiZhangDavisMachiry-CodeQLEMBOSS-arxiv.pdf"><i class="fas fa-file-pdf"></i></a>
+3. *Naming Practices of Pre-Trained Models in Hugging Face*.  
  Jiang, Cheung, Kim, Kim, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2310.01642"><i class="fas fa-file-pdf"></i></a>
-3. *Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem*.  
+4. *Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem*.  
  Jajal, Jiang, Tewari, Woo, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2303.17708"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JajalJiangTewariWooLuThiruvathukalDavis-ONNXFailures-ONNXCommunityDay2023.pptx"><i class="fas fa-file-powerpoint"></i></a>
-4. *Preventing Supply Chain Vulnerabilities in Java with a Fine-Grained Permission Manager*.  
+5. *Preventing Supply Chain Vulnerabilities in Java with a Fine-Grained Permission Manager*.  
  Amusuo, Robinson, Torres-Arias, Simon, and **Davis**.  
  arXiv 2023.  
  <a href="https://arxiv.org/pdf/2310.14117"><i class="fas fa-file-pdf"></i></a>
-5. *An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software*.  
- Shen, Pillai, Yuan, **Davis**, and Machiry.  
- arXiv 2023.  
- <a href="https://arxiv.org/abs/2310.00205"><i class="fas fa-file-pdf"></i></a>
 6. *An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
  Cramer, Maxam, Li, and **Davis**.  
  arXiv 2023.  

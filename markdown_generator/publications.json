@@ -543,11 +543,11 @@
         },
         {
             "type": "arxiv",
-            "authors": ["Shen", "Pillai", "Yuan", "**Davis**", "Machiry"],
-            "title": "An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software",
+            "authors": ["Shen", "Yuan", "Pillai", "Zhang", "**Davis**", "Machiry"],
+            "title": "Usage and Effectiveness of Static Analysis in Open-Source Embedded Software: CodeQL Finds Hundreds of Defects",
             "venue": "arXiv",
-            "year": 2023,
-            "paperBasename": "https://arxiv.org/abs/2310.00205",
+            "year": 2024,
+            "paperBasename": "ShenYuanPillaiZhangDavisMachiry-CodeQLEMBOSS-arxiv.pdf",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
