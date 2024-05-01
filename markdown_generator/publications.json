@@ -532,10 +532,10 @@
         },
         {
             "type": "arxiv",
-            "authors": ["Amusuo", "Robinson", "Torres-Arias", "Simon", "**Davis**"],
-            "title": "Preventing Supply Chain Vulnerabilities in Java with a Fine-Grained Permission Manager",
+            "authors": ["Amusuo", "Robinson", "Singla", "Peng", "Machiry", "Torres-Arias", "Simon", "**Davis**"],
+            "title": "ZTD-JAVA: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies",
             "venue": "arXiv",
-            "year": 2023,
+            "year": 2024,
             "paperBasename": "https://arxiv.org/pdf/2310.14117",
             "slidesBasename": "",
             "artifactURL": "",
