@@ -36,9 +36,12 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2024
 
+- Rolls Royce renews support for our research in embedded systems security
+- Serving on the FSE 2025 PC.
 - Kelechi will intern at Microsoft Research this summer. Congrats, Kelechi!
 - Serving on the ISSTA'25 PC.
 - Jason Jones defends his MSc thesis: "A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries".
+- Serving on the ASE 2024 PC.
 - Paper on cybersecurity guidelines: **FSE 2024**. Congrats to Jesse and Dharun!
 - REU alumnus and collaborator Matt Hyatt of Loyola University-Chicago receives NSF GRFP and DOD NDSEG fellowships. Congrats, Matt!
 - Taylor R. Schorlemmer defends his MSc thesis: "Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures".
