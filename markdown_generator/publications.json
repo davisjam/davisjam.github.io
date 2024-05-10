@@ -386,7 +386,8 @@
             "paperBasename": "https://arxiv.org/abs/2401.14635",
             "slidesBasename": "",
             "artifactURL": "https://github.com/PurdueDualityLab/signature-adoption",
-            "videoURL": ""
+            "videoURL": "",
+            "blogURL": "https://medium.com/@davisjam/signing-in-four-public-software-package-registries-quantity-quality-and-influencing-factors-7af4b416b6db"
         },
         {
             "type": "conference",
