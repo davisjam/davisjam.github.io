@@ -303,11 +303,11 @@ To see them organized approximately by project, see [here](/research).
 1. *A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries*.  
  **Jones**.  
  MSc, Electrical & Computer Engineering, Purdue University 2024.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Jones-QuantitativeComparisonOfPTMAndTraditionalPackageRegistries-2024-MScThesis-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
+ <a href="https://hammer.purdue.edu/articles/thesis/A_Quantitative_Comparison_of_Pre-Trained_Model_Registries_to_Traditional_Software_Package_Registries/25686447/1"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Jones-QuantitativeComparisonOfPTMAndTraditionalPackageRegistries-2024-MScThesis-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 2. *Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures*.  
  **Schorlemmer**.  
  MSc, Electrical & Computer Engineering, Purdue University 2024.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Schorlemmer-SoftwareSupplyChainSecurity-FocusedOnSigning-2024-MScThesis-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
+ <a href="https://hammer.purdue.edu/articles/thesis/Software_Supply_Chain_Security_Attacks_Defenses_and_the_Adoption_of_Signatures/25683681/1"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Schorlemmer-SoftwareSupplyChainSecurity-FocusedOnSigning-2024-MScThesis-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 3. *An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
  **Cramer**.  
  MSc, Electrical & Computer Engineering, Purdue University 2023.  
