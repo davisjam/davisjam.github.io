@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2024
 
+- Dharun is awarded a 2024-2025 Chateaubriand Fellowship to conduct part of his dissertation research with Dr. Christophe Cerisara of INRIA (France). Congrats, Dharun!
 - Rolls Royce renews support for our research in embedded systems security
 - Serving on the FSE 2025 PC.
 - Kelechi will intern at Microsoft Research this summer. Congrats, Kelechi!
