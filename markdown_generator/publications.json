@@ -522,11 +522,33 @@
 
         {
             "type": "arxiv",
-            "authors": ["Purohit", "Jiang", "Ravikiran", "**Davis**"],
-            "title": "A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden",
+            "authors": ["Kalu", "Singla", "Okafor", "Torres-Arias", "**Davis**"],
+            "title": "An Industry Interview Study of Software Signing for Supply Chain Security",
             "venue": "arXiv",
             "year": 2024,
-            "paperBasename": "https://arxiv.org/pdf/2404.18801",
+            "paperBasename": "https://arxiv.org/abs/2406.08198",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
+            "authors": ["Jones", "Jiang", "Synovic", "Thiruvathukal", "**Davis**"],
+            "title": "What do we know about Hugging Face? A systematic literature review and quantitative validation of qualitative claims",
+            "venue": "arXiv",
+            "year": 2024,
+            "paperBasename": "https://arxiv.org/abs/2406.08205",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
+            "authors": ["Anandayuvaraj", "Campbell", "Tewari", "**Davis**"],
+            "title": "Can Large Language Models Analyze Software Failures in the News? An End-to-End Automated Pipeline with FAIL",
+            "venue": "arXiv",
+            "year": 2024,
+            "paperBasename": "https://arxiv.org/abs/2406.08221",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
