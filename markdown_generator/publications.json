@@ -263,7 +263,7 @@
             "type": "conference",
             "authors": ["Jiang", "Synovic", "Hyatt", "Schorlemmer", "Sethi", "Lu", "Thiruvathukal", "**Davis**"],
             "title": "An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry",
-            "venue": "Proceedings of the ACM/IEEE 45th International Conference on Sofjtware Engineering (ICSE)",
+            "venue": "Proceedings of the ACM/IEEE 45th International Conference on Software Engineering (ICSE)",
             "year": 2023,
             "paperBasename": "https://arxiv.org/abs/2303.02552",
             "slidesBasename": "JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace-slides.pptx",
