@@ -183,7 +183,7 @@ To see them organized approximately by project, see [here](/research).
 3. *SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties*.  
  Okafor, Schorlemmer, Torres-Arias, and **Davis**.  
  Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2022.  
- <a href="https://docs.lib.purdue.edu/ecepubs/160/"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OkaforSchorlemmerTorresAriasDavis-SupplyChainSoK-SCORED22-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://medium.com/p/6a0c897d5777"><i class="fab fa-medium"></i></a>
+ <a href="https://arxiv.org/abs/2406.10109"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OkaforSchorlemmerTorresAriasDavis-SupplyChainSoK-SCORED22-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://medium.com/p/6a0c897d5777"><i class="fab fa-medium"></i></a>
 4. *An Empirical Study of Artifacts and Security Practices in the Pre-trained Model Supply Chain*.  
  Jiang, Synovic, Sethi, Indarapu, Hyatt, Schorlemmer, Thiruvathukal, and **Davis**.  
  Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2022.  
