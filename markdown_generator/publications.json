@@ -520,6 +520,18 @@
             "videoURL": ""
         },
 
+
+        {
+            "type": "arxiv",
+            "authors": ["Bhuiyan", "Cakar", "Burmane", "**Davis**", "Staicu"],
+            "title": "SoK: A Literature and Engineering Review of Regular Expression Denial of Service",
+            "venue": "arXiv",
+            "year": 2024,
+            "paperBasename": "https://arxiv.org/abs/2406.11618",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
         {
             "type": "arxiv",
             "authors": ["Kalu", "Singla", "Okafor", "Torres-Arias", "**Davis**"],
