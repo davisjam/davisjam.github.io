@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2024
 
+- Two papers accepted to ESEM'24 -- a quantification of qualitative claims about hugging face, and exploratory work on GDPR in open-source software. Congrats to (1) Jason, Wenxin, Nick, and George; and (2) Lucas, Huayu, Sahar, Aaron, and Chris!
 - NSF funds research on tools for energy-efficient software. Thank you, US taxpayers.
 - Dharun is awarded a 2024-2025 Chateaubriand Fellowship to conduct part of his dissertation research with Dr. Christophe Cerisara of INRIA (France). Congrats, Dharun!
 - Rolls Royce renews support for our research in embedded systems security

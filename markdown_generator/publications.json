@@ -400,6 +400,28 @@
             "artifactURL": "",
             "videoURL": ""
         },
+        {
+            "type": "conference",
+            "authors": ["Jones", "Jiang", "Synovic", "Thiruvathukal", "**Davis**"],
+            "title": "What do we know about Hugging Face? A systematic literature review and quantitative validation of qualitative claims",
+            "venue": "Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM'24)",
+            "year": 2024,
+            "paperBasename": "https://arxiv.org/abs/2406.08205",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "conference",
+            "authors": ["Franke", "Liang", "Farzanehpour", "Brantly", "**Davis**", "Brown"],
+            "title": "An Exploratory Mixed-Methods Study on General Data Protection Regulation (GDPR) Compliance in Open-Source Software",
+            "venue": "Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM'24)",
+            "year": 2024,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
 
 
         {
@@ -539,17 +561,6 @@
             "venue": "arXiv",
             "year": 2024,
             "paperBasename": "https://arxiv.org/abs/2406.08198",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
-            "authors": ["Jones", "Jiang", "Synovic", "Thiruvathukal", "**Davis**"],
-            "title": "What do we know about Hugging Face? A systematic literature review and quantitative validation of qualitative claims",
-            "venue": "arXiv",
-            "year": 2024,
-            "paperBasename": "https://arxiv.org/abs/2406.08205",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
