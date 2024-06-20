@@ -12,39 +12,39 @@ To see them organized approximately by project, see [here](/research).
 
 1. *PeaTMOSS: A Dataset and Initial Analysis of Pre-Trained Models in Open-Source Software*.  
  Jiang, Yasmin, Jones, Synovic, Kuo, Bielanski, Tian, Thiruvathukal, and **Davis**.  
- Proceedings of the 21st Annual Conference on Mining Software Repositories (MSR'24) 2024.  
+ Proceedings of the 21st Annual Conference on Mining Software Repositories (MSR) 2024.  
  <a href="https://arxiv.org/abs/2402.00699"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangYasminJonesSynovicKuoBielanskiTianThiruvathukalDavis-PeaTMOSS-MSR24-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/PurdueDualityLab/PeaTMOSS-Artifact"><i class="fas fa-file-code"></i></a>
 2. *An Interview Study on Third-Party Cyber Threat Hunting Processes in the U.S. Department of Homeland Security*.  
  Maxam and **Davis**.  
- Proceedings of the 33rd USENIX Security Symposium (SECURITY'24) 2024.  
+ Proceedings of the 33rd USENIX Security Symposium (SECURITY) 2024.  
  <a href="https://arxiv.org/abs/2402.12252"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/MaxamDavis-ThreatHunt-USENIXSecurity2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 3. *An Exploratory Study on Upper-Level Computing Students' Use of Large Language Models as Tools in a Semester-Long Project*.  
  Tanay, Arinze, Joshi, Davis, and **Davis**.  
- Annual Conference of the American Society for Engineering Education (ASEE'24) 2024.  
+ Annual Conference of the American Society for Engineering Education (ASEE) 2024.  
  <a href="https://arxiv.org/abs/2403.18679"><i class="fas fa-file-pdf"></i></a>
 4. *Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency*.  
  Joshi, Mukherjee, Davis, and **Davis**.  
- Annual Conference of the American Society for Engineering Education (ASEE'24) 2024.  
+ Annual Conference of the American Society for Engineering Education (ASEE) 2024.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JoshiMukherjeeDavisDavis-ThreatModeling-ASEE2024.pdf"><i class="fas fa-file-pdf"></i></a>
 5. *Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors*.  
  Schorlemmer, Kalu, Chigges, Ko, Ishgair, Bagchi, Torres-Arias, and **Davis**.  
- Proceedings of the 45th IEEE Symposium on Security and Privacy (S&P'24) 2024.  
+ Proceedings of the 45th IEEE Symposium on Security and Privacy (S&P) 2024.  
  <a href="https://arxiv.org/abs/2401.14635"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SchorlemmerKaluChiggesKoIshgairBagchiTorresAriasDavis-SigningMeasurements-IEEE-SP24-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/PurdueDualityLab/signature-adoption"><i class="fas fa-file-code"></i></a> <a href="https://medium.com/@davisjam/signing-in-four-public-software-package-registries-quantity-quality-and-influencing-factors-7af4b416b6db"><i class="fab fa-medium"></i></a>
 6. *On the Contents and Utility of IoT Cybersecurity Guidelines*.  
  Chen, Anandayuvaraj, **Davis**, and Rahaman.  
- Proceedings of the ACM on Software Engineering (PACMSE), Issue FSE 2024 (FSE'24) 2024.  
+ Proceedings of the ACM on Software Engineering (PACMSE), Issue FSE 2024 (FSE) 2024.  
  <a href="https://arxiv.org/abs/2310.01653"><i class="fas fa-file-pdf"></i></a>
 7. *What do we know about Hugging Face? A systematic literature review and quantitative validation of qualitative claims*.  
  Jones, Jiang, Synovic, Thiruvathukal, and **Davis**.  
- Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM'24) 2024.  
+ Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM) 2024.  
  <a href="https://arxiv.org/abs/2406.08205"><i class="fas fa-file-pdf"></i></a>
 8. *An Exploratory Mixed-Methods Study on General Data Protection Regulation (GDPR) Compliance in Open-Source Software*.  
  Franke, Liang, Farzanehpour, Brantly, **Davis**, and Brown.  
- Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM'24) 2024.  
+ Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM) 2024.  
  
 9. *Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies*.  
  Hassan, Aamir, Lee, **Davis**, and Servant.  
- Proceedings of the 44th IEEE Symposium on Security and Privacy (S&P'23) 2023.  
+ Proceedings of the 44th IEEE Symposium on Security and Privacy (S&P) 2023.  
  <a href="https://docs.lib.purdue.edu/ecepubs/161"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HassanAamirLeeDavisServant-ReDoSUsability-SP23-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.7419006"><i class="fas fa-file-code"></i></a> <a href="https://www.youtube.com/watch?v=It8QodA2zd8"><i class="fas fa-video"></i></a>
 10. *PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages*.  
  Jiang, Synovic, Jajal, Schorlemmer, Tewari, Pareek, Thiruvathukal, and **Davis**.  
@@ -68,7 +68,7 @@ To see them organized approximately by project, see [here](/research).
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisJajalJiangSchorlemmerSynovicThiruvathukal-DNNReuse-JVA23.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisJajalJiangSchorlemmerSynovicThiruvathukal-DNNReuse-JVA23-slides.pdf"><i class="fas fa-file-powerpoint"></i></a>
 15. *Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks*.  
  Amusuo, Méndez, Xu, Machiry, and **Davis**.  
- Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE'23) 2023.  
+ Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE) 2023.  
  <a href="https://arxiv.org/abs/2308.10965"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoMendezXuMachiryDavis-EmNetTest-ASE2023-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.8247917"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/systematically-detecting-packet-validation-vulnerabilities-in-embedded-network-stacks-4a9954ff393d"><i class="fab fa-medium"></i></a>
 16. *Reflecting on the use of the Policy-Process-Product Theory in Empirical Software Engineering*.  
  Kalu, Schorlemmer, Chen, Robinson, Kocinare, and **Davis**.  
@@ -104,7 +104,7 @@ To see them organized approximately by project, see [here](/research).
  <a href="https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1183&context=ecepubs"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://davisjam.medium.com/reflections-on-software-failure-analysis-cd28d57539ba"><i class="fab fa-medium"></i></a>
 24. *Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)*.  
  **Davis**, Servant, and Lee.  
- IEEE Security & Privacy (S&P'21) 2021.  
+ IEEE Security & Privacy (S&P) 2021.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisServantLee-SelectiveMemo-IEEE-SP21-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.4718966"><i class="fas fa-file-code"></i></a> <a href="https://www.youtube.com/channel/UC6pXMS7qre9GZW7A7FVM90Q"><i class="fas fa-video"></i></a> <a href="https://medium.com/@davisjam/using-selective-memoization-to-defeat-regular-expression-denial-of-service-f7acbbd34792"><i class="fab fa-medium"></i></a>
 25. *Low-Power Multi-Camera Object Re-Identication using Hierarchical Neural Networks*.  
  Goel, Tung, Hu, Wang, **Davis**, Thiruvathukal, and Lu.  
