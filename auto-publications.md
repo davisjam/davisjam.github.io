@@ -41,7 +41,7 @@ To see them organized approximately by project, see [here](/research).
 8. *An Exploratory Mixed-Methods Study on General Data Protection Regulation (GDPR) Compliance in Open-Source Software*.  
  Franke, Liang, Farzanehpour, Brantly, **Davis**, and Brown.  
  Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM) 2024.  
- 
+ <a href="https://arxiv.org/abs/2406.14724"><i class="fas fa-file-pdf"></i></a>
 9. *Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies*.  
  Hassan, Aamir, Lee, **Davis**, and Servant.  
  Proceedings of the 44th IEEE Symposium on Security and Privacy (S&P) 2023.  
