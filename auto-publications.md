@@ -25,7 +25,7 @@ To see them organized approximately by project, see [here](/research).
 4. *Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency*.  
  Joshi, Mukherjee, Davis, and **Davis**.  
  Annual Conference of the American Society for Engineering Education (ASEE) 2024.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JoshiMukherjeeDavisDavis-ThreatModeling-ASEE2024.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JoshiMukherjeeDavisDavis-ThreatModeling-ASEE2024.pdf"><i class="fas fa-file-pdf"></i></a> [Best Paper Award](){: .btn}
 5. *Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors*.  
  Schorlemmer, Kalu, Chigges, Ko, Ishgair, Bagchi, Torres-Arias, and **Davis**.  
  Proceedings of the 45th IEEE Symposium on Security and Privacy (S&P) 2024.  
