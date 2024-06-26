@@ -153,27 +153,31 @@ To see them organized approximately by project, see [here](/research).
 
 ## Peer-reviewed journal papers
 
-1. *Evolution of Winning Solutions in the 2021 Low-Power Computer Vision Challenge*.  
+1. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
+ Jiang, Banna, Vivek, Goel, Synovic, Thiruvathukal, and **Davis**.  
+ Empirical Software Engineering (EMSE) 2024.  
+ <a href="https://arxiv.org/abs/2303.07476"><i class="fas fa-file-pdf"></i></a>
+2. *Evolution of Winning Solutions in the 2021 Low-Power Computer Vision Challenge*.  
  Hu, Jiao, Kocher, Wu, Liu, **Davis**, Thiruvathukal, and Lu.  
  IEEE Computer 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HuJiaoKocherWuLiuDavisThiruvathukalLu-LPCVC-Computer2023.pdf"><i class="fas fa-file-pdf"></i></a>
-2. *Tree-based Unidirectional Neural Networks for Low-Power Computer Vision*.  
+3. *Tree-based Unidirectional Neural Networks for Low-Power Computer Vision*.  
  Goel, Tung, Eliopoulos, Wang, **Davis**, Thiruvathukal, and Lu.  
  IEEE Design & Test 2022.  
  <a href="https://ieeexplore.ieee.org/document/9935301"><i class="fas fa-file-pdf"></i></a>
-3. *Applying Experiential Learning Theory to Understand Study Abroad Leaders' Experiences Using Real-Time Perspectives*.  
+4. *Applying Experiential Learning Theory to Understand Study Abroad Leaders' Experiences Using Real-Time Perspectives*.  
  Davis, Deters, Ozkan, **Davis**, and Murzi.  
  Frontiers: The Interdisciplinary Journal of Study Abroad 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisDetersOzkanDavisMurzi-Frontiers22.pdf"><i class="fas fa-file-pdf"></i></a>
-4. *A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits*.  
+5. *A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits*.  
  Herbold, Trautsch, Ledel, Aghamohammadi, Ghaleb, Chahal, Bossenmaier, Nagaria, Makedonski, Nili Ahmadabadi, Szabados, Spieker, Madeja, Hoy, Lenarduzzi, Wang, Rodríguez-Pérez, Colomo-Palacios, Verdecchia, Singh, Qin, Chakroborti, Davis, Walunj, Wu, Marcilio, Alam, Aldaeej, Amit, Turhan, Eismann, Wickert, Malavolta, Sulír, Fard, Henley, Kourtzanidis, Tuzun, Treude, Shamasbi, Pashchenko, Wyrich, **Davis**, Serebrenik, Albrecht, Aktas, Strüber, and Erbel.  
  Empirical Software Engineering (EMSE) (also presented at ICSE'22-JournalFirst) 2021.  
  <a href="https://arxiv.org/abs/2011.06244"><i class="fas fa-file-pdf"></i></a> <a href="https://www.youtube.com/watch?v=JKYkw-nxE8M"><i class="fas fa-video"></i></a>
-5. *Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis*.  
+6. *Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis*.  
  Kazerouni, **Davis**, Basak, Shaffer, Servant, and Edwards.  
  Journal of Systems and Software (JSS) 2021.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/KazerouniDavisBasakShafferServantEdwards-JSS21.pdf"><i class="fas fa-file-pdf"></i></a>
-6. *Expectations and Experiences of Short-Term Study Abroad Leadership Teams*.  
+7. *Expectations and Experiences of Short-Term Study Abroad Leadership Teams*.  
  Ozkan, Davis, **Davis**, James, Murzi, and Knight.  
  Journal of International Engineering Education (JIEE) 2020.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OzkanDavisDavisJamesMurziKnight-JIEE20.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OzkanDavisDavisJamesMurziKnight-JIEE20-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
@@ -259,11 +263,7 @@ To see them organized approximately by project, see [here](/research).
  Cramer, Maxam, Li, and **Davis**.  
  arXiv 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf"><i class="fas fa-file-pdf"></i></a>
-10. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
- Jiang, Banna, Vivek, Goel, Synovic, Thiruvathukal, and **Davis**.  
- arXiv 2023.  
- <a href="https://arxiv.org/abs/2303.07476"><i class="fas fa-file-pdf"></i></a>
-11. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+10. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/abs/2107.00821"><i class="fas fa-file-pdf"></i></a>
