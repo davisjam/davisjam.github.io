@@ -29,9 +29,7 @@ We understand two modes of impact:
 
 ## Research directions
 
-_This part of my website is not updated super regularly with the latest papers. See the publications page and the news on the homepage for those. However, these directions are ongoing interest and are suitable for prospective students to understand the kind of work we do._ 
-
-### Web security, or, Software engineering for domain-specific languages
+### Web security, focused on Software Engineering for Domain-Specific Languages
 
 This research topic is about domain-specific languages, with applications to web security.
 Domain-specific languages (DSLs) simplify the engineering of complex computing systems.
@@ -48,11 +46,11 @@ In our regex investigations, we have measured the difficulties that practitioner
 1. How widespread of a problem is Regex Denial of Service? ([ESEC/FSE'18](/files/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf), [ICSE'22](/files/publications/BarlasDuDavis-WebREDOS-ICSE22.pdf)).
 3. How hard are regexes to work with? ([ESEC/FSE'19](/files/publications/DavisMichaelCoghlanServantLee-LinguaFranca-ESECFSE19.pdf), [ASE'19](/files/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf))
 4. How generalizable is regex research? ([ASE'19](/files/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf))
-5. How might we address Regex Denial of Service? ([IEEE S&P'21](/files/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf), [IEEE S&P'23](/files/publications/HassanAamirLeeDavisServant-ReDoSUsability-SP23.pdf))
+5. How might we address Regex Denial of Service? ([IEEE S&P'21](/files/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf), [IEEE S&P'23](/files/publications/HassanAamirLeeDavisServant-ReDoSUsability-SP23.pdf), [arXiv'24](https://arxiv.org/abs/2406.11618))
 
 This work is supported by NSF [SaTC-2135156](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2135156).
 
-### Software engineering for data-centric computing (SE4ML, pre-trained models)
+### Software Engineering for Data-Centric Computing (SE4ML, pre-trained models)
 
 Complex computing systems incorporate machine learning models -- data-centric computing components that predict the future based on the past (e.g. data science, ML, deep learning).
 Correct machine learning models requires the development of the models themselves, and the use of analysis pipelines to automatically and repeatedly process batches of data.
@@ -64,12 +62,30 @@ Other problems are new, e.g. understanding the nature of software re-use in this
 *Here are some of the questions we have explored*:
 
 1. How might provenance be applied to assist data scientists? ([SIGMOD'19 demo](/files/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf), [VLDB'20](/files/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf))
-2. What should high-quality machine learning software look like? (CSE'20 poster, [arXiv'21](https://arxiv.org/abs/2107.00821))
-3. What are the challenges and practices for the reuse of machine learning models? ([ESEC/FSE-IVR'22](/files/publications/MontesPeerapatanapokinSchultzGuoJiangDavis-ModelZoo-FSE22IVR.pdf), [ICSE'23](/files/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace.pdf), [MSR-Dataset'23](https://arxiv.org/abs/2303.08934), [JVA'23](/files/publications/DavisJajalJiangSchorlemmerSynovicThiruvathukal-DNNReuse-JVA23.pdf))
+2. What are the challenges and practices for the reuse of machine learning models? ([ESEC/FSE-IVR'22](/files/publications/MontesPeerapatanapokinSchultzGuoJiangDavis-ModelZoo-FSE22IVR.pdf), [ICSE'23](/files/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace.pdf), [JVA'23](/files/publications/DavisJajalJiangSchorlemmerSynovicThiruvathukal-DNNReuse-JVA23.pdf), [ESEM'24](https://arxiv.org/abs/2406.08205), [arXiv'24](https://arxiv.org/abs/2310.01642))
+3. What challenges arise when replicating deep learning models?  (CSE'20 poster, [arXiv'21](https://arxiv.org/abs/2107.00821), [arXiv'24](TODO), [EMSE'24](https://arxiv.org/abs/2303.07476))
+4. What should go into a dataset for mining pre-trained model packages? ([MSR-Dataset'23](https://arxiv.org/abs/2303.08934), [MSR'24](https://arxiv.org/abs/2402.00699)). 
 
 This research is supported financially by Google, Cisco, and NSF [OAC-2107230](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2107230).
 
-### Software engineering in cyber-physical systems (IoT)
+### The Failure-Aware Software Development Lifecycle (FA-SDLC)
+
+All engineered systems fail — they do not fulfill their purposes, deviating from their specification or expected performance. International standards therefore recommend that engineering organizations undertake
+two complementary activities to respond to failure: (1) proactively anticipating failures to mitigate them
+(e.g., during design and implementation), and (2) analyzing failures to find opportunities for improvement
+(e.g., during incident postmortems and retrospectives). For software, we call the resulting engineering process the Failure-Aware Software Development Lifecycle (FA-SDLC).
+
+We are interested in understanding the technical and human/organizational/social factors that support the FA-SDLC.
+
+*Here are some of the questions we have explored*:
+
+1. Are software engineering researchers consistent and coherent in their analysis of failures? ([ESEC/FSE-IVR'22](/files/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR.pdf), [ESEC/FSE-IVR'23](KaluSchorlemmerChenRobinsonKocinareDavis-PPPTheory-FSEIVR2023.pdf))
+2. What are the characteristics of failures in IoT systems? ([ASE-NIER'22](/files/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf)) 
+3. How do engineering students respond to lessons about failures? ([SERP4IoT'23](/files/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf))
+4. Can large language models help us automate the analysis of failures in "open-source intelligence" such as the news? ([SCORED'23](/files/publications/SinglaAnandayuvarajKaluSchorlemmerDavis-LLMsForSupplyChainFailureAnalysis-SCORED2023.pdf), [arXiv'24](https://arxiv.org/abs/2406.08221))
+5. How do standards and regulations influence software engineering practice? ([FSE'24](https://arxiv.org/abs/2310.01653), [ICSE-Poster'24](https://arxiv.org/abs/2401.14629), [ESEM'24](https://arxiv.org/abs/2406.14724), [USENIX Security'24](https://arxiv.org/abs/2402.12252))
+
+### Software Engineering in Cyber-Physical Systems (IoT)
 
 Software influences the physical world one way or another.
 Unlike traditional business software, in which physical-world effects are mediated by humans, Internet of Things (IoT) systems allow software to directly interact with the physical world through interconnected devices.
@@ -80,24 +96,25 @@ However, these methods are not being applied in many safety-sensitive contexts s
 *Here are some of the questions we have explored*:
 
 1. How do software engineers think about machine learning and cybersecurity for IoT products? ([SERP4IoT'22](/files/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf))
-2. What are the characteristics of failures in IoT systems? ([ASE-NIER'22](/files/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf)) 
-3. Are software engineering researchers consistent and coherent in their analysis of failures? ([ESEC/FSE-IVR'22](/files/publications/AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR.pdf))
-4. How do engineering students respond to lessons about failures? ([SERP4IoT'23](/files/publications/AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER.pdf))
-5. Can we apply traditional program analyses to embedded software applications? ([DSN-Disrupt'23](/files/publications/SrinivasanTanksalkarAmusuoDavisMachiry-Rehosting-DSN23.pdf), [LCTES-WIP'23](/files/publications/ShenDavisMachiry-NCMAs-LCTES23.pdf)).
-6. How do we achieve good performance in resource-constrained environments? ([HotMobile'22](/files/publications/VeselskyWestAhlgrenGoelJiangLeeKimDavisThiruvathukalKlingensmith-V2VTrust-HotMobile.pdf), [ISLPED'21](/files/publications/GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21.pdf), [ASP-DAC'22](/files/publications/GoelTungHuThiruvathukalDavisLu-ASPDAC2022.pdf), [ISLPED'22](/files/publications/GoelTungEliopoulosHuThiruvathukalDavisLu-DAGHNNs-ISLPED2022.pdf), [Computer'23](/files/publications/HuJiaoKocherWuLiuDavisThiruvathukalLu-LPCVC-Computer2023.pdf)).
+2. Can we apply traditional program analyses to embedded software applications? ([DSN-Disrupt'23](/files/publications/SrinivasanTanksalkarAmusuoDavisMachiry-Rehosting-DSN23.pdf), [LCTES-WIP'23](/files/publications/ShenDavisMachiry-NCMAs-LCTES23.pdf)).
+3. How do we achieve good performance in resource-constrained environments (e.g. for security, for deep learning, etc.)? ([HotMobile'22](/files/publications/VeselskyWestAhlgrenGoelJiangLeeKimDavisThiruvathukalKlingensmith-V2VTrust-HotMobile.pdf), [ISLPED'21](/files/publications/GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21.pdf), [ASP-DAC'22](/files/publications/GoelTungHuThiruvathukalDavisLu-ASPDAC2022.pdf), [ISLPED'22](/files/publications/GoelTungEliopoulosHuThiruvathukalDavisLu-DAGHNNs-ISLPED2022.pdf), [Computer'23](/files/publications/HuJiaoKocherWuLiuDavisThiruvathukalLu-LPCVC-Computer2023.pdf)).
+4. How effective are bounded systematic techniques in validating embedded network stacks? ([ASE'23](https://arxiv.org/abs/2308.10965))
 
 This research is supported financially by Cisco and Rolls Royce.
 
-### Software supply chains
+### Software Infrastructure: Software Supply Chains
+
+Many modern software applications are composed of business logic and external components. This fact is recursive --- the external components themselves have external components. The result is called the *software supply chain*. Traditional validation techniques suffice for assessing the correctness of the resulting applications. However, the degree of trust in third-party component providers necessitates understanding and measuring the risks (notably in *security*) of this practice.
 
 *Here are some of the questions we have explored*:
 
 1. What are general principles of secure software supply chains? ([SCORED'22a](/files/publications/OkaforSchorlemmerTorresAriasDavis-SOKSecureSupplyChainProperties-SCORED22.pdf))
 2. What are the characteristics of software supply chains in machine learning? ([SCORED'22b](/files/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukal-PTMSupplyChain-SCORED22.pdf))
+3. How commonly do open-source and commercial software artifacts provide provenance via cryptographic signatures, and what factors influence them? ([S&P'24](https://arxiv.org/abs/2401.14635), [arXiv'24](https://arxiv.org/abs/2406.08198))
 
 Some papers from other areas (notably my work on pre-trained models) also fall into this category.
 
-This research is supported financially by Cisco and NSF [POSE-22297403](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2229703&HistoricalAwards=false).
+This research is supported financially by Google, Cisco, and NSF [POSE-22297403](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2229703&HistoricalAwards=false).
 
 ## About the Duality Lab
 
@@ -146,31 +163,36 @@ You could join them! [Here are the instructions to get started](/join-lab).
 #### PhD
 
 - [Wenxin Jiang](https://wenxin-jiang.github.io)
-- [Dharun Anand](https://www.linkedin.com/in/dharunanand/)
 - [Paschal C. Amusuo](https://ampaschal.github.io)
+- [Dharun Anand](https://www.linkedin.com/in/dharunanand/)
 - [Kelechi G. Kalu](https://www.linkedin.com/in/kelechi-gabriel-kalu-40697b123/)
 - [Purvish Jajal](https://www.linkedin.com/in/purvish-jajal-989774190)
 - [Berk Çakar](https://berkcakar.dev)
+- [Huiyun Peng]()
 
 #### MSc
 
-- [Sofia Okorafor](https://www.linkedin.com/in/sofia-okorafor-b7ba12251/)
+- [Sofia Okorafor](https://www.linkedin.com/in/sofia-okorafor-b7ba12251/), US Navy
+- [Tanmay Singla]()
 
 #### Undergraduate
 
 - The Pre-Trained Models research team (through Purdue's VIP program)
 - Charlie Sale
-- Shantanu Sinha
-- Matthew Campbell
-- Tanmay Singla
-- Kyle Robinson
+- Nathaniel Bielanski
+- Owen Cochell
+- Ethan Burmane
+- Arav Tewari
+- Sophie Chen
 
 #### Alums
 
 - [Taylor Schorlemmer](https://www.linkedin.com/in/taylor-reeves-schorlemmer/), MSc 2024, will serve as a cyber-officer in the US Army
-- [Jason Jones](https://www.linkedin.com/in/jonesjasonh/), MSc 2024
+- [Jason Jones](https://www.linkedin.com/in/jonesjasonh/), MSc 2024, BotDojo
 - [William "Trey" Maxam](https://www.linkedin.com/in/william-m-714184114/), MSc 2023, will serve as an instructor at the US Coast Guard Academy
 - [Geoffrey Cramer](https://www.linkedin.com/in/geoff-cramer-85b430129/), MSc 2023, Boundless
+- [Matthew Campbell](), BSc 2024, Cisco
+- [Kyle Robinson](), BSc 2024, Lockheed-Martin
 - [Ananya Singh](https://www.linkedin.com/in/imananyasingh/), BSc 2023, Google
 - [Evan Williams](https://www.linkedin.com/in/evanwilliams02/), BSc 2023 (transferred to Cornell), SWE at AWS
 - [David Li](https://www.linkedin.com/in/davidli12/), BSc 2022, Google

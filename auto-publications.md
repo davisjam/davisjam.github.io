@@ -250,7 +250,7 @@ To see them organized approximately by project, see [here](/research).
 6. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
  Purohit, Jiang, Ravikiran, and **Davis**.  
  arXiv 2024.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/ShenYuanPillaiZhangDavisMachiry-CodeQLEMBOSS-arxiv.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/TODO"><i class="fas fa-file-pdf"></i></a>
 7. *Naming Practices of Pre-Trained Models in Hugging Face*.  
  Jiang, Cheung, Kim, Kim, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
