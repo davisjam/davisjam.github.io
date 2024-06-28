@@ -25,9 +25,11 @@ For a full list of publications, see [here](/publications).
 Our lab conducts software engineering research with an eye to practical impact.
 We understand two modes of impact:
 - *Empirical*: Our tools have found plenty of defects and security vulnerabilities. Our research results have been adopted by major companies (Microsoft, IBM, Google) and major software systems (Node.js, Python, Ruby).
-- *Theoretical*: Software engineering is always changing. Part of software engineering theory is to articulate and organize concepts so that practicing engineers can make sense of them (ontology). We write papers about this, and convey key ideas to practitioners through a Medium blog (70,000 views and counting).
+- *Theoretical*: Software engineering is always changing. Part of software engineering theory is to articulate and organize concepts so that practicing engineers can make sense of them (ontology). We write papers about this, and convey key ideas to practitioners through a Medium blog (75,000 views and counting).
 
 ## Research directions
+
+Broadly speaking, our lab's research is "systems and security"-oriented software engineering.
 
 ### Web security, focused on Software Engineering for Domain-Specific Languages
 
@@ -185,7 +187,7 @@ You could join them! [Here are the instructions to get started](/join-lab).
 - Arav Tewari
 - Sophie Chen
 
-#### Alums
+#### Alumni
 
 - [Taylor Schorlemmer](https://www.linkedin.com/in/taylor-reeves-schorlemmer/), MSc 2024, will serve as a cyber-officer in the US Army
 - [Jason Jones](https://www.linkedin.com/in/jonesjasonh/), MSc 2024, BotDojo
