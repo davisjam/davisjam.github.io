@@ -40,26 +40,26 @@ This disorganized list summarizes my research, teaching, and service activities.
 - One paper accepted to **EMSE** on the idea of "Reengineering" of DNNs. Congrats to Wenxin and the author team!
 - Two papers accepted to **ESEM'24** -- a quantification of qualitative claims about hugging face, and exploratory work on GDPR in open-source software. Congrats to (1) Jason, Wenxin, Nick, and George; and (2) Lucas, Huayu, Sahar, Aaron, and Chris!
 - **NSF** funds research on tools for energy-efficient software. Thank you, US taxpayers.
-- Dharun is awarded a 2024-2025 Chateaubriand Fellowship to conduct part of his dissertation research with Dr. Christophe Cerisara of INRIA (France). Congrats, Dharun!
-- Rolls Royce renews support for our research in embedded systems security
+- Dharun is awarded a 2024-2025 **Chateaubriand Fellowship** to conduct part of his dissertation research with Dr. Christophe Cerisara of INRIA (France). Congrats, Dharun!
+- **Rolls Royce** renews support for our research in embedded systems security
 - Serving on the **FSE 2025 PC**.
-- Kelechi will intern at Microsoft Research this summer. Congrats, Kelechi!
+- Kelechi will intern at **Microsoft Research** this summer. Congrats, Kelechi!
 - Serving on the **ISSTA'25 PC**.
-- Jason Jones defends his MSc thesis: "A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries".
+- Jason Jones defends his **MSc thesis**: "A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries".
 - Serving on the **ASE 2024 PC**.
 - Paper on cybersecurity guidelines: **FSE 2024**. Congrats to Jesse and Dharun!
 - REU alumnus and collaborator Matt Hyatt of Loyola University-Chicago receives **NSF GRFP and DOD NDSEG fellowships**. Congrats, Matt!
-- Taylor R. Schorlemmer defends his MSc thesis: "Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures".
-- With Prof. Machiry, Ritvik, Jayashree, Srihari, and Paschal's poster won Best Poster at Purdue's 2024 CERIAS symposium. Congrats folks!
+- Taylor R. Schorlemmer defends his **MSc thesis**: "Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures".
+- With Prof. Machiry, Ritvik, Jayashree, Srihari, and Paschal's poster won **Best Poster** at Purdue's 2024 CERIAS symposium. Congrats folks!
 - Paper on Software Signing: **IEEE S&P 2024**. Congrats to Taylor for sharing his MSc thesis with the world.
 - Paper on Cyber Threat Hunt: **USENIX Security 2024**. Congrats to Trey for sharing his MSc thesis with the world.
-- Paschal will intern with the security team at Qualcomm this summer. Congrats, Paschal!
+- Paschal will intern with the security team at **Qualcomm** this summer. Congrats, Paschal!
 - Paper on pre-trained models: **MSR 2024**. Congrats to Wenxin and the team!
-- Educational research paper on applying systems thinking to teach threat modeling: **ASEE 2024**. Congrats to Sid and Preeti, and thanks to the patient students of ECE 461. (Update: This work won the Best Paper Award in the Software Engineering Division of ASEE.)
+- Educational research paper on applying systems thinking to teach threat modeling: **ASEE 2024**. Congrats to Sid and Preeti, and thanks to the patient students of ECE 461. (Update: This work won the **Best Paper Award** in the Software Engineering Division of ASEE.)
 - Educational research paper on the unfettered use of LLMs in a software engineering course: **ASEE 2024**. Congrats to Ben, Lexy, and Sid.
-- Paschal and I will serve on the program committee for IEEE SecDev 2024.
-- Dharun will intern with the RISE team at Microsoft Research this summer. Congrats, Dharun!
-- Serving on the EuroSec 2024 PC.
+- Paschal and I will serve on the **IEEE SecDev 2024 PC**.
+- Dharun will intern with the RISE team at **Microsoft Research** this summer. Congrats, Dharun!
+- Serving on the **EuroSec 2024 PC**.
 - Poster on GDPR: **ICSE-Poster 2024**. Congrats to the Virginia Tech collaborators!
 - Presentation at Michigan Tech University about software engineering with pre-trained models
 
