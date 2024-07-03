@@ -65,8 +65,9 @@ Other problems are new, e.g. understanding the nature of software re-use in this
 
 1. How might provenance be applied to assist data scientists? ([SIGMOD'19 demo](/files/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf), [VLDB'20](/files/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf))
 2. What are the challenges and practices for the reuse of machine learning models? ([ESEC/FSE-IVR'22](/files/publications/MontesPeerapatanapokinSchultzGuoJiangDavis-ModelZoo-FSE22IVR.pdf), [ICSE'23](/files/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace.pdf), [JVA'23](/files/publications/DavisJajalJiangSchorlemmerSynovicThiruvathukal-DNNReuse-JVA23.pdf), [ESEM'24](https://arxiv.org/abs/2406.08205), [arXiv'24](https://arxiv.org/abs/2310.01642))
-3. What challenges arise when replicating deep learning models?  (CSE'20 poster, [arXiv'21](https://arxiv.org/abs/2107.00821), [arXiv'24](TODO), [EMSE'24](https://arxiv.org/abs/2303.07476))
+3. What challenges arise when replicating deep learning models?  (CSE'20 poster, [arXiv'21](https://arxiv.org/abs/2107.00821), [arXiv'24](https://arxiv.org/abs/2404.18801), [EMSE'24](https://arxiv.org/abs/2303.07476))
 4. What should go into a dataset for mining pre-trained model packages? ([MSR-Dataset'23](https://arxiv.org/abs/2303.08934), [MSR'24](https://arxiv.org/abs/2402.00699)). 
+5. What are the usage practices and challenges of deep learning interoperability software such as ONNX? ([ISSTA'24](https://arxiv.org/abs/2303.17708)).
 
 This research is supported financially by Google, Cisco, and NSF [OAC-2107230](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2107230).
 

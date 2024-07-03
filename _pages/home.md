@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2024
 
+- One paper accepted to ISSTA'24: a failure analysis of deep learning interoperability software for ONNX. Congrats to Purvish and the team! 
 - One paper accepted to EMSE on the idea of "Reengineering" of DNNs. Congrats to Wenxin and the author team!
 - Two papers accepted to ESEM'24 -- a quantification of qualitative claims about hugging face, and exploratory work on GDPR in open-source software. Congrats to (1) Jason, Wenxin, Nick, and George; and (2) Lucas, Huayu, Sahar, Aaron, and Chris!
 - NSF funds research on tools for energy-efficient software. Thank you, US taxpayers.

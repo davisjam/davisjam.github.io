@@ -423,6 +423,17 @@
             "artifactURL": "",
             "videoURL": ""
         },
+        {
+            "type": "conference",
+            "authors": ["Jajal", "Jiang", "Tewari", "Kocinare", "Woo", "Sarraf", "Lu", "Thiruvathukal", "**Davis**"],
+            "title": "Interoperability in Deep Learning: A User Survey and Failure Analysis of ONNX Model Converters",
+            "venue": "Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)",
+            "year": 2024,
+            "paperBasename": "https://arxiv.org/abs/2303.17708",
+            "slidesBasename": "JajalJiangTewariWooLuThiruvathukalDavis-ONNXFailures-ONNXCommunityDay2023.pptx",
+            "artifactURL": "",
+            "videoURL": ""
+        },
 
 
         {
@@ -605,22 +616,10 @@
             "title": "A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden",
             "venue": "arXiv",
             "year": 2024,
-            "paperBasename": "TODO",
+            "paperBasename": "https://arxiv.org/abs/2404.18801",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
-        },
-        {
-            "type": "arxiv",
-            "authors": ["Jiang", "Jones", "Yasmin", "Synovic", "Sashti", "Chen", "Thiruvathukal", "Tian", "**Davis**"],
-            "title": "PeaTMOSS: Mining Pre-Trained Models in Open-Source Software",
-            "venue": "arXiv",
-            "year": 2023,
-            "paperBasename": "https://arxiv.org/abs/2310.03620",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": "",
-            "suppress": true
         },
         {
             "type": "arxiv",
@@ -641,17 +640,6 @@
             "year": 2023,
             "paperBasename": "CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf",
             "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
-            "authors": ["Jajal", "Jiang", "Tewari", "Woo", "Lu", "Thiruvathukal", "**Davis**"],
-            "title": "Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem",
-            "venue": "arXiv",
-            "year": 2024,
-            "paperBasename": "https://arxiv.org/abs/2303.17708",
-            "slidesBasename": "JajalJiangTewariWooLuThiruvathukalDavis-ONNXFailures-ONNXCommunityDay2023.pptx",
             "artifactURL": "",
             "videoURL": ""
         },
