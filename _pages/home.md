@@ -121,11 +121,11 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2021
 
-- Rolls Royce funds research on embedded systems security.
-- Google funds research on software engineering for machine learning.
+- **Rolls Royce** funds research on embedded systems security.
+- **Google** funds research on software engineering for machine learning.
 - Purdue funds research on computing education.
 - Serving on the ICSE 2021 PC, Demonstrations track.
-- NSF funds research on secure regular expressions.
+- **NSF** funds research on secure regular expressions.
 - Paper on computer vision: **ISLPED 2021**. Congrats Abhinav!
 - NSF funds research on software engineering for computer vision.
 - Paper on mutation analysis in software engineering education: **JSS 2021**.
