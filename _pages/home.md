@@ -36,19 +36,19 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2024
 
-- One paper accepted to ISSTA'24: a failure analysis of deep learning interoperability software for ONNX. Congrats to Purvish and the team! 
-- One paper accepted to EMSE on the idea of "Reengineering" of DNNs. Congrats to Wenxin and the author team!
-- Two papers accepted to ESEM'24 -- a quantification of qualitative claims about hugging face, and exploratory work on GDPR in open-source software. Congrats to (1) Jason, Wenxin, Nick, and George; and (2) Lucas, Huayu, Sahar, Aaron, and Chris!
-- NSF funds research on tools for energy-efficient software. Thank you, US taxpayers.
+- One paper accepted to **ISSTA'24**: a failure analysis of deep learning interoperability software for ONNX. Congrats to Purvish and the team! 
+- One paper accepted to **EMSE** on the idea of "Reengineering" of DNNs. Congrats to Wenxin and the author team!
+- Two papers accepted to **ESEM'24** -- a quantification of qualitative claims about hugging face, and exploratory work on GDPR in open-source software. Congrats to (1) Jason, Wenxin, Nick, and George; and (2) Lucas, Huayu, Sahar, Aaron, and Chris!
+- **NSF** funds research on tools for energy-efficient software. Thank you, US taxpayers.
 - Dharun is awarded a 2024-2025 Chateaubriand Fellowship to conduct part of his dissertation research with Dr. Christophe Cerisara of INRIA (France). Congrats, Dharun!
 - Rolls Royce renews support for our research in embedded systems security
-- Serving on the FSE 2025 PC.
+- Serving on the **FSE 2025 PC**.
 - Kelechi will intern at Microsoft Research this summer. Congrats, Kelechi!
-- Serving on the ISSTA'25 PC.
+- Serving on the **ISSTA'25 PC**.
 - Jason Jones defends his MSc thesis: "A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries".
-- Serving on the ASE 2024 PC.
+- Serving on the **ASE 2024 PC**.
 - Paper on cybersecurity guidelines: **FSE 2024**. Congrats to Jesse and Dharun!
-- REU alumnus and collaborator Matt Hyatt of Loyola University-Chicago receives NSF GRFP and DOD NDSEG fellowships. Congrats, Matt!
+- REU alumnus and collaborator Matt Hyatt of Loyola University-Chicago receives **NSF GRFP and DOD NDSEG fellowships**. Congrats, Matt!
 - Taylor R. Schorlemmer defends his MSc thesis: "Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures".
 - With Prof. Machiry, Ritvik, Jayashree, Srihari, and Paschal's poster won Best Poster at Purdue's 2024 CERIAS symposium. Congrats folks!
 - Paper on Software Signing: **IEEE S&P 2024**. Congrats to Taylor for sharing his MSc thesis with the world.
