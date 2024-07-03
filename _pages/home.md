@@ -24,7 +24,7 @@ Two values inform our research:
 - We apply a "dual" socio-technical philosophy &mdash; high-quality systems must be engineered using both human and technical perspectives, and analysis of failures and mitigations must consider the engineered product as well as the underlying engineering process.
 - We are *empiricists*; we strive to measure the practical impact of problems and solutions.
 
-We present our research in software engineering (ICSE, FSE, ASE) and cybersecurity (S&P, USENIX) conferences.
+We publish our research in the premier venues for software engineering (ICSE, FSE, ASE) and cybersecurity (S&P, USENIX).
 
 Several organizations support our research, including the US National Science Foundation, Google, Cisco, and Rolls Royce.
 
