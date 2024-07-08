@@ -399,7 +399,8 @@
             "paperBasename": "https://arxiv.org/abs/2310.01653",
             "slidesBasename": "",
             "artifactURL": "",
-            "videoURL": ""
+            "videoURL": "",
+            "blogURL": "https://davisjam.medium.com/on-the-contents-and-utility-of-iot-cybersecurity-guidelines-9a0479949ba3"
         },
         {
             "type": "conference",

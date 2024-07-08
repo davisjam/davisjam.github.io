@@ -33,7 +33,7 @@ To see them organized approximately by project, see [here](/research).
 6. *On the Contents and Utility of IoT Cybersecurity Guidelines*.  
  Chen, Anandayuvaraj, **Davis**, and Rahaman.  
  Proceedings of the ACM on Software Engineering (PACMSE), Issue FSE 2024 (FSE) 2024.  
- <a href="https://arxiv.org/abs/2310.01653"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/abs/2310.01653"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/on-the-contents-and-utility-of-iot-cybersecurity-guidelines-9a0479949ba3"><i class="fab fa-medium"></i></a>
 7. *What do we know about Hugging Face? A systematic literature review and quantitative validation of qualitative claims*.  
  Jones, Jiang, Synovic, Thiruvathukal, and **Davis**.  
  Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM) 2024.  
