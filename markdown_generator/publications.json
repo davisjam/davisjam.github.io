@@ -435,6 +435,17 @@
             "artifactURL": "",
             "videoURL": ""
         },
+        {
+            "type": "conference",
+            "authors": ["Anandayuvaraj", "Campbell", "Tewari", "**Davis**"],
+            "title": "FAIL: Analyzing Software Failures from the News Using LLMs",
+            "venue": "Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2024,
+            "paperBasename": "https://arxiv.org/abs/2406.08221",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
 
 
         {

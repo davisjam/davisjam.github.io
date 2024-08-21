@@ -36,9 +36,12 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2024
 
+- One paper accepted to **ASE'24**: applying LLMs to conduct software failure analysis from news articles. Congrats to Dharun and the team!
+- Serving on the **USENIX Security 2025 PC**.
 - One paper accepted to **ISSTA'24**: a failure analysis of deep learning interoperability software for ONNX. Congrats to Purvish and the team! 
 - One paper accepted to **EMSE** on the idea of "Reengineering" of DNNs. Congrats to Wenxin and the author team!
 - Two papers accepted to **ESEM'24** -- a quantification of qualitative claims about hugging face, and exploratory work on GDPR in open-source software. Congrats to (1) Jason, Wenxin, Nick, and George; and (2) Lucas, Huayu, Sahar, Aaron, and Chris!
+- Serving on the **ICSE 2025 PC**.
 - **NSF** funds research on tools for energy-efficient software. Thank you, US taxpayers.
 - Dharun is awarded a 2024-2025 **Chateaubriand Fellowship** to conduct part of his dissertation research with Dr. Christophe Cerisara of INRIA (France). Congrats, Dharun!
 - **Rolls Royce** renews support for our research in embedded systems security
@@ -65,7 +68,6 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2023
 
-- Serving on the ICSE 2025 PC, Technical track
 - Presentation at Carnegie Mellon University about software engineering with pre-trained models
 - Paper on applying large language models to cybersecurity failures: **SCORED 2023**. Congrats to Tanmay, Dharun and the team!
 - Presentation at the University of Notre Dame about the challenges of working with pre-trained models
