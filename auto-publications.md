@@ -45,7 +45,7 @@ To see them organized approximately by project, see [here](/research).
 9. *Interoperability in Deep Learning: A User Survey and Failure Analysis of ONNX Model Converters*.  
  Jajal, Jiang, Tewari, Kocinare, Woo, Sarraf, Lu, Thiruvathukal, and **Davis**.  
  Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2024.  
- <a href="https://arxiv.org/abs/2303.17708"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JajalJiangTewariWooLuThiruvathukalDavis-ONNXFailures-ONNXCommunityDay2023.pptx"><i class="fas fa-file-powerpoint"></i></a>
+ <a href="https://arxiv.org/abs/2303.17708"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JajalJiangTewariWooLuThiruvathukalDavis-ONNXFailures-ONNXCommunityDay2023.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/records/12667479"><i class="fas fa-file-code"></i></a>
 10. *FAIL: Analyzing Software Failures from the News Using LLMs*.  
  Anandayuvaraj, Campbell, Tewari, and **Davis**.  
  Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering (ASE) 2024.  
