@@ -164,7 +164,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
  Jiang, Banna, Vivek, Goel, Synovic, Thiruvathukal, and **Davis**.  
  Empirical Software Engineering (EMSE) 2024.  
- <a href="https://link.springer.com/article/10.1007/s10664-024-10521-0"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://link.springer.com/article/10.1007/s10664-024-10521-0"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/Wenxin-Jiang/EMSE-CVReengineering-Artifact"><i class="fas fa-file-code"></i></a>
 2. *Evolution of Winning Solutions in the 2021 Low-Power Computer Vision Challenge*.  
  Hu, Jiao, Kocher, Wu, Liu, **Davis**, Thiruvathukal, and Lu.  
  IEEE Computer 2023.  
