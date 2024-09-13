@@ -235,22 +235,22 @@ To see them organized approximately by project, see [here](/research).
 
 ## Technical reports
 
-1. *Establishing Provenance Before Coding: Traditional and Next-Gen Signing*.  
+1. *Token Turing Machines are Efficient Vision Models*.  
+ Jajal, Eliopoulos, Chou, Thiruvathukal, **Davis**, and Lu.  
+ arXiv 2024.  
+ <a href="https://arxiv.org/abs/2409.07613"><i class="fas fa-file-pdf"></i></a>
+2. *Establishing Provenance Before Coding: Traditional and Next-Gen Signing*.  
  Schorlemmer, Burmane, Kalu, Torres-Arias, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2407.03949"><i class="fas fa-file-pdf"></i></a>
-2. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
+3. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
  Bhuiyan, Cakar, Burmane, **Davis**, and Staicu.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2406.11618"><i class="fas fa-file-pdf"></i></a>
-3. *An Industry Interview Study of Software Signing for Supply Chain Security*.  
+4. *An Industry Interview Study of Software Signing for Supply Chain Security*.  
  Kalu, Singla, Okafor, Torres-Arias, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2406.08198"><i class="fas fa-file-pdf"></i></a>
-4. *Can Large Language Models Analyze Software Failures in the News? An End-to-End Automated Pipeline with FAIL*.  
- Anandayuvaraj, Campbell, Tewari, and **Davis**.  
- arXiv 2024.  
- <a href="https://arxiv.org/abs/2406.08221"><i class="fas fa-file-pdf"></i></a>
 5. *ZTD-JAVA: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies*.  
  Amusuo, Robinson, Singla, Peng, Machiry, Torres-Arias, Simon, and **Davis**.  
  arXiv 2024.  

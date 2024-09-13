@@ -447,7 +447,6 @@
             "videoURL": ""
         },
 
-
         {
             "type": "workshop",
             "authors": ["Singla", "Anandayuvaraj", "Kalu", "Schorlemmer", "**Davis**"],
@@ -569,6 +568,17 @@
 
         {
             "type": "arxiv",
+            "authors": ["Jajal", "Eliopoulos", "Chou", "Thiruvathukal", "**Davis**", "Lu"],
+            "title": "Token Turing Machines are Efficient Vision Models",
+            "venue": "arXiv",
+            "year": 2024,
+            "paperBasename": "https://arxiv.org/abs/2409.07613",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Schorlemmer", "Burmane", "Kalu", "Torres-Arias", "**Davis**"],
             "title": "Establishing Provenance Before Coding: Traditional and Next-Gen Signing",
             "venue": "arXiv",
@@ -596,17 +606,6 @@
             "venue": "arXiv",
             "year": 2024,
             "paperBasename": "https://arxiv.org/abs/2406.08198",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
-            "authors": ["Anandayuvaraj", "Campbell", "Tewari", "**Davis**"],
-            "title": "Can Large Language Models Analyze Software Failures in the News? An End-to-End Automated Pipeline with FAIL",
-            "venue": "arXiv",
-            "year": 2024,
-            "paperBasename": "https://arxiv.org/abs/2406.08221",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
