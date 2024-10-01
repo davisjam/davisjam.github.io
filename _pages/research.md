@@ -172,11 +172,14 @@ You could join them! [Here are the instructions to get started](/join-lab).
 - [Purvish Jajal](https://www.linkedin.com/in/purvish-jajal-989774190)
 - [Berk Çakar](https://berkcakar.dev)
 - [Huiyun Peng]()
+- [Daniel "Hocka" Lugo](), US Space Force
+- [Drew Rozema]()
 
 #### MSc
 
 - [Sofia Okorafor](https://www.linkedin.com/in/sofia-okorafor-b7ba12251/), US Navy
 - [Tanmay Singla]()
+- [Parth V. Patil]()
 
 #### Undergraduate
 
