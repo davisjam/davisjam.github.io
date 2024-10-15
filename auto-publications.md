@@ -235,43 +235,47 @@ To see them organized approximately by project, see [here](/research).
 
 ## Technical reports
 
-1. *Token Turing Machines are Efficient Vision Models*.  
+1. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
+ Peng, Gupte, Eliopoulos, Ho, Mantri, Deng, Jiang, Lu, Läufer, Thiruvathukal, and **Davis**.  
+ arXiv 2024.  
+ <a href="https://arxiv.org/abs/2410.09241"><i class="fas fa-file-pdf"></i></a>
+2. *Token Turing Machines are Efficient Vision Models*.  
  Jajal, Eliopoulos, Chou, Thiruvathukal, **Davis**, and Lu.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2409.07613"><i class="fas fa-file-pdf"></i></a>
-2. *Establishing Provenance Before Coding: Traditional and Next-Gen Signing*.  
+3. *Establishing Provenance Before Coding: Traditional and Next-Gen Signing*.  
  Schorlemmer, Burmane, Kalu, Torres-Arias, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2407.03949"><i class="fas fa-file-pdf"></i></a>
-3. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
+4. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
  Bhuiyan, Cakar, Burmane, **Davis**, and Staicu.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2406.11618"><i class="fas fa-file-pdf"></i></a>
-4. *An Industry Interview Study of Software Signing for Supply Chain Security*.  
+5. *An Industry Interview Study of Software Signing for Supply Chain Security*.  
  Kalu, Singla, Okafor, Torres-Arias, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2406.08198"><i class="fas fa-file-pdf"></i></a>
-5. *ZTD-JAVA: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies*.  
+6. *ZTD-JAVA: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies*.  
  Amusuo, Robinson, Singla, Peng, Machiry, Torres-Arias, Simon, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2310.14117"><i class="fas fa-file-pdf"></i></a>
-6. *Usage and Effectiveness of Static Analysis in Open-Source Embedded Software: CodeQL Finds Hundreds of Defects*.  
+7. *Usage and Effectiveness of Static Analysis in Open-Source Embedded Software: CodeQL Finds Hundreds of Defects*.  
  Shen, Yuan, Pillai, Zhang, **Davis**, and Machiry.  
  arXiv 2024.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/ShenYuanPillaiZhangDavisMachiry-CodeQLEMBOSS-arxiv.pdf"><i class="fas fa-file-pdf"></i></a>
-7. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
+8. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
  Purohit, Jiang, Ravikiran, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2404.18801"><i class="fas fa-file-pdf"></i></a>
-8. *Naming Practices of Pre-Trained Models in Hugging Face*.  
+9. *Naming Practices of Pre-Trained Models in Hugging Face*.  
  Jiang, Cheung, Kim, Kim, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2310.01642"><i class="fas fa-file-pdf"></i></a>
-9. *An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
+10. *An Exploratory Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
  Cramer, Maxam, Li, and **Davis**.  
  arXiv 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf"><i class="fas fa-file-pdf"></i></a>
-10. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+11. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/abs/2107.00821"><i class="fas fa-file-pdf"></i></a>
