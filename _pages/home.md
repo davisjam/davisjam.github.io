@@ -34,6 +34,11 @@ Use the links at the top to learn more about our activities.
 
 This disorganized list summarizes my research, teaching, and service activities.
 
+## 2025
+
+- Two papers accepted to **WACV'25**: (1) optimizing token pruning approaches for edge devices, and (2) evaluating multi-stream architectures for vision transformer. Congrats to Nick, Purvish, and the team!
+
+
 ## 2024
 
 - One paper accepted to **ASE'24**: applying LLMs to conduct software failure analysis from news articles. Congrats to Dharun and the team!
