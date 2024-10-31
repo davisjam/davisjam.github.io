@@ -468,6 +468,17 @@
             "artifactURL": "",
             "videoURL": ""
         },
+        {
+            "type": "conference",
+            "authors": ["Amusuo", "Robinson", "Singla", "Peng", "Machiry", "Torres-Arias", "Simon", "**Davis**"],
+            "title": "ZTD-JAVA: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies",
+            "venue": "Proceedings of the ACM/IEEE 47th International Conference on Software Engineering (ICSE)",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2310.14117",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
 
         {
             "type": "workshop",
@@ -627,17 +638,6 @@
             "venue": "arXiv",
             "year": 2024,
             "paperBasename": "https://arxiv.org/abs/2406.08198",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
-            "authors": ["Amusuo", "Robinson", "Singla", "Peng", "Machiry", "Torres-Arias", "Simon", "**Davis**"],
-            "title": "ZTD-JAVA: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies",
-            "venue": "arXiv",
-            "year": 2024,
-            "paperBasename": "https://arxiv.org/pdf/2310.14117",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
