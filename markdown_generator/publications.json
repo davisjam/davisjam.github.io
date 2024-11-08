@@ -466,7 +466,8 @@
             "paperBasename": "https://arxiv.org/abs/2409.07613",
             "slidesBasename": "",
             "artifactURL": "",
-            "videoURL": ""
+            "videoURL": "",
+            "blogURL": "https://davisjam.medium.com/pruning-one-more-token-is-enough-9bef04dc799b",
         },
         {
             "type": "conference",
