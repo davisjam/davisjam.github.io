@@ -444,7 +444,8 @@
             "paperBasename": "https://arxiv.org/abs/2406.08221",
             "slidesBasename": "",
             "artifactURL": "https://github.com/PurdueDualityLab/ASE24-FAIL-FailureAnalysisInvestigationWithLLMs",
-            "videoURL": ""
+            "videoURL": "",
+            "blogURL": "https://davisjam.medium.com/fail-analyzing-software-failures-from-the-news-using-llms-630b7905f07e",
         },
         {
             "type": "conference",
