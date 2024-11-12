@@ -445,7 +445,7 @@
             "slidesBasename": "",
             "artifactURL": "https://github.com/PurdueDualityLab/ASE24-FAIL-FailureAnalysisInvestigationWithLLMs",
             "videoURL": "",
-            "blogURL": "https://davisjam.medium.com/fail-analyzing-software-failures-from-the-news-using-llms-630b7905f07e",
+            "blogURL": "https://davisjam.medium.com/fail-analyzing-software-failures-from-the-news-using-llms-630b7905f07e"
         },
         {
             "type": "conference",
@@ -468,7 +468,7 @@
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": "",
-            "blogURL": "https://davisjam.medium.com/pruning-one-more-token-is-enough-9bef04dc799b",
+            "blogURL": "https://davisjam.medium.com/pruning-one-more-token-is-enough-9bef04dc799b"
         },
         {
             "type": "conference",

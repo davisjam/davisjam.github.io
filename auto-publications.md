@@ -17,7 +17,7 @@ To see them organized approximately by project, see [here](/research).
 2. *Pruning One More Token is Enough: Leveraging Latency-Workload Non-Linearities for Vision Transformers on the Edge*.  
  Eliopoulos, Jajal, **Davis**, Liu, Thiruvathukal, and Lu.  
  Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025.  
- <a href="https://arxiv.org/abs/2409.07613"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/abs/2409.07613"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/pruning-one-more-token-is-enough-9bef04dc799b"><i class="fab fa-medium"></i></a>
 3. *ZTD-JAVA: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies*.  
  Amusuo, Robinson, Singla, Peng, Machiry, Torres-Arias, Simon, and **Davis**.  
  Proceedings of the ACM/IEEE 47th International Conference on Software Engineering (ICSE) 2025.  
@@ -61,7 +61,7 @@ To see them organized approximately by project, see [here](/research).
 13. *FAIL: Analyzing Software Failures from the News Using LLMs*.  
  Anandayuvaraj, Campbell, Tewari, and **Davis**.  
  Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering (ASE) 2024.  
- <a href="https://arxiv.org/abs/2406.08221"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/PurdueDualityLab/ASE24-FAIL-FailureAnalysisInvestigationWithLLMs"><i class="fas fa-file-code"></i></a>
+ <a href="https://arxiv.org/abs/2406.08221"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/PurdueDualityLab/ASE24-FAIL-FailureAnalysisInvestigationWithLLMs"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/fail-analyzing-software-failures-from-the-news-using-llms-630b7905f07e"><i class="fab fa-medium"></i></a>
 14. *Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies*.  
  Hassan, Aamir, Lee, **Davis**, and Servant.  
  Proceedings of the 44th IEEE Symposium on Security and Privacy (S&P) 2023.  
