@@ -850,6 +850,17 @@
         
         {
             "type": "journal",
+            "authors": ["Özkan", "Davis", "**Davis**", "Deters", "Murzi"],
+            "title": "Fostering Systems Thinking through Engineering Study Abroad Programs",
+            "venue": "European Journal of Engineering Education (EJEE)",
+            "year": 2025,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "journal",
             "authors": ["Jiang", "Banna", "Vivek", "Goel", "Synovic", "Thiruvathukal", "**Davis**"],
             "title": "Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision",
             "venue": "Empirical Software Engineering (EMSE)",
