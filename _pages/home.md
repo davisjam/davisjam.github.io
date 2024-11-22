@@ -42,6 +42,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2024
 
+- At a **Dagstuhl 2024** (regex matching & indexing), I gave a talk on "Regular Expression Denial of Service: Past, Present, and Future".
 - One paper accepted to **ASE'24**: applying LLMs to conduct software failure analysis from news articles. Congrats to Dharun and the team!
 - Serving on the **USENIX Security 2025 PC**.
 - One paper accepted to **ISSTA'24**: a failure analysis of deep learning interoperability software for ONNX. Congrats to Purvish and the team! 
