@@ -17,7 +17,7 @@ To see them organized approximately by project, see [here](/research).
 2. *Pruning One More Token is Enough: Leveraging Latency-Workload Non-Linearities for Vision Transformers on the Edge*.  
  Eliopoulos, Jajal, **Davis**, Liu, Thiruvathukal, and Lu.  
  Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025.  
- <a href="https://arxiv.org/abs/2409.07613"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/pruning-one-more-token-is-enough-9bef04dc799b"><i class="fab fa-medium"></i></a>
+ <a href="https://arxiv.org/abs/2409.07613"><i class="fas fa-file-pdf"></i></a> <a href="https://zenodo.org/records/14160539"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/pruning-one-more-token-is-enough-9bef04dc799b"><i class="fab fa-medium"></i></a>
 3. *ZTD-JAVA: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies*.  
  Amusuo, Robinson, Singla, Peng, Machiry, Torres-Arias, Simon, and **Davis**.  
  Proceedings of the ACM/IEEE 47th International Conference on Software Engineering (ICSE) 2025.  
