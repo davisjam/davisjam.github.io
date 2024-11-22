@@ -53,7 +53,7 @@ To see them organized approximately by project, see [here](/research).
 11. *An Exploratory Mixed-Methods Study on General Data Protection Regulation (GDPR) Compliance in Open-Source Software*.  
  Franke, Liang, Farzanehpour, Brantly, **Davis**, and Brown.  
  Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM) 2024.  
- <a href="https://arxiv.org/abs/2406.14724"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/FrankeLiangFarzanehpourBrantlyDavisBrown-GDPRInOSS-ESEM2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
+ <a href="https://arxiv.org/abs/2406.14724"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/FrankeLiangFarzanehpourBrantlyDavisBrown-GDPRInOSS-ESEM2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/code-world-no-blanket/ESEM24-GDPR-OSS-Impact"><i class="fas fa-file-code"></i></a>
 12. *Interoperability in Deep Learning: A User Survey and Failure Analysis of ONNX Model Converters*.  
  Jajal, Jiang, Tewari, Kocinare, Woo, Sarraf, Lu, Thiruvathukal, and **Davis**.  
  Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2024.  
