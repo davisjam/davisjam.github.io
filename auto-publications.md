@@ -49,7 +49,7 @@ To see them organized approximately by project, see [here](/research).
 10. *What do we know about Hugging Face? A systematic literature review and quantitative validation of qualitative claims*.  
  Jones, Jiang, Synovic, Thiruvathukal, and **Davis**.  
  Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM) 2024.  
- <a href="https://arxiv.org/abs/2406.08205"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JonesJiangSynovicThiruvathukalDavis-HuggingFaceSLR-ESEM2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
+ <a href="https://arxiv.org/abs/2406.08205"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JonesJiangSynovicThiruvathukalDavis-HuggingFaceSLR-ESEM2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/records/13631840"><i class="fas fa-file-code"></i></a>
 11. *An Exploratory Mixed-Methods Study on General Data Protection Regulation (GDPR) Compliance in Open-Source Software*.  
  Franke, Liang, Farzanehpour, Brantly, **Davis**, and Brown.  
  Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM) 2024.  
