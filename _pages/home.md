@@ -36,12 +36,12 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
-- One education research paper accepted to **EJEE'25**: Fostering Systems Thinking through Engineering Study Abroad Programs. Congrats to Desen and the RSAP team!
 - One paper accepted to **ICSE'25**: Zero-Trust Dependencies for software supply chain security. Congrats to Paschal and the team!
 - Two papers accepted to **WACV'25**: (1) optimizing token pruning approaches for edge devices, and (2) evaluating multi-stream architectures for vision transformer. Congrats to Nick, Purvish, and the team!
 
 ## 2024
 
+- One education research paper accepted to **EJEE'24**: Fostering Systems Thinking through Engineering Study Abroad Programs. Congrats to Desen and the RSAP team!
 - At a **Dagstuhl 2024** (regex matching & indexing), I gave a talk on "Regular Expression Denial of Service: Past, Present, and Future".
 - One paper accepted to **ASE'24**: applying LLMs to conduct software failure analysis from news articles. Congrats to Dharun and the team!
 - Serving on the **USENIX Security 2025 PC**.
