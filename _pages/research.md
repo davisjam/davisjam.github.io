@@ -200,7 +200,7 @@ You could join them! [Here are the instructions to get started](/join-lab).
 - [Matthew Campbell](), BSc 2024, Cisco
 - [Kyle Robinson](), BSc 2024, Lockheed-Martin
 - [Ananya Singh](https://www.linkedin.com/in/imananyasingh/), BSc 2023, Google
-- [Evan Williams](https://www.linkedin.com/in/evanwilliams02/), BSc 2023 (transferred to Cornell), SWE at AWS
+- [Evan Williams](https://www.linkedin.com/in/evanwilliams02/), BSc 2023 (transferred to Cornell), SWE at AWS and lab assistant at Stanford
 - [David Li](https://www.linkedin.com/in/davidli12/), BSc 2022, Google
 - [Zach Ghera](https://www.linkedin.com/in/zghera/), BSc 2022, Google
 - [Allen Liu](https://www.linkedin.com/in/lenliu3/), BSc 2022, Amazon

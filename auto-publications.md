@@ -175,8 +175,8 @@ To see them organized approximately by project, see [here](/research).
 
 1. *Fostering Systems Thinking through Engineering Study Abroad Programs*.  
  Özkan, Davis, **Davis**, Deters, and Murzi.  
- European Journal of Engineering Education (EJEE) 2025.  
- 
+ European Journal of Engineering Education (EJEE) 2024.  
+ <a href="https://www.tandfonline.com/doi/full/10.1080/03043797.2024.2434168"><i class="fas fa-file-pdf"></i></a>
 2. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
  Jiang, Banna, Vivek, Goel, Synovic, Thiruvathukal, and **Davis**.  
  Empirical Software Engineering (EMSE) 2024.  
