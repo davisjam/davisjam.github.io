@@ -481,6 +481,17 @@
             "artifactURL": "",
             "videoURL": ""
         },
+        {
+            "type": "conference",
+            "authors": ["Chou", "Jajal", "Eliopoulos", "Nadolsky", "Yang", "Ravi", "**Davis**", "Yun", "Lu"],
+            "title": "A Musician’s Muse: Detecting Performance Errors with Transformers",
+            "venue": "Proceedings of the 39th Annual AAAI Conference on Artificial Intelligence (AAAI)",
+            "year": 2025,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
 
         {
             "type": "workshop",
