@@ -484,10 +484,21 @@
         {
             "type": "conference",
             "authors": ["Chou", "Jajal", "Eliopoulos", "Nadolsky", "Yang", "Ravi", "**Davis**", "Yun", "Lu"],
-            "title": "A Musician’s Muse: Detecting Performance Errors with Transformers",
+            "title": "A Musician's Muse: Detecting Performance Errors with Transformers",
             "venue": "Proceedings of the 39th Annual AAAI Conference on Artificial Intelligence (AAAI)",
             "year": 2025,
             "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "conference",
+            "authors": ["Amusuo", "Patil", "Cochell", "Le Lievre", "**Davis**"],
+            "title": "A Unit Proofing Framework for Code-level Verification: A Research Agenda",
+            "venue": "Proceedings of the 47th IEEE/ACM International Conference on Software Engineering - New Ideas and Emerging Results Track (ICSE-NIER)",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2410.14818",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
@@ -610,18 +621,9 @@
             "artifactURL": "",
             "videoURL": ""
         },
+     
 
-        {
-            "type": "arxiv",
-            "authors": ["Amusuo", "Patil", "Cochell", "Ho", "Le Lievre", "**Davis**"],
-            "title": "A Unit Proofing Framework for Code-level Verification: A Research Agenda",
-            "venue": "arXiv",
-            "year": 2024,
-            "paperBasename": "https://arxiv.org/pdf/2410.14818",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": ""
-        },
+   
         {
             "type": "arxiv",
             "authors": ["Peng", "Gupte", "Eliopoulos", "Ho", "Mantri", "Deng", "Jiang", "Lu", "Läufer", "Thiruvathukal", "**Davis**"],

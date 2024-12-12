@@ -37,6 +37,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 ## 2025
 
 - One paper accepted to **ICSE'25**: Zero-Trust Dependencies for software supply chain security. Congrats to Paschal and the team!
+- One paper accepted to **ICSE-NIER'25**: Unit proofing as a software engineering approach for bounded model checking. Congrats to Paschal and the team!
 - One paper accepted to **AAAI'25**: A tool to help musicians detect errors in their performance. Congrats to Ben, Purvish, Nick, and the team!
 - Two papers accepted to **WACV'25**: (1) optimizing token pruning approaches for edge devices, and (2) evaluating multi-stream architectures for vision transformer. Congrats to Nick, Purvish, and the team!
 
