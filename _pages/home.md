@@ -43,6 +43,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2024
 
+- One paper accepted to **JSS'24**: Failure analysis and engineering patterns for trust and safety on social media platforms. Congrats to Geoff for sharing your MSc thesis with the world (and to co-author Trey)!
 - One education research paper accepted to **EJEE'24**: Fostering Systems Thinking through Engineering Study Abroad Programs. Congrats to Desen and the RSAP team!
 - At a **Dagstuhl 2024** (regex matching & indexing), I gave a talk on "Regular Expression Denial of Service: Past, Present, and Future".
 - One paper accepted to **ASE'24**: applying LLMs to conduct software failure analysis from news articles. Congrats to Dharun and the team!
