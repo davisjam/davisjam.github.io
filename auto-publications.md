@@ -222,7 +222,7 @@ To see them organized approximately by project, see [here](/research).
 
 1. *Recommending Pre-Trained Models for IoT Devices*.  
  Patil, Jiang, Peng, Lugo, Kalu, LeBlanc, Smith, Heo, Aou, and **Davis**.  
- Proceedings of the 7th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT) 2023.  
+ Proceedings of the 7th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT) 2025.  
  
 2. *An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures*.  
  Singla, Anandayuvaraj, Kalu, Schorlemmer, and **Davis**.  
