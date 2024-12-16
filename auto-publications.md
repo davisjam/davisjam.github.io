@@ -220,43 +220,47 @@ To see them organized approximately by project, see [here](/research).
 
 ## Peer-reviewed workshop papers
 
-1. *An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures*.  
+1. *Recommending Pre-Trained Models for IoT Devices*.  
+ Patil, Jiang, Peng, Lugo, Kalu, LeBlanc, Smith, Heo, Aou, and **Davis**.  
+ Proceedings of the 7th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT) 2023.  
+ 
+2. *An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures*.  
  Singla, Anandayuvaraj, Kalu, Schorlemmer, and **Davis**.  
  Proceedings of the 2nd ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SinglaAnandayuvarajKaluSchorlemmerDavis-LLMsForSupplyChainFailureAnalysis-SCORED2023.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SinglaAnandayuvarajKaluSchorlemmerDavis-LLMsForSupplyChainFailureAnalysis-SCORED2023-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/record/8365116"><i class="fas fa-file-code"></i></a>
-2. *Incorporating Failure Knowledge into Design Decisions for IoT Systems: A Controlled Experiment on Novices*.  
+3. *Incorporating Failure Knowledge into Design Decisions for IoT Systems: A Controlled Experiment on Novices*.  
  Anandayuvaraj, Thulluri, Figueroa, Shandilya, and **Davis**.  
- 5th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT 2023) 2023.  
+ Proceedings of the 5th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT) 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AnandayuvarajThulluriFigueroaShandilyaDavis-FailureKnowledgeAndDesignDecisions-SERP4IoT2023.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AnandayuvarajThulluriFigueroaShandilyaDavis-FailureKnowledgeAndDesignDecisions-SERP4IoT2023-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://davisjam.medium.com/incorporating-failure-knowledge-into-design-decisions-for-iot-systems-a-controlled-experiment-825464c55f59"><i class="fab fa-medium"></i></a>
-3. *SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties*.  
+4. *SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties*.  
  Okafor, Schorlemmer, Torres-Arias, and **Davis**.  
  Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2022.  
  <a href="https://arxiv.org/abs/2406.10109"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OkaforSchorlemmerTorresAriasDavis-SupplyChainSoK-SCORED22-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://medium.com/p/6a0c897d5777"><i class="fab fa-medium"></i></a>
-4. *An Empirical Study of Artifacts and Security Practices in the Pre-trained Model Supply Chain*.  
+5. *An Empirical Study of Artifacts and Security Practices in the Pre-trained Model Supply Chain*.  
  Jiang, Synovic, Sethi, Indarapu, Hyatt, Schorlemmer, Thiruvathukal, and **Davis**.  
  Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukalDavis-PTMSupplyChain-SCORED22.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukalDavis-PTMSupplyChain-SCORED22-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/PurdueDualityLab/SCORED22-PTMSupplyChain"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/an-empirical-study-of-artifacts-and-security-risks-in-the-pre-trained-model-supply-chain-2c75fd99942b"><i class="fab fa-medium"></i></a>
-5. *Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics*.  
+6. *Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics*.  
  Synovic, Hyatt, Sethi, Thota, Shilpika, Miller, Jiang, Pinderski, Läufer, Hayward, Klingensmith, **Davis**, and Thiruvathukal.  
  Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering: Demonstrations track (ASE-Demonstrations) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SynovicHyattSethiThotaShilpikaMillerJiangPinderskiLauferHaywardKlingensmithDavisThiruvathukal-LongitudinalMetrics-ASE22Demo.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/SoftwareSystemsLaboratory/prime"><i class="fas fa-file-code"></i></a> <a href="https://youtu.be/YigEHy3_JCo"><i class="fas fa-video"></i></a>
-6. *“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices*.  
+7. *“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices*.  
  Gopalakrishna, Anandayuvaraj, Detti, Bland, Rahaman, and **Davis**.  
  Proceedings of the 4th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.6383066"><i class="fas fa-file-code"></i></a>
-7. *Experience Paper: A First Offering of Software Engineering*.  
+8. *Experience Paper: A First Offering of Software Engineering*.  
  **Davis**, Amusuo, and Bushagour.  
  Proceedings of the 1st International Workshop on Designing and Running Project-Based Courses in Software Engineering Education (DREE) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisAmusuoBushagour-ExperienceIn461.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisAmusuoBushagour-ExperienceIn461-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.5828087"><i class="fas fa-file-code"></i></a> <a href="https://youtu.be/HeMwfk1Ina0"><i class="fas fa-video"></i></a>
-8. *A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'*.  
+9. *A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'*.  
  Winkler, Agarwal, Tung, Ugalde, Jung, and **Davis**.  
  Proceedings of the 29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Artifacts Track (ESEC/FSE-Artifacts) 2021.  
  <a href="https://github.com/PurdueDualityLab/deepbugs-jr/blob/develop/paper/Deepbugs_Replication_Paper_Abstract.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://doi.org/10.5281/zenodo.5110820"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/a-partial-replication-of-deepbugs-a-learning-approach-to-name-based-bug-detection-1e35421a69e"><i class="fab fa-medium"></i></a>
-9. *Ursprung: Provenance for Large-Scale Analytics Environments*.  
+10. *Ursprung: Provenance for Large-Scale Analytics Environments*.  
  Rupprecht, **Davis**, Lubbock, Tyson, and Bhagwat.  
  Proceedings of the 2019 International Conference on Management of Data: Demonstrations track (SIGMOD-Demonstrations) 2019.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf"><i class="fas fa-file-pdf"></i></a>
-10. *The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture*.  
+11. *The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture*.  
  **Davis**, Kildow, and Lee.  
  Proceedings of the 10th European Workshop on Systems Security (EuroSec) 2017.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisKildowLee-EHP-EuroSec17.pdf"><i class="fas fa-file-pdf"></i></a>

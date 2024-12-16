@@ -504,6 +504,18 @@
             "videoURL": ""
         },
 
+
+        {
+            "type": "workshop",
+            "authors": ["Patil", "Jiang", "Peng", "Lugo", "Kalu", "LeBlanc", "Smith", "Heo", "Aou", "**Davis**"],
+            "title": "Recommending Pre-Trained Models for IoT Devices",
+            "venue": "Proceedings of the 7th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT)",
+            "year": 2023,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
         {
             "type": "workshop",
             "authors": ["Singla", "Anandayuvaraj", "Kalu", "Schorlemmer", "**Davis**"],
@@ -519,7 +531,7 @@
             "type": "workshop",
             "authors": ["Anandayuvaraj", "Thulluri", "Figueroa", "Shandilya", "**Davis**"],
             "title": "Incorporating Failure Knowledge into Design Decisions for IoT Systems: A Controlled Experiment on Novices",
-            "venue": "5th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT 2023)",
+            "venue": "Proceedings of the 5th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT)",
             "year": 2023,
             "paperBasename": "AnandayuvarajThulluriFigueroaShandilyaDavis-FailureKnowledgeAndDesignDecisions-SERP4IoT2023.pdf",
             "slidesBasename": "AnandayuvarajThulluriFigueroaShandilyaDavis-FailureKnowledgeAndDesignDecisions-SERP4IoT2023-slides.pptx",
