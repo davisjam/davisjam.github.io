@@ -503,6 +503,17 @@
             "artifactURL": "",
             "videoURL": ""
         },
+        {
+            "type": "conference",
+            "authors": ["Shen", "Yuan", "Pillai", "Zhang", "**Davis**", "Machiry"],
+            "title": "Usage and Effectiveness of Static Analysis in Open-Source Embedded Software: CodeQL Finds Hundreds of Defects",
+            "venue": "Proceedings of the 34th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)",
+            "year": 2025,
+            "paperBasename": "ShenYuanPillaiZhangDavisMachiry-ISSTA2025-CodeQLEMBOSS.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
 
 
         {
@@ -676,17 +687,6 @@
             "venue": "arXiv",
             "year": 2024,
             "paperBasename": "https://arxiv.org/abs/2406.08198",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
-            "authors": ["Shen", "Yuan", "Pillai", "Zhang", "**Davis**", "Machiry"],
-            "title": "Usage and Effectiveness of Static Analysis in Open-Source Embedded Software: CodeQL Finds Hundreds of Defects",
-            "venue": "arXiv",
-            "year": 2024,
-            "paperBasename": "ShenYuanPillaiZhangDavisMachiry-CodeQLEMBOSS-arxiv.pdf",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""

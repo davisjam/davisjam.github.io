@@ -37,6 +37,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 ## 2025
 
 - One paper accepted to **ICSE'25**: Zero-Trust Dependencies for software supply chain security. Congrats to Paschal and the team!
+- One paper accepted to **ISSTA'25**: We applied CodeQL to ~250 open-source repositories of high-quality embedded software and describe our experiences (700 defects!). Congrats to Mingjie and the team!
 - One paper accepted to **ICSE-NIER'25**: Unit proofing as a software engineering approach for bounded model checking. Congrats to Paschal and the team!
 - One paper accepted to **SERP4IoT'25**: Recommending pre-trained models for IoT devices. Congrats to Parth and the team!
 - One paper accepted to **AAAI'25**: A tool to help musicians detect errors in their performance. Congrats to Ben, Purvish, Nick, and the team!
