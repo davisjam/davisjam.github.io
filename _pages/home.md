@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- Serving on the **EuroSec 2025 PC**.
 - NSF funds a travel grant to bring US-based students to ICSE 2025. Thank you, US taxpayers!
 - One paper accepted to **USENIX'25**: An interview study on when, how, and why software engineers adopt software signing for provenance. Congrats to Kelechi and the team!
 - One paper accepted to **ICSE'25**: Zero-Trust Dependencies for software supply chain security. Congrats to Paschal and the team!
