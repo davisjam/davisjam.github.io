@@ -514,6 +514,17 @@
             "artifactURL": "",
             "videoURL": ""
         },
+        {
+            "type": "conference",
+            "authors": ["Kalu", "Singla", "Okafor", "Torres-Arias", "**Davis**"],
+            "title": "An Industry Interview Study of Software Signing for Supply Chain Security",
+            "venue": "Proceedings of the 34th USENIX Security Symposium (SECURITY)",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/abs/2406.08198",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
 
 
         {
@@ -679,18 +690,7 @@
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
-        },
-        {
-            "type": "arxiv",
-            "authors": ["Kalu", "Singla", "Okafor", "Torres-Arias", "**Davis**"],
-            "title": "An Industry Interview Study of Software Signing for Supply Chain Security",
-            "venue": "arXiv",
-            "year": 2024,
-            "paperBasename": "https://arxiv.org/abs/2406.08198",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": ""
-        },
+        },        
         {
             "type": "arxiv",
             "authors": ["Purohit", "Jiang", "Ravikiran", "**Davis**"],

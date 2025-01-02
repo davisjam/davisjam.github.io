@@ -36,6 +36,8 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- NSF funds a travel grant to bring US-based students to ICSE 2025. Thank you, US taxpayers!
+- One paper accepted to **USENIX'25**: An interview study on when, how, and why software engineers adopt software signing for provenance. Congrats to Kelechi and the team!
 - One paper accepted to **ICSE'25**: Zero-Trust Dependencies for software supply chain security. Congrats to Paschal and the team!
 - One paper accepted to **ISSTA'25**: We applied CodeQL to ~250 open-source repositories of high-quality embedded software and describe our experiences (700 defects!). Congrats to Mingjie and the team!
 - One paper accepted to **ICSE-NIER'25**: Unit proofing as a software engineering approach for bounded model checking. Congrats to Paschal and the team!
