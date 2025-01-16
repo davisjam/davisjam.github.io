@@ -191,7 +191,7 @@ To see them organized approximately by project, see [here](/research).
 
 1. *Engineering Patterns for Trust and Safety on Social Media Platforms: A Case Study of Mastodon and Diaspora*.  
  Cramer, Maxam, and **Davis**.  
- Journal of Systems and Software (JSS) 2024.  
+ Journal of Systems and Software (JSS) 2025.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf"><i class="fas fa-file-pdf"></i></a>
 2. *Fostering Systems Thinking through Engineering Study Abroad Programs*.  
  Özkan, Davis, **Davis**, Deters, and Murzi.  
