@@ -268,7 +268,11 @@ To see them organized approximately by project, see [here](/research).
  Rupprecht, **Davis**, Lubbock, Tyson, and Bhagwat.  
  Proceedings of the 2019 International Conference on Management of Data: Demonstrations track (SIGMOD-Demonstrations) 2019.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf"><i class="fas fa-file-pdf"></i></a>
-11. *The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture*.  
+11. *Rethinking Regex Engines to Address ReDoS*.  
+ **Davis**.  
+ Proceedings of the 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE'19) --- Student research competition. 2019.  
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-RethinkingRegexEngines-FSE19-SRC-paper.pdf"><i class="fas fa-file-pdf"></i></a>
+12. *The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture*.  
  **Davis**, Kildow, and Lee.  
  Proceedings of the 10th European Workshop on Systems Security (EuroSec) 2017.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisKildowLee-EHP-EuroSec17.pdf"><i class="fas fa-file-pdf"></i></a>

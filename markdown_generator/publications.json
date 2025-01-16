@@ -646,6 +646,17 @@
         },
         {
             "type": "workshop",
+            "authors": ["**Davis**"],
+            "title": "Rethinking Regex Engines to Address ReDoS",
+            "venue": "Proceedings of the 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE'19) --- Student research competition.",
+            "year": 2019,
+            "paperBasename": "Davis-RethinkingRegexEngines-FSE19-SRC-paper.pdf",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "workshop",
             "authors": ["**Davis**", "Kildow", "Lee"],
             "title": "The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture",
             "venue": "Proceedings of the 10th European Workshop on Systems Security (EuroSec)",
