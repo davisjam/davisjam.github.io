@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- Article on software signing accepted to IEEE S&P Magazine. Congrats to Taylor, Ethan, and Kelechi!
 - Socket funds research on typosquat detection in software package ecosystems.
 - Serving on the **EuroSec 2025 PC**.
 - NSF funds a travel grant to bring US-based students to ICSE 2025. Thank you, US taxpayers!

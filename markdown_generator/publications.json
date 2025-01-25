@@ -682,17 +682,6 @@
         },
         {
             "type": "arxiv",
-            "authors": ["Schorlemmer", "Burmane", "Kalu", "Torres-Arias", "**Davis**"],
-            "title": "Establishing Provenance Before Coding: Traditional and Next-Gen Signing",
-            "venue": "arXiv",
-            "year": 2024,
-            "paperBasename": "https://arxiv.org/abs/2407.03949",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
             "authors": ["Bhuiyan", "Cakar", "Burmane", "**Davis**", "Staicu"],
             "title": "SoK: A Literature and Engineering Review of Regular Expression Denial of Service",
             "venue": "arXiv",
@@ -872,7 +861,18 @@
             "artifactURL": "",
             "videoURL": ""
         },
-        
+
+        {
+            "type": "journal",
+            "authors": ["Schorlemmer", "Burmane", "Kalu", "Torres-Arias", "**Davis**"],
+            "title": "Establishing Provenance Before Coding: Traditional and Next-Gen Software Signing",
+            "venue": "IEEE Security & Privacy Magazine -- Special Issue 'Secure Software Before Codeing'",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/abs/2407.03949",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        }, 
         {
             "type": "journal",
             "authors": ["Cramer", "Maxam", "**Davis**"],
