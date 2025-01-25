@@ -187,7 +187,7 @@ To see them organized approximately by project, see [here](/research).
  Proceedings of the European Conference on Computer Systems (EuroSys) 2017.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisThekumparampilLee-NodeFz-EuroSys17.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisThekumparampilLee-NodeFz-EuroSys17-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/VTLeeLab/NodeFz"><i class="fas fa-file-code"></i></a>
 
-## Peer-reviewed journal papers
+## Peer-reviewed journal and magazine papers
 
 1. *Establishing Provenance Before Coding: Traditional and Next-Gen Software Signing*.  
  Schorlemmer, Burmane, Kalu, Torres-Arias, and **Davis**.  

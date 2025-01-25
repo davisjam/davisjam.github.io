@@ -101,7 +101,7 @@ with open(PUBFILE, 'r') as infile, open('../auto-publications.md', 'w') as outfi
         writePubs(outfile, "Peer-reviewed conference papers, full and short", confPubs)
     if journalPubs:
         print("Writing the {} journal pubs".format(len(journalPubs)))
-        writePubs(outfile, "Peer-reviewed journal papers", journalPubs)
+        writePubs(outfile, "Peer-reviewed journal and magazine papers", journalPubs)
     if workshopPubs:
         print("Writing the {} workshop pubs".format(len(workshopPubs)))
         writePubs(outfile, "Peer-reviewed workshop papers", workshopPubs)
