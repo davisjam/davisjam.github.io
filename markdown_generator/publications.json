@@ -455,7 +455,7 @@
             "year": 2025,
             "paperBasename": "https://arxiv.org/abs/2409.07613",
             "slidesBasename": "",
-            "artifactURL": "",
+            "artifactURL": "https://github.com/pjjajal/EfficientTTMs",
             "videoURL": ""
         },
         {
@@ -668,7 +668,16 @@
         },
      
 
-   
+        {
+            "type": "arxiv",
+            "authors": ["Jiang", "Cakar", "Lysenko", "**Davis**"],
+            "title": "Detecting Active and Stealthy Typosquatting Threats in Package Registries",
+            "venue": "arXiv",
+            "year": 2025,
+            "paperBasename": "JiangCakarLysenkoDavis-TyposquatDetection-TechnicalReport-2025.pdf",
+            "artifactURL": "",
+            "videoURL": ""
+        }, 
         {
             "type": "arxiv",
             "authors": ["Peng", "Gupte", "Eliopoulos", "Ho", "Mantri", "Deng", "Jiang", "Lu", "Läufer", "Thiruvathukal", "**Davis**"],

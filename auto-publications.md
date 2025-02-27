@@ -13,7 +13,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Token Turing Machines are Efficient Vision Models*.  
  Jajal, Eliopoulos, Chou, Thiruvathukal, **Davis**, and Lu.  
  Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025.  
- <a href="https://arxiv.org/abs/2409.07613"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/abs/2409.07613"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/pjjajal/EfficientTTMs"><i class="fas fa-file-code"></i></a>
 2. *Pruning One More Token is Enough: Leveraging Latency-Workload Non-Linearities for Vision Transformers on the Edge*.  
  Eliopoulos, Jajal, **Davis**, Liu, Thiruvathukal, and Lu.  
  Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025.  
@@ -283,23 +283,27 @@ To see them organized approximately by project, see [here](/research).
 
 ## Technical reports
 
-1. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
+1. *Detecting Active and Stealthy Typosquatting Threats in Package Registries*.  
+ Jiang, Cakar, Lysenko, and **Davis**.  
+ arXiv 2025.  
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangCakarLysenkoDavis-TyposquatDetection-TechnicalReport-2025.pdf"><i class="fas fa-file-pdf"></i></a>
+2. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
  Peng, Gupte, Eliopoulos, Ho, Mantri, Deng, Jiang, Lu, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2410.09241"><i class="fas fa-file-pdf"></i></a>
-2. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
+3. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
  Bhuiyan, Cakar, Burmane, **Davis**, and Staicu.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2406.11618"><i class="fas fa-file-pdf"></i></a>
-3. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
+4. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
  Purohit, Jiang, Ravikiran, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2404.18801"><i class="fas fa-file-pdf"></i></a>
-4. *Naming Practices of Pre-Trained Models in Hugging Face*.  
+5. *Naming Practices of Pre-Trained Models in Hugging Face*.  
  Jiang, Cheung, Kim, Kim, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2310.01642"><i class="fas fa-file-pdf"></i></a>
-5. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+6. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/abs/2107.00821"><i class="fas fa-file-pdf"></i></a>
