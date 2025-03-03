@@ -286,7 +286,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Detecting Active and Stealthy Typosquatting Threats in Package Registries*.  
  Jiang, Cakar, Lysenko, and **Davis**.  
  arXiv 2025.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangCakarLysenkoDavis-TyposquatDetection-TechnicalReport-2025.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/pdf/2502.20528"><i class="fas fa-file-pdf"></i></a>
 2. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
  Peng, Gupte, Eliopoulos, Ho, Mantri, Deng, Jiang, Lu, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
