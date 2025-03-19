@@ -690,7 +690,7 @@
         {
             "type": "arxiv",
             "authors": ["Jiang", "Cakar", "Lysenko", "**Davis**"],
-            "title": "Detecting Active and Stealthy Typosquatting Threats in Package Registries",
+            "title": "ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale",
             "venue": "arXiv",
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2502.20528",
