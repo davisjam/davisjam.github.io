@@ -669,6 +669,16 @@
      
         {
             "type": "arxiv",
+            "authors": ["Amusuo", "Cochell", "Le Lievre", "Patil", "Machiry", "**Davis**"],
+            "title": "Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification",
+            "venue": "arXiv",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2503.13762",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Kalu", "Okorafor", "Singla", "Torres-Arias", "**Davis**"],
             "title": "Why Johnny Signs with Sigstore: Examining Tooling as a Factor in Software Signing Adoption in the Sigstore Ecosystem",
             "venue": "arXiv",
