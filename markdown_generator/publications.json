@@ -454,7 +454,7 @@
             "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
             "year": 2025,
             "paperBasename": "https://arxiv.org/abs/2409.07613",
-            "slidesBasename": "",
+            "slidesBasename": "Jajal-WACV2025-poster.pdf",
             "artifactURL": "https://github.com/pjjajal/EfficientTTMs",
             "videoURL": ""
         },
@@ -465,7 +465,7 @@
             "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2407.05941",
-            "slidesBasename": "",
+            "slidesBasename": "Eliopoulos-WACV2025-poster.pdf",
             "artifactURL": "https://zenodo.org/records/14160539",
             "videoURL": "",
             "blogURL": "https://davisjam.medium.com/pruning-one-more-token-is-enough-9bef04dc799b"
