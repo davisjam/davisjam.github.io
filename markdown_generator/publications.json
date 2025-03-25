@@ -669,6 +669,16 @@
      
         {
             "type": "arxiv",
+            "authors": ["Tanksalkar", "Muralee", "Danduri", "Amusuo", "Bianchi", "**Davis**", "Machiry"],
+            "title": "LEMIX: Enabling Testing of Embedded Applications as Linux Applications",
+            "venue": "arXiv",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2503.17588",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Amusuo", "Cochell", "Le Lievre", "Patil", "Machiry", "**Davis**"],
             "title": "Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification",
             "venue": "arXiv",

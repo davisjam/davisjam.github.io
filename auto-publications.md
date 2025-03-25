@@ -283,35 +283,39 @@ To see them organized approximately by project, see [here](/research).
 
 ## Technical reports
 
-1. *Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification*.  
+1. *LEMIX: Enabling Testing of Embedded Applications as Linux Applications*.  
+ Tanksalkar, Muralee, Danduri, Amusuo, Bianchi, **Davis**, and Machiry.  
+ arXiv 2025.  
+ <a href="https://arxiv.org/pdf/2503.17588"><i class="fas fa-file-pdf"></i></a>
+2. *Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification*.  
  Amusuo, Cochell, Le Lievre, Patil, Machiry, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.13762"><i class="fas fa-file-pdf"></i></a>
-2. *Why Johnny Signs with Sigstore: Examining Tooling as a Factor in Software Signing Adoption in the Sigstore Ecosystem*.  
+3. *Why Johnny Signs with Sigstore: Examining Tooling as a Factor in Software Signing Adoption in the Sigstore Ecosystem*.  
  Kalu, Okorafor, Singla, Torres-Arias, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.00271"><i class="fas fa-file-pdf"></i></a>
-3. *ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale*.  
+4. *ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale*.  
  Jiang, Cakar, Lysenko, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2502.20528"><i class="fas fa-file-pdf"></i></a>
-4. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
+5. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
  Peng, Gupte, Eliopoulos, Ho, Mantri, Deng, Jiang, Lu, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2410.09241"><i class="fas fa-file-pdf"></i></a>
-5. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
+6. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
  Bhuiyan, Cakar, Burmane, **Davis**, and Staicu.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2406.11618"><i class="fas fa-file-pdf"></i></a>
-6. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
+7. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
  Purohit, Jiang, Ravikiran, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2404.18801"><i class="fas fa-file-pdf"></i></a>
-7. *Naming Practices of Pre-Trained Models in Hugging Face*.  
+8. *Naming Practices of Pre-Trained Models in Hugging Face*.  
  Jiang, Cheung, Kim, Kim, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2310.01642"><i class="fas fa-file-pdf"></i></a>
-8. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+9. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/abs/2107.00821"><i class="fas fa-file-pdf"></i></a>
