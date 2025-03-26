@@ -36,6 +36,9 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- Nick will intern with **Argonne National Labs** this summer. Congrats, Nick!
+- Purvish will intern with **Argonne National Labs** this summer. Congrats, Purvish!
+- Paschal will intern with **Google** this summer. Congrats, Paschal!
 - Article on software signing accepted to IEEE S&P Magazine. Congrats to Taylor, Ethan, and Kelechi!
 - Socket funds research on typosquat detection in software package ecosystems.
 - Serving on the **EuroSec 2025 PC**.
