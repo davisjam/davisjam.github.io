@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- Paschal and Dharun are finalists in Qualcomm's 2025 Innovation Fellowship program. Way to go!
 - Nick will intern with **Argonne National Labs** this summer. Congrats, Nick!
 - Purvish will intern with **Argonne National Labs** this summer. Congrats, Purvish!
 - Paschal will intern with **Google** this summer. Congrats, Paschal!

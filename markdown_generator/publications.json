@@ -669,6 +669,26 @@
      
         {
             "type": "arxiv",
+            "authors": ["Çakar", "Sale", "Chen", "Burmane", "Lee", "**Davis**"],
+            "title": "Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies",
+            "venue": "arXiv",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2503.20579",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
+            "authors": ["Gao", "Zahedi", "Jiang", "Lin", "**Davis**", "Treude"],
+            "title": "AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges",
+            "venue": "arXiv",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2503.19444",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Tanksalkar", "Muralee", "Danduri", "Amusuo", "Bianchi", "**Davis**", "Machiry"],
             "title": "LEMIX: Enabling Testing of Embedded Applications as Linux Applications",
             "venue": "arXiv",
