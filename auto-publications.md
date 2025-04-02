@@ -283,47 +283,51 @@ To see them organized approximately by project, see [here](/research).
 
 ## Technical reports
 
-1. *Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies*.  
+1. *Does Phishing Training Work? A Large-Scale Empirical Assessment of Multi-Modal Training Grounded in the NIST Phish Scale*.  
+ Rozema and **Davis**.  
+ arXiv 2025.  
+ <a href="https://roze.ma/wp-content/uploads/2025/03/Rozema_SOUPS_25__Phish_Scale-.pdf"><i class="fas fa-file-pdf"></i></a>
+2. *Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies*.  
  Çakar, Sale, Chen, Burmane, Lee, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.20579"><i class="fas fa-file-pdf"></i></a>
-2. *AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges*.  
+3. *AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges*.  
  Gao, Zahedi, Jiang, Lin, **Davis**, and Treude.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.19444"><i class="fas fa-file-pdf"></i></a>
-3. *LEMIX: Enabling Testing of Embedded Applications as Linux Applications*.  
+4. *LEMIX: Enabling Testing of Embedded Applications as Linux Applications*.  
  Tanksalkar, Muralee, Danduri, Amusuo, Bianchi, **Davis**, and Machiry.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.17588"><i class="fas fa-file-pdf"></i></a>
-4. *Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification*.  
+5. *Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification*.  
  Amusuo, Cochell, Le Lievre, Patil, Machiry, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.13762"><i class="fas fa-file-pdf"></i></a>
-5. *Why Johnny Signs with Sigstore: Examining Tooling as a Factor in Software Signing Adoption in the Sigstore Ecosystem*.  
+6. *Why Johnny Signs with Sigstore: Examining Tooling as a Factor in Software Signing Adoption in the Sigstore Ecosystem*.  
  Kalu, Okorafor, Singla, Torres-Arias, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.00271"><i class="fas fa-file-pdf"></i></a>
-6. *ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale*.  
+7. *ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale*.  
  Jiang, Cakar, Lysenko, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2502.20528"><i class="fas fa-file-pdf"></i></a>
-7. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
+8. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
  Peng, Gupte, Eliopoulos, Ho, Mantri, Deng, Jiang, Lu, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2410.09241"><i class="fas fa-file-pdf"></i></a>
-8. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
+9. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
  Bhuiyan, Cakar, Burmane, **Davis**, and Staicu.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2406.11618"><i class="fas fa-file-pdf"></i></a>
-9. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
+10. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
  Purohit, Jiang, Ravikiran, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2404.18801"><i class="fas fa-file-pdf"></i></a>
-10. *Naming Practices of Pre-Trained Models in Hugging Face*.  
+11. *Naming Practices of Pre-Trained Models in Hugging Face*.  
  Jiang, Cheung, Kim, Kim, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2310.01642"><i class="fas fa-file-pdf"></i></a>
-11. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+12. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/abs/2107.00821"><i class="fas fa-file-pdf"></i></a>

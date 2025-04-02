@@ -669,6 +669,16 @@
      
         {
             "type": "arxiv",
+            "authors": ["Rozema", "**Davis**"],
+            "title": "Does Phishing Training Work? A Large-Scale Empirical Assessment of Multi-Modal Training Grounded in the NIST Phish Scale",
+            "venue": "arXiv",
+            "year": 2025,
+            "paperBasename": "https://roze.ma/wp-content/uploads/2025/03/Rozema_SOUPS_25__Phish_Scale-.pdf",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Çakar", "Sale", "Chen", "Burmane", "Lee", "**Davis**"],
             "title": "Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies",
             "venue": "arXiv",
