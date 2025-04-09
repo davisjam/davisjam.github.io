@@ -13,7 +13,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Token Turing Machines are Efficient Vision Models*.  
  Jajal, Eliopoulos, Chou, Thiruvathukal, **Davis**, and Lu.  
  Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025.  
- <a href="https://arxiv.org/abs/2409.07613"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Jajal-WACV2025-poster.pdf"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/pjjajal/EfficientTTMs"><i class="fas fa-file-code"></i></a>
+ <a href="https://arxiv.org/pdf/2409.07613"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Jajal-WACV2025-poster.pdf"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/pjjajal/EfficientTTMs"><i class="fas fa-file-code"></i></a>
 2. *Pruning One More Token is Enough: Leveraging Latency-Workload Non-Linearities for Vision Transformers on the Edge*.  
  Eliopoulos, Jajal, **Davis**, Liu, Thiruvathukal, and Lu.  
  Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025.  
@@ -37,47 +37,47 @@ To see them organized approximately by project, see [here](/research).
 7. *An Industry Interview Study of Software Signing for Supply Chain Security*.  
  Kalu, Singla, Okafor, Torres-Arias, and **Davis**.  
  Proceedings of the 34th USENIX Security Symposium (SECURITY) 2025.  
- <a href="https://arxiv.org/abs/2406.08198"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/pdf/2406.08198"><i class="fas fa-file-pdf"></i></a>
 8. *PeaTMOSS: A Dataset and Initial Analysis of Pre-Trained Models in Open-Source Software*.  
  Jiang, Yasmin, Jones, Synovic, Kuo, Bielanski, Tian, Thiruvathukal, and **Davis**.  
  Proceedings of the 21st Annual Conference on Mining Software Repositories (MSR) 2024.  
- <a href="https://arxiv.org/abs/2402.00699"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangYasminJonesSynovicKuoBielanskiTianThiruvathukalDavis-PeaTMOSS-MSR24-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/PurdueDualityLab/PeaTMOSS-Artifact"><i class="fas fa-file-code"></i></a>
+ <a href="https://arxiv.org/pdf/2402.00699"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangYasminJonesSynovicKuoBielanskiTianThiruvathukalDavis-PeaTMOSS-MSR24-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/PurdueDualityLab/PeaTMOSS-Artifact"><i class="fas fa-file-code"></i></a>
 9. *An Interview Study on Third-Party Cyber Threat Hunting Processes in the U.S. Department of Homeland Security*.  
  Maxam and **Davis**.  
  Proceedings of the 33rd USENIX Security Symposium (SECURITY) 2024.  
- <a href="https://arxiv.org/abs/2402.12252"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/MaxamDavis-ThreatHunt-USENIXSecurity2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
+ <a href="https://arxiv.org/pdf/2402.12252"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/MaxamDavis-ThreatHunt-USENIXSecurity2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 10. *An Exploratory Study on Upper-Level Computing Students' Use of Large Language Models as Tools in a Semester-Long Project*.  
  Tanay, Arinze, Joshi, Davis, and **Davis**.  
  Annual Conference of the American Society for Engineering Education (ASEE) 2024.  
- <a href="https://arxiv.org/abs/2403.18679"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/TanayArinzeJoshiDavisDavis-LLMEducation-ASEE2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
+ <a href="https://arxiv.org/pdf/2403.18679"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/TanayArinzeJoshiDavisDavis-LLMEducation-ASEE2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 11. *Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency*.  
  Joshi, Mukherjee, Davis, and **Davis**.  
  Annual Conference of the American Society for Engineering Education (ASEE) 2024.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JoshiMukherjeeDavisDavis-ThreatModeling-ASEE2024.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JoshiMukherjeeDavisDavis-ThreatModeling-ASEE2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> [Best Paper Award](){: .btn}
+ <a href="https://arxiv.org/pdf/2404.16632"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JoshiMukherjeeDavisDavis-ThreatModeling-ASEE2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> [Best Paper Award](){: .btn}
 12. *Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors*.  
  Schorlemmer, Kalu, Chigges, Ko, Ishgair, Bagchi, Torres-Arias, and **Davis**.  
  Proceedings of the 45th IEEE Symposium on Security and Privacy (S&P) 2024.  
- <a href="https://arxiv.org/abs/2401.14635"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SchorlemmerKaluChiggesKoIshgairBagchiTorresAriasDavis-SigningMeasurements-IEEE-SP24-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/PurdueDualityLab/signature-adoption"><i class="fas fa-file-code"></i></a> <a href="https://medium.com/@davisjam/signing-in-four-public-software-package-registries-quantity-quality-and-influencing-factors-7af4b416b6db"><i class="fab fa-medium"></i></a>
+ <a href="https://arxiv.org/pdf/2401.14635"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SchorlemmerKaluChiggesKoIshgairBagchiTorresAriasDavis-SigningMeasurements-IEEE-SP24-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/PurdueDualityLab/signature-adoption"><i class="fas fa-file-code"></i></a> <a href="https://medium.com/@davisjam/signing-in-four-public-software-package-registries-quantity-quality-and-influencing-factors-7af4b416b6db"><i class="fab fa-medium"></i></a>
 13. *On the Contents and Utility of IoT Cybersecurity Guidelines*.  
  Chen, Anandayuvaraj, **Davis**, and Rahaman.  
  Proceedings of the ACM on Software Engineering (PACMSE), Issue FSE 2024 (FSE) 2024.  
- <a href="https://arxiv.org/abs/2310.01653"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/jessechen09/fse2024-66-on-the-contents-and-utility-of-IoT-cybersecurity-guidelines"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/on-the-contents-and-utility-of-iot-cybersecurity-guidelines-9a0479949ba3"><i class="fab fa-medium"></i></a>
+ <a href="https://arxiv.org/pdf/2310.01653"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/jessechen09/fse2024-66-on-the-contents-and-utility-of-IoT-cybersecurity-guidelines"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/on-the-contents-and-utility-of-iot-cybersecurity-guidelines-9a0479949ba3"><i class="fab fa-medium"></i></a>
 14. *What do we know about Hugging Face? A systematic literature review and quantitative validation of qualitative claims*.  
  Jones, Jiang, Synovic, Thiruvathukal, and **Davis**.  
  Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM) 2024.  
- <a href="https://arxiv.org/abs/2406.08205"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JonesJiangSynovicThiruvathukalDavis-HuggingFaceSLR-ESEM2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/records/13631840"><i class="fas fa-file-code"></i></a>
+ <a href="https://arxiv.org/pdf/2406.08205"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JonesJiangSynovicThiruvathukalDavis-HuggingFaceSLR-ESEM2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/records/13631840"><i class="fas fa-file-code"></i></a>
 15. *An Exploratory Mixed-Methods Study on General Data Protection Regulation (GDPR) Compliance in Open-Source Software*.  
  Franke, Liang, Farzanehpour, Brantly, **Davis**, and Brown.  
  Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM) 2024.  
- <a href="https://arxiv.org/abs/2406.14724"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/FrankeLiangFarzanehpourBrantlyDavisBrown-GDPRInOSS-ESEM2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/code-world-no-blanket/ESEM24-GDPR-OSS-Impact"><i class="fas fa-file-code"></i></a>
+ <a href="https://arxiv.org/pdf/2406.14724"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/FrankeLiangFarzanehpourBrantlyDavisBrown-GDPRInOSS-ESEM2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/code-world-no-blanket/ESEM24-GDPR-OSS-Impact"><i class="fas fa-file-code"></i></a>
 16. *Interoperability in Deep Learning: A User Survey and Failure Analysis of ONNX Model Converters*.  
  Jajal, Jiang, Tewari, Kocinare, Woo, Sarraf, Lu, Thiruvathukal, and **Davis**.  
  Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2024.  
- <a href="https://arxiv.org/abs/2303.17708"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JajalJiangTewariKocinareWooSarrafLuThiruvathukalDavis-ONNXInteroperability-ISSTA2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/records/12667479"><i class="fas fa-file-code"></i></a>
+ <a href="https://arxiv.org/pdf/2303.17708"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JajalJiangTewariKocinareWooSarrafLuThiruvathukalDavis-ONNXInteroperability-ISSTA2024-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/records/12667479"><i class="fas fa-file-code"></i></a>
 17. *FAIL: Analyzing Software Failures from the News Using LLMs*.  
  Anandayuvaraj, Campbell, Tewari, and **Davis**.  
  Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering (ASE) 2024.  
- <a href="https://arxiv.org/abs/2406.08221"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/PurdueDualityLab/ASE24-FAIL-FailureAnalysisInvestigationWithLLMs"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/fail-analyzing-software-failures-from-the-news-using-llms-630b7905f07e"><i class="fab fa-medium"></i></a>
+ <a href="https://arxiv.org/pdf/2406.08221"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/PurdueDualityLab/ASE24-FAIL-FailureAnalysisInvestigationWithLLMs"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/fail-analyzing-software-failures-from-the-news-using-llms-630b7905f07e"><i class="fab fa-medium"></i></a>
 18. *Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies*.  
  Hassan, Aamir, Lee, **Davis**, and Servant.  
  Proceedings of the 44th IEEE Symposium on Security and Privacy (S&P) 2023.  
@@ -85,11 +85,11 @@ To see them organized approximately by project, see [here](/research).
 19. *PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages*.  
  Jiang, Synovic, Jajal, Schorlemmer, Tewari, Pareek, Thiruvathukal, and **Davis**.  
  Proceedings of the 20th Annual Conference on Mining Software Repositories — Data and Tool Showcase Track (MSR-Data’23) 2023.  
- <a href="https://arxiv.org/abs/2303.08934"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Jiang-PTMTorrent-MSR23-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.7570357"><i class="fas fa-file-code"></i></a> <a href="https://medium.com/@davisjam/an-empirical-study-of-pre-trained-model-reuse-in-the-hugging-face-deep-learning-model-registry-6ccfb0e58809"><i class="fab fa-medium"></i></a>
+ <a href="https://arxiv.org/pdf/2303.08934"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Jiang-PTMTorrent-MSR23-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.7570357"><i class="fas fa-file-code"></i></a> <a href="https://medium.com/@davisjam/an-empirical-study-of-pre-trained-model-reuse-in-the-hugging-face-deep-learning-model-registry-6ccfb0e58809"><i class="fab fa-medium"></i></a>
 20. *An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry*.  
  Jiang, Synovic, Hyatt, Schorlemmer, Sethi, Lu, Thiruvathukal, and **Davis**.  
  Proceedings of the ACM/IEEE 45th International Conference on Software Engineering (ICSE) 2023.  
- <a href="https://arxiv.org/abs/2303.02552"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.7555464"><i class="fas fa-file-code"></i></a> <a href="https://medium.com/@davisjam/an-empirical-study-of-pre-trained-model-reuse-in-the-hugging-face-deep-learning-model-registry-6ccfb0e58809"><i class="fab fa-medium"></i></a>
+ <a href="https://arxiv.org/pdf/2303.02552"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.7555464"><i class="fas fa-file-code"></i></a> <a href="https://medium.com/@davisjam/an-empirical-study-of-pre-trained-model-reuse-in-the-hugging-face-deep-learning-model-registry-6ccfb0e58809"><i class="fab fa-medium"></i></a>
 21. *Towards Rehosting Embedded Applications as Linux Applications*.  
  Srinivasan, Tanksalkar, Amusuo, **Davis**, and Machiry.  
  Proceedings of the 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks — Disrupt track (DSN-Disrupt) 2023.  
@@ -105,7 +105,7 @@ To see them organized approximately by project, see [here](/research).
 24. *Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks*.  
  Amusuo, Méndez, Xu, Machiry, and **Davis**.  
  Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE) 2023.  
- <a href="https://arxiv.org/abs/2308.10965"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoMendezXuMachiryDavis-EmNetTest-ASE2023-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.8247917"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/systematically-detecting-packet-validation-vulnerabilities-in-embedded-network-stacks-4a9954ff393d"><i class="fab fa-medium"></i></a>
+ <a href="https://arxiv.org/pdf/2308.10965"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoMendezXuMachiryDavis-EmNetTest-ASE2023-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.8247917"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/systematically-detecting-packet-validation-vulnerabilities-in-embedded-network-stacks-4a9954ff393d"><i class="fab fa-medium"></i></a>
 25. *Reflecting on the use of the Policy-Process-Product Theory in Empirical Software Engineering*.  
  Kalu, Schorlemmer, Chen, Robinson, Kocinare, and **Davis**.  
  Proceedings of the 31st ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR) 2023.  
@@ -192,7 +192,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Establishing Provenance Before Coding: Traditional and Next-Gen Software Signing*.  
  Schorlemmer, Burmane, Kalu, Torres-Arias, and **Davis**.  
  IEEE Security & Privacy Magazine -- Special Issue 'Secure Software Before Codeing' 2025.  
- <a href="https://arxiv.org/abs/2407.03949"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/pdf/2407.03949"><i class="fas fa-file-pdf"></i></a>
 2. *Engineering Patterns for Trust and Safety on Social Media Platforms: A Case Study of Mastodon and Diaspora*.  
  Cramer, Maxam, and **Davis**.  
  Journal of Systems and Software (JSS) 2025.  
@@ -220,7 +220,7 @@ To see them organized approximately by project, see [here](/research).
 8. *A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits*.  
  Herbold, Trautsch, Ledel, Aghamohammadi, Ghaleb, Chahal, Bossenmaier, Nagaria, Makedonski, Nili Ahmadabadi, Szabados, Spieker, Madeja, Hoy, Lenarduzzi, Wang, Rodríguez-Pérez, Colomo-Palacios, Verdecchia, Singh, Qin, Chakroborti, Davis, Walunj, Wu, Marcilio, Alam, Aldaeej, Amit, Turhan, Eismann, Wickert, Malavolta, Sulír, Fard, Henley, Kourtzanidis, Tuzun, Treude, Shamasbi, Pashchenko, Wyrich, **Davis**, Serebrenik, Albrecht, Aktas, Strüber, and Erbel.  
  Empirical Software Engineering (EMSE) (also presented at ICSE'22-JournalFirst) 2021.  
- <a href="https://arxiv.org/abs/2011.06244"><i class="fas fa-file-pdf"></i></a> <a href="https://www.youtube.com/watch?v=JKYkw-nxE8M"><i class="fas fa-video"></i></a>
+ <a href="https://arxiv.org/pdf/2011.06244"><i class="fas fa-file-pdf"></i></a> <a href="https://www.youtube.com/watch?v=JKYkw-nxE8M"><i class="fas fa-video"></i></a>
 9. *Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis*.  
  Kazerouni, **Davis**, Basak, Shaffer, Servant, and Edwards.  
  Journal of Systems and Software (JSS) 2021.  
@@ -235,7 +235,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Recommending Pre-Trained Models for IoT Devices*.  
  Patil, Jiang, Peng, Lugo, Kalu, LeBlanc, Smith, Heo, Aou, and **Davis**.  
  Proceedings of the 7th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT) 2025.  
- <a href="https://arxiv.org/abs/2412.18972"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/pdf/2412.18972"><i class="fas fa-file-pdf"></i></a>
 2. *An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures*.  
  Singla, Anandayuvaraj, Kalu, Schorlemmer, and **Davis**.  
  Proceedings of the 2nd ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2023.  
@@ -247,7 +247,7 @@ To see them organized approximately by project, see [here](/research).
 4. *SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties*.  
  Okafor, Schorlemmer, Torres-Arias, and **Davis**.  
  Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2022.  
- <a href="https://arxiv.org/abs/2406.10109"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OkaforSchorlemmerTorresAriasDavis-SupplyChainSoK-SCORED22-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://medium.com/p/6a0c897d5777"><i class="fab fa-medium"></i></a>
+ <a href="https://arxiv.org/pdf/2406.10109"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OkaforSchorlemmerTorresAriasDavis-SupplyChainSoK-SCORED22-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://medium.com/p/6a0c897d5777"><i class="fab fa-medium"></i></a>
 5. *An Empirical Study of Artifacts and Security Practices in the Pre-trained Model Supply Chain*.  
  Jiang, Synovic, Sethi, Indarapu, Hyatt, Schorlemmer, Thiruvathukal, and **Davis**.  
  Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2022.  
@@ -318,19 +318,19 @@ To see them organized approximately by project, see [here](/research).
 9. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
  Bhuiyan, Cakar, Burmane, **Davis**, and Staicu.  
  arXiv 2024.  
- <a href="https://arxiv.org/abs/2406.11618"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/pdf/2406.11618"><i class="fas fa-file-pdf"></i></a>
 10. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
  Purohit, Jiang, Ravikiran, and **Davis**.  
  arXiv 2024.  
- <a href="https://arxiv.org/abs/2404.18801"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/pdf/2404.18801"><i class="fas fa-file-pdf"></i></a>
 11. *Naming Practices of Pre-Trained Models in Hugging Face*.  
  Jiang, Cheung, Kim, Kim, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
- <a href="https://arxiv.org/abs/2310.01642"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/pdf/2310.01642"><i class="fas fa-file-pdf"></i></a>
 12. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
- <a href="https://arxiv.org/abs/2107.00821"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/pdf/2107.00821"><i class="fas fa-file-pdf"></i></a>
 
 ## US patents
 
@@ -368,7 +368,7 @@ To see them organized approximately by project, see [here](/research).
 1. *A First Look at the General Data Protection Regulation (GDPR) in Open-Source Software*.  
  Franke, Liang, Brantly, **Davis**, and Brown.  
  Proceedings of the ACM/IEEE 46th International Conference on Software Engineering -- Poster Track (ICSE-Poster) 2024.  
- <a href="https://arxiv.org/abs/2401.14629"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/FrankeLiangBrantlyDavisBrown-GDPRAndOSS-ICSEPoster2024-slides-poster.pptx"><i class="fas fa-file-powerpoint"></i></a>
+ <a href="https://arxiv.org/pdf/2401.14629"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/FrankeLiangBrantlyDavisBrown-GDPRAndOSS-ICSEPoster2024-slides-poster.pptx"><i class="fas fa-file-powerpoint"></i></a>
 2. *Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach*.  
  Veselsky, West, Ahlgren, Goel, Jiang, Lee, Kim, **Davis**, Thiruvathukal, and Klingensmith.  
  Proceedings of the 23rd Annual International Workshop on Mobile Computing Systems and Application (HotMobile) 2022.  
