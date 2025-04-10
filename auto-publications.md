@@ -37,7 +37,7 @@ To see them organized approximately by project, see [here](/research).
 7. *An Industry Interview Study of Software Signing for Supply Chain Security*.  
  Kalu, Singla, Okafor, Torres-Arias, and **Davis**.  
  Proceedings of the 34th USENIX Security Symposium (SECURITY) 2025.  
- <a href="https://arxiv.org/pdf/2406.08198"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/pdf/2406.08198"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/an-industry-interview-study-of-software-signing-for-supply-chain-security-8666d27539f8"><i class="fab fa-medium"></i></a>
 8. *PeaTMOSS: A Dataset and Initial Analysis of Pre-Trained Models in Open-Source Software*.  
  Jiang, Yasmin, Jones, Synovic, Kuo, Bielanski, Tian, Thiruvathukal, and **Davis**.  
  Proceedings of the 21st Annual Conference on Mining Software Repositories (MSR) 2024.  
