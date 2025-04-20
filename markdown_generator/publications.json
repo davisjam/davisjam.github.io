@@ -526,6 +526,17 @@
             "videoURL": "",
             "blogURL": "https://davisjam.medium.com/an-industry-interview-study-of-software-signing-for-supply-chain-security-8666d27539f8"
         },
+        {
+            "type": "conference",
+            "authors": ["Bhuiyan", "Cakar", "Burmane", "**Davis**", "Staicu"],
+            "title": "SoK: A Literature and Engineering Review of Regular Expression Denial of Service",
+            "venue": "Proceedings of the 20th ACM ASIA Conference on Computer and Communications Security (AsiaCCS)",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2406.11618",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },        
 
 
         {
@@ -749,17 +760,6 @@
             "artifactURL": "",
             "videoURL": ""
         },
-        {
-            "type": "arxiv",
-            "authors": ["Bhuiyan", "Cakar", "Burmane", "**Davis**", "Staicu"],
-            "title": "SoK: A Literature and Engineering Review of Regular Expression Denial of Service",
-            "venue": "arXiv",
-            "year": 2024,
-            "paperBasename": "https://arxiv.org/pdf/2406.11618",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": ""
-        },        
         {
             "type": "arxiv",
             "authors": ["Purohit", "Jiang", "Ravikiran", "**Davis**"],
