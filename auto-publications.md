@@ -239,7 +239,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Recommending Pre-Trained Models for IoT Devices*.  
  Patil, Jiang, Peng, Lugo, Kalu, LeBlanc, Smith, Heo, Aou, and **Davis**.  
  Proceedings of the 7th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT) 2025.  
- <a href="https://arxiv.org/pdf/2412.18972"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/PatilJiangPengLugoKaluLeBlancSmithHeoAouDavis-PTMRecommendation-SERP4IoT2025"><i class="fas fa-file-powerpoint"></i></a>
+ <a href="https://arxiv.org/pdf/2412.18972"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/PatilJiangPengLugoKaluLeBlancSmithHeoAouDavis-PTMRecommendation-SERP4IoT2025.pptx"><i class="fas fa-file-powerpoint"></i></a>
 2. *An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures*.  
  Singla, Anandayuvaraj, Kalu, Schorlemmer, and **Davis**.  
  Proceedings of the 2nd ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2023.  
