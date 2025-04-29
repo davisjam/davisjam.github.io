@@ -797,6 +797,17 @@
 
         {
             "type": "dissertation",
+            "authors": ["**Jiang**"],
+            "title": "Trustworthy Reuse in the Machine Learning Model Supply Chain",
+            "venue": "PhD, Electrical & Computer Engineering, Purdue University",
+            "year": 2025,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "dissertation",
             "authors": ["**Jones**"],
             "title": "A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries",
             "venue": "MSc, Electrical & Computer Engineering, Purdue University",

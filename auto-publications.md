@@ -384,23 +384,27 @@ To see them organized approximately by project, see [here](/research).
 
 ## Dissertations and theses
 
-1. *A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries*.  
+1. *Trustworthy Reuse in the Machine Learning Model Supply Chain*.  
+ **Jiang**.  
+ PhD, Electrical & Computer Engineering, Purdue University 2025.  
+ 
+2. *A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries*.  
  **Jones**.  
  MSc, Electrical & Computer Engineering, Purdue University 2024.  
  <a href="https://hammer.purdue.edu/articles/thesis/A_Quantitative_Comparison_of_Pre-Trained_Model_Registries_to_Traditional_Software_Package_Registries/25686447/1"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Jones-QuantitativeComparisonOfPTMAndTraditionalPackageRegistries-2024-MScThesis-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
-2. *Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures*.  
+3. *Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures*.  
  **Schorlemmer**.  
  MSc, Electrical & Computer Engineering, Purdue University 2024.  
  <a href="https://hammer.purdue.edu/articles/thesis/Software_Supply_Chain_Security_Attacks_Defenses_and_the_Adoption_of_Signatures/25683681/1"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Schorlemmer-SoftwareSupplyChainSecurity-FocusedOnSigning-2024-MScThesis-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
-3. *An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
+4. *An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
  **Cramer**.  
  MSc, Electrical & Computer Engineering, Purdue University 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Cramer-TrustAndSafetyInSMPs-2023-MScThesis.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Cramer-TrustAndSafetyInSMPs-2023-MScThesis-slides.pdf"><i class="fas fa-file-powerpoint"></i></a>
-4. *Discovering U.S. Government Threat Hunting Processes and Improvements*.  
+5. *Discovering U.S. Government Threat Hunting Processes and Improvements*.  
  **Maxam**.  
  MSc, Electrical & Computer Engineering, Purdue University 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Maxam-ThreatHunt-2023-MScThesis.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Maxam-ThreatHunt-2023-MScThesis-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
-5. *On the Impact and Defeat of Regular Expression Denial of Service*.  
+6. *On the Impact and Defeat of Regular Expression Denial of Service*.  
  **Davis**.  
  PhD, Computer Science, Virginia Tech 2020.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-Dissertation-2020.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-Dissertation-OralDefense.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://www.youtube.com/watch?v=TDIlcm3joq0&t=2s"><i class="fas fa-video"></i></a>
