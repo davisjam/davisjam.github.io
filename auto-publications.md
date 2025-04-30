@@ -29,7 +29,7 @@ To see them organized approximately by project, see [here](/research).
 5. *A Unit Proofing Framework for Code-level Verification: A Research Agenda*.  
  Amusuo, Patil, Cochell, Le Lievre, and **Davis**.  
  Proceedings of the 47th IEEE/ACM International Conference on Software Engineering - New Ideas and Emerging Results Track (ICSE-NIER) 2025.  
- <a href="https://arxiv.org/pdf/2410.14818"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/pdf/2410.14818"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoPatilCochellLeLievreDavis-UnitProofing-ICSE-2025-NIER-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 6. *Usage and Effectiveness of Static Analysis in Open-Source Embedded Software: CodeQL Finds Hundreds of Defects*.  
  Shen, Yuan, Pillai, Zhang, **Davis**, and Machiry.  
  Proceedings of the 34th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2025.  
