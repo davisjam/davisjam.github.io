@@ -21,7 +21,7 @@ To see them organized approximately by project, see [here](/research).
 3. *ZTD-JAVA: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies*.  
  Amusuo, Robinson, Singla, Peng, Machiry, Torres-Arias, Simon, and **Davis**.  
  Proceedings of the ACM/IEEE 47th International Conference on Software Engineering (ICSE) 2025.  
- <a href="https://arxiv.org/pdf/2310.14117"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/pdf/2310.14117"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoRobinsonSinglaPengMachiryTorresAriasSimonDavis-ZeroTrustDependencies-ICSE2025-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 4. *A Musician's Muse: Detecting Performance Errors with Transformers*.  
  Chou, Jajal, Eliopoulos, Nadolsky, Yang, Ravi, **Davis**, Yun, and Lu.  
  Proceedings of the 39th Annual AAAI Conference on Artificial Intelligence (AAAI) 2025.  
