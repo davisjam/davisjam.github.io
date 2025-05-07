@@ -479,7 +479,8 @@
             "paperBasename": "https://arxiv.org/pdf/2310.14117",
             "slidesBasename": "AmusuoRobinsonSinglaPengMachiryTorresAriasSimonDavis-ZeroTrustDependencies-ICSE2025-slides.pptx",
             "artifactURL": "",
-            "videoURL": ""
+            "videoURL": "",
+            "blogURL": "https://davisjam.medium.com/mitigating-software-supply-chain-vulnerabilities-with-zero-trust-dependencies-06f950497cfe"
         },
         {
             "type": "conference",
