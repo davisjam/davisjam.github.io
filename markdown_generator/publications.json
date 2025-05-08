@@ -752,6 +752,16 @@
         }, 
         {
             "type": "arxiv",
+            "authors": ["Okafor", "**Davis**", "Torres-Arias"],
+            "title": "DiVerify: Diversifying Identity Verification in Next-Generation Software Signing",
+            "venue": "arXiv",
+            "year": 2024,
+            "paperBasename": "https://arxiv.org/abs/2406.15596",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Peng", "Gupte", "Eliopoulos", "Ho", "Mantri", "Deng", "Jiang", "Lu", "Läufer", "Thiruvathukal", "**Davis**"],
             "title": "Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions",
             "venue": "arXiv",
