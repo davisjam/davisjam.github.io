@@ -682,6 +682,16 @@
      
         {
             "type": "arxiv",
+            "authors": ["Kalu", "Okorafor", "Durak", "Laine", "Moreno", "Torres-Arias", "**Davis**"],
+            "title": "ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain",
+            "venue": "arXiv",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2505.18760",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Rozema", "**Davis**"],
             "title": "Does Phishing Training Work? A Large-Scale Empirical Assessment of Multi-Modal Training Grounded in the NIST Phish Scale",
             "venue": "arXiv",
