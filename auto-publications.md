@@ -45,7 +45,7 @@ To see them organized approximately by project, see [here](/research).
 9. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
  Bhuiyan, Cakar, Burmane, **Davis**, and Staicu.  
  Proceedings of the 20th ACM ASIA Conference on Computer and Communications Security (AsiaCCS) 2025.  
- <a href="https://arxiv.org/pdf/2406.11618"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/pdf/2406.11618"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/sok-a-literature-and-engineering-review-of-regular-expression-denial-of-service-redos-e6b10ef547c7"><i class="fab fa-medium"></i></a>
 10. *PeaTMOSS: A Dataset and Initial Analysis of Pre-Trained Models in Open-Source Software*.  
  Jiang, Yasmin, Jones, Synovic, Kuo, Bielanski, Tian, Thiruvathukal, and **Davis**.  
  Proceedings of the 21st Annual Conference on Mining Software Repositories (MSR) 2024.  
