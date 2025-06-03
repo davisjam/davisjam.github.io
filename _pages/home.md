@@ -36,7 +36,9 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
-- Paschal Amusuo completes his prelim exam.. Congrats to the new PhD Candidate!
+- Paschal and Dharun are named winners in the 2025 Qualcomm Innovation Fellowship competition. Congratulations!
+- Another paper accepted to **USENIX'25**. Congrats to Ritvik and the team!
+- Paschal Amusuo completes his prelim exam. Congrats to the new PhD Candidate!
 - Wenxin Jiang defends his doctoral thesis. Congrats to Dr. Jiang! Wenxin will start soon as a Research Software Engineer at Socket.
 - One paper accepted to **AsiaCCS'25**: an SoK on Regex Denial of Service (ReDoS). Congrats to Berk and Ethan!
 - Kelechi's poster won **Best Poster** at Purdue's 2025 CERIAS symposium. Congrats Kelechi!
