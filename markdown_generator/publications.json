@@ -693,6 +693,16 @@
      
         {
             "type": "arxiv",
+            "authors": ["Peng", "Gupte", "Hasler", "Eliopoulos", "Ho", "Mantri", "Deng", "Läufer", "Thiruvathukal", "**Davis**"],
+            "title": "SysLLMatic: Large Language Models are Software System Optimizers",
+            "venue": "arXiv",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2506.01249",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Kalu", "Okorafor", "Durak", "Laine", "Moreno", "Torres-Arias", "**Davis**"],
             "title": "ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain",
             "venue": "arXiv",
