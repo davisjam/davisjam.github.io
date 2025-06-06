@@ -704,10 +704,10 @@
         {
             "type": "arxiv",
             "authors": ["Rozema", "**Davis**"],
-            "title": "Does Phishing Training Work? A Large-Scale Empirical Assessment of Multi-Modal Training Grounded in the NIST Phish Scale",
+            "title": "Anti-Phishing Training Does Not Work: A Large-Scale Empirical Assessment of Multi-Modal Training Grounded in the NIST Phish Scale",
             "venue": "arXiv",
             "year": 2025,
-            "paperBasename": "https://roze.ma/wp-content/uploads/2025/03/Rozema_SOUPS_25__Phish_Scale-.pdf",
+            "paperBasename": "RozemaDavis-Phish-arXiv2025",
             "artifactURL": "",
             "videoURL": ""
         },

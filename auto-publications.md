@@ -295,10 +295,10 @@ To see them organized approximately by project, see [here](/research).
  Kalu, Okorafor, Durak, Laine, Moreno, Torres-Arias, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2505.18760"><i class="fas fa-file-pdf"></i></a>
-2. *Does Phishing Training Work? A Large-Scale Empirical Assessment of Multi-Modal Training Grounded in the NIST Phish Scale*.  
+2. *Anti-Phishing Training Does Not Work: A Large-Scale Empirical Assessment of Multi-Modal Training Grounded in the NIST Phish Scale*.  
  Rozema and **Davis**.  
  arXiv 2025.  
- <a href="https://roze.ma/wp-content/uploads/2025/03/Rozema_SOUPS_25__Phish_Scale-.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/RozemaDavis-Phish-arXiv2025"><i class="fas fa-file-pdf"></i></a>
 3. *Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies*.  
  Çakar, Sale, Chen, Burmane, Lee, and **Davis**.  
  arXiv 2025.  
