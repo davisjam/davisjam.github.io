@@ -478,19 +478,19 @@
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2310.14117",
             "slidesBasename": "AmusuoRobinsonSinglaPengMachiryTorresAriasSimonDavis-ZeroTrustDependencies-ICSE2025-slides.pptx",
-            "artifactURL": "",
+            "artifactURL": "https://doi.org/10.5281/zenodo.14436182",
             "videoURL": "",
             "blogURL": "https://davisjam.medium.com/mitigating-software-supply-chain-vulnerabilities-with-zero-trust-dependencies-06f950497cfe"
         },
         {
             "type": "conference",
             "authors": ["Chou", "Jajal", "Eliopoulos", "Nadolsky", "Yang", "Ravi", "**Davis**", "Yun", "Lu"],
-            "title": "A Musician's Muse: Detecting Performance Errors with Transformers",
+            "title": "Detecting Music Performance Errors with Transformers",
             "venue": "Proceedings of the 39th Annual AAAI Conference on Artificial Intelligence (AAAI)",
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2501.02030",
             "slidesBasename": "",
-            "artifactURL": "",
+            "artifactURL": "https://github.com/ben2002chou/Polytune",
             "videoURL": ""
         },
         {
@@ -510,9 +510,9 @@
             "title": "Usage and Effectiveness of Static Analysis in Open-Source Embedded Software: CodeQL Finds Hundreds of Defects",
             "venue": "Proceedings of the 34th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)",
             "year": 2025,
-            "paperBasename": "ShenYuanPillaiZhangDavisMachiry-ISSTA2025-CodeQLEMBOSS.pdf",
+            "paperBasename": "https://arxiv.org/pdf/2310.00205",
             "slidesBasename": "",
-            "artifactURL": "",
+            "artifactURL": "https://github.com/purs3lab/ISSTA-2025-EMBOSS-Artifact",
             "videoURL": ""
         },
         {
@@ -522,7 +522,7 @@
             "venue": "Proceedings of the 34th USENIX Security Symposium (SECURITY)",
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2406.08198",
-            "slidesBasename": "",
+            "slidesBasename": "https://zenodo.org/records/14766721",
             "artifactURL": "",
             "videoURL": "",
             "blogURL": "https://davisjam.medium.com/an-industry-interview-study-of-software-signing-for-supply-chain-security-8666d27539f8"
@@ -545,7 +545,7 @@
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2406.11618",
             "slidesBasename": "",
-            "artifactURL": "",
+            "artifactURL": "https://zenodo.org/records/15515223",
             "videoURL": "",
             "blogURL": "https://davisjam.medium.com/sok-a-literature-and-engineering-review-of-regular-expression-denial-of-service-redos-e6b10ef547c7"
         },        

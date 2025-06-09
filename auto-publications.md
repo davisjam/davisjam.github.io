@@ -21,11 +21,11 @@ To see them organized approximately by project, see [here](/research).
 3. *ZTD-JAVA: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies*.  
  Amusuo, Robinson, Singla, Peng, Machiry, Torres-Arias, Simon, and **Davis**.  
  Proceedings of the ACM/IEEE 47th International Conference on Software Engineering (ICSE) 2025.  
- <a href="https://arxiv.org/pdf/2310.14117"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoRobinsonSinglaPengMachiryTorresAriasSimonDavis-ZeroTrustDependencies-ICSE2025-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://davisjam.medium.com/mitigating-software-supply-chain-vulnerabilities-with-zero-trust-dependencies-06f950497cfe"><i class="fab fa-medium"></i></a>
-4. *A Musician's Muse: Detecting Performance Errors with Transformers*.  
+ <a href="https://arxiv.org/pdf/2310.14117"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AmusuoRobinsonSinglaPengMachiryTorresAriasSimonDavis-ZeroTrustDependencies-ICSE2025-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.14436182"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/mitigating-software-supply-chain-vulnerabilities-with-zero-trust-dependencies-06f950497cfe"><i class="fab fa-medium"></i></a>
+4. *Detecting Music Performance Errors with Transformers*.  
  Chou, Jajal, Eliopoulos, Nadolsky, Yang, Ravi, **Davis**, Yun, and Lu.  
  Proceedings of the 39th Annual AAAI Conference on Artificial Intelligence (AAAI) 2025.  
- <a href="https://arxiv.org/pdf/2501.02030"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/pdf/2501.02030"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/ben2002chou/Polytune"><i class="fas fa-file-code"></i></a>
 5. *A Unit Proofing Framework for Code-level Verification: A Research Agenda*.  
  Amusuo, Patil, Cochell, Le Lievre, and **Davis**.  
  Proceedings of the 47th IEEE/ACM International Conference on Software Engineering - New Ideas and Emerging Results Track (ICSE-NIER) 2025.  
@@ -33,11 +33,11 @@ To see them organized approximately by project, see [here](/research).
 6. *Usage and Effectiveness of Static Analysis in Open-Source Embedded Software: CodeQL Finds Hundreds of Defects*.  
  Shen, Yuan, Pillai, Zhang, **Davis**, and Machiry.  
  Proceedings of the 34th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2025.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/ShenYuanPillaiZhangDavisMachiry-ISSTA2025-CodeQLEMBOSS.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/pdf/2310.00205"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/purs3lab/ISSTA-2025-EMBOSS-Artifact"><i class="fas fa-file-code"></i></a>
 7. *An Industry Interview Study of Software Signing for Supply Chain Security*.  
  Kalu, Singla, Okafor, Torres-Arias, and **Davis**.  
  Proceedings of the 34th USENIX Security Symposium (SECURITY) 2025.  
- <a href="https://arxiv.org/pdf/2406.08198"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/an-industry-interview-study-of-software-signing-for-supply-chain-security-8666d27539f8"><i class="fab fa-medium"></i></a>
+ <a href="https://arxiv.org/pdf/2406.08198"><i class="fas fa-file-pdf"></i></a> <a href="https://zenodo.org/records/14766721"><i class="fas fa-file-powerpoint"></i></a> <a href="https://davisjam.medium.com/an-industry-interview-study-of-software-signing-for-supply-chain-security-8666d27539f8"><i class="fab fa-medium"></i></a>
 8. *LEMIX: Enabling Testing of Embedded Applications as Linux Applications*.  
  Tanksalkar, Muralee, Danduri, Amusuo, Bianchi, **Davis**, and Machiry.  
  Proceedings of the 34th USENIX Security Symposium (SECURITY) 2025.  
@@ -45,7 +45,7 @@ To see them organized approximately by project, see [here](/research).
 9. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
  Bhuiyan, Cakar, Burmane, **Davis**, and Staicu.  
  Proceedings of the 20th ACM ASIA Conference on Computer and Communications Security (AsiaCCS) 2025.  
- <a href="https://arxiv.org/pdf/2406.11618"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/sok-a-literature-and-engineering-review-of-regular-expression-denial-of-service-redos-e6b10ef547c7"><i class="fab fa-medium"></i></a>
+ <a href="https://arxiv.org/pdf/2406.11618"><i class="fas fa-file-pdf"></i></a> <a href="https://zenodo.org/records/15515223"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/sok-a-literature-and-engineering-review-of-regular-expression-denial-of-service-redos-e6b10ef547c7"><i class="fab fa-medium"></i></a>
 10. *PeaTMOSS: A Dataset and Initial Analysis of Pre-Trained Models in Open-Source Software*.  
  Jiang, Yasmin, Jones, Synovic, Kuo, Bielanski, Tian, Thiruvathukal, and **Davis**.  
  Proceedings of the 21st Annual Conference on Mining Software Repositories (MSR) 2024.  
