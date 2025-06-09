@@ -754,7 +754,7 @@
         {
             "type": "arxiv",
             "authors": ["Kalu", "Okorafor", "Singla", "Torres-Arias", "**Davis**"],
-            "title": "Why Johnny Signs with Sigstore: Examining Tooling as a Factor in Software Signing Adoption in the Sigstore Ecosystem",
+            "title": "Why Johnny Signs with Next-Generation Tools: A Usability Case Study of Sigstore",
             "venue": "arXiv",
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2503.00271",

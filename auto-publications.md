@@ -315,7 +315,7 @@ To see them organized approximately by project, see [here](/research).
  Amusuo, Cochell, Le Lievre, Patil, Machiry, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.13762"><i class="fas fa-file-pdf"></i></a>
-7. *Why Johnny Signs with Sigstore: Examining Tooling as a Factor in Software Signing Adoption in the Sigstore Ecosystem*.  
+7. *Why Johnny Signs with Next-Generation Tools: A Usability Case Study of Sigstore*.  
  Kalu, Okorafor, Singla, Torres-Arias, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.00271"><i class="fas fa-file-pdf"></i></a>
