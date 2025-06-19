@@ -302,7 +302,7 @@ To see them organized approximately by project, see [here](/research).
 3. *Anti-Phishing Training Does Not Work: A Large-Scale Empirical Assessment of Multi-Modal Training Grounded in the NIST Phish Scale*.  
  Rozema and **Davis**.  
  arXiv 2025.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/RozemaDavis-Phish-arXiv2025.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/RozemaDavis-Phish-arXiv2025.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395"><i class="fab fa-medium"></i></a>
 4. *Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies*.  
  Çakar, Sale, Chen, Burmane, Lee, and **Davis**.  
  arXiv 2025.  
@@ -399,7 +399,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Trustworthy Reuse in the Machine Learning Model Supply Chain*.  
  **Jiang**.  
  PhD, Electrical & Computer Engineering, Purdue University 2025.  
- 
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Jiang-PreTrainedModels-PhD-Final Defense-May2025.pptx"><i class="fas fa-file-powerpoint"></i></a>
 2. *A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries*.  
  **Jones**.  
  MSc, Electrical & Computer Engineering, Purdue University 2024.  

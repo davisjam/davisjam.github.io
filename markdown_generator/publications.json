@@ -719,7 +719,8 @@
             "year": 2025,
             "paperBasename": "RozemaDavis-Phish-arXiv2025.pdf",
             "artifactURL": "",
-            "videoURL": ""
+            "videoURL": "",
+            "blogURL": "https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395"
         },
         {
             "type": "arxiv",
