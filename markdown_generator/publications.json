@@ -549,6 +549,17 @@
             "videoURL": "",
             "blogURL": "https://davisjam.medium.com/sok-a-literature-and-engineering-review-of-regular-expression-denial-of-service-redos-e6b10ef547c7"
         },        
+        {
+            "type": "conference",
+            "authors": ["Amusuo", "Cochell", "Le Lievre", "Patil", "Machiry", "**Davis**"],
+            "title": "Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification",
+            "venue": "Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE)",
+            "year": 2026,
+            "paperBasename": "https://arxiv.org/pdf/2503.13762",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
 
 
         {
@@ -739,16 +750,6 @@
             "venue": "arXiv",
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2503.19444",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
-            "authors": ["Amusuo", "Cochell", "Le Lievre", "Patil", "Machiry", "**Davis**"],
-            "title": "Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification",
-            "venue": "arXiv",
-            "year": 2025,
-            "paperBasename": "https://arxiv.org/pdf/2503.13762",
             "artifactURL": "",
             "videoURL": ""
         },
