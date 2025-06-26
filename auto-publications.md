@@ -306,7 +306,7 @@ To see them organized approximately by project, see [here](/research).
 3. *Anti-Phishing Training Does Not Work: A Large-Scale Empirical Assessment of Multi-Modal Training Grounded in the NIST Phish Scale*.  
  Rozema and **Davis**.  
  arXiv 2025.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/RozemaDavis-Phish-arXiv2025.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395"><i class="fab fa-medium"></i></a>
+ <a href="https://arxiv.org/pdf/2506.19899"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395"><i class="fab fa-medium"></i></a>
 4. *Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies*.  
  Çakar, Sale, Chen, Burmane, Lee, and **Davis**.  
  arXiv 2025.  
