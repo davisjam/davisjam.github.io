@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- NSF funds an RFE grant to study prompt engineering education. Thank you, US taxpayers!
 - NSF funds an OAC Core grant to develop cyberinfrastructure for multi-modal/multi-stream deep learning models. Thank you, US taxpayers!
 - One paper accepted to **ICSE'26**: An empirical study of "unit proofing" for formal memory safety guarantees. Congrats to Paschal and the team!
 - Paschal and Dharun are named winners in the 2025 Qualcomm Innovation Fellowship competition. Congratulations!
