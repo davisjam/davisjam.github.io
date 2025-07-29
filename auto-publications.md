@@ -201,43 +201,51 @@ To see them organized approximately by project, see [here](/research).
 
 ## Peer-reviewed journal and magazine papers
 
-1. *Establishing Provenance Before Coding: Traditional and Next-Gen Software Signing*.  
+1. *'I see models being a whole other thing': An Empirical Study of Pre-Trained Model Naming Conventions and A Tool for Enhancing Naming Consistency*.  
+ Jiang, Kim, Cheung, Kim, Thiruvathukal, and **Davis**.  
+ Empirical Software Engineering (EMSE) 2025.  
+ <a href="https://arxiv.org/pdf/2310.01642"><i class="fas fa-file-pdf"></i></a>
+2. *Establishing Provenance Before Coding: Traditional and Next-Gen Software Signing*.  
  Schorlemmer, Burmane, Kalu, Torres-Arias, and **Davis**.  
  IEEE Security & Privacy Magazine -- Special Issue 'Secure Software Before Codeing' 2025.  
  <a href="https://arxiv.org/pdf/2407.03949"><i class="fas fa-file-pdf"></i></a>
-2. *Engineering Patterns for Trust and Safety on Social Media Platforms: A Case Study of Mastodon and Diaspora*.  
+3. *Establishing Provenance Before Coding: Traditional and Next-Gen Software Signing*.  
+ Schorlemmer, Burmane, Kalu, Torres-Arias, and **Davis**.  
+ IEEE Security & Privacy Magazine -- Special Issue 'Secure Software Before Codeing' 2025.  
+ <a href="https://arxiv.org/pdf/2407.03949"><i class="fas fa-file-pdf"></i></a>
+4. *Engineering Patterns for Trust and Safety on Social Media Platforms: A Case Study of Mastodon and Diaspora*.  
  Cramer, Maxam, and **Davis**.  
  Journal of Systems and Software (JSS) 2025.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf"><i class="fas fa-file-pdf"></i></a>
-3. *Fostering Systems Thinking through Engineering Study Abroad Programs*.  
+5. *Fostering Systems Thinking through Engineering Study Abroad Programs*.  
  Özkan, Davis, **Davis**, Deters, and Murzi.  
  European Journal of Engineering Education (EJEE) 2024.  
  <a href="https://www.tandfonline.com/doi/full/10.1080/03043797.2024.2434168"><i class="fas fa-file-pdf"></i></a>
-4. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
+6. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
  Jiang, Banna, Vivek, Goel, Synovic, Thiruvathukal, and **Davis**.  
  Empirical Software Engineering (EMSE) 2024.  
  <a href="https://link.springer.com/article/10.1007/s10664-024-10521-0"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangBannaVivekGoelSynovicThiruvathukalDavis-CVReengineering-EMSE-ASESlides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/Wenxin-Jiang/EMSE-CVReengineering-Artifact"><i class="fas fa-file-code"></i></a>
-5. *Evolution of Winning Solutions in the 2021 Low-Power Computer Vision Challenge*.  
+7. *Evolution of Winning Solutions in the 2021 Low-Power Computer Vision Challenge*.  
  Hu, Jiao, Kocher, Wu, Liu, **Davis**, Thiruvathukal, and Lu.  
  IEEE Computer 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HuJiaoKocherWuLiuDavisThiruvathukalLu-LPCVC-Computer2023.pdf"><i class="fas fa-file-pdf"></i></a>
-6. *Tree-based Unidirectional Neural Networks for Low-Power Computer Vision*.  
+8. *Tree-based Unidirectional Neural Networks for Low-Power Computer Vision*.  
  Goel, Tung, Eliopoulos, Wang, **Davis**, Thiruvathukal, and Lu.  
  IEEE Design & Test 2022.  
  <a href="https://ieeexplore.ieee.org/document/9935301"><i class="fas fa-file-pdf"></i></a>
-7. *Exploring the Process and Outcomes of Leading a Study Abroad Program Using Real-Time Perspectives*.  
+9. *Exploring the Process and Outcomes of Leading a Study Abroad Program Using Real-Time Perspectives*.  
  Davis, Deters, Ozkan, **Davis**, and Murzi.  
  Frontiers: The Interdisciplinary Journal of Study Abroad 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisDetersOzkanDavisMurzi-Frontiers22.pdf"><i class="fas fa-file-pdf"></i></a>
-8. *A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits*.  
+10. *A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits*.  
  Herbold, Trautsch, Ledel, Aghamohammadi, Ghaleb, Chahal, Bossenmaier, Nagaria, Makedonski, Nili Ahmadabadi, Szabados, Spieker, Madeja, Hoy, Lenarduzzi, Wang, Rodríguez-Pérez, Colomo-Palacios, Verdecchia, Singh, Qin, Chakroborti, Davis, Walunj, Wu, Marcilio, Alam, Aldaeej, Amit, Turhan, Eismann, Wickert, Malavolta, Sulír, Fard, Henley, Kourtzanidis, Tuzun, Treude, Shamasbi, Pashchenko, Wyrich, **Davis**, Serebrenik, Albrecht, Aktas, Strüber, and Erbel.  
  Empirical Software Engineering (EMSE) (also presented at ICSE'22-JournalFirst) 2021.  
  <a href="https://arxiv.org/pdf/2011.06244"><i class="fas fa-file-pdf"></i></a> <a href="https://www.youtube.com/watch?v=JKYkw-nxE8M"><i class="fas fa-video"></i></a>
-9. *Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis*.  
+11. *Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis*.  
  Kazerouni, **Davis**, Basak, Shaffer, Servant, and Edwards.  
  Journal of Systems and Software (JSS) 2021.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/KazerouniDavisBasakShafferServantEdwards-JSS21.pdf"><i class="fas fa-file-pdf"></i></a>
-10. *Expectations and Experiences of Short-Term Study Abroad Leadership Teams*.  
+12. *Expectations and Experiences of Short-Term Study Abroad Leadership Teams*.  
  Ozkan, Davis, **Davis**, James, Murzi, and Knight.  
  Journal of International Engineering Education (JIEE) 2020.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OzkanDavisDavisJamesMurziKnight-JIEE20.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OzkanDavisDavisJamesMurziKnight-JIEE20-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
@@ -343,11 +351,7 @@ To see them organized approximately by project, see [here](/research).
  Purohit, Jiang, Ravikiran, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2404.18801"><i class="fas fa-file-pdf"></i></a>
-13. *Naming Practices of Pre-Trained Models in Hugging Face*.  
- Jiang, Cheung, Kim, Kim, Thiruvathukal, and **Davis**.  
- arXiv 2024.  
- <a href="https://arxiv.org/pdf/2310.01642"><i class="fas fa-file-pdf"></i></a>
-14. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+13. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/pdf/2107.00821"><i class="fas fa-file-pdf"></i></a>

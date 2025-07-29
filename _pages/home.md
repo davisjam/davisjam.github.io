@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- One paper accepted to **EMSE** on the naming conventions of pre-trained models. Congrats to Wenxin and the author team!
 - NSF funds an RFE grant to study prompt engineering education. Thank you, US taxpayers!
 - NSF funds an OAC Core grant to develop cyberinfrastructure for multi-modal/multi-stream deep learning models. Thank you, US taxpayers!
 - One paper accepted to **ICSE'26**: An empirical study of "unit proofing" for formal memory safety guarantees. Congrats to Paschal and the team!

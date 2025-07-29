@@ -829,17 +829,6 @@
         },
         {
             "type": "arxiv",
-            "authors": ["Jiang", "Cheung", "Kim", "Kim", "Thiruvathukal", "**Davis**"],
-            "title": "Naming Practices of Pre-Trained Models in Hugging Face",
-            "venue": "arXiv",
-            "year": 2024,
-            "paperBasename": "https://arxiv.org/pdf/2310.01642",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
             "authors": ["Banna", "Chinnakotla", "Yan", "Vegesana", "Vivek", "Krishnappa", "Jiang", "Lu", "Thiruvathukal", "**Davis**"],
             "title": "An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors",
             "venue": "arXiv",
@@ -998,6 +987,29 @@
             "videoURL": ""
         },
 
+
+        {
+            "type": "journal",
+            "authors": ["Jiang", "Kim", "Cheung", "Kim", "Thiruvathukal", "**Davis**"],
+            "title": "'I see models being a whole other thing': An Empirical Study of Pre-Trained Model Naming Conventions and A Tool for Enhancing Naming Consistency",
+            "venue": "Empirical Software Engineering (EMSE)",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2310.01642",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        }, 
+        {
+            "type": "journal",
+            "authors": ["Schorlemmer", "Burmane", "Kalu", "Torres-Arias", "**Davis**"],
+            "title": "Establishing Provenance Before Coding: Traditional and Next-Gen Software Signing",
+            "venue": "IEEE Security & Privacy Magazine -- Special Issue 'Secure Software Before Codeing'",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2407.03949",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        }, 
         {
             "type": "journal",
             "authors": ["Schorlemmer", "Burmane", "Kalu", "Torres-Arias", "**Davis**"],
