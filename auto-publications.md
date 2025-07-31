@@ -41,7 +41,7 @@ To see them organized approximately by project, see [here](/research).
 8. *An Industry Interview Study of Software Signing for Supply Chain Security*.  
  Kalu, Singla, Okafor, Torres-Arias, and **Davis**.  
  Proceedings of the 34th USENIX Security Symposium (SECURITY) 2025.  
- <a href="https://arxiv.org/pdf/2406.08198"><i class="fas fa-file-pdf"></i></a> <a href="https://zenodo.org/records/14766721"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/an-industry-interview-study-of-software-signing-for-supply-chain-security-8666d27539f8"><i class="fab fa-medium"></i></a>
+ <a href="https://arxiv.org/pdf/2406.08198"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Kalu-SigningInterviewStudy-USENIXSecurity25-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/records/14766721"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/an-industry-interview-study-of-software-signing-for-supply-chain-security-8666d27539f8"><i class="fab fa-medium"></i></a>
 9. *LEMIX: Enabling Testing of Embedded Applications as Linux Applications*.  
  Tanksalkar, Muralee, Danduri, Amusuo, Bianchi, **Davis**, and Machiry.  
  Proceedings of the 34th USENIX Security Symposium (SECURITY) 2025.  
@@ -188,7 +188,7 @@ To see them organized approximately by project, see [here](/research).
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/record/3424961"><i class="fas fa-file-code"></i></a> <a href="https://www.youtube.com/watch?v=HQq6iXTjk1I"><i class="fas fa-video"></i></a> <a href="https://medium.com/@davisjam/testing-regex-generalizability-and-its-implications-ase19-63da1edadcdb"><i class="fab fa-medium"></i></a>
 45. *A Sense of Time for JavaScript and Node.js: First-Class Timeouts as a Cure for Event Handler Poisoning*.  
  **Davis**, Williamson, and Lee.  
- Proceedings of the 27th USENIX Security Symposium (SECURITY'18) 2018.  
+ Proceedings of the 27th USENIX Security Symposium (SECURITY) 2018.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisWilliamsonLee-SenseOfTime-USENIXSecurity18.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisWilliamsonLee-SenseOfTime-USENIXSecurity18-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/VTLeeLab/node-cure"><i class="fas fa-file-code"></i></a> <a href="https://www.usenix.org/conference/usenixsecurity18/presentation/davis"><i class="fas fa-video"></i></a>
 46. *The Impact of Regular Expression Denial of Service (REDOS) in Practice: an Empirical Study at the Ecosystem Scale*.  
  **Davis**, Coghlan, Servant, and Lee.  
