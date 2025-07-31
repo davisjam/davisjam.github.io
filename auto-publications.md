@@ -354,31 +354,35 @@ To see them organized approximately by project, see [here](/research).
 
 ## US patents
 
-1. *Injection of simulated hardware failure(s) in a file system for establishing file system tolerance-to-storage-failure(s)*.  
+1. *A method for identifying naming mismatches in neural networks based on their architectural properties*.  
+ Jiang, Cheung, Kim, Kim, and **Davis**.  
+ US provisional patent application, held by Purdue University 2025.  
+ 
+2. *Injection of simulated hardware failure(s) in a file system for establishing file system tolerance-to-storage-failure(s)*.  
  **Davis** and Davis.  
  US patent, held by IBM 2021.  
  <a href="https://patents.google.com/patent/US11023341B2/en"><i class="fas fa-file-pdf"></i></a>
-2. *Performing hierarchical provenance collection*.  
+3. *Performing hierarchical provenance collection*.  
  **Davis**, Rupprecht, Bhagwat, Arnold, and Sawdon.  
  US patent, held by IBM 2021.  
  <a href="https://patents.google.com/patent/US10891174B1/en"><i class="fas fa-file-pdf"></i></a>
-3. *Verification of the Integrity of Data Files Stored in Copy-on-Write (CoW) Based File System Snapshots*.  
+4. *Verification of the Integrity of Data Files Stored in Copy-on-Write (CoW) Based File System Snapshots*.  
  Davis and **Davis**.  
  US patent, held by IBM 2021.  
  <a href="https://patents.google.com/patent/US11176090B2/en"><i class="fas fa-file-pdf"></i></a>
-4. *Determining a validity of an event emitter based on a rule*.  
+5. *Determining a validity of an event emitter based on a rule*.  
  **Davis** and Davis.  
- US patent application 2021.  
+ US patent, held by IBM 2021.  
  <a href="https://patents.google.com/patent/US20220374265A1/en"><i class="fas fa-file-pdf"></i></a>
-5. *Testing of lock managers in computing environments*.  
+6. *Testing of lock managers in computing environments*.  
  Davis and **Davis**.  
  US patent, held by IBM 2020.  
  <a href="https://patents.google.com/patent/US10614040B2/en"><i class="fas fa-file-pdf"></i></a>
-6. *File metadata verification in a distributed file system*.  
+7. *File metadata verification in a distributed file system*.  
  **Davis** and Davis.  
  US patent, held by IBM 2020.  
  <a href="https://patents.google.com/patent/US10642796B2/en"><i class="fas fa-file-pdf"></i></a>
-7. *Detection of file corruption in a distributed file system*.  
+8. *Detection of file corruption in a distributed file system*.  
  **Davis**, Davis, and Knop.  
  US patent, held by IBM 2018.  
  <a href="https://patents.google.com/patent/US10229121B2/en"><i class="fas fa-file-pdf"></i></a>

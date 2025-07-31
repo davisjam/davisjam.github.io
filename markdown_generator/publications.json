@@ -980,13 +980,25 @@
             "type": "patent",
             "authors": ["**Davis**", "Davis"],
             "title": "Determining a validity of an event emitter based on a rule",
-            "venue": "US patent application",
+            "venue": "US patent, held by IBM",
             "year": 2021,
             "paperBasename": "https://patents.google.com/patent/US20220374265A1/en",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""
         },
+        {
+            "type": "patent",
+            "authors": ["Jiang", "Cheung", "Kim", "Kim", "**Davis**"],
+            "title": "A method for identifying naming mismatches in neural networks based on their architectural properties",
+            "venue": "US provisional patent application, held by Purdue University",
+            "year": 2025,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+
 
 
         {
