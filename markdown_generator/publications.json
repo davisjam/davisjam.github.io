@@ -522,8 +522,8 @@
             "venue": "Proceedings of the 34th USENIX Security Symposium (SECURITY)",
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2406.08198",
-            "slidesBasename": "https://zenodo.org/records/14766721",
-            "artifactURL": "",
+            "slidesBasename": "",
+            "artifactURL": "https://zenodo.org/records/14766721",
             "videoURL": "",
             "blogURL": "https://davisjam.medium.com/an-industry-interview-study-of-software-signing-for-supply-chain-security-8666d27539f8"
         },
@@ -996,17 +996,6 @@
             "venue": "Empirical Software Engineering (EMSE)",
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2310.01642",
-            "slidesBasename": "",
-            "artifactURL": "",
-            "videoURL": ""
-        }, 
-        {
-            "type": "journal",
-            "authors": ["Schorlemmer", "Burmane", "Kalu", "Torres-Arias", "**Davis**"],
-            "title": "Establishing Provenance Before Coding: Traditional and Next-Gen Software Signing",
-            "venue": "IEEE Security & Privacy Magazine -- Special Issue 'Secure Software Before Codeing'",
-            "year": 2025,
-            "paperBasename": "https://arxiv.org/pdf/2407.03949",
             "slidesBasename": "",
             "artifactURL": "",
             "videoURL": ""

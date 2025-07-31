@@ -41,7 +41,7 @@ To see them organized approximately by project, see [here](/research).
 8. *An Industry Interview Study of Software Signing for Supply Chain Security*.  
  Kalu, Singla, Okafor, Torres-Arias, and **Davis**.  
  Proceedings of the 34th USENIX Security Symposium (SECURITY) 2025.  
- <a href="https://arxiv.org/pdf/2406.08198"><i class="fas fa-file-pdf"></i></a> <a href="https://zenodo.org/records/14766721"><i class="fas fa-file-powerpoint"></i></a> <a href="https://davisjam.medium.com/an-industry-interview-study-of-software-signing-for-supply-chain-security-8666d27539f8"><i class="fab fa-medium"></i></a>
+ <a href="https://arxiv.org/pdf/2406.08198"><i class="fas fa-file-pdf"></i></a> <a href="https://zenodo.org/records/14766721"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/an-industry-interview-study-of-software-signing-for-supply-chain-security-8666d27539f8"><i class="fab fa-medium"></i></a>
 9. *LEMIX: Enabling Testing of Embedded Applications as Linux Applications*.  
  Tanksalkar, Muralee, Danduri, Amusuo, Bianchi, **Davis**, and Machiry.  
  Proceedings of the 34th USENIX Security Symposium (SECURITY) 2025.  
@@ -209,43 +209,39 @@ To see them organized approximately by project, see [here](/research).
  Schorlemmer, Burmane, Kalu, Torres-Arias, and **Davis**.  
  IEEE Security & Privacy Magazine -- Special Issue 'Secure Software Before Codeing' 2025.  
  <a href="https://arxiv.org/pdf/2407.03949"><i class="fas fa-file-pdf"></i></a>
-3. *Establishing Provenance Before Coding: Traditional and Next-Gen Software Signing*.  
- Schorlemmer, Burmane, Kalu, Torres-Arias, and **Davis**.  
- IEEE Security & Privacy Magazine -- Special Issue 'Secure Software Before Codeing' 2025.  
- <a href="https://arxiv.org/pdf/2407.03949"><i class="fas fa-file-pdf"></i></a>
-4. *Engineering Patterns for Trust and Safety on Social Media Platforms: A Case Study of Mastodon and Diaspora*.  
+3. *Engineering Patterns for Trust and Safety on Social Media Platforms: A Case Study of Mastodon and Diaspora*.  
  Cramer, Maxam, and **Davis**.  
  Journal of Systems and Software (JSS) 2025.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf"><i class="fas fa-file-pdf"></i></a>
-5. *Fostering Systems Thinking through Engineering Study Abroad Programs*.  
+4. *Fostering Systems Thinking through Engineering Study Abroad Programs*.  
  Özkan, Davis, **Davis**, Deters, and Murzi.  
  European Journal of Engineering Education (EJEE) 2024.  
  <a href="https://www.tandfonline.com/doi/full/10.1080/03043797.2024.2434168"><i class="fas fa-file-pdf"></i></a>
-6. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
+5. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
  Jiang, Banna, Vivek, Goel, Synovic, Thiruvathukal, and **Davis**.  
  Empirical Software Engineering (EMSE) 2024.  
  <a href="https://link.springer.com/article/10.1007/s10664-024-10521-0"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangBannaVivekGoelSynovicThiruvathukalDavis-CVReengineering-EMSE-ASESlides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/Wenxin-Jiang/EMSE-CVReengineering-Artifact"><i class="fas fa-file-code"></i></a>
-7. *Evolution of Winning Solutions in the 2021 Low-Power Computer Vision Challenge*.  
+6. *Evolution of Winning Solutions in the 2021 Low-Power Computer Vision Challenge*.  
  Hu, Jiao, Kocher, Wu, Liu, **Davis**, Thiruvathukal, and Lu.  
  IEEE Computer 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HuJiaoKocherWuLiuDavisThiruvathukalLu-LPCVC-Computer2023.pdf"><i class="fas fa-file-pdf"></i></a>
-8. *Tree-based Unidirectional Neural Networks for Low-Power Computer Vision*.  
+7. *Tree-based Unidirectional Neural Networks for Low-Power Computer Vision*.  
  Goel, Tung, Eliopoulos, Wang, **Davis**, Thiruvathukal, and Lu.  
  IEEE Design & Test 2022.  
  <a href="https://ieeexplore.ieee.org/document/9935301"><i class="fas fa-file-pdf"></i></a>
-9. *Exploring the Process and Outcomes of Leading a Study Abroad Program Using Real-Time Perspectives*.  
+8. *Exploring the Process and Outcomes of Leading a Study Abroad Program Using Real-Time Perspectives*.  
  Davis, Deters, Ozkan, **Davis**, and Murzi.  
  Frontiers: The Interdisciplinary Journal of Study Abroad 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisDetersOzkanDavisMurzi-Frontiers22.pdf"><i class="fas fa-file-pdf"></i></a>
-10. *A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits*.  
+9. *A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits*.  
  Herbold, Trautsch, Ledel, Aghamohammadi, Ghaleb, Chahal, Bossenmaier, Nagaria, Makedonski, Nili Ahmadabadi, Szabados, Spieker, Madeja, Hoy, Lenarduzzi, Wang, Rodríguez-Pérez, Colomo-Palacios, Verdecchia, Singh, Qin, Chakroborti, Davis, Walunj, Wu, Marcilio, Alam, Aldaeej, Amit, Turhan, Eismann, Wickert, Malavolta, Sulír, Fard, Henley, Kourtzanidis, Tuzun, Treude, Shamasbi, Pashchenko, Wyrich, **Davis**, Serebrenik, Albrecht, Aktas, Strüber, and Erbel.  
  Empirical Software Engineering (EMSE) (also presented at ICSE'22-JournalFirst) 2021.  
  <a href="https://arxiv.org/pdf/2011.06244"><i class="fas fa-file-pdf"></i></a> <a href="https://www.youtube.com/watch?v=JKYkw-nxE8M"><i class="fas fa-video"></i></a>
-11. *Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis*.  
+10. *Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis*.  
  Kazerouni, **Davis**, Basak, Shaffer, Servant, and Edwards.  
  Journal of Systems and Software (JSS) 2021.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/KazerouniDavisBasakShafferServantEdwards-JSS21.pdf"><i class="fas fa-file-pdf"></i></a>
-12. *Expectations and Experiences of Short-Term Study Abroad Leadership Teams*.  
+11. *Expectations and Experiences of Short-Term Study Abroad Leadership Teams*.  
  Ozkan, Davis, **Davis**, James, Murzi, and Knight.  
  Journal of International Engineering Education (JIEE) 2020.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OzkanDavisDavisJamesMurziKnight-JIEE20.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OzkanDavisDavisJamesMurziKnight-JIEE20-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
