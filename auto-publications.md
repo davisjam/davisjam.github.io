@@ -45,7 +45,7 @@ To see them organized approximately by project, see [here](/research).
 9. *LEMIX: Enabling Testing of Embedded Applications as Linux Applications*.  
  Tanksalkar, Muralee, Danduri, Amusuo, Bianchi, **Davis**, and Machiry.  
  Proceedings of the 34th USENIX Security Symposium (SECURITY) 2025.  
- <a href="https://arxiv.org/pdf/2503.17588"><i class="fas fa-file-pdf"></i></a> <a href="https://zenodo.org/records/15611391"><i class="fas fa-file-code"></i></a>
+ <a href="https://arxiv.org/pdf/2503.17588"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Tanksalkar-LEMIX-USENIX25-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/records/15611391"><i class="fas fa-file-code"></i></a>
 10. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
  Bhuiyan, Cakar, Burmane, **Davis**, and Staicu.  
  Proceedings of the 20th ACM ASIA Conference on Computer and Communications Security (AsiaCCS) 2025.  
