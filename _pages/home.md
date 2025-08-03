@@ -43,7 +43,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 - NSF funds an OAC Core grant to develop cyberinfrastructure for multi-modal/multi-stream deep learning models. Thank you, US taxpayers!
 - One paper accepted to **ICSE'26**: An empirical study of "unit proofing" for formal memory safety guarantees. Congrats to Paschal and the team!
 - Paschal and Dharun are named winners in the 2025 Qualcomm Innovation Fellowship competition. Congratulations!
-- Serving on the **USENIX 2026 PC**.
+- Serving on the **USENIX Security 2026 PC**.
 - Another paper accepted to **USENIX'25**. Congrats to Ritvik and the team!
 - Paschal Amusuo completes his prelim exam. Congrats to the new PhD Candidate!
 - Wenxin Jiang defends his doctoral thesis. Congrats to Dr. Jiang! Wenxin will start soon as a Research Software Engineer at Socket.
