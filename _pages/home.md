@@ -36,12 +36,14 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- Serving on the **AAAI 2026 PC**.
 - A poster at IEEE SecDev on LLM jailbreaking. Congrats to the VIP team, led by Mohamed Ahmed and Mohamed Abdelmouty!
 - One paper accepted to **EMSE** on the naming conventions of pre-trained models. Congrats to Wenxin and the author team!
 - NSF funds an RFE grant to study prompt engineering education. Thank you, US taxpayers!
 - NSF funds an OAC Core grant to develop cyberinfrastructure for multi-modal/multi-stream deep learning models. Thank you, US taxpayers!
 - One paper accepted to **ICSE'26**: An empirical study of "unit proofing" for formal memory safety guarantees. Congrats to Paschal and the team!
 - Paschal and Dharun are named winners in the 2025 Qualcomm Innovation Fellowship competition. Congratulations!
+- Serving on the **USENIX 2026 PC**.
 - Another paper accepted to **USENIX'25**. Congrats to Ritvik and the team!
 - Paschal Amusuo completes his prelim exam. Congrats to the new PhD Candidate!
 - Wenxin Jiang defends his doctoral thesis. Congrats to Dr. Jiang! Wenxin will start soon as a Research Software Engineer at Socket.
