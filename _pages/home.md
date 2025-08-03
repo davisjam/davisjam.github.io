@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- A poster at IEEE SecDev on LLM jailbreaking. Congrats to the VIP team, led by Mohamed Ahmed and Mohamed Abdelmouty!
 - One paper accepted to **EMSE** on the naming conventions of pre-trained models. Congrats to Wenxin and the author team!
 - NSF funds an RFE grant to study prompt engineering education. Thank you, US taxpayers!
 - NSF funds an OAC Core grant to develop cyberinfrastructure for multi-modal/multi-stream deep learning models. Thank you, US taxpayers!

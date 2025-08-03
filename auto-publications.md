@@ -303,51 +303,47 @@ To see them organized approximately by project, see [here](/research).
  Jajal, Eliopoulos, Chou, Thiruvathukal, **Davis**, and Lu.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2506.00299"><i class="fas fa-file-pdf"></i></a>
-2. *Advancing Jailbreak Strategies: A Hybrid Approach to Exploiting LLM Vulnerabilities and Bypassing Modern Defenses*.  
- Ahmed, Abdelmouty, Kim, Kandula, Park, and **Davis**.  
- arXiv 2025.  
- <a href="https://arxiv.org/pdf/2506.21972"><i class="fas fa-file-pdf"></i></a>
-3. *SysLLMatic: Large Language Models are Software System Optimizers*.  
+2. *SysLLMatic: Large Language Models are Software System Optimizers*.  
  Peng, Gupte, Hasler, Eliopoulos, Ho, Mantri, Deng, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2506.01249"><i class="fas fa-file-pdf"></i></a>
-4. *ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain*.  
+3. *ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain*.  
  Kalu, Okorafor, Durak, Laine, Moreno, Torres-Arias, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2505.18760"><i class="fas fa-file-pdf"></i></a>
-5. *Anti-Phishing Training Does Not Work: A Large-Scale Empirical Assessment of Multi-Modal Training Grounded in the NIST Phish Scale*.  
+4. *Anti-Phishing Training Does Not Work: A Large-Scale Empirical Assessment of Multi-Modal Training Grounded in the NIST Phish Scale*.  
  Rozema and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2506.19899"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395"><i class="fab fa-medium"></i></a>
-6. *Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies*.  
+5. *Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies*.  
  Çakar, Sale, Chen, Burmane, Lee, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.20579"><i class="fas fa-file-pdf"></i></a>
-7. *AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges*.  
+6. *AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges*.  
  Gao, Zahedi, Jiang, Lin, **Davis**, and Treude.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.19444"><i class="fas fa-file-pdf"></i></a>
-8. *Why Johnny Signs with Next-Generation Tools: A Usability Case Study of Sigstore*.  
+7. *Why Johnny Signs with Next-Generation Tools: A Usability Case Study of Sigstore*.  
  Kalu, Okorafor, Singla, Torres-Arias, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.00271"><i class="fas fa-file-pdf"></i></a>
-9. *ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale*.  
+8. *ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale*.  
  Jiang, Cakar, Lysenko, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2502.20528"><i class="fas fa-file-pdf"></i></a>
-10. *DiVerify: Diversifying Identity Verification in Next-Generation Software Signing*.  
+9. *DiVerify: Diversifying Identity Verification in Next-Generation Software Signing*.  
  Okafor, **Davis**, and Torres-Arias.  
  arXiv 2024.  
  <a href="https://arxiv.org/abs/2406.15596"><i class="fas fa-file-pdf"></i></a>
-11. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
+10. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
  Peng, Gupte, Eliopoulos, Ho, Mantri, Deng, Jiang, Lu, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2410.09241"><i class="fas fa-file-pdf"></i></a>
-12. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
+11. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
  Purohit, Jiang, Ravikiran, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2404.18801"><i class="fas fa-file-pdf"></i></a>
-13. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+12. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/pdf/2107.00821"><i class="fas fa-file-pdf"></i></a>
@@ -389,19 +385,23 @@ To see them organized approximately by project, see [here](/research).
 
 ## Posters
 
-1. *A First Look at the General Data Protection Regulation (GDPR) in Open-Source Software*.  
+1. *Advancing Jailbreak Strategies: A Hybrid Approach to Exploiting LLM Vulnerabilities and Bypassing Modern Defenses*.  
+ Ahmed, Abdelmouty, Kim, Kandula, Park, and **Davis**.  
+ IEEE Secure Development Conference (SecDev) -- Poster Track 2025.  
+ <a href="https://arxiv.org/pdf/2506.21972"><i class="fas fa-file-pdf"></i></a>
+2. *A First Look at the General Data Protection Regulation (GDPR) in Open-Source Software*.  
  Franke, Liang, Brantly, **Davis**, and Brown.  
  Proceedings of the ACM/IEEE 46th International Conference on Software Engineering -- Poster Track (ICSE-Poster) 2024.  
  <a href="https://arxiv.org/pdf/2401.14629"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/FrankeLiangBrantlyDavisBrown-GDPRAndOSS-ICSEPoster2024-slides-poster.pptx"><i class="fas fa-file-powerpoint"></i></a>
-2. *Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach*.  
+3. *Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach*.  
  Veselsky, West, Ahlgren, Goel, Jiang, Lee, Kim, **Davis**, Thiruvathukal, and Klingensmith.  
  Proceedings of the 23rd Annual International Workshop on Mobile Computing Systems and Application (HotMobile) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/VeselskyWestAhlgrenGoelJiangLeeKimDavisThiruvathukalKlingensmith-V2VTrust-HotMobile.pdf"><i class="fas fa-file-pdf"></i></a>
-3. *An Intercultural Engineering Module for Software Engineers*.  
+4. *An Intercultural Engineering Module for Software Engineers*.  
  Hornbrook and **Davis**.  
  2021 Annual Colloquium for International Engineering Education (ACIEE) 2021.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HornbrookDavis-InterculturalLearningModule-ACIEE2021.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/HornbrookDavis-InterculturalLearningModule-ACIEE2021-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
-4. *Exemplars for Machine Learning: Towards Software Engineering & Reproducibility*.  
+5. *Exemplars for Machine Learning: Towards Software Engineering & Reproducibility*.  
  Vivek, Chinnakotla, Banna, Vegesana, Yan, **Davis**, Lu, and Thiruvathukal.  
  SIAM Conference on Computational Science and Engineering (CSE) 2020.  
  

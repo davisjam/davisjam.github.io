@@ -717,16 +717,6 @@
         },
         {
             "type": "arxiv",
-            "authors": ["Ahmed", "Abdelmouty", "Kim", "Kandula", "Park", "**Davis**"],
-            "title": "Advancing Jailbreak Strategies: A Hybrid Approach to Exploiting LLM Vulnerabilities and Bypassing Modern Defenses",
-            "venue": "arXiv",
-            "year": 2025,
-            "paperBasename": "https://arxiv.org/pdf/2506.21972",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
             "authors": ["Peng", "Gupte", "Hasler", "Eliopoulos", "Ho", "Mantri", "Deng", "Läufer", "Thiruvathukal", "**Davis**"],
             "title": "SysLLMatic: Large Language Models are Software System Optimizers",
             "venue": "arXiv",
@@ -1126,6 +1116,16 @@
         },
         
 
+        {
+            "type": "poster",
+            "authors": ["Ahmed", "Abdelmouty", "Kim", "Kandula", "Park", "**Davis**"],
+            "title": "Advancing Jailbreak Strategies: A Hybrid Approach to Exploiting LLM Vulnerabilities and Bypassing Modern Defenses",
+            "venue": "IEEE Secure Development Conference (SecDev) -- Poster Track",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2506.21972",
+            "artifactURL": "",
+            "videoURL": ""
+        },
         {
             "type": "poster",
             "authors": ["Franke", "Liang", "Brantly", "**Davis**", "Brown"],
