@@ -36,7 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
-- OpenAI funds a grant on automated bounded model checking. Thanks, OpenAI!
+- OpenAI funds a grant on automated unit proofing. Thanks, OpenAI, and congrats to Paschal and the team!
 - Recognized as a Distinguished Reviewer at **USENIX Security 2025**.
 - Serving on the **AAAI 2026 PC**.
 - A poster at IEEE SecDev on LLM jailbreaking. Congrats to the VIP team, led by Mohamed Ahmed and Mohamed Abdelmouty!
