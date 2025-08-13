@@ -36,6 +36,8 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- OpenAI funds a grant on automated bounded model checking. Thanks, OpenAI!
+- Recognized as a Distinguished Reviewer at **USENIX Security 2025**.
 - Serving on the **AAAI 2026 PC**.
 - A poster at IEEE SecDev on LLM jailbreaking. Congrats to the VIP team, led by Mohamed Ahmed and Mohamed Abdelmouty!
 - One paper accepted to **EMSE** on the naming conventions of pre-trained models. Congrats to Wenxin and the author team!
@@ -45,6 +47,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Paschal and Dharun are named winners in the 2025 Qualcomm Innovation Fellowship competition. Congratulations!
 - Serving on the **USENIX Security 2026 PC**.
 - Another paper accepted to **USENIX'25**. Congrats to Ritvik and the team!
+- Recognized as a Distinguished Reviewer at **FSE 2025**.
 - Paschal Amusuo completes his prelim exam. Congrats to the new PhD Candidate!
 - Wenxin Jiang defends his doctoral thesis. Congrats to Dr. Jiang! Wenxin will start soon as a Research Software Engineer at Socket.
 - One paper accepted to **AsiaCCS'25**: an SoK on Regex Denial of Service (ReDoS). Congrats to Berk and Ethan!
