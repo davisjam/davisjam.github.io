@@ -552,6 +552,18 @@
         },        
         {
             "type": "conference",
+            "authors": ["Kellas", "Christou", "Jiang", "Li", "Simon", "David", "Kemerlis", "**Davis**", "Yang"],
+            "title": "PickleBall: Secure Deserialization of Pickle-based Machine Learning Models",
+            "venue": "Proceedings of the 32nd ACM Conference on Computer and Communications Security (CCS)",
+            "year": 2025,
+            "paperBasename": "",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": ""
+        },        
+        {
+            "type": "conference",
             "authors": ["Amusuo", "Cochell", "Le Lievre", "Patil", "Machiry", "**Davis**"],
             "title": "Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification",
             "venue": "Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE)",

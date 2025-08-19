@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- One paper accepted to **CCS** on safe deserialization (pickle) of pre-trained machine learning models. Congrats to Andreas and the team!
 - Recognized as a Distinguished Reviewer at **USENIX Security 2025**.
 - Serving on the **AAAI 2026 PC**.
 - A poster at IEEE SecDev on LLM jailbreaking. Congrats to the VIP team, led by Mohamed Ahmed and Mohamed Abdelmouty!
