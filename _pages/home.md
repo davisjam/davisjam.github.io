@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- Lab publishes a guide to stakeholder analysis for cybersecurity researchers. Hope this helps the security community adapt to new requirements from USENIX and other venues!
 - One paper accepted to **CCS** on safe deserialization (pickle) of pre-trained machine learning models. Congrats to Andreas and the team!
 - Recognized as a Distinguished Reviewer at **USENIX Security 2025**.
 - Serving on the **AAAI 2026 PC**.
