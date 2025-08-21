@@ -306,7 +306,7 @@ To see them organized approximately by project, see [here](/research).
 1. *A Guide to Stakeholder Analysis for Cybersecurity Researchers*.  
  **Davis**, Chen, Peng, Amusuo, and Kalu.  
  arXiv 2025.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisChenPengAmusuoKalu-StakeholderAnalysis.pdf"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/pdf/2508.14796"><i class="fas fa-file-pdf"></i></a>
 2. *Inference-Time Alignment of Diffusion Models with Evolutionary Algorithms*.  
  Jajal, Eliopoulos, Chou, Thiruvathukal, **Davis**, and Lu.  
  arXiv 2025.  
