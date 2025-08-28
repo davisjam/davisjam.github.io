@@ -49,7 +49,7 @@ To see them organized approximately by project, see [here](/research).
 10. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
  Bhuiyan, Cakar, Burmane, **Davis**, and Staicu.  
  Proceedings of the 20th ACM ASIA Conference on Computer and Communications Security (AsiaCCS) 2025.  
- <a href="https://arxiv.org/pdf/2406.11618"><i class="fas fa-file-pdf"></i></a> <a href="https://zenodo.org/records/15515223"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/sok-a-literature-and-engineering-review-of-regular-expression-denial-of-service-redos-e6b10ef547c7"><i class="fab fa-medium"></i></a>
+ <a href="https://arxiv.org/pdf/2406.11618"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/BhuiyanCakarBurmaneDavisStaicu-SoK-ReDoS-AsiaCCS2025-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/records/15515223"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/sok-a-literature-and-engineering-review-of-regular-expression-denial-of-service-redos-e6b10ef547c7"><i class="fab fa-medium"></i></a>
 11. *PickleBall: Secure Deserialization of Pickle-based Machine Learning Models*.  
  Kellas, Christou, Jiang, Li, Simon, David, Kemerlis, **Davis**, and Yang.  
  Proceedings of the 32nd ACM Conference on Computer and Communications Security (CCS) 2025.  
