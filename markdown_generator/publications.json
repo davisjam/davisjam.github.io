@@ -536,6 +536,7 @@
             "paperBasename": "https://arxiv.org/pdf/2503.17588",
             "slidesBasename": "Tanksalkar-LEMIX-USENIX25-slides.pptx",
             "artifactURL": "https://zenodo.org/records/15611391",
+            "blogURL": "https://davisjam.medium.com/lemix-enabling-testing-of-embedded-applications-as-linux-applications-895f85131cd8",
             "videoURL": ""
         },
         {
