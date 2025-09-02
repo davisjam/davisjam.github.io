@@ -319,7 +319,7 @@ To see them organized approximately by project, see [here](/research).
  Kalu, Okorafor, Durak, Laine, Moreno, Torres-Arias, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2505.18760"><i class="fas fa-file-pdf"></i></a>
-5. *Anti-Phishing Training Does Not Work: A Large-Scale Empirical Assessment of Multi-Modal Training Grounded in the NIST Phish Scale*.  
+5. *Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale*.  
  Rozema and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2506.19899"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395"><i class="fab fa-medium"></i></a>
@@ -339,19 +339,23 @@ To see them organized approximately by project, see [here](/research).
  Jiang, Cakar, Lysenko, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2502.20528"><i class="fas fa-file-pdf"></i></a>
-10. *DiVerify: Diversifying Identity Verification in Next-Generation Software Signing*.  
+10. *DiVerify: Hardening Identity-Based Software Signing with Programmable Diverse-Context Scopes*.  
  Okafor, **Davis**, and Torres-Arias.  
- arXiv 2024.  
+ arXiv 2025.  
  <a href="https://arxiv.org/abs/2406.15596"><i class="fas fa-file-pdf"></i></a>
-11. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
+11. *Reactive Bottom-Up Testing*.  
+ Muralee, Cherupattamoolayil, **Davis**, Bianchi, and Machiry.  
+ arXiv 2025.  
+ 
+12. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
  Peng, Gupte, Eliopoulos, Ho, Mantri, Deng, Jiang, Lu, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2410.09241"><i class="fas fa-file-pdf"></i></a>
-12. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
+13. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
  Purohit, Jiang, Ravikiran, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2404.18801"><i class="fas fa-file-pdf"></i></a>
-13. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+14. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/pdf/2107.00821"><i class="fas fa-file-pdf"></i></a>

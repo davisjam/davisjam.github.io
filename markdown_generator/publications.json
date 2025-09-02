@@ -761,7 +761,7 @@
         {
             "type": "arxiv",
             "authors": ["Rozema", "**Davis**"],
-            "title": "Anti-Phishing Training Does Not Work: A Large-Scale Empirical Assessment of Multi-Modal Training Grounded in the NIST Phish Scale",
+            "title": "Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale",
             "venue": "arXiv",
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2506.19899",
@@ -812,10 +812,20 @@
         {
             "type": "arxiv",
             "authors": ["Okafor", "**Davis**", "Torres-Arias"],
-            "title": "DiVerify: Diversifying Identity Verification in Next-Generation Software Signing",
+            "title": "DiVerify: Hardening Identity-Based Software Signing with Programmable Diverse-Context Scopes",
             "venue": "arXiv",
-            "year": 2024,
+            "year": 2025,
             "paperBasename": "https://arxiv.org/abs/2406.15596",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
+            "authors": ["Muralee", "Cherupattamoolayil", "**Davis**", "Bianchi", "Machiry"],
+            "title": "Reactive Bottom-Up Testing",
+            "venue": "arXiv",
+            "year": 2025,
+            "paperBasename": "",
             "artifactURL": "",
             "videoURL": ""
         },
