@@ -346,7 +346,7 @@ To see them organized approximately by project, see [here](/research).
 11. *Reactive Bottom-Up Testing*.  
  Muralee, Cherupattamoolayil, **Davis**, Bianchi, and Machiry.  
  arXiv 2025.  
- 
+ <a href="https://arxiv.org/pdf/2509.03711"><i class="fas fa-file-pdf"></i></a>
 12. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
  Peng, Gupte, Eliopoulos, Ho, Mantri, Deng, Jiang, Lu, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
