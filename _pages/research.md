@@ -179,7 +179,7 @@ You could join them! [Here are the instructions to get started](/join-lab).
 
 - [Sofia Okorafor](https://www.linkedin.com/in/sofia-okorafor-b7ba12251/), US Navy
 - [Tanmay Singla]()
-- [Parth V. Patil]()
+- [Parth V. Patil](https://parthvpatil.github.io/)
 
 #### Undergraduate
 
