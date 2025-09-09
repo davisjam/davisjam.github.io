@@ -720,6 +720,16 @@
         
         {
             "type": "arxiv",
+            "authors": ["Yasmin", "Jiang", "**Davis**", "Tian"],
+            "title": "Software Dependencies 2.0: An Empirical Study of Reuse and Integration of Pre-Trained Models in Open-Source Projects",
+            "venue": "arXiv",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2509.06085",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["**Davis**", "Chen", "Peng", "Amusuo", "Kalu"],
             "title": "A Guide to Stakeholder Analysis for Cybersecurity Researchers",
             "venue": "arXiv",
