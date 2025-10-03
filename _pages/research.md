@@ -165,38 +165,44 @@ You could join them! [Here are the instructions to get started](/join-lab).
 
 #### PhD
 
-- [Wenxin Jiang](https://wenxin-jiang.github.io)
 - [Paschal C. Amusuo](https://ampaschal.github.io)
 - [Dharun Anand](https://www.linkedin.com/in/dharunanand/)
 - [Kelechi G. Kalu](https://www.linkedin.com/in/kelechi-gabriel-kalu-40697b123/)
 - [Purvish Jajal](https://www.linkedin.com/in/purvish-jajal-989774190)
+- [Nick Eliopoulos](https://www.linkedin.com/in/nick-j-eliopoulos/)
 - [Berk Çakar](https://berkcakar.dev)
 - [Huiyun Peng]()
 - [Daniel "Hocka" Lugo](), US Space Force
-- [Drew Rozema]()
+- [Drew Rozema](https://www.linkedin.com/in/drewrozema/)
 
 #### MSc
 
 - [Sofia Okorafor](https://www.linkedin.com/in/sofia-okorafor-b7ba12251/), US Navy
-- [Tanmay Singla]()
-- [Parth V. Patil]()
+- [Tanmay Singla](https://www.linkedin.com/in/tanmay-singla/)
+- [Parth V. Patil](https://www.linkedin.com/in/parthvpatil/)
 
 #### Undergraduate
 
 - The Pre-Trained Models research team (through Purdue's VIP program)
-- Charlie Sale
-- Nathaniel Bielanski
-- Owen Cochell
-- Ethan Burmane
-- Arav Tewari
 - Sophie Chen
 
 #### Alumni
 
+- [Wenxin Jiang](https://wenxin-jiang.github.io), PhD 2025, working as a Research Software Engineer at Socket, Inc.
 - [Taylor Schorlemmer](https://www.linkedin.com/in/taylor-reeves-schorlemmer/), MSc 2024, will serve as a cyber-officer in the US Army
 - [Jason Jones](https://www.linkedin.com/in/jonesjasonh/), MSc 2024, BotDojo
 - [William "Trey" Maxam](https://www.linkedin.com/in/william-m-714184114/), MSc 2023, will serve as an instructor at the US Coast Guard Academy
 - [Geoffrey Cramer](https://www.linkedin.com/in/geoff-cramer-85b430129/), MSc 2023, Boundless
+- Charlie Sale, MSc 2024
+- Arav Tewari, BSc 2024, now MSc at CMU
+- Taylor Le Lievre, BSc 2024, now MSc student at Columbia University
+- Nathaniel Bielanski, BSc 2024
+- Owen Cochell, BSc 2025, now PhD student at UIUC
+- Ethan Burmane, BSc 2025
+- Mohammed Ahmed, BSc 2024
+- Mohammed Sameh, BSc 2024
+- Mingyu Kim, BSc 2024, now MSc student at Purdue University
+- Heesoo Kim, BSc 2024
 - [Matthew Campbell](), BSc 2024, Cisco
 - [Kyle Robinson](), BSc 2024, Lockheed-Martin
 - [Ananya Singh](https://www.linkedin.com/in/imananyasingh/), BSc 2023, Google

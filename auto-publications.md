@@ -303,67 +303,71 @@ To see them organized approximately by project, see [here](/research).
 
 ## Technical reports
 
-1. *Learning From Software Failures: A Case Study at a National Space Research Center*.  
+1. *FalseCrashReducer: Mitigating False Positive Crashes in OSS-Fuzz-Gen Using Agentic AI*.  
+ Amusuo, Liu, Calvo, Metzman, Chang, and **Davis**.  
+ arXiv 2025.  
+ <a href="https://arxiv.org/pdf/2510.02185"><i class="fas fa-file-pdf"></i></a>
+2. *Learning From Software Failures: A Case Study at a National Space Research Center*.  
  Anandayuvaraj, Hammadeh, Lund, Holloway, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2509.06301"><i class="fas fa-file-pdf"></i></a>
-2. *Software Dependencies 2.0: An Empirical Study of Reuse and Integration of Pre-Trained Models in Open-Source Projects*.  
+3. *Software Dependencies 2.0: An Empirical Study of Reuse and Integration of Pre-Trained Models in Open-Source Projects*.  
  Yasmin, Jiang, **Davis**, and Tian.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2509.06085"><i class="fas fa-file-pdf"></i></a>
-3. *A Guide to Stakeholder Analysis for Cybersecurity Researchers*.  
+4. *A Guide to Stakeholder Analysis for Cybersecurity Researchers*.  
  **Davis**, Chen, Peng, Amusuo, and Kalu.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2508.14796"><i class="fas fa-file-pdf"></i></a>
-4. *Inference-Time Alignment of Diffusion Models with Evolutionary Algorithms*.  
+5. *Inference-Time Alignment of Diffusion Models with Evolutionary Algorithms*.  
  Jajal, Eliopoulos, Chou, Thiruvathukal, **Davis**, and Lu.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2506.00299"><i class="fas fa-file-pdf"></i></a>
-5. *SysLLMatic: Large Language Models are Software System Optimizers*.  
+6. *SysLLMatic: Large Language Models are Software System Optimizers*.  
  Peng, Gupte, Hasler, Eliopoulos, Ho, Mantri, Deng, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2506.01249"><i class="fas fa-file-pdf"></i></a>
-6. *ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain*.  
+7. *ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain*.  
  Kalu, Okorafor, Durak, Laine, Moreno, Torres-Arias, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2505.18760"><i class="fas fa-file-pdf"></i></a>
-7. *Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale*.  
+8. *Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale*.  
  Rozema and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2506.19899"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395"><i class="fab fa-medium"></i></a>
-8. *Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies*.  
+9. *Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies*.  
  Çakar, Sale, Chen, Burmane, Lee, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.20579"><i class="fas fa-file-pdf"></i></a>
-9. *AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges*.  
+10. *AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges*.  
  Gao, Zahedi, Jiang, Lin, **Davis**, and Treude.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.19444"><i class="fas fa-file-pdf"></i></a>
-10. *Why Johnny Signs with Next-Generation Tools: A Usability Case Study of Sigstore*.  
+11. *Why Johnny Signs with Next-Generation Tools: A Usability Case Study of Sigstore*.  
  Kalu, Okorafor, Singla, Torres-Arias, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.00271"><i class="fas fa-file-pdf"></i></a>
-11. *ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale*.  
+12. *ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale*.  
  Jiang, Cakar, Lysenko, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2502.20528"><i class="fas fa-file-pdf"></i></a>
-12. *DiVerify: Hardening Identity-Based Software Signing with Programmable Diverse-Context Scopes*.  
+13. *DiVerify: Hardening Identity-Based Software Signing with Programmable Diverse-Context Scopes*.  
  Okafor, **Davis**, and Torres-Arias.  
  arXiv 2025.  
  <a href="https://arxiv.org/abs/2406.15596"><i class="fas fa-file-pdf"></i></a>
-13. *Reactive Bottom-Up Testing*.  
+14. *Reactive Bottom-Up Testing*.  
  Muralee, Cherupattamoolayil, **Davis**, Bianchi, and Machiry.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2509.03711"><i class="fas fa-file-pdf"></i></a>
-14. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
+15. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
  Peng, Gupte, Eliopoulos, Ho, Mantri, Deng, Jiang, Lu, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2410.09241"><i class="fas fa-file-pdf"></i></a>
-15. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
+16. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
  Purohit, Jiang, Ravikiran, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2404.18801"><i class="fas fa-file-pdf"></i></a>
-16. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+17. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/pdf/2107.00821"><i class="fas fa-file-pdf"></i></a>

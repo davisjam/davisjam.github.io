@@ -720,6 +720,16 @@
         
         {
             "type": "arxiv",
+            "authors": ["Amusuo", "Liu", "Calvo", "Metzman", "Chang", "**Davis**"],
+            "title": "FalseCrashReducer: Mitigating False Positive Crashes in OSS-Fuzz-Gen Using Agentic AI",
+            "venue": "arXiv",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2510.02185",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Anandayuvaraj", "Hammadeh", "Lund", "Holloway", "**Davis**"],
             "title": "Learning From Software Failures: A Case Study at a National Space Research Center",
             "venue": "arXiv",
