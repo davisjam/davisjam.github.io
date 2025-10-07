@@ -720,6 +720,26 @@
         
         {
             "type": "arxiv",
+            "authors": ["Pautsch", "Singla", "Jiang", "Peng", "Hassanshahi", "Läufer", "Thiruvathukal", "**Davis**"],
+            "title": "AgentHub: A Research Agenda for Agent Sharing Infrastructure",
+            "venue": "arXiv",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2510.03495",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
+            "authors": ["Kalu", "**Davis**"],
+            "title": "Why Software Signing (Still) Matters: Trust Boundaries in the Software Supply Chain",
+            "venue": "arXiv",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2510.04964",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Amusuo", "Liu", "Calvo", "Metzman", "Chang", "**Davis**"],
             "title": "FalseCrashReducer: Mitigating False Positive Crashes in OSS-Fuzz-Gen Using Agentic AI",
             "venue": "arXiv",

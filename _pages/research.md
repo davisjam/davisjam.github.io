@@ -203,6 +203,7 @@ You could join them! [Here are the instructions to get started](/join-lab).
 - Mohammed Sameh, BSc 2024
 - Mingyu Kim, BSc 2024, now MSc student at Purdue University
 - Heesoo Kim, BSc 2024
+- Zhongwei Xu, BSc Xi’an Jiaotong University, now PhD student at U Michigan
 - [Matthew Campbell](), BSc 2024, Cisco
 - [Kyle Robinson](), BSc 2024, Lockheed-Martin
 - [Ananya Singh](https://www.linkedin.com/in/imananyasingh/), BSc 2023, Google
