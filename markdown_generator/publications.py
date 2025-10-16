@@ -61,6 +61,8 @@ def pub2md(pub):
         ))
     if 'bestPaperAward' in pub and pub['bestPaperAward']:
         links.append('[Best Paper Award](){: .btn}')
+    if 'bestArtifactAward' in pub and pub['bestArtifactAward']:
+        links.append('[Best Artifact Award](){: .btn}')
     
     if len(pub['authors']) == 1:
         authList = pub['authors'][0]

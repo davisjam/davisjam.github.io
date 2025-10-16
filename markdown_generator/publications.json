@@ -561,7 +561,8 @@
             "slidesBasename": "KellasChristouJiangLiSimonDavidKemerlisDavisYang-PickleBall-CCS2025-slides.pptx",
             "artifactURL": "",
             "videoURL": "",
-            "blogURL": ""
+            "blogURL": "",
+            "bestArtifactAward": true
         },        
         {
             "type": "conference",
@@ -574,6 +575,26 @@
             "artifactURL": "",
             "videoURL": ""
         },
+        {
+            "type": "conference",
+            "authors": ["Anandayuvaraj", "Singla", "Hammadeh", "Lund", "Holloway", "**Davis**"],
+            "title": "Learning From Software Failures: A Case Study at a National Space Research Center",
+            "venue": "Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE)",
+            "year": 2026,
+            "paperBasename": "https://arxiv.org/pdf/2509.06301",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "conference",
+            "authors": ["Jiang", "Cakar", "Lysenko", "**Davis**"],
+            "title": "ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale",
+            "venue": "Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE)",
+            "year": 2026,
+            "paperBasename": "https://arxiv.org/pdf/2502.20528",
+            "artifactURL": "",
+            "videoURL": ""
+        }, 
 
 
         {
@@ -750,16 +771,6 @@
         },
         {
             "type": "arxiv",
-            "authors": ["Anandayuvaraj", "Hammadeh", "Lund", "Holloway", "**Davis**"],
-            "title": "Learning From Software Failures: A Case Study at a National Space Research Center",
-            "venue": "arXiv",
-            "year": 2025,
-            "paperBasename": "https://arxiv.org/pdf/2509.06301",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
             "authors": ["Yasmin", "Jiang", "**Davis**", "Tian"],
             "title": "Software Dependencies 2.0: An Empirical Study of Reuse and Integration of Pre-Trained Models in Open-Source Projects",
             "venue": "arXiv",
@@ -846,16 +857,6 @@
             "venue": "arXiv",
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2503.00271",
-            "artifactURL": "",
-            "videoURL": ""
-        }, 
-        {
-            "type": "arxiv",
-            "authors": ["Jiang", "Cakar", "Lysenko", "**Davis**"],
-            "title": "ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale",
-            "venue": "arXiv",
-            "year": 2025,
-            "paperBasename": "https://arxiv.org/pdf/2502.20528",
             "artifactURL": "",
             "videoURL": ""
         }, 

@@ -36,6 +36,8 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- A paper accepted to **ICSE'26** on failure knowledge management in high-reliability software organizations. Congratulations Dharun and Tanmay!
+- A paper accepted to **ICSE'26** on the detection of typosquatting attacks in HuggingFace, NPM, and other registries. Congratulations Wenxin and Berk!
 - PickleBall wins the Best Artifact Award at CCS'25. Congrats, Andreas and all!
 - NSF funds a RoRS grant to study security for research software engineering. Thank you, US taxpayers!
 - Duality Lab publishes a guide to stakeholder analysis for cybersecurity researchers. We hope this helps the security community adapt to new requirements from USENIX and other venues.
