@@ -45,6 +45,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Duality Lab publishes a guide to stakeholder analysis for cybersecurity researchers. We hope this helps the security community adapt to new requirements from USENIX and other venues.
 - One paper accepted to **CCS** on safe deserialization (pickle) of pre-trained machine learning models. Congrats to Andreas and the team!
 - Recognized as a Distinguished Reviewer at **USENIX Security 2025**.
+- Evan receives a CSGrad4US fellowship for graduate study. Congratulations, Evan!
 - Serving on the **AAAI 2026 PC**.
 - A poster at IEEE SecDev on LLM jailbreaking. Congrats to the VIP team, led by Mohamed Ahmed and Mohamed Abdelmouty!
 - One paper accepted to **EMSE** on the naming conventions of pre-trained models. Congrats to Wenxin and the author team!

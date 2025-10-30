@@ -184,37 +184,42 @@ You could join them! [Here are the instructions to get started](/join-lab).
 #### Undergraduate
 
 - The Pre-Trained Models research team (through Purdue's VIP program)
-- Sophie Chen
 
 #### Alumni
 
+MSc and PhDs who have completed theses under my supervision.
+
 - [Wenxin Jiang](https://wenxin-jiang.github.io), PhD 2025, working as a Research Software Engineer at Socket, Inc.
-- [Taylor Schorlemmer](https://www.linkedin.com/in/taylor-reeves-schorlemmer/), MSc 2024, will serve as a cyber-officer in the US Army
+- [Taylor Schorlemmer](https://www.linkedin.com/in/taylor-reeves-schorlemmer/), MSc 2024, serving as a cyber-officer in the US Army
 - [Jason Jones](https://www.linkedin.com/in/jonesjasonh/), MSc 2024, BotDojo
-- [William "Trey" Maxam](https://www.linkedin.com/in/william-m-714184114/), MSc 2023, will serve as an instructor at the US Coast Guard Academy
+- [William "Trey" Maxam](https://www.linkedin.com/in/william-m-714184114/), MSc 2023, serving as an instructor at the US Coast Guard Academy
 - [Geoffrey Cramer](https://www.linkedin.com/in/geoff-cramer-85b430129/), MSc 2023, Boundless
-- Charlie Sale, MSc 2024
-- Arav Tewari, BSc 2024, now MSc at CMU
-- Taylor Le Lievre, BSc 2024, now MSc student at Columbia University
-- Nathaniel Bielanski, BSc 2024
-- Owen Cochell, BSc 2025, now PhD student at UIUC
-- Ethan Burmane, BSc 2025
+
+Some of the undergraduates who have worked with me --- over 175 in total.
+
+- [Charlie Sale](https://www.linkedin.com/in/charles-michael-sale/), MSc 2024
+- [Arav Tewari](https://www.linkedin.com/in/arav-tewari/), BSc 2024, now MSc at CMU
+- [Taylor Le Lievre](https://www.linkedin.com/in/taylor-le-lievre/), BSc 2024, now MSc student at Columbia University
+- [Nathaniel Bielanski](https://www.linkedin.com/in/nathaniel-bielanski-902780227/), BSc 2024
+- [Owen Cochell](https://www.linkedin.com/in/owen-cochell/), BSc 2025 from MSU, now PhD student at UIUC
+- [Ethan Burmane](https://www.linkedin.com/in/ethanburmane/), BSc 2025, OpsTerra
+- Sophie Chen, BSc 2025 from UMich, now MSc student at CMU
 - Mohammed Ahmed, BSc 2024
 - Mohammed Sameh, BSc 2024
-- Mingyu Kim, BSc 2024, now MSc student at Purdue University
+- [Mingyu Kim](https://www.linkedin.com/in/mingyu-ck-kim/), BSc 2024, now MSc student at Purdue University
 - Heesoo Kim, BSc 2024
 - Zhongwei Xu, BSc Xi’an Jiaotong University, now PhD student at U Michigan
-- [Matthew Campbell](), BSc 2024, Cisco
-- [Kyle Robinson](), BSc 2024, Lockheed-Martin
+- [Matthew Campbell](https://www.linkedin.com/in/matthew-campbell-3375081b6/), BSc 2024, Cisco
+- [Kyle Robinson](https://www.linkedin.com/in/kyle-robinson-4078a2212/), BSc 2024, Lockheed-Martin. ECE Undergrad Research Award.
 - [Ananya Singh](https://www.linkedin.com/in/imananyasingh/), BSc 2023, Google
-- [Evan Williams](https://www.linkedin.com/in/evanwilliams02/), BSc 2023 (transferred to Cornell), SWE at AWS and lab assistant at Stanford
+- [Evan Williams](https://www.linkedin.com/in/evanwilliams02/), BSc 2023 (transferred to Cornell), SWE at AWS and lab assistant at Stanford. CSGrad4US Fellow.
 - [David Li](https://www.linkedin.com/in/davidli12/), BSc 2022, Google
 - [Zach Ghera](https://www.linkedin.com/in/zghera/), BSc 2022, Google
 - [Allen Liu](https://www.linkedin.com/in/lenliu3/), BSc 2022, Amazon
 - [Feny Patel](https://www.linkedin.com/in/feny-patel/), BSc 2022, Meta
-- [Efe Barlas](https://www.linkedin.com/in/efebarlas/), BSc 2022, Amazon
+- [Efe Barlas](https://www.linkedin.com/in/efebarlas/), BSc 2022, Amazon. ECE Undergrad Research Award.
 - [Xin Du](https://www.linkedin.com/in/xin-du/), BSc 2022, Aviatrix
 - [Diego Montes](https://www.linkedin.com/in/montes-diego/), BSc 2022, SpaceX
 - [Naveen Vivek](https://www.linkedin.com/in/naveen-vivek/), BSc 2022, AMD
 - Anirudh Vegesana, BSc 2021, Pursuing MSc in CS@Stanford
-- [Vishnu Banna](https://www.linkedin.com/in/vishnubanna/), BSc 2021, Apple
+- [Vishnu Banna](https://www.linkedin.com/in/vishnubanna/), BSc 2021, Apple. Honorable Mention for the CRA Undergrad Researcher Award. ECE Undergrad Research Award.
