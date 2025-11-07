@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- Eli is awarded a Rolls-Royce Cyber Technology Research Assistantship for his MSc work. Congrats, Eli!   
 - Dharun passes his preliminary exam. Congratulations, PhD Candidate Anandayuvaraj!
 - I receive the inaugural Paul Krause Faculty Research Award from ECE@Purdue. What an honor!
 - A paper accepted to **ICSE'26** on failure knowledge management in high-reliability software organizations. Congratulations Dharun and Tanmay!

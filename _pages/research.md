@@ -197,7 +197,7 @@ MSc and PhDs who have completed theses under my supervision.
 
 Some of the undergraduates who have worked with me --- over 175 in total.
 
-- [Charlie Sale](https://www.linkedin.com/in/charles-michael-sale/), MSc 2024
+- [Charlie Sale](https://www.linkedin.com/in/charles-michael-sale/), BSc 2023, MSc 2024
 - [Arav Tewari](https://www.linkedin.com/in/arav-tewari/), BSc 2024, now MSc at CMU
 - [Taylor Le Lievre](https://www.linkedin.com/in/taylor-le-lievre/), BSc 2024, now MSc student at Columbia University
 - [Nathaniel Bielanski](https://www.linkedin.com/in/nathaniel-bielanski-902780227/), BSc 2024
