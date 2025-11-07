@@ -44,7 +44,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 - PickleBall wins the Best Artifact Award at CCS'25. Congrats, Andreas and all!
 - NSF funds a RoRS grant to study security for research software engineering. Thank you, US taxpayers!
 - Duality Lab publishes a guide to stakeholder analysis for cybersecurity researchers. We hope this helps the security community adapt to new requirements from USENIX and other venues.
-- One paper accepted to **CCS** on safe deserialization (pickle) of pre-trained machine learning models. Congrats to Andreas and the team!
+- One paper accepted to **CCS'25** on safe deserialization (pickle) of pre-trained machine learning models. Congrats to Andreas and the team!
 - Recognized as a Distinguished Reviewer at **USENIX Security 2025**.
 - Evan receives a CSGrad4US fellowship for graduate study. Congratulations, Evan!
 - Serving on the **AAAI 2026 PC**.
