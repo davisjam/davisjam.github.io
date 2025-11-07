@@ -443,7 +443,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Trustworthy Reuse in the Machine Learning Model Supply Chain*.  
  **Jiang**.  
  PhD, Electrical & Computer Engineering, Purdue University 2025.  
- <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Jiang-PreTrainedModels-PhD-Final Defense-May2025.pptx"><i class="fas fa-file-powerpoint"></i></a>
+ <a href="https://hammer.purdue.edu/articles/thesis/_b_TRUSTWORTHY_REUSE_IN_THE_MACHINE_LEARNING_MODEL_SUPPLY_CHAIN_b_/28897502?file=54137378"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Jiang-PreTrainedModels-PhD-Final Defense-May2025.pptx"><i class="fas fa-file-powerpoint"></i></a>
 2. *A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries*.  
  **Jones**.  
  MSc, Electrical & Computer Engineering, Purdue University 2024.  
