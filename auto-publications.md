@@ -61,7 +61,7 @@ To see them organized approximately by project, see [here](/research).
 13. *PickleBall: Secure Deserialization of Pickle-based Machine Learning Models*.  
  Kellas, Christou, Jiang, Li, Simon, David, Kemerlis, **Davis**, and Yang.  
  Proceedings of the 32nd ACM Conference on Computer and Communications Security (CCS) 2025.  
- <a href="https://arxiv.org/pdf/2508.15987"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/KellasChristouJiangLiSimonDavidKemerlisDavisYang-PickleBall-CCS2025-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> [Best Artifact Award](){: .btn}
+ <a href="https://arxiv.org/pdf/2508.15987"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/KellasChristouJiangLiSimonDavidKemerlisDavisYang-PickleBall-CCS2025-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/records/16974645"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/pickleball-secure-deserialization-of-pickle-based-machine-learning-models-a089113e6b0f"><i class="fab fa-medium"></i></a> [Best Artifact Award](){: .btn}
 14. *PeaTMOSS: A Dataset and Initial Analysis of Pre-Trained Models in Open-Source Software*.  
  Jiang, Yasmin, Jones, Synovic, Kuo, Bielanski, Tian, Thiruvathukal, and **Davis**.  
  Proceedings of the 21st Annual Conference on Mining Software Repositories (MSR) 2024.  

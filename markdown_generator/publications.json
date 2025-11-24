@@ -559,9 +559,9 @@
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2508.15987",
             "slidesBasename": "KellasChristouJiangLiSimonDavidKemerlisDavisYang-PickleBall-CCS2025-slides.pptx",
-            "artifactURL": "",
+            "artifactURL": "https://zenodo.org/records/16974645",
             "videoURL": "",
-            "blogURL": "",
+            "blogURL": "https://davisjam.medium.com/pickleball-secure-deserialization-of-pickle-based-machine-learning-models-a089113e6b0f",
             "bestArtifactAward": true
         },        
         {
