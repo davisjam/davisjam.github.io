@@ -741,6 +741,16 @@
         
         {
             "type": "arxiv",
+            "authors": ["Jajal", "Eliopoulos", "Chou", "Thiruvathkual", "Lu", "**Davis**"],
+            "title": "AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens",
+            "venue": "arXiv",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2511.18105",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Pautsch", "Singla", "Jiang", "Peng", "Hassanshahi", "Läufer", "Thiruvathukal", "**Davis**"],
             "title": "AgentHub: A Research Agenda for Agent Sharing Infrastructure",
             "venue": "arXiv",
