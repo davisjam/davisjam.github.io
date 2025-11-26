@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- Paschal will begin a role as a Software Engineer at Google following his PhD. On to the next adventure!
 - Eli is awarded a Rolls-Royce Cyber Technology Research Assistantship for his MSc work. Congrats, Eli!   
 - Dharun passes his preliminary exam. Congratulations, PhD Candidate Anandayuvaraj!
 - I receive the inaugural Paul Krause Faculty Research Award from ECE@Purdue. What an honor!
