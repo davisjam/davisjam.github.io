@@ -802,7 +802,7 @@
         {
             "type": "arxiv",
             "authors": ["Jajal", "Eliopoulos", "Chou", "Thiruvathukal", "**Davis**", "Lu"],
-            "title": "Inference-Time Alignment of Diffusion Models with Evolutionary Algorithms",
+            "title": "Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms",
             "venue": "arXiv",
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2506.00299",

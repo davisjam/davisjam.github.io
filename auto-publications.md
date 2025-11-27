@@ -335,7 +335,7 @@ To see them organized approximately by project, see [here](/research).
  **Davis**, Chen, Peng, Amusuo, and Kalu.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2508.14796"><i class="fas fa-file-pdf"></i></a>
-7. *Inference-Time Alignment of Diffusion Models with Evolutionary Algorithms*.  
+7. *Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms*.  
  Jajal, Eliopoulos, Chou, Thiruvathukal, **Davis**, and Lu.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2506.00299"><i class="fas fa-file-pdf"></i></a>
