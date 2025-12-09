@@ -41,6 +41,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Eli is awarded a Rolls-Royce Cyber Technology Research Assistantship for his MSc work. Congrats, Eli!   
 - Dharun passes his preliminary exam. Congratulations, PhD Candidate Anandayuvaraj!
 - I receive the inaugural Paul Krause Faculty Research Award from ECE@Purdue. What an honor!
+- Purvish will intern next summer at Block. Hope he has a great time.
 - A paper accepted to **ICSE'26** on failure knowledge management in high-reliability software organizations. Congratulations Dharun and Tanmay!
 - A paper accepted to **ICSE'26** on the detection of typosquatting attacks in HuggingFace, NPM, and other registries. Congratulations Wenxin and Berk!
 - PickleBall wins the Best Artifact Award at CCS'25. Congrats, Andreas and all!
