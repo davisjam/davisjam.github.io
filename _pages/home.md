@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- Purvish passes his preliminary exam. Congrats, PhD Candidate Jajal!
 - Paschal will begin a role at Google following his PhD. On to the next adventure!
 - Eli is awarded a Rolls-Royce Cyber Technology Research Assistantship for his MSc work. Congrats, Eli!   
 - Dharun passes his preliminary exam. Congratulations, PhD Candidate Anandayuvaraj!
