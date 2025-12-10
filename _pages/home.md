@@ -26,7 +26,7 @@ Two values inform our research:
 
 We publish our research in the premier venues for software engineering (ICSE, FSE, ASE) and cybersecurity (S&P, USENIX).
 
-Several organizations support our research, including the US National Science Foundation, Google, Cisco, and Rolls Royce.
+I am grateful to the sponsors of our research: the US National Science Foundation, Google, Cisco, Qualcomm, OpenAI, Socket, and Rolls Royce.
 
 Use the links at the top to learn more about our activities.
 
