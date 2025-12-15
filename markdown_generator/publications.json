@@ -595,6 +595,16 @@
             "artifactURL": "",
             "videoURL": ""
         }, 
+        {
+            "type": "conference",
+            "authors": ["Kalu", "Okorafor", "Singla", "Chen", "Torres-Arias", "**Davis**"],
+            "title": "Why Johnny Adopts Identity-Based Software Signing: A Usability Case Study of Sigstore",
+            "venue": "Proceedings of the 35th USENIX Security Symposium (SECURITY)",
+            "year": 2026,
+            "paperBasename": "https://arxiv.org/pdf/2503.00271",
+            "artifactURL": "",
+            "videoURL": ""
+        }, 
 
 
         {
@@ -860,16 +870,6 @@
             "artifactURL": "",
             "videoURL": ""
         },
-        {
-            "type": "arxiv",
-            "authors": ["Kalu", "Okorafor", "Singla", "Torres-Arias", "**Davis**"],
-            "title": "Why Johnny Signs with Next-Generation Tools: A Usability Case Study of Sigstore",
-            "venue": "arXiv",
-            "year": 2025,
-            "paperBasename": "https://arxiv.org/pdf/2503.00271",
-            "artifactURL": "",
-            "videoURL": ""
-        }, 
         {
             "type": "arxiv",
             "authors": ["Okafor", "**Davis**", "Torres-Arias"],
