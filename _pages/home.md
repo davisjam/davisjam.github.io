@@ -36,7 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
-- Lab alum Arav Tewari will intern at OpenAI next summer -- sounds amazing :-)
+- Lab alum Arav Tewari will intern at OpenAI in Summer 2026 -- sounds amazing :-)
 - One "Johnny" paper accepted to USENIX Security'26 on usability in identity-based software signing. Congratulations to Kelechi, Sofia, Tanmay, and Sophie!
 - Nick passes his preliminary exam. Congrats, PhD Candidate Eliopoulos!
 - Purvish passes his preliminary exam. Congrats, PhD Candidate Jajal!
