@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- Parth defends his MSc thesis. Congrats, Master Parth! Parth will work at Amazon Robotics after graduation.
 - Lab alum Arav Tewari will intern at OpenAI in Summer 2026 -- sounds amazing :-)
 - One "Johnny" paper accepted to USENIX Security'26 on usability in identity-based software signing. Congratulations to Kelechi, Sofia, Tanmay, and Sophie!
 - Nick passes his preliminary exam. Congrats, PhD Candidate Eliopoulos!
