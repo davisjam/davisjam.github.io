@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2025
 
+- Geoff heads to Bluesky as a Trust & Safety Engineer. A very cool follow-up from our [JSS'25 paper](https://davisjam.github.io//files/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf) on Trust & Safety!
 - Parth defends his MSc thesis. Congrats, Master Parth! Parth will work at Amazon Robotics after graduation.
 - Lab alum Arav Tewari will intern at OpenAI in Summer 2026 -- sounds amazing :-)
 - One "Johnny" paper accepted to USENIX Security'26 on usability in identity-based software signing. Congratulations to Kelechi, Sofia, Tanmay, and Sophie!
