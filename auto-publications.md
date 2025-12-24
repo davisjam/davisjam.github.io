@@ -318,7 +318,7 @@ To see them organized approximately by project, see [here](/research).
 1. *AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens*.  
  Jajal, Eliopoulos, Chou, Thiruvathkual, Lu, and **Davis**.  
  arXiv 2025.  
- <a href="https://arxiv.org/pdf/2511.18105"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://arxiv.org/pdf/2511.18105"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/pjjajal/adaperceiver-public"><i class="fas fa-file-code"></i></a>
 2. *AgentHub: A Research Agenda for Agent Sharing Infrastructure*.  
  Pautsch, Singla, Jiang, Peng, Hassanshahi, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2025.  
