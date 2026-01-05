@@ -751,7 +751,27 @@
         
         {
             "type": "arxiv",
-            "authors": ["Jajal", "Eliopoulos", "Chou", "Thiruvathkual", "Lu", "**Davis**"],
+            "authors": ["Singla", "Çakar", "Amusuo", "**Davis**"],
+            "title": "Understanding Security Risks of AI Agents' Dependency Updates",
+            "venue": "arXiv",
+            "year": 2026,
+            "paperBasename": "https://arxiv.org/pdf/2601.00205",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
+            "authors": ["Peng", "Zhong", "Méndez", "Kalu", "**Davis**"],
+            "title": "How Do Agents Perform Code Optimization? An Empirical Study",
+            "venue": "arXiv",
+            "year": 2025,
+            "paperBasename": "https://arxiv.org/pdf/2512.21757",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
+            "authors": ["Jajal", "Eliopoulos", "Chou", "Thiruvathukal", "Lu", "**Davis**"],
             "title": "AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens",
             "venue": "arXiv",
             "year": 2025,

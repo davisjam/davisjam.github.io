@@ -315,71 +315,79 @@ To see them organized approximately by project, see [here](/research).
 
 ## Technical reports
 
-1. *AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens*.  
- Jajal, Eliopoulos, Chou, Thiruvathkual, Lu, and **Davis**.  
+1. *Understanding Security Risks of AI Agents' Dependency Updates*.  
+ Singla, Çakar, Amusuo, and **Davis**.  
+ arXiv 2026.  
+ <a href="https://arxiv.org/pdf/2601.00205"><i class="fas fa-file-pdf"></i></a>
+2. *How Do Agents Perform Code Optimization? An Empirical Study*.  
+ Peng, Zhong, Méndez, Kalu, and **Davis**.  
+ arXiv 2025.  
+ <a href="https://arxiv.org/pdf/2512.21757"><i class="fas fa-file-pdf"></i></a>
+3. *AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens*.  
+ Jajal, Eliopoulos, Chou, Thiruvathukal, Lu, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2511.18105"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/pjjajal/adaperceiver-public"><i class="fas fa-file-code"></i></a>
-2. *AgentHub: A Research Agenda for Agent Sharing Infrastructure*.  
+4. *AgentHub: A Research Agenda for Agent Sharing Infrastructure*.  
  Pautsch, Singla, Jiang, Peng, Hassanshahi, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2510.03495"><i class="fas fa-file-pdf"></i></a>
-3. *Why Software Signing (Still) Matters: Trust Boundaries in the Software Supply Chain*.  
+5. *Why Software Signing (Still) Matters: Trust Boundaries in the Software Supply Chain*.  
  Kalu and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2510.04964"><i class="fas fa-file-pdf"></i></a>
-4. *FalseCrashReducer: Mitigating False Positive Crashes in OSS-Fuzz-Gen Using Agentic AI*.  
+6. *FalseCrashReducer: Mitigating False Positive Crashes in OSS-Fuzz-Gen Using Agentic AI*.  
  Amusuo, Liu, Calvo, Metzman, Chang, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2510.02185"><i class="fas fa-file-pdf"></i></a>
-5. *Software Dependencies 2.0: An Empirical Study of Reuse and Integration of Pre-Trained Models in Open-Source Projects*.  
+7. *Software Dependencies 2.0: An Empirical Study of Reuse and Integration of Pre-Trained Models in Open-Source Projects*.  
  Yasmin, Jiang, **Davis**, and Tian.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2509.06085"><i class="fas fa-file-pdf"></i></a>
-6. *A Guide to Stakeholder Analysis for Cybersecurity Researchers*.  
+8. *A Guide to Stakeholder Analysis for Cybersecurity Researchers*.  
  **Davis**, Chen, Peng, Amusuo, and Kalu.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2508.14796"><i class="fas fa-file-pdf"></i></a>
-7. *Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms*.  
+9. *Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms*.  
  Jajal, Eliopoulos, Chou, Thiruvathukal, **Davis**, and Lu.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2506.00299"><i class="fas fa-file-pdf"></i></a>
-8. *SysLLMatic: Large Language Models are Software System Optimizers*.  
+10. *SysLLMatic: Large Language Models are Software System Optimizers*.  
  Peng, Gupte, Hasler, Eliopoulos, Ho, Mantri, Deng, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2506.01249"><i class="fas fa-file-pdf"></i></a>
-9. *ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain*.  
+11. *ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain*.  
  Kalu, Okorafor, Durak, Laine, Moreno, Torres-Arias, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2505.18760"><i class="fas fa-file-pdf"></i></a>
-10. *Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale*.  
+12. *Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale*.  
  Rozema and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2506.19899"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395"><i class="fab fa-medium"></i></a>
-11. *Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies*.  
+13. *Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies*.  
  Çakar, Sale, Chen, Burmane, Lee, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.20579"><i class="fas fa-file-pdf"></i></a>
-12. *AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges*.  
+14. *AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges*.  
  Gao, Zahedi, Jiang, Lin, **Davis**, and Treude.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.19444"><i class="fas fa-file-pdf"></i></a>
-13. *DiVerify: Hardening Identity-Based Software Signing with Programmable Diverse-Context Scopes*.  
+15. *DiVerify: Hardening Identity-Based Software Signing with Programmable Diverse-Context Scopes*.  
  Okafor, **Davis**, and Torres-Arias.  
  arXiv 2025.  
  <a href="https://arxiv.org/abs/2406.15596"><i class="fas fa-file-pdf"></i></a>
-14. *Reactive Bottom-Up Testing*.  
+16. *Reactive Bottom-Up Testing*.  
  Muralee, Cherupattamoolayil, **Davis**, Bianchi, and Machiry.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2509.03711"><i class="fas fa-file-pdf"></i></a>
-15. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
+17. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
  Peng, Gupte, Eliopoulos, Ho, Mantri, Deng, Jiang, Lu, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2410.09241"><i class="fas fa-file-pdf"></i></a>
-16. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
+18. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
  Purohit, Jiang, Ravikiran, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2404.18801"><i class="fas fa-file-pdf"></i></a>
-17. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+19. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/pdf/2107.00821"><i class="fas fa-file-pdf"></i></a>
