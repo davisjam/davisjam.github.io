@@ -609,7 +609,7 @@
             "type": "conference",
             "authors": ["Rozema", "**Davis**"],
             "title": "Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale",
-            "venue": "Proceedings of the ACM Web Conference 2026 (WWW)",
+            "venue": "Proceedings of the ACM Web Conference (WWW)",
             "year": 2026,
             "paperBasename": "https://arxiv.org/pdf/2506.19899",
             "artifactURL": "",

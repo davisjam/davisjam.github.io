@@ -28,7 +28,7 @@ To see them organized approximately by project, see [here](/research).
  <a href="https://arxiv.org/pdf/2503.00271"><i class="fas fa-file-pdf"></i></a>
 5. *Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale*.  
  Rozema and **Davis**.  
- Proceedings of the ACM Web Conference 2026 (WWW) 2026.  
+ Proceedings of the ACM Web Conference (WWW) 2026.  
  <a href="https://arxiv.org/pdf/2506.19899"><i class="fas fa-file-pdf"></i></a> <a href="https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395"><i class="fab fa-medium"></i></a>
 6. *Token Turing Machines are Efficient Vision Models*.  
  Jajal, Eliopoulos, Chou, Thiruvathukal, **Davis**, and Lu.  
