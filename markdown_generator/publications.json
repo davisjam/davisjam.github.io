@@ -605,6 +605,17 @@
             "artifactURL": "",
             "videoURL": ""
         }, 
+        {
+            "type": "conference",
+            "authors": ["Rozema", "**Davis**"],
+            "title": "Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale",
+            "venue": "Proceedings of the ACM Web Conference 2026 (WWW)",
+            "year": 2026,
+            "paperBasename": "https://arxiv.org/pdf/2506.19899",
+            "artifactURL": "",
+            "videoURL": "",
+            "blogURL": "https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395"
+        },
 
 
         {
@@ -858,17 +869,6 @@
             "paperBasename": "https://arxiv.org/pdf/2505.18760",
             "artifactURL": "",
             "videoURL": ""
-        },
-        {
-            "type": "arxiv",
-            "authors": ["Rozema", "**Davis**"],
-            "title": "Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale",
-            "venue": "arXiv",
-            "year": 2025,
-            "paperBasename": "https://arxiv.org/pdf/2506.19899",
-            "artifactURL": "",
-            "videoURL": "",
-            "blogURL": "https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395"
         },
         {
             "type": "arxiv",

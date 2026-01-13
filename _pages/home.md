@@ -34,6 +34,10 @@ Use the links at the top to learn more about our activities.
 
 This disorganized list summarizes my research, teaching, and service activities.
 
+## 2026
+
+- Drew's paper on anti-phishing training will appear at WWW'26. Congrats Drew! To learn more, see the [Preprint](https://arxiv.org/pdf/2506.19899) or the [Blog version](https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395).
+
 ## 2025
 
 - Geoff heads to Bluesky as a Trust & Safety Engineer. A very cool follow-up from our [JSS'25 paper](https://davisjam.github.io//files/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf) on Trust & Safety!
