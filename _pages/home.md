@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2026
 
+- I will be organizing a workshop at ASEE'26 titled "The 'Do More With Less' Cookbook: Using Generative AI to Accelerate your Day-to-Day Work as an Engineering Educator". Look forward to seeing everyone in Charlotte!
 - Intel donates equipment to support my research on the educational use of GenAI, associated with [NSF #2452533](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2452533&HistoricalAwards=false). Thank you, Intel.
 - Drew's paper on anti-phishing training will appear at WWW'26. Congrats Drew! To learn more, see the [Preprint](https://arxiv.org/pdf/2506.19899) or the [Blog version](https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395).
 
