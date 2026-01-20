@@ -268,51 +268,55 @@ To see them organized approximately by project, see [here](/research).
 
 ## Peer-reviewed workshop papers
 
-1. *Recommending Pre-Trained Models for IoT Devices*.  
+1. *How Do Agents Perform Code Optimization? An Empirical Study*.  
+ Peng, Zhong, Méndez, Kalu, and **Davis**.  
+ Proceedings of the 23rd International Mining Software Repositories Conference -- Mining Challenge track (MSR-MiningChallenge) 2026.  
+ <a href="https://arxiv.org/pdf/2512.21757"><i class="fas fa-file-pdf"></i></a>
+2. *Recommending Pre-Trained Models for IoT Devices*.  
  Patil, Jiang, Peng, Lugo, Kalu, LeBlanc, Smith, Heo, Aou, and **Davis**.  
  Proceedings of the 7th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT) 2025.  
  <a href="https://arxiv.org/pdf/2412.18972"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/PatilJiangPengLugoKaluLeBlancSmithHeoAouDavis-PTMRecommendation-SERP4IoT2025.pptx"><i class="fas fa-file-powerpoint"></i></a>
-2. *An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures*.  
+3. *An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures*.  
  Singla, Anandayuvaraj, Kalu, Schorlemmer, and **Davis**.  
  Proceedings of the 2nd ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SinglaAnandayuvarajKaluSchorlemmerDavis-LLMsForSupplyChainFailureAnalysis-SCORED2023.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SinglaAnandayuvarajKaluSchorlemmerDavis-LLMsForSupplyChainFailureAnalysis-SCORED2023-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://zenodo.org/record/8365116"><i class="fas fa-file-code"></i></a>
-3. *Incorporating Failure Knowledge into Design Decisions for IoT Systems: A Controlled Experiment on Novices*.  
+4. *Incorporating Failure Knowledge into Design Decisions for IoT Systems: A Controlled Experiment on Novices*.  
  Anandayuvaraj, Thulluri, Figueroa, Shandilya, and **Davis**.  
  Proceedings of the 5th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT) 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AnandayuvarajThulluriFigueroaShandilyaDavis-FailureKnowledgeAndDesignDecisions-SERP4IoT2023.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/AnandayuvarajThulluriFigueroaShandilyaDavis-FailureKnowledgeAndDesignDecisions-SERP4IoT2023-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://davisjam.medium.com/incorporating-failure-knowledge-into-design-decisions-for-iot-systems-a-controlled-experiment-825464c55f59"><i class="fab fa-medium"></i></a>
-4. *SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties*.  
+5. *SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties*.  
  Okafor, Schorlemmer, Torres-Arias, and **Davis**.  
  Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2022.  
  <a href="https://arxiv.org/pdf/2406.10109"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/OkaforSchorlemmerTorresAriasDavis-SupplyChainSoK-SCORED22-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://medium.com/p/6a0c897d5777"><i class="fab fa-medium"></i></a>
-5. *An Empirical Study of Artifacts and Security Practices in the Pre-trained Model Supply Chain*.  
+6. *An Empirical Study of Artifacts and Security Practices in the Pre-trained Model Supply Chain*.  
  Jiang, Synovic, Sethi, Indarapu, Hyatt, Schorlemmer, Thiruvathukal, and **Davis**.  
  Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukalDavis-PTMSupplyChain-SCORED22.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukalDavis-PTMSupplyChain-SCORED22-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://github.com/PurdueDualityLab/SCORED22-PTMSupplyChain"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/an-empirical-study-of-artifacts-and-security-risks-in-the-pre-trained-model-supply-chain-2c75fd99942b"><i class="fab fa-medium"></i></a>
-6. *Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics*.  
+7. *Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics*.  
  Synovic, Hyatt, Sethi, Thota, Shilpika, Miller, Jiang, Pinderski, Läufer, Hayward, Klingensmith, **Davis**, and Thiruvathukal.  
  Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering: Demonstrations track (ASE-Demonstrations) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/SynovicHyattSethiThotaShilpikaMillerJiangPinderskiLauferHaywardKlingensmithDavisThiruvathukal-LongitudinalMetrics-ASE22Demo.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/SoftwareSystemsLaboratory/prime"><i class="fas fa-file-code"></i></a> <a href="https://youtu.be/YigEHy3_JCo"><i class="fas fa-video"></i></a>
-7. *“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices*.  
+8. *“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices*.  
  Gopalakrishna, Anandayuvaraj, Detti, Bland, Rahaman, and **Davis**.  
  Proceedings of the 4th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.6383066"><i class="fas fa-file-code"></i></a>
-8. *Experience Paper: A First Offering of Software Engineering*.  
+9. *Experience Paper: A First Offering of Software Engineering*.  
  **Davis**, Amusuo, and Bushagour.  
  Proceedings of the 1st International Workshop on Designing and Running Project-Based Courses in Software Engineering Education (DREE) 2022.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisAmusuoBushagour-ExperienceIn461.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisAmusuoBushagour-ExperienceIn461-slides.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://doi.org/10.5281/zenodo.5828087"><i class="fas fa-file-code"></i></a> <a href="https://youtu.be/HeMwfk1Ina0"><i class="fas fa-video"></i></a>
-9. *A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'*.  
+10. *A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'*.  
  Winkler, Agarwal, Tung, Ugalde, Jung, and **Davis**.  
  Proceedings of the 29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Artifacts Track (ESEC/FSE-Artifacts) 2021.  
  <a href="https://github.com/PurdueDualityLab/deepbugs-jr/blob/develop/paper/Deepbugs_Replication_Paper_Abstract.pdf"><i class="fas fa-file-pdf"></i></a> <a href="https://doi.org/10.5281/zenodo.5110820"><i class="fas fa-file-code"></i></a> <a href="https://davisjam.medium.com/a-partial-replication-of-deepbugs-a-learning-approach-to-name-based-bug-detection-1e35421a69e"><i class="fab fa-medium"></i></a>
-10. *Ursprung: Provenance for Large-Scale Analytics Environments*.  
+11. *Ursprung: Provenance for Large-Scale Analytics Environments*.  
  Rupprecht, **Davis**, Lubbock, Tyson, and Bhagwat.  
  Proceedings of the 2019 International Conference on Management of Data: Demonstrations track (SIGMOD-Demonstrations) 2019.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf"><i class="fas fa-file-pdf"></i></a>
-11. *Rethinking Regex Engines to Address ReDoS*.  
+12. *Rethinking Regex Engines to Address ReDoS*.  
  **Davis**.  
  Proceedings of the 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE'19) --- Student research competition. 2019.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-RethinkingRegexEngines-FSE19-SRC-paper.pdf"><i class="fas fa-file-pdf"></i></a>
-12. *The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture*.  
+13. *The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture*.  
  **Davis**, Kildow, and Lee.  
  Proceedings of the 10th European Workshop on Systems Security (EuroSec) 2017.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisKildowLee-EHP-EuroSec17.pdf"><i class="fas fa-file-pdf"></i></a>
@@ -323,71 +327,67 @@ To see them organized approximately by project, see [here](/research).
  Singla, Çakar, Amusuo, and **Davis**.  
  arXiv 2026.  
  <a href="https://arxiv.org/pdf/2601.00205"><i class="fas fa-file-pdf"></i></a>
-2. *How Do Agents Perform Code Optimization? An Empirical Study*.  
- Peng, Zhong, Méndez, Kalu, and **Davis**.  
- arXiv 2025.  
- <a href="https://arxiv.org/pdf/2512.21757"><i class="fas fa-file-pdf"></i></a>
-3. *AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens*.  
+2. *AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens*.  
  Jajal, Eliopoulos, Chou, Thiruvathukal, Lu, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2511.18105"><i class="fas fa-file-pdf"></i></a> <a href="https://github.com/pjjajal/adaperceiver-public"><i class="fas fa-file-code"></i></a>
-4. *AgentHub: A Research Agenda for Agent Sharing Infrastructure*.  
+3. *AgentHub: A Research Agenda for Agent Sharing Infrastructure*.  
  Pautsch, Singla, Jiang, Peng, Hassanshahi, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2510.03495"><i class="fas fa-file-pdf"></i></a>
-5. *Why Software Signing (Still) Matters: Trust Boundaries in the Software Supply Chain*.  
+4. *Why Software Signing (Still) Matters: Trust Boundaries in the Software Supply Chain*.  
  Kalu and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2510.04964"><i class="fas fa-file-pdf"></i></a>
-6. *FalseCrashReducer: Mitigating False Positive Crashes in OSS-Fuzz-Gen Using Agentic AI*.  
+5. *FalseCrashReducer: Mitigating False Positive Crashes in OSS-Fuzz-Gen Using Agentic AI*.  
  Amusuo, Liu, Calvo, Metzman, Chang, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2510.02185"><i class="fas fa-file-pdf"></i></a>
-7. *Software Dependencies 2.0: An Empirical Study of Reuse and Integration of Pre-Trained Models in Open-Source Projects*.  
+6. *Software Dependencies 2.0: An Empirical Study of Reuse and Integration of Pre-Trained Models in Open-Source Projects*.  
  Yasmin, Jiang, **Davis**, and Tian.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2509.06085"><i class="fas fa-file-pdf"></i></a>
-8. *A Guide to Stakeholder Analysis for Cybersecurity Researchers*.  
+7. *A Guide to Stakeholder Analysis for Cybersecurity Researchers*.  
  **Davis**, Chen, Peng, Amusuo, and Kalu.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2508.14796"><i class="fas fa-file-pdf"></i></a>
-9. *Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms*.  
+8. *Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms*.  
  Jajal, Eliopoulos, Chou, Thiruvathukal, **Davis**, and Lu.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2506.00299"><i class="fas fa-file-pdf"></i></a>
-10. *SysLLMatic: Large Language Models are Software System Optimizers*.  
+9. *SysLLMatic: Large Language Models are Software System Optimizers*.  
  Peng, Gupte, Hasler, Eliopoulos, Ho, Mantri, Deng, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2506.01249"><i class="fas fa-file-pdf"></i></a>
-11. *ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain*.  
+10. *ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain*.  
  Kalu, Okorafor, Durak, Laine, Moreno, Torres-Arias, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2505.18760"><i class="fas fa-file-pdf"></i></a>
-12. *Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies*.  
+11. *Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies*.  
  Çakar, Sale, Chen, Burmane, Lee, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.20579"><i class="fas fa-file-pdf"></i></a>
-13. *AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges*.  
+12. *AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges*.  
  Gao, Zahedi, Jiang, Lin, **Davis**, and Treude.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.19444"><i class="fas fa-file-pdf"></i></a>
-14. *DiVerify: Hardening Identity-Based Software Signing with Programmable Diverse-Context Scopes*.  
+13. *DiVerify: Hardening Identity-Based Software Signing with Programmable Diverse-Context Scopes*.  
  Okafor, **Davis**, and Torres-Arias.  
  arXiv 2025.  
  <a href="https://arxiv.org/abs/2406.15596"><i class="fas fa-file-pdf"></i></a>
-15. *Reactive Bottom-Up Testing*.  
+14. *Reactive Bottom-Up Testing*.  
  Muralee, Cherupattamoolayil, **Davis**, Bianchi, and Machiry.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2509.03711"><i class="fas fa-file-pdf"></i></a>
-16. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
+15. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
  Peng, Gupte, Eliopoulos, Ho, Mantri, Deng, Jiang, Lu, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2410.09241"><i class="fas fa-file-pdf"></i></a>
-17. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
+16. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
  Purohit, Jiang, Ravikiran, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2404.18801"><i class="fas fa-file-pdf"></i></a>
-18. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+17. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/pdf/2107.00821"><i class="fas fa-file-pdf"></i></a>

@@ -620,6 +620,16 @@
 
         {
             "type": "workshop",
+            "authors": ["Peng", "Zhong", "Méndez", "Kalu", "**Davis**"],
+            "title": "How Do Agents Perform Code Optimization? An Empirical Study",
+            "venue": "Proceedings of the 23rd International Mining Software Repositories Conference -- Mining Challenge track (MSR-MiningChallenge)",
+            "year": 2026,
+            "paperBasename": "https://arxiv.org/pdf/2512.21757",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "workshop",
             "authors": ["Patil", "Jiang", "Peng", "Lugo", "Kalu", "LeBlanc", "Smith", "Heo", "Aou", "**Davis**"],
             "title": "Recommending Pre-Trained Models for IoT Devices",
             "venue": "Proceedings of the 7th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT)",
@@ -767,16 +777,6 @@
             "venue": "arXiv",
             "year": 2026,
             "paperBasename": "https://arxiv.org/pdf/2601.00205",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
-            "authors": ["Peng", "Zhong", "Méndez", "Kalu", "**Davis**"],
-            "title": "How Do Agents Perform Code Optimization? An Empirical Study",
-            "venue": "arXiv",
-            "year": 2025,
-            "paperBasename": "https://arxiv.org/pdf/2512.21757",
             "artifactURL": "",
             "videoURL": ""
         },
