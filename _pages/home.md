@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2026
 
+- Ben's paper on detecting errors in music performances has been accepted to ICLR'26. Congrats to Ben, Purvish, Nick, and the team! [Preprint](https://arxiv.org/pdf/2510.08580)
 - Huiyun's paper characterizing Agents' optimization strategies has been accepted to the Mining Challenge track of MSR'26. Congrats Huiyun! [Preprint](https://arxiv.org/pdf/2512.21757)
 - I will be organizing a workshop at ASEE'26 titled "The 'Do More With Less' Cookbook: Using Generative AI to Accelerate your Day-to-Day Work as an Engineering Educator". Look forward to seeing everyone in Charlotte!
 - Intel donates equipment to support my research on the educational use of GenAI, associated with [NSF #2452533](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2452533&HistoricalAwards=false). Thank you, Intel.

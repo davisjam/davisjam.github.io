@@ -616,6 +616,25 @@
             "videoURL": "",
             "blogURL": "https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395"
         },
+        {
+        "type": "conference",
+        "authors": [
+            "Chou",
+            "Jajal",
+            "Eliopoulos",
+            "**Davis**",
+            "Thiruvathukal",
+            "Yun",
+            "Lu"
+        ],
+        "title": "LadderSym: A Multimodal Interleaved Transformer for Music Practice Error Detection",
+        "venue": "Proceedings of the International Conference on Learning Representations (ICLR)",
+        "year": 2026,
+        "paperBasename": "https://arxiv.org/pdf/2510.08580",
+        "artifactURL": "",
+        "videoURL": "",
+        "blogURL": ""
+        },
 
 
         {
