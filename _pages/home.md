@@ -47,7 +47,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Geoff heads to Bluesky as a Trust & Safety Engineer. A very cool follow-up from our [JSS'25 paper](https://davisjam.github.io//files/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf) on Trust & Safety!
 - Parth defends his MSc thesis. Congrats, Master Parth! Parth will work at Amazon Robotics after graduation.
 - Lab alum Arav Tewari will intern at OpenAI in Summer 2026 -- sounds amazing :-)
-- One "Johnny" paper accepted to USENIX Security'26 on usability in identity-based software signing. Congratulations to Kelechi, Sofia, Tanmay, and Sophie!
+- One "Johnny" paper accepted to USENIX Security'26 on usability in identity-based software signing. Congratulations to Kelechi, Sofia, Tanmay, and Sophie! [Preprint](https://arxiv.org/pdf/2503.00271)
 - Nick passes his preliminary exam. Congrats, PhD Candidate Eliopoulos!
 - Purvish passes his preliminary exam. Congrats, PhD Candidate Jajal!
 - Paschal will begin a role at Google following his PhD. On to the next adventure!
@@ -55,12 +55,12 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Dharun passes his preliminary exam. Congratulations, PhD Candidate Anandayuvaraj!
 - I receive the inaugural Paul Krause Faculty Research Award from ECE@Purdue. What an honor!
 - Purvish will intern next summer at Block. Hope he has a great time.
-- A paper accepted to **ICSE'26** on failure knowledge management in high-reliability software organizations. Congratulations Dharun and Tanmay!
-- A paper accepted to **ICSE'26** on the detection of typosquatting attacks in HuggingFace, NPM, and other registries. Congratulations Wenxin and Berk!
+- A paper accepted to **ICSE'26** on failure knowledge management in high-reliability software organizations. Congratulations Dharun and Tanmay! [Preprint](https://arxiv.org/pdf/2509.06301)
+- A paper accepted to **ICSE'26** on the detection of typosquatting attacks in HuggingFace, NPM, and other registries. Congratulations Wenxin and Berk! [Preprint](https://arxiv.org/pdf/2502.20528)
 - PickleBall wins the Best Artifact Award at CCS'25. Congrats, Andreas and all!
 - NSF funds a RoRS grant to study security for research software engineering. Thank you, US taxpayers!
 - Duality Lab publishes a guide to stakeholder analysis for cybersecurity researchers. We hope this helps the security community adapt to new requirements from USENIX and other venues.
-- One paper accepted to **CCS'25** on safe deserialization (pickle) of pre-trained machine learning models. Congrats to Andreas and the team!
+- One paper accepted to **CCS'25** on safe deserialization (pickle) of pre-trained machine learning models. Congrats to Andreas and the team! [Preprint](https://arxiv.org/pdf/2508.15987)
 - Recognized as a Distinguished Reviewer at **USENIX Security 2025**.
 - Lab alumnus Evan receives a CSGrad4US fellowship for graduate study. Congratulations, Evan!
 - Serving on the **AAAI 2026 PC**.
@@ -83,18 +83,18 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Nick will intern with **Argonne National Labs** this summer. Congrats, Nick!
 - Purvish will intern with **Argonne National Labs** this summer. Congrats, Purvish!
 - Paschal will intern with **Google** this summer. Congrats, Paschal!
-- Article on software signing accepted to IEEE S&P Magazine. Congrats to Taylor, Ethan, and Kelechi!
+- Article on software signing accepted to IEEE S&P Magazine. Congrats to Taylor, Ethan, and Kelechi! [Preprint](https://arxiv.org/pdf/2407.03949)
 - Socket funds research on typosquat detection in software package ecosystems.
 - Serving on the **EuroSec 2025 PC**.
 - NSF funds a travel grant to bring US-based students to ICSE 2025. Thank you, US taxpayers!
-- One paper accepted to **JSS'25**: Failure analysis and engineering patterns for trust and safety on social media platforms. Congrats to Geoff for sharing your MSc thesis with the world (and to co-author Trey)!
-- One paper accepted to **USENIX'25**: An interview study on when, how, and why software engineers adopt software signing for provenance. Congrats to Kelechi and the team!
-- One paper accepted to **ICSE'25**: Zero-Trust Dependencies for software supply chain security. Congrats to Paschal and the team!
-- One paper accepted to **ISSTA'25**: We applied CodeQL to ~250 open-source repositories of high-quality embedded software and describe our experiences (700 defects!). Congrats to Mingjie and the team!
-- One paper accepted to **ICSE-NIER'25**: Unit proofing as a software engineering approach for bounded model checking. Congrats to Paschal and the team!
-- One paper accepted to **SERP4IoT'25**: Recommending pre-trained models for IoT devices. Congrats to Parth and the team!
-- One paper accepted to **AAAI'25**: A tool to help musicians detect errors in their performance. Congrats to Ben, Purvish, Nick, and the team!
-- Two papers accepted to **WACV'25**: (1) optimizing token pruning approaches for edge devices, and (2) evaluating multi-stream architectures for vision transformer. Congrats to Nick, Purvish, and the team!
+- One paper accepted to **JSS'25**: Failure analysis and engineering patterns for trust and safety on social media platforms. Congrats to Geoff for sharing your MSc thesis with the world (and to co-author Trey)! [Preprint](https://davisjam.github.io//files/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf)
+- One paper accepted to **USENIX'25**: An interview study on when, how, and why software engineers adopt software signing for provenance. Congrats to Kelechi and the team! [Preprint](https://arxiv.org/pdf/2406.08198)
+- One paper accepted to **ICSE'25**: Zero-Trust Dependencies for software supply chain security. Congrats to Paschal and the team! [Preprint](https://arxiv.org/pdf/2310.14117)
+- One paper accepted to **ISSTA'25**: We applied CodeQL to ~250 open-source repositories of high-quality embedded software and describe our experiences (700 defects!). Congrats to Mingjie and the team! [Preprint](https://arxiv.org/pdf/2310.00205)
+- One paper accepted to **ICSE-NIER'25**: Unit proofing as a software engineering approach for bounded model checking. Congrats to Paschal and the team! [Preprint](https://arxiv.org/pdf/2410.14818)
+- One paper accepted to **SERP4IoT'25**: Recommending pre-trained models for IoT devices. Congrats to Parth and the team! [Preprint](https://arxiv.org/pdf/2412.18972)
+- One paper accepted to **AAAI'25**: A tool to help musicians detect errors in their performance. Congrats to Ben, Purvish, Nick, and the team! [Preprint](https://arxiv.org/pdf/2501.02030)
+- Two papers accepted to **WACV'25**: (1) optimizing token pruning approaches for edge devices, and (2) evaluating multi-stream architectures for vision transformer. Congrats to Nick, Purvish, and the team! [Preprint 1](https://arxiv.org/pdf/2409.07613), [Preprint 2](https://arxiv.org/pdf/2407.05941)
 
 ## 2024
 
