@@ -635,6 +635,26 @@
         "videoURL": "",
         "blogURL": ""
         },
+        {
+            "type": "conference",
+            "authors": ["Jajal", "Eliopoulos", "Chou", "Thiruvathukal", "Lu", "**Davis**"],
+            "title": "AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens",
+            "venue": "The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 -- Findings Track (CVPR-Findings)",
+            "year": 2026,
+            "paperBasename": "https://arxiv.org/pdf/2511.18105",
+            "artifactURL": "https://github.com/pjjajal/adaperceiver-public",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
+            "authors": ["Jajal", "Eliopoulos", "Chou", "Thiruvathukal", "**Davis**", "Lu"],
+            "title": "Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms",
+            "venue": "The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 -- Findings Track (CVPR-Findings)",
+            "year": 2026,
+            "paperBasename": "https://arxiv.org/pdf/2506.00299",
+            "artifactURL": "",
+            "videoURL": ""
+        },
 
 
         {
@@ -801,16 +821,6 @@
         },
         {
             "type": "arxiv",
-            "authors": ["Jajal", "Eliopoulos", "Chou", "Thiruvathukal", "Lu", "**Davis**"],
-            "title": "AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens",
-            "venue": "arXiv",
-            "year": 2025,
-            "paperBasename": "https://arxiv.org/pdf/2511.18105",
-            "artifactURL": "https://github.com/pjjajal/adaperceiver-public",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
             "authors": ["Pautsch", "Singla", "Jiang", "Peng", "Hassanshahi", "Läufer", "Thiruvathukal", "**Davis**"],
             "title": "AgentHub: A Research Agenda for Agent Sharing Infrastructure",
             "venue": "arXiv",
@@ -856,16 +866,6 @@
             "venue": "arXiv",
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2508.14796",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
-            "authors": ["Jajal", "Eliopoulos", "Chou", "Thiruvathukal", "**Davis**", "Lu"],
-            "title": "Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms",
-            "venue": "arXiv",
-            "year": 2025,
-            "paperBasename": "https://arxiv.org/pdf/2506.00299",
             "artifactURL": "",
             "videoURL": ""
         },
