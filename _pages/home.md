@@ -36,6 +36,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2026
 
+- I receive Purdue's 2026 College of Engineering Faculty Excellence Award for Early Career Teaching. Huzzah!
 - Purvish's paper on width/depth/token-adaptive transformer models is accepted to CVPR'26-Findings Track. Congrats Purvish! [preprint](https://arxiv.org/pdf/2511.18105)
 - Nick and Purvish's paper on inference-time diffusion alignment is accepted to CVPR'26-Findings Track. Congrats Nick and Purvish! [preprint](https://arxiv.org/pdf/2506.00299)
 - Berk will intern at Socket. Have a great time improving software supply chain security!
