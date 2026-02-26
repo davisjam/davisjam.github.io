@@ -659,6 +659,66 @@
 
         {
             "type": "workshop",
+            "authors": ["Kalu", "Okorafor", "Durak", "Laine", "Moreno", "Torres-Arias", "**Davis**"],
+            "title": "ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain",
+            "venue": "ICSE Journal Ahead Workshop (JAWs) 2026",
+            "year": 2026,
+            "paperBasename": "https://arxiv.org/pdf/2505.18760",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "workshop",
+            "authors": ["Kalu", "Rattan", "Schorlemmer", "Thiruvathukal", "Carver", "**Davis**"],
+            "title": "Operationalizing Research Software for Supply Chain Security",
+            "venue": "ICSE Journal Ahead Workshop (JAWs) 2026",
+            "year": 2026,
+            "paperBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "workshop",
+            "authors": ["Peng", "Patil", "Qiu", "Thiruvathukal", "**Davis**"],
+            "title": "Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization ",
+            "venue": "ICSE Journal Ahead Workshop (JAWs) 2026",
+            "year": 2026,
+            "paperBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "workshop",
+            "authors": ["Çakar", "Lee", "**Davis**"],
+            "title": "Towards the Systematic Testing of Regular Expression Engines",
+            "venue": "ICSE Journal Ahead Workshop (JAWs) 2026",
+            "year": 2026,
+            "paperBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "workshop",
+            "authors": ["Singla", "Çakar", "Amusuo", "**Davis**"],
+            "title": "Towards a Benchmark for Dependency Decision-Making",
+            "venue": "ICSE Journal Ahead Workshop (JAWs) 2026",
+            "year": 2026,
+            "paperBasename": "https://arxiv.org/pdf/2601.00205",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "workshop",
+            "authors": ["Pautsch", "Singla", "Jiang", "Peng", "Hassanshahi", "Läufer", "Thiruvathukal", "**Davis**"],
+            "title": "AgentHub: A Registry for Discoverable, Verifiable, and Reproducible AI Agents",
+            "venue": "ICSE Journal Ahead Workshop (JAWs) 2026",
+            "year": 2026,
+            "paperBasename": "https://arxiv.org/pdf/2510.03495",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "workshop",
             "authors": ["Peng", "Zhong", "Méndez", "Kalu", "**Davis**"],
             "title": "How Do Agents Perform Code Optimization? An Empirical Study",
             "venue": "Proceedings of the 23rd International Mining Software Repositories Conference -- Mining Challenge track (MSR-MiningChallenge)",
@@ -811,21 +871,11 @@
         
         {
             "type": "arxiv",
-            "authors": ["Singla", "Çakar", "Amusuo", "**Davis**"],
-            "title": "Understanding Security Risks of AI Agents' Dependency Updates",
+            "authors": ["Liu", "Çakar", "Agarwal", "Seo", "**Davis**", "Lee"],
+            "title": "Regular Expression Denial of Service Induced by Backreferences",
             "venue": "arXiv",
             "year": 2026,
-            "paperBasename": "https://arxiv.org/pdf/2601.00205",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
-            "authors": ["Pautsch", "Singla", "Jiang", "Peng", "Hassanshahi", "Läufer", "Thiruvathukal", "**Davis**"],
-            "title": "AgentHub: A Research Agenda for Agent Sharing Infrastructure",
-            "venue": "arXiv",
-            "year": 2025,
-            "paperBasename": "https://arxiv.org/pdf/2510.03495",
+            "paperBasename": "https://arxiv.org/pdf/2602.21459",
             "artifactURL": "",
             "videoURL": ""
         },
@@ -876,16 +926,6 @@
             "venue": "arXiv",
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2506.01249",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
-            "authors": ["Kalu", "Okorafor", "Durak", "Laine", "Moreno", "Torres-Arias", "**Davis**"],
-            "title": "ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain",
-            "venue": "arXiv",
-            "year": 2025,
-            "paperBasename": "https://arxiv.org/pdf/2505.18760",
             "artifactURL": "",
             "videoURL": ""
         },
