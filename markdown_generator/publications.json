@@ -680,7 +680,7 @@
         {
             "type": "workshop",
             "authors": ["Peng", "Patil", "Qiu", "Thiruvathukal", "**Davis**"],
-            "title": "Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization ",
+            "title": "Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization",
             "venue": "ICSE Journal Ahead Workshop (JAWs)",
             "year": 2026,
             "paperBasename": "",

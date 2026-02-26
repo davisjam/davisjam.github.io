@@ -288,7 +288,7 @@ To see them organized approximately by project, see [here](/research).
  Kalu, Rattan, Schorlemmer, Thiruvathukal, Carver, and **Davis**.  
  ICSE Journal Ahead Workshop (JAWs) 2026.  
  <a href="https://arxiv.org/pdf/2601.20980"><i class="fas fa-file-pdf"></i></a>
-3. *Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization *.  
+3. *Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization*.  
  Peng, Patil, Qiu, Thiruvathukal, and **Davis**.  
  ICSE Journal Ahead Workshop (JAWs) 2026.  
  
