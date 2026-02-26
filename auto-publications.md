@@ -282,27 +282,27 @@ To see them organized approximately by project, see [here](/research).
 
 1. *ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain*.  
  Kalu, Okorafor, Durak, Laine, Moreno, Torres-Arias, and **Davis**.  
- ICSE Journal Ahead Workshop (JAWs) 2026 2026.  
+ ICSE Journal Ahead Workshop (JAWs) 2026.  
  <a href="https://arxiv.org/pdf/2505.18760"><i class="fas fa-file-pdf"></i></a>
 2. *Operationalizing Research Software for Supply Chain Security*.  
  Kalu, Rattan, Schorlemmer, Thiruvathukal, Carver, and **Davis**.  
- ICSE Journal Ahead Workshop (JAWs) 2026 2026.  
+ ICSE Journal Ahead Workshop (JAWs) 2026.  
  <a href="https://arxiv.org/pdf/2601.20980"><i class="fas fa-file-pdf"></i></a>
 3. *Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization *.  
  Peng, Patil, Qiu, Thiruvathukal, and **Davis**.  
- ICSE Journal Ahead Workshop (JAWs) 2026 2026.  
+ ICSE Journal Ahead Workshop (JAWs) 2026.  
  
 4. *Towards the Systematic Testing of Regular Expression Engines*.  
  Çakar, Lee, and **Davis**.  
- ICSE Journal Ahead Workshop (JAWs) 2026 2026.  
+ ICSE Journal Ahead Workshop (JAWs) 2026.  
  
 5. *Towards a Benchmark for Dependency Decision-Making*.  
  Singla, Çakar, Amusuo, and **Davis**.  
- ICSE Journal Ahead Workshop (JAWs) 2026 2026.  
+ ICSE Journal Ahead Workshop (JAWs) 2026.  
  <a href="https://arxiv.org/pdf/2601.00205"><i class="fas fa-file-pdf"></i></a>
 6. *AgentHub: A Registry for Discoverable, Verifiable, and Reproducible AI Agents*.  
  Pautsch, Singla, Jiang, Peng, Hassanshahi, Läufer, Thiruvathukal, and **Davis**.  
- ICSE Journal Ahead Workshop (JAWs) 2026 2026.  
+ ICSE Journal Ahead Workshop (JAWs) 2026.  
  <a href="https://arxiv.org/pdf/2510.03495"><i class="fas fa-file-pdf"></i></a>
 7. *How Do Agents Perform Code Optimization? An Empirical Study*.  
  Peng, Zhong, Méndez, Kalu, and **Davis**.  
