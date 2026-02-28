@@ -476,23 +476,27 @@ To see them organized approximately by project, see [here](/research).
  **Jiang**.  
  PhD, Electrical & Computer Engineering, Purdue University 2025.  
  <a href="https://hammer.purdue.edu/articles/thesis/_b_TRUSTWORTHY_REUSE_IN_THE_MACHINE_LEARNING_MODEL_SUPPLY_CHAIN_b_/28897502?file=54137378"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Jiang-PreTrainedModels-PhD-Final Defense-May2025.pptx"><i class="fas fa-file-powerpoint"></i></a>
-2. *A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries*.  
+2. *Cross-Select: A Transformer Framework for Pre-Trained Model Recommendation*.  
+ **Patil**.  
+ MSc, Electrical & Computer Engineering, Purdue University 2025.  
+ <a href="https://hammer.purdue.edu/articles/thesis/Cross-Select_A_Transformer_Framework_for_Per-Trained_Model_Recommendation/30921194?file=60565259"><i class="fas fa-file-pdf"></i></a>
+3. *A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries*.  
  **Jones**.  
  MSc, Electrical & Computer Engineering, Purdue University 2024.  
  <a href="https://hammer.purdue.edu/articles/thesis/A_Quantitative_Comparison_of_Pre-Trained_Model_Registries_to_Traditional_Software_Package_Registries/25686447/1"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Jones-QuantitativeComparisonOfPTMAndTraditionalPackageRegistries-2024-MScThesis-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
-3. *Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures*.  
+4. *Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures*.  
  **Schorlemmer**.  
  MSc, Electrical & Computer Engineering, Purdue University 2024.  
  <a href="https://hammer.purdue.edu/articles/thesis/Software_Supply_Chain_Security_Attacks_Defenses_and_the_Adoption_of_Signatures/25683681/1"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Schorlemmer-SoftwareSupplyChainSecurity-FocusedOnSigning-2024-MScThesis-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
-4. *An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
+5. *An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms*.  
  **Cramer**.  
  MSc, Electrical & Computer Engineering, Purdue University 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Cramer-TrustAndSafetyInSMPs-2023-MScThesis.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Cramer-TrustAndSafetyInSMPs-2023-MScThesis-slides.pdf"><i class="fas fa-file-powerpoint"></i></a>
-5. *Discovering U.S. Government Threat Hunting Processes and Improvements*.  
+6. *Discovering U.S. Government Threat Hunting Processes and Improvements*.  
  **Maxam**.  
  MSc, Electrical & Computer Engineering, Purdue University 2023.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Maxam-ThreatHunt-2023-MScThesis.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Maxam-ThreatHunt-2023-MScThesis-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
-6. *On the Impact and Defeat of Regular Expression Denial of Service*.  
+7. *On the Impact and Defeat of Regular Expression Denial of Service*.  
  **Davis**.  
  PhD, Computer Science, Virginia Tech 2020.  
  <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-Dissertation-2020.pdf"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-Dissertation-OralDefense.pptx"><i class="fas fa-file-powerpoint"></i></a> <a href="https://www.youtube.com/watch?v=TDIlcm3joq0&t=2s"><i class="fas fa-video"></i></a>

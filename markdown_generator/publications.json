@@ -1017,6 +1017,17 @@
         },
         {
             "type": "dissertation",
+            "authors": ["**Patil**"],
+            "title": "Cross-Select: A Transformer Framework for Pre-Trained Model Recommendation",
+            "venue": "MSc, Electrical & Computer Engineering, Purdue University",
+            "year": 2025,
+            "paperBasename": "https://hammer.purdue.edu/articles/thesis/Cross-Select_A_Transformer_Framework_for_Per-Trained_Model_Recommendation/30921194?file=60565259",
+            "slidesBasename": "",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "dissertation",
             "authors": ["**Jones**"],
             "title": "A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries",
             "venue": "MSc, Electrical & Computer Engineering, Purdue University",
