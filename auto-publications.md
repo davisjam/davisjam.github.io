@@ -295,7 +295,7 @@ To see them organized approximately by project, see [here](/research).
 4. *Towards the Systematic Testing of Regular Expression Engines*.  
  Çakar, Lee, and **Davis**.  
  ICSE Journal Ahead Workshop (JAWs) 2026.  
- 
+ <a href="https://arxiv.org/pdf/2603.00311"><i class="fas fa-file-pdf"></i></a>
 5. *Towards a Benchmark for Dependency Decision-Making*.  
  Singla, Çakar, Amusuo, and **Davis**.  
  ICSE Journal Ahead Workshop (JAWs) 2026.  
@@ -479,7 +479,7 @@ To see them organized approximately by project, see [here](/research).
 2. *Cross-Select: A Transformer Framework for Pre-Trained Model Recommendation*.  
  **Patil**.  
  MSc, Electrical & Computer Engineering, Purdue University 2025.  
- <a href="https://hammer.purdue.edu/articles/thesis/Cross-Select_A_Transformer_Framework_for_Per-Trained_Model_Recommendation/30921194?file=60565259"><i class="fas fa-file-pdf"></i></a>
+ <a href="https://hammer.purdue.edu/articles/thesis/Cross-Select_A_Transformer_Framework_for_Per-Trained_Model_Recommendation/30921194?file=60565259"><i class="fas fa-file-pdf"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Patil-CrossSelect-MSc2025-ThesisDefense-slides.pptx"><i class="fas fa-file-powerpoint"></i></a>
 3. *A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries*.  
  **Jones**.  
  MSc, Electrical & Computer Engineering, Purdue University 2024.  
