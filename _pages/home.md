@@ -36,6 +36,8 @@ This disorganized list summarizes my research, teaching, and service activities.
 
 ## 2026
 
+- Ben will intern at Google X this summer. Enjoy the adventure!
+- Milo will be an undergraduate intern at the US NIST this summer. Have fun, Milo!
 - I receive Purdue's 2026 College of Engineering Faculty Excellence Award for Early Career Teaching. Huzzah!
 - Three long papers accepted with recommendation to journal, in the ICSE'26 Journal Ahead Workshop (JAWs). Congrats to Kelechi, Berk, Erik&Tanmay, and the co-authors!
 - Three short papers accepted as presentations to the ICSE'26 Journal Ahead Workshop (JAWs). Congrats to Huiyun, Kelechi, Tanmay, and their co-authors!
