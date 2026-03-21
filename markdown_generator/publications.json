@@ -655,6 +655,16 @@
             "artifactURL": "",
             "videoURL": ""
         },
+        {
+            "type": "conference",
+            "authors": ["Amusuo", "Liu", "Calvo", "Metzman", "Chang", "**Davis**"],
+            "title": "Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen",
+            "venue": "ACM International Conference on the Foundations of Software Engineering -- Industry track (FSE-Industry)",
+            "year": 2026,
+            "paperBasename": "https://arxiv.org/pdf/2510.02185",
+            "artifactURL": "",
+            "videoURL": ""
+        },
 
 
         {
@@ -886,16 +896,6 @@
             "venue": "arXiv",
             "year": 2025,
             "paperBasename": "https://arxiv.org/pdf/2510.04964",
-            "artifactURL": "",
-            "videoURL": ""
-        },
-        {
-            "type": "arxiv",
-            "authors": ["Amusuo", "Liu", "Calvo", "Metzman", "Chang", "**Davis**"],
-            "title": "FalseCrashReducer: Mitigating False Positive Crashes in OSS-Fuzz-Gen Using Agentic AI",
-            "venue": "arXiv",
-            "year": 2025,
-            "paperBasename": "https://arxiv.org/pdf/2510.02185",
             "artifactURL": "",
             "videoURL": ""
         },
