@@ -881,6 +881,16 @@
         
         {
             "type": "arxiv",
+            "authors": ["Kalu", "Tran", "Torres-Arias", "Jeong", "**Davis**"],
+            "title": "A Longitudinal Study of Usability in Identity-Based Software Signing",
+            "venue": "arXiv",
+            "year": 2026,
+            "paperBasename": "https://arxiv.org/pdf/2603.17133",
+            "artifactURL": "",
+            "videoURL": ""
+        },
+        {
+            "type": "arxiv",
             "authors": ["Liu", "Çakar", "Agarwal", "Seo", "**Davis**", "Lee"],
             "title": "Regular Expression Denial of Service Induced by Backreferences",
             "venue": "arXiv",

@@ -363,51 +363,55 @@ To see them organized approximately by project, see [here](/research).
 
 ## Technical reports
 
-1. *Regular Expression Denial of Service Induced by Backreferences*.  
+1. *A Longitudinal Study of Usability in Identity-Based Software Signing*.  
+ Kalu, Tran, Torres-Arias, Jeong, and **Davis**.  
+ arXiv 2026.  
+ <a href="https://arxiv.org/pdf/2603.17133"><i class="fas fa-file-pdf"></i></a>
+2. *Regular Expression Denial of Service Induced by Backreferences*.  
  Liu, Çakar, Agarwal, Seo, **Davis**, and Lee.  
  arXiv 2026.  
  <a href="https://arxiv.org/pdf/2602.21459"><i class="fas fa-file-pdf"></i></a>
-2. *Why Software Signing (Still) Matters: Trust Boundaries in the Software Supply Chain*.  
+3. *Why Software Signing (Still) Matters: Trust Boundaries in the Software Supply Chain*.  
  Kalu and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2510.04964"><i class="fas fa-file-pdf"></i></a>
-3. *Software Dependencies 2.0: An Empirical Study of Reuse and Integration of Pre-Trained Models in Open-Source Projects*.  
+4. *Software Dependencies 2.0: An Empirical Study of Reuse and Integration of Pre-Trained Models in Open-Source Projects*.  
  Yasmin, Jiang, **Davis**, and Tian.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2509.06085"><i class="fas fa-file-pdf"></i></a>
-4. *A Guide to Stakeholder Analysis for Cybersecurity Researchers*.  
+5. *A Guide to Stakeholder Analysis for Cybersecurity Researchers*.  
  **Davis**, Chen, Peng, Amusuo, and Kalu.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2508.14796"><i class="fas fa-file-pdf"></i></a>
-5. *SysLLMatic: Large Language Models are Software System Optimizers*.  
+6. *SysLLMatic: Large Language Models are Software System Optimizers*.  
  Peng, Gupte, Hasler, Eliopoulos, Ho, Mantri, Deng, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2506.01249"><i class="fas fa-file-pdf"></i></a>
-6. *Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies*.  
+7. *Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies*.  
  Çakar, Sale, Chen, Burmane, Lee, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.20579"><i class="fas fa-file-pdf"></i></a>
-7. *AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges*.  
+8. *AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges*.  
  Gao, Zahedi, Jiang, Lin, **Davis**, and Treude.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2503.19444"><i class="fas fa-file-pdf"></i></a>
-8. *DiVerify: Hardening Identity-Based Software Signing with Programmable Diverse-Context Scopes*.  
+9. *DiVerify: Hardening Identity-Based Software Signing with Programmable Diverse-Context Scopes*.  
  Okafor, **Davis**, and Torres-Arias.  
  arXiv 2025.  
  <a href="https://arxiv.org/abs/2406.15596"><i class="fas fa-file-pdf"></i></a>
-9. *Reactive Bottom-Up Testing*.  
+10. *Reactive Bottom-Up Testing*.  
  Muralee, Cherupattamoolayil, **Davis**, Bianchi, and Machiry.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2509.03711"><i class="fas fa-file-pdf"></i></a>
-10. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
+11. *Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions*.  
  Peng, Gupte, Eliopoulos, Ho, Mantri, Deng, Jiang, Lu, Läufer, Thiruvathukal, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2410.09241"><i class="fas fa-file-pdf"></i></a>
-11. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
+12. *A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden*.  
  Purohit, Jiang, Ravikiran, and **Davis**.  
  arXiv 2024.  
  <a href="https://arxiv.org/pdf/2404.18801"><i class="fas fa-file-pdf"></i></a>
-12. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
+13. *An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors*.  
  Banna, Chinnakotla, Yan, Vegesana, Vivek, Krishnappa, Jiang, Lu, Thiruvathukal, and **Davis**.  
  arXiv 2021.  
  <a href="https://arxiv.org/pdf/2107.00821"><i class="fas fa-file-pdf"></i></a>
