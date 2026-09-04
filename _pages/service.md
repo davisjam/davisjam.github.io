@@ -85,7 +85,7 @@ Peer review is part of the infrastructure of research. I serve regularly on tech
 
 I also contribute to research and professional infrastructure beyond individual publication venues, including reviewing research for the National Science Foundation and contributing to professional guidance for software engineering.
 
-- **US National Science Foundation** · Panelist (2023, 2025)
+- **US National Science Foundation** · Panelist (2023, 2025, 2026)
 - **IEEE Computer Society** · Reviewer — Guide to the Software Engineering Body of Knowledge (SWEBOK), Version 4 (2024)
 
 ## Service at Purdue
