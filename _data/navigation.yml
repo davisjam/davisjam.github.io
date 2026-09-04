@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: /
 
-  - title: "Research and Lab"
+  - title: "Research"
     url: /research/
 
   - title: "Publications"
@@ -15,5 +15,5 @@ main:
   - title: "Service"
     url: /service/    
 
-  - title: "About me"
+  - title: "About"
     url: /about/

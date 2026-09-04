@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- semantic-families: neutral, modeling, governance -->
+<!-- Hand-authored SVG (label: research-portfolio). Umbrella Research page.
+     ONE JOB: the portfolio has one long-running theme. Engineering knowledge is
+     extracted from real software systems, and structures built from it improve
+     how the next systems are built, assured, and learned from.
+     The dashed return edge is what makes this a research programme rather than a
+     pipeline: the improvement accumulates. Drawn dashed because it is derived,
+     not authored, and because it acts over years rather than within one project.
+     Deliberately says nothing about agents. Agentic engineering changes the
+     economics of some of this work; it does not replace the trajectory, and a
+     figure that centred it would misdate the programme.
+     Colour by role: neutral = the world and the activities; modeling green =
+     knowledge made explicit; governance rust = the outcome that justifies it. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"
+     role="img" aria-labelledby="portTitle portDesc"
+     font-family="Source Sans 3, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+  <title id="portTitle">How the research portfolio fits together</title>
+  <desc id="portDesc">Real software systems yield engineering knowledge. That
+    knowledge is turned into structures that improve three activities: building
+    software, assuring it, and learning from how it fails. The result is better
+    systems, which in turn become the source of further engineering knowledge.
+    The loop is what makes this a sustained research programme rather than a
+    sequence of separate projects.</desc>
+
+  <rect x="0" y="0" width="1200" height="600" fill="#fdfcf9"/>
+
+  <defs>
+    <marker id="pa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#57534e"/>
+    </marker>
+    <marker id="pg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#9a3f12"/>
+    </marker>
+  </defs>
+
+  <!-- boxes -->
+  <rect x="430" y="46"  width="340" height="66" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="400" y="182" width="400" height="86" rx="3" fill="#e3f0e7" stroke="#1f7a4d" stroke-width="2"/>
+  <rect x="110" y="340" width="240" height="76" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="480" y="340" width="240" height="76" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="850" y="340" width="240" height="76" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="430" y="490" width="340" height="66" rx="3" fill="#faf1e6" stroke="#9a3f12" stroke-width="2.5"/>
+
+  <!-- flow down -->
+  <line x1="600" y1="112" x2="600" y2="174" stroke="#57534e" stroke-width="1.5" marker-end="url(#pa)"/>
+  <path d="M 600 268 L 600 300 L 230 300 L 230 332" fill="none" stroke="#1f7a4d" stroke-width="1.5" marker-end="url(#pa)"/>
+  <path d="M 600 268 L 600 332" fill="none" stroke="#1f7a4d" stroke-width="1.5" marker-end="url(#pa)"/>
+  <path d="M 600 268 L 600 300 L 970 300 L 970 332" fill="none" stroke="#1f7a4d" stroke-width="1.5" marker-end="url(#pa)"/>
+  <path d="M 230 416 L 230 452 L 600 452 L 600 482" fill="none" stroke="#57534e" stroke-width="1.5" marker-end="url(#pa)"/>
+  <path d="M 600 416 L 600 482" fill="none" stroke="#57534e" stroke-width="1.5" marker-end="url(#pa)"/>
+  <path d="M 970 416 L 970 452 L 600 452 L 600 482" fill="none" stroke="#57534e" stroke-width="1.5" marker-end="url(#pa)"/>
+
+  <!-- the return: better systems become the next source of knowledge -->
+  <path d="M 770 523 L 1150 523 L 1150 79 L 778 79" fill="none" stroke="#9a3f12"
+        stroke-width="2" stroke-dasharray="7 4" marker-end="url(#pg)"/>
+
+  <!-- text last -->
+  <text x="600" y="84"  font-size="20" font-weight="600" fill="#1c1917" text-anchor="middle">Software-intensive systems</text>
+  <text x="600" y="104" font-size="14" fill="#57534e" text-anchor="middle">as they are actually built, deployed, and failed</text>
+
+  <text x="600" y="220" font-size="22" font-weight="600" fill="#14532d" text-anchor="middle"
+        font-family="Source Serif 4, Charter, Georgia, serif">Engineering knowledge</text>
+  <text x="600" y="246" font-size="15" fill="#1f7a4d" text-anchor="middle">made explicit, and given a structure that can be reused</text>
+
+  <text x="230" y="374" font-size="19" font-weight="600" fill="#1c1917" text-anchor="middle">Build</text>
+  <text x="230" y="398" font-size="14" fill="#57534e" text-anchor="middle">reuse, dependencies, agents</text>
+  <text x="600" y="374" font-size="19" font-weight="600" fill="#1c1917" text-anchor="middle">Assure</text>
+  <text x="600" y="398" font-size="14" fill="#57534e" text-anchor="middle">analysis, proof, provenance</text>
+  <text x="970" y="374" font-size="19" font-weight="600" fill="#1c1917" text-anchor="middle">Learn</text>
+  <text x="970" y="398" font-size="14" fill="#57534e" text-anchor="middle">failures, evidence, practice</text>
+
+  <text x="600" y="524" font-size="20" font-weight="600" fill="#7f2f0c" text-anchor="middle">Systems worth trusting</text>
+  <text x="600" y="544" font-size="14" fill="#9a3f12" text-anchor="middle">and an engineering record that carries forward</text>
+
+  <text x="1140" y="300" font-size="14" font-style="italic" fill="#9a3f12"
+        text-anchor="middle" transform="rotate(90 1140 300)">knowledge accumulates</text>
+</svg>
