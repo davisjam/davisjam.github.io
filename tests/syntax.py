@@ -78,21 +78,19 @@ def check_liquid(bad: list[str]) -> None:
 def check_front_matter(bad: list[str]) -> None:
     """A page whose front matter will not parse is a page Jekyll drops."""
     import yaml
+    import _frontmatter
     for p in files(".md", ".markdown", ".html"):
         text = p.read_text(errors="replace")
-        if not text.startswith("---"):
-            continue
-        end = text.find("\n---", 3)
-        if end == -1:
+        if _frontmatter.is_unclosed(text):
             bad.append(f"{p.relative_to(ROOT)}: front matter is never closed")
             continue
         try:
-            fm = yaml.safe_load(text[3:end])
+            fm = _frontmatter.load(p, text=text)
         except yaml.YAMLError as e:
             bad.append(f"{p.relative_to(ROOT)}: front matter is not valid YAML -- "
                        f"{str(e).splitlines()[0]}")
             continue
-        if isinstance(fm, dict) and "permalink" in fm:
+        if fm and "permalink" in fm:
             link = str(fm["permalink"])
             if not link.startswith("/"):
                 bad.append(f"{p.relative_to(ROOT)}: permalink {link!r} is relative; "

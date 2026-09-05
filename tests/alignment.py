@@ -39,6 +39,8 @@ import argparse
 import html
 import json
 import pathlib
+
+import _frontmatter
 import re
 import sys
 from dataclasses import dataclass, field
@@ -555,8 +557,7 @@ def signature_figures(e: Engine, m) -> None:
         page = site / f"_pages/research-{pid}.md"
         if not page.exists():
             o.fail(f"{pid}: no programme page"); continue
-        head = page.read_text().split("---", 2)[1]
-        fm = _y.safe_load(head) or {}
+        fm = _frontmatter.load(page) or {}
         if fm.get("figure") != landing:
             o.fail(f"{pid}: landing shows {landing}, page shows {fm.get('figure')} "
                    f"-- a signature figure must be one artifact")

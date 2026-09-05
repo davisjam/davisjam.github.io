@@ -29,6 +29,8 @@ from __future__ import annotations
 import argparse
 import json
 import pathlib
+
+import _frontmatter
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -109,12 +111,8 @@ def main(argv=None) -> int:
         # permalinks means a new page is covered the moment it is written.
         urls = [f"{ORIGIN}/"]
         for md in sorted((ROOT / "repos/davisjam.github.io/_pages").glob("*.md")):
-            text = md.read_text(errors="replace")
-            if not text.startswith("---"):
-                continue
-            end = text.find("\n---", 3)
-            fm = yaml.safe_load(text[3:end]) if end != -1 else None
-            if not isinstance(fm, dict):
+            fm = _frontmatter.load(md)
+            if fm is None:
                 continue
             link = fm.get("permalink")
             # Redirect stubs are inert until the old repos are deleted, and 404
