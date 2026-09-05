@@ -131,6 +131,14 @@
 .greedy-nav .visible-links .rps__menu li { display: block; width: auto;
   vertical-align: baseline; }
 .greedy-nav .visible-links .rps.is-open .rps__menu { display: block; }
+/* The contextual programme label is supplementary location information, and
+   below this width it is what pushes the nav past the viewport -- greedy-nav
+   measures the bar without knowing about it. The page title says which
+   programme you are on anyway, so it goes rather than the bar overflowing. */
+@media (max-width: 64em) {
+  .rps__here { display: none; }
+}
+
 @media (max-width: 48em) {
   .rps__menu { position: static; min-width: 0; max-width: none; border: 0;
     box-shadow: none; border-left: 2px solid #CEB888; margin: .2em 0 .2em .8em; } }
