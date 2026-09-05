@@ -111,7 +111,20 @@ def rendered(fragment: str) -> str:
 
 
 def program_sites(m) -> list[dict]:
+    """Programmes, whether or not their standalone site still exists."""
     return [s for s in m["sites"]["sites"] if s.get("profile") == "research-program"]
+
+
+def live_sites(m) -> list[dict]:
+    """Programmes whose STANDALONE SITE is still the published artifact.
+
+    After consolidation the programme pages live in the umbrella site, so the
+    families that validate a standalone site (routes, shell, sections, design,
+    SEO, provenance) have nothing to assert about the retired repos. STRUCT and
+    the figure sensors still read those repos, because the authored figures
+    live there until the repos are deleted.
+    """
+    return [s for s in program_sites(m) if s.get("site_status") != "retired"]
 
 
 def built(site: dict) -> pathlib.Path:
@@ -130,7 +143,7 @@ def scholarly(e: Engine, m) -> None:
     o3 = e.obl("OBL-SCHOLARLY-003",
                "Rendered publication titles match the canonical record exactly.",
                ["data/publications.yaml", "repos/*/index.html"])
-    for s in program_sites(m):
+    for s in live_sites(m):
         f = built(s)
         if not f.exists():
             o.fail("site not built", s["id"]); continue
@@ -161,7 +174,7 @@ def funding(e: Engine, m) -> None:
     o3 = e.obl("OBL-FUND-003",
                "No site names a sponsor absent from its modeled grant edges.",
                ["data/funding.yaml", "repos/*/index.html"])
-    for s in program_sites(m):
+    for s in live_sites(m):
         f = built(s)
         if not f.exists():
             continue
@@ -215,8 +228,9 @@ def portfolio(e: Engine, m) -> None:
             o.fail(f"{pid} has more than one card")
         if e.get("title") != s["title"]:
             o3.fail(f"{pid} card title {e.get('title')!r} != model {s['title']!r}")
-        if e.get("url") != s["url"]:
-            o.fail(f"{pid} card URL {e.get('url')} != canonical {s['url']}")
+        card_url, canon = e.get("url", ""), s["url"]
+        if card_url.replace(ORIGIN, "") != canon.replace(ORIGIN, ""):
+            o.fail(f"{pid} card URL {card_url} != canonical {canon}")
         n = sum(1 for x in m["pubs"]["publications"] if pid in (x.get("projects") or []))
         if e.get("publications") != n:
             o.fail(f"{pid} card claims {e.get('publications')} publications, model has {n}")
@@ -244,7 +258,7 @@ def routes(e: Engine, m) -> None:
                ["repos/*/index.html"])
     o5 = e.obl("OBL-ROUTE-005", "Every jump-navigation fragment resolves to a section id.",
                ["repos/*/index.html"])
-    for s in program_sites(m):
+    for s in live_sites(m):
         f = built(s)
         if not f.exists():
             continue
@@ -293,7 +307,7 @@ def shell(e: Engine, m) -> None:
     o2 = e.obl("OBL-SHELL-002", "Every research site offers an obvious return to Research.",
                ["repos/*/index.html"])
     want = ["Home", "Publications", "Teaching", "Service", "About"]
-    for s in program_sites(m):
+    for s in live_sites(m):
         f = built(s)
         if not f.exists():
             continue
@@ -328,7 +342,7 @@ def sections(e: Engine, m) -> None:
                ["repos/*/index.html"])
     o3 = e.obl("OBL-SECTION-003", "No section is rendered empty.",
                ["repos/*/index.html"], WARNING)
-    for s in program_sites(m):
+    for s in live_sites(m):
         f = built(s)
         if not f.exists():
             continue
@@ -359,7 +373,7 @@ def design(e: Engine, m) -> None:
                ["repos/*/index.html"])
     EYEBROW = [r"a research programme of", r"a research project of james",
                r"a duality lab initiative", r"research initiative"]
-    for s in program_sites(m):
+    for s in live_sites(m):
         f = built(s)
         if not f.exists():
             continue
@@ -389,7 +403,7 @@ def prose(e: Engine, m) -> None:
             "real-world impact", "innovative", "crucial", "seeks to", "aims to"]
     NARRATE = ["this page explores", "below we highlight", "in this section",
                "together, these", "this work demonstrates"]
-    for s in program_sites(m):
+    for s in live_sites(m):
         f = built(s)
         if not f.exists():
             continue
@@ -415,7 +429,7 @@ def accessibility(e: Engine, m) -> None:
                ["repos/*/index.html"])
     o5 = e.obl("OBL-A11Y-005", "Embedded SVG figures expose a title and description.",
                ["repos/*/figures/*.svg"])
-    for s in program_sites(m):
+    for s in live_sites(m):
         f = built(s)
         if not f.exists():
             continue
@@ -453,7 +467,7 @@ def seo(e: Engine, m) -> None:
                ["repos/*/index.html"])
     o3 = e.obl("OBL-SEO-003", "No page is accidentally noindexed.", ["repos/*/index.html"])
     seen: dict[str, str] = {}
-    for s in program_sites(m):
+    for s in live_sites(m):
         f = built(s)
         if not f.exists():
             continue
@@ -484,7 +498,7 @@ def provenance(e: Engine, m) -> None:
               ["generators/", "repos/*/index.html"])
     o2 = e.obl("OBL-PROV-002", "Generated assets declare their provenance.",
                ["repos/*/assets/site.css"])
-    for s in program_sites(m):
+    for s in live_sites(m):
         css = ROOT / s["path"] / "assets/site.css"
         if css.exists() and "GENERATED" not in css.read_text()[:400]:
             o2.fail("site.css carries no provenance header", s["id"])

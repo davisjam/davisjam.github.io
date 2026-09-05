@@ -27,8 +27,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 UMBRELLA = ROOT / "repos/davisjam.github.io"
 OUT = UMBRELLA / "_pages"
 
-sys.path.insert(0, str(ROOT / "generators"))
-from generate_sites import COPY  # noqa: E402  the authored program prose
+# Hero prose comes from data/, not from the standalone-site generator: that
+# generator is slated for deletion, and this prose is authored, not derivable.
 
 
 def yfm(v: str) -> str:
@@ -65,6 +65,7 @@ def main() -> int:
     import yaml
     sites = yaml.safe_load((ROOT / "model/sites.yaml").read_text())["sites"]
     struct = yaml.safe_load((ROOT / "data/program-structure.yaml").read_text())["programs"]
+    copy = yaml.safe_load((ROOT / "data/program-copy.yaml").read_text())["programs"]
     pubs = yaml.safe_load((ROOT / "data/publications.yaml").read_text())["publications"]
     fund = yaml.safe_load((ROOT / "data/funding.yaml").read_text())["grants"]
     canonical = next(s for s in sites
@@ -75,7 +76,7 @@ def main() -> int:
         if s.get("profile") != "research-program":
             continue
         pid = s["project_id"]
-        c = COPY[pid]
+        c = copy[pid]
         fig = s.get("figure") or {}
         mine = [p for p in pubs if pid in (p.get("projects") or [])]
         by_role: dict[str, list] = {}
@@ -91,7 +92,7 @@ def main() -> int:
              f"permalink: /research/{pid}/",
              "author_profile: true",
              f"research_slug: {yfm(s.get('short_name') or s['title'])}",
-             f"question: {yfm(' '.join(c['question'].split()))}",
+             f"question: {yfm(c['question'])}",
              f"figure: /assets/research/{pid}/{fig.get('id')}.svg",
              f"figure_alt: {yfm(' '.join((fig.get('caption') or '').split()))}",
              f"figure_caption: {yfm(' '.join((fig.get('caption') or '').split()))}"]
@@ -100,7 +101,7 @@ def main() -> int:
                   'external_label: "Explore the MAGE book, course, and framework"']
         o += ["---", ""]
 
-        o += [" ".join(p.split()) + "\n" for p in c["intro"]]
+        o += [p + "\n" for p in c["intro"]]
 
         # The body is organized by CLAIM, not by year. Publications hang beneath
         # a claim as evidence for it; chronology is an artifact of the record,

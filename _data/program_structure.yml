@@ -80,29 +80,53 @@ programs:
 
   ptm-se:
     sections:
-      - title: Models as reused artifacts
+      - title: Pre-trained models are a distinct kind of software dependency
+        figure_label: REUSE IS FAMILIAR, THE ARTIFACT IS NOT
         prose: >-
-          Developers increasingly build on models they did not train. This work
-          established that model reuse is a software-engineering problem, with
-          its own selection, integration, and maintenance questions.
-        publications: [W-15, C-29, J-4, J-2]
-      - title: Making the ecosystem measurable
+          Early work in this programme established that reusing a pre-trained
+          model is not simply a machine-learning convenience. Engineers must
+          discover, interpret, adapt, validate, and maintain artifacts whose
+          interfaces and provenance are less explicit than those of conventional
+          software packages.
+        publications: [W-15, C-29, J-2, J-4]
+      - title: The model ecosystem must be measured
+        figure_label: THE ECOSYSTEM KEEPS MOVING
         prose: >-
-          Claims about how models are reused can only be tested against data.
-          These datasets and studies made the model ecosystem empirically
-          inspectable.
+          Pre-trained model ecosystems change quickly: registries grow,
+          conventions shift, new model families and formats appear, and
+          downstream reuse practices evolve with them. Engineering guidance
+          therefore cannot rest on a static picture of how models are produced
+          or reused. We build datasets and conduct ecosystem-scale studies so
+          that emerging practices, failure modes, and developer needs can be
+          measured as they change.
         publications: [W-19, C-28, C-23, W-1]
-      - title: What travels with a reused model
+      - title: Model identity and interoperability cannot be assumed
+        figure_label: IDENTITY AND INTEROPERABILITY ARE NOT GUARANTEED
         prose: >-
-          A model carries assumptions, provenance, and risk that its interface
-          does not describe. This work examines what actually arrives with an
-          artifact obtained from a registry.
-        publications: [W-25, W-22, C-22, J-7, W-29, Pa-1]
-      - title: Reproducibility and downstream engineering
+          Conventional dependency management assumes a named artifact can be
+          identified, and that declared interfaces delimit how it composes with
+          the rest of a system. Pre-trained models weaken both assumptions.
+          Nominally equivalent models can differ, names can be inconsistent, and
+          supposedly portable representations can fail when moved across tools
+          and frameworks.
+        publications: [W-25, C-22, Pa-1]
+      - title: Reuse shifts substantial engineering work downstream
+        figure_label: REUSE REQUIRES REENGINEERING
         prose: >-
-          What downstream engineers can rely on, and what they must rebuild
-          themselves.
-        publications: [R-8, R-5, R-7, J-1, W-12, C-12]
+          Reusing a trained model does not eliminate engineering work; it
+          relocates it. Downstream developers often have to reproduce results,
+          adapt artifacts across frameworks and hardware, reconstruct missing
+          assumptions, and determine whether the model remains valid for a new
+          use.
+        publications: [J-7, R-8, R-5, R-7, W-12]
+      - title: Security is part of the reuse contract
+        figure_label: RISK TRAVELS WITH THE ARTIFACT
+        prose: >-
+          A reused model is not only a learned function. It arrives as a
+          software artifact with provenance, serialization formats,
+          dependencies, and assumptions about how it will be loaded and
+          executed. Those properties make security part of the reuse contract.
+        publications: [W-22, W-29, C-12, J-1]
 
   # Section order is INTELLECTUAL, not chronological, and so is the order of
   # publications within a section. `figure_label` is the same string the figure

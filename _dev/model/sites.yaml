@@ -96,6 +96,7 @@ sites:
     url: https://davisjam.github.io/research/mage/
     legacy_url: https://davisjam.github.io/mage/   # standalone site, retired in the consolidation
     profile: research-program
+    site_status: retired   # standalone site superseded by the /research/ page
     title: Model-Based Agentic Software Engineering
     short_name: MAGE
     status: active
@@ -155,6 +156,7 @@ sites:
     url: https://davisjam.github.io/research/embedded-swe/
     legacy_url: https://davisjam.github.io/embedded-software-engineering/   # standalone site, retired in the consolidation
     profile: research-program
+    site_status: retired   # standalone site superseded by the /research/ page
     title: Embedded Software Engineering
     short_name: Embedded SE
     status: active
@@ -188,6 +190,7 @@ sites:
     url: https://davisjam.github.io/research/failure-aware-sdlc/
     legacy_url: https://davisjam.github.io/failure-aware-software-development/   # standalone site, retired in the consolidation
     profile: research-program
+    site_status: retired   # standalone site superseded by the /research/ page
     title: Failure-Aware Software Development
     short_name: FA-SDLC
     status: active
@@ -221,6 +224,7 @@ sites:
     url: https://davisjam.github.io/research/ptm-se/
     legacy_url: https://davisjam.github.io/software-engineering-pre-trained-models/   # standalone site, retired in the consolidation
     profile: research-program
+    site_status: retired   # standalone site superseded by the /research/ page
     title: Software Engineering for Pre-Trained Models
     short_name: PTMs
     status: active
@@ -259,6 +263,7 @@ sites:
     url: https://davisjam.github.io/research/software-supply-chain/
     legacy_url: https://davisjam.github.io/software-supply-chains/   # standalone site, retired in the consolidation
     profile: research-program
+    site_status: retired   # standalone site superseded by the /research/ page
     title: Software Supply Chains
     short_name: Supply Chains
     status: active
@@ -304,6 +309,7 @@ sites:
     url: https://davisjam.github.io/research/saferegex/
     legacy_url: https://davisjam.github.io/regular-expression-engineering/   # standalone site, retired in the consolidation
     profile: research-program
+    site_status: retired   # standalone site superseded by the /research/ page
     title: Regular Expression Engineering
     short_name: Regex
     # NAMING DECISION (260904): the program is referred to as "SafeRegex" in
