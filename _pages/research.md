@@ -35,7 +35,9 @@ My current research is organized around six programs.
    become the first thing the eye lands on.
 
    Column count emerges from available width; it is not decreed as 3x2. */
-.research-programs{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+/* minmax(min(340px,100%),...) not minmax(340px,...): a bare 340px floor cannot
+   shrink below itself, so the grid overflowed a 375px viewport. */
+.research-programs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr));
   column-gap:2.5rem;row-gap:3.25rem;margin:2em 0 2.5em}
 .research-program{min-width:0}          /* long titles must not blow the track */
 /* HIERARCHY: title, question, THEN figure. The figure used to come first,
