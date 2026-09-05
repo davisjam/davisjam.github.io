@@ -20,44 +20,38 @@ I have helped build Purdue ECE's software-engineering curriculum across undergra
 
 When I joined Purdue in 2020 as ECE's first faculty member specializing in software engineering, the Computer Engineering curriculum did not have a dedicated software-engineering course. Since then, I have designed and piloted new undergraduate and graduate software-engineering courses, substantially redesigned the accompanying software-engineering tools course, and helped integrate these offerings into a new undergraduate Software Engineering concentration. I also helped design and launch Purdue's M.S. in Software Engineering jointly with Computer Science.
 
-These courses now serve more than 250 students each year. Demand for the undergraduate course led ECE to add a second section in Indianapolis, and four other ECE faculty have taught courses using the resulting curriculum and materials. Teaching materials I developed have also been used at NC State University, the University of Kentucky, and Carnegie Mellon University.
+These courses now serve more than 250 students each year. Demand for the undergraduate course led ECE to add a second section in Indianapolis, and four other ECE faculty have taught courses using the resulting curriculum and materials.
 
 My curricular work also extends to program-level assessment and improvement. I served on ECE's Undergraduate Curriculum Committee and subsequently helped lead the successful 2025 ABET review for Computer Engineering, with responsibility for documenting and evaluating the program's continuous-improvement process.
 
 ## Courses I teach
 
-### ECE 30861 — Software Engineering
+### [ECE 30861 — Software Engineering](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=814&show=true&type=undergrad)
 
 My undergraduate software-engineering course uses a substantial team project to connect software process, requirements and specification, architecture, implementation, validation and assurance, deployment, security, maintenance, and professional judgment.
 
-I designed and piloted the course as part of Purdue ECE's expanded software-engineering curriculum and continue to serve as its lead instructor. Rather than teaching a particular development process or technology stack, the course asks students to learn how to make and defend engineering decisions as technologies, requirements, teams, and constraints change.
-
-[Purdue course catalog →](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=814&show=true&type=undergrad)
-
 <aside class="course-inset" markdown="1">
-<p class="course-inset__eyebrow">OPEN COURSE MATERIALS</p>
 #### Teach with MAGE
 
-ECE 30861 is the reference course for Teach with MAGE, where I publish its teaching materials openly: lectures, readings, project materials, assessment structure, and a semester-long engineering project organized around modeling, alignment, evidence, autonomous work, and professional responsibility.
+In 2026, I spent about six months using four Claude Max 20× accounts essentially full-time while building a large production software system. That experience changed how I thought about software engineering: implementation had become dramatically cheaper, but engineering judgment had not.
 
-The course uses Model-Based Agentic Software Engineering as a primary text and asks how software-engineering education should change as increasingly capable agents make implementation less expensive while leaving consequential engineering judgment with people.
+I wrote [Model-Based Agentic Software Engineering (MAGE)](https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book.pdf) to work through the consequences, and then substantially redesigned ECE 30861 around the same question: what should software-engineering education teach when capable agents can produce implementation cheaply, but people remain responsible for requirements, models, evidence, tradeoffs, and consequences?
 
-[Explore the reference course →](https://davisjam.github.io/model-based-agentic-software-engineering/teach/) [Read MAGE →](https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book.pdf)
+I publish the course materials openly through [Teach with MAGE](https://davisjam.github.io/model-based-agentic-software-engineering/teach/), including lectures, readings, project materials, assessments, and the semester-long engineering project.
+
 </aside>
 
-### ECE 50874 — Advanced Software Engineering
+### [ECE 50874 — Advanced Software Engineering](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=777&show=true&type=grad)
 
 My graduate software-engineering course moves from building software that works toward reasoning systematically about whether software is robust. Students study methods for identifying and managing engineering risk, evaluating evidence about software systems, and establishing confidence in important system properties.
 
-The course draws on software-engineering research, industrial practice, and international engineering standards, asking students to reason critically about both the methods engineers use and the evidence those methods produce.
-
-[Purdue course catalog →](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=777&show=true&type=grad)
+The course draws on software-engineering research, industrial practice, and international engineering standards, notably IEC 61508, asking students to reason critically about both the methods engineers use and the evidence those methods produce.
 
 ## Undergraduate research as teaching
 
 Research is one of my primary teaching environments.
 
-Since joining Purdue, I have mentored more than 175 undergraduate researchers through Vertically Integrated Projects (VIP), SURF, NSF REU, OUR Scholars, the Colombia–Purdue Partnership, independent study, and related programs. I have also supervised more than 12 senior-design projects through these research activities.
+Since joining Purdue, I have mentored more than 175 undergraduate researchers through Vertically Integrated Projects (VIP), SURF, NSF REU, OUR Scholars, the Colombia–Purdue Partnership, independent study, and related programs. I have also supervised 12 senior-design projects through these research activities.
 
 I treat undergraduate research as a progression toward independence. Students can enter a continuing project with limited research experience and a well-scaffolded technical role, then take on increasingly substantial responsibilities as they develop. I pair undergraduate researchers with graduate students for near-peer mentoring, while experienced undergraduates themselves become technical leaders and mentors for newer students.
 
@@ -66,7 +60,7 @@ The goal is to train both researchers and engineers. Students learn to formulate
 <div class="teaching-stats" markdown="0">
   <div class="teaching-stat"><span class="teaching-stat__value">175+</span><span class="teaching-stat__label">undergraduate researchers mentored</span></div>
   <div class="teaching-stat"><span class="teaching-stat__value">27</span><span class="teaching-stat__label">undergraduate research authors</span></div>
-  <div class="teaching-stat"><span class="teaching-stat__value">12+</span><span class="teaching-stat__label">senior-design projects</span></div>
+  <div class="teaching-stat"><span class="teaching-stat__value">12</span><span class="teaching-stat__label">senior-design projects</span></div>
 </div>
 
 Twenty-seven undergraduate mentees have become authors — including several lead authors — on peer-reviewed papers, posters, and a U.S. patent application. Engineering-focused students have also contributed artifacts used outside the university, including seven models accepted to Google's TensorFlow Model Garden.
@@ -121,14 +115,8 @@ Mentees have gone on to graduate study at institutions including Stanford, Carne
 
 ## Scholarship of teaching and learning
 
-I also study the teaching of software engineering itself. My education research examines how students develop software-engineering competencies through experiential and problem-based learning, how systems thinking can improve cybersecurity education, and how generative AI changes software-engineering education.
+My scholarship of teaching and learning includes six peer-reviewed papers. I study the teaching of software engineering itself. My education research examines how students develop software-engineering competencies through experiential and problem-based learning, how systems thinking can improve cybersecurity education, and how generative AI changes software-engineering education.
 
 This work feeds back into my courses. Studies of experiential learning informed the problem-based structure of ECE 30861; subsequent work examined global software-engineering education and cybersecurity competency within the course. More recently, my collaborators and I have studied how students use large language models in semester-long software-engineering projects and how curricula should prepare students for GenAI-assisted engineering.
 
-<div class="teaching-stats" markdown="0">
-  <div class="teaching-stat"><span class="teaching-stat__value">6</span><span class="teaching-stat__label">peer-reviewed education publications</span></div>
-  <div class="teaching-stat"><span class="teaching-stat__value">1</span><span class="teaching-stat__label">ASEE Best Paper Award</span></div>
-  <div class="teaching-stat"><span class="teaching-stat__value">$730K</span><span class="teaching-stat__label">education-focused project funding</span></div>
-</div>
-
-Our 2024 ASEE work on integrating systems thinking into cybersecurity education received a Best Paper Award. This scholarship has been supported by two NSF awards and three internal projects totaling approximately $730,000.
+Our 2024 ASEE work on integrating systems thinking into cybersecurity education received a Best Paper Award. This work has been supported by approximately $730,000 in education-focused projects, including [NSF #2452533](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2452533), on defining competencies for GenAI-assisted software engineering.

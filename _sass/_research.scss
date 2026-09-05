@@ -110,21 +110,14 @@ body:has(.research-figure) .pub-list { max-width: 900px; }
    contrast 4.67 on white) rather than Boilermaker Gold (#CEB888, 1.94) -- the
    brighter gold fails AA for text and is only ever used as a rule or border. */
 
+/* A thin accent rule, nothing else. The enclosing panel made a supporting
+   resource louder than the course it supports, and its border said only
+   "component edge". Indentation plus the rule already say "belongs to the
+   section above". */
 .course-inset {
   margin: 1.6em 0 2em;
-  padding: 1.1em 1.3em 0.9em;
-  border: 1px solid #e4e0d8;
-  border-left: 3px solid #8E6F3E;
-  background: #fcfbf9;
-
-  &__eyebrow {
-    margin: 0 0 0.35em;
-    font-size: 0.7em;
-    font-weight: 600;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-    color: #8E6F3E;
-  }
+  padding: 0 0 0 1.15em;
+  border-left: 2px solid #8E6F3E;
 
   h4 {
     margin: 0 0 0.5em;
@@ -140,9 +133,8 @@ body:has(.research-figure) .pub-list { max-width: 900px; }
   flex-wrap: wrap;                 /* wraps rather than overflowing at 320px */
   gap: 1.4em 2.4em;
   margin: 1.6em 0 1.8em;
-  padding: 1.1em 0;
-  border-top: 1px solid #e4e0d8;
-  border-bottom: 1px solid #e4e0d8;
+  /* No rules top and bottom. The numbers are their own anchors, and a boxed
+     statistic band imports dashboard language onto an academic page. */
 }
 
 .teaching-stat {

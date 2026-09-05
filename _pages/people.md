@@ -96,7 +96,7 @@ senior design, independent study, SURF, REU, and related programs.
 
 Undergraduates are a substantial part of Duality Lab. Students participate through Vertically Integrated Projects, senior design, independent research, SURF, NSF REU, and related programs.
 
-Since 2020, 175+ undergraduate researchers have worked with the group. At least 27 have become authors on peer-reviewed papers, posters, and other scholarly outputs, alongside 12+ senior-design projects supervised through these research activities.
+Since 2020, 175+ undergraduate researchers have worked with the group. At least 27 have become authors on peer-reviewed papers, posters, and other scholarly outputs, alongside 12 senior-design projects supervised through these research activities.
 
 [Learn more about undergraduate research and mentoring →](/teaching/)
 
