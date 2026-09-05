@@ -1,0 +1,217 @@
+# data/people.yaml — Duality Lab people.
+#
+# THE RULE (James, 260905): current people are individuals; past undergraduate
+# mentorship is a record of OUTCOMES, not an attendance ledger.
+#
+# There is deliberately NO selected-undergraduate-alumni list. With 27+
+# undergraduate co-authors, any selection is arbitrary and implicitly declares
+# which of them mattered. Undergraduate mentorship is shown at scale here and in
+# depth on the Teaching page, which owns the quantitative and pedagogical story.
+# Do not add such a list later.
+#
+# PROVENANCE. Every person below is derived from in-repo authoritative records,
+# not from memory or the open web:
+#   - status + degree + year   -> data/news.yaml (defenses, prelims, placements)
+#   - research area            -> data/publications.yaml (their co-authored
+#                                 papers' `projects`, dominant project wins)
+# Anyone the record mentions but does not let me classify is in
+# `needs_confirmation` rather than guessed into a roster.
+#
+# TWO FIELDS ARE DELIBERATELY EMPTY EVERYWHERE, awaiting supplied data:
+#   photo     -- current graduate researchers should carry headshots. None
+#                exist in the repo. A person without one renders text-only; do
+#                NOT substitute a silhouette placeholder.
+#   linkedin  -- a person's NAME is the link, and there is no other LinkedIn
+#                affordance on the page. A LinkedIn URL must never be
+#                constructed or guessed from a name, so names stay unlinked
+#                until a verified profile is supplied.
+
+schema_version: 1
+
+# Every graduate researcher is in ECE; stated once rather than nine times.
+department: Electrical and Computer Engineering
+
+# One line per research programme, so a person's area is never hand-written.
+area_phrases:
+  ptm-se: Reuse, reliability, and security of pre-trained models
+  software-supply-chain: Software supply chains, signing, and trustworthy reuse
+  failure-aware-sdlc: Learning engineering knowledge from software failures
+  embedded-swe: Reliability and security of embedded software
+  saferegex: Reliability and security of regular expressions
+  mage: Model-based agentic software engineering
+
+faculty:
+  - name: James C. Davis, PhD
+    name_url: /personal/          # faculty name links to About, not LinkedIn
+    role: >-
+      Assistant Professor, Elmore Family School of Electrical and Computer
+      Engineering, Purdue University
+    links:
+      - {label: Personal, url: /personal/}
+      - {label: CV, url: /cv/}
+      - {label: Google Scholar, url: "https://scholar.google.com/citations?user=VSAWPQ4AAAAJ"}
+
+# Roster and degree status from the CV's Graduate Student Advising section
+# (James, 260905). `area` is a project id resolved through area_phrases, taken
+# from the dominant project on the person's co-authored papers; it is left
+# UNSET where the record does not support one rather than guessed.
+#
+# The candidate/student distinction is the CV's and is kept: it marks whether
+# the preliminary exam is passed, which academic readers read correctly.
+# Expected graduation dates are deliberately omitted -- they are CV detail and
+# they move.
+graduate:
+  - name: Dharun Anandayuvaraj
+    degree: Ph.D. candidate
+    area: failure-aware-sdlc
+  - name: Purvish Jajal
+    degree: Ph.D. candidate
+    co_advisor: Y.H. Lu
+    research: Efficient neural network design
+  - name: Nicholas J. Eliopoulos
+    degree: Ph.D. candidate
+    co_advisor: Y.H. Lu
+    # `research` is free text, used where the work does not sit inside one of
+    # the six programmes. These three came from James directly (260905); their
+    # papers carry no project tags, which is why the lookup could not find them.
+    research: Machine learning systems and efficient inference
+  - name: Kelechi Gabriel Kalu
+    degree: Ph.D. candidate
+    area: software-supply-chain
+  - name: Daniel Lugo
+    degree: Ph.D. student
+    affiliation: U.S. Space Force
+    area: ptm-se
+  - name: Andrew Rozema
+    degree: Ph.D. student
+    research: Phishing measurements and tooling
+  - name: Berk Çakar
+    degree: Ph.D. student
+    # Not resolvable from the authors field (C-8 has none recorded), but the
+    # news byline for C-8 names him and C-8 is tagged software-supply-chain.
+    area: software-supply-chain
+  - name: Huiyun Peng
+    degree: Ph.D. student
+    research: Agentic software engineering
+  - name: Ricardo Andrés Calvo Méndez
+    degree: Ph.D. student
+    area: embedded-swe
+
+alumni_graduate:
+  - name: Paschal C. Amusuo
+    degree: Ph.D.
+    year: 2026
+    area: embedded-swe
+    linkedin: https://www.linkedin.com/in/paschal-amusuo-134146b3/
+    next_position: Google
+  - name: Wenxin Jiang
+    degree: Ph.D.
+    year: 2025
+    area: ptm-se
+    linkedin: https://www.linkedin.com/in/wenxin-jiang/
+    next_position: Research engineer, Socket
+  - name: Tanmay Singla
+    degree: M.S.
+    year: 2026
+    area: software-supply-chain
+    linkedin: https://www.linkedin.com/in/tanmay-singla/
+    next_position: Vulnerability research engineer, Socket
+  - name: Sofia Okorafor
+    degree: M.S.
+    year: 2026
+    area: software-supply-chain
+    linkedin: https://www.linkedin.com/in/sofia-okorafor-b7ba12251/
+    next_position: US Navy Cyber
+  - name: Parth V. Patil
+    degree: M.S.
+    year: 2025
+    area: embedded-swe
+    linkedin: https://www.linkedin.com/in/parthvpatil/
+    next_position: Manufacturing test engineer, Amazon Robotics
+  - name: Jason Jones
+    degree: M.S.
+    year: 2024
+    thesis: >-
+      A Quantitative Comparison of Pre-Trained Model Registries to Traditional
+      Software Package Registries
+    linkedin: https://www.linkedin.com/in/jonesjasonh/
+    next_position: AI engineer, BotDojo
+  - name: Taylor R. Schorlemmer
+    degree: M.S.
+    year: 2024
+    thesis: >-
+      Software Supply Chain Security: Attacks, Defenses, and the Adoption of
+      Signatures
+    linkedin: https://www.linkedin.com/in/taylor-reeves-schorlemmer/
+    next_position: US Army Cyber
+  - name: William P. Maxam III
+    degree: M.S.
+    year: 2023
+    thesis: Discovering U.S. Government Threat Hunting Processes and Improvements
+    linkedin: https://www.linkedin.com/in/william-m-714184114/
+    next_position: Instructor, US Coast Guard Academy
+  - name: Geoffrey Cramer
+    degree: M.S.
+    year: 2023
+    thesis: >-
+      An Empirical Study of Trust & Safety Engineering in Open-Source Social
+      Media Platforms
+    linkedin: https://www.linkedin.com/in/geoff-cramer/
+    next_position: Software engineer, BlueSky
+
+undergraduate:
+  heading: Undergraduate research
+  paragraphs:
+    - >-
+      Undergraduates are a substantial part of Duality Lab. Students participate
+      through Vertically Integrated Projects, senior design, independent
+      research, SURF, NSF REU, and related programs.
+    # The three counts are NOT written here. They are the same facts the
+    # Teaching page states, and a second copy would drift the first time one
+    # changed. `{mentored}` / `{authors}` / `{senior_design}` are filled from
+    # teaching.yaml's undergraduate_research.stats, so the two pages cannot
+    # disagree by construction.
+    - >-
+      Since 2020, {mentored} undergraduate researchers have worked with the
+      group. At least {authors} have become authors on peer-reviewed papers,
+      posters, and other scholarly outputs, alongside {senior_design}
+      senior-design projects supervised through these research activities.
+  link: {label: Learn more about undergraduate research and mentoring, url: /teaching/}
+  # CURRENT teams only. The TensorFlow (F20-F23) and SafeRegex (F20-S21) VIP
+  # teams are historical and must not be presented as current -- their terms are
+  # in data/courses.yaml.
+  current_teams:
+    - title: Software Engineering with Pre-Trained Models
+      url: /research/ptm-se/
+      blurb: >-
+        Students study the reuse, integration, reliability, and security of
+        pre-trained models.
+
+# ---------------------------------------------------------------------------
+# NOT PUBLISHED pending confirmation. Recorded so the gap is deliberate and the
+# evidence I do have is not lost.
+needs_confirmation:
+  - name: "MS Non-Thesis students -- SETTLED, do not list"
+    evidence: >-
+      The P&T advising table lists Eli L. Jorgensen, Santosh N. Ahuja and Grant
+      Denzil Geyer as MS Non-Thesis with James as Chair. CONFIRMED by James
+      260905: they are not listed on People. Recorded here so a future pass
+      reading that table does not "helpfully" add them back.
+  - name: Chinenye Okafor
+    evidence: >-
+      Author of three software-supply-chain papers as "C. Okafor", but NOT in the
+      CV's chaired-student list, so she is not rostered here. DO NOT confuse her
+      with Sofia Okorafor ("S. Okorafor", M.S. 2026), who is a different person;
+      the names differ by two letters and both work on supply chains.
+  - name: Research areas for three current students
+    evidence: >-
+      Nicholas J. Eliopoulos has 8 papers with no project tags; Andrew Rozema has
+      one, also untagged; Huiyun Peng's four split evenly across three programmes.
+      Tagging their papers in publications.yaml would populate all three
+      automatically.
+  - name: Undergraduate names in the news record
+    evidence: >-
+      news.yaml mentions Ben and Milo (explicitly an undergraduate), Evan and
+      Arav Tewari (both "lab alum"), and Matt Hyatt (REU alumnus, Loyola). These
+      are undergraduate mentees, who by design are represented at scale rather
+      than rostered.

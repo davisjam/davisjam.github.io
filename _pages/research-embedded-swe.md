@@ -7,7 +7,7 @@ research_slug: "Embedded Software"
 question: "How can analysis and assurance become practical for embedded software?"
 figure: /assets/research/embedded-swe/research-lineage.svg
 figure_alt: "Four lines of attack on reliable embedded software"
-figure_desc: "Four complementary lines of work meet at practical assurance. Understanding failure asks what goes wrong in real embedded software, through studies of packet validation and layering violations. Making code reachable asks how firmware can be analyzed away from its target hardware, through rehosting, LEMIX and bottom-up testing. Analyzing at scale asks whether useful analyses can become cheap enough to apply broadly, using CodeQL and OSS-Fuzz-Gen. Establishing guarantees asks whether verification can become an ordinary engineering step, through Unit Proofing, compositional bounded model checking and AutoSOUP."
+figure_desc: "Four complementary lines of work meet at practical assurance. Understanding failure asks what goes wrong in real embedded software, through packet validation and layering violations. Making code reachable asks how firmware can be analyzed away from its hardware, through rehosting, LEMIX and bottom-up testing. Analyzing at scale asks whether useful analyses can become cheap enough to apply broadly, using CodeQL and OSS-Fuzz-Gen. Establishing guarantees asks whether verification can become an ordinary engineering step, through Unit Proofing, compositional bounded model checking and AutoSOUP."
 ---
 
 Embedded software runs where failures are expensive, and in conditions that defeat the assumptions most analysis tools are built on: no operating system to speak of, hardware that the analysis cannot reach, and code that cannot simply be run in a test harness.

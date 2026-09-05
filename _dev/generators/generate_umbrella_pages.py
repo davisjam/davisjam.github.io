@@ -26,8 +26,11 @@ def yq(v: str) -> str:
     return '"' + str(v).replace("\\", "\\\\").replace('"', '\\"') + '"'
 
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
-PAGES = ROOT / "repos/davisjam.github.io/_pages"
+import _paths
+
+# Resolved from whichever layout this copy sits in -- see _paths.py.
+ROOT = _paths.DATA.parent
+PAGES = _paths.PAGES
 
 BANNER = ("<!-- Enumerative sections on this page are GENERATED from the davis-web\n"
           "     canonical records by generators/generate_umbrella_pages.py.\n"
@@ -37,10 +40,10 @@ BANNER = ("<!-- Enumerative sections on this page are GENERATED from the davis-w
 
 def load():
     import yaml
-    r = lambda p: yaml.safe_load((ROOT / p).read_text())
-    return (r("model/sites.yaml"), r("data/publications.yaml"),
-            r("data/awards.yaml"), r("data/service.yaml"), r("data/courses.yaml"),
-            r("data/teaching.yaml"), r("data/people.yaml"))
+    r = lambda p: yaml.safe_load(pathlib.Path(p).read_text())
+    return (r(_paths.MODEL / "sites.yaml"), r(_paths.DATA / "publications.yaml"),
+            r(_paths.DATA / "awards.yaml"), r(_paths.DATA / "service.yaml"), r(_paths.DATA / "courses.yaml"),
+            r(_paths.DATA / "teaching.yaml"), r(_paths.DATA / "people.yaml"))
 
 
 # --------------------------------------------------------------------------- research
@@ -188,7 +191,7 @@ def research(sites, pubs, *_):
             "# Source: model/sites.yaml + data/publications.yaml. Do not hand-edit.", ""]
     import yaml as _y
     import xml.etree.ElementTree as _ET
-    copy = _y.safe_load((ROOT / "data/program-copy.yaml").read_text())["programs"]
+    copy = _y.safe_load((_paths.DATA / "program-copy.yaml").read_text())["programs"]
     for pid in order:
         site = by_pid[pid]
         n = sum(1 for x in pubs["publications"] if pid in (x.get("projects") or []))
@@ -610,7 +613,7 @@ def main(argv=None) -> int:
     for name in want:
         out = PAGES / f"{name}.md"
         out.write_text(fns[name](*data))
-        print(f"  wrote {out.relative_to(ROOT)}  ({len(out.read_text().splitlines())} lines)")
+        print(f"  wrote {out.relative_to(_paths.SITE)}  ({len(out.read_text().splitlines())} lines)")
     return 0
 
 

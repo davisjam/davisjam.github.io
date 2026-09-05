@@ -24,8 +24,11 @@ import pathlib
 import sys
 import xml.etree.ElementTree as ET
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
-UMBRELLA = ROOT / "repos/davisjam.github.io"
+import _paths
+
+# Resolved from whichever layout this copy sits in -- see _paths.py.
+ROOT = _paths.DATA.parent
+UMBRELLA = _paths.SITE
 OUT = UMBRELLA / "_pages"
 
 # Hero prose comes from data/, not from the standalone-site generator: that
@@ -64,11 +67,11 @@ def pub_li(p: dict, project: str) -> str:
 
 def main() -> int:
     import yaml
-    sites = yaml.safe_load((ROOT / "model/sites.yaml").read_text())["sites"]
-    struct = yaml.safe_load((ROOT / "data/program-structure.yaml").read_text())["programs"]
-    copy = yaml.safe_load((ROOT / "data/program-copy.yaml").read_text())["programs"]
-    pubs = yaml.safe_load((ROOT / "data/publications.yaml").read_text())["publications"]
-    fund = yaml.safe_load((ROOT / "data/funding.yaml").read_text())["grants"]
+    sites = yaml.safe_load((_paths.MODEL / "sites.yaml").read_text())["sites"]
+    struct = yaml.safe_load((_paths.DATA / "program-structure.yaml").read_text())["programs"]
+    copy = yaml.safe_load((_paths.DATA / "program-copy.yaml").read_text())["programs"]
+    pubs = yaml.safe_load((_paths.DATA / "publications.yaml").read_text())["publications"]
+    fund = yaml.safe_load((_paths.DATA / "funding.yaml").read_text())["grants"]
     canonical = next(s for s in sites
                      if s["id"] == "model-based-agentic-software-engineering")
 

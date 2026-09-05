@@ -1,0 +1,251 @@
+# data/teaching.yaml — the Teaching page's narrative and enumerative records.
+#
+# The argument the page makes, in order:
+#   teaching philosophy -> curricular leadership -> courses -> undergraduate
+#   research -> student outcomes -> recognition -> SoTL that feeds back in.
+#
+# MAGE appears as teaching INFRASTRUCTURE supporting ECE 30861, not as a peer of
+# the courses. It is rendered as an inset inside the 30861 section: making it an
+# h3 sibling of the course headings would state, typographically, that it is a
+# third course. It is not.
+#
+# Recognition is NOT authored here. It is generated from data/awards.yaml groups
+# `teaching` and `mentoring`, so the page cannot drift from the award record.
+# Student outcomes ARE here because they are awards to STUDENTS, which
+# awards.yaml does not model.
+
+schema_version: 1
+
+opener:
+  - >-
+    I teach software engineering as an engineering discipline. My students learn
+    not only what to do and how to do it, but why, when, and how else. The goal
+    is not beautiful code for its own sake, but the disciplined construction and
+    modification of software under real technical, organizational, and
+    professional constraints.
+  - >-
+    My courses therefore center on substantial engineering problems rather than
+    isolated exercises. Students make decisions under incomplete information,
+    work individually and in teams, build and evaluate real systems, and learn to
+    justify their choices. I extend the same philosophy beyond individual courses
+    through curriculum development and sustained undergraduate research
+    mentoring.
+
+curricular_leadership:
+  heading: Curricular leadership
+  paragraphs:
+    - >-
+      I have helped build Purdue ECE's software-engineering curriculum across
+      undergraduate and graduate education.
+    - >-
+      When I joined Purdue in 2020 as ECE's first faculty member specializing in
+      software engineering, the Computer Engineering curriculum did not have a
+      dedicated software-engineering course. Since then, I have designed and
+      piloted new undergraduate and graduate software-engineering courses,
+      substantially redesigned the accompanying software-engineering tools
+      course, and helped integrate these offerings into a new undergraduate
+      Software Engineering concentration. I also helped design and launch
+      Purdue's M.S. in Software Engineering jointly with Computer Science.
+    - >-
+      These courses now serve more than 250 students each year. Demand for the
+      undergraduate course led ECE to add a second section in Indianapolis, and
+      four other ECE faculty have taught courses using the resulting curriculum
+      and materials.
+    - >-
+      My curricular work also extends to program-level assessment and
+      improvement. I served on ECE's Undergraduate Curriculum Committee and
+      subsequently helped lead the successful 2025 ABET review for Computer
+      Engineering, with responsibility for documenting and evaluating the
+      program's continuous-improvement process.
+
+courses:
+  heading: Courses I teach
+  # Course numbers and titles resolve from data/courses.yaml by id; only the
+  # narrative is authored here.
+  entries:
+    - id: ece-30861
+      # VERIFIED 260905: returns "ECE 30861 - Software Engineering". This is the
+      # stable ECE course page. An earlier self-service URL worked but pinned a
+      # term (cat_term_in=202610), so it would have rotted at the next catalog.
+      catalog_url: https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=814&show=true&type=undergrad
+      paragraphs:
+        - >-
+          My undergraduate software-engineering course uses a substantial team
+          project to connect software process, requirements and specification,
+          architecture, implementation, validation and assurance, deployment,
+          security, maintenance, and professional judgment.
+      # No eyebrow, no link row. The named thing IS the link.
+      inset:
+        title: Teach with MAGE
+        paragraphs:
+          - >-
+            In 2026, I spent about six months using four Claude Max 20×
+            accounts essentially full-time while building a large production
+            software system. That experience changed how I thought about
+            software engineering: implementation had become dramatically
+            cheaper, but engineering judgment had not.
+          - >-
+            I wrote [Model-Based Agentic Software Engineering
+            (MAGE)](https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book.pdf)
+            to work through the consequences, and then substantially redesigned
+            ECE 30861 around the same question: what should software-engineering
+            education teach when capable agents can produce implementation
+            cheaply, but people remain responsible for requirements, models,
+            evidence, tradeoffs, and consequences?
+          - >-
+            I publish the course materials openly through [Teach with
+            MAGE](https://davisjam.github.io/model-based-agentic-software-engineering/teach/),
+            including lectures, readings, project materials, assessments, and the
+            semester-long engineering project.
+    - id: ece-50874
+      # VERIFIED 260905: returns "ECE 50874 - Advanced Software Engineering".
+      # The number is 50874, not 50861 -- 50861 never resolved anywhere, which is
+      # why this entry briefly carried no link at all.
+      catalog_url: https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=777&show=true&type=grad
+      paragraphs:
+        - >-
+          My graduate software-engineering course moves from building software
+          that works toward reasoning systematically about whether software is
+          robust. Students study methods for identifying and managing engineering
+          risk, evaluating evidence about software systems, and establishing
+          confidence in important system properties.
+        - >-
+          The course draws on software-engineering research, industrial practice,
+          and international engineering standards, notably IEC 61508, asking students to reason
+          critically about both the methods engineers use and the evidence those
+          methods produce.
+
+undergraduate_research:
+  heading: Undergraduate research as teaching
+  paragraphs:
+    - Research is one of my primary teaching environments.
+    - >-
+      Since joining Purdue, I have mentored more than 175 undergraduate
+      researchers through Vertically Integrated Projects (VIP), SURF, NSF REU,
+      OUR Scholars, the Colombia–Purdue Partnership, independent study, and
+      related programs. I have also supervised 12 senior-design
+      projects through these research activities.
+    - >-
+      I treat undergraduate research as a progression toward independence.
+      Students can enter a continuing project with limited research experience
+      and a well-scaffolded technical role, then take on increasingly substantial
+      responsibilities as they develop. I pair undergraduate researchers with
+      graduate students for near-peer mentoring, while experienced undergraduates
+      themselves become technical leaders and mentors for newer students.
+    - >-
+      The goal is to train both researchers and engineers. Students learn to
+      formulate questions, design experiments, analyze evidence, build
+      production-quality software, communicate results, and decide what to do
+      when the answer is not already known.
+  stats:
+    - {value: 175+, label: undergraduate researchers mentored}
+    - {value: "27", label: undergraduate research authors}
+    # The award packet phrases this as "over a dozen"; the canonical count is 12.
+    - {value: "12", label: senior-design projects}
+  closing:
+    - >-
+      Twenty-seven undergraduate mentees have become authors — including several
+      lead authors — on peer-reviewed papers, posters, and a U.S. patent
+      application. Engineering-focused students have also contributed artifacts
+      used outside the university, including seven models accepted to Google's
+      TensorFlow Model Garden.
+    - "[Meet the lab →](/people/)"
+
+vip:
+  heading: Vertically Integrated Projects
+  paragraphs:
+    - >-
+      I have run undergraduate VIP research teams continuously since Fall 2020.
+      These teams provide a persistent environment in which students at different
+      stages can work together on research and engineering problems over multiple
+      semesters.
+    - "Recent and past teams include:"
+  teams:
+    - title: Software Engineering with Pre-Trained Models
+      blurb: >-
+        Research and engineering around the reuse, integration, reliability, and
+        security of pre-trained models.
+    - title: Open-Source TensorFlow Software
+      blurb: >-
+        Students contributed models and engineering work to the TensorFlow
+        ecosystem, including artifacts accepted into Google's TensorFlow Model
+        Garden.
+    - title: SafeRegex
+      blurb: >-
+        Research and engineering on the reliability and security of regular
+        expressions.
+
+student_outcomes:
+  heading: Student outcomes
+  lead: >-
+    My undergraduate mentees have received recognition at the departmental,
+    national, and international levels.
+  items:
+    - when: Spring 2026
+      title: Presentation with High Distinction
+      detail: >-
+        Purdue Undergraduate Research Conference — SysLLMatic / Hydra, Software
+        Engineering with Pre-Trained Models VIP team. The first PTM team to
+        receive the distinction.
+    - title: 3× Outstanding Undergraduate Researcher
+      detail: >-
+        Elmore Family School of Electrical and Computer Engineering · 2021, 2022,
+        2024
+    - title: Astronaut Scholarship
+    - title: CRA Outstanding Undergraduate Researcher
+      detail: Honorable Mention
+    - title: NSF Graduate Research Fellowship
+    - title: Department of Defense NDSEG Fellowship
+    - title: CRA CSGrad4US Fellowship
+    - title: 3× Google Open-Source Contributor Award
+  closing:
+    - >-
+      Mentees have gone on to graduate study at institutions including Stanford,
+      Carnegie Mellon, UIUC, Michigan, Georgia Tech, and Penn, as well as
+      engineering careers at organizations including Google, Meta, Apple, AWS,
+      SpaceX, Tesla, and Garmin.
+
+recognition:
+  heading: Teaching and mentoring recognition
+  # Rendered from data/awards.yaml groups `teaching` + `mentoring`. Nothing is
+  # enumerated here -- see the header note.
+  # NO closing prose. A sentence here saying "recognized four times as a College
+  # of Engineering Outstanding Engineering Teacher" restates award A-16, whose
+  # own note already enumerates F21, S22, F22, S24. Two copies of one fact drift.
+  closing: []
+
+sotl:
+  heading: Scholarship of teaching and learning
+  paragraphs:
+    - >-
+      My scholarship of teaching and learning includes six peer-reviewed papers.
+      I study the teaching of software engineering itself. My education
+      research examines how students develop software-engineering competencies
+      through experiential and problem-based learning, how systems thinking can
+      improve cybersecurity education, and how generative AI changes
+      software-engineering education.
+    - >-
+      This work feeds back into my courses. Studies of experiential learning
+      informed the problem-based structure of ECE 30861; subsequent work examined
+      global software-engineering education and cybersecurity competency within
+      the course. More recently, my collaborators and I have studied how students
+      use large language models in semester-long software-engineering projects
+      and how curricula should prepare students for GenAI-assisted engineering.
+  # No stat band here: the sentence below carries the same three facts and
+  # says what the funding is intellectually FOR, which "two NSF awards" did not.
+  #
+  # ONLY 2452533 IS NAMED. The award packet describes a second education award,
+  # NSF #2343596, as "creating software-engineering learning modules that
+  # leverage generative AI" -- but the NSF Award Search record and this repo's
+  # own funding.yaml both title it "Collaborative Research: EAGER: CET:
+  # Exploring The Risks and Rewards of Large Language Models in Enabling
+  # Energy-Efficient Data Center Software Infrastructure", which is a research
+  # award about data-centre energy, not an education award. The amount matches
+  # ($149,976); the subject does not. Flagged for James rather than published.
+  closing:
+    - >-
+      Our 2024 ASEE work on integrating systems thinking into cybersecurity
+      education received a Best Paper Award. This work has been supported by
+      approximately $730,000 in education-focused projects, including [NSF
+      #2452533](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2452533), on
+      defining competencies for GenAI-assisted software engineering.

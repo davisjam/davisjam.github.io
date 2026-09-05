@@ -531,6 +531,37 @@ def crosssite(e: Engine, m) -> None:
                 o.fail(f"{p['id']} missing from {pr}", site["id"])
 
 
+def self_sufficient(e: Engine, m) -> None:
+    """The site must be able to regenerate itself with no external repo.
+
+    The generators and the authored records used to live only in the private
+    davis-web orchestrator, which is scheduled for deletion. Deleting it while
+    it held them would have left this site able to RENDER but not to
+    REGENERATE -- every page still serving, and no page ever changeable at its
+    source again. That is a failure mode with no symptom until someone tries to
+    edit something, so it gets an obligation rather than a note.
+    """
+    o = e.obl("OBL-SELF-001",
+              "The site carries its own generators, models and authored records.",
+              ["repos/davisjam.github.io/_dev/"])
+    dev = ROOT / "repos/davisjam.github.io/_dev"
+    for need in ("generators/_paths.py", "generators/generate_umbrella_pages.py",
+                 "generators/generate_research_pages.py", "model/sites.yaml",
+                 "figure-toolkit/check_figures.py", "README.md"):
+        if not (dev / need).exists():
+            o.fail(f"_dev/{need} is missing -- the site cannot regenerate itself")
+    # every record the generators read must be present here, not only upstream
+    import re as _re
+    referenced = set()
+    for g in (dev / "generators").glob("*.py"):
+        referenced |= set(_re.findall(r'_paths\.DATA / "([a-z-]+\.yaml)"', g.read_text()))
+    for name in sorted(referenced):
+        if not (dev / "data" / name).exists():
+            o.fail(f"_dev/data/{name} is referenced by a generator but absent")
+    if not referenced:
+        o.fail("no data records resolved from the generators -- check the parse")
+
+
 def signature_figures(e: Engine, m) -> None:
     """One drawing per programme, resolved identically everywhere.
 
@@ -770,6 +801,7 @@ OPT_IN = {"DEPLOY"}          # network-dependent; see main()
 FAMILIES = {
     "DEPLOY": deployed,
     "FIG": signature_figures,
+    "SELF": self_sufficient,
     "STRUCT": structure,
     "LINK": links,
     "SCHOLARLY": scholarly, "FUND": funding, "PORTFOLIO": portfolio, "ROUTE": routes,

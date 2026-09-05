@@ -1,0 +1,257 @@
+# data/program-structure.yaml — the intellectual organization of each program page.
+#
+# THE RULE (James, 260905): a research-program page must NOT default to a
+# chronological publication list. Chronology is an artifact of publications.json,
+# not the structure of the argument. The Publications page already answers "when
+# did this appear"; a program page must answer "what have we learned".
+#
+# So each program declares knowledge claims, and publications hang beneath them
+# as EVIDENCE. Venue and year become small secondary metadata.
+#
+#   claim heading
+#     -> paper title
+#        -> VENUE · YEAR   (muted)
+#        -> what it contributed
+#        -> artifacts
+#
+# A publication may appear under only one claim per program. If it seems to
+# belong to two, the claims are probably not cleanly separated.
+
+schema_version: 1
+
+programs:
+
+  # FA-SDLC is the exemplar: its papers already form a clean
+  # evidence -> knowledge -> engineering progression.
+  failure-aware-sdlc:
+    sections:
+      - title: Characterizing how software fails
+        prose: >-
+          Before failures can teach anything, we have to know what recurs. This
+          work asks what failure studies actually establish, and whether the
+          same engineering problems appear across systems and domains.
+        publications: [W-26, W-24]
+      - title: Building evidence from failures
+        prose: >-
+          Individual failures are useful evidence only if they can be
+          accumulated and analyzed. We study how to turn incident reports and
+          other records of failure into evidence about recurring engineering
+          problems.
+        publications: [C-21, W-20]
+      - title: Turning failure into engineering knowledge
+        prose: >-
+          Finding patterns is not enough. We study what can actually be learned
+          from failures, and how that knowledge can be represented so it
+          survives the incident that produced it.
+        publications: [C-9, C-25]
+      - title: Getting knowledge back into engineering decisions
+        prose: >-
+          The final problem is closing the loop. Even good evidence has little
+          value if it does not reach the people making decisions, or alter the
+          structures through which engineering proceeds.
+        publications: [W-21, R-3, W-18]
+
+  embedded-swe:
+    sections:
+      - title: Understanding embedded failures
+        prose: >-
+          Embedded software runs where failures are expensive, under conditions
+          that defeat the assumptions most analysis tools are built on. This
+          work establishes what actually goes wrong, and why the usual
+          techniques do not reach it.
+        publications: [C-30, W-17]
+      - title: Making the code reachable
+        prose: >-
+          Analysis cannot begin until the software can be executed and inspected
+          away from the hardware it was written for. Rehosting turns embedded
+          applications into something ordinary tools can work on.
+        publications: [W-16, C-15, R-2]
+      - title: Analysis at ecosystem scale
+        prose: >-
+          Once analysis is affordable, the question becomes what it finds when
+          pointed at many real projects rather than one.
+        publications: [C-17, W-3]
+      - title: From defect detection to guarantees
+        prose: >-
+          A found defect is weaker than a guaranteed absence. The current thrust
+          asks whether component-level verification can be made cheap enough to
+          use as an ordinary engineering step.
+        publications: [W-11, C-10, C-1]
+
+  ptm-se:
+    sections:
+      - title: Pre-trained models are a distinct kind of software dependency
+        figure_label: REUSE IS FAMILIAR, THE ARTIFACT IS NOT
+        prose: >-
+          Early work in this programme established that reusing a pre-trained
+          model is not simply a machine-learning convenience. Engineers must
+          discover, interpret, adapt, validate, and maintain artifacts whose
+          interfaces and provenance are less explicit than those of conventional
+          software packages.
+        publications: [W-15, C-29, J-2, J-4]
+      - title: The model ecosystem must be measured
+        figure_label: THE ECOSYSTEM KEEPS MOVING
+        prose: >-
+          Pre-trained model ecosystems change quickly: registries grow,
+          conventions shift, new model families and formats appear, and
+          downstream reuse practices evolve with them. Engineering guidance
+          therefore cannot rest on a static picture of how models are produced
+          or reused. We build datasets and conduct ecosystem-scale studies so
+          that emerging practices, failure modes, and developer needs can be
+          measured as they change.
+        publications: [W-19, C-28, C-23, W-1]
+      - title: Model identity and interoperability cannot be assumed
+        figure_label: IDENTITY AND INTEROPERABILITY ARE NOT GUARANTEED
+        prose: >-
+          Conventional dependency management assumes a named artifact can be
+          identified, and that declared interfaces delimit how it composes with
+          the rest of a system. Pre-trained models weaken both assumptions.
+          Nominally equivalent models can differ, names can be inconsistent, and
+          supposedly portable representations can fail when moved across tools
+          and frameworks.
+        publications: [W-25, C-22, Pa-1]
+      - title: Reuse shifts substantial engineering work downstream
+        figure_label: REUSE REQUIRES REENGINEERING
+        prose: >-
+          Reusing a trained model does not eliminate engineering work; it
+          relocates it. Downstream developers often have to reproduce results,
+          adapt artifacts across frameworks and hardware, reconstruct missing
+          assumptions, and determine whether the model remains valid for a new
+          use.
+        publications: [J-7, R-8, R-5, R-7, W-12]
+      - title: Security is part of the reuse contract
+        figure_label: RISK TRAVELS WITH THE ARTIFACT
+        prose: >-
+          A reused model is not only a learned function. It arrives as a
+          software artifact with provenance, serialization formats,
+          dependencies, and assumptions about how it will be loaded and
+          executed. Those properties make security part of the reuse contract.
+        publications: [W-22, W-29, C-12, J-1]
+
+  # Section order is INTELLECTUAL, not chronological, and so is the order of
+  # publications within a section. `figure_label` is the same string the figure
+  # uses for that region -- one source, so the figure cannot drift from the body.
+  software-supply-chain:
+    sections:
+      - title: Understanding software supply-chain security
+        figure_label: UNDERSTANDING SUPPLY-CHAIN SECURITY
+        prose: >-
+          Before defending a software supply chain, we need to know what a
+          defense is supposed to establish, and where real supply chains
+          actually fail. This cross-cutting work develops models for reasoning
+          about supply-chain security and methods for extracting evidence from
+          failures at ecosystem scale.
+        publications: [W-27, W-20]
+      - title: Establishing identity and provenance
+        figure_label: IDENTITY & PROVENANCE
+        prose: >-
+          Software signing can bind an artifact to evidence about its producer
+          and history — but only if the mechanism is adopted, usable, and
+          interpreted correctly. We study what signing and identity establish in
+          practice, why organizations adopt them, and what prevents these
+          mechanisms from becoming routine parts of software development.
+        publications: [C-26, C-16, C-3, R-1, M-1]
+      - title: Protecting the distribution boundary
+        figure_label: DISTRIBUTION
+        prose: >-
+          Even trustworthy producers and valid artifacts can be defeated by
+          ambiguity in distribution. Package ecosystems use names and metadata
+          to connect developer intent to producers and artifacts; attackers
+          exploit that mapping through typosquatting and package-confusion
+          attacks. We study how those ambiguities can be detected before the
+          wrong dependency enters a system.
+        publications: [C-8]
+      - title: Making trust contextual
+        figure_label: TRUST IN CONTEXT
+        prose: >-
+          Provenance is evidence, not a verdict. A valid signature does not
+          establish that its producer is trustworthy, that a dependency is
+          appropriate for a particular system, or that it should receive all of
+          the authority available to its caller. We study how trust decisions
+          can incorporate the context in which software is actually used — and
+          how systems can limit the consequences when that trust is misplaced.
+        publications: [C-2, W-7, W-6, C-13]
+      - title: The same trust problems in newer ecosystems
+        figure_label: NEW ECOSYSTEMS
+        prose: >-
+          New ecosystems often acquire mechanisms for distributing reusable
+          artifacts before they acquire mature mechanisms for trusting them.
+          Pre-trained models, AI agents, and research software change what is
+          distributed and how it is consumed, but inherit familiar problems of
+          provenance, distribution, authority, and ecosystem governance.
+        publications: [C-12, W-5, W-8]
+
+  # Organized by the SEAMS the figure names, not by an SDLC and not by year.
+  # The programme's results are mostly about what happens BETWEEN the formal,
+  # human, and execution views of the same one-line artifact.
+  saferegex:
+    sections:
+      - title: A small artifact can become critical infrastructure
+        prose: >-
+          The programme began with a runtime failure: a single expensive input
+          could stall an entire event-driven server, because one regular
+          expression sat on the path every request took. That framing —
+          performance as a security property — set up everything that followed,
+          and measuring the ecosystem rather than the example turned a known
+          theoretical hazard into a demonstrated and widespread one.
+        publications: [W-36, C-45, C-44]
+      - title: Shared syntax does not guarantee shared meaning
+        prose: >-
+          Regular expression syntax looks portable, and developers reuse it as
+          though it were. It is not. Dialects disagree about what an expression
+          matches, behaviour learned in one language does not transfer intact to
+          another, and composing expressions introduces assumptions that neither
+          part carried alone.
+        publications: [C-39, C-41, R-4]
+      - title: Compact notation does not make reasoning easy
+        prose: >-
+          If a one-line artifact is hard to reason about, that is a
+          software-engineering finding rather than a user error. We study what
+          developers actually understand about the expressions they write and
+          reuse, and what an analysis tool has to explain before its findings can
+          be acted on.
+        publications: [C-40, C-31]
+      - title: Execution is part of the semantics that matter
+        prose: >-
+          What an expression means in practice includes what the engine does to
+          produce that meaning. Backtracking implementations turn ordinary
+          expressions into pathological ones on some inputs, so the questions of
+          which semantics to preserve, and at what cost, belong to engine design
+          — not solely to the programmer writing the expression.
+        publications: [W-34, C-36, C-4, W-4]
+      - title: Security failures cross the layers
+        prose: >-
+          ReDoS is not a defect in any single layer. It appears when a formal
+          property, a developer's expectation, and an implementation's cost model
+          disagree, so a defense has to hold at whichever layer is reachable.
+          Sanitization intended to make input safe can itself introduce the
+          vulnerability — and the ecosystem study, the anti-pattern work, and the
+          backreference results above each show, from a different direction, that
+          addressing one view alone leaves the others open.
+        publications: [C-33, W-33]
+      - title: What the regex microscope revealed
+        prose: >-
+          Across these studies, the recurring lesson is that even very small
+          software artifacts cross boundaries between specification, human
+          understanding, and implementation. Reuse carries assumptions across
+          those boundaries; failures appear when the assumptions do not travel
+          with the artifact.
+        publications: [C-18]
+  mage:
+    sections:
+      - title: The engineering problem
+        prose: >-
+          Capable agents have made producing working code much cheaper. They
+          have not made it cheaper to decide what should be built, which
+          obligations govern it, or whether the result is acceptable.
+        publications: [B-1, W-2]
+      - title: What agents actually do
+        prose: >-
+          Claims about delegated engineering need evidence about how agents
+          behave on real systems.
+        publications: [J-3, W-10, W-9]
+      - title: Infrastructure for governed work
+        prose: >-
+          Delegated work needs somewhere to be discovered, verified, and
+          reproduced.
+        publications: [W-5]

@@ -1,0 +1,588 @@
+# data/news.yaml — homepage announcements.
+#
+# Retrofitted from the hand-maintained homepage list by
+# generators/retrofit_news.py; hand-maintained since.
+#
+# The SSOT split, with a byline:
+#   ref:    the canonical record this announces. The FACT is rendered from
+#           that record, so a venue or award name here cannot drift.
+#   byline: the only authored text. The voice is the point of a news feed;
+#           modeling it away would kill the page.
+#   text:   for items with no canonical counterpart (student milestones and
+#           lab news). Authored whole, pending a people model.
+#
+# `original` preserves the pre-retrofit wording so the rendering can be
+# checked against what the page used to say. It is not published.
+
+schema_version: 1
+news:
+  - year: 2026
+    kind: authored
+    text: "I receive two distinct teaching honors from Purdue: Purdue's 2026 College of Engineering, and University, Faculty Excellence Award for Early Career Teaching. Huzzah!"
+  - year: 2026
+    kind: publication
+    ref: W-3
+    byline: "Congrats!"
+    original: "Paschal's paper on reducing false-positive crashes in OSS-Fuzz-Gen is accepted to FSE-Industry'26. Congrats! [preprint](https://arxiv.org/pdf/2510.02185)"
+  - year: 2026
+    kind: authored
+    text: "Ben will intern at Google X this summer. Enjoy the adventure!"
+  - year: 2026
+    kind: authored
+    text: "Milo will be an undergraduate intern at the US NIST this summer. Have fun, Milo!"
+  - year: 2026
+    kind: authored
+    text: "Three long papers accepted with recommendation to journal, in the ICSE'26 Journal Ahead Workshop (JAWs). Congrats to Kelechi, Berk, Erik&Tanmay, and the co-authors!"
+  - year: 2026
+    kind: authored
+    text: "Three short papers accepted as presentations to the ICSE'26 Journal Ahead Workshop (JAWs). Congrats to Huiyun, Kelechi, Tanmay, and their co-authors!"
+  - year: 2026
+    kind: publication
+    ref: C-5
+    byline: "Congrats Purvish!"
+    original: "Purvish's paper on width/depth/token-adaptive transformer models is accepted to CVPR'26-Findings Track. Congrats Purvish! [preprint](https://arxiv.org/pdf/2511.18105)"
+  - year: 2026
+    kind: publication
+    ref: C-6
+    byline: "Congrats Nick and Purvish!"
+    original: "Nick and Purvish's paper on inference-time diffusion alignment is accepted to CVPR'26-Findings Track. Congrats Nick and Purvish! [preprint](https://arxiv.org/pdf/2506.00299)"
+  - year: 2026
+    kind: authored
+    text: "Berk will intern at Socket. Have a great time improving software supply chain security!"
+  - year: 2026
+    kind: authored
+    text: "Huiyun will intern with Adobe Research & Adobe Platform Engineering. Have fun building agents in San Jose, Huiyun!"
+  - year: 2026
+    kind: publication
+    ref: C-11
+    byline: "Congrats to Ben, Purvish, Nick, and the team!"
+    original: "Ben's paper on detecting errors in music performances has been accepted to ICLR'26. Congrats to Ben, Purvish, Nick, and the team! [Preprint](https://arxiv.org/pdf/2510.08580)"
+  - year: 2026
+    kind: publication
+    ref: W-10
+    byline: "Congrats Huiyun!"
+    original: "Huiyun's paper characterizing Agents' optimization strategies has been accepted to the Mining Challenge track of MSR'26. Congrats Huiyun! [Preprint](https://arxiv.org/pdf/2512.21757)"
+  - year: 2026
+    kind: authored
+    text: "I will be organizing a workshop at ASEE'26 titled \"The 'Do More With Less' Cookbook: Using Generative AI to Accelerate your Day-to-Day Work as an Engineering Educator\". Look forward to seeing everyone in Charlotte!"
+  - year: 2026
+    kind: authored
+    text: "Intel donates equipment to support my research on the educational use of GenAI, associated with [NSF #2452533](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2452533&HistoricalAwards=false). Thank you, Intel."
+    cites: G-4
+  - year: 2026
+    kind: publication
+    ref: C-7
+    byline: "Congrats Drew!"
+    original: "Drew's paper on anti-phishing training will appear at WWW'26. Congrats Drew! To learn more, see the [Preprint](https://arxiv.org/pdf/2506.19899) or the [Blog version](https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395)."
+  - year: 2025
+    kind: authored
+    text: "Geoff heads to Bluesky as a Trust & Safety Engineer. A very cool follow-up from our [JSS'25 paper](https://davisjam.github.io//files/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf) on Trust & Safety!"
+    cites: J-5
+  - year: 2025
+    kind: authored
+    text: "Parth defends his MSc thesis. Congrats, Master Parth! Parth will work at Amazon Robotics after graduation."
+  - year: 2025
+    kind: authored
+    text: "Lab alum Arav Tewari will intern at OpenAI in Summer 2026 -- sounds amazing :-)"
+  - year: 2025
+    kind: publication
+    ref: C-3
+    byline: "Congratulations to Kelechi, Sofia, Tanmay, and Sophie!"
+    original: "One \"Johnny\" paper accepted to USENIX Security'26 on usability in identity-based software signing. Congratulations to Kelechi, Sofia, Tanmay, and Sophie! [Preprint](https://arxiv.org/pdf/2503.00271)"
+  - year: 2025
+    kind: authored
+    text: "Nick passes his preliminary exam. Congrats, PhD Candidate Eliopoulos!"
+  - year: 2025
+    kind: authored
+    text: "Purvish passes his preliminary exam. Congrats, PhD Candidate Jajal!"
+  - year: 2025
+    kind: authored
+    text: "Paschal will begin a role at Google following his PhD. On to the next adventure!"
+  - year: 2025
+    kind: authored
+    text: "Eli is awarded a Rolls-Royce Cyber Technology Research Assistantship for his MSc work. Congrats, Eli!"
+  - year: 2025
+    kind: authored
+    text: "Dharun passes his preliminary exam. Congratulations, PhD Candidate Anandayuvaraj!"
+  - year: 2025
+    kind: award
+    ref: A-2
+    byline: "What an honor!"
+    original: "I receive the inaugural Paul Krause Faculty Research Award from ECE@Purdue. What an honor!"
+  - year: 2025
+    kind: authored
+    text: "Purvish will intern next summer at Block. Hope he has a great time."
+  - year: 2025
+    kind: publication
+    ref: C-9
+    byline: "Congratulations Dharun and Tanmay!"
+    original: "A paper accepted to **ICSE'26** on failure knowledge management in high-reliability software organizations. Congratulations Dharun and Tanmay! [Preprint](https://arxiv.org/pdf/2509.06301)"
+  - year: 2025
+    kind: publication
+    ref: C-8
+    byline: "Congratulations Wenxin and Berk!"
+    original: "A paper accepted to **ICSE'26** on the detection of typosquatting attacks in HuggingFace, NPM, and other registries. Congratulations Wenxin and Berk! [Preprint](https://arxiv.org/pdf/2502.20528)"
+  - year: 2025
+    kind: award
+    ref: A-3
+    byline: "Congrats, Andreas and all!"
+    original: "PickleBall wins the Best Artifact Award at CCS'25. Congrats, Andreas and all!"
+  - year: 2025
+    kind: authored
+    text: "NSF funds a RoRS grant to study security for research software engineering. Thank you, US taxpayers!"
+  - year: 2025
+    kind: authored
+    text: "Duality Lab publishes a guide to stakeholder analysis for cybersecurity researchers. We hope this helps the security community adapt to new requirements from USENIX and other venues."
+  - year: 2025
+    kind: publication
+    ref: C-12
+    byline: "Congrats to Andreas and the team!"
+    original: "One paper accepted to **CCS'25** on safe deserialization (pickle) of pre-trained machine learning models. Congrats to Andreas and the team! [Preprint](https://arxiv.org/pdf/2508.15987)"
+  - year: 2025
+    kind: authored
+    text: "Recognized as a Distinguished Reviewer at **USENIX Security 2025**."
+  - year: 2025
+    kind: authored
+    text: "Lab alumnus Evan receives a CSGrad4US fellowship for graduate study. Congratulations, Evan!"
+  - year: 2025
+    kind: authored
+    text: "Serving on the **AAAI 2026 PC**."
+  - year: 2025
+    kind: authored
+    text: "A poster at IEEE SecDev on LLM jailbreaking. Congrats to the VIP team, led by Mohamed Ahmed and Mohamed Abdelmouty!"
+  - year: 2025
+    kind: authored
+    text: "One paper accepted to **EMSE** on the naming conventions of pre-trained models. Congrats to Wenxin and the author team!"
+  - year: 2025
+    kind: authored
+    text: "NSF funds an RFE grant to study prompt engineering education. Thank you, US taxpayers!"
+  - year: 2025
+    kind: authored
+    text: "NSF funds an OAC Core grant to develop cyberinfrastructure for multi-modal/multi-stream deep learning models. Thank you, US taxpayers!"
+  - year: 2025
+    kind: grant
+    ref: G-9
+    byline: "Thanks, OpenAI, and congrats to Paschal and the team!"
+    original: "OpenAI funds a grant on automated unit proofing. Thanks, OpenAI, and congrats to Paschal and the team!"
+  - year: 2025
+    kind: authored
+    text: "One paper accepted to **ICSE'26**: An empirical study of \"unit proofing\" for formal memory safety guarantees. Congrats to Paschal and the team!"
+  - year: 2025
+    kind: authored
+    text: "Paschal and Dharun are named winners in the 2025 Qualcomm Innovation Fellowship competition. Congratulations!"
+  - year: 2025
+    kind: authored
+    text: "Serving on the **USENIX Security 2026 PC**."
+  - year: 2025
+    kind: authored
+    text: "Another paper accepted to **USENIX'25**. Congrats to Ritvik and the team!"
+  - year: 2025
+    kind: authored
+    text: "Recognized as a Distinguished Reviewer at **FSE 2025**."
+  - year: 2025
+    kind: authored
+    text: "Paschal Amusuo completes his prelim exam. Congrats to the new PhD Candidate!"
+  - year: 2025
+    kind: authored
+    text: "Wenxin Jiang defends his doctoral thesis. Congrats to Dr. Jiang! Wenxin will start soon as a Research Software Engineer at Socket."
+  - year: 2025
+    kind: publication
+    ref: C-18
+    byline: "Congrats to Berk and Ethan!"
+    original: "One paper accepted to **AsiaCCS'25**: an SoK on Regex Denial of Service (ReDoS). Congrats to Berk and Ethan!"
+  - year: 2025
+    kind: authored
+    text: "Kelechi's poster won **Best Poster** at Purdue's 2025 CERIAS symposium. Congrats Kelechi!"
+  - year: 2025
+    kind: authored
+    text: "Paschal and Dharun are finalists in Qualcomm's 2025 Innovation Fellowship program. Way to go!"
+  - year: 2025
+    kind: authored
+    text: "Serving on the **ICSE 2026 PC**."
+  - year: 2025
+    kind: authored
+    text: "Nick will intern with **Argonne National Labs** this summer. Congrats, Nick!"
+  - year: 2025
+    kind: authored
+    text: "Purvish will intern with **Argonne National Labs** this summer. Congrats, Purvish!"
+  - year: 2025
+    kind: authored
+    text: "Paschal will intern with **Google** this summer. Congrats, Paschal!"
+  - year: 2025
+    kind: publication
+    ref: M-1
+    byline: "Congrats to Taylor, Ethan, and Kelechi!"
+    original: "Article on software signing accepted to IEEE S&P Magazine. Congrats to Taylor, Ethan, and Kelechi! [Preprint](https://arxiv.org/pdf/2407.03949)"
+  - year: 2025
+    kind: grant
+    ref: G-8
+    original: "Socket funds research on typosquat detection in software package ecosystems."
+  - year: 2025
+    kind: authored
+    text: "Serving on the **EuroSec 2025 PC**."
+  - year: 2025
+    kind: authored
+    text: "NSF funds a travel grant to bring US-based students to ICSE 2025. Thank you, US taxpayers!"
+  - year: 2025
+    kind: publication
+    ref: J-5
+    byline: "Congrats to Geoff for sharing your MSc thesis with the world (and to co-author Trey)!"
+    original: "One paper accepted to **JSS'25**: Failure analysis and engineering patterns for trust and safety on social media platforms. Congrats to Geoff for sharing your MSc thesis with the world (and to co-author Trey)! [Preprint](https://davisjam.github.io//files/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf)"
+  - year: 2025
+    kind: publication
+    ref: C-16
+    byline: "Congrats to Kelechi and the team!"
+    original: "One paper accepted to **USENIX'25**: An interview study on when, how, and why software engineers adopt software signing for provenance. Congrats to Kelechi and the team! [Preprint](https://arxiv.org/pdf/2406.08198)"
+  - year: 2025
+    kind: publication
+    ref: C-13
+    byline: "Congrats to Paschal and the team!"
+    original: "One paper accepted to **ICSE'25**: Zero-Trust Dependencies for software supply chain security. Congrats to Paschal and the team! [Preprint](https://arxiv.org/pdf/2310.14117)"
+  - year: 2025
+    kind: publication
+    ref: C-17
+    byline: "Congrats to Mingjie and the team!"
+    original: "One paper accepted to **ISSTA'25**: We applied CodeQL to ~250 open-source repositories of high-quality embedded software and describe our experiences (700 defects!). Congrats to Mingjie and the team! [Preprint](https://arxiv.org/pdf/2310.00205)"
+  - year: 2025
+    kind: publication
+    ref: W-11
+    byline: "Congrats to Paschal and the team!"
+    original: "One paper accepted to **ICSE-NIER'25**: Unit proofing as a software engineering approach for bounded model checking. Congrats to Paschal and the team! [Preprint](https://arxiv.org/pdf/2410.14818)"
+  - year: 2025
+    kind: publication
+    ref: W-12
+    byline: "Congrats to Parth and the team!"
+    original: "One paper accepted to **SERP4IoT'25**: Recommending pre-trained models for IoT devices. Congrats to Parth and the team! [Preprint](https://arxiv.org/pdf/2412.18972)"
+  - year: 2025
+    kind: publication
+    ref: C-14
+    byline: "Congrats to Ben, Purvish, Nick, and the team!"
+    original: "One paper accepted to **AAAI'25**: A tool to help musicians detect errors in their performance. Congrats to Ben, Purvish, Nick, and the team! [Preprint](https://arxiv.org/pdf/2501.02030)"
+  - year: 2025
+    kind: publication
+    ref: C-20
+    byline: "Congrats to Nick, Purvish, and the team!"
+    original: "Two papers accepted to **WACV'25**: (1) optimizing token pruning approaches for edge devices, and (2) evaluating multi-stream architectures for vision transformer. Congrats to Nick, Purvish, and the team! [Preprint 1](https://arxiv.org/pdf/2409.07613), [Preprint 2](https://arxiv.org/pdf/2407.05941)"
+  - year: 2024
+    kind: publication
+    ref: J-6
+    byline: "Congrats to Desen and the RSAP team!"
+    original: "One education research paper accepted to **EJEE'24**: Fostering Systems Thinking through Engineering Study Abroad Programs. Congrats to Desen and the RSAP team!"
+  - year: 2024
+    kind: authored
+    text: "At a **Dagstuhl 2024** (regex matching & indexing), I gave a talk on \"Regular Expression Denial of Service: Past, Present, and Future\"."
+  - year: 2024
+    kind: authored
+    text: "One paper accepted to **ASE'24**: applying LLMs to conduct software failure analysis from news articles. Congrats to Dharun and the team!"
+  - year: 2024
+    kind: authored
+    text: "Serving on the **USENIX Security 2025 PC**."
+  - year: 2024
+    kind: publication
+    ref: C-22
+    byline: "Congrats to Purvish and the team!"
+    original: "One paper accepted to **ISSTA'24**: a failure analysis of deep learning interoperability software for ONNX. Congrats to Purvish and the team!"
+  - year: 2024
+    kind: authored
+    text: "One paper accepted to **EMSE** on the idea of \"Reengineering\" of DNNs. Congrats to Wenxin and the author team!"
+  - year: 2024
+    kind: authored
+    text: "Two papers accepted to **ESEM'24** -- a quantification of qualitative claims about hugging face, and exploratory work on GDPR in open-source software. Congrats to (1) Jason, Wenxin, Nick, and George; and (2) Lucas, Huayu, Sahar, Aaron, and Chris!"
+  - year: 2024
+    kind: authored
+    text: "Serving on the **ICSE 2025 PC**."
+  - year: 2024
+    kind: authored
+    text: "**NSF** funds research on tools for energy-efficient software. Thank you, US taxpayers."
+  - year: 2024
+    kind: authored
+    text: "Dharun is awarded a 2024-2025 **Chateaubriand Fellowship** to conduct part of his dissertation research with Dr. Christophe Cerisara of INRIA (France). Congrats, Dharun!"
+  - year: 2024
+    kind: authored
+    text: "**Rolls Royce** renews support for our research in embedded systems security"
+  - year: 2024
+    kind: authored
+    text: "Serving on the **FSE 2025 PC**."
+  - year: 2024
+    kind: authored
+    text: "Kelechi will intern at **Microsoft Research** this summer. Congrats, Kelechi!"
+  - year: 2024
+    kind: authored
+    text: "Serving on the **ISSTA'25 PC**."
+  - year: 2024
+    kind: authored
+    text: "Jason Jones defends his **MSc thesis**: \"A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries\"."
+  - year: 2024
+    kind: authored
+    text: "Serving on the **ASE 2024 PC**."
+  - year: 2024
+    kind: authored
+    text: "Paper on cybersecurity guidelines: **FSE 2024**. Congrats to Jesse and Dharun!"
+  - year: 2024
+    kind: authored
+    text: "REU alumnus and collaborator Matt Hyatt of Loyola University-Chicago receives **NSF GRFP and DOD NDSEG fellowships**. Congrats, Matt!"
+  - year: 2024
+    kind: authored
+    text: "Taylor R. Schorlemmer defends his **MSc thesis**: \"Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures\"."
+  - year: 2024
+    kind: authored
+    text: "With Prof. Machiry, Ritvik, Jayashree, Srihari, and Paschal's poster won **Best Poster** at Purdue's 2024 CERIAS symposium. Congrats folks!"
+  - year: 2024
+    kind: authored
+    text: "Paper on Software Signing: **IEEE S&P 2024**. Congrats to Taylor for sharing his MSc thesis with the world."
+  - year: 2024
+    kind: authored
+    text: "Paper on Cyber Threat Hunt: **USENIX Security 2024**. Congrats to Trey for sharing his MSc thesis with the world."
+  - year: 2024
+    kind: authored
+    text: "Paschal will intern with the security team at **Qualcomm** this summer. Congrats, Paschal!"
+  - year: 2024
+    kind: publication
+    ref: C-28
+    byline: "Congrats to Wenxin and the team!"
+    original: "Paper on pre-trained models: **MSR 2024**. Congrats to Wenxin and the team!"
+  - year: 2024
+    kind: award
+    ref: A-4
+    byline: "Congrats to Sid and Preeti, and thanks to the patient students of ECE 461."
+    original: "Educational research paper on applying systems thinking to teach threat modeling: **ASEE 2024**. Congrats to Sid and Preeti, and thanks to the patient students of ECE 461. (Update: This work won the **Best Paper Award** in the Software Engineering Division of ASEE.)"
+  - year: 2024
+    kind: authored
+    text: "Educational research paper on the unfettered use of LLMs in a software engineering course: **ASEE 2024**. Congrats to Ben, Lexy, and Sid."
+  - year: 2024
+    kind: authored
+    text: "Paschal and I will serve on the **IEEE SecDev 2024 PC**."
+  - year: 2024
+    kind: authored
+    text: "Dharun will intern with the RISE team at **Microsoft Research** this summer. Congrats, Dharun!"
+  - year: 2024
+    kind: authored
+    text: "Serving on the **EuroSec 2024 PC**."
+  - year: 2024
+    kind: authored
+    text: "Poster on GDPR: **ICSE-Poster 2024**. Congrats to the Virginia Tech collaborators!"
+  - year: 2024
+    kind: authored
+    text: "Presentation at Michigan Tech University about software engineering with pre-trained models"
+  - year: 2023
+    kind: authored
+    text: "Presentation at Carnegie Mellon University about software engineering with pre-trained models"
+  - year: 2023
+    kind: authored
+    text: "Paper on applying large language models to cybersecurity failures: **SCORED 2023**. Congrats to Tanmay, Dharun and the team!"
+  - year: 2023
+    kind: authored
+    text: "Presentation at the University of Notre Dame about the challenges of working with pre-trained models"
+  - year: 2023
+    kind: authored
+    text: "Serving on the ISSTA 2024 PC, Technical track"
+  - year: 2023
+    kind: authored
+    text: "Presentation at Argonne National Labs about pre-trained models."
+  - year: 2023
+    kind: authored
+    text: "Serving on the SANER 2024 PC, Early Research Achievements track"
+  - year: 2023
+    kind: authored
+    text: "Paper on cybersecurity vulnerabilities in embedded network stacks: **ASE 2023**. Congrats to Paschal and the team!"
+  - year: 2023
+    kind: authored
+    text: "Serving as a judge for CSAW 2023"
+  - year: 2023
+    kind: authored
+    text: "Paper on the role of policy-process-product theory in empirical software engineering: **ESEC/FSE-IVR 2023**. Congrats to Kelechi and the team!"
+  - year: 2023
+    kind: authored
+    text: "Presentation at the ONNX Community Day event hosted by NVIDIA. Joint talk by me and Purvish Jajal."
+  - year: 2023
+    kind: authored
+    text: "Serving on the SCAM 2023 PC, Engineering track"
+  - year: 2023
+    kind: authored
+    text: "Paper on software engineering for machine learning: **JVA 2023**. Congrats to the whole team -- This one was \"authors sorted alphabetically\""
+  - year: 2023
+    kind: authored
+    text: "Geoffrey Cramer defends his MSc thesis: \"An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms\"."
+  - year: 2023
+    kind: authored
+    text: "William \"Trey\" Maxam defends his MSc thesis: \"Discovering U.S. Government Threat Hunting Processes and Improvements\". He returns to the US Coast Guard Academy as an instuctor."
+  - year: 2023
+    kind: authored
+    text: "ECE@Purdue renewed my three-year contract -- now it's tenure or bust"
+  - year: 2023
+    kind: authored
+    text: "Rolls Royce renews support for our research in embedded systems security"
+  - year: 2023
+    kind: authored
+    text: "(Best) poster on securing the machine learning supply chain.  Congrats Taylor!"
+  - year: 2023
+    kind: authored
+    text: "Paschal will take a 2023 internship on software supply chain security with a research group at Google."
+  - year: 2023
+    kind: authored
+    text: "Dharun will take a 2023 internship on learning from engineering failure with the German NASA."
+  - year: 2023
+    kind: grant
+    ref: G-14
+    original: "Cisco funds research on software engineering for computer vision."
+  - year: 2023
+    kind: authored
+    text: "Serving on an NSF:CISE panel."
+  - year: 2023
+    kind: authored
+    text: "Paper on learning from engineering failure: **SERP4IoT 2023**. Congrats Dharun!"
+  - year: 2023
+    kind: publication
+    ref: W-17
+    byline: "Congrats Ming!"
+    original: "Paper on security for embedded systems: **LCTES-WIP 2023**. Congrats Ming!"
+  - year: 2023
+    kind: publication
+    ref: W-16
+    byline: "Congrats Jayashree!"
+    original: "Paper on security for embedded systems: **DSN-Disrupt 2023**. Congrats Jayashree!"
+  - year: 2023
+    kind: authored
+    text: "Paper on pre-trained models: **MSR-Dataset 2023**. Congrats Wenxin+Nick!"
+  - year: 2023
+    kind: authored
+    text: "Serving on the LCTES 2023 PC, Technical track"
+  - year: 2023
+    kind: authored
+    text: "Paper on pre-trained models: **ICSE 2023**. Congrats Wenxin!"
+  - year: 2023
+    kind: authored
+    text: "Serving on the ESEC/FSE 2023 PC, Technical track."
+  - year: 2023
+    kind: publication
+    ref: C-31
+    original: "Paper on secure regular expressions: **S&P 2023**"
+  - year: 2023
+    kind: authored
+    text: "Google renews support for our research on software engineering for machine learning"
+  - year: 2022
+    kind: authored
+    text: "Paper on engineering education: Frontiers journal on study abroad (**Frontiers 2022**). Congrats Kirsten!"
+  - year: 2022
+    kind: grant
+    ref: G-19
+    original: "Cisco funds research on software engineering for pre-trained neural network models"
+  - year: 2022
+    kind: authored
+    text: "Serving on the ASE 2022 PC, Doctoral Symposium track"
+  - year: 2022
+    kind: authored
+    text: "Paper on mining software repositories: **ASE-Tools 2022**. Congrats Nick!"
+    # contested W-24: a second work shares that venue+year and is missing from the record
+  - year: 2022
+    kind: publication
+    ref: W-29
+    byline: "Congrats Nikhil!"
+    original: "Paper on software engineering for machine learning: **SERP4IoT 2022**. Congrats Nikhil!"
+  - year: 2022
+    kind: authored
+    text: "Elevated to IEEE Senior Member."
+  - year: 2022
+    kind: authored
+    text: "Cisco funds research on securing software supply chains"
+  - year: 2022
+    kind: authored
+    text: "NSF funds research on securing software supply chains"
+  - year: 2022
+    kind: publication
+    ref: C-34
+    byline: "Congrats Qiang!"
+    original: "Paper on energy efficient computing: **SANER 2022**. Congrats Qiang!"
+  - year: 2022
+    kind: authored
+    text: "Paper on computer vision: **ISLPED 2022**. Congrats Abhinav!"
+  - year: 2022
+    kind: authored
+    text: "Paper on learning from engineering failure: **ASE-NIER 2022**. Congrats Dharun!"
+    # contested W-24: a second work shares that venue+year and is missing from the record
+  - year: 2022
+    kind: authored
+    text: "Paper on pre-trained models: **ESEC/FSE-IVR 2022**. Congrats Diego!"
+  - year: 2022
+    kind: authored
+    text: "Paper on learning from engineering failure: **ESEC/FSE-IVR 2022**. Congrats Paschal!"
+  - year: 2022
+    kind: award
+    ref: A-15
+    byline: "Thank you."
+    original: "Award for engineering education: Ruth and Joel Spira Outstanding Teacher Award, ECE@Purdue 2022. Thank you."
+  - year: 2022
+    kind: publication
+    ref: W-30
+    byline: "Congrats to me!"
+    original: "Paper on engineering education: **DREE 2022**. Congrats to me!"
+  - year: 2022
+    kind: authored
+    text: "Paper on pre-trained models: **SCORED 2022**. Congrats Wenxin!"
+  - year: 2022
+    kind: authored
+    text: "Serving on the SCORED 2022 PC, Technical track"
+  - year: 2022
+    kind: authored
+    text: "Paper on secure software supply chains: **SCORED 2022**. Congrats Chinenye+Taylor!"
+  - year: 2022
+    kind: publication
+    ref: C-33
+    byline: "Congrats Efe+Xin!"
+    original: "Paper on secure regular expressions: **ICSE 2022**. Congrats Efe+Xin!"
+  - year: 2021
+    kind: grant
+    ref: G-15
+    original: "**Rolls Royce** funds research on embedded systems security."
+  - year: 2021
+    kind: authored
+    text: "**Google** funds research on software engineering for machine learning."
+  - year: 2021
+    kind: authored
+    text: "Purdue funds research on computing education."
+  - year: 2021
+    kind: authored
+    text: "Serving on the ICSE 2021 PC, Demonstrations track."
+  - year: 2021
+    kind: authored
+    text: "**NSF** funds research on secure regular expressions."
+  - year: 2021
+    kind: publication
+    ref: C-35
+    byline: "Congrats Abhinav!"
+    original: "Paper on computer vision: **ISLPED 2021**. Congrats Abhinav!"
+  - year: 2021
+    kind: authored
+    text: "NSF funds research on software engineering for computer vision."
+  - year: 2021
+    kind: publication
+    ref: J-10
+    original: "Paper on mutation analysis in software engineering education: **JSS 2021**."
+  - year: 2021
+    kind: award
+    ref: A-24
+    byline: "Thank you."
+    original: "Award for engineering education: VIP Outstanding Mentor, 2021. Thank you."
+  - year: 2021
+    kind: publication
+    ref: Ps-14
+    byline: "Congrats Nicole!"
+    original: "Paper on intercultural competency in software engineering education: **ACIEE 2021**. Congrats Nicole!"
+  - year: 2021
+    kind: award
+    ref: A-5
+    original: "Serving on the ASE 2021 PC, Technical track. Distinguished reviewer award!"
+  - year: 2021
+    kind: authored
+    text: "Serving on the ESEC/FSE 2021 PC, Artifact track."
+  - year: 2020
+    kind: authored
+    text: "Poster on software engineering for machine learning: **SIAM CSE 2020**. Congrats Naveen!"
+  - year: 2020
+    kind: publication
+    ref: J-11
+    byline: "Congrats Desen!"
+    original: "Paper on engineering education: JIEE journal (**JIEE 2020**). Congrats Desen!"
+  - year: 2020
+    kind: authored
+    text: "The Duality Lab is founded. Hello world."

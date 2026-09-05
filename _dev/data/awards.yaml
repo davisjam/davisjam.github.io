@@ -1,0 +1,42 @@
+# data/awards.yaml — canonical honours record. Source: JamesDavis-CV.pdf.
+# Rendered, never transcribed: pages project this (model/ssot-records.md).
+schema_version: 2
+# `id` is the stable reference key (A-n). Assigned in file order; append new
+# awards at the end of their category so existing ids never shift.
+awards:
+  research:
+    - {id: A-1, year: 2026, title: NSF CAREER Award}
+    - {id: A-2, year: 2025, title: Paul C. Krause Faculty Research Award, note: ECE@Purdue junior faculty research}
+    - {id: A-3, year: 2025, title: "Best Artifact Award, CCS", note: PickleBall}
+    - {id: A-4, year: 2024, title: "Best Paper Award, Software Engineering Division, ASEE"}
+    - {id: A-5, year: 2020, title: "ACM Distinguished Paper Award, ESEC/FSE"}
+    - {id: A-6, year: 2020, title: "Second place, Grand Finals, ACM Graduate Student Research Competition"}
+    - {id: A-7, year: 2019, title: "First place, Graduate Student Research Competition, ESEC/FSE"}
+    - {id: A-8, year: 2019, title: "ACM Distinguished Paper Award, ASE"}
+    - {id: A-9, year: 2019, title: "Davenport Fellowship, Virginia Tech College of Engineering"}
+    - {id: A-10, year: 2018, title: "Microsoft Security Researcher Acknowledgments", note: for ReDoS discoveries}
+    - {id: A-11, year: 2018, title: "IBM Significant Contributor Award", note: for Node.js}
+    - {id: A-12, year: 2018, title: "ACM Distinguished Paper Award, ESEC/FSE"}
+  teaching:
+    - {id: A-13, year: 2026, title: Purdue University Exceptional Early Career Teaching Award}
+    - {id: A-14, year: 2026, title: "Purdue College of Engineering Faculty Excellence Award in Exceptional Early Career Teaching"}
+    - {id: A-15, year: 2022, title: Ruth and Joel Spira Outstanding Teacher Award}
+    - {id: A-16, year: 2024, title: "Outstanding Engineering Teachers (College of Engineering)",
+       note: "course evaluation scores; F21, S22, F22, S24"}
+  service:
+    - {id: A-17, year: 2026, title: "ICSE Distinguished Reviewer Award", reviewer: true}
+    - {id: A-18, year: 2025, title: "FSE Distinguished Reviewer Award", reviewer: true}
+    - {id: A-19, year: 2025, title: "USENIX Security Distinguished Reviewer Award", reviewer: true}
+    - {id: A-20, year: 2021, title: "ASE Distinguished PC Member Award", reviewer: true}
+    - {id: A-21, year: 2020, title: "Outstanding Graduate Student Service Award, CS@Virginia Tech"}
+  mentoring:
+    # CORRECTED 260905. A-22's note read "Purdue TensorFlow team", which cannot
+    # be right: that VIP ran F20-F23 and this award is 2026. The 2026 award is
+    # for the Software Engineering with Pre-Trained Models team (active S24-S26),
+    # per the Exceptional Early Career Teaching nomination. A-24 (2021) really is
+    # the TensorFlow team and is unchanged.
+    - {id: A-22, year: 2026, title: "VIP Outstanding Team Mentor Award", note: Software Engineering with Pre-Trained Models team}
+    - {id: A-23, year: 2024, title: "Outstanding Faculty Mentor, Elmore School of Electrical & Computer Engineering"}
+    - {id: A-24, year: 2021, title: "VIP Outstanding Team Mentor Award", note: Purdue TensorFlow team}
+  other:
+    - {id: A-25, year: 2026, title: "Purdue ThinkAI Competition Winner", note: college-wide, creative use of GenAI}

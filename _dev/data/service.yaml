@@ -1,0 +1,146 @@
+# data/service.yaml — canonical professional-service record.
+# Source: JamesDavis-CV.pdf. Extracted from the CV, NOT from the previous
+# website, which had gone stale (it stopped around 2024).
+#
+# The shape here is the WEBSITE taxonomy, not the CV taxonomy. The CV needs
+# exhaustive reporting categories; the page needs to communicate the kind and
+# trajectory of the service. The SSOT underneath stays exhaustive either way.
+#
+# Deliberately NOT in this file: tools, practitioner writings, software impact,
+# download counts. Those are research translation, not service, and now have
+# better homes on the research-program sites (James, 260904).
+schema_version: 1
+
+# Buckets that are RECORDED here but deliberately NOT rendered on the page.
+# Declaring them (rather than deleting the data) keeps each omission auditable:
+# OBL-RECORD-002 requires every service record to be either rendered or named
+# here with a reason, so a record can never vanish silently.
+record_only:
+  research_community.journals: >-
+    Journal reviewing is real service, but a list of journal names beside a
+    USENIX Security vice chairship reads as CV reproduction. A reader who sees
+    the program committees already infers it.
+  research_community.other_refereeing: >-
+    Subreviewing and artifact-track service should not visually compete with the
+    major program committees. Recorded in full; the page summarizes it as "as
+    well as related venues".
+  purdue.additional: >-
+    Ordinary committee and faculty-search service. Rendered as a bullet peer of
+    the ABET self-study, it made responsibility for an 800-page program review
+    look like committee membership.
+
+leadership:
+  conference:
+    - {venue: USENIX Security, role: Vice Chair, years: "2027", prominent: true}
+    # The IEEE eScience RS3 workshop was CANCELLED (James, 260905) and must not
+    # be listed. The US-RSE workshop replaces it.
+    - {venue: "US-RSE workshop on research software supply-chain security",
+       role: Co-Organizer, years: "2026", title_pending: true}
+    - {venue: "Workshop on Using Generative AI as an Engineering Educator, ASEE",
+       role: Organizer, years: "2026"}
+  # Rendered as ONE sustained contribution rather than three unrelated lines:
+  # the progression mentor -> panelist/mentor -> co-chair is the interesting part.
+  sustained:
+    - venue: "ICSE Student Mentoring Workshop (ICSE-SMeW)"
+      progression:
+        - {years: "2023", role: Mentor}
+        - {years: "2024", role: Panelist and Mentor}
+        - {years: "2024-2025", role: Co-Chair}
+  community_building:
+    - {what: "Junior Faculty Peer Mentoring Teatime", role: Organizer, years: "2024-2025"}
+    - {what: "CAREER proposal writing group", role: Organizer, years: "2024, 2025"}
+    - {what: "Software Systems Reading Group", role: Organizer, years: "2024"}
+    - {what: "Purdue Engineering Distinguished Lecture Series — Dr. Nancy Leveson (MIT)",
+       role: Host, years: "2022"}
+    - {what: "Computer Engineering Seminar Series — Dr. Joanna C. S. Santos (Notre Dame)",
+       role: Host, years: "2022"}
+
+research_community:
+  # Compact venue-then-years rendering, which exposes REPEAT SELECTION by the
+  # major communities in a way a reverse-chronological list cannot.
+  major_program_committees:
+    - {venue: ICSE, years: [2025, 2026, 2027]}
+    - {venue: "ESEC/FSE", short: FSE, years: [2023, 2025]}
+    - {venue: USENIX Security, years: [2025, 2026], extra: "Vice Chair 2027"}
+    - {venue: ISSTA, years: [2024, 2025]}
+    - {venue: ASE, years: [2021, 2024]}
+    - {venue: AAAI, years: [2026, 2027]}
+  # Collapsed by default on the page: 2017 subreviewing should not visually
+  # compete with a USENIX Security vice chairship.
+  other_refereeing:
+    - {venue: "MSR Mining Challenge", role: PC Member, years: [2026]}
+    - {venue: "European Workshop on Systems Security (EuroSec)", role: PC Member, years: [2024, 2025, 2026]}
+    - {venue: "IEEE SecDev", role: PC Member, years: [2024]}
+    - {venue: "ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses",
+       role: PC Member, years: [2022, 2023]}
+    - {venue: "Workshop on Education for High-Performance Computing (EduHPC)", role: PC Member, years: [2024]}
+    - {venue: LCTES, role: PC Member, years: [2023]}
+    - {venue: "SANER — Early Research Achievement Track", role: Reviewer, years: [2024]}
+    - {venue: "SCAM — Engineering Track", role: Reviewer, years: [2023]}
+    - {venue: "ASE — Doctoral Symposium", role: Reviewer, years: [2022]}
+    - {venue: "ICSE — Demonstrations Track", role: Reviewer, years: [2021]}
+    - {venue: "ESEC/FSE — Artifact Track", role: Reviewer, years: [2020, 2021]}
+    - {venue: "CGO — Artifact Track", role: Reviewer, years: [2019]}
+    - {venue: "CSAW Best Paper Competition", role: Judge, years: [2021, 2023]}
+  journals:
+    - IEEE Transactions on Software Engineering (TSE)
+    - ACM Transactions on Software Engineering and Methodology (TOSEM)
+    - Springer Empirical Software Engineering (EMSE)
+    - Journal of Systems and Software (JSS)
+    - Journal of Online Trust & Safety (JOTS)
+  editorial:
+    - {role: Column Co-Editor, venue: "IEEE Computer — Practicing AI", confirmed: true}
+
+national_professional:
+  - body: US National Science Foundation
+    role: Panelist
+    years: [2023, 2025, 2026]
+    note: recurring national research review; three panels
+  - body: IEEE Computer Society
+    role: Reviewer
+    what: "Guide to the Software Engineering Body of Knowledge (SWEBOK), Version 4"
+    years: [2024]
+# Professional memberships are deliberately omitted from the page: they are
+# credentials, not service (James, 260904).
+
+purdue:
+  # SELECTION PRINCIPLE (James, 260905): the page shows INSTITUTION-LEVEL work
+  # only. The test is whether the work carried responsibility for something
+  # beyond my own lab or course. Everything under `additional` is real service,
+  # but it is CV material -- and rendering it as a bullet peer of the ABET
+  # self-study is what made an 800-page program review look like committee
+  # membership. `additional` is RECORDED here and deliberately NOT rendered.
+  institutional:
+    - what: "Lead, B.S. Computer Engineering ABET five-year self-evaluation"
+      years: "2024-2025"
+      detail: >-
+        Led the continuous-improvement component of ECE's successful ABET review:
+        prepared the Criterion 4 evidence, developed the student-outcome
+        tracking, authored roughly 45 pages of the report, and reviewed the
+        approximately 800-page full report. This was a program-level assessment
+        effort rather than ordinary committee service.
+    - what: "Member, committee to create the M.S. in Software Engineering"
+      years: "2024"
+      detail: >-
+        Helped design and launch Purdue's M.S. in Software Engineering, developed
+        jointly across Electrical and Computer Engineering and Computer Science.
+    - what: "ECE representative, College of Engineering committee on guidelines for AI use"
+      years: "2026"
+      detail: >-
+        Represent ECE in College-level work developing guidance for the use of AI
+        in engineering education.
+  additional:
+    - {what: "Purdue ECE ABET Committee", role: Member, years: "2023-present"}
+    - {what: "ECE Undergraduate Curriculum Committee", role: Member, years: "2020-2022"}
+    - {what: "ECE ADVANCE — discussion lead, LLMs in education", years: "2024"}
+    - {what: "College of Engineering Graduate Education Award Selection Committee",
+       role: "ECE Representative", years: "2025"}
+    - {what: "Faculty search: Professor of Practice in Software Engineering", years: "2023-2024"}
+    - {what: "Faculty search: ad hoc", years: "2023"}
+    - {what: "Faculty search: Software Engineering", years: "2022-2023"}
+
+# ---------------------------------------------------------------------------
+# NOT PUBLISHED pending confirmation. Recorded so the gap is deliberate.
+needs_confirmation: []   # both prior items CONFIRMED by James, 260904:
+                         # NSF 2026 panel, and the IEEE Computer column
+                         # co-editorship, now published.

@@ -1,0 +1,282 @@
+# data/program-notes.yaml — what each work contributed TO A PARTICULAR PROGRAM.
+#
+# Keyed `<publication-id>.<project-id>`. A cross-listed work gets a DIFFERENT
+# note per site: PickleBall is an integration property under PTM-SE and an
+# attack surface under Software Supply Chain, and saying the same thing twice
+# would waste the second placement.
+#
+# These are NOT abstract summaries. An abstract says what a paper did; a note
+# says why it mattered here. Drafted against data/abstracts.json where one was
+# available (61 of 129 works) and against title, venue, and CV entry otherwise.
+# Entries marked `# inferred` were written without an abstract and are the ones
+# most likely to need correcting.
+
+schema_version: 1
+notes:
+
+  # ── MAGE ────────────────────────────────────────────────────────────────
+  B-1.mage: The book-length statement of the framework.
+  J-3.mage: >-
+    Showed that language models can improve the measured performance of real
+    software systems, and established the measurement setup the later
+    agent-optimization work builds on.
+  # inferred (no abstract available)
+  W-9.mage: >-
+    Extends optimization from local edits to reasoning across a system, which is
+    where delegated work starts to need explicit models rather than context.
+  # inferred (no abstract available)
+  W-10.mage: >-
+    Characterizes what agents actually do when asked to optimize code, which is
+    the empirical ground for claims about where judgment still has to sit.
+  # inferred (no abstract available)
+  W-5.mage: >-
+    A registry for agents, treating discoverability, verification, and
+    reproducibility as properties an agent ecosystem has to provide rather than
+    properties individual users establish.
+  # inferred (no abstract available)
+  W-2.mage: >-
+    Argues that when regeneration is cheap, reuse decisions change shape. The
+    position that connects the supply-chain work to the agentic setting.
+
+  # ── Embedded Software Engineering ───────────────────────────────────────
+  C-30.embedded-swe: >-
+    Found high-severity defects in the network stacks that low-resource devices
+    depend on, and showed the defects were systematic enough to look for
+    deliberately. The empirical start of the line.
+  W-16.embedded-swe: >-
+    First statement of rehosting embedded applications as ordinary Linux
+    programs, so dynamic analysis no longer waits on hardware emulation.
+  C-15.embedded-swe: >-
+    LEMIX made that rehosting practical: embedded applications become testable
+    as Linux applications, removing the fidelity-versus-effort tradeoff earlier
+    approaches were stuck with.
+  W-17.embedded-swe: >-
+    Layered design is what makes embedded software portable, so violations of
+    the layering are a defect class worth detecting automatically.
+  C-17.embedded-swe: >-
+    Applied static analysis across many open-source embedded projects and found
+    hundreds of defects, showing that analysis at ecosystem scale is affordable
+    and that projects were not already doing it.
+  W-11.embedded-swe: >-
+    Sets out the Unit Proofing agenda: design-level verification does not expose
+    implementation defects, so verification has to reach the code.
+  C-10.embedded-swe: >-
+    Asked whether unit proofs work rather than assuming they do, and measured
+    compositional bounded model checking for memory safety on real code.
+  C-1.embedded-swe: >-
+    AutoSOUP generates the proofs. Automating construction is what moves unit
+    proofing from a technique that works to one a team can afford to use.
+  W-3.embedded-swe: >-
+    False positives are what make automated fuzz-driver generation unusable in
+    practice; this reports what reducing them took inside Google's OSS-Fuzz-Gen.
+  # inferred (no abstract available)
+  R-2.embedded-swe: >-
+    Reactive bottom-up testing: reaching deep code by building tests upward from
+    the units rather than driving from the top.
+
+  # ── Failure-Aware Software Development ──────────────────────────────────
+  W-26.failure-aware-sdlc: >-
+    Surveyed how failure studies are actually conducted and found the methods
+    inconsistent, which is the problem the rest of this program addresses.
+  W-24.failure-aware-sdlc: >-
+    Showed that IoT failures recur through a small number of design flaws, so
+    the knowledge to prevent them existed before the failures happened.
+  W-21.failure-aware-sdlc: >-
+    A controlled study of whether failure knowledge changes design decisions.
+    Moves the claim from plausible to tested.
+  W-18.failure-aware-sdlc: >-
+    Examines the assumption underlying most of empirical software engineering —
+    that policy and process shape product quality — and asks how often it is
+    actually established rather than assumed.
+  C-25.failure-aware-sdlc: >-
+    IoT security guidelines are a written form of failure knowledge; this asks
+    what they contain and whether they are usable by the engineers they target.
+  C-21.failure-aware-sdlc: >-
+    FAIL scales failure analysis by extracting incidents from news reports, so
+    the evidence base stops being limited to what one team can read.
+  # inferred (no abstract available)
+  C-9.failure-aware-sdlc: >-
+    A case study inside a national space research center: what an organization
+    with strong incentives to learn from failure actually does.
+  # inferred (no abstract available)
+  R-3.failure-aware-sdlc: >-
+    Failure knowledge only changes engineering if it reaches the people who
+    decide; stakeholder analysis is the missing step in most such work.
+  # inferred (no abstract available)
+  W-20.failure-aware-sdlc: >-
+    Tests whether language models can do the reading that failure analysis
+    requires, which is the bottleneck on doing it at scale.
+
+  # ── Software Engineering for Pre-Trained Models ─────────────────────────
+  # inferred (no abstract available)
+  R-5.ptm-se: >-
+    An early look at why deep-learning results are hard to reproduce, before
+    reuse became the dominant mode.
+  R-8.ptm-se: >-
+    Turned the reproducibility problem into guidance practitioners could apply.
+  W-25.ptm-se: >-
+    Found that nominally identical pre-trained models from model zoos differ,
+    which makes a model zoo a supply chain rather than a catalogue.
+  W-22.ptm-se: >-
+    Characterized what is actually published alongside pre-trained models and
+    what security practices accompany them.
+  # inferred (no abstract available)
+  W-29.ptm-se: >-
+    Asks what security practices ML-based IoT engineering uses in practice, and
+    finds them conditional on someone requiring them.
+  W-15.ptm-se: >-
+    Framed model reuse as a software-engineering problem with its own
+    challenges, rather than a machine-learning convenience.
+  C-29.ptm-se: >-
+    The empirical study of Hugging Face reuse that established how engineers
+    select and adapt pre-trained models at ecosystem scale.
+  W-19.ptm-se: >-
+    PTMTorrent made the model ecosystem minable, so claims about it could be
+    measured instead of asserted.
+  C-28.ptm-se: >-
+    PeaTMOSS extends that to models as they appear inside open-source projects,
+    linking the registry to the systems that depend on it.
+  J-7.ptm-se: >-
+    Model reengineering — reimplementing and extending published models — is a
+    distinct and costly engineering activity; this documents what it involves.
+  C-22.ptm-se: >-
+    Tested whether ONNX interoperability holds. Conversion failures show that a
+    portability claim is an engineering obligation, not a property.
+  # inferred (no abstract available)
+  C-23.ptm-se: >-
+    A systematic review and quantitative study of what is known about Hugging
+    Face, consolidating a fast-moving literature.
+  J-4.ptm-se: >-
+    Interview study of how engineers reason about pre-trained models as
+    components, including where model naming misleads them.
+  # inferred (no abstract available)
+  Pa-1.ptm-se: >-
+    Identifies naming mismatches from a network's architecture, making the
+    naming problem detectable rather than only observable.
+  W-12.ptm-se: >-
+    Recommending models for constrained devices, where the reuse decision is
+    bounded by the hardware it has to run on.
+  # inferred (no abstract available)
+  J-1.ptm-se: >-
+    Looks at AI safety from the downstream developer's position — the engineer
+    integrating a model, not the organization training it.
+  # inferred (no abstract available)
+  J-2.ptm-se: >-
+    Generalizes dependency thinking to model artifacts: what a dependency is,
+    when the dependency learns.
+  C-12.ptm-se: >-
+    Model serialization is an integration property. A format that executes code
+    when loaded makes deserialization part of the reuse contract.
+  # inferred (no abstract available)
+  W-1.ptm-se: >-
+    An early empirical look at pre-trained model reuse in the wild.
+  R-7.ptm-se: >-
+    A partial replication across frameworks, which is where interoperability
+    claims are tested rather than stated.
+
+  # ── Software Supply Chain Security ──────────────────────────────────────
+  W-27.software-supply-chain: >-
+    Systematized the field around three properties — transparency, validity,
+    separation — giving later work a vocabulary for what a defence establishes.
+  C-26.software-supply-chain: >-
+    Measured signing across four public registries. Established how rare and how
+    poor-quality signing actually was, against which later adoption work reads.
+  M-1.software-supply-chain: >-
+    States the provenance-before-coding argument for a practitioner audience.
+  C-16.software-supply-chain: >-
+    Interviewed industry practitioners about signing. Found that the obstacles
+    are organizational as often as technical.
+  C-13.software-supply-chain: >-
+    ZTD-JAVA moves the trust decision to the point of use: a library gets the
+    permissions its call site needs, not those of the whole application.
+  # inferred (no abstract available)
+  C-3.software-supply-chain: >-
+    A usability study of Sigstore adoption. Identity-based signing removes the
+    key-management problem and introduces others.
+  # inferred (no abstract available)
+  R-1.software-supply-chain: >-
+    Follows identity-based signing usability over time rather than at one
+    moment, which is where adoption problems become visible.
+  # inferred (no abstract available)
+  C-2.software-supply-chain: >-
+    Verification that accounts for context: what a signature means depends on
+    what is being installed where.
+  # inferred (no abstract available)
+  C-8.software-supply-chain: >-
+    ConfuGuard detects package confusion from metadata, treating a familiar
+    package name as evidence that can be forged.
+  W-6.software-supply-chain: >-
+    Maintainers can review a pull request for correctness but not for the
+    trustworthiness of its author; ARMS proposes reputation as the missing
+    signal.
+  # inferred (no abstract available)
+  W-7.software-supply-chain: >-
+    Dependency decision-making has no benchmark, so competing approaches cannot
+    be compared. This proposes one.
+  # inferred (no abstract available)
+  W-8.software-supply-chain: >-
+    Research software has a supply chain with different incentives and far less
+    tooling than industry's.
+  # inferred (no abstract available)
+  W-20.software-supply-chain: >-
+    Tests whether language models can analyze supply-chain failures at the scale
+    the evidence actually exists.
+  C-12.software-supply-chain: >-
+    A model file that executes code when loaded is an attack surface, and model
+    repositories distribute those files the way registries distribute packages.
+  # inferred (no abstract available)
+  W-5.software-supply-chain: >-
+    Agent ecosystems are beginning to distribute executable capability, and they
+    inherit the registry trust problem before they inherit its defences.
+
+  # ── Regular Expression Engineering ──────────────────────────────────────
+  W-36.saferegex: >-
+    The event-handler poisoning weakness in Node.js, which is where the
+    performance-as-a-security-property line of work began.
+  C-45.saferegex: >-
+    First-class timeouts as a defence against event-handler poisoning. The
+    runtime-side answer that preceded the regex-specific work.
+  C-44.saferegex: >-
+    Measured ReDoS across an ecosystem and found super-linear regexes widespread
+    in deployed modules. The result that made the problem concrete.
+  C-40.saferegex: >-
+    Studied what developers understand when they write regexes, and found the
+    difficulties are in comprehension and decision-making, not syntax.
+  C-39.saferegex: >-
+    Tested whether regex behaviour generalizes across languages at scale. It
+    does not, which turns portability into an engineering problem.
+  # inferred (no abstract available)
+  C-41.saferegex: >-
+    Asked why regexes are not portable in practice despite a shared surface
+    syntax, examining reuse across languages directly.
+  W-34.saferegex: >-
+    Argued the problem is in the engines: worst-case-exponential matching is an
+    implementation choice, not a property of regular expressions.
+  # inferred (no abstract available)
+  C-36.saferegex: >-
+    Selective memoization defeats ReDoS without abandoning the expressive
+    features that made backtracking engines popular.
+  C-33.saferegex: >-
+    Published sanitization logic tells an attacker which inputs reach the
+    matcher, turning a usability feature into an exploitation aid.
+  C-31.saferegex: >-
+    ReDoS tools exist but developers misread their output; this studies how to
+    present findings so they can be acted on.
+  C-18.saferegex: >-
+    Consolidates a decade of ReDoS literature and engineering practice into one
+    account of what is known and what is still open.
+  # inferred (no abstract available)
+  C-4.saferegex: >-
+    Backreferences reintroduce the vulnerability under different conditions,
+    marking the current boundary of the security result.
+  # inferred (no abstract available)
+  W-4.saferegex: >-
+    Regex engines themselves are largely untested against their own semantics;
+    this proposes testing them systematically.
+  # inferred (no abstract available)
+  R-4.saferegex: >-
+    Compares strategies for composing regexes, asking whether reuse is the right
+    default at the level of the expression itself.
+  W-33.saferegex: >-
+    The Student Research Competition statement of the ReDoS problem and its
+    defences.

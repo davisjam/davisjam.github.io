@@ -7,7 +7,7 @@ research_slug: "Pre-Trained Models"
 question: "What changes about software engineering when the reused component is a learned model?"
 figure: /assets/research/ptm-se/ptm-reuse-lifecycle.svg
 figure_alt: "Reusing a model introduces new engineering obligations"
-figure_desc: "A model moves through a familiar reuse lifecycle — registry, select, integrate, validate, evolve — but several assumptions of conventional dependency management stop holding. Reuse is familiar while the artifact is not; the ecosystem keeps moving and must be re-measured; identity and interoperability are not guaranteed; reuse requires reengineering downstream; and risk travels with the artifact."
+figure_desc: "A familiar reuse lifecycle runs across the top: model registry, select, integrate, validate, evolve. Beneath it are five claims the programme established. Reuse is familiar but the artifact is not. The ecosystem keeps moving. Identity and interoperability are not guaranteed. Reuse requires reengineering. Risk travels with the artifact."
 ---
 
 Developers have been reusing software components for decades; pre-trained models inherit many of the same engineering problems, but also introduce new ones, because their identity, behavior, provenance, and interfaces are less explicit than those of conventional software packages.

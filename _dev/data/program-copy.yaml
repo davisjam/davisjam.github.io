@@ -1,0 +1,68 @@
+# data/program-copy.yaml — authored hero prose for each research programme.
+#
+# Moved out of generators/generate_sites.py, which builds the retired
+# standalone sites and is slated for deletion. This is the one load-bearing
+# thing in that file: prose written and revised with James, not derivable
+# from any record. Deleting the generator must not take it along.
+#
+# Section headings and their prose live in data/program-structure.yaml;
+# this file holds only the question and the hero paragraphs.
+
+schema_version: 1
+programs:
+  mage:
+    question: "How should we engineer software when implementation becomes abundant but engineering judgment remains scarce?"
+    intro:
+      - "Capable agents have made it much cheaper to produce working code. They have not made it cheaper to decide what should be built, which obligations govern it, how to read the resulting evidence, or whether the system is acceptable to ship."
+      - "MAGE studies the engineering structures that make delegated implementation governable: making consequential knowledge explicit as models, giving selected obligations authority over what agents produce, validating realizations against those models, and turning recurring human judgment into structures that later work can reuse."
+  embedded-swe:
+    question: "How can analysis and assurance become practical for embedded software?"
+    intro:
+      - "Embedded software runs where failures are expensive, and in conditions that defeat the assumptions most analysis tools are built on: no operating system to speak of, hardware that the analysis cannot reach, and code that cannot simply be run in a test harness."
+      - "Our work has attacked that gap in stages. We studied defects in real embedded network stacks, built rehosting infrastructure so firmware can execute away from its target hardware, and applied static analysis at a scale where it finds hundreds of defects across many projects. A current thrust, Unit Proofing, asks whether component-level formal verification can be made cheap enough to use as an ordinary engineering step rather than a special occasion."
+  failure-aware-sdlc:
+    question: "What can we learn from the ways software systems fail?"
+    intro:
+      - "Software failures are investigated, patched, and filed away. The engineering knowledge they contain rarely survives the incident that produced it, so organizations meet the same class of failure again in the next system."
+      - "We study failures empirically and ask what would have to change for that knowledge to persist. Some of our work characterizes how failures recur across systems and domains; other work examines whether evidence from past failures actually changes engineering decisions, and how organizations might structure requirements, design, and validation so that it does."
+  ptm-se:
+    question: "What changes about software engineering when the reused component is a learned model?"
+    intro:
+      - "Developers have been reusing software components for decades; pre-trained models inherit many of the same engineering problems, but also introduce new ones, because their identity, behavior, provenance, and interfaces are less explicit than those of conventional software packages."
+      - "We study pre-trained model reuse as a software-engineering practice. Our work asks which lessons from conventional component reuse still apply, where learned artifacts break those assumptions, and what new engineering methods are needed for selecting, integrating, validating, securing, and evolving models obtained from public registries."
+  software-supply-chain:
+    question: "How can software reuse remain trustworthy at ecosystem scale?"
+    intro:
+      - "Modern software systems depend on artifacts produced by people and organizations their developers may never meet. Package registries and build systems make reuse inexpensive, but they separate the act of using software from direct knowledge of who produced it, how it reached the consumer, and what authority it should receive once incorporated into a system."
+      - "We study the evidence and engineering mechanisms that make trust possible across those boundaries: establishing identity and provenance, protecting the distribution process, and making trust decisions sensitive to the context in which a dependency is actually used. Across these problems, the recurring question is not simply whether software is trusted, but what evidence justifies what trust, for what use."
+  saferegex:
+    question: >-
+      What can regular expressions, viewed through a software-engineering
+      microscope, teach us about building software?
+    # Deliberately shorter on the landing page: the short form creates some
+    # intrigue and says why an apparently niche programme belongs beside the
+    # other five. The long form remains the page-level framing.
+    landing_question: >-
+      What can small programs teach us about large software-engineering
+      problems?
+    intro:
+      - >-
+        Regular expressions are a niche topic, and that is part of why they are
+        useful to study. A regex may be only one line of code, yet it is an
+        unusually compact meeting point between formal semantics, human
+        programming behavior, and the implementation choices of the engine that
+        executes it. Many of the problems of software engineering become visible
+        here at a scale where we can study them closely.
+      - >-
+        That perspective is personal as well as methodological. At IBM, I
+        maintained hundreds of regular expressions used to parse the unstable and
+        largely unspecified output of dozens of command-line tools and their many
+        operating modes. Small expressions became critical infrastructure: reused
+        constantly, difficult to reason about, and dependent on assumptions
+        scattered across languages, runtimes, and evolving interfaces.
+      - >-
+        We study regular expressions as software artifacts. Across this program,
+        we have asked what their formal semantics promise, how developers
+        understand and reuse them, and how matching engines realize them in
+        practice. Bringing those perspectives together exposes gaps that are easy
+        to miss when any one layer is studied alone.

@@ -1,0 +1,226 @@
+# data/funding.yaml — canonical funding records.
+#
+# Keyed on the CV's own G- identifiers so the two stay mutually checkable.
+# Source: JamesDavis-CV.pdf, EXTERNAL GRANTS.
+#
+# `projects:` is MANY-TO-MANY and EXPLICIT ONLY. Per model/content-model.md §1 P2,
+# a grant supported a program only where that edge is asserted here. An absent
+# edge is not a gap to fill by inference -- it means either the relationship does
+# not exist, or a human has not yet asserted it. Both resolve by leaving it out.
+#
+# Grants with `projects: []` are real grants with no asserted program
+# attribution. They belong on the CV and may appear on the umbrella site. They
+# do not appear on a project site.
+
+schema_version: 1
+
+projects_legend:
+  mage: MAGE
+  ptm-se: Software Engineering for Pre-Trained Models
+  software-supply-chain: Software Supply Chain Security
+  embedded-swe: Embedded Software Engineering
+  failure-aware-sdlc: Failure-Aware Software Development
+  saferegex: SafeRegex
+
+grants:
+
+  - id: G-1
+    sponsor: US National Science Foundation
+    number: "2541917"
+    title: "CAREER: PTM-SEER: Software Engineering Foundations for Re-Using Pre-Trained Neural Models"
+    role: PI
+    start: 2026
+    end: 2031
+    url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2541917
+    projects: [ptm-se, mage]
+    note: >-
+      The organizing grant of the PTM-SE program. Also acknowledged by the MAGE
+      book, whose front matter reads "This work was supported by the U.S.
+      National Science Foundation under grants #2541917 and #2452533"
+      (book/0.0-acknowledgments.html).
+
+  - id: G-2
+    sponsor: US National Science Foundation
+    number: "2526621"
+    title: "Collaborative Research: SaTC 2.0: RES: AIGIS: Securing the Deep Learning Model Supply Chain"
+    role: Purdue PI (Columbia University is lead)
+    url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2526621
+    projects: [ptm-se]
+
+  - id: G-3
+    sponsor: US National Science Foundation
+    number: "2504445"
+    title: "OAC Core: Cyberinfrastructure for Multi-Stream Architectures Applied to Computer Vision"
+    role: Co-PI
+    url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2504445
+    projects: []          # efficient-ML cluster; no asserted program edge
+
+  - id: G-4
+    sponsor: US National Science Foundation
+    number: "2452533"
+    title: "RFE: Research: Developing and Piloting a Prompt Engineering Competency Framework for Software Engineering Education"
+    role: Co-PI
+    url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2452533
+    projects: [mage]
+    note: >-
+      One of the two awards the MAGE book acknowledges in its front matter. Also
+      belongs to the engineering-education breadth cluster on the Research page.
+
+  - id: G-5
+    sponsor: US National Science Foundation
+    number: "2537308"
+    title: "Collaborative Research: Planning: CROSS: Building a Community aROund Securing the Research Software Supply Chain"
+    role: PI (Purdue is lead)
+    url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2537308
+    projects: [software-supply-chain]
+
+  - id: G-6
+    sponsor: Rolls-Royce
+    title: "Securing Software Implementations through System Fuzz Testing and Modular Formal Methods"
+    role: PI
+    start: 2025
+    end: 2026
+    projects: [embedded-swe]
+
+  - id: G-7
+    sponsor: Qualcomm, Inc.
+    title: Qualcomm Innovation Fellowship
+    role: PI
+    start: 2025
+    end: 2026
+    projects: [embedded-swe]
+
+  - id: G-8
+    sponsor: Socket, Inc.
+    title: "Unrestricted Gift: Typosquat Detection in Open-Source Ecosystems"
+    role: PI
+    start: 2025
+    projects: [software-supply-chain]
+
+  - id: G-9
+    sponsor: OpenAI — Cybersecurity Grant Program
+    title: "AutoUP: Automated Unit Proofing"
+    role: PI
+    start: 2025
+    projects: [embedded-swe]
+
+  - id: G-10
+    sponsor: US National Science Foundation
+    number: "2343596"
+    title: "Collaborative Research: EAGER: CET: Exploring The Risks and Rewards of Large Language Models in Enabling Energy-Efficient Data Center Software Infrastructure"
+    role: Purdue PI
+    url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2343596
+    projects: []          # energy-efficiency work; edge not asserted
+
+  - id: G-11
+    sponsor: Rolls-Royce
+    title: "Facilitating Effective Dynamic Analysis of Embedded Software"
+    role: Co-PI
+    start: 2024
+    end: 2025
+    projects: [embedded-swe]
+
+  - id: G-12
+    sponsor: US National Science Foundation
+    number: "2512797"
+    title: "Travel: NSF Student Travel Grant for 2025 International Conference on Software Engineering"
+    role: PI
+    projects: []
+
+  - id: G-13
+    sponsor: Google, LLC
+    title: "Unrestricted Gift: Improving OSS Supply Chain Security by Promoting Software Signing"
+    role: Co-PI
+    start: 2023
+    projects: [software-supply-chain]
+
+  - id: G-14
+    sponsor: Cisco
+    title: Efficient Computer Vision for Edge Devices
+    role: Co-PI
+    start: 2023
+    end: 2024
+    projects: []          # efficient-ML cluster
+
+  - id: G-15
+    sponsor: Rolls-Royce
+    title: Dynamic Security Analysis of Embedded Software Systems
+    role: Co-PI
+    start: 2023
+    end: 2024
+    projects: [embedded-swe]
+
+  - id: G-16
+    sponsor: US National Science Foundation
+    number: "2135156"
+    title: "Collaborative Research: SaTC: CORE: Small: Improving Sanitization and Avoiding Denial of Service Through Correct and Safe Regexes"
+    role: PI (Purdue is lead)
+    url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2135156
+    projects: [saferegex]
+    note: the organizing grant of the SafeRegex program
+
+  - id: G-17
+    sponsor: US National Science Foundation
+    number: "2229703"
+    title: "POSE: Phase I: Scoping An Open-Source Ecosystem Around Proactive Software Supply Chain Monitoring"
+    role: Co-PI
+    url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2229703
+    projects: [software-supply-chain]
+
+  - id: G-18
+    sponsor: Cisco
+    title: Monitor and manage security risks in software supply chains with Sigstore
+    role: Co-PI
+    start: 2022
+    end: 2023
+    projects: [software-supply-chain]
+
+  - id: G-19
+    sponsor: Cisco
+    title: Trustworthy Re-use of Pre-Trained Neural Networks
+    role: PI
+    start: 2022
+    end: 2023
+    projects: [ptm-se]
+
+  - id: G-20
+    sponsor: Google, LLC
+    title: "Unrestricted Gift: Machine Learning Reproducibility"
+    role: PI
+    start: 2022
+    projects: [ptm-se]
+
+  - id: G-21
+    sponsor: US National Science Foundation
+    number: "2107230"
+    title: "Collaborative Research: OAC Core: Advancing Low-Power Computer Vision at the Edge"
+    role: Co-PI
+    url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2107230
+    projects: []          # efficient-ML cluster
+
+  - id: G-22
+    sponsor: Rolls-Royce
+    title: Dynamic Analysis of Embedded Firmware
+    role: Co-PI
+    start: 2021
+    end: 2022
+    projects: [embedded-swe]
+
+  - id: G-23
+    sponsor: Google, LLC
+    title: "Unrestricted Gift: Research on Machine Learning Reproducibility"
+    role: Co-PI
+    start: 2020
+    projects: [ptm-se]
+
+# ---------------------------------------------------------------------------
+# Programs with no asserted umbrella grant. Recorded so the absence is a
+# deliberate state rather than an oversight (model/content-model.md §1 P2).
+#
+#   mage               RESOLVED 260904: the book's own acknowledgments name
+#                      NSF #2541917 (G-1) and #2452533 (G-4). Those two, and
+#                      only those two, are acknowledged on the MAGE site.
+#
+#   failure-aware-sdlc No umbrella grant. Acknowledge support at the work level
+#                      where an attributable source exists, rather than
+#                      manufacturing a program-level one.

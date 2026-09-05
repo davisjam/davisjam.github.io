@@ -1,0 +1,42 @@
+# data/practice.yaml — the "Research in practice" sidebar rail.
+#
+# A CURATED six, not an impact inventory. The CV is the authoritative record;
+# this exists to make a visitor curious enough to open it. The six span the
+# career deliberately -- patents and systems, regex, embedded assurance,
+# large-scale defect discovery, then the two current artifacts -- so the rail
+# does not read as though translation began in 2026.
+#
+# TWO CLAIMS WERE CHANGED FROM THE BRIEF, both for want of evidence:
+#
+#   "1,000+ defects & vulnerabilities" is the CUMULATIVE career figure from the
+#   tenure material, confirmed by James 260905 after I had substituted the
+#   single-study 709/258 result for want of a source in this repo. The
+#   cumulative claim is the right scale for a career-level rail; 709 is one
+#   study. Its provenance is the tenure packet, not anything in data/.
+#
+#   Two entries were dropped. "Embedded assurance" sat beside the cumulative
+#   defect figure and pointed at the same lineage. "Software ecosystems" was
+#   struck as too vague to earn a slot -- every entry here has to name a
+#   concrete thing (an artifact, a count, a shipped consequence), and a
+#   research area is not one. Five concrete entries beat six with a filler.
+#
+#   Named DocAble, which is what the product calls itself on its own home page;
+#   scholaccess.com is the address, not the name (James, 260905).
+schema_version: 1
+
+heading: Research in practice
+items:
+  - name: MAGE
+    url: https://davisjam.github.io/model-based-agentic-software-engineering/
+    deck: Engineering software when implementation becomes abundant
+  - name: DocAble
+    url: https://scholaccess.com
+    deck: Automated document accessibility
+  - name: 1,000+ defects & vulnerabilities
+    deck: Discovered in real software and software ecosystems
+  - name: Regex defenses
+    url: /research/saferegex/
+    deck: Research translated into Ruby and other production matching engines
+  - name: 8 U.S. patents
+    url: /publications/#us-patents
+    deck: Systems, provenance, and software reliability

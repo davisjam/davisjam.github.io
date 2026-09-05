@@ -7,7 +7,7 @@ research_slug: "Software Supply Chains"
 question: "How can software reuse remain trustworthy at ecosystem scale?"
 figure: /assets/research/software-supply-chain/trust-provenance-graph.svg
 figure_alt: "Trustworthy reuse requires more than one kind of evidence"
-figure_desc: "Three complementary trust problems sit side by side. Identity and provenance asks who produced an artifact and what evidence follows it. Distribution asks whether the consumer received what they intended. Trust in context asks what authority is warranted for a particular use. Beneath them, cross-cutting work on security properties and failure analysis establishes what those mechanisms need to achieve. The same trust problems recur in pre-trained model, AI agent and research-software ecosystems."
+figure_desc: "Three complementary trust problems sit side by side. Identity and provenance asks who produced an artifact and what evidence follows it. Distribution asks whether the consumer received what they intended. Trust in context asks what authority is warranted for a particular use. Beneath them, cross-cutting work on understanding supply-chain security establishes what a defense should achieve and where real supply chains break. The same trust problems recur in pre-trained model, AI agent and research-software ecosystems."
 ---
 
 Modern software systems depend on artifacts produced by people and organizations their developers may never meet. Package registries and build systems make reuse inexpensive, but they separate the act of using software from direct knowledge of who produced it, how it reached the consumer, and what authority it should receive once incorporated into a system.

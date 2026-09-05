@@ -1,0 +1,42 @@
+# data/courses.yaml — canonical teaching record. Source: JamesDavis-CV.pdf.
+# ECE 50874 is the FINAL number for the graduate course (James, 260905 --
+# corrects an earlier 50861, which was never the catalog number).
+schema_version: 1
+courses:
+  - id: ece-30861
+    number: ECE 30861
+    legacy_number: ECE 461
+    title: Software Engineering
+    level: undergraduate
+    institution: Purdue University
+    terms: [F21, S23, F23, F24, F25]
+    featured: true
+  - id: ece-50874
+    number: ECE 50874
+    legacy_number: ECE 595
+    title: Advanced Software Engineering
+    level: graduate
+    institution: Purdue University
+    terms: [S21, S22, S24, S26]
+    featured: true
+  - id: ece-368
+    number: ECE 368
+    title: Data Structures
+    level: undergraduate
+    institution: Purdue University
+    terms: [F20]
+  - id: vip-ptm
+    title: "Vertically Integrated Project: Software Engineering with Pre-Trained Models"
+    level: vip
+    institution: Purdue University
+    terms: [S24, F24, S25, F25, S26]
+  - id: vip-tensorflow
+    title: "Vertically Integrated Project: Open-Source TensorFlow Software"
+    level: vip
+    institution: Purdue University
+    terms: [F20, S21, F21, S22, F22, S23, F23]
+  - id: vip-saferegex
+    title: "Vertically Integrated Project: SafeRegex"
+    level: vip
+    institution: Purdue University
+    terms: [F20, S21]
