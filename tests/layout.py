@@ -13,7 +13,8 @@ this runs over EVERY page rather than the one being worked on.
 
 Per viewport it asserts:
   no-doc-overflow      documentElement.scrollWidth <= clientWidth
-  no-element-overflow  no element's box extends past the viewport
+  no-element-overflow  no element's box extends past the viewport, unless it sits
+                       inside a scrollable container (where that is the point)
   cards-in-bounds      every research card sits inside its grid container
   images-in-bounds     no card image overflows its media box
   column-count         the card grid uses a sensible number of columns for the
@@ -43,8 +44,23 @@ MIN_COLUMNS = {1024: 2, 1280: 2, 1440: 3, 1920: 3, 2560: 3}
 PROBE = """() => {
   const de = document.documentElement;
   const vw = window.innerWidth;
+  // An element wider than the viewport is only a DEFECT if nothing between it
+  // and the document can scroll it into view. Content inside an
+  // overflow-x:auto container is contained on purpose -- that is what a scroll
+  // region IS. Without this, a wide table can never pass, and the check quietly
+  // argues for `table{display:block}` or for cutting content, neither of which
+  // this site wants. The container itself is still checked, so a scroll region
+  // that is ITSELF too wide is still caught.
+  const scrollable = el => {
+    for (let a = el.parentElement; a && a !== document.body; a = a.parentElement) {
+      const ox = getComputedStyle(a).overflowX;
+      if (ox === 'auto' || ox === 'scroll') return true;
+    }
+    return false;
+  };
   const offenders = [...document.querySelectorAll('body *')]
     .filter(el => el.offsetParent !== null || el.tagName === 'BODY')
+    .filter(el => !scrollable(el))
     .map(el => { const r = el.getBoundingClientRect();
       return {tag: el.tagName, cls: (typeof el.className === 'string' ? el.className : ''),
               left: Math.round(r.left), right: Math.round(r.right), w: Math.round(r.width)}; })
