@@ -34,16 +34,14 @@ My current research is organized around six programs.
    cards to fit a cap that should not apply to a full-width section. Scoped with
    :has() so only this page is affected -- no layout or theme edits. */
 body:has(.research-grid) #main{max-width:min(1600px,calc(100vw - 3rem))}
-@media (min-width:1200px){
-  body:has(.research-grid) .page{padding-right:1em}
-}
+body:has(.research-grid) .page{padding-right:1em}
 /* Only the grid breaks out. Everything else stays at a reading measure -- prose
    at 1500px would be unreadable, which is why the cap exists in the first place. */
 body:has(.research-grid) .page__content > *:not(.research-grid){max-width:48rem}
 /* Generated with the page. Restrained and academic on purpose: a thin rule, no
    shadow, no rounded corners, no icons. The figures are diagrams, so the
    thumbnail uses object-fit: contain -- cropping one would destroy it. */
-.research-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+.research-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
   gap:1.5rem;margin:2rem 0}
 .research-card{position:relative;border:1px solid #ddd6cc;background:#fff;
   display:flex;flex-direction:column}
