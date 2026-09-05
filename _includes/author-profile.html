@@ -134,4 +134,22 @@
 {% endif %}
   -->
   </div>
+
+  {%- comment -%}
+    Research in practice: curation, not substantiation. Editorial sidebar
+    content -- no cards, boxes, icons, badges or tiles. Desktop only: the left
+    rail has surplus space, but on a phone this would put two screens of
+    material above the page the visitor actually asked for.
+  {%- endcomment -%}
+  {% if site.data.practice %}
+  <div class="practice">
+    <p class="practice__eyebrow">{{ site.data.practice.heading | upcase }}</p>
+    {% for item in site.data.practice.items %}
+    <div class="practice__item">
+      <p class="practice__name">{% if item.url %}<a href="{{ item.url }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</p>
+      <p class="practice__deck">{{ item.deck }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
 </div>
