@@ -72,6 +72,14 @@ body:has(.research-figure) .pub-list { max-width: 900px; }
    Not a horizontal strip of sibling tabs: that consumed the header's most
    valuable dimension and gave six programmes the same weight as Home and
    Publications. Dense rows, not 50px menu items. */
+/* The theme sets `.masthead__menu-item a { display: block }`, so "Research"
+   and the contextual programme label stacked as two 45px blocks and made the
+   nav 117px tall on programme pages -- the word on one line, the chevron and
+   label beneath it. A baseline-aligned flex row keeps the three parts on one
+   line; the specificity here has to beat the theme's own selector. */
+.masthead__menu-item.rps { display: flex; align-items: baseline; flex-wrap: nowrap; }
+.masthead__menu-item.rps > a { display: inline-block; }
+
 .rps { position: relative;
   /* Aged Gold (#8E6F3E, 4.67 on white), NOT Boilermaker Gold (#CEB888, 1.94).
      The chevron was Boilermaker and was reported as "no hover or anything" --
