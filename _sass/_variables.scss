@@ -51,7 +51,7 @@ $type-size-8                : 0.625em;  // ~10px
    the theme default and reaches nav links, .venue metadata and muted copy on
    every page. Darkened along its own hue to 4.61:1 rather than replaced, so
    the site's tone is unchanged. */
-$gray                       : #6f767c;
+$gray                       : #697076;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
@@ -64,13 +64,15 @@ $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
-$primary-color              : #7a8288;
+/* $masthead-link-color derives from this, so the nav links were still 3.91:1
+   after $gray was fixed -- two variables held the same failing value. */
+$primary-color              : #697076;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
 /* #52adc8 is 2.57:1 -- this is $link-color, so EVERY link on the site failed
    AA by a wide margin. Same hue, darkened to 4.61:1. */
-$info-color                 : #307e96;
+$info-color                 : #2d788f;
 
 /* brands */
 $behance-color              : #1769FF;
