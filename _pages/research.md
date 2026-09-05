@@ -98,8 +98,8 @@ My research also extends beyond these six programs, often through collaborations
 
 <div class="other-works">
 <a href="https://arxiv.org/pdf/2506.19899">Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale</a> <span class="venue">(WWW ’26)</span><br>
-<a href="/files/publications/CramerMaxamDavis-TrustAndSafetyEngineeringInSMPs-JSS2025.pdf">Engineering Patterns for Trust and Safety on Social Media Platforms: A Case Study of Mastodon and Diaspora</a> <span class="venue">(JSS ’25)</span><br>
-<a href="/files/publications/ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20.pdf">A Principled Approach to GraphQL Query Cost Analysis</a> <span class="venue">(ESEC/FSE ’20)</span><br>
+<a href="https://davisjam.github.io/files/publications/CramerMaxamDavis-TrustAndSafetyEngineeringInSMPs-JSS2025.pdf">Engineering Patterns for Trust and Safety on Social Media Platforms: A Case Study of Mastodon and Diaspora</a> <span class="venue">(JSS ’25)</span><br>
+<a href="https://davisjam.github.io/files/publications/ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20.pdf">A Principled Approach to GraphQL Query Cost Analysis</a> <span class="venue">(ESEC/FSE ’20)</span><br>
 </div>
 
 **Efficient computing systems.** My work on efficient computing systems includes adaptive models, inference optimization, edge computing, and energy efficiency:
@@ -107,7 +107,7 @@ My research also extends beyond these six programs, often through collaborations
 <div class="other-works">
 <a href="https://arxiv.org/pdf/2511.18105">AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens</a> <span class="venue">(CVPR-Findings ’26)</span><br>
 <a href="https://arxiv.org/pdf/2407.05941">Pruning One More Token is Enough: Leveraging Latency-Workload Non-Linearities for Vision Transformers on the Edge</a> <span class="venue">(WACV ’25)</span><br>
-<a href="/files/publications/FuGhaffarDavisLee-EdgeWise-ATC19.pdf">EdgeWise: A Better Stream Processing Engine for the Edge</a> <span class="venue">(USENIX ATC ’19)</span><br>
+<a href="https://davisjam.github.io/files/publications/FuGhaffarDavisLee-EdgeWise-ATC19.pdf">EdgeWise: A Better Stream Processing Engine for the Edge</a> <span class="venue">(USENIX ATC ’19)</span><br>
 </div>
 
 **Engineering education.** I study how software engineering and systems thinking can be taught through project-based learning and increasingly capable AI tools:
