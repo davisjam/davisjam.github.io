@@ -40,7 +40,7 @@ senior design, independent study, SURF, REU, and related programs.
   <div class="person__text">
     <p class="person__name">Purvish Jajal</p>
     <p class="person__meta">Ph.D. candidate &middot; co-advised with Y.H. Lu</p>
-    <p class="person__area">Reuse, reliability, and security of pre-trained models</p>
+    <p class="person__area">Efficient neural network design</p>
   </div>
 </div>
 <div class="person">
@@ -69,7 +69,7 @@ senior design, independent study, SURF, REU, and related programs.
   <div class="person__text">
     <p class="person__name">Andrew Rozema</p>
     <p class="person__meta">Ph.D. student</p>
-    <p class="person__area">Cybersecurity</p>
+    <p class="person__area">Phishing measurements and tooling</p>
   </div>
 </div>
 <div class="person">
