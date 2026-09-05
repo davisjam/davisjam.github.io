@@ -60,3 +60,11 @@
     a:hover, a:focus { background: #faf6ee; color: #6d552f; text-decoration: none; }
     a[aria-current="page"] { font-weight: 700; } }
   &.is-open &__menu { display: block; } }
+/* The switcher is still a nav item, so on narrow widths the theme's greedy-nav
+   may relocate it into the collapsed menu. There an absolutely-positioned
+   dropdown would float wrongly, so it degrades to an inline indented list.
+   The global nav keeps handling itself; this only changes how the programme
+   list presents if it ends up inside it. */
+@media (max-width: 48em) {
+  .rps__menu { position: static; width: auto; border: 0; box-shadow: none;
+    border-left: 2px solid #CEB888; margin: 0.2em 0 0.2em 0.8em; } }
