@@ -80,6 +80,39 @@ Also avoid, portfolio-wide: stock photography, generic AI/network/security
 imagery, gradient-heavy startup aesthetics, metrics-counter dashboards, and any
 animation.
 
+## 3a. Name the mechanism, not the category
+
+**Do not label a conceptual figure with category words when the figure can state
+the mechanism.** "Evidence", "Analysis", "Knowledge", "Engineering" are
+categories. A pipeline of them says only that learning involves learning.
+
+The useful content is what evidence *contains*, what analysis *asks*, what
+knowledge *results*, and how that knowledge *changes* engineering:
+
+```text
+BAD     Failure -> Evidence -> Analysis -> Knowledge -> Engineering
+
+BETTER  Failure           An assumption fails in practice
+          | preserve what happened
+        Evidence          Reports, artifacts, decisions, consequences
+          | compare and explain
+        Failure mechanism Which assumption failed, under what conditions?
+          | generalize beyond the incident
+        Engineering       A reusable claim about how systems fail
+        knowledge
+          | institutionalize
+        Engineering       Requirements, design, analysis, validation,
+        change            process, governance
+          `-> changes the conditions under which the next system is built
+```
+
+The second leaves the reader knowing something. Edge labels carry the
+transformations; boxes carry the content.
+
+A useful diagnostic: **if the external caption is better than the figure, the
+figure is not doing its job.** When that happens, move the caption's proposition
+into the figure and let the caption become conventional.
+
 ## 4. The reuse boundary
 
 **The vocabulary is shared; the figures are not.** Design tokens, the checkers,

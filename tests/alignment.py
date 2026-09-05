@@ -603,7 +603,58 @@ def links(e: Engine, m) -> None:
             o5.fail(f"{p['id']} malformed paper_url: {u[:60]}")
 
 
+def structure(e: Engine, m) -> None:
+    """The figure and the page body must name the same things."""
+    o = e.obl("OBL-STRUCT-001",
+              "Every programme section heading appears on its page.",
+              ["data/program-structure.yaml", "repos/davisjam.github.io/_pages/research-*.md"])
+    o2 = e.obl("OBL-STRUCT-002",
+               "Every declared figure_label appears in that programme's figure.",
+               ["data/program-structure.yaml", "repos/*/figures/*.svg"])
+    o3 = e.obl("OBL-STRUCT-003",
+               "Every publication in a programme is placed under exactly one section.",
+               ["data/program-structure.yaml", "data/publications.yaml"])
+
+    import yaml as _y
+    spec = _y.safe_load((ROOT / "data/program-structure.yaml").read_text())["programs"]
+    pages = ROOT / "repos/davisjam.github.io/_pages"
+    for site in program_sites(m):
+        pid = site["project_id"]
+        prog = spec.get(pid)
+        if not prog:
+            o.fail(f"{pid} has no declared structure"); continue
+
+        page = pages / f"research-{pid}.md"
+        body = page.read_text() if page.exists() else ""
+        fid = (site.get("figure") or {}).get("id")
+        figp = ROOT / site["path"] / "figures" / f"{fid}.svg"
+        # Unescape: the SVG carries &amp; where the model has &, so a raw
+        # comparison reports a mismatch that does not exist.
+        fig = html.unescape(figp.read_text()) if figp.exists() else ""
+
+        placed: list[str] = []
+        for sec in prog["sections"]:
+            if body and f"## {sec['title']}" not in body:
+                o.fail(f"{pid}: section {sec['title']!r} not on the page")
+            label = sec.get("figure_label")
+            if label and fig and label not in fig:
+                o2.fail(f"{pid}: figure does not carry {label!r} "
+                        f"(section {sec['title']!r})")
+            placed += sec["publications"]
+
+        modeled = {p["id"] for p in m["pubs"]["publications"]
+                   if pid in (p.get("projects") or [])}
+        for x in sorted(modeled - set(placed)):
+            o3.fail(f"{pid}: {x} is modeled for the programme but placed under no section")
+        for x in sorted(set(placed) - modeled):
+            o3.fail(f"{pid}: {x} is placed but not modeled for the programme")
+        dupes = {x for x in placed if placed.count(x) > 1}
+        for x in sorted(dupes):
+            o3.fail(f"{pid}: {x} appears under more than one section")
+
+
 FAMILIES = {
+    "STRUCT": structure,
     "LINK": links,
     "SCHOLARLY": scholarly, "FUND": funding, "PORTFOLIO": portfolio, "ROUTE": routes,
     "SHELL": shell, "SECTION": sections, "DESIGN": design, "PROSE": prose,

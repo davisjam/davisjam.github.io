@@ -53,7 +53,7 @@ programs:
 
   embedded-swe:
     sections:
-      - title: What breaks in embedded analysis
+      - title: Understanding embedded failures
         prose: >-
           Embedded software runs where failures are expensive, under conditions
           that defeat the assumptions most analysis tools are built on. This
@@ -71,7 +71,7 @@ programs:
           Once analysis is affordable, the question becomes what it finds when
           pointed at many real projects rather than one.
         publications: [C-17, W-3]
-      - title: From analysis to proof
+      - title: From defect detection to guarantees
         prose: >-
           A found defect is weaker than a guaranteed absence. The current thrust
           asks whether component-level verification can be made cheap enough to
@@ -104,35 +104,57 @@ programs:
           themselves.
         publications: [R-8, R-5, R-7, J-1, W-12, C-12]
 
+  # Section order is INTELLECTUAL, not chronological, and so is the order of
+  # publications within a section. `figure_label` is the same string the figure
+  # uses for that region -- one source, so the figure cannot drift from the body.
   software-supply-chain:
     sections:
-      - title: What a secure supply chain requires
+      - title: Understanding software supply-chain security
+        figure_label: UNDERSTANDING SUPPLY-CHAIN SECURITY
         prose: >-
-          Before defending a supply chain, we need to say what property is being
-          established. This work sets out the security properties and the
-          attack stages they correspond to.
-        publications: [W-27, M-1]
-      - title: Identity, signing, and provenance
+          Before defending a software supply chain, we need to know what a
+          defense is supposed to establish, and where real supply chains
+          actually fail. This cross-cutting work develops models for reasoning
+          about supply-chain security and methods for extracting evidence from
+          failures at ecosystem scale.
+        publications: [W-27, W-20]
+      - title: Establishing identity and provenance
+        figure_label: IDENTITY & PROVENANCE
         prose: >-
-          Signing can establish who vouched for an artifact. These studies
-          measure what signing actually establishes in practice, and at what
-          rate it is adopted.
-        publications: [C-26, C-16, C-3, R-1, C-2]
-      - title: Deciding what to trust
+          Software signing can bind an artifact to evidence about its producer
+          and history — but only if the mechanism is adopted, usable, and
+          interpreted correctly. We study what signing and identity establish in
+          practice, why organizations adopt them, and what prevents these
+          mechanisms from becoming routine parts of software development.
+        publications: [C-26, C-16, C-3, R-1, M-1]
+      - title: Protecting the distribution boundary
+        figure_label: DISTRIBUTION
         prose: >-
-          A valid signature does not tell a developer whether a producer is
-          trustworthy, or whether a dependency is appropriate here. This work
-          studies the decision itself.
-        publications: [C-13, W-7, W-6, W-20]
-      - title: Where the assumptions break
-        prose: >-
-          Ecosystems assume a familiar package name identifies a familiar
-          producer. Attackers exploit exactly that.
+          Even trustworthy producers and valid artifacts can be defeated by
+          ambiguity in distribution. Package ecosystems use names and metadata
+          to connect developer intent to producers and artifacts; attackers
+          exploit that mapping through typosquatting and package-confusion
+          attacks. We study how those ambiguities can be detected before the
+          wrong dependency enters a system.
         publications: [C-8]
-      - title: The same questions in newer ecosystems
+      - title: Making trust contextual
+        figure_label: TRUST IN CONTEXT
         prose: >-
-          Pre-trained models, research software, and agent registries inherit
-          the distribution problem before they inherit its defences.
+          Provenance is evidence, not a verdict. A valid signature does not
+          establish that its producer is trustworthy, that a dependency is
+          appropriate for a particular system, or that it should receive all of
+          the authority available to its caller. We study how trust decisions
+          can incorporate the context in which software is actually used — and
+          how systems can limit the consequences when that trust is misplaced.
+        publications: [C-2, W-7, W-6, C-13]
+      - title: The same trust problems in newer ecosystems
+        figure_label: NEW ECOSYSTEMS
+        prose: >-
+          New ecosystems often acquire mechanisms for distributing reusable
+          artifacts before they acquire mature mechanisms for trusting them.
+          Pre-trained models, AI agents, and research software change what is
+          distributed and how it is consumed, but inherit familiar problems of
+          provenance, distribution, authority, and ecosystem governance.
         publications: [C-12, W-5, W-8]
 
   saferegex:

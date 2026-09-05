@@ -25,7 +25,7 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 UMBRELLA = ROOT / "repos/davisjam.github.io"
-OUT = UMBRELLA / "_pages/research"
+OUT = UMBRELLA / "_pages"
 
 sys.path.insert(0, str(ROOT / "generators"))
 from generate_sites import COPY  # noqa: E402  the authored program prose
@@ -126,7 +126,7 @@ def main() -> int:
                 o.append(f"- **{g['sponsor']}** — {t}{num}")
             o.append("")
 
-        (OUT / f"{pid}.md").write_text("\n".join(o))
+        (OUT / f"research-{pid}.md").write_text("\n".join(o))
         print(f"  research/{pid}/  {len(mine)} publications, {len(grants)} grants")
     return 0
 

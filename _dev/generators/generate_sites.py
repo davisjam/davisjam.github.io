@@ -99,14 +99,16 @@ COPY: dict[str, dict] = {
     "software-supply-chain": {
         "question": "How can software reuse remain trustworthy at ecosystem scale?",
         "intro": [
-            "Modern software systems depend on components produced by people and organizations "
-            "their developers may never meet. Package registries and build systems make that "
-            "reuse inexpensive, but they also leave developers to decide which producers and "
-            "artifacts to trust.",
-            "We study the evidence available for those decisions. Some of our work examines "
-            "identity, software signing, and provenance; other work studies whether developers "
-            "can use those mechanisms effectively, how they assess dependencies, and how "
-            "attackers exploit gaps in the distribution process.",
+            "Modern software systems depend on artifacts produced by people and organizations "
+            "their developers may never meet. Package registries and build systems make reuse "
+            "inexpensive, but they separate the act of using software from direct knowledge of "
+            "who produced it, how it reached the consumer, and what authority it should receive "
+            "once incorporated into a system.",
+            "We study the evidence and engineering mechanisms that make trust possible across "
+            "those boundaries: establishing identity and provenance, protecting the distribution "
+            "process, and making trust decisions sensitive to the context in which a dependency "
+            "is actually used. Across these problems, the recurring question is not simply "
+            "whether software is trusted, but what evidence justifies what trust, for what use.",
         ],
         "sections": [("research", "Research"), ("applications", "Applications"),
                      ("publications", "Publications"), ("support", "Funding and support")],

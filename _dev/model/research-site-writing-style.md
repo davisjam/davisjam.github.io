@@ -93,6 +93,14 @@ and zero is fine.** A figure title may carry one if it names the model depicted.
 *not X but Y · beyond X toward Y · from X to Y · more than X.* If a contrast
 matters, explain the difference.
 
+## 12a. House usage: "not ... nor"
+
+A negated pair takes **nor**, not **or**.
+
+> the unit of learning is not the incident **nor** its fix
+
+Applies in figures, captions, and page prose alike.
+
 ## 13. Headings name subjects
 
 Good: *Software signing and provenance · Adoption and usability · Package

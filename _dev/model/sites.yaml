@@ -173,8 +173,9 @@ sites:
       caption: >-
         Each stage established what the next one needed. Unit Proofing sits at the end of that line rather than beside it.
       claim: >-
-        Unit Proofing is the culmination of a sustained lineage, not a
-        disconnected new brand.
+        Several distinct obstacles defeat embedded analysis; the programme
+        attacks each with complementary methods, rather than one line of work
+        culminating in another.
     managed: *program_managed
 
   - id: failure-aware-software-development
