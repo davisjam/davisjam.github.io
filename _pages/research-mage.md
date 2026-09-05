@@ -33,6 +33,7 @@ Claims about delegated engineering need evidence about how agents behave on real
   <li><span class="pub-title"><a href="https://arxiv.org/pdf/2506.01249">SysLLMatic: Large Language Models are Software System Optimizers</a></span><br><span class="venue">arXiv &middot; 2025</span><br><span class="note">Showed that language models can improve the measured performance of real software systems, and established the measurement setup the later agent-optimization work builds on.</span></li>
   <li><span class="pub-title"><a href="https://arxiv.org/pdf/2512.21757">How Do Agents Perform Code Optimization? An Empirical Study</a></span><br><span class="venue">International Mining Software Repositories Confe &middot; 2026</span><br><span class="note">Characterizes what agents actually do when asked to optimize code, which is the empirical ground for claims about where judgment still has to sit.</span></li>
   <li><span class="pub-title"><a href="https://arxiv.org/pdf/2603.14703">Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization</a></span><br><span class="venue">JAWs &middot; 2026</span><br><span class="note">Extends optimization from local edits to reasoning across a system, which is where delegated work starts to need explicit models rather than context.</span></li>
+  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2607.01087">Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering</a></span><br><span class="venue">2026</span></li>
 </ul>
 
 ## Infrastructure for governed work
@@ -41,6 +42,7 @@ Delegated work needs somewhere to be discovered, verified, and reproduced.
 
 <ul class="pub-list">
   <li><span class="pub-title"><a href="https://arxiv.org/pdf/2510.03495">AgentHub: A Registry for Discoverable, Verifiable, and Reproducible AI Agents</a></span><br><span class="venue">JAWs &middot; 2026</span><br><span class="note">A registry for agents, treating discoverability, verification, and reproducibility as properties an agent ecosystem has to provide rather than properties individual users establish.</span></li>
+  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2607.01102">SAGE: Structured Agentic Graph Editing for Software Diagrams</a></span><br><span class="venue">2026</span></li>
 </ul>
 
 ## Funding and support

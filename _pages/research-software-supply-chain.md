@@ -21,6 +21,7 @@ Before defending a software supply chain, we need to know what a defense is supp
 <ul class="pub-list">
   <li><span class="pub-title"><a href="https://arxiv.org/pdf/2406.10109">SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties</a></span><br><span class="venue">SCORED &middot; 2022</span><br><span class="note">Systematized the field around three properties — transparency, validity, separation — giving later work a vocabulary for what a defence establishes.</span></li>
   <li><span class="pub-title"><a href="https://davisjam.github.io/files/publications/SinglaAnandayuvarajKaluSchorlemmerDavis-LLMsForSupplyChainFailureAnalysis-SCORED2023.pdf">An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures</a></span><br><span class="venue">SCORED &middot; 2023</span><br><span class="note">Tests whether language models can analyze supply-chain failures at the scale the evidence actually exists.</span></li>
+  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2608.18180">Reproducibility is Not Enough: Artifact Verifiability in Decentralized-Build Package Ecosystems</a></span><br><span class="venue">2026</span></li>
 </ul>
 
 ## Establishing identity and provenance

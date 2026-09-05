@@ -1386,6 +1386,60 @@ publications:
 
   - id: R-1
     type: report
+    # Deliberately untagged: this is the arXiv version of B-1, the book.
+    # Same title, same work -- tagging it to mage would render the book
+    # twice on the programme page under two different links.
+    title: "Model-Based Agentic Software Engineering"
+    authors: "J.C. Davis, K. Kalu, H. Peng, and P.V. Patil"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2608.25174"
+  - id: R-2
+    type: report
+    title: "Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering"
+    authors: "J.C. Davis, P. Amusuo, T. Singla, B. Çakar, and K.A. Davis"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2607.01087"
+    projects: [mage]
+    role_in_project:
+      mage: core
+  - id: R-3
+    type: report
+    title: "Reproducibility is Not Enough: Artifact Verifiability in Decentralized-Build Package Ecosystems"
+    authors: "O. Solarin, K. Kalu, J.C. Davis, and P. Amusuo"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2608.18180"
+    projects: [software-supply-chain]
+    role_in_project:
+      software-supply-chain: core
+  - id: R-4
+    type: report
+    title: "Is US Defense Acquisition Ready to Acquire AI-Enabled Capabilities? Assessing the DoD Software Acquisition Pathway Through a Scenario-Based Policy Analysis"
+    authors: "D. Lugo and J.C. Davis"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2606.07393"
+  - id: R-5
+    type: report
+    title: "Measuring Delivery Consistency in Practice: A DORA Extension from a Multi-Platform Release Setting"
+    authors: "L. Parente and J.C. Davis"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2606.00364"
+  - id: R-6
+    type: report
+    title: "AgOSS: A Dataset and Multi-Layer Characterization of Open-Source Agricultural Software"
+    authors: "V. Dudhaiya, M. Golovenchits, A. Bannerjee, and J.C. Davis"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2609.02591"
+  - id: R-7
+    type: report
+    title: "SAGE: Structured Agentic Graph Editing for Software Diagrams"
+    authors: "T. Sivertsen, N. Singh, and J.C. Davis"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2607.01102"
+    projects: [mage]
+    role_in_project:
+      mage: core
+  - id: R-8
+    type: report
     title: "A Longitudinal Study of Usability in Identity-Based Software Signing"
     authors: "K. Kalu, H. Tran, S. Torres-Arias, S. Jeong, and J.C. Davis"
     venue: "arXiv"
@@ -1399,7 +1453,7 @@ publications:
     role_in_project:
       software-supply-chain: core
 
-  - id: R-2
+  - id: R-9
     type: report
     title: "Reactive Bottom-Up Testing"
     authors: "S. Muralee, S. Cherupattamoolayil, J.C. Davis, A. Bianchi, and A. Machiry"
@@ -1414,7 +1468,7 @@ publications:
     role_in_project:
       embedded-swe: core
 
-  - id: R-3
+  - id: R-10
     type: report
     title: "A Guide to Stakeholder Analysis for Cybersecurity Researchers"
     authors: "J.C. Davis, S. Chen, H. Peng, P. Amusuo, and K. Kalu"
@@ -1429,7 +1483,7 @@ publications:
     role_in_project:
       failure-aware-sdlc: core
 
-  - id: R-4
+  - id: R-11
     type: report
     title: "Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies"
     venue: "arXiv"
@@ -1443,8 +1497,9 @@ publications:
     role_in_project:
       saferegex: core
 
-  - id: R-5
+  - id: R-12
     type: report
+    year: 2025
     title: "Improving the Reproducibility of Deep Learning Software: An Initial Investigation through a Case Study Analysis. https://arxiv.org/pdf/2505.03165. 2025"
     authors: "N. Ravi, A. Goel, J.C. Davis, and G.K. Thiruvathukal"
     program_notes:
@@ -1453,7 +1508,7 @@ publications:
     role_in_project:
       ptm-se: core
 
-  - id: R-6
+  - id: R-13
     type: report
     title: "Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions"
     venue: "arXiv"
@@ -1463,7 +1518,7 @@ publications:
       paper: "https://arxiv.org/pdf/2410.09241"
     cluster: efficient-ml-systems
 
-  - id: R-7
+  - id: R-14
     type: report
     title: "A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden"
     authors: "V. Purohit, W. Jiang, A.R. Ravikiran, and J.C. Davis"
@@ -1478,7 +1533,7 @@ publications:
     role_in_project:
       ptm-se: core
 
-  - id: R-8
+  - id: R-15
     type: report
     title: "An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors"
     authors: "V. Banna, A. Chinnakotla, Z. Yan, A. Vegesana, N. Vivek, K. Krishnappa, W. Jiang, Y.H. Lu, G.K. Thiruvathukal, and J.C. Davis"

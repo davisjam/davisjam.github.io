@@ -670,7 +670,15 @@ def links(e: Engine, m) -> None:
     o5 = e.obl("OBL-LINK-005", "No malformed paper_url.", ["data/publications.yaml"])
 
     pubs = m["pubs"]["publications"]
-    by_title = {" ".join(p["title"].split()): p for p in pubs}
+    # Titles are NOT unique: a work can appear as both a book and its arXiv
+    # version (B-1 and R-1 are both "Model-Based Agentic Software
+    # Engineering"), or as a poster and a preprint. Resolving a rendered link
+    # by title alone then blames whichever record lost the dict race for
+    # linking "wrongly". Keep every record per title and accept a link that
+    # matches ANY of them.
+    by_title: dict[str, list] = {}
+    for p in pubs:
+        by_title.setdefault(" ".join(p["title"].split()), []).append(p)
     umbrella = ROOT / "repos/davisjam.github.io"
 
     for s in program_sites(m):
@@ -681,17 +689,18 @@ def links(e: Engine, m) -> None:
         for block in re.findall(r'<div class="ti">(.*?)</div>', h, re.S):
             title = rendered(block)
             title = re.sub(r"\s*(Best Paper|Best Artifact|Distinguished.*)$", "", title).strip()
-            rec = by_title.get(title)
-            if rec and rec.get("paper_url") and "<a href" not in block:
-                o.fail(f"{rec['id']} title rendered unlinked despite a known url", s["id"])
-            if rec and "<a href" in block:
+            recs = by_title.get(title) or []
+            urls = [r["paper_url"] for r in recs if r.get("paper_url")]
+            if urls and "<a href" not in block:
+                o.fail(f"{recs[0]['id']} title rendered unlinked despite a known url", s["id"])
+            if recs and "<a href" in block:
                 href = re.search(r'href="([^"]+)"', block)
                 # Unescape first: a rendered href carries &amp; where the record
                 # has &, so a raw comparison flags every query-string URL.
                 got = html.unescape(href.group(1)) if href else None  # href: entities only
-                if got and rec.get("paper_url") and got != rec["paper_url"]:
-                    o2.fail(f"{rec['id']} links {got}, canonical is {rec['paper_url']}",
-                            s["id"])
+                if got and urls and got not in urls:
+                    o2.fail(f"{'/'.join(r['id'] for r in recs)} links {got}, "
+                            f"canonical is one of {urls}", s["id"])
 
     for p in pubs:
         u = p.get("paper_url")

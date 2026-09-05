@@ -49,7 +49,7 @@ programs:
           The final problem is closing the loop. Even good evidence has little
           value if it does not reach the people making decisions, or alter the
           structures through which engineering proceeds.
-        publications: [W-21, R-3, W-18]
+        publications: [W-21, R-10, W-18]
 
   embedded-swe:
     sections:
@@ -65,7 +65,7 @@ programs:
           Analysis cannot begin until the software can be executed and inspected
           away from the hardware it was written for. Rehosting turns embedded
           applications into something ordinary tools can work on.
-        publications: [W-16, C-15, R-2]
+        publications: [W-16, C-15, R-9]
       - title: Analysis at ecosystem scale
         prose: >-
           Once analysis is affordable, the question becomes what it finds when
@@ -118,7 +118,7 @@ programs:
           adapt artifacts across frameworks and hardware, reconstruct missing
           assumptions, and determine whether the model remains valid for a new
           use.
-        publications: [J-7, R-8, R-5, R-7, W-12]
+        publications: [J-7, R-15, R-12, R-14, W-12]
       - title: Security is part of the reuse contract
         figure_label: RISK TRAVELS WITH THE ARTIFACT
         prose: >-
@@ -141,7 +141,7 @@ programs:
           actually fail. This cross-cutting work develops models for reasoning
           about supply-chain security and methods for extracting evidence from
           failures at ecosystem scale.
-        publications: [W-27, W-20]
+        publications: [W-27, W-20, R-3]
       - title: Establishing identity and provenance
         figure_label: IDENTITY & PROVENANCE
         prose: >-
@@ -150,7 +150,7 @@ programs:
           interpreted correctly. We study what signing and identity establish in
           practice, why organizations adopt them, and what prevents these
           mechanisms from becoming routine parts of software development.
-        publications: [C-26, C-16, C-3, R-1, M-1]
+        publications: [C-26, C-16, C-3, R-8, M-1]
       - title: Protecting the distribution boundary
         figure_label: DISTRIBUTION
         prose: >-
@@ -202,7 +202,7 @@ programs:
           matches, behaviour learned in one language does not transfer intact to
           another, and composing expressions introduces assumptions that neither
           part carried alone.
-        publications: [C-39, C-41, R-4]
+        publications: [C-39, C-41, R-11]
       - title: Compact notation does not make reasoning easy
         prose: >-
           If a one-line artifact is hard to reason about, that is a
@@ -249,9 +249,9 @@ programs:
         prose: >-
           Claims about delegated engineering need evidence about how agents
           behave on real systems.
-        publications: [J-3, W-10, W-9]
+        publications: [J-3, W-10, W-9, R-2]
       - title: Infrastructure for governed work
         prose: >-
           Delegated work needs somewhere to be discovered, verified, and
           reproduced.
-        publications: [W-5]
+        publications: [W-5, R-7]
