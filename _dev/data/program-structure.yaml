@@ -179,7 +179,7 @@ programs:
           Pre-trained models, AI agents, and research software change what is
           distributed and how it is consumed, but inherit familiar problems of
           provenance, distribution, authority, and ecosystem governance.
-        publications: [C-12, W-5, W-8]
+        publications: [C-12, W-5, W-8, R-6]
 
   # Organized by the SEAMS the figure names, not by an SDLC and not by year.
   # The programme's results are mostly about what happens BETWEEN the formal,
@@ -244,7 +244,7 @@ programs:
           Capable agents have made producing working code much cheaper. They
           have not made it cheaper to decide what should be built, which
           obligations govern it, or whether the result is acceptable.
-        publications: [B-1, W-2]
+        publications: [B-1, R-1, W-2]
       - title: What agents actually do
         prose: >-
           Claims about delegated engineering need evidence about how agents
@@ -255,3 +255,11 @@ programs:
           Delegated work needs somewhere to be discovered, verified, and
           reproduced.
         publications: [W-5, R-7]
+      - title: Implications beyond conventional engineering
+        prose: >-
+          The shift does not stop at the engineering team. Institutions that
+          acquire software face the same imbalance: producing a capability has
+          become cheaper, while deciding what to acquire, and on what evidence,
+          has not. We are beginning to ask what the framework implies for the
+          organisations that buy and field software rather than write it.
+        publications: [R-4]

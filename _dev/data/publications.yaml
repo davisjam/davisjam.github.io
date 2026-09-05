@@ -17,6 +17,10 @@ publications:
     type: book
     title: "Model-Based Agentic Software Engineering"
     authors: "J.C. Davis"
+    # R-1 is the condensed paper of the same name; on the MAGE page the
+    # two sit together, so the book says which one it is.
+    program_titles:
+      mage: "Model-Based Agentic Software Engineering (The MAGE Book)"
     program_notes:
       mage: "The book-length statement of the framework."
     paper_url: "https://davisjam.github.io/model-based-agentic-software-engineering/book/index.html"
@@ -1386,13 +1390,15 @@ publications:
 
   - id: R-1
     type: report
-    # Deliberately untagged: this is the arXiv version of B-1, the book.
-    # Same title, same work -- tagging it to mage would render the book
-    # twice on the programme page under two different links.
     title: "Model-Based Agentic Software Engineering"
     authors: "J.C. Davis, K. Kalu, H. Peng, and P.V. Patil"
     year: 2026
     paper_url: "https://arxiv.org/pdf/2608.25174"
+    projects: [mage]
+    role_in_project:
+      mage: core
+    program_notes:
+      mage: "An 8-page condensed version of the MAGE theory."
   - id: R-2
     type: report
     title: "Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering"
@@ -1402,6 +1408,8 @@ publications:
     projects: [mage]
     role_in_project:
       mage: core
+    program_notes:
+      mage: "A case study in governing agent-produced work on a real system."
   - id: R-3
     type: report
     title: "Reproducibility is Not Enough: Artifact Verifiability in Decentralized-Build Package Ecosystems"
@@ -1411,12 +1419,16 @@ publications:
     projects: [software-supply-chain]
     role_in_project:
       software-supply-chain: core
+    program_notes:
+      software-supply-chain: "Asks whether a reproducible build is enough to establish that the artifact you received is the one that was built."
   - id: R-4
     type: report
     title: "Is US Defense Acquisition Ready to Acquire AI-Enabled Capabilities? Assessing the DoD Software Acquisition Pathway Through a Scenario-Based Policy Analysis"
     authors: "D. Lugo and J.C. Davis"
     year: 2026
     paper_url: "https://arxiv.org/pdf/2606.07393"
+    program_notes:
+      mage: "Asks what the DoD software acquisition pathway assumes about how software is produced, through a scenario-based policy analysis."
   - id: R-5
     type: report
     title: "Measuring Delivery Consistency in Practice: A DORA Extension from a Multi-Platform Release Setting"
@@ -1429,6 +1441,11 @@ publications:
     authors: "V. Dudhaiya, M. Golovenchits, A. Bannerjee, and J.C. Davis"
     year: 2026
     paper_url: "https://arxiv.org/pdf/2609.02591"
+    projects: [software-supply-chain]
+    role_in_project:
+      software-supply-chain: core
+    program_notes:
+      software-supply-chain: "A dataset and multi-layer characterization of open-source software in a domain the field rarely examines."
   - id: R-7
     type: report
     title: "SAGE: Structured Agentic Graph Editing for Software Diagrams"
@@ -1438,6 +1455,8 @@ publications:
     projects: [mage]
     role_in_project:
       mage: core
+    program_notes:
+      mage: "A worked example of building on the framework: editing software diagrams as structured graphs rather than as pictures."
   - id: R-8
     type: report
     title: "A Longitudinal Study of Usability in Identity-Based Software Signing"

@@ -49,7 +49,12 @@ def short_venue(v: str) -> str:
 
 def pub_li(p: dict, project: str) -> str:
     url = p.get("paper_url")
-    title = f'<a href="{url}">{p["title"]}</a>' if url else p["title"]
+    # A record may render under a different name on one programme page: the MAGE
+    # book and its condensed paper share a title, and on /research/mage/ they sit
+    # in the same section, so the book says which one it is. The canonical title
+    # is unchanged everywhere else, including Publications.
+    shown = (p.get("program_titles") or {}).get(project, p["title"])
+    title = f'<a href="{url}">{shown}</a>' if url else shown
     venue = short_venue(p.get("venue") or "")
     yr = p.get("year")
     where = " &middot; ".join(x for x in [venue, str(yr) if yr else ""] if x)
