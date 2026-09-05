@@ -8,10 +8,17 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 16px;
+  /* TYPE SCALE (260905). Was 16/18px. Everything on the page is sized in em
+     off this root, so the whole design was rendering about one notch small --
+     the tell being that 100% zoom made you want 115%. Raised so that 100% now
+     looks like the old 115%: 18 x 1.15 is ~20.7, and 20px is the nearest sane
+     step. Mobile goes 16 -> 17, a smaller bump because small screens were not
+     the complaint. Headings, nav and sidebar all scale with this rather than
+     being re-specified. */
+  font-size: 17px;
 
   @include breakpoint($medium) {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   -webkit-text-size-adjust: 100%;
