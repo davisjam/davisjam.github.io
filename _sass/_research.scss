@@ -84,6 +84,14 @@ body:has(.research-figure) .pub-list { max-width: 900px; }
     line-height: 1; color: #8E6F3E; cursor: pointer; visibility: visible; }
   &__btn:hover, &__btn[aria-expanded="true"] { color: #8E6F3E; }
   &__btn:focus-visible { outline: 2px solid #8E6F3E; outline-offset: 2px; }
+  /* Contextual location, not a nav peer: lighter than the real nav links so
+     "Research" still reads as the destination and this reads as "you are
+     here". Truncates rather than shoving Publications/Teaching around. */
+  &__here { margin-left: .3em; color: #57534e; font-weight: 400;
+    max-width: 14rem; overflow: hidden; text-overflow: ellipsis;
+    white-space: nowrap; vertical-align: bottom; display: inline-block; }
+  &__here::before { content: "\00a0"; }
+
   &__menu { display: none; position: absolute; top: calc(100% + .3em); left: 0;
     z-index: 100; margin: 0; padding: .3rem 0; list-style: none;
     width: max-content; min-width: 18rem; max-width: 24rem;

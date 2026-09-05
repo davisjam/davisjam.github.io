@@ -3,7 +3,7 @@ layout: research-project
 title: "Embedded Software Engineering"
 permalink: /research/embedded-swe/
 author_profile: true
-research_slug: "Embedded SE"
+research_slug: "Embedded Software"
 question: "How can analysis and assurance become practical for embedded software?"
 figure: /assets/research/embedded-swe/research-lineage.svg
 figure_alt: "Four lines of attack on reliable embedded software"

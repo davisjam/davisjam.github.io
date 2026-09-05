@@ -3,7 +3,7 @@ layout: research-project
 title: "Regular Expression Engineering"
 permalink: /research/saferegex/
 author_profile: true
-research_slug: "Regex"
+research_slug: "Regular Expressions"
 question: "What can regular expressions, viewed through a software-engineering microscope, teach us about building software?"
 figure: /assets/research/saferegex/regex-microscope.svg
 figure_alt: "A software-engineering microscope"

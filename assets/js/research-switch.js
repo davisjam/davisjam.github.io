@@ -43,8 +43,18 @@
 
   wrap.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && wrap.classList.contains('is-open')) {
-      open(false); toggle.focus();
+      open(false); toggle.focus(); return;
     }
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+    var items = [].slice.call(menu.querySelectorAll('a'));
+    if (!items.length) return;
+    e.preventDefault();
+    if (!wrap.classList.contains('is-open')) open(true);
+    var at = items.indexOf(document.activeElement);
+    var next = e.key === 'ArrowDown'
+      ? (at < 0 ? 0 : (at + 1) % items.length)
+      : (at < 0 ? items.length - 1 : (at - 1 + items.length) % items.length);
+    items[next].focus();
   });
   document.addEventListener('click', function (e) {
     if (!wrap.contains(e.target)) open(false);

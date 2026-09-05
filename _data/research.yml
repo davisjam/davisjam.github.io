@@ -11,7 +11,7 @@
   publications: 6
 
 - title: "Embedded Software Engineering"
-  short_title: "Embedded SE"
+  short_title: "Embedded Software"
   slug: embedded-swe
   question: "How can analysis and assurance become practical for embedded software?"
   url: /research/embedded-swe/
@@ -20,7 +20,7 @@
   publications: 10
 
 - title: "Failure-Aware Software Development"
-  short_title: "FA-SDLC"
+  short_title: "Failure-Aware Software"
   slug: failure-aware-sdlc
   question: "What can we learn from the ways software systems fail?"
   url: /research/failure-aware-sdlc/
@@ -29,7 +29,7 @@
   publications: 9
 
 - title: "Software Engineering for Pre-Trained Models"
-  short_title: "PTMs"
+  short_title: "Pre-Trained Models"
   slug: ptm-se
   question: "What changes about software engineering when the reused component is a learned model?"
   url: /research/ptm-se/
@@ -38,7 +38,7 @@
   publications: 20
 
 - title: "Software Supply Chains"
-  short_title: "Supply Chains"
+  short_title: "Software Supply Chains"
   slug: software-supply-chain
   question: "How can software reuse remain trustworthy at ecosystem scale?"
   url: /research/software-supply-chain/
@@ -47,7 +47,7 @@
   publications: 15
 
 - title: "Regular Expression Engineering"
-  short_title: "Regex"
+  short_title: "Regular Expressions"
   slug: saferegex
   question: "What can small programs teach us about large software-engineering problems?"
   url: /research/saferegex/

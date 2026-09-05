@@ -21,10 +21,26 @@
             {% endif %}
             {% if link.title == 'Research' %}
               <li class="masthead__menu-item rps">
-                <a href="{{ domain }}{{ link.url }}">Research</a><button type="button"
-                  class="rps__btn" aria-expanded="false" aria-haspopup="true"
-                  aria-label="Research programmes">&#8250;</button>
-                <ul class="rps__menu">
+                {%- comment -%}
+                  Closed state on a programme page is "Research > Current Program":
+                  the current programme is contextual LOCATION inside the global
+                  nav, not a second navigation bar. The other five stay hidden
+                  until the disclosure is opened. The list, its order and the
+                  labels all come from site.data.research -- the same record the
+                  Research landing renders -- so there is no nav-specific copy.
+                  A span, not a <button>: minimal-mistakes' greedy-nav claims
+                  `#site-nav button` as its overflow control and hides it.
+                {%- endcomment -%}
+                <a href="{{ domain }}{{ link.url }}">Research</a><span
+                  class="rps__btn" role="button" tabindex="0" aria-expanded="false"
+                  aria-haspopup="true" aria-controls="rps-menu"
+                  aria-label="Research programmes">&#8250;</span>
+                {%- for program in site.data.research -%}
+                  {%- if program.short_title == page.research_slug -%}
+                    <a class="rps__here" href="{{ domain }}{{ program.url }}">{{ program.short_title }}</a>
+                  {%- endif -%}
+                {%- endfor -%}
+                <ul class="rps__menu" id="rps-menu">
                   {%- for program in site.data.research -%}
                   <li><a href="{{ domain }}{{ program.url }}"{% if program.short_title == page.research_slug %} aria-current="page"{% endif %}>{{ program.title }}</a></li>
                   {%- endfor -%}

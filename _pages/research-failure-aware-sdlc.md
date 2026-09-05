@@ -3,8 +3,8 @@ layout: research-project
 title: "Failure-Aware Software Development"
 permalink: /research/failure-aware-sdlc/
 author_profile: true
-research_slug: "FA-SDLC"
-question: "What can engineering organizations learn from the ways software fails?"
+research_slug: "Failure-Aware Software"
+question: "What can we learn from the ways software systems fail?"
 figure: /assets/research/failure-aware-sdlc/failure-learning-loop.svg
 figure_alt: "Learning from failure means changing the next system"
 figure_desc: "An assumption fails in a real system. What happened is preserved as evidence: reports, artifacts, decisions and consequences. Comparing incidents identifies the failure mechanism — which assumption failed and under what conditions. Generalizing beyond the incident yields a reusable claim about how systems fail. Institutionalizing that claim changes requirements, design, analysis, validation, process and governance, which in turn changes the conditions under which the next system is built."

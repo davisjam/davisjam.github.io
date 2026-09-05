@@ -3,7 +3,7 @@ layout: research-project
 title: "Software Engineering for Pre-Trained Models"
 permalink: /research/ptm-se/
 author_profile: true
-research_slug: "PTMs"
+research_slug: "Pre-Trained Models"
 question: "What changes about software engineering when the reused component is a learned model?"
 figure: /assets/research/ptm-se/ptm-reuse-lifecycle.svg
 figure_alt: "Reusing a model introduces new engineering obligations"
