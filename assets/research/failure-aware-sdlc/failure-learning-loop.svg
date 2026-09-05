@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- semantic-families: neutral, failure, modeling, governance -->
+<!-- semantic-families: neutral, failure, governance, modeling -->
 <!-- Hand-authored SVG (label: failure-learning-loop). Failure-Aware Software Development.
      ONE JOB: an incident is evidence about an engineering ASSUMPTION, and
      learning has occurred only when that evidence changes how the next system
      is engineered.
-     REWRITTEN 260905. The first version labelled the boxes Failure, Evidence,
-     Analysis, Knowledge, Engineering — category words, which say only that
-     learning involves learning. Each box now states the MECHANISM: what
-     evidence contains, what analysis asks, what knowledge results, and how it
-     changes engineering. The edge labels carry the transformations.
-     The return edge gets the strongest sentence in the figure, because it is
-     the claim: without it this is failure reporting, not learning. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 560"
+     Each box states its MECHANISM, not a category word. An earlier version
+     labelled them Failure, Evidence, Analysis, Knowledge, Engineering, which
+     said only that learning involves learning. The return edge carries the
+     strongest sentence in the figure, because it is the claim: without it this
+     is failure reporting, not learning.
+     RESCALED 260905. Was 117 words on a 1240 canvas at 13px, rendering at
+     9.9px in the 940px page column. Now a 1000 canvas with a 15px floor, so the
+     smallest substantive text renders at 14.1px.
+     Canvas is WHITE: the site component owns the border and padding. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520"
+     width="1000" height="520"
      role="img" aria-labelledby="loopTitle loopDesc"
      font-family="Source Sans 3, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
   <title id="loopTitle">Learning from failure means changing the next system</title>
   <desc id="loopDesc">An assumption fails in a real system. What happened is
-    preserved as evidence: reports, artifacts, decisions and consequences.
-    Comparing incidents identifies the failure mechanism — which assumption
+    preserved as evidence. Comparing incidents identifies which assumption
     failed and under what conditions. Generalizing beyond the incident yields a
     reusable claim about how systems fail. Institutionalizing that claim changes
     requirements, design, analysis, validation, process and governance, which in
     turn changes the conditions under which the next system is built.</desc>
 
-  <rect x="0" y="0" width="1240" height="560" fill="#ffffff"/>
+  <rect x="0" y="0" width="1000" height="520" fill="#ffffff"/>
 
   <defs>
     <marker id="aN" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
@@ -34,58 +36,47 @@
     </marker>
   </defs>
 
-  <text x="40" y="52" font-size="25" font-weight="600" fill="#1c1917"
+  <text x="36" y="44" font-size="26" font-weight="600" fill="#1c1917"
         font-family="Source Serif 4, Charter, Georgia, serif">Learning from failure means changing the next system</text>
-  <text x="40" y="80" font-size="16" fill="#57534e">An incident is evidence about an engineering assumption.</text>
+  <text x="36" y="74" font-size="17" fill="#57534e">An incident is evidence about an engineering assumption.</text>
 
-  <!-- four stages across -->
-  <rect x="40"  y="130" width="255" height="104" rx="3" fill="#fbeaea" stroke="#b23b3b" stroke-width="1.5"/>
-  <rect x="355" y="130" width="255" height="104" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
-  <rect x="670" y="130" width="255" height="104" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
-  <rect x="985" y="130" width="215" height="104" rx="3" fill="#e3f0e7" stroke="#1f7a4d" stroke-width="1.5"/>
+  <rect x="36"  y="112" width="212" height="92" rx="3" fill="#fbeaea" stroke="#b23b3b" stroke-width="1.5"/>
+  <rect x="284" y="112" width="212" height="92" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="532" y="112" width="212" height="92" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="780" y="112" width="184" height="92" rx="3" fill="#e3f0e7" stroke="#1f7a4d" stroke-width="1.5"/>
 
-  <line x1="295" y1="182" x2="347" y2="182" stroke="#57534e" stroke-width="1.5" marker-end="url(#aN)"/>
-  <line x1="610" y1="182" x2="662" y2="182" stroke="#57534e" stroke-width="1.5" marker-end="url(#aN)"/>
-  <line x1="925" y1="182" x2="977" y2="182" stroke="#57534e" stroke-width="1.5" marker-end="url(#aN)"/>
+  <line x1="248" y1="158" x2="278" y2="158" stroke="#57534e" stroke-width="1.5" marker-end="url(#aN)"/>
+  <line x1="496" y1="158" x2="526" y2="158" stroke="#57534e" stroke-width="1.5" marker-end="url(#aN)"/>
+  <line x1="744" y1="158" x2="774" y2="158" stroke="#57534e" stroke-width="1.5" marker-end="url(#aN)"/>
 
-  <!-- the institutionalizing step, and the return -->
-  <path d="M 1092 272 L 1092 296 L 620 296 L 620 322" fill="none" stroke="#1f7a4d"
+  <path d="M 872 204 L 872 240 L 500 240 L 500 272" fill="none" stroke="#1f7a4d"
         stroke-width="1.5" marker-end="url(#aN)"/>
-  <rect x="330" y="322" width="580" height="86" rx="3" fill="#faf1e6" stroke="#9a3f12" stroke-width="2.5"/>
-  <path d="M 330 365 L 130 365 L 130 242" fill="none" stroke="#9a3f12" stroke-width="2.5"
+  <rect x="270" y="272" width="460" height="84" rx="3" fill="#faf1e6" stroke="#9a3f12" stroke-width="2.2"/>
+  <path d="M 270 314 L 130 314 L 130 210" fill="none" stroke="#9a3f12" stroke-width="2.2"
         marker-end="url(#aR)"/>
 
-  <!-- box text, painted last -->
-  <text x="60" y="160" font-size="13" font-weight="600" fill="#7f1d1d" letter-spacing="0.06em">FAILURE</text>
-  <text x="60" y="188" font-size="17" fill="#1c1917">An assumption fails</text>
-  <text x="60" y="210" font-size="17" fill="#1c1917">in a real system</text>
+  <text x="56" y="142" font-size="15" font-weight="600" fill="#7f1d1d" letter-spacing="0.05em">FAILURE</text>
+  <text x="56" y="172" font-size="18" fill="#1c1917">An assumption fails</text>
+  <text x="56" y="192" font-size="18" fill="#1c1917">in a real system</text>
 
-  <text x="375" y="160" font-size="13" font-weight="600" fill="#57534e" letter-spacing="0.06em">EVIDENCE</text>
-  <text x="375" y="188" font-size="17" fill="#1c1917">Reports, artifacts,</text>
-  <text x="375" y="210" font-size="17" fill="#1c1917">decisions, consequences</text>
+  <text x="304" y="142" font-size="15" font-weight="600" fill="#57534e" letter-spacing="0.05em">EVIDENCE</text>
+  <text x="304" y="172" font-size="18" fill="#1c1917">Reports, artifacts,</text>
+  <text x="304" y="192" font-size="18" fill="#1c1917">decisions</text>
 
-  <text x="690" y="160" font-size="13" font-weight="600" fill="#57534e" letter-spacing="0.06em">FAILURE MECHANISM</text>
-  <text x="690" y="188" font-size="17" fill="#1c1917">Which assumption failed,</text>
-  <text x="690" y="210" font-size="17" fill="#1c1917">and under what conditions?</text>
+  <text x="552" y="142" font-size="15" font-weight="600" fill="#57534e" letter-spacing="0.05em">MECHANISM</text>
+  <text x="552" y="172" font-size="18" fill="#1c1917">Which assumption</text>
+  <text x="552" y="192" font-size="18" fill="#1c1917">failed, and when?</text>
 
-  <text x="1005" y="160" font-size="13" font-weight="600" fill="#14532d" letter-spacing="0.06em">ENGINEERING KNOWLEDGE</text>
-  <text x="1005" y="188" font-size="17" fill="#1c1917">A reusable claim about</text>
-  <text x="1005" y="210" font-size="17" fill="#1c1917">how systems fail</text>
+  <text x="800" y="142" font-size="15" font-weight="600" fill="#14532d" letter-spacing="0.05em">KNOWLEDGE</text>
+  <text x="800" y="172" font-size="18" fill="#1c1917">A reusable claim</text>
+  <text x="800" y="192" font-size="18" fill="#1c1917">about how it fails</text>
 
-  <text x="350" y="352" font-size="13" font-weight="600" fill="#7f2f0c" letter-spacing="0.06em">ENGINEERING CHANGE</text>
-  <text x="350" y="380" font-size="17" fill="#1c1917">Requirements · design · analysis · validation</text>
-  <text x="350" y="400" font-size="17" fill="#1c1917">process · governance</text>
+  <text x="292" y="302" font-size="15" font-weight="600" fill="#7f2f0c" letter-spacing="0.05em">ENGINEERING CHANGE</text>
+  <text x="292" y="334" font-size="18" fill="#1c1917">Requirements · design · analysis · process</text>
 
-  <!-- edge labels: the transformations, not the categories -->
-  <text x="167" y="256" font-size="13" font-style="italic" fill="#57534e">preserve what happened</text>
-  <text x="482" y="256" font-size="13" font-style="italic" fill="#57534e">compare and explain</text>
-  <text x="797" y="256" font-size="13" font-style="italic" fill="#57534e">generalize beyond the incident</text>
-  <text x="1108" y="262" font-size="13" font-style="italic" fill="#1f7a4d">institutionalize</text>
+  <text x="150" y="386" font-size="17" font-style="italic" fill="#9a3f12">changes the conditions under which the next system is built</text>
 
-  <text x="150" y="440" font-size="16" font-style="italic" fill="#9a3f12">changes the conditions under which the next system is built</text>
-
-  <line x1="40" y1="472" x2="1200" y2="472" stroke="#e4e0d8" stroke-width="1"/>
-  <text x="40" y="502" font-size="16" fill="#1c1917">The unit of learning is not the incident nor its fix, but the engineering change that survives it.</text>
-  <text x="40" y="524" font-size="16" fill="#1c1917">FA-SDLC studies how organizations extract generalizable knowledge from software failures and</text>
-  <text x="40" y="546" font-size="16" fill="#1c1917">incorporate it into the engineering of subsequent systems.</text>
+  <line x1="36" y1="424" x2="964" y2="424" stroke="#e4e0d8" stroke-width="1"/>
+  <text x="36" y="456" font-size="19" fill="#1c1917">The unit of learning is not the incident nor its fix, but the engineering</text>
+  <text x="36" y="480" font-size="19" fill="#1c1917">change that survives it.</text>
 </svg>
