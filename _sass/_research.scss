@@ -175,3 +175,19 @@
   &__detail { font-size: 0.9em; color: #57534e; }
   &__now    { font-size: 0.9em; color: #8E6F3E; }
 }
+
+/* A wide table must scroll inside its own box rather than pushing the document
+   sideways -- the layout sweep caught /join-lab/ forcing 365px at a 320px
+   viewport. NOT `table { display: block }`: that is the usual one-line fix, but
+   it can drop table semantics for assistive technology, which is not a trade
+   this site should make. The wrapper carries role="region" + aria-label so the
+   scrollable area is announced, and tabindex="0" so it can be scrolled by
+   keyboard alone. */
+.table-scroll {
+  overflow-x: auto;
+  max-width: 100%;
+  margin: 1.2em 0 1.6em;
+
+  &:focus-visible { outline: 2px solid #8E6F3E; outline-offset: 2px; }
+  table { margin: 0; }
+}

@@ -86,10 +86,27 @@ def main(argv=None) -> int:
     if args.url:
         urls = args.url
     else:
-        sites = yaml.safe_load((ROOT / "model/sites.yaml").read_text())["sites"]
-        urls = [f"{ORIGIN}/", f"{ORIGIN}/research/", f"{ORIGIN}/teaching/",
-                f"{ORIGIN}/service/", f"{ORIGIN}/publications/"]
-        urls += [s["url"] for s in sites if s.get("profile") == "research-program"]
+        # DERIVED from the pages that actually exist, not a hand-kept list
+        # (260905). The list used to be hardcoded, so adding /people/ silently
+        # left it unswept while the run still reported "no overflow" -- the same
+        # false-green shape as check_figures.py scanning zero figures. Reading
+        # permalinks means a new page is covered the moment it is written.
+        urls = [f"{ORIGIN}/"]
+        for md in sorted((ROOT / "repos/davisjam.github.io/_pages").glob("*.md")):
+            text = md.read_text(errors="replace")
+            if not text.startswith("---"):
+                continue
+            end = text.find("\n---", 3)
+            fm = yaml.safe_load(text[3:end]) if end != -1 else None
+            if not isinstance(fm, dict):
+                continue
+            link = fm.get("permalink")
+            # Redirect stubs are inert until the old repos are deleted, and 404
+            # has no layout worth asserting.
+            if not link or md.name.startswith("redirect-") or link == "/404.html":
+                continue
+            urls.append(f"{ORIGIN}{link}")
+        urls = list(dict.fromkeys(urls))
 
     shots = pathlib.Path(args.shots) if args.shots else None
     if shots:
