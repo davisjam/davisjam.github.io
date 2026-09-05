@@ -1,0 +1,1688 @@
+# data/publications.yaml -- CANONICAL scholarly record.
+#
+# Keyed on the CV's own identifiers so the two stay mutually checkable.
+# Generated once by generators/build_publications.py; hand-maintained since.
+#
+# `projects` is MANY-TO-MANY (model/content-model.md P1). A publication on two
+# sites is reuse of one canonical record in two legitimate narratives -- do NOT
+# 'clean up' overlaps by forcing each work into a single project.
+#
+# `role_in_project`: core | application | precursor | context
+# Posters are carried here but are NOT surfaced on project sites (presentation
+# decision, not a data one).
+
+schema_version: 1
+publications:
+  - id: B-1
+    type: book
+    title: "Model-Based Agentic Software Engineering"
+    authors: "J.C. Davis"
+    program_notes:
+      mage: "The book-length statement of the framework."
+    paper_url: "https://davisjam.github.io/model-based-agentic-software-engineering/book/index.html"
+    projects: [mage]
+    role_in_project:
+      mage: core
+
+  - id: B-2
+    type: book
+    title: "Epilogue: The Computer Engineer as Tool-User"
+    authors: "J.C. Davis"
+    cluster: engineering-education
+
+  - id: C-1
+    type: conference
+    title: "AutoSOUP: Safety-Oriented Unit Proof Generation for Component-level Memory-Safety Verification"
+    authors: "P.C. Amusuo, R. Calvo, D. Anandayuvaraj, T. Le Lievre, K. Kolyakov, E. Jorgensen, A. Machiry, and J.C. Davis"
+    program_notes:
+      embedded-swe: "AutoSOUP generates the proofs. Automating construction is what moves unit proofing from a technique that works to one a team can afford to use."
+    projects: [embedded-swe]
+    role_in_project:
+      embedded-swe: core
+
+  - id: C-2
+    type: conference
+    title: "Context-Aware Trust Verification for Identity-Based Software Signing"
+    authors: "C. Okafor, J.C. Davis, and S. Torres-Arias"
+    program_notes:
+      software-supply-chain: "Verification that accounts for context: what a signature means depends on what is being installed where."
+    projects: [software-supply-chain]
+    role_in_project:
+      software-supply-chain: core
+
+  - id: C-3
+    type: conference
+    title: "Why Johnny Adopts Identity-Based Software Signing: A Usability Case Study of Sigstore"
+    authors: "K.G. Kalu, S. Okorafor, T. Singla, S. Chen, S. Torres-Arias, and J.C. Davis"
+    venue: "Proceedings of the 35th USENIX Security Symposium (SECURITY)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2503.00271"
+    links:
+      paper: "https://arxiv.org/pdf/2503.00271"
+    program_notes:
+      software-supply-chain: "A usability study of Sigstore adoption. Identity-based signing removes the key-management problem and introduces others."
+    projects: [software-supply-chain]
+    role_in_project:
+      software-supply-chain: core
+
+  - id: C-4
+    type: conference
+    title: "Regular Expression Denial of Service Induced by Backreferences"
+    venue: "arXiv"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2602.21459"
+    links:
+      paper: "https://arxiv.org/pdf/2602.21459"
+    program_notes:
+      saferegex: "Backreferences reintroduce the vulnerability under different conditions, marking the current boundary of the security result."
+    projects: [saferegex]
+    role_in_project:
+      saferegex: core
+
+  - id: C-5
+    type: conference
+    title: "AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens"
+    authors: "P. Jajal, N.J. Eliopoulos, B.S.H. Chou, G.K. Thiruvathukal, Y.H. Lu, and J.C. Davis"
+    venue: "The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 -- Findings Track (CVPR-Findings)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2511.18105"
+    links:
+      artifact: "https://github.com/pjjajal/adaperceiver-public"
+      paper: "https://arxiv.org/pdf/2511.18105"
+    cluster: efficient-ml-systems
+
+  - id: C-6
+    type: conference
+    title: "Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms"
+    authors: "P. Jajal*, N. Eliopoulos*, B.S.H. Chou, G.K. Thiruvathukal, J.C. Davis, and Y.H. Lu"
+    venue: "The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 -- Findings Track (CVPR-Findings)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2506.00299"
+    links:
+      paper: "https://arxiv.org/pdf/2506.00299"
+    cluster: efficient-ml-systems
+
+  - id: C-7
+    type: conference
+    title: "Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale"
+    authors: "A. Rozema and J.C. Davis"
+    venue: "Proceedings of the ACM Web Conference (WWW)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2506.19899"
+    links:
+      blog: "https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395"
+      paper: "https://arxiv.org/pdf/2506.19899"
+    cluster: reliability-security-systems
+
+  - id: C-8
+    type: conference
+    title: "ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale"
+    venue: "Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2502.20528"
+    links:
+      paper: "https://arxiv.org/pdf/2502.20528"
+    program_notes:
+      software-supply-chain: "ConfuGuard detects package confusion from metadata, treating a familiar package name as evidence that can be forged."
+    projects: [software-supply-chain]
+    role_in_project:
+      software-supply-chain: core
+
+  - id: C-9
+    type: conference
+    title: "Learning From Software Failures: A Case Study at a National Space Research Center"
+    authors: "D. Anandayuvaraj, T. Singla, Z. Hammadeh, A. Lund, A. Holloway, and J.C. Davis"
+    venue: "Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2509.06301"
+    links:
+      paper: "https://arxiv.org/pdf/2509.06301"
+    program_notes:
+      failure-aware-sdlc: "A case study inside a national space research center: what an organization with strong incentives to learn from failure actually does."
+    projects: [failure-aware-sdlc]
+    role_in_project:
+      failure-aware-sdlc: core
+
+  - id: C-10
+    type: conference
+    title: "Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification"
+    authors: "P.C. Amusuo, O. Cochell, T. Le Lievre, P.V. Patil, A. Machiry, and J.C. Davis"
+    venue: "Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2503.13762"
+    links:
+      paper: "https://arxiv.org/pdf/2503.13762"
+    program_notes:
+      embedded-swe: "Asked whether unit proofs work rather than assuming they do, and measured compositional bounded model checking for memory safety on real code."
+    projects: [embedded-swe]
+    role_in_project:
+      embedded-swe: core
+
+  - id: C-11
+    type: conference
+    title: "LadderSym: A Multimodal Interleaved Transformer for Music Practice Error Detection"
+    authors: "B.S.H. Chou, P. Jajal, N.J. Eliopoulos, J.C. Davis, G.K. Thiruvathukal, K.Y.J. Yun, and Y.H. Lu"
+    venue: "Proceedings of the International Conference on Learning Representations (ICLR)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2510.08580"
+    links:
+      paper: "https://arxiv.org/pdf/2510.08580"
+    cluster: efficient-ml-systems
+
+  - id: C-12
+    type: conference
+    title: "PickleBall: Secure Deserialization of Pickle-based Machine Learning Models"
+    authors: "A. Kellas, N. Christou, W. Jiang, P. Li, L. Simon, Y. David, V. Kemerlis, J.C. Davis, and J. Yang"
+    venue: "Proceedings of the 32nd ACM Conference on Computer and Communications Security (CCS)"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2508.15987"
+    links:
+      artifact: "https://zenodo.org/records/16974645"
+      blog: "https://davisjam.medium.com/pickleball-secure-deserialization-of-pickle-based-machine-learning-models-a089113e6b0f"
+      paper: "https://arxiv.org/pdf/2508.15987"
+    awards: [best-artifact]
+    program_notes:
+      ptm-se: "Model serialization is an integration property. A format that executes code when loaded makes deserialization part of the reuse contract."
+      software-supply-chain: "A model file that executes code when loaded is an attack surface, and model repositories distribute those files the way registries distribute packages."
+    projects: [ptm-se, software-supply-chain]
+    role_in_project:
+      ptm-se: core
+      software-supply-chain: application
+
+  - id: C-13
+    type: conference
+    title: "ZTD-JAVA: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies"
+    authors: "P.C. Amusuo, K.A. Robinson, T. Singla, H. Peng, A. Machiry, S. Torres-Arias, L. Simon, and J.C. Davis"
+    venue: "Proceedings of the ACM/IEEE 47th International Conference on Software Engineering (ICSE)"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2310.14117"
+    links:
+      artifact: "https://doi.org/10.5281/zenodo.14436182"
+      blog: "https://davisjam.medium.com/mitigating-software-supply-chain-vulnerabilities-with-zero-trust-dependencies-06f950497cfe"
+      paper: "https://arxiv.org/pdf/2310.14117"
+    program_notes:
+      software-supply-chain: "ZTD-JAVA moves the trust decision to the point of use: a library gets the permissions its call site needs, not those of the whole application."
+    projects: [software-supply-chain]
+    role_in_project:
+      software-supply-chain: core
+
+  - id: C-14
+    type: conference
+    title: "Detecting Music Performance Errors with Transformers"
+    authors: "B.S.H. Chou, P. Jajal, N.J. Eliopoulos, T. Nadolsky, C.Y. Yang, N. Ravi, J.C. Davis, K.Y.J. Yun, and Y.H. Lu"
+    venue: "Proceedings of the 39th Annual AAAI Conference on Artificial Intelligence (AAAI)"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2501.02030"
+    links:
+      artifact: "https://github.com/ben2002chou/Polytune"
+      paper: "https://arxiv.org/pdf/2501.02030"
+    cluster: efficient-ml-systems
+
+  - id: C-15
+    type: conference
+    title: "LEMIX: Enabling Testing of Embedded Applications as Linux Applications"
+    authors: "S.R. Tanksalkar, S. Muralee, D.M.S.H. Danduri, P. Amusuo, A. Bianchi, J.C. Davis, and A. Machiry"
+    venue: "Proceedings of the 34th USENIX Security Symposium (SECURITY)"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2503.17588"
+    links:
+      artifact: "https://zenodo.org/records/15611391"
+      blog: "https://davisjam.medium.com/lemix-enabling-testing-of-embedded-applications-as-linux-applications-895f85131cd8"
+      paper: "https://arxiv.org/pdf/2503.17588"
+    program_notes:
+      embedded-swe: "LEMIX made that rehosting practical: embedded applications become testable as Linux applications, removing the fidelity-versus-effort tradeoff earlier approaches were stuck with."
+    projects: [embedded-swe]
+    role_in_project:
+      embedded-swe: core
+
+  - id: C-16
+    type: conference
+    title: "An Industry Interview Study of Software Signing for Supply Chain Security"
+    authors: "K. Kalu, T. Singla, C. Okafor, S. Torres-Arias, and J.C. Davis"
+    venue: "Proceedings of the 34th USENIX Security Symposium (SECURITY)"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2406.08198"
+    links:
+      artifact: "https://zenodo.org/records/14766721"
+      blog: "https://davisjam.medium.com/an-industry-interview-study-of-software-signing-for-supply-chain-security-8666d27539f8"
+      paper: "https://arxiv.org/pdf/2406.08198"
+    program_notes:
+      software-supply-chain: "Interviewed industry practitioners about signing. Found that the obstacles are organizational as often as technical."
+    projects: [software-supply-chain]
+    role_in_project:
+      software-supply-chain: core
+
+  - id: C-17
+    type: conference
+    title: "Usage and Effectiveness of Static Analysis in Open-Source Embedded Software: CodeQL Finds Hundreds of Defects"
+    authors: "M. Shen, A. Pillai, B.A. Yuan, J.C. Davis, and A. Machiry"
+    venue: "Proceedings of the 34th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2310.00205"
+    links:
+      artifact: "https://github.com/purs3lab/ISSTA-2025-EMBOSS-Artifact"
+      paper: "https://arxiv.org/pdf/2310.00205"
+    program_notes:
+      embedded-swe: "Applied static analysis across many open-source embedded projects and found hundreds of defects, showing that analysis at ecosystem scale is affordable and that projects were not already doing it."
+    projects: [embedded-swe]
+    role_in_project:
+      embedded-swe: core
+
+  - id: C-18
+    type: conference
+    title: "SoK: A Literature and Engineering Review of Regular Expression Denial of Service"
+    venue: "Proceedings of the 20th ACM ASIA Conference on Computer and Communications Security (AsiaCCS)"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2406.11618"
+    links:
+      artifact: "https://zenodo.org/records/15515223"
+      blog: "https://davisjam.medium.com/sok-a-literature-and-engineering-review-of-regular-expression-denial-of-service-redos-e6b10ef547c7"
+      paper: "https://arxiv.org/pdf/2406.11618"
+    program_notes:
+      saferegex: "Consolidates a decade of ReDoS literature and engineering practice into one account of what is known and what is still open."
+    projects: [saferegex]
+    role_in_project:
+      saferegex: core
+
+  - id: C-19
+    type: conference
+    title: "Pruning One More Token is Enough: Leveraging Latency-Workload Non-Linearities for Vision Transformers on the Edge"
+    authors: "N. Eliopoulos, P. Jajal, J.C. Davis, G. Liu, G.K. Thiruvathukal, and Y.H. Lu"
+    venue: "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2407.05941"
+    links:
+      artifact: "https://zenodo.org/records/14160539"
+      blog: "https://davisjam.medium.com/pruning-one-more-token-is-enough-9bef04dc799b"
+      paper: "https://arxiv.org/pdf/2407.05941"
+    cluster: efficient-ml-systems
+
+  - id: C-20
+    type: conference
+    title: "Token Turing Machines are Efficient Vision Models"
+    authors: "P. Jajal, N. Eliopoulos, B. Chou, G.K. Thiruvathukal, J.C. Davis, and Y.H. Lu"
+    venue: "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2409.07613"
+    links:
+      artifact: "https://github.com/pjjajal/EfficientTTMs"
+      paper: "https://arxiv.org/pdf/2409.07613"
+    cluster: efficient-ml-systems
+
+  - id: C-21
+    type: conference
+    title: "FAIL: Analyzing Software Failures from the News Using LLMs"
+    authors: "D. Anandayuvaraj, M. Campbell, A. Tewari, and J.C. Davis"
+    venue: "Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering (ASE)"
+    year: 2024
+    paper_url: "https://arxiv.org/pdf/2406.08221"
+    links:
+      artifact: "https://github.com/PurdueDualityLab/ASE24-FAIL-FailureAnalysisInvestigationWithLLMs"
+      blog: "https://davisjam.medium.com/fail-analyzing-software-failures-from-the-news-using-llms-630b7905f07e"
+      paper: "https://arxiv.org/pdf/2406.08221"
+    program_notes:
+      failure-aware-sdlc: "FAIL scales failure analysis by extracting incidents from news reports, so the evidence base stops being limited to what one team can read."
+    projects: [failure-aware-sdlc]
+    role_in_project:
+      failure-aware-sdlc: core
+
+  - id: C-22
+    type: conference
+    title: "Interoperability in Deep Learning: A User Survey and Failure Analysis of ONNX Model Converters"
+    authors: "P. Jajal, W. Jiang, A. Tewari, E. Kocinare, J. Woo, A. Sarraf, Y.H. Lu, G.K. Thiruvathukal, and J.C. Davis"
+    venue: "Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)"
+    year: 2024
+    paper_url: "https://arxiv.org/pdf/2303.17708"
+    links:
+      artifact: "https://zenodo.org/records/12667479"
+      paper: "https://arxiv.org/pdf/2303.17708"
+    program_notes:
+      ptm-se: "Tested whether ONNX interoperability holds. Conversion failures show that a portability claim is an engineering obligation, not a property."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: C-23
+    type: conference
+    title: "What do we know about Hugging Face? A systematic literature review and quantitative validation of qualitative claims"
+    authors: "J. Jones, W. Jiang, N. Synovic, G.K. Thiruvathukal, and J.C. Davis"
+    venue: "Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)"
+    year: 2024
+    paper_url: "https://arxiv.org/pdf/2406.08205"
+    links:
+      artifact: "https://zenodo.org/records/13631840"
+      paper: "https://arxiv.org/pdf/2406.08205"
+    program_notes:
+      ptm-se: "A systematic review and quantitative study of what is known about Hugging Face, consolidating a fast-moving literature."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: C-24
+    type: conference
+    title: "An Exploratory Mixed-Methods Study on General Data Protection Regulation (GDPR) Compliance in Open-Source Software"
+    authors: "L. Franke, H. Liang, S. Farzanehpour, A. Brantly, J.C. Davis, and C. Brown"
+    venue: "Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)"
+    year: 2024
+    paper_url: "https://arxiv.org/pdf/2406.14724"
+    links:
+      artifact: "https://github.com/code-world-no-blanket/ESEM24-GDPR-OSS-Impact"
+      paper: "https://arxiv.org/pdf/2406.14724"
+    cluster: reliability-security-systems
+
+  - id: C-25
+    type: conference
+    title: "On the Contents and Utility of IoT Cybersecurity Guidelines"
+    authors: "J. Chen, D. Anandayuvaraj, J.C. Davis, and S. Rahaman"
+    venue: "Proceedings of the ACM on Software Engineering (PACMSE), Issue FSE 2024 (FSE)"
+    year: 2024
+    paper_url: "https://arxiv.org/pdf/2310.01653"
+    links:
+      artifact: "https://github.com/jessechen09/fse2024-66-on-the-contents-and-utility-of-IoT-cybersecurity-guidelines"
+      blog: "https://davisjam.medium.com/on-the-contents-and-utility-of-iot-cybersecurity-guidelines-9a0479949ba3"
+      paper: "https://arxiv.org/pdf/2310.01653"
+    program_notes:
+      failure-aware-sdlc: "IoT security guidelines are a written form of failure knowledge; this asks what they contain and whether they are usable by the engineers they target."
+    projects: [failure-aware-sdlc]
+    role_in_project:
+      failure-aware-sdlc: core
+
+  - id: C-26
+    type: conference
+    title: "Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors"
+    authors: "T.R. Schorlemmer, K.G. Kalu, L. Chigges, K.M. Ko, E.A.M.A. Ishgair, S. Bagchi, S. Torres-Arias, and J.C. Davis"
+    venue: "Proceedings of the 45th IEEE Symposium on Security and Privacy (S&P)"
+    year: 2024
+    paper_url: "https://arxiv.org/pdf/2401.14635"
+    links:
+      artifact: "https://github.com/PurdueDualityLab/signature-adoption"
+      blog: "https://medium.com/@davisjam/signing-in-four-public-software-package-registries-quantity-quality-and-influencing-factors-7af4b416b6db"
+      paper: "https://arxiv.org/pdf/2401.14635"
+    program_notes:
+      software-supply-chain: "Measured signing across four public registries. Established how rare and how poor-quality signing actually was, against which later adoption work reads."
+    projects: [software-supply-chain]
+    role_in_project:
+      software-supply-chain: core
+
+  - id: C-27
+    type: conference
+    title: "An Interview Study on Third-Party Cyber Threat Hunting Processes in the U.S. Department of Homeland Security"
+    authors: "W. Maxam and J.C. Davis"
+    venue: "Proceedings of the 33rd USENIX Security Symposium (SECURITY)"
+    year: 2024
+    paper_url: "https://arxiv.org/pdf/2402.12252"
+    links:
+      paper: "https://arxiv.org/pdf/2402.12252"
+    cluster: reliability-security-systems
+
+  - id: C-28
+    type: conference
+    title: "PeaTMOSS: A Dataset and Initial Analysis of Pre-Trained Models in Open-Source Software"
+    authors: "W. Jiang, J. Yasmin, J. Jones, N. Synovic, J. Kuo, N. Bielanski, Y. Tian, G.K. Thiruvathukal, and J.C. Davis"
+    venue: "Proceedings of the 21st Annual Conference on Mining Software Repositories (MSR)"
+    year: 2024
+    paper_url: "https://arxiv.org/pdf/2402.00699"
+    links:
+      artifact: "https://github.com/PurdueDualityLab/PeaTMOSS-Artifact"
+      paper: "https://arxiv.org/pdf/2402.00699"
+    program_notes:
+      ptm-se: "PeaTMOSS extends that to models as they appear inside open-source projects, linking the registry to the systems that depend on it."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: C-29
+    type: conference
+    title: "An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry"
+    authors: "W. Jiang, N. Synovic, M. Hyatt, T.R. Schorlemmer, R. Sethi, Y.H. Lu, G.K. Thiruvathukal, and J.C. Davis"
+    venue: "Proceedings of the ACM/IEEE 45th International Conference on Software Engineering (ICSE)"
+    year: 2023
+    paper_url: "https://arxiv.org/pdf/2303.02552"
+    links:
+      artifact: "https://doi.org/10.5281/zenodo.7555464"
+      blog: "https://medium.com/@davisjam/an-empirical-study-of-pre-trained-model-reuse-in-the-hugging-face-deep-learning-model-registry-6ccfb0e58809"
+      paper: "https://arxiv.org/pdf/2303.02552"
+    program_notes:
+      ptm-se: "The empirical study of Hugging Face reuse that established how engineers select and adapt pre-trained models at ecosystem scale."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: C-30
+    type: conference
+    title: "Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks"
+    venue: "Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)"
+    year: 2023
+    paper_url: "https://arxiv.org/pdf/2308.10965"
+    links:
+      artifact: "https://doi.org/10.5281/zenodo.8247917"
+      blog: "https://davisjam.medium.com/systematically-detecting-packet-validation-vulnerabilities-in-embedded-network-stacks-4a9954ff393d"
+      paper: "https://arxiv.org/pdf/2308.10965"
+    program_notes:
+      embedded-swe: "Found high-severity defects in the network stacks that low-resource devices depend on, and showed the defects were systematic enough to look for deliberately. The empirical start of the line."
+    projects: [embedded-swe]
+    role_in_project:
+      embedded-swe: core
+
+  - id: C-31
+    type: conference
+    title: "Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies"
+    authors: "S.A. Hassan, Z. Aamir, D. Lee, J.C. Davis, and F. Servant"
+    venue: "Proceedings of the 44th IEEE Symposium on Security and Privacy (S&P)"
+    year: 2023
+    paper_url: "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1178&context=ecepubs"
+    links:
+      artifact: "https://doi.org/10.5281/zenodo.7419006"
+      video: "https://www.youtube.com/watch?v=It8QodA2zd8"
+      paper: "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1178&context=ecepubs"
+    program_notes:
+      saferegex: "ReDoS tools exist but developers misread their output; this studies how to present findings so they can be acted on."
+    projects: [saferegex]
+    role_in_project:
+      saferegex: core
+
+  - id: C-32
+    type: conference
+    title: "Directed Acyclic Graph-based Neural Networks for Tunable Low-Power Computer Vision"
+    authors: "A. Goel, C. Tung, N. Eliopoulos, X. Hu, G.K. Thiruvathukal, J.C. Davis, and Y.H. Lu"
+    venue: "ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED)"
+    year: 2022
+    paper_url: "https://davisjam.github.io/files/publications/GoelTungEliopoulosHuThiruvathukalDavisLu-DAGHNNs-ISLPED2022.pdf"
+    links:
+      paper: "/files/publications/GoelTungEliopoulosHuThiruvathukalDavisLu-DAGHNNs-ISLPED2022.pdf"
+    cluster: efficient-ml-systems
+
+  - id: C-33
+    type: conference
+    title: "Exploiting Input Sanitization for Regex Denial of Service"
+    authors: "E. Barlas, X. Du, and J.C. Davis"
+    venue: "Proceedings of the ACM/IEEE 44th International Conference on Software Engineering (ICSE)"
+    year: 2022
+    paper_url: "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1179&context=ecepubs"
+    links:
+      artifact: "https://doi.org/10.5281/zenodo.5916441"
+      video: "https://youtu.be/6fCBGQhBf2I"
+      blog: "https://davisjam.medium.com/exploiting-input-sanitization-for-regex-denial-of-service-2366ff8c7c42"
+      paper: "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1179&context=ecepubs"
+    program_notes:
+      saferegex: "Published sanitization logic tells an attacker which inputs reach the matcher, turning a usability feature into an exploitation aid."
+    projects: [saferegex]
+    role_in_project:
+      saferegex: core
+
+  - id: C-34
+    type: conference
+    title: "An Empirical Study on the Impact of Parameters on Mobile App Energy Usage"
+    authors: "Q. Xu, J.C. Davis, Y.C. Hu, and A. Jindal"
+    venue: "Proceedings of the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)"
+    year: 2022
+    paper_url: "https://davisjam.github.io/files/publications/XuDavisHuJindal-AndroidDeepParameters-SANER2022.pdf"
+    links:
+      artifact: "https://doi.org/10.5281/zenodo.5823364"
+      video: "https://www.youtube.com/watch?v=kJr4vOdfddk"
+      paper: "/files/publications/XuDavisHuJindal-AndroidDeepParameters-SANER2022.pdf"
+    cluster: efficient-ml-systems
+
+  - id: C-35
+    type: conference
+    title: "Low-Power Multi-Camera Object Re-Identication using Hierarchical Neural Networks"
+    venue: "ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED)"
+    year: 2021
+    paper_url: "https://davisjam.github.io/files/publications/GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21.pdf"
+    links:
+      blog: "https://davisjam.medium.com/low-power-multi-camera-object-re-identification-using-hierarchical-neural-networks-275663db83d6"
+      paper: "/files/publications/GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21.pdf"
+    cluster: efficient-ml-systems
+
+  - id: C-36
+    type: conference
+    title: "Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)"
+    authors: "J.C. Davis, F. Servant, and D. Lee"
+    venue: "IEEE Security & Privacy (S&P)"
+    year: 2021
+    paper_url: "https://davisjam.github.io/files/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf"
+    links:
+      artifact: "https://doi.org/10.5281/zenodo.4718966"
+      video: "https://www.youtube.com/channel/UC6pXMS7qre9GZW7A7FVM90Q"
+      blog: "https://medium.com/@davisjam/using-selective-memoization-to-defeat-regular-expression-denial-of-service-f7acbbd34792"
+      paper: "/files/publications/DavisServantLee-SelectiveMemo-IEEE-SP21.pdf"
+    program_notes:
+      saferegex: "Selective memoization defeats ReDoS without abandoning the expressive features that made backtracking engines popular."
+    projects: [saferegex]
+    role_in_project:
+      saferegex: core
+
+  - id: C-37
+    type: conference
+    title: "A Principled Approach to GraphQL Query Cost Analysis"
+    authors: "A. Cha, E. Wittern, G. Baudart, J.C. Davis, L. Mandel, and J. Laredo"
+    venue: "Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)"
+    year: 2020
+    paper_url: "https://davisjam.github.io/files/publications/ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20.pdf"
+    links:
+      video: "https://www.youtube.com/watch?v=gHzgEKeRidk"
+      blog: "https://medium.com/@davisjam/a-principled-approach-to-graphql-query-cost-analysis-8c7243de42c1"
+      paper: "/files/publications/ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20.pdf"
+    awards: [best-paper]
+    cluster: reliability-security-systems
+
+  - id: C-38
+    type: conference
+    title: "Improving Reproducibility of Data Science Pipelines through Transparent Provenance Capture"
+    authors: "L. Rupprecht, J.C. Davis, C. Arnold, Y. Gur, and D. Bhagwat"
+    venue: "Proceedings of the 46th International Conference on Very Large Databases: Industry track (VLDB-Industry)"
+    year: 2020
+    paper_url: "https://davisjam.github.io/files/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf"
+    links:
+      paper: "/files/publications/RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf"
+    cluster: reliability-security-systems
+
+  - id: C-39
+    type: conference
+    title: "Testing Regex Generalizability And Its Implications: A Large-Scale Many-Language Measurement Study"
+    authors: "J.C. Davis, D. Moyer, A. Kazerouni, and D. Lee"
+    venue: "Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)"
+    year: 2019
+    paper_url: "https://davisjam.github.io/files/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf"
+    links:
+      artifact: "https://zenodo.org/record/3424961"
+      video: "https://www.youtube.com/watch?v=HQq6iXTjk1I"
+      blog: "https://medium.com/@davisjam/testing-regex-generalizability-and-its-implications-ase19-63da1edadcdb"
+      paper: "/files/publications/DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf"
+    program_notes:
+      saferegex: "Tested whether regex behaviour generalizes across languages at scale. It does not, which turns portability into an engineering problem."
+    projects: [saferegex]
+    role_in_project:
+      saferegex: core
+
+  - id: C-40
+    type: conference
+    title: "Regexes are Hard: Decision-making, Difficulties, and Risks in Programming Regular Expressions"
+    authors: "L. Michael, J. Donohue, J.C. Davis, D. Lee, and F. Servant"
+    venue: "Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)"
+    year: 2019
+    paper_url: "https://davisjam.github.io/files/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf"
+    links:
+      artifact: "https://zenodo.org/record/3424069"
+      video: "https://www.youtube.com/watch?v=EWIPCaGfvb0"
+      blog: "https://medium.com/@davisjam/regexes-are-hard-e7933ae3122d"
+      paper: "/files/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf"
+    awards: [best-paper]
+    program_notes:
+      saferegex: "Studied what developers understand when they write regexes, and found the difficulties are in comprehension and decision-making, not syntax."
+    projects: [saferegex]
+    role_in_project:
+      saferegex: core
+
+  - id: C-41
+    type: conference
+    title: "Why Aren't Regular Expressions a Lingua Franca? An Empirical Study on the Re-use and Portability of Regular Expressions"
+    authors: "J.C. Davis, L. Michael, C. Coghlan, F. Servant, and D. Lee"
+    venue: "Proceedings of the 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)"
+    year: 2019
+    paper_url: "https://davisjam.github.io/files/publications/DavisMichaelCoghlanServantLee-LinguaFranca-ESECFSE19.pdf"
+    links:
+      artifact: "https://doi.org/10.5281/zenodo.3257777"
+      blog: "https://medium.com/@davisjam/why-arent-regexes-a-lingua-franca-esecfse19-a36348df3a2"
+      paper: "/files/publications/DavisMichaelCoghlanServantLee-LinguaFranca-ESECFSE19.pdf"
+    program_notes:
+      saferegex: "Asked why regexes are not portable in practice despite a shared surface syntax, examining reuse across languages directly."
+    projects: [saferegex]
+    role_in_project:
+      saferegex: core
+
+  - id: C-42
+    type: conference
+    title: "An Empirical Study of GraphQL Schemas"
+    authors: "E. Wittern, A. Cha, J.C. Davis, G. Baudart, L. Mandel"
+    venue: "Proceedings of the 17th International Conference on Service-Oriented Computing (ICSOC)"
+    year: 2019
+    paper_url: "https://davisjam.github.io/files/publications/WitternChaDavisBaudartMandel-EmpiricalGraphQL-ICSOC19.pdf"
+    links:
+      video: "https://www.youtube.com/watch?v=9-CnPyrtjic&feature=youtu.be"
+      blog: "https://medium.com/@davisjam/empirical-study-graphql-icsoc19-29038c48da5"
+      paper: "/files/publications/WitternChaDavisBaudartMandel-EmpiricalGraphQL-ICSOC19.pdf"
+    cluster: reliability-security-systems
+
+  - id: C-43
+    type: conference
+    title: "EdgeWise: A Better Stream Processing Engine for the Edge"
+    authors: "X. Fu, T. Ghaffar, J.C. Davis, and D. Lee"
+    venue: "Proceedings of the 2019 USENIX Annual Technical Conference (USENIX ATC)"
+    year: 2019
+    paper_url: "https://davisjam.github.io/files/publications/FuGhaffarDavisLee-EdgeWise-ATC19.pdf"
+    links:
+      artifact: "https://github.com/VTLeeLab/EdgeWise-ATC-19"
+      blog: "https://medium.com/@davisjam/edgewise-a-better-stream-processing-engine-for-the-edge-898cc0d3e5fe"
+      paper: "/files/publications/FuGhaffarDavisLee-EdgeWise-ATC19.pdf"
+    cluster: efficient-ml-systems
+
+  - id: C-44
+    type: conference
+    title: "The Impact of Regular Expression Denial of Service (REDOS) in Practice: an Empirical Study at the Ecosystem Scale"
+    authors: "J.C. Davis, C. Coghlan, F. Servant, and D. Lee"
+    venue: "Proceedings of the 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)"
+    year: 2018
+    paper_url: "https://davisjam.github.io/files/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf"
+    links:
+      artifact: "https://doi.org/10.5281/zenodo.1294300"
+      blog: "https://medium.com/@davisjam/introduction-987fdc4c7b0"
+      paper: "/files/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf"
+    awards: [best-paper]
+    program_notes:
+      saferegex: "Measured ReDoS across an ecosystem and found super-linear regexes widespread in deployed modules. The result that made the problem concrete."
+    projects: [saferegex]
+    role_in_project:
+      saferegex: core
+
+  - id: C-45
+    type: conference
+    title: "A Sense of Time for JavaScript and Node.js: First-Class Timeouts as a Cure for Event Handler Poisoning"
+    authors: "J.C. Davis, E.R. Williamson, and D. Lee"
+    venue: "Proceedings of the 27th USENIX Security Symposium (SECURITY)"
+    year: 2018
+    paper_url: "https://davisjam.github.io/files/publications/DavisWilliamsonLee-SenseOfTime-USENIXSecurity18.pdf"
+    links:
+      artifact: "https://github.com/VTLeeLab/node-cure"
+      video: "https://www.usenix.org/conference/usenixsecurity18/presentation/davis"
+      paper: "/files/publications/DavisWilliamsonLee-SenseOfTime-USENIXSecurity18.pdf"
+    program_notes:
+      saferegex: "First-class timeouts as a defence against event-handler poisoning. The runtime-side answer that preceded the regex-specific work."
+    projects: [saferegex]
+    role_in_project:
+      saferegex: precursor
+
+  - id: C-46
+    type: conference
+    title: "Node.fz: Fuzzing the server-side event-driven architecture"
+    authors: "J.C. Davis, A. Thekumparampil, and D. Lee"
+    venue: "Proceedings of the European Conference on Computer Systems (EuroSys)"
+    year: 2017
+    paper_url: "https://davisjam.github.io/files/publications/DavisThekumparampilLee-NodeFz-EuroSys17.pdf"
+    links:
+      artifact: "https://github.com/VTLeeLab/NodeFz"
+      paper: "/files/publications/DavisThekumparampilLee-NodeFz-EuroSys17.pdf"
+    cluster: reliability-security-systems
+
+  - id: J-1
+    type: journal
+    title: "AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges"
+    authors: "H. Gao, M. Zahedi, W. Jiang, H.Y. Lin, J.C. Davis, and C. Treude"
+    venue: "arXiv"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2503.19444"
+    links:
+      paper: "https://arxiv.org/pdf/2503.19444"
+    program_notes:
+      ptm-se: "Looks at AI safety from the downstream developer's position — the engineer integrating a model, not the organization training it."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: J-2
+    type: journal
+    title: "Software Dependencies 2.0: An Empirical Study of Reuse and Integration of Pre-Trained Models in Open-Source Projects"
+    authors: "J. Yasmin, W. Jiang, J.C. Davis, and Y. Tian"
+    venue: "arXiv"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2509.06085"
+    links:
+      paper: "https://arxiv.org/pdf/2509.06085"
+    program_notes:
+      ptm-se: "Generalizes dependency thinking to model artifacts: what a dependency is, when the dependency learns."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: J-3
+    type: journal
+    title: "SysLLMatic: Large Language Models are Software System Optimizers"
+    venue: "arXiv"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2506.01249"
+    links:
+      paper: "https://arxiv.org/pdf/2506.01249"
+    program_notes:
+      mage: "Showed that language models can improve the measured performance of real software systems, and established the measurement setup the later agent-optimization work builds on."
+    projects: [mage]
+    role_in_project:
+      mage: core
+
+  - id: J-4
+    type: journal
+    title: "'I see models being a whole other thing': An Empirical Study of Pre-Trained Model Naming Conventions and A Tool for Enhancing Naming Consistency"
+    authors: "W. Jiang, M. Kim, C. Cheung, H. Kim, G.K. Thiruvathukal, and J.C. Davis"
+    venue: "Empirical Software Engineering (EMSE)"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2310.01642"
+    links:
+      paper: "https://arxiv.org/pdf/2310.01642"
+    program_notes:
+      ptm-se: "Interview study of how engineers reason about pre-trained models as components, including where model naming misleads them."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: J-5
+    type: journal
+    title: "Engineering Patterns for Trust and Safety on Social Media Platforms: A Case Study of Mastodon and Diaspora"
+    authors: "G. Cramer, W. Maxam, and J.C. Davis"
+    venue: "Journal of Systems and Software (JSS)"
+    year: 2025
+    paper_url: "https://davisjam.github.io/files/publications/CramerMaxamDavis-TrustAndSafetyEngineeringInSMPs-JSS2025.pdf"
+    links:
+      paper: "/files/publications/CramerMaxamDavis-TrustAndSafetyEngineeringInSMPs-JSS2025.pdf"
+    cluster: reliability-security-systems
+
+  - id: J-6
+    type: journal
+    title: "Fostering Systems Thinking through Engineering Study Abroad Programs"
+    venue: "European Journal of Engineering Education (EJEE)"
+    year: 2024
+    paper_url: "https://www.tandfonline.com/doi/full/10.1080/03043797.2024.2434168"
+    links:
+      paper: "https://www.tandfonline.com/doi/full/10.1080/03043797.2024.2434168"
+    cluster: engineering-education
+
+  - id: J-7
+    type: journal
+    title: "Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision"
+    authors: "W. Jiang, V. Banna, N. Vivek, A. Goel, N. Synovic, G.K. Thiruvathukal, and J.C. Davis"
+    venue: "Empirical Software Engineering (EMSE)"
+    year: 2024
+    paper_url: "https://link.springer.com/article/10.1007/s10664-024-10521-0"
+    links:
+      artifact: "https://github.com/Wenxin-Jiang/EMSE-CVReengineering-Artifact"
+      paper: "https://link.springer.com/article/10.1007/s10664-024-10521-0"
+    program_notes:
+      ptm-se: "Model reengineering — reimplementing and extending published models — is a distinct and costly engineering activity; this documents what it involves."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: J-8
+    type: journal
+    title: "Applying Experiential Learning Theory to Understand Study Abroad Leaders' Experiences Using Real-Time Perspectives"
+    cluster: engineering-education
+
+  - id: J-9
+    type: journal
+    title: "A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits"
+    venue: "Empirical Software Engineering (EMSE) (also presented at ICSE'22-JournalFirst)"
+    year: 2021
+    paper_url: "https://arxiv.org/pdf/2011.06244"
+    links:
+      video: "https://www.youtube.com/watch?v=JKYkw-nxE8M"
+      paper: "https://arxiv.org/pdf/2011.06244"
+    cluster: reliability-security-systems
+
+  - id: J-10
+    type: journal
+    title: "Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis"
+    authors: "A. Kazerouni, J.C. Davis, A. Basak, C. Shaffer, F. Servant, and S. Edwards"
+    venue: "Journal of Systems and Software (JSS)"
+    year: 2021
+    paper_url: "https://davisjam.github.io/files/publications/KazerouniDavisBasakShafferServantEdwards-JSS21.pdf"
+    links:
+      paper: "/files/publications/KazerouniDavisBasakShafferServantEdwards-JSS21.pdf"
+    cluster: engineering-education
+
+  - id: J-11
+    type: journal
+    title: "Expectations and Experiences of Short-Term Study Abroad Leadership Teams"
+    venue: "Journal of International Engineering Education (JIEE)"
+    year: 2020
+    paper_url: "https://davisjam.github.io/files/publications/OzkanDavisDavisJamesMurziKnight-JIEE20.pdf"
+    links:
+      paper: "/files/publications/OzkanDavisDavisJamesMurziKnight-JIEE20.pdf"
+    cluster: engineering-education
+
+  - id: M-1
+    type: magazine
+    title: "Establishing Provenance Before Coding: Traditional and Next-Gen Software Signing"
+    authors: "T.R. Schorlemmer, E. Burmane, K. Kalu, S. Torres-Arias, and J.C. Davis"
+    venue: "IEEE Security & Privacy Magazine -- Special Issue 'Secure Software Before Codeing'"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2407.03949"
+    links:
+      paper: "https://arxiv.org/pdf/2407.03949"
+    program_notes:
+      software-supply-chain: "States the provenance-before-coding argument for a practitioner audience."
+    projects: [software-supply-chain]
+    role_in_project:
+      software-supply-chain: core
+
+  - id: M-2
+    type: magazine
+    title: "Evolution of Winning Solutions in the 2021 Low-Power Computer Vision Challenge"
+    authors: "X. Hu, Z. Jiao, A. Kocher, Z. Wu, J. Liu, J.C. Davis, G.K. Thiruvathukal, and Y.H. Lu"
+    venue: "IEEE Computer"
+    year: 2023
+    paper_url: "https://davisjam.github.io/files/publications/HuJiaoKocherWuLiuDavisThiruvathukalLu-LPCVC-Computer2023.pdf"
+    links:
+      paper: "/files/publications/HuJiaoKocherWuLiuDavisThiruvathukalLu-LPCVC-Computer2023.pdf"
+    cluster: efficient-ml-systems
+
+  - id: M-3
+    type: magazine
+    title: "Tree-based Unidirectional Neural Networks for Low-Power Computer Vision"
+    authors: "A. Goel, C. Tung, N. Eliopoulos, A. Wang, J.C. Davis, G.K. Thiruvathukal, and Y.H. Lu"
+    venue: "IEEE Design & Test"
+    year: 2022
+    paper_url: "https://ieeexplore.ieee.org/document/9935301"
+    links:
+      paper: "https://ieeexplore.ieee.org/document/9935301"
+    cluster: efficient-ml-systems
+
+  - id: W-1
+    type: workshop
+    title: "An Empirical Investigation of Pre-Trained Deep Learning Model Reuse in the Scientific Process"
+    authors: "N. Synovic, K. Ryzka, A.V.V. Solari, K. Lyons, J.C. Davis, and G.K. Thiruvathukal"
+    program_notes:
+      ptm-se: "An early empirical look at pre-trained model reuse in the wild."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: W-2
+    type: workshop
+    title: "Software Supply Chains are Dead: Use-Case-Oriented Regeneration"
+    authors: "T. Singla and J.C. Davis"
+    program_notes:
+      mage: "Argues that when regeneration is cheap, reuse decisions change shape. The position that connects the supply-chain work to the agentic setting."
+    projects: [mage]
+    role_in_project:
+      mage: core
+
+  - id: W-3
+    type: workshop
+    title: "Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen"
+    venue: "ACM International Conference on the Foundations of Software Engineering -- Industry track (FSE-Industry)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2510.02185"
+    links:
+      paper: "https://arxiv.org/pdf/2510.02185"
+    program_notes:
+      embedded-swe: "False positives are what make automated fuzz-driver generation unusable in practice; this reports what reducing them took inside Google's OSS-Fuzz-Gen."
+    projects: [embedded-swe]
+    role_in_project:
+      embedded-swe: core
+
+  - id: W-4
+    type: workshop
+    title: "Towards the Systematic Testing of Regular Expression Engines"
+    venue: "ICSE Journal Ahead Workshop (JAWs)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2603.00311"
+    links:
+      paper: "https://arxiv.org/pdf/2603.00311"
+    program_notes:
+      saferegex: "Regex engines themselves are largely untested against their own semantics; this proposes testing them systematically."
+    projects: [saferegex]
+    role_in_project:
+      saferegex: core
+
+  - id: W-5
+    type: workshop
+    title: "AgentHub: A Registry for Discoverable, Verifiable, and Reproducible AI Agents"
+    venue: "ICSE Journal Ahead Workshop (JAWs)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2510.03495"
+    links:
+      paper: "https://arxiv.org/pdf/2510.03495"
+    program_notes:
+      mage: "A registry for agents, treating discoverability, verification, and reproducibility as properties an agent ecosystem has to provide rather than properties individual users establish."
+      software-supply-chain: "Agent ecosystems are beginning to distribute executable capability, and they inherit the registry trust problem before they inherit its defences."
+    projects: [mage, software-supply-chain]
+    role_in_project:
+      mage: core
+      software-supply-chain: application
+
+  - id: W-6
+    type: workshop
+    title: "ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain"
+    authors: "K.G. Kalu, S. Okorafor, B. Durak, K. Laine, R.C. Moreno, S. Torres-Arias, and J.C. Davis"
+    venue: "ICSE Journal Ahead Workshop (JAWs)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2505.18760"
+    links:
+      paper: "https://arxiv.org/pdf/2505.18760"
+    program_notes:
+      software-supply-chain: "Maintainers can review a pull request for correctness but not for the trustworthiness of its author; ARMS proposes reputation as the missing signal."
+    projects: [software-supply-chain]
+    role_in_project:
+      software-supply-chain: core
+
+  - id: W-7
+    type: workshop
+    title: "Towards a Benchmark for Dependency Decision-Making"
+    venue: "ICSE Journal Ahead Workshop (JAWs)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2601.00205"
+    links:
+      paper: "https://arxiv.org/pdf/2601.00205"
+    program_notes:
+      software-supply-chain: "Dependency decision-making has no benchmark, so competing approaches cannot be compared. This proposes one."
+    projects: [software-supply-chain]
+    role_in_project:
+      software-supply-chain: core
+
+  - id: W-8
+    type: workshop
+    title: "Operationalizing Research Software for Supply Chain Security"
+    authors: "K. Kalu, S. Rattan, T.R. Schorlemmer, G.K. Thiruvathukal, J.C. Carver, and J.C. Davis"
+    venue: "ICSE Journal Ahead Workshop (JAWs)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2601.20980"
+    links:
+      paper: "https://arxiv.org/pdf/2601.20980"
+    program_notes:
+      software-supply-chain: "Research software has a supply chain with different incentives and far less tooling than industry's."
+    projects: [software-supply-chain]
+    role_in_project:
+      software-supply-chain: core
+
+  - id: W-9
+    type: workshop
+    title: "Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization"
+    authors: "H. Peng, P.V. Patil, A.Z. Qiu, G.K. Thiruvathukal, and J.C. Davis"
+    venue: "ICSE Journal Ahead Workshop (JAWs)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2603.14703"
+    links:
+      paper: "https://arxiv.org/pdf/2603.14703"
+    program_notes:
+      mage: "Extends optimization from local edits to reasoning across a system, which is where delegated work starts to need explicit models rather than context."
+    projects: [mage]
+    role_in_project:
+      mage: core
+
+  - id: W-10
+    type: workshop
+    title: "How Do Agents Perform Code Optimization? An Empirical Study"
+    venue: "Proceedings of the 23rd International Mining Software Repositories Conference -- Mining Challenge track (MSR-MiningChallenge)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2512.21757"
+    links:
+      paper: "https://arxiv.org/pdf/2512.21757"
+    program_notes:
+      mage: "Characterizes what agents actually do when asked to optimize code, which is the empirical ground for claims about where judgment still has to sit."
+    projects: [mage]
+    role_in_project:
+      mage: core
+
+  - id: W-11
+    type: workshop
+    title: "A Unit Proofing Framework for Code-level Verification: A Research Agenda"
+    authors: "P.C. Amusuo, P.V. Patil, O. Cochell, T. Le Lievre, and J.C. Davis"
+    venue: "Proceedings of the 47th IEEE/ACM International Conference on Software Engineering - New Ideas and Emerging Results Track (ICSE-NIER)"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2410.14818"
+    links:
+      paper: "https://arxiv.org/pdf/2410.14818"
+    program_notes:
+      embedded-swe: "Sets out the Unit Proofing agenda: design-level verification does not expose implementation defects, so verification has to reach the code."
+    projects: [embedded-swe]
+    role_in_project:
+      embedded-swe: core
+
+  - id: W-12
+    type: workshop
+    title: "Recommending Pre-Trained Models for IoT Devices"
+    authors: "P.V. Patil, W. Jiang, H. Peng, D. Lugo, K.G. Kalu, J. LeBlanc, L. Smith, H. Heo, N. Aou, and J.C. Davis"
+    venue: "Proceedings of the 7th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT)"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2412.18972"
+    links:
+      paper: "https://arxiv.org/pdf/2412.18972"
+    program_notes:
+      ptm-se: "Recommending models for constrained devices, where the reuse decision is bounded by the hardware it has to run on."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: W-13
+    type: workshop
+    title: "Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency"
+    authors: "S. Joshi, P. Mukherjee, K.A. Davis, and J.C. Davis"
+    venue: "Annual Conference of the American Society for Engineering Education (ASEE)"
+    year: 2024
+    paper_url: "https://arxiv.org/pdf/2404.16632"
+    links:
+      paper: "https://arxiv.org/pdf/2404.16632"
+    awards: [best-paper]
+    cluster: engineering-education
+
+  - id: W-14
+    type: workshop
+    title: "An Exploratory Study on Upper-Level Computing Students' Use of Large Language Models as Tools in a Semester-Long Project"
+    authors: "B.A. Tanay, L. Arinze, S. Joshi, K.A. Davis, and J.C. Davis"
+    venue: "Annual Conference of the American Society for Engineering Education (ASEE)"
+    year: 2024
+    paper_url: "https://arxiv.org/pdf/2403.18679"
+    links:
+      paper: "https://arxiv.org/pdf/2403.18679"
+    cluster: engineering-education
+
+  - id: W-15
+    type: workshop
+    title: "Reusing Deep Learning Models: Challenges and Directions in Software Engineering"
+    authors: "J.C. Davis, P. Jajal, W. Jiang, T.R. Schorlemmer, N. Synovic, and G.K. Thiruvathukal"
+    venue: "Proceedings of the IEEE John Vincent Atanasoff Symposium on Modern Computing (JVA’23)"
+    year: 2023
+    paper_url: "https://davisjam.github.io/files/publications/DavisJajalJiangSchorlemmerSynovicThiruvathukal-DNNReuse-JVA23.pdf"
+    links:
+      paper: "/files/publications/DavisJajalJiangSchorlemmerSynovicThiruvathukal-DNNReuse-JVA23.pdf"
+    program_notes:
+      ptm-se: "Framed model reuse as a software-engineering problem with its own challenges, rather than a machine-learning convenience."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: W-16
+    type: workshop
+    title: "Towards Rehosting Embedded Applications as Linux Applications"
+    authors: "J. Srinivasan, S.R. Tanksalkar, P. Amusuo, J.C. Davis, and A. Machiry"
+    venue: "Proceedings of the 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks — Disrupt track (DSN-Disrupt)"
+    year: 2023
+    paper_url: "https://davisjam.github.io/files/publications/SrinivasanTanksalkarAmusuoDavisMachiry-Rehosting-DSN2023.pdf"
+    links:
+      paper: "/files/publications/SrinivasanTanksalkarAmusuoDavisMachiry-Rehosting-DSN2023.pdf"
+    program_notes:
+      embedded-swe: "First statement of rehosting embedded applications as ordinary Linux programs, so dynamic analysis no longer waits on hardware emulation."
+    projects: [embedded-swe]
+    role_in_project:
+      embedded-swe: core
+
+  - id: W-17
+    type: workshop
+    title: "Towards Automated Identification of Layering Violations in Embedded Applications (WIP)"
+    authors: "M. Shen, J.C. Davis, and A. Machiry"
+    venue: "Proceedings of the 24th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES)"
+    year: 2023
+    paper_url: "https://davisjam.github.io/files/publications/ShenDavisMachiry-NCMAs-LCTES23.pdf"
+    links:
+      paper: "/files/publications/ShenDavisMachiry-NCMAs-LCTES23.pdf"
+    program_notes:
+      embedded-swe: "Layered design is what makes embedded software portable, so violations of the layering are a defect class worth detecting automatically."
+    projects: [embedded-swe]
+    role_in_project:
+      embedded-swe: core
+
+  - id: W-18
+    type: workshop
+    title: "Reflecting on the use of the Policy-Process-Product Theory in Empirical Software Engineering"
+    authors: "K.G. Kalu, T.R. Schorlemmer, S. Chen, K.A. Robinson, and J.C. Davis"
+    venue: "Proceedings of the 31st ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR)"
+    year: 2023
+    paper_url: "https://davisjam.github.io/files/publications/KaluSchorlemmerChenRobinsonKocinareDavis-PPPTheory-FSEIVR2023.pdf"
+    links:
+      blog: "https://davisjam.medium.com/reflecting-on-the-use-of-the-policy-process-product-theory-b95c4957840c"
+      paper: "/files/publications/KaluSchorlemmerChenRobinsonKocinareDavis-PPPTheory-FSEIVR2023.pdf"
+    program_notes:
+      failure-aware-sdlc: "Examines the assumption underlying most of empirical software engineering — that policy and process shape product quality — and asks how often it is actually established rather than assumed."
+    projects: [failure-aware-sdlc]
+    role_in_project:
+      failure-aware-sdlc: core
+
+  - id: W-19
+    type: workshop
+    title: "PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages"
+    authors: "W. Jiang*, N. Synovic*, P. Jajal, T.R. Schorlemmer, A. Tewari, B. Pareek, G.K. Thiruvathukal, and J.C. Davis"
+    venue: "Proceedings of the 20th Annual Conference on Mining Software Repositories — Data and Tool Showcase Track (MSR-Data’23)"
+    year: 2023
+    paper_url: "https://arxiv.org/pdf/2303.08934"
+    links:
+      artifact: "https://doi.org/10.5281/zenodo.7570357"
+      blog: "https://medium.com/@davisjam/an-empirical-study-of-pre-trained-model-reuse-in-the-hugging-face-deep-learning-model-registry-6ccfb0e58809"
+      paper: "https://arxiv.org/pdf/2303.08934"
+    program_notes:
+      ptm-se: "PTMTorrent made the model ecosystem minable, so claims about it could be measured instead of asserted."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: W-20
+    type: workshop
+    title: "An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures"
+    authors: "T. Singla, D. Anandayuvaraj, K.G. Kalu, T.R. Schorlemmer, and J.C. Davis"
+    venue: "Proceedings of the 2nd ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)"
+    year: 2023
+    paper_url: "https://davisjam.github.io/files/publications/SinglaAnandayuvarajKaluSchorlemmerDavis-LLMsForSupplyChainFailureAnalysis-SCORED2023.pdf"
+    links:
+      artifact: "https://zenodo.org/record/8365116"
+      paper: "/files/publications/SinglaAnandayuvarajKaluSchorlemmerDavis-LLMsForSupplyChainFailureAnalysis-SCORED2023.pdf"
+    program_notes:
+      software-supply-chain: "Tests whether language models can analyze supply-chain failures at the scale the evidence actually exists."
+      failure-aware-sdlc: "Tests whether language models can do the reading that failure analysis requires, which is the bottleneck on doing it at scale."
+    projects: [software-supply-chain, failure-aware-sdlc]
+    role_in_project:
+      software-supply-chain: core
+      failure-aware-sdlc: core
+
+  - id: W-21
+    type: workshop
+    title: "Incorporating Failure Knowledge into Design Decisions for IoT Systems: A Controlled Experiment on Novices"
+    authors: "D. Anandayuvaraj, P. Thulluri, J. Figueroa, H. Shandilya, and J.C. Davis"
+    venue: "Proceedings of the 5th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT)"
+    year: 2023
+    paper_url: "https://davisjam.github.io/files/publications/AnandayuvarajThulluriFigueroaShandilyaDavis-FailureKnowledgeAndDesignDecisions-SERP4IoT2023.pdf"
+    links:
+      blog: "https://davisjam.medium.com/incorporating-failure-knowledge-into-design-decisions-for-iot-systems-a-controlled-experiment-825464c55f59"
+      paper: "/files/publications/AnandayuvarajThulluriFigueroaShandilyaDavis-FailureKnowledgeAndDesignDecisions-SERP4IoT2023.pdf"
+    program_notes:
+      failure-aware-sdlc: "A controlled study of whether failure knowledge changes design decisions. Moves the claim from plausible to tested."
+    projects: [failure-aware-sdlc]
+    role_in_project:
+      failure-aware-sdlc: core
+
+  - id: W-22
+    type: workshop
+    title: "An Empirical Study of Artifacts and Security Practices in the Pre-trained Model Supply Chain"
+    authors: "W. Jiang, N. Synovic, R. Sethi, A. Indarapu, M. Hyatt, T.R. Schorlemmer, G.K. Thiruvathukal, and J.C. Davis"
+    venue: "Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)"
+    year: 2022
+    paper_url: "https://davisjam.github.io/files/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukalDavis-PTMSupplyChain-SCORED22.pdf"
+    links:
+      artifact: "https://github.com/PurdueDualityLab/SCORED22-PTMSupplyChain"
+      blog: "https://davisjam.medium.com/an-empirical-study-of-artifacts-and-security-risks-in-the-pre-trained-model-supply-chain-2c75fd99942b"
+      paper: "/files/publications/JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukalDavis-PTMSupplyChain-SCORED22.pdf"
+    program_notes:
+      ptm-se: "Characterized what is actually published alongside pre-trained models and what security practices accompany them."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: W-23
+    type: workshop
+    title: "Efficient Computer Vision on Edge Devices with Pipeline-Parallel Hierarchical Neural Network"
+    authors: "A. Goel, C. Tung, X. Hu, G.K. Thiruvathukal, J.C. Davis, and Y.H. Lu"
+    venue: "Proceedings of the 27th Asia and South Pacific Design Automation Conference (ASP-DAC)"
+    year: 2022
+    paper_url: "https://davisjam.github.io/files/publications/GoelTungHuThiruvathukalDavisLu-ASPDAC2022.pdf"
+    links:
+      paper: "/files/publications/GoelTungHuThiruvathukalDavisLu-ASPDAC2022.pdf"
+    cluster: efficient-ml-systems
+
+  - id: W-24
+    type: workshop
+    title: "Reflecting on Recurring Failures in IoT Development"
+    authors: "D. Anandayuvaraj and J.C. Davis"
+    venue: "Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering: New Ideas and Emerging Results track (ASE-NIER)"
+    year: 2022
+    paper_url: "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1180&context=ecepubs"
+    links:
+      artifact: "https://tinyurl.com/3h2c85rc"
+      blog: "https://davisjam.medium.com/reflecting-on-recurring-failures-in-iot-development-68df5b45a837"
+      paper: "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1180&context=ecepubs"
+    program_notes:
+      failure-aware-sdlc: "Showed that IoT failures recur through a small number of design flaws, so the knowledge to prevent them existed before the failures happened."
+    projects: [failure-aware-sdlc]
+    role_in_project:
+      failure-aware-sdlc: core
+
+  - id: W-25
+    type: workshop
+    title: "Discrepancies among Pre-trained Deep Neural Networks: A New Threat to Model Zoo Reliability"
+    authors: "D. Montes, P. Peerapatanapokin, J. Schultz, C. Guo, W. Jiang, and J.C. Davis"
+    venue: "Proceedings of the 30th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR)"
+    year: 2022
+    paper_url: "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1181&context=ecepubs"
+    links:
+      paper: "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1181&context=ecepubs"
+    program_notes:
+      ptm-se: "Found that nominally identical pre-trained models from model zoos differ, which makes a model zoo a supply chain rather than a catalogue."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: W-26
+    type: workshop
+    title: "Reflections on Software Failure Analysis"
+    authors: "P. Amusuo, A. Sharma, S.R. Rao, A. Vincent, and J.C. Davis"
+    venue: "Proceedings of the 30th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR)"
+    year: 2022
+    paper_url: "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1183&context=ecepubs"
+    links:
+      blog: "https://davisjam.medium.com/reflections-on-software-failure-analysis-cd28d57539ba"
+      paper: "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1183&context=ecepubs"
+    program_notes:
+      failure-aware-sdlc: "Surveyed how failure studies are actually conducted and found the methods inconsistent, which is the problem the rest of this program addresses."
+    projects: [failure-aware-sdlc]
+    role_in_project:
+      failure-aware-sdlc: core
+
+  - id: W-27
+    type: workshop
+    title: "SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties"
+    authors: "C. Okafor*, T.R. Schorlemmer*, S. Torres-Arias, and J.C. Davis"
+    venue: "Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)"
+    year: 2022
+    paper_url: "https://arxiv.org/pdf/2406.10109"
+    links:
+      blog: "https://medium.com/p/6a0c897d5777"
+      paper: "https://arxiv.org/pdf/2406.10109"
+    program_notes:
+      software-supply-chain: "Systematized the field around three properties — transparency, validity, separation — giving later work a vocabulary for what a defence establishes."
+    projects: [software-supply-chain]
+    role_in_project:
+      software-supply-chain: core
+
+  - id: W-28
+    type: workshop
+    title: "Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics"
+    venue: "Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering: Demonstrations track (ASE-Demonstrations)"
+    year: 2022
+    paper_url: "https://davisjam.github.io/files/publications/SynovicHyattSethiThotaShilpikaMillerJiangPinderskiLauferHaywardKlingensmithDavisThiruvathukal-LongitudinalMetrics-ASE22Demo.pdf"
+    links:
+      artifact: "https://github.com/SoftwareSystemsLaboratory/prime"
+      video: "https://youtu.be/YigEHy3_JCo"
+      paper: "/files/publications/SynovicHyattSethiThotaShilpikaMillerJiangPinderskiLauferHaywardKlingensmithDavisThiruvathukal-LongitudinalMetrics-ASE22Demo.pdf"
+    cluster: reliability-security-systems
+
+  - id: W-29
+    type: workshop
+    title: "“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices"
+    authors: "N. Gopalakrishna, D. Anandayuvaraj, A. Detti, F. Bland, S. Rahaman, and J.C. Davis"
+    venue: "Proceedings of the 4th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT)"
+    year: 2022
+    paper_url: "https://davisjam.github.io/files/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf"
+    links:
+      artifact: "https://doi.org/10.5281/zenodo.6383066"
+      paper: "/files/publications/GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf"
+    program_notes:
+      ptm-se: "Asks what security practices ML-based IoT engineering uses in practice, and finds them conditional on someone requiring them."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: W-30
+    type: workshop
+    title: "Experience Paper: A First Offering of Software Engineering"
+    authors: "J.C. Davis, P. Amusuo, and J.R. Bushagour"
+    venue: "Proceedings of the 1st International Workshop on Designing and Running Project-Based Courses in Software Engineering Education (DREE)"
+    year: 2022
+    paper_url: "https://davisjam.github.io/files/publications/DavisAmusuoBushagour-ExperienceIn461.pdf"
+    links:
+      artifact: "https://doi.org/10.5281/zenodo.5828087"
+      video: "https://youtu.be/HeMwfk1Ina0"
+      paper: "/files/publications/DavisAmusuoBushagour-ExperienceIn461.pdf"
+    cluster: engineering-education
+
+  - id: W-31
+    type: workshop
+    title: "Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach"
+    authors: "N. Veselsky, J. West, I. Ahlgren, A. Goel, W. Jiang, K. Lee, Y. Kim, J.C. Davis, G.K. Thiruvathukal, and N. Klingensmith"
+    venue: "Proceedings of the 23rd Annual International Workshop on Mobile Computing Systems and Application (HotMobile)"
+    year: 2022
+    paper_url: "https://davisjam.github.io/files/publications/VeselskyWestAhlgrenGoelJiangLeeKimDavisThiruvathukalKlingensmith-V2VTrust-HotMobile.pdf"
+    links:
+      paper: "/files/publications/VeselskyWestAhlgrenGoelJiangLeeKimDavisThiruvathukalKlingensmith-V2VTrust-HotMobile.pdf"
+    cluster: reliability-security-systems
+
+  - id: W-32
+    type: workshop
+    title: "A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'"
+    authors: "J.M. Winkler, A. Agarwal, C. Tung, D.R. Ugalde, Y.J. Jung, and J.C. Davis"
+    venue: "Proceedings of the 29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Artifacts Track (ESEC/FSE-Artifacts)"
+    year: 2021
+    paper_url: "https://github.com/PurdueDualityLab/deepbugs-jr/blob/develop/paper/Deepbugs_Replication_Paper_Abstract.pdf"
+    links:
+      artifact: "https://doi.org/10.5281/zenodo.5110820"
+      blog: "https://davisjam.medium.com/a-partial-replication-of-deepbugs-a-learning-approach-to-name-based-bug-detection-1e35421a69e"
+      paper: "https://github.com/PurdueDualityLab/deepbugs-jr/blob/develop/paper/Deepbugs_Replication_Paper_Abstract.pdf"
+    cluster: reliability-security-systems
+
+  - id: W-33
+    type: workshop
+    title: "On the Impact and Defeat of Regex DoS"
+    authors: "J.C. Davis"
+    program_notes:
+      saferegex: "The Student Research Competition statement of the ReDoS problem and its defences."
+    projects: [saferegex]
+    role_in_project:
+      saferegex: core
+
+  - id: W-34
+    type: workshop
+    title: "Rethinking Regex Engines to Address ReDoS"
+    authors: "J.C. Davis"
+    venue: "Proceedings of the 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE'19) --- Student research competition."
+    year: 2019
+    paper_url: "https://davisjam.github.io/files/publications/Davis-RethinkingRegexEngines-FSE19-SRC-paper.pdf"
+    links:
+      paper: "/files/publications/Davis-RethinkingRegexEngines-FSE19-SRC-paper.pdf"
+    program_notes:
+      saferegex: "Argued the problem is in the engines: worst-case-exponential matching is an implementation choice, not a property of regular expressions."
+    projects: [saferegex]
+    role_in_project:
+      saferegex: core
+
+  - id: W-35
+    type: workshop
+    title: "Ursprung: Provenance for Large-Scale Analytics Environments"
+    authors: "L. Rupprecht, J.C. Davis, C. Arnold, A. Lubbock, D. Tyson, and D. Bhagwat"
+    venue: "Proceedings of the 2019 International Conference on Management of Data: Demonstrations track (SIGMOD-Demonstrations)"
+    year: 2019
+    paper_url: "https://davisjam.github.io/files/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf"
+    links:
+      paper: "/files/publications/RupprechtDavisetal-SIGMOD-Demo-19.pdf"
+    cluster: reliability-security-systems
+
+  - id: W-36
+    type: workshop
+    title: "The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture"
+    authors: "J.C. Davis, G. Kildow, and D. Lee"
+    venue: "Proceedings of the 10th European Workshop on Systems Security (EuroSec)"
+    year: 2017
+    paper_url: "https://davisjam.github.io/files/publications/DavisKildowLee-EHP-EuroSec17.pdf"
+    links:
+      paper: "/files/publications/DavisKildowLee-EHP-EuroSec17.pdf"
+    program_notes:
+      saferegex: "The event-handler poisoning weakness in Node.js, which is where the performance-as-a-security-property line of work began."
+    projects: [saferegex]
+    role_in_project:
+      saferegex: precursor
+
+  - id: R-1
+    type: report
+    title: "A Longitudinal Study of Usability in Identity-Based Software Signing"
+    authors: "K. Kalu, H. Tran, S. Torres-Arias, S. Jeong, and J.C. Davis"
+    venue: "arXiv"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2603.17133"
+    links:
+      paper: "https://arxiv.org/pdf/2603.17133"
+    program_notes:
+      software-supply-chain: "Follows identity-based signing usability over time rather than at one moment, which is where adoption problems become visible."
+    projects: [software-supply-chain]
+    role_in_project:
+      software-supply-chain: core
+
+  - id: R-2
+    type: report
+    title: "Reactive Bottom-Up Testing"
+    authors: "S. Muralee, S. Cherupattamoolayil, J.C. Davis, A. Bianchi, and A. Machiry"
+    venue: "arXiv"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2509.03711"
+    links:
+      paper: "https://arxiv.org/pdf/2509.03711"
+    program_notes:
+      embedded-swe: "Reactive bottom-up testing: reaching deep code by building tests upward from the units rather than driving from the top."
+    projects: [embedded-swe]
+    role_in_project:
+      embedded-swe: core
+
+  - id: R-3
+    type: report
+    title: "A Guide to Stakeholder Analysis for Cybersecurity Researchers"
+    authors: "J.C. Davis, S. Chen, H. Peng, P. Amusuo, and K. Kalu"
+    venue: "arXiv"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2508.14796"
+    links:
+      paper: "https://arxiv.org/pdf/2508.14796"
+    program_notes:
+      failure-aware-sdlc: "Failure knowledge only changes engineering if it reaches the people who decide; stakeholder analysis is the missing step in most such work."
+    projects: [failure-aware-sdlc]
+    role_in_project:
+      failure-aware-sdlc: core
+
+  - id: R-4
+    type: report
+    title: "Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies"
+    venue: "arXiv"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2503.20579"
+    links:
+      paper: "https://arxiv.org/pdf/2503.20579"
+    program_notes:
+      saferegex: "Compares strategies for composing regexes, asking whether reuse is the right default at the level of the expression itself."
+    projects: [saferegex]
+    role_in_project:
+      saferegex: core
+
+  - id: R-5
+    type: report
+    title: "Improving the Reproducibility of Deep Learning Software: An Initial Investigation through a Case Study Analysis. https://arxiv.org/pdf/2505.03165. 2025"
+    authors: "N. Ravi, A. Goel, J.C. Davis, and G.K. Thiruvathukal"
+    program_notes:
+      ptm-se: "An early look at why deep-learning results are hard to reproduce, before reuse became the dominant mode."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: R-6
+    type: report
+    title: "Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions"
+    venue: "arXiv"
+    year: 2024
+    paper_url: "https://arxiv.org/pdf/2410.09241"
+    links:
+      paper: "https://arxiv.org/pdf/2410.09241"
+    cluster: efficient-ml-systems
+
+  - id: R-7
+    type: report
+    title: "A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden"
+    authors: "V. Purohit, W. Jiang, A.R. Ravikiran, and J.C. Davis"
+    venue: "arXiv"
+    year: 2024
+    paper_url: "https://arxiv.org/pdf/2404.18801"
+    links:
+      paper: "https://arxiv.org/pdf/2404.18801"
+    program_notes:
+      ptm-se: "A partial replication across frameworks, which is where interoperability claims are tested rather than stated."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: R-8
+    type: report
+    title: "An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors"
+    authors: "V. Banna, A. Chinnakotla, Z. Yan, A. Vegesana, N. Vivek, K. Krishnappa, W. Jiang, Y.H. Lu, G.K. Thiruvathukal, and J.C. Davis"
+    venue: "arXiv"
+    year: 2021
+    paper_url: "https://arxiv.org/pdf/2107.00821"
+    links:
+      paper: "https://arxiv.org/pdf/2107.00821"
+    program_notes:
+      ptm-se: "Turned the reproducibility problem into guidance practitioners could apply."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: Pa-1
+    type: patent
+    title: "A method for identifying naming mismatches in neural networks based on their architectural properties"
+    authors: "Jiang, Cheung, Kim, Kim, **Davis**"
+    venue: "US provisional patent application, held by Purdue University"
+    year: 2025
+    program_notes:
+      ptm-se: "Identifies naming mismatches from a network's architecture, making the naming problem detectable rather than only observable."
+    projects: [ptm-se]
+    role_in_project:
+      ptm-se: core
+
+  - id: Pa-2
+    type: patent
+    title: "Determining a validity of an event emitter based on a rule"
+    authors: "**Davis**, Davis"
+    venue: "US patent, held by IBM"
+    year: 2024
+    paper_url: "https://patents.google.com/patent/US20220374265A1/en"
+    links:
+      paper: "https://patents.google.com/patent/US20220374265A1/en"
+    patent_number: US11875185B2
+    links:
+      record: "https://patents.google.com/patent/US11875185B2/en"
+
+  - id: Pa-3
+    type: patent
+    title: "Verification of the Integrity of Data Files Stored in Copy-on-Write (CoW) Based File System Snapshots"
+    authors: "Davis, **Davis**"
+    venue: "US patent, held by IBM"
+    year: 2021
+    paper_url: "https://patents.google.com/patent/US11176090B2/en"
+    links:
+      paper: "https://patents.google.com/patent/US11176090B2/en"
+    patent_number: US11176090B2
+    links:
+      record: "https://patents.google.com/patent/US11176090B2/en"
+
+  - id: Pa-4
+    type: patent
+    title: "Injection of simulated hardware failure(s) in a file system for establishing file system tolerance-to-storage-failure(s)"
+    authors: "**Davis**, Davis"
+    venue: "US patent, held by IBM"
+    year: 2021
+    paper_url: "https://patents.google.com/patent/US11023341B2/en"
+    links:
+      paper: "https://patents.google.com/patent/US11023341B2/en"
+
+  - id: Pa-5
+    type: patent
+    title: "Performing hierarchical provenance collection"
+    authors: "**Davis**, Rupprecht, Bhagwat, Arnold, Sawdon"
+    venue: "US patent, held by IBM"
+    year: 2021
+    paper_url: "https://patents.google.com/patent/US10891174B1/en"
+    links:
+      paper: "https://patents.google.com/patent/US10891174B1/en"
+    patent_number: US10891174B1
+    links:
+      record: "https://patents.google.com/patent/US10891174B1/en"
+
+  - id: Pa-6
+    type: patent
+    title: "File metadata verification in a distributed file system"
+    authors: "**Davis**, Davis"
+    venue: "US patent, held by IBM"
+    year: 2020
+    paper_url: "https://patents.google.com/patent/US10642796B2/en"
+    links:
+      paper: "https://patents.google.com/patent/US10642796B2/en"
+    patent_number: US10642796B2
+    links:
+      record: "https://patents.google.com/patent/US10642796B2/en"
+
+  - id: Pa-7
+    type: patent
+    title: "Testing of lock managers in computing environments"
+    authors: "Davis, **Davis**"
+    venue: "US patent, held by IBM"
+    year: 2020
+    paper_url: "https://patents.google.com/patent/US10614040B2/en"
+    links:
+      paper: "https://patents.google.com/patent/US10614040B2/en"
+    patent_number: US10614039B2
+    links:
+      record: "https://patents.google.com/patent/US10614039B2/en"
+
+  - id: Pa-8
+    type: patent
+    title: "Detection of file corruption in a distributed file system"
+    authors: "**Davis**, Davis, Knop"
+    venue: "US patent, held by IBM"
+    year: 2019
+    paper_url: "https://patents.google.com/patent/US10229121B2/en"
+    links:
+      paper: "https://patents.google.com/patent/US10229121B2/en"
+    patent_number: US10229121B2
+    links:
+      record: "https://patents.google.com/patent/US10229121B2/en"
+
+  - id: Ps-1
+    type: poster
+    title: "Advancing Jailbreak Strategies: A Hybrid Approach to Exploiting LLM Vulnerabilities and Bypassing Modern Defenses"
+    authors: "M. Ahmed, M. Abdelmouty, M. Kim, G. Kandula, A. Park, and J.C. Davis"
+    venue: "IEEE Secure Development Conference (SecDev) -- Poster Track"
+    year: 2025
+    paper_url: "https://arxiv.org/pdf/2506.21972"
+    links:
+      paper: "https://arxiv.org/pdf/2506.21972"
+
+  - id: Ps-2
+    type: poster
+    title: "Investigating Software Provenance Consistency in the Open Source Publishing Pipeline"
+    authors: "K.G. Kalu and J.C. Davis"
+
+  - id: Ps-3
+    type: poster
+    title: "Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies"
+
+  - id: Ps-4
+    type: poster
+    title: "Towards Scalable and Performance-Aware Code Optimization with LLMs"
+
+  - id: Ps-5
+    type: poster
+    title: "Optimizing Multi-Agent Collaboration in Software Engineering"
+    authors: "L. Yadava, P. Kumar, Z. Homrich, R. Potta, P. Kapila, and J.C. Davis"
+
+  - id: Ps-6
+    type: poster
+    title: "Software Signing: Practical Adoption, Challenges, and Tooling Usability. 2025 Purdue CERIAS Symposium (CERIAS’25)"
+    authors: "K.G. Kalu, S. Torres-Arias, and J.C. Davis"
+
+  - id: Ps-7
+    type: poster
+    title: "Exploring Deep Neural Network Reuse in Computational Natural Science"
+    authors: "N. Synovic, K. Ryzka, A.V. Solari, J.C. Davis, and G.K. Thiruvathukal"
+
+  - id: Ps-8
+    type: poster
+    title: "A First Look at the General Data Protection Regulation (GDPR) in Open-Source Software"
+    authors: "L. Franke, H. Liang, A. Brantly, J.C. Davis, and C. Brown"
+    venue: "Proceedings of the ACM/IEEE 46th International Conference on Software Engineering -- Poster Track (ICSE-Poster)"
+    year: 2024
+    paper_url: "https://arxiv.org/pdf/2401.14629"
+    links:
+      paper: "https://arxiv.org/pdf/2401.14629"
+
+  - id: Ps-9
+    type: poster
+    title: "LeMix: Rehosting Embedded Systems as Linux Applications for Effective Vulnerability Detection. 2024 Purdue CERIAS Symposium (CERIAS’24)"
+    authors: "S.R. Tanksalkar, J. Srinivasan, S. Danduri, P. Amusuo, J.C. Davis, and A. Machiry"
+
+  - id: Ps-10
+    type: poster
+    title: "Navigating Software Supply Chain Risks: Practitioner Perspectives on Software Signing. 2024 Purdue CERIAS Symposium (CERIAS’24)"
+    authors: "K.G. Kalu, S. Torres-Arias, and J.C. Davis"
+
+  - id: Ps-11
+    type: poster
+    title: "Machine Learning Supply Chain Security. 2023 Purdue CERIAS Symposium (CERIAS’23)"
+    authors: "T.R. Schorlemmer, W. Jiang, and J.C. Davis"
+
+  - id: Ps-12
+    type: poster
+    title: "Trustworthy Re-use of Pre-trained Neural Networks. 2023 Purdue CERIAS Symposium (CERIAS’23)"
+    authors: "W. Jiang, T.R. Schorlemmer, and J.C. Davis"
+
+  - id: Ps-13
+    type: poster
+    title: "Plan for an evaluation of government cyber threat hunting processes. 2022 Purdue CERIAS Symposium (CERIAS’22)"
+    authors: "W. Maxam and J.C. Davis"
+
+  - id: Ps-14
+    type: poster
+    title: "An Intercultural Engineering Module for Software Engineers"
+    authors: "N. Hornbrook and J.C. Davis"
+    venue: "2021 Annual Colloquium for International Engineering Education (ACIEE)"
+    year: 2021
+    paper_url: "https://davisjam.github.io/files/publications/HornbrookDavis-InterculturalLearningModule-ACIEE2021.pdf"
+    links:
+      paper: "/files/publications/HornbrookDavis-InterculturalLearningModule-ACIEE2021.pdf"
+
+  - id: Ps-15
+    type: poster
+    title: "Exemplars for Machine Learning: Towards Software Engineering & Reproducibility"
+    authors: "N. Vivek, A. Chinnakotla, V. Banna, A. Vegesana, Z. Yan, J.C. Davis, Y.H. Lu, and G.K. Thiruvathukal"
+    venue: "SIAM Conference on Computational Science and Engineering (CSE)"
+    year: 2020
+
+# Candidates from the earlier five-program message that the authoritative
+# six-program directive did not repeat. Left UNASSIGNED pending a decision.
+candidates:

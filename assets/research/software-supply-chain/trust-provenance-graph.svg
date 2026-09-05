@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- semantic-families: neutral, modeling, governance, failure -->
+<!-- Hand-authored SVG (label: trust-provenance-graph). Software Supply Chain Security.
+     ONE JOB: trust is a graph of evidence among actors, artifacts, and consuming
+     contexts. Signing is ONE edge in it, not the whole problem.
+     DELIBERATELY NOT A CHAIN. A chain icon is a pun; it also implies a single
+     linear path with equal links, which is exactly the wrong mental model. What
+     the reader should take away is that several different KINDS of evidence
+     attach to different edges, and that the consumer's context decides whether
+     the accumulated evidence is sufficient.
+     Colour by role: neutral = the entities; modeling green = evidence that has been
+     established; governance rust = the decision edge; failure red = the gap where
+     evidence is absent. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540"
+     role="img" aria-labelledby="sscTitle sscDesc"
+     font-family="Source Sans 3, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+  <title id="sscTitle">Evidence edges in a software supply chain</title>
+  <desc id="sscDesc">An author publishes an artifact, which becomes a dependency
+    inside a consuming system. Different kinds of evidence attach to different
+    edges: identity and reputation to the author, provenance and signatures to
+    the artifact, and policy and context to the consuming system. Signing
+    establishes one of these edges. Whether the accumulated evidence justifies
+    relying on the dependency is a decision made in context.</desc>
+
+  <rect x="0" y="0" width="1200" height="540" fill="#fdfcf9"/>
+
+  <defs>
+    <marker id="sN" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#57534e"/>
+    </marker>
+    <marker id="sR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#9a3f12"/>
+    </marker>
+  </defs>
+
+  <!-- entities -->
+  <rect x="40"  y="196" width="180" height="70" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="400" y="196" width="180" height="70" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="760" y="196" width="180" height="70" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="960" y="380" width="200" height="70" rx="3" fill="#faf1e6" stroke="#9a3f12" stroke-width="2.5"/>
+
+  <!-- evidence edges -->
+  <line x1="220" y1="231" x2="392" y2="231" stroke="#1f7a4d" stroke-width="2" marker-end="url(#sN)"/>
+  <line x1="580" y1="231" x2="752" y2="231" stroke="#1f7a4d" stroke-width="2" marker-end="url(#sN)"/>
+  <path d="M 940 231 L 1060 231 L 1060 372" fill="none" stroke="#9a3f12" stroke-width="2.5" marker-end="url(#sR)"/>
+
+  <!-- evidence badges hanging off each edge -->
+  <rect x="236" y="122" width="148" height="54" rx="3" fill="#e3f0e7" stroke="#1f7a4d" stroke-width="1.2"/>
+  <rect x="596" y="122" width="148" height="54" rx="3" fill="#e3f0e7" stroke="#1f7a4d" stroke-width="1.2"/>
+  <rect x="596" y="300" width="148" height="54" rx="3" fill="#fbeaea" stroke="#b23b3b" stroke-width="1.2"/>
+  <line x1="306" y1="176" x2="306" y2="222" stroke="#1f7a4d" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="666" y1="176" x2="666" y2="222" stroke="#1f7a4d" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="666" y1="266" x2="666" y2="296" stroke="#b23b3b" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- text last -->
+  <text x="40" y="52" font-size="24" font-weight="600" fill="#1c1917"
+        font-family="Source Serif 4, Charter, Georgia, serif">Trust is a graph, not a chain</text>
+  <text x="40" y="80" font-size="16" fill="#57534e">Different evidence attaches to different edges. Signing establishes one of them.</text>
+
+  <text x="130" y="226" font-size="18" font-weight="600" fill="#1c1917" text-anchor="middle">Author</text>
+  <text x="130" y="250" font-size="14" fill="#57534e" text-anchor="middle">a person, an org, a bot</text>
+  <text x="490" y="226" font-size="18" font-weight="600" fill="#1c1917" text-anchor="middle">Artifact</text>
+  <text x="490" y="250" font-size="14" fill="#57534e" text-anchor="middle">package, image, model</text>
+  <text x="850" y="226" font-size="18" font-weight="600" fill="#1c1917" text-anchor="middle">Dependency</text>
+  <text x="850" y="250" font-size="14" fill="#57534e" text-anchor="middle">in a real system</text>
+  <text x="1060" y="410" font-size="18" font-weight="600" fill="#7f2f0c" text-anchor="middle">Should I rely on</text>
+  <text x="1060" y="432" font-size="18" font-weight="600" fill="#7f2f0c" text-anchor="middle">it, here?</text>
+
+  <text x="310" y="146" font-size="15" font-weight="600" fill="#14532d" text-anchor="middle">identity</text>
+  <text x="310" y="166" font-size="14" fill="#1f7a4d" text-anchor="middle">reputation, history</text>
+  <text x="670" y="146" font-size="15" font-weight="600" fill="#14532d" text-anchor="middle">provenance</text>
+  <text x="670" y="166" font-size="14" fill="#1f7a4d" text-anchor="middle">signature, build record</text>
+  <text x="670" y="324" font-size="15" font-weight="600" fill="#7f1d1d" text-anchor="middle">what is absent</text>
+  <text x="670" y="344" font-size="14" fill="#b23b3b" text-anchor="middle">confusion, typosquats</text>
+
+  <text x="40" y="410" font-size="15" font-style="italic" fill="#57534e">Evidence accumulates along edges;</text>
+  <text x="40" y="432" font-size="15" font-style="italic" fill="#57534e">the consuming context decides</text>
+  <text x="40" y="454" font-size="15" font-style="italic" fill="#57534e">whether it is enough.</text>
+
+  <line x1="40" y1="482" x2="1160" y2="482" stroke="#e4e0d8" stroke-width="1"/>
+  <text x="40" y="514" font-size="16" fill="#1c1917">From "is this artifact signed?" toward "what evidence justifies trusting this dependency, here?"</text>
+</svg>

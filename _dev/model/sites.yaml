@@ -1,0 +1,339 @@
+# model/sites.yaml — the machine-readable inventory of public sites.
+#
+# This is the source of truth for site identity: repository, path, URL, profile,
+# and what portfolio machinery applies. scripts/ and checks/ read this file;
+# nothing hardcodes a site list. Adding a research program means adding an entry
+# here and running ./scripts/instantiate-site <id>.
+#
+# `profile` selects which obligations apply:
+#   umbrella          the personal site — portfolio, index, pointers
+#   rich-project      a mature site with its own model; never templated over
+#   research-program  a program site built from the shared research template
+
+root_site: https://davisjam.github.io/
+owner: davisjam
+identity:
+  person: James C. Davis
+  lab: Duality Lab
+  institution: Purdue University
+  provenance_line: A research project of James C. Davis / Duality Lab / Purdue University
+
+sites:
+
+  - id: davisjam.github.io
+    repository: davisjam/davisjam.github.io
+    path: repos/davisjam.github.io
+    url: https://davisjam.github.io/
+    profile: umbrella
+    title: James C. Davis
+    short_name: Davis
+    status: active
+    default_branch: master        # NOT main — the existing Pages workflow triggers on master
+    build: jekyll
+    pages_deploy: github-actions  # .github/workflows/jekyll.yml
+    managed:
+      shared_research_template: false
+      generic_alignment_generation: true
+      generic_ui_sync: false      # the site has its own established minimal-mistakes theme
+      publication_projection: complete
+      reciprocal_identity_check: false   # it is the root; children link to it
+      build_check: true
+    expected_sections:
+      - home
+      - research
+      - publications
+      - teaching
+      - service
+      - about
+    obligations:
+      - The Research page links to every site with profile research-program or rich-project.
+      - The Teaching page links the MAGE book and the Teach with MAGE course mirror.
+      - The Publications page remains the complete, clickable master record.
+
+  - id: model-based-agentic-software-engineering
+    # NOT project_id: mage -- that belongs to the /mage research-program site
+    # below. This is the canonical MAGE RESOURCE environment (book, course
+    # mirror, framework, examples), which the research site links INTO.
+    repository: davisjam/model-based-agentic-software-engineering
+    path: repos/model-based-agentic-software-engineering
+    url: https://davisjam.github.io/model-based-agentic-software-engineering/
+    profile: canonical-resource
+    title: Model-Based Agentic Software Engineering
+    short_name: MAGE
+    status: active
+    maturity: flagship
+    default_branch: main
+    build: custom                 # own pipeline: book + MkDocs course mirror + site
+    pages_deploy: github-actions  # .github/workflows/pages.yml — do not replace
+    thesis: >-
+      How should software engineering change when autonomous agents perform
+      substantial implementation work? MAGE studies modeling, authority,
+      evidence, and the engineering environments needed to govern commodity
+      intelligence.
+    # MAGE is the exception profile. It has its own CLAUDE.md, book build, figure
+    # system, design tokens, and course mirror. Portfolio automation participates
+    # but never flattens it. See model/alignment.md §"The MAGE exception".
+    managed:
+      shared_research_template: false
+      generic_alignment_generation: false
+      generic_ui_sync: false
+      publication_projection: optional
+      reciprocal_identity_check: true
+      build_check: true
+    landmarks:
+      book: https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book.pdf
+      course_mirror: https://davisjam.github.io/model-based-agentic-software-engineering/teach/
+    figure_source_of_truth: true   # the house figure vocabulary is extracted FROM here
+
+  - id: mage
+    required_sections:
+      - research
+      - writings
+      - support
+    project_id: mage
+    repository: davisjam/mage
+    path: repos/mage
+    url: https://davisjam.github.io/mage/
+    profile: research-program
+    title: Model-Based Agentic Software Engineering
+    short_name: MAGE
+    status: active
+    maturity: current
+    default_branch: main
+    build: jekyll
+    pages_deploy: github-actions
+    thesis: >-
+      Engineering software when implementation is abundant but judgment remains
+      scarce. Capable agents radically reduce the cost of realizing changes;
+      they do not eliminate the work of determining what should be built, which
+      obligations govern it, how evidence should be read, or whether the result
+      is acceptable.
+    # ARCHITECTURAL INVARIANT (James, 260904). Two sites, two purposes:
+    #   /mage        scholarly front door -- what is the research program?
+    #   /model-...   canonical resource   -- learn, teach, or apply MAGE
+    # Editorial test before adding anything here: does it help an evaluator,
+    # researcher, student, collaborator, or funder understand the RESEARCH
+    # PROGRAM? If instead it helps someone learn/teach/apply MAGE, it belongs on
+    # the canonical site. Never migrate the book, course mirror, framework, or
+    # examples here; never let this become a second copy of the book site.
+    canonical_resource: model-based-agentic-software-engineering
+    expected_sections:
+      - hero                      # thesis + canonical figure + "Explore MAGE ->"
+      - the-research-program
+      - research-agenda
+      - research-and-outputs
+      - mage-in-practice
+      - resources                 # links INTO the canonical site
+      - funding-and-support
+      - people-and-collaborators
+    figure:
+      id: mage-method
+      caption: >-
+        Scale creates the reasoning problem; commodity intelligence changes its economics. Modeling makes engineering properties explicit, alignment gives selected obligations authority, and governance conversion turns recurring judgment into structures later work can reuse. From the MAGE book.
+      source: canonical           # Figure 0.3-1, extracted from the book
+      claim: >-
+        Reuse, not novelty: the research front door shows the same visual thesis
+        as the book, so a reader crossing over recognizes it as the same thing.
+      generator: generators/extract_mage_figure.py
+    managed: &program_managed
+      shared_research_template: true
+      generic_alignment_generation: true
+      generic_ui_sync: true
+      publication_projection: subset
+      reciprocal_identity_check: true
+      build_check: true
+
+  - id: embedded-software-engineering
+    required_sections:
+      - research
+      - publications
+      - support
+    project_id: embedded-swe
+    repository: davisjam/embedded-software-engineering
+    path: repos/embedded-software-engineering
+    url: https://davisjam.github.io/embedded-software-engineering/
+    profile: research-program
+    title: Embedded Software Engineering
+    short_name: Embedded SE
+    status: active
+    maturity: current
+    default_branch: main
+    build: jekyll
+    pages_deploy: github-actions
+    thesis: >-
+      How can analysis, assurance, and systems techniques make strong
+      correctness guarantees practical for embedded and safety-sensitive
+      software under real resource constraints?
+    current_thrust: Unit Proofing
+    publication_tag: embedded-software-engineering
+    figure:
+      id: research-lineage
+      caption: >-
+        Each stage established what the next one needed. Unit Proofing sits at the end of that line rather than beside it.
+      claim: >-
+        Unit Proofing is the culmination of a sustained lineage, not a
+        disconnected new brand.
+    managed: *program_managed
+
+  - id: failure-aware-software-development
+    required_sections:
+      - research
+      - publications
+    project_id: failure-aware-sdlc
+    repository: davisjam/failure-aware-software-development
+    path: repos/failure-aware-software-development
+    url: https://davisjam.github.io/failure-aware-software-development/
+    profile: research-program
+    title: Failure-Aware Software Development
+    short_name: FA-SDLC
+    status: active
+    maturity: current
+    default_branch: main
+    build: jekyll
+    pages_deploy: github-actions
+    thesis: >-
+      How should engineering organizations anticipate, analyze, and learn from
+      failure across the software lifecycle, so that failure becomes a source of
+      reusable engineering knowledge rather than a recurring surprise?
+    current_thrust: FA-SDLC
+    publication_tag: failure-aware-software-development
+    figure:
+      id: failure-learning-loop
+      caption: >-
+        The return path is what distinguishes learning from failure reporting: knowledge built into engineering structure changes how the next system is specified, designed, and validated.
+      claim: >-
+        Failure knowledge is a feedback system that changes subsequent
+        engineering, not a bug database.
+    managed: *program_managed
+
+  - id: software-engineering-pre-trained-models
+    required_sections:
+      - research
+      - publications
+      - support
+    project_id: ptm-se
+    repository: davisjam/software-engineering-pre-trained-models
+    path: repos/software-engineering-pre-trained-models
+    url: https://davisjam.github.io/software-engineering-pre-trained-models/
+    profile: research-program
+    title: Software Engineering for Pre-Trained Models
+    short_name: PTMs
+    status: active
+    maturity: current
+    default_branch: main
+    build: jekyll
+    pages_deploy: github-actions
+    thesis: >-
+      What changes about software engineering when the reused dependency is a
+      learned model?
+    scope_note: >-
+      Membership is a claim about the research question, not the subject matter.
+      PeaTMOSS, Hugging Face reuse, model naming, ONNX interoperability, model
+      reproducibility, and model-zoo reliability are PTM-SE because their
+      question is engineering PTMs as reusable software artifacts -- even where
+      they study a supply chain.
+    publication_tag: software-engineering-pre-trained-models
+    figure:
+      id: ptm-reuse-lifecycle
+      caption: >-
+        Compatibility and trust are not stages a project finishes. They run the length of a reused model's life, from selection through the upstream changes that arrive after integration.
+      claim: >-
+        A reused model carries integration, compatibility, and trust obligations
+        across its whole lifecycle — this is reuse engineering, not "AI".
+    managed: *program_managed
+
+  - id: software-supply-chains
+    required_sections:
+      - research
+      - applications
+      - publications
+      - support
+    project_id: software-supply-chain
+    repository: davisjam/software-supply-chains
+    path: repos/software-supply-chains
+    url: https://davisjam.github.io/software-supply-chains/
+    profile: research-program
+    title: Software Supply Chains
+    short_name: Supply Chains
+    status: active
+    maturity: current
+    default_branch: main
+    build: jekyll
+    pages_deploy: github-actions
+    thesis: >-
+      How do we establish and preserve trust in software dependencies,
+      producers, provenance, and distribution?
+    structure: foundations-and-applications
+    foundations:
+      - What properties constitute a secure software supply chain
+      - Identity, provenance, signing, and trust
+      - Adoption and usability of security mechanisms
+      - Dependency decision-making
+      - Actor and reputation models
+      - Package-confusion detection
+    applications:
+      - Pre-trained models
+      - Embedded software
+      - Research software
+      - Package ecosystems
+      - Agent ecosystems (emerging)
+    publication_tag: software-supply-chains
+    figure:
+      id: trust-provenance-graph
+      caption: >-
+        Evidence attaches to different edges: identity to the producer, provenance and signatures to the artifact, policy to the consuming system. Signing establishes one edge; whether the accumulated evidence suffices is decided in context.
+      claim: >-
+        Trust is a graph of evidence among actors, artifacts, and consuming
+        contexts. Signing is one edge, not the whole problem.
+    managed: *program_managed
+
+  - id: regular-expression-engineering
+    required_sections:
+      - research
+      - publications
+      - support
+    project_id: saferegex
+    repository: davisjam/regular-expression-engineering
+    path: repos/regular-expression-engineering
+    url: https://davisjam.github.io/regular-expression-engineering/
+    profile: research-program
+    title: Regular Expression Engineering
+    short_name: Regex
+    # NAMING DECISION (260904): the program is referred to as "SafeRegex" in
+    # planning notes, but the repo, URL, and site title stay descriptive.
+    # `safe-regex` on npm is Substack's well-known ReDoS-detection package in
+    # this same problem space; branding the program site SafeRegex would collide
+    # with it in search and imply the program IS that package. "Safe regexes" in
+    # G-16 is grant language for the goal, not a tool name. The project_id
+    # `saferegex` is retained as the internal key used by data/*.yaml edges.
+    status: active
+    maturity: mature       # retrospective in tone; a completed body of work, not a dormant one
+    default_branch: main
+    build: jekyll
+    pages_deploy: github-actions
+    thesis: >-
+      Small, widely reused program fragments carry hidden assumptions across
+      languages, ecosystems, developers, and execution environments — with
+      consequences for portability, correctness, performance, and security.
+    publication_tag: regular-expression-engineering
+    figure:
+      id: research-arc
+      caption: >-
+        Three lines of inquiry running concurrently rather than in succession. Together they showed that small reused artifacts carry hidden assumptions across languages, developers, and runtimes.
+      # This program may be better served by a typeset chronology than by a
+      # conceptual diagram. See model/figures.md §"Do not draw five figures".
+      claim: >-
+        One artifact class, examined along three axes over eight years, reached
+        conclusions that motivated the later reuse and assurance work.
+    managed: *program_managed
+
+# Known adjacent sites that are NOT part of this portfolio model.
+# Recorded so that checks do not report them as unmodeled, and so a future
+# decision to adopt them is a deliberate edit rather than an oversight.
+out_of_scope:
+  - id: agent-governance-mechanisms
+    url: https://davisjam.github.io/agent-governance-mechanisms/
+    note: >-
+      Governance-catalog companion site, currently developed inside the ada-tool
+      working tree and linked from MAGE. Its local clone is expected to migrate
+      under repos/ later; until then it is deliberately unmodeled.

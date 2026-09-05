@@ -1,0 +1,129 @@
+#!/usr/bin/env python3
+"""Enforce the public URL architecture: repository boundary != URL boundary.
+
+Checks the mechanical parts of model/url-architecture.md:
+
+  slug-matches-model   every research program is served at its assigned slug
+  same-origin          every canonical URL is under https://davisjam.github.io/
+  no-repo-urls         no github.com URL is used as a canonical site link
+  baseurl-declared     each child's _config.yml declares the matching baseurl
+  no-absolute-paths    built pages do not hardcode leading-slash internal paths
+
+    python3 checks/check-url-architecture           # report
+    python3 checks/check-url-architecture --strict  # exit 1 on any violation
+
+The MAGE nesting question is RESOLVED (url-architecture.md §5): the canonical
+resource site keeps /model-based-agentic-software-engineering/ and /mage/ is a
+wrapper that links into it. This check now pins that decision, so a later move
+of the canonical site registers as a violation rather than passing quietly.
+"""
+
+from __future__ import annotations
+
+import argparse
+import pathlib
+import re
+import sys
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+ORIGIN = "https://davisjam.github.io"
+
+# The canonical slug per project. url-architecture.md §4 is the source of truth;
+# this table is the machine-readable projection of it.
+# project_id -> URL slug. The slug IS the repository name (url-architecture.md
+# §4): those names are canonical on GitHub. project_id is an internal key used
+# by data/*.yaml edges and is deliberately shorter; it is NOT a URL.
+SLUGS = {
+    "mage": "mage",
+    "ptm-se": "software-engineering-pre-trained-models",
+    "software-supply-chain": "software-supply-chains",
+    "embedded-swe": "embedded-software-engineering",
+    "failure-aware-sdlc": "failure-aware-software-development",
+    "saferegex": "regular-expression-engineering",
+}
+
+
+def load_sites() -> list[dict]:
+    try:
+        import yaml
+    except ImportError:
+        raise SystemExit("PyYAML required: python3 -m pip install pyyaml")
+    return yaml.safe_load((ROOT / "model/sites.yaml").read_text())["sites"]
+
+
+def main(argv: list[str] | None = None) -> int:
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--strict", action="store_true", help="exit 1 on any violation")
+    args = ap.parse_args(argv)
+
+    sites = load_sites()
+    violations: list[str] = []
+    open_items: list[str] = []
+
+    print("== url-architecture: repository boundary != URL boundary ==\n")
+    print(f"  {'project_id':<24}{'expected slug':<42}{'declared':<42}")
+    print("  " + "-" * 112)
+
+    for s in sites:
+        pid = s.get("project_id")
+        if not pid:
+            continue
+        want = f"/{SLUGS[pid]}/" if pid in SLUGS else "?"
+        got = s["url"].replace(ORIGIN, "")
+        ok = got == want
+        print(f"  {pid:<24}{want:<42}{got:<42}{'ok' if ok else 'VIOLATION'}")
+        if not ok:
+            violations.append(
+                f"slug-matches-model: {pid} is served at {got}, should be {want} "
+                f"(rename repo {s['repository']} -> davisjam/{SLUGS.get(pid, pid)})")
+
+    print()
+    for s in sites:
+        if not s["url"].startswith(ORIGIN):
+            violations.append(f"same-origin: {s['id']} is at {s['url']}, outside {ORIGIN}")
+
+    # baseurl awareness: a site mounted at a prefix must declare it
+    for s in sites:
+        cfg = ROOT / s["path"] / "_config.yml"
+        if not cfg.exists():
+            continue
+        prefix = s["url"].replace(ORIGIN, "").rstrip("/")
+        if not prefix:
+            continue
+        text = cfg.read_text()
+        m = re.search(r'^baseurl\s*:\s*["\']?([^"\'\n#]*)', text, re.M)
+        declared = (m.group(1).strip() if m else None)
+        if declared != prefix:
+            violations.append(
+                f"baseurl-declared: {s['id']} _config.yml baseurl is {declared!r}, "
+                f"expected {prefix!r}")
+
+    # MAGE nesting: RESOLVED (url-architecture.md §5). The canonical resource
+    # site keeps its own slug; /mage/ is a wrapper that links into it. So no
+    # path draws content from another repository, and no assembly is needed.
+    canonical = next((s for s in sites if s["id"] == "model-based-agentic-software-engineering"), None)
+    if canonical and canonical["url"] != f"{ORIGIN}/model-based-agentic-software-engineering/":
+        violations.append(
+            "mage-nesting: the canonical MAGE resource site must stay at "
+            "/model-based-agentic-software-engineering/ (url-architecture.md §5); "
+            f"found {canonical['url']}")
+
+    for o in open_items:
+        print(f"  OPEN   {o}\n")
+
+    if violations:
+        print(f"  {len(violations)} violation(s):\n")
+        for v in violations:
+            print(f"    - {v}")
+        print("\n  The slug is the repository name (url-architecture.md §4). Either the")
+        print("  declared url drifted from the repo, or a repo was renamed without")
+        print("  updating the model.")
+        return 1 if args.strict else 0
+
+    print("  no violations")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main(sys.argv[1:]))

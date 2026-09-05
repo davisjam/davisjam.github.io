@@ -1,0 +1,108 @@
+# data/service.yaml — canonical professional-service record.
+# Source: JamesDavis-CV.pdf. Extracted from the CV, NOT from the previous
+# website, which had gone stale (it stopped around 2024).
+#
+# The shape here is the WEBSITE taxonomy, not the CV taxonomy. The CV needs
+# exhaustive reporting categories; the page needs to communicate the kind and
+# trajectory of the service. The SSOT underneath stays exhaustive either way.
+#
+# Deliberately NOT in this file: tools, practitioner writings, software impact,
+# download counts. Those are research translation, not service, and now have
+# better homes on the research-program sites (James, 260904).
+schema_version: 1
+
+leadership:
+  conference:
+    - {venue: USENIX Security, role: Vice Chair, years: "2027", prominent: true}
+    - {venue: "Workshop on Research Software Supply Chain Security (RS3), IEEE eScience",
+       role: Co-Chair, years: "2026"}
+    - {venue: "Workshop on Using Generative AI as an Engineering Educator, ASEE",
+       role: Organizer, years: "2026"}
+  # Rendered as ONE sustained contribution rather than three unrelated lines:
+  # the progression mentor -> panelist/mentor -> co-chair is the interesting part.
+  sustained:
+    - venue: "ICSE Student Mentoring Workshop (ICSE-SMeW)"
+      progression:
+        - {years: "2023", role: Mentor}
+        - {years: "2024", role: Panelist and Mentor}
+        - {years: "2024-2025", role: Co-Chair}
+  community_building:
+    - {what: "Junior Faculty Peer Mentoring Teatime", role: Organizer, years: "2024-2025"}
+    - {what: "CAREER proposal writing group", role: Organizer, years: "2024, 2025"}
+    - {what: "Software Systems Reading Group", role: Organizer, years: "2024"}
+    - {what: "Purdue Engineering Distinguished Lecture Series — Dr. Nancy Leveson (MIT)",
+       role: Host, years: "2022"}
+    - {what: "Computer Engineering Seminar Series — Dr. Joanna C. S. Santos (Notre Dame)",
+       role: Host, years: "2022"}
+
+research_community:
+  # Compact venue-then-years rendering, which exposes REPEAT SELECTION by the
+  # major communities in a way a reverse-chronological list cannot.
+  major_program_committees:
+    - {venue: ICSE, years: [2025, 2026, 2027]}
+    - {venue: USENIX Security, years: [2025, 2026], extra: "Vice Chair 2027"}
+    - {venue: "ESEC/FSE", years: [2023, 2025]}
+    - {venue: ISSTA, years: [2024, 2025]}
+    - {venue: ASE, years: [2021, 2024]}
+    - {venue: AAAI, years: [2026, 2027]}
+  # Collapsed by default on the page: 2017 subreviewing should not visually
+  # compete with a USENIX Security vice chairship.
+  other_refereeing:
+    - {venue: "MSR Mining Challenge", role: PC Member, years: [2026]}
+    - {venue: "European Workshop on Systems Security (EuroSec)", role: PC Member, years: [2024, 2025, 2026]}
+    - {venue: "IEEE SecDev", role: PC Member, years: [2024]}
+    - {venue: "ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses",
+       role: PC Member, years: [2022, 2023]}
+    - {venue: "Workshop on Education for High-Performance Computing (EduHPC)", role: PC Member, years: [2024]}
+    - {venue: LCTES, role: PC Member, years: [2023]}
+    - {venue: "SANER — Early Research Achievement Track", role: Reviewer, years: [2024]}
+    - {venue: "SCAM — Engineering Track", role: Reviewer, years: [2023]}
+    - {venue: "ASE — Doctoral Symposium", role: Reviewer, years: [2022]}
+    - {venue: "ICSE — Demonstrations Track", role: Reviewer, years: [2021]}
+    - {venue: "ESEC/FSE — Artifact Track", role: Reviewer, years: [2020, 2021]}
+    - {venue: "CGO — Artifact Track", role: Reviewer, years: [2019]}
+    - {venue: "CSAW Best Paper Competition", role: Judge, years: [2021, 2023]}
+  journals:
+    - IEEE Transactions on Software Engineering (TSE)
+    - ACM Transactions on Software Engineering and Methodology (TOSEM)
+    - Springer Empirical Software Engineering (EMSE)
+    - Journal of Systems and Software (JSS)
+    - Journal of Online Trust & Safety (JOTS)
+  editorial:
+    - {role: Column Co-Editor, venue: "IEEE Computer — Practicing AI", confirmed: true}
+
+national_professional:
+  - body: US National Science Foundation
+    role: Panelist
+    years: [2023, 2025, 2026]
+    note: recurring national research review; three panels
+  - body: IEEE Computer Society
+    role: Reviewer
+    what: "Guide to the Software Engineering Body of Knowledge (SWEBOK), Version 4"
+    years: [2024]
+# Professional memberships are deliberately omitted from the page: they are
+# credentials, not service (James, 260904).
+
+purdue:
+  # Organized by FUNCTION rather than chronology -- the page should show what
+  # kind of institutional work this is, not when each committee met.
+  curriculum_and_programs:
+    - {what: "Lead, BSc Computer Engineering ABET five-year self-evaluation", years: "2024-2025", prominent: true}
+    - {what: "Purdue ECE ABET Committee", role: Member, years: "2023-present"}
+    - {what: "Committee to Create the MSc in Software Engineering", role: Member, years: "2024"}
+    - {what: "ECE Undergraduate Curriculum Committee", role: Member, years: "2020-2022"}
+    - {what: "ECE ADVANCE — discussion lead, LLMs in education", years: "2024"}
+  faculty_and_graduate_community:
+    - {what: "College of Engineering Graduate Education Award Selection Committee",
+       role: "ECE Representative", years: "2025"}
+  # Grouped rather than three separate headline entries.
+  faculty_hiring:
+    - {what: "Professor of Practice in Software Engineering", years: "2023-2024"}
+    - {what: "Ad hoc faculty search", years: "2023"}
+    - {what: "Software Engineering", years: "2022-2023"}
+
+# ---------------------------------------------------------------------------
+# NOT PUBLISHED pending confirmation. Recorded so the gap is deliberate.
+needs_confirmation: []   # both prior items CONFIRMED by James, 260904:
+                         # NSF 2026 panel, and the IEEE Computer column
+                         # co-editorship, now published.

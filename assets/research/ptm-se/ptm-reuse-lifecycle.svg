@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- semantic-families: neutral, modeling, governance -->
+<!-- Hand-authored SVG (label: ptm-reuse-lifecycle). Software Engineering for Pre-Trained Models.
+     ONE JOB: a reused model carries obligations that CROSS its whole lifecycle,
+     so this is reuse and dependency engineering, not "AI". The crossing bands are
+     the argument. A reader should see that compatibility and trust are not
+     stages you finish but properties you carry.
+     Deliberately no neural-network imagery: no layered nodes, no brains. The
+     visual vocabulary is the one used for software dependencies. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520"
+     role="img" aria-labelledby="ptmTitle ptmDesc"
+     font-family="Source Sans 3, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+  <title id="ptmTitle">Obligations crossing the pre-trained-model reuse lifecycle</title>
+  <desc id="ptmDesc">A pre-trained model is selected, integrated, validated, and
+    evolved, like any reused dependency. Two obligations run across all four
+    stages rather than belonging to any one of them: compatibility, meaning the
+    artifact really interoperates as claimed; and trust, meaning the assumptions
+    and risks that travel with an artifact produced elsewhere.</desc>
+
+  <rect x="0" y="0" width="1200" height="520" fill="#fdfcf9"/>
+
+  <defs>
+    <marker id="pN" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#57534e"/>
+    </marker>
+  </defs>
+
+  <!-- upstream source -->
+  <rect x="30" y="176" width="150" height="64" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5" stroke-dasharray="5 3"/>
+
+  <!-- lifecycle stages -->
+  <rect x="250" y="176" width="190" height="64" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="480" y="176" width="190" height="64" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="710" y="176" width="190" height="64" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="940" y="176" width="190" height="64" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+
+  <line x1="180" y1="208" x2="242" y2="208" stroke="#57534e" stroke-width="1.5" stroke-dasharray="5 3" marker-end="url(#pN)"/>
+  <line x1="440" y1="208" x2="472" y2="208" stroke="#57534e" stroke-width="1.5" marker-end="url(#pN)"/>
+  <line x1="670" y1="208" x2="702" y2="208" stroke="#57534e" stroke-width="1.5" marker-end="url(#pN)"/>
+  <line x1="900" y1="208" x2="932" y2="208" stroke="#57534e" stroke-width="1.5" marker-end="url(#pN)"/>
+
+  <!-- the crossing obligations: bands spanning every stage -->
+  <rect x="250" y="286" width="880" height="52" rx="3" fill="#e3f0e7" stroke="#1f7a4d" stroke-width="1.5"/>
+  <rect x="250" y="356" width="880" height="52" rx="3" fill="#faf1e6" stroke="#9a3f12" stroke-width="1.5"/>
+
+  <!-- tick marks showing the bands touch each stage -->
+  <line x1="345" y1="240" x2="345" y2="286" stroke="#1f7a4d" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="575" y1="240" x2="575" y2="286" stroke="#1f7a4d" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="805" y1="240" x2="805" y2="286" stroke="#1f7a4d" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="1035" y1="240" x2="1035" y2="286" stroke="#1f7a4d" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- text last -->
+  <text x="30" y="52" font-size="24" font-weight="600" fill="#1c1917"
+        font-family="Source Serif 4, Charter, Georgia, serif">A model is a dependency</text>
+  <text x="30" y="80" font-size="16" fill="#57534e">Two obligations run the length of the lifecycle. Neither is a stage you finish.</text>
+
+  <text x="105" y="204" font-size="15" font-weight="600" fill="#57534e" text-anchor="middle">Model registry</text>
+  <text x="105" y="226" font-size="13" fill="#57534e" text-anchor="middle">produced elsewhere</text>
+
+  <text x="345"  y="204" font-size="18" font-weight="600" fill="#1c1917" text-anchor="middle">Select</text>
+  <text x="345"  y="226" font-size="13" fill="#57534e" text-anchor="middle">on what evidence?</text>
+  <text x="575"  y="204" font-size="18" font-weight="600" fill="#1c1917" text-anchor="middle">Integrate</text>
+  <text x="575"  y="226" font-size="13" fill="#57534e" text-anchor="middle">into a real system</text>
+  <text x="805"  y="204" font-size="18" font-weight="600" fill="#1c1917" text-anchor="middle">Validate</text>
+  <text x="805"  y="226" font-size="13" fill="#57534e" text-anchor="middle">against what spec?</text>
+  <text x="1035" y="204" font-size="18" font-weight="600" fill="#1c1917" text-anchor="middle">Evolve</text>
+  <text x="1035" y="226" font-size="13" fill="#57534e" text-anchor="middle">it changes upstream</text>
+
+  <text x="270" y="318" font-size="17" font-weight="600" fill="#14532d">Compatibility</text>
+  <text x="430" y="318" font-size="15" fill="#1f7a4d">does the artifact interoperate as claimed — formats, versions, semantics?</text>
+  <text x="270" y="388" font-size="17" font-weight="600" fill="#7f2f0c">Trust</text>
+  <text x="430" y="388" font-size="15" fill="#9a3f12">what assumptions and risks travel with something produced elsewhere?</text>
+
+  <line x1="30" y1="440" x2="1170" y2="440" stroke="#e4e0d8" stroke-width="1"/>
+  <text x="30" y="472" font-size="16" fill="#1c1917">Treating a model as an artifact rather than a result makes these obligations</text>
+  <text x="30" y="494" font-size="16" fill="#1c1917">visible — and makes decades of software-reuse research apply to them.</text>
+</svg>
