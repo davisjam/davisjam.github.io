@@ -44,6 +44,7 @@ SENSORS: dict[str, tuple[bool, str]] = {
     "lint_figure_text_intrusion":          (True,  "no text flows into a foreign box"),
     "lint_figure_label_collision":         (False, "no connector runs through a free label"),
     "lint_figure_font_band":               (False, "text renders inside the legibility band"),
+    "lint_figure_render_scale":            (False, "text is legible at the width it is read at"),
     "lint_figure_dangling_edge":           (False, "every edge terminates on its endpoints"),
     "lint_figure_edge_should_be_orthogonal": (False, "declared orthogonal edges route orthogonally"),
     "lint_figure_legend_text_overflow":    (False, "a boxed label clears its box right border"),
