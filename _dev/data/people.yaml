@@ -81,7 +81,7 @@ graduate:
   - name: Daniel Lugo
     degree: Ph.D. student
     affiliation: U.S. Space Force
-    area: ptm-se
+    research: Government software acquisition in the GenAI era
   - name: Andrew Rozema
     degree: Ph.D. student
     research: Phishing measurements and tooling
@@ -191,6 +191,14 @@ undergraduate:
 # NOT PUBLISHED pending confirmation. Recorded so the gap is deliberate and the
 # evidence I do have is not lost.
 needs_confirmation:
+  - name: "Daniel Lugo's government-acquisition paper is not in the record"
+    evidence: >-
+      James (260905) names a paper on the government software acquisition
+      pipeline. publications.yaml holds only W-12, "Recommending Pre-Trained
+      Models for IoT Devices" (tagged ptm-se), which is why the co-authorship
+      inference gave him the PTM blurb. The acquisition paper is in neither
+      publications.yaml nor cv-extract.json. Worth adding, since it is the work
+      the blurb now describes.
   - name: "MS Non-Thesis students -- SETTLED, do not list"
     evidence: >-
       The P&T advising table lists Eli L. Jorgensen, Santosh N. Ahuja and Grant

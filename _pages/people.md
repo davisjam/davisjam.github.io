@@ -62,7 +62,7 @@ senior design, independent study, SURF, REU, and related programs.
     <p class="person__name">Daniel Lugo</p>
     <p class="person__meta">Ph.D. student</p>
     <p class="person__meta">U.S. Space Force</p>
-    <p class="person__area">Reuse, reliability, and security of pre-trained models</p>
+    <p class="person__area">Government software acquisition in the GenAI era</p>
   </div>
 </div>
 <div class="person">
