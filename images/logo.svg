@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Duality Lab logo, redrawn as SVG from logo-v2.png (260905).
+
+     THE WORDMARK IS THE JOKE, so the colour split is load-bearing and must not
+     be "tidied": the GOLD letters are D + uality, which read across the two
+     words as DUALITY. Recolouring "Davis" or "Quality" as whole words destroys
+     the only reason the lockup is built this way.
+
+     Type is live text, not outlined paths. That keeps the mark scalable,
+     selectable, greppable and readable by a screen reader, at the cost of
+     exact letterform fidelity on machines lacking Montserrat/Poppins — the
+     fallbacks are geometric enough to hold the look. Converting to paths would
+     pin the shapes exactly and lose all of that; worth doing only if the mark
+     is going somewhere the font stack cannot be trusted, e.g. print.
+
+     Gold is #C0A062, sampled from the source mark. That is deliberately NOT
+     Boilermaker Gold (#CEB888): Boilermaker is 1.94:1 on white and effectively
+     invisible as type at any size. WCAG exempts logotypes from contrast, but a
+     logo nobody can read is still a bad logo. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 380"
+     role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Davis Quality — Duality Lab</title>
+  <desc id="logoDesc">A wordmark reading Davis over Quality, with the letters D,
+    u, a, l, i, t and y picked out in gold so they read across both words as
+    Duality. Flanked by a crossed wrench and screwdriver on the left and a
+    person icon on the right, with the words Duality Lab beneath.</desc>
+
+  <g fill="none" stroke="#1a1a1a" stroke-width="9"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Crossed tools. Each is drawn along its own +x axis and rotated into
+         the X, so the geometry stays readable instead of being pre-rotated
+         coordinates nobody can edit later. -->
+    <g transform="translate(152 190) rotate(45) scale(0.78)" stroke-width="14">
+      <!-- double open-end wrench: handle first, jaws painted over its ends -->
+      <rect x="-118" y="-13" width="236" height="26" rx="13" fill="#fff"/>
+      <path fill="#fff" d="M 169.5,-20.7 A 36,36 0 1 0 169.5,20.7
+                           L 156.4,11.5 A 20,20 0 1 1 156.4,-11.5 Z"/>
+      <path fill="#fff" d="M -169.5,20.7 A 36,36 0 1 0 -169.5,-20.7
+                           L -156.4,-11.5 A 20,20 0 1 1 -156.4,11.5 Z"/>
+    </g>
+
+    <g transform="translate(152 190) rotate(-45) scale(0.78)" stroke-width="14">
+      <!-- screwdriver: flat tip at -x, grip at +x -->
+      <path fill="#fff" d="M -168,-9 L -140,-16 L -140,16 L -168,9 Z"/>
+      <rect x="-140" y="-11" width="196" height="22" fill="#fff"/>
+      <rect x="56" y="-27" width="112" height="54" rx="22" fill="#fff"/>
+      <path d="M 92,-25 L 92,25 M 122,-25 L 122,25"/>
+    </g>
+
+    <!-- Person -->
+    <circle cx="1042" cy="128" r="46" fill="#fff"/>
+    <path fill="#fff" d="M 980,282 L 980,230 A 62,62 0 0 1 1104,230
+                         L 1104,282 A 8,8 0 0 1 1096,290 L 988,290
+                         A 8,8 0 0 1 980,282 Z"/>
+
+    <!-- Rules separating the three elements -->
+    <path d="M 285,96 L 285,284 M 892,96 L 892,284" stroke-width="8"/>
+  </g>
+
+  <g font-family="Montserrat, Poppins, 'Century Gothic', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif"
+     font-weight="800" text-anchor="middle">
+    <text x="588" y="150" font-size="128" letter-spacing="-2">
+      <tspan fill="#C0A062">D</tspan><tspan fill="#1a1a1a">avis</tspan></text>
+    <text x="588" y="270" font-size="128" letter-spacing="-2">
+      <tspan fill="#1a1a1a">Q</tspan><tspan fill="#C0A062">uality</tspan></text>
+    <text x="588" y="352" font-size="42" font-weight="500"
+          letter-spacing="15" fill="#1a1a1a">DUALITY LAB</text>
+  </g>
+</svg>

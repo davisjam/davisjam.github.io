@@ -6,8 +6,8 @@ author_profile: true
 research_slug: "PTMs"
 question: "What changes about software engineering when the reused component is a learned model?"
 figure: /assets/research/ptm-se/ptm-reuse-lifecycle.svg
-figure_alt: "Compatibility and trust are not stages a project finishes. They run the length of a reused model's life, from selection through the upstream changes that arrive after integration."
-figure_caption: "Compatibility and trust are not stages a project finishes. They run the length of a reused model's life, from selection through the upstream changes that arrive after integration."
+figure_alt: "Reusing a model introduces new engineering obligations"
+figure_desc: "A model moves through a familiar reuse lifecycle — registry, select, integrate, validate, evolve — but several assumptions of conventional dependency management stop holding. Reuse is familiar while the artifact is not; the ecosystem keeps moving and must be re-measured; identity and interoperability are not guaranteed; reuse requires reengineering downstream; and risk travels with the artifact."
 ---
 
 Developers have been reusing software components for decades; pre-trained models inherit many of the same engineering problems, but also introduce new ones, because their identity, behavior, provenance, and interfaces are less explicit than those of conventional software packages.

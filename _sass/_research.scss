@@ -47,8 +47,15 @@
    valuable dimension and gave six programmes the same weight as Home and
    Publications. Dense rows, not 50px menu items. */
 .rps { position: relative;
-  &__btn { background: none; border: 0; padding: 0 0 0 .25em; font: inherit;
-    line-height: 1; color: #CEB888; cursor: pointer; }
+  /* Aged Gold (#8E6F3E, 4.67 on white), NOT Boilermaker Gold (#CEB888, 1.94).
+     The chevron was Boilermaker and was reported as "no hover or anything" --
+     it was rendering correctly the whole time and simply could not be seen.
+     Boilermaker is a rule/border colour on this site, never a text colour. */
+  /* Specific enough to beat `.greedy-nav button`/`#site-nav` theme rules,
+     which set position:absolute, right:0 and color:#fff. */
+  &__btn, .greedy-nav &__btn { display: inline; position: static;
+    background: none; border: 0; padding: 0 0 0 .25em; font: inherit;
+    line-height: 1; color: #8E6F3E; cursor: pointer; visibility: visible; }
   &__btn:hover, &__btn[aria-expanded="true"] { color: #8E6F3E; }
   &__btn:focus-visible { outline: 2px solid #8E6F3E; outline-offset: 2px; }
   &__menu { display: none; position: absolute; top: calc(100% + .3em); left: 0;

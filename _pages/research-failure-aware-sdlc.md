@@ -6,8 +6,8 @@ author_profile: true
 research_slug: "FA-SDLC"
 question: "What can engineering organizations learn from the ways software fails?"
 figure: /assets/research/failure-aware-sdlc/failure-learning-loop.svg
-figure_alt: "The return path is what distinguishes learning from failure reporting: knowledge built into engineering structure changes how the next system is specified, designed, and validated."
-figure_caption: "The return path is what distinguishes learning from failure reporting: knowledge built into engineering structure changes how the next system is specified, designed, and validated."
+figure_alt: "Learning from failure means changing the next system"
+figure_desc: "An assumption fails in a real system. What happened is preserved as evidence: reports, artifacts, decisions and consequences. Comparing incidents identifies the failure mechanism — which assumption failed and under what conditions. Generalizing beyond the incident yields a reusable claim about how systems fail. Institutionalizing that claim changes requirements, design, analysis, validation, process and governance, which in turn changes the conditions under which the next system is built."
 ---
 
 Software failures are investigated, patched, and filed away. The engineering knowledge they contain rarely survives the incident that produced it, so organizations meet the same class of failure again in the next system.

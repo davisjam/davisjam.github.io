@@ -20,9 +20,10 @@ layout: single
 {% if page.figure %}
 <figure class="research-figure">
   <div class="figure-frame">
-    <img src="{{ page.figure | relative_url }}" alt="{{ page.figure_alt }}">
+    <img src="{{ page.figure | relative_url }}" alt="{{ page.figure_alt }}"
+         {% if page.figure_desc %}aria-describedby="figure-desc"{% endif %}>
   </div>
-  {% if page.figure_caption %}<figcaption>{{ page.figure_caption }}</figcaption>{% endif %}
+  {% if page.figure_desc %}<div id="figure-desc" class="sr-only">{{ page.figure_desc }}</div>{% endif %}
 </figure>
 {% endif %}
 

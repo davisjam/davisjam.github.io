@@ -6,8 +6,8 @@ author_profile: true
 research_slug: "Regex"
 question: "What can regular expressions, viewed through a software-engineering microscope, teach us about building software?"
 figure: /assets/research/saferegex/regex-microscope.svg
-figure_alt: "Regular expressions make the seams between specification, human reasoning, and implementation unusually easy to observe."
-figure_caption: "Regular expressions make the seams between specification, human reasoning, and implementation unusually easy to observe."
+figure_alt: "A software-engineering microscope"
+figure_desc: "A regular expression, described as one line of software, sits at the centre of three radial spokes with no enclosing triangle. The spokes are three perspectives on the same artifact: regex theory asks what it should mean, through semantics, language features and expressiveness; human factors asks how people reason about it, through comprehension, decision-making, reuse and repair; regex engines ask what happens when it runs, through matching algorithms, performance, ReDoS and defenses. The research results sit in the open sectors between the spokes. Between theory and human factors, portability and composition asks whether meaning survives movement and reuse. Between theory and engines, realization asks whether the engine realizes the intended semantics safely. Between human factors and engines, security in practice asks whether developers can recognize and control pathological behavior."
 ---
 
 Regular expressions are a niche topic, and that is part of why they are useful to study. A regex may be only one line of code, yet it is an unusually compact meeting point between formal semantics, human programming behavior, and the implementation choices of the engine that executes it. Many of the problems of software engineering become visible here at a scale where we can study them closely.

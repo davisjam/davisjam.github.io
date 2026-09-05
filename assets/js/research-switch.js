@@ -3,19 +3,27 @@
    Enter/Space toggles, Escape closes and returns focus, outside click closes.
    A CSS-only :hover menu would be unusable on both. */
 (function () {
-  var wrap = document.querySelector('.research-switch');
+  var wrap = document.querySelector('.rps');
   if (!wrap) return;
-  var toggle = wrap.querySelector('.research-switch__toggle');
-  var menu = wrap.querySelector('.research-switch__menu');
+  var toggle = wrap.querySelector('.rps__btn');
+  var menu = wrap.querySelector('.rps__menu');
   if (!toggle || !menu) return;
 
   function open(state) {
     wrap.classList.toggle('is-open', state);
     toggle.setAttribute('aria-expanded', state ? 'true' : 'false');
   }
-  toggle.addEventListener('click', function (e) {
+  function toggleOpen(e) {
     e.preventDefault();
     open(toggle.getAttribute('aria-expanded') !== 'true');
+  }
+  toggle.addEventListener('click', toggleOpen);
+  // The toggle is a span, not a <button>, because minimal-mistakes' greedy-nav
+  // claims `#site-nav button` as its overflow control and hides it. A span
+  // avoids that collision but carries no native keyboard behaviour, so Enter
+  // and Space are wired up by hand to keep it operable.
+  toggle.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') toggleOpen(e);
   });
   wrap.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && wrap.classList.contains('is-open')) {
