@@ -20,6 +20,21 @@
               {% assign domain = base_path %}
             {% endif %}
             {% if link.title == 'Research' %}
+              {%- comment -%}
+                THE DISCLOSURE IS SCOPED TO THE RESEARCH HIERARCHY. On the home
+                page and every other top-level page, Research is an ordinary
+                link. The flyout is wayfinding for someone already inside the
+                research section; offered earlier it asks a first-time visitor
+                to understand the internal taxonomy before they have met the
+                research overview.
+              {%- endcomment -%}
+              {%- assign in_research = false -%}
+              {%- if page.research_slug or page.url == '/research/' -%}
+                {%- assign in_research = true -%}
+              {%- endif -%}
+              {%- if in_research == false -%}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">Research</a></li>
+              {%- else -%}
               <li class="masthead__menu-item rps">
                 {%- comment -%}
                   Closed state on a programme page is "Research > Current Program":
@@ -46,6 +61,7 @@
                   {%- endfor -%}
                 </ul>
               </li>
+              {%- endif -%}
             {% else %}
               <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}

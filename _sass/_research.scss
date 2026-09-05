@@ -110,8 +110,12 @@
     white-space: nowrap; vertical-align: bottom; display: inline-block; }
   &__here::before { content: "\00a0"; }
 
-  &__menu { display: none; position: absolute; top: calc(100% + .3em); left: 0;
-    z-index: 100; margin: 0; padding: .3rem 0; list-style: none;
+  /* top:100%, not calc(100% + .3em): that gap was a dead hover zone the
+     pointer had to cross, and the menu closed underneath it. The offset is
+     now padding INSIDE the menu, which keeps the hit area contiguous while
+     the visual separation is unchanged. */
+  &__menu { display: none; position: absolute; top: 100%; left: 0;
+    z-index: 100; margin: 0; padding: .55rem 0 .35rem; list-style: none;
     width: max-content; min-width: 18rem; max-width: 24rem;
     background: #fff; border: 1px solid #ddd6cc; box-shadow: 0 1px 4px rgba(0,0,0,.07);
     /* The theme's `.greedy-nav .visible-links li { display: table-cell }` is a
@@ -124,7 +128,16 @@
     a { display: block; padding: .4rem .75rem; line-height: 1.2; font-size: .88rem;
       color: #494e52; border-left: 3px solid transparent; }
     a:hover, a:focus { background: #faf6ee; color: #6d552f; text-decoration: none; }
-    a[aria-current="page"] { font-weight: 700; border-left-color: #CEB888; } }
+    /* Active state: colour and weight only. Every item keeps the same 3px
+       transparent left border, so alignment is identical whether or not an
+       item is current -- an indent shift as an active cue makes the whole
+       menu look ragged. */
+    a[aria-current="page"] { font-weight: 600; color: #7d6236;
+      border-left-color: #8E6F3E; }
+    /* The theme bolds `.greedy-nav .visible-links li:first-child`, a
+       descendant selector that reached inside this menu and bolded MAGE on
+       every page -- active-state styling on an item that was not active. */
+    li:first-child, li:first-child a { font-weight: inherit; } }
   &.is-open &__menu { display: block; } }
 
 /* Specificity: theme is (0,2,1); these are (0,3,1) and (0,3,0). */

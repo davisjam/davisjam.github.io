@@ -80,8 +80,21 @@ CONTRAST = """() => {
 }"""
 
 
-def check_flyout(page, failures: list[str]) -> None:
+def check_flyout(page, failures: list[str], *, expected: bool) -> None:
+    """`expected` encodes the information architecture, not a test convenience.
+
+    The disclosure belongs only inside the research hierarchy. On the home page
+    and other top-level pages Research is an ordinary link, because a flyout
+    there asks a first-time visitor to understand the internal taxonomy before
+    they have met the research overview. Asserting its ABSENCE is what keeps
+    that decision from quietly eroding.
+    """
     btn = page.query_selector(".rps__btn")
+    if not expected:
+        if btn is not None:
+            failures.append("flyout: disclosure present outside the research "
+                            "hierarchy -- Research should be a plain link here")
+        return
     if btn is None:
         failures.append("flyout: no .rps__btn in the masthead")
         return
@@ -104,6 +117,21 @@ def check_flyout(page, failures: list[str]) -> None:
         failures.append("flyout: aria-expanded did not become true on click")
     if not page.query_selector(".rps__menu").is_visible():
         failures.append("flyout: menu did not open on click")
+
+    # No item may carry active styling unless the route belongs to it. The
+    # theme bolds `.visible-links li:first-child`, which reached into this menu
+    # and made MAGE look current on every page.
+    marks = page.evaluate("""() => [...document.querySelectorAll('.rps__menu a')]
+      .map(a => ({cur: a.hasAttribute('aria-current'),
+                  w: parseInt(getComputedStyle(a).fontWeight, 10),
+                  left: Math.round(a.getBoundingClientRect().left)}))""")
+    for i, m in enumerate(marks):
+        if m["w"] >= 600 and not m["cur"]:
+            failures.append(f"flyout: item {i} is bold without aria-current "
+                            f"-- active styling on an inactive item")
+    if len({m["left"] for m in marks}) > 1:
+        failures.append("flyout: items are not left-aligned with each other "
+                        "-- active state must not indent")
 
     n = len(page.query_selector_all(".rps__menu a"))
     if n != 6:
@@ -153,14 +181,18 @@ def main(argv=None) -> int:
             page.goto(url, wait_until="networkidle", timeout=45000)
 
             before = len(failures)
+            expect_flyout = slug == "research" or "/research/" in url
             try:
-                check_flyout(page, failures)
+                check_flyout(page, failures, expected=expect_flyout)
             except Exception as exc:
                 failures.append(f"flyout: check raised {type(exc).__name__}: "
                                 f"{str(exc).splitlines()[0][:80]}")
             for f in failures[before:]:
                 failures[failures.index(f)] = f"{slug}: {f}"
 
+            if expect_flyout:
+                # re-open for the contrast pass; Escape left it closed
+                page.hover(".rps__btn"); page.wait_for_timeout(150)
             for o in page.evaluate(CONTRAST):
                 failures.append(
                     f"{slug}: contrast {o['ratio']}:1 < {o['need']} — "

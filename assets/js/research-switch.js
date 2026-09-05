@@ -43,7 +43,7 @@
 
   wrap.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && wrap.classList.contains('is-open')) {
-      open(false); toggle.focus(); return;
+      cancelClose(); open(false); toggle.focus(); return;
     }
     if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
     var items = [].slice.call(menu.querySelectorAll('a'));
@@ -60,10 +60,25 @@
     if (!wrap.contains(e.target)) open(false);
   });
   wrap.addEventListener('focusout', function (e) {
-    if (!wrap.contains(e.relatedTarget)) open(false);
+    if (!wrap.contains(e.relatedTarget)) scheduleClose();
   });
-  if (hoverable) {
-    wrap.addEventListener('mouseenter', function () { open(true); });
-    wrap.addEventListener('mouseleave', function () { open(false); });
+  /* FORGIVING DISMISSAL. Opening is immediate; closing waits, so a pointer
+     travelling slowly or diagonally from "Research" down to the last item does
+     not lose the menu on the way. Re-entering cancels the pending close.
+     mouseleave does not fire when moving onto a descendant, so the menu itself
+     counts as still-inside; the only real gap was the geometric one above,
+     which the CSS now closes. */
+  var closeAfter = 320, pending = null;
+  function cancelClose() { if (pending) { clearTimeout(pending); pending = null; } }
+  function scheduleClose() {
+    cancelClose();
+    pending = setTimeout(function () { pending = null; open(false); }, closeAfter);
   }
+  if (hoverable) {
+    wrap.addEventListener('mouseenter', function () { cancelClose(); open(true); });
+    wrap.addEventListener('mouseleave', scheduleClose);
+  }
+  /* Keyboard parity: focus anywhere inside holds it open, leaving schedules the
+     same delayed close, and Escape (above) closes at once. */
+  wrap.addEventListener('focusin', function () { cancelClose(); open(true); });
 })();
