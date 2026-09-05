@@ -1,34 +1,29 @@
 /* ============================================================ width system
    THE READING MEASURE IS A PROPERTY OF PROSE, NOT OF THE PAGE.
 
-   The theme applies one ~700px measure to everything: #main caps at 1280px
-   with 320px auto-margins, and article.page adds a Susy suffix(2 of 12) --
-   ~211px of empty right gutter. Correct for continuous prose; wrong as the
-   bound on a page whose real content is a six-figure grid. It left the
-   programme figures and publication lists squeezed into one narrow column
-   with most of the window empty beside them.
+   The theme applies one measure to everything: #main caps at 1280px with
+   320px auto-margins, and article.page adds a Susy suffix(2 of 12) -- ~211px
+   of empty right gutter. Correct for continuous prose; wrong as the bound on
+   a page whose real content is a figure grid. It left content squeezed into
+   one narrow column with most of the window empty beside it.
 
-   So: broad page canvas, and a reading measure applied ONLY to the elements
-   that want one. Scoped with :has() so nothing outside the research pages is
-   touched and no theme file is edited. */
-body:has(.research-programs) #main,
-body:has(.research-figure) #main { max-width: min(1600px, calc(100vw - 3rem)); }
-body:has(.research-programs) .page,
-body:has(.research-figure) .page { padding-right: 1em; }
+   Applied to EVERY page, not just the research ones. Scoping it to research
+   left those pages narrower (720px) than the pages that still had the theme
+   default (767px), which is a strange thing for the site's most
+   content-heavy pages to be.
 
-/* Prose gets the measure; the grid and the figure do not. */
-/* 36rem, not 48rem. The measure is in rem, so raising the root from 18px to
-   20px stretched this from 864px to 960px -- about 97 characters per line,
-   well past the 65-75 that reads comfortably. Bigger type wants a NARROWER
-   measure in rem, not a wider one: 36rem lands at 720px and ~73 characters.
-   This is why the page width was reassessed only after the type scale, and
-   why the answer was the opposite of "make the container wider". */
-body:has(.research-programs) .page__content > *:not(.research-programs),
-body:has(.research-figure) .page__content > *:not(.research-figure):not(.pub-list) {
-  max-width: 36rem;
+   42rem at the 20px root is ~840px and about 85 characters. Longer than the
+   65-75 ideal, chosen deliberately: on a wide display the tighter measure
+   read as a narrow ribbon in a large empty frame. Figures and grids opt out
+   entirely and use the full canvas. */
+#main { max-width: min(1600px, calc(100vw - 3rem)); }
+.page { padding-right: 1em; }
+
+.page__content > *:not(.research-programs):not(.research-figure):not(.people-current):not(.pub-list):not(.alumni):not(.teaching-stats):not(.table-scroll) {
+  max-width: 42rem;
 }
-body:has(.research-figure) .research-figure { width: min(100%, 940px); }
-body:has(.research-figure) .pub-list { max-width: 900px; }
+.research-figure { width: min(100%, 1000px); }
+.pub-list, .alumni, .people-current { max-width: min(100%, 1100px); }
 
 /* Research-program pages.
    The page inherits the site's shell, typography and palette; this adds only
