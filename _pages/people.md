@@ -47,6 +47,7 @@ senior design, independent study, SURF, REU, and related programs.
   <div class="person__text">
     <p class="person__name">Nicholas J. Eliopoulos</p>
     <p class="person__meta">Ph.D. candidate &middot; co-advised with Y.H. Lu</p>
+    <p class="person__area">Machine learning systems and efficient inference</p>
   </div>
 </div>
 <div class="person">
@@ -68,6 +69,7 @@ senior design, independent study, SURF, REU, and related programs.
   <div class="person__text">
     <p class="person__name">Andrew Rozema</p>
     <p class="person__meta">Ph.D. student</p>
+    <p class="person__area">Cybersecurity</p>
   </div>
 </div>
 <div class="person">
@@ -81,6 +83,7 @@ senior design, independent study, SURF, REU, and related programs.
   <div class="person__text">
     <p class="person__name">Huiyun Peng</p>
     <p class="person__meta">Ph.D. student</p>
+    <p class="person__area">Agentic software engineering</p>
   </div>
 </div>
 <div class="person">
@@ -108,13 +111,13 @@ Students study the reuse, integration, reliability, and security of pre-trained 
 ## Alumni
 
 <ul class="alumni">
-  <li><span class="alumni__name">Paschal C. Amusuo</span> — Ph.D., 2026<br><span class="alumni__detail">Reliability and security of embedded software</span><br><span class="alumni__next">Next position: Google</span></li>
-  <li><span class="alumni__name">Sofia Okorafor</span> — M.S., 2026<br><span class="alumni__detail">Software supply chains, signing, and trustworthy reuse</span><br><span class="alumni__next">Next position: U.S. Navy</span></li>
-  <li><span class="alumni__name">Tanmay Singla</span> — M.S., 2026<br><span class="alumni__detail">Software supply chains, signing, and trustworthy reuse</span></li>
-  <li><span class="alumni__name">Parth V. Patil</span> — M.S., 2025<br><span class="alumni__detail">Reliability and security of embedded software</span><br><span class="alumni__next">Next position: Amazon Robotics</span></li>
-  <li><span class="alumni__name">Wenxin Jiang</span> — Ph.D., 2025<br><span class="alumni__detail">Reuse, reliability, and security of pre-trained models</span><br><span class="alumni__next">Next position: Research Software Engineer, Socket</span></li>
-  <li><span class="alumni__name">Jason Jones</span> — M.S., 2024<br><span class="alumni__detail">&ldquo;A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries&rdquo;</span></li>
-  <li><span class="alumni__name">Taylor Schorlemmer</span> — M.S., 2024<br><span class="alumni__detail">&ldquo;Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures&rdquo;</span><br><span class="alumni__next">Next position: U.S. Army</span></li>
-  <li><span class="alumni__name">Geoffrey Cramer</span> — M.S., 2023<br><span class="alumni__detail">&ldquo;An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms&rdquo;</span></li>
-  <li><span class="alumni__name">William Maxam</span> — M.S., 2023<br><span class="alumni__detail">&ldquo;Discovering U.S. Government Threat Hunting Processes and Improvements&rdquo;</span><br><span class="alumni__next">Next position: U.S. Coast Guard</span></li>
+  <li><span class="alumni__name"><a href="https://www.linkedin.com/in/paschal-amusuo-134146b3/">Paschal C. Amusuo</a></span> — Ph.D., 2026<br><span class="alumni__detail">Reliability and security of embedded software</span><br><span class="alumni__next">Next position: Google</span></li>
+  <li><span class="alumni__name"><a href="https://www.linkedin.com/in/sofia-okorafor-b7ba12251/">Sofia Okorafor</a></span> — M.S., 2026<br><span class="alumni__detail">Software supply chains, signing, and trustworthy reuse</span><br><span class="alumni__next">Next position: US Navy Cyber</span></li>
+  <li><span class="alumni__name"><a href="https://www.linkedin.com/in/tanmay-singla/">Tanmay Singla</a></span> — M.S., 2026<br><span class="alumni__detail">Software supply chains, signing, and trustworthy reuse</span><br><span class="alumni__next">Next position: Vulnerability research engineer, Socket</span></li>
+  <li><span class="alumni__name"><a href="https://www.linkedin.com/in/parthvpatil/">Parth V. Patil</a></span> — M.S., 2025<br><span class="alumni__detail">Reliability and security of embedded software</span><br><span class="alumni__next">Next position: Manufacturing test engineer, Amazon Robotics</span></li>
+  <li><span class="alumni__name"><a href="https://www.linkedin.com/in/wenxin-jiang/">Wenxin Jiang</a></span> — Ph.D., 2025<br><span class="alumni__detail">Reuse, reliability, and security of pre-trained models</span><br><span class="alumni__next">Next position: Research engineer, Socket</span></li>
+  <li><span class="alumni__name"><a href="https://www.linkedin.com/in/jonesjasonh/">Jason Jones</a></span> — M.S., 2024<br><span class="alumni__detail">&ldquo;A Quantitative Comparison of Pre-Trained Model Registries to Traditional Software Package Registries&rdquo;</span><br><span class="alumni__next">Next position: AI engineer, BotDojo</span></li>
+  <li><span class="alumni__name"><a href="https://www.linkedin.com/in/taylor-reeves-schorlemmer/">Taylor R. Schorlemmer</a></span> — M.S., 2024<br><span class="alumni__detail">&ldquo;Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures&rdquo;</span><br><span class="alumni__next">Next position: US Army Cyber</span></li>
+  <li><span class="alumni__name"><a href="https://www.linkedin.com/in/geoff-cramer/">Geoffrey Cramer</a></span> — M.S., 2023<br><span class="alumni__detail">&ldquo;An Empirical Study of Trust & Safety Engineering in Open-Source Social Media Platforms&rdquo;</span><br><span class="alumni__next">Next position: Software engineer, BlueSky</span></li>
+  <li><span class="alumni__name"><a href="https://www.linkedin.com/in/william-m-714184114/">William P. Maxam III</a></span> — M.S., 2023<br><span class="alumni__detail">&ldquo;Discovering U.S. Government Threat Hunting Processes and Improvements&rdquo;</span><br><span class="alumni__next">Next position: Instructor, US Coast Guard Academy</span></li>
 </ul>

@@ -515,8 +515,11 @@ def people(sites, pubs, awards, service, courses, teach=None, ppl=None):
             out.append(f'    <p class="person__meta">{" &middot; ".join(meta)}</p>')
         if e.get("affiliation"):
             out.append(f'    <p class="person__meta">{e["affiliation"]}</p>')
-        if e.get("area"):
-            out.append(f'    <p class="person__area">{areas[e["area"]]}</p>')
+        #  is free text for work outside the six programmes; 
+        # is a programme id resolved through area_phrases.
+        area = e.get("research") or (areas[e["area"]] if e.get("area") else None)
+        if area:
+            out.append(f'    <p class="person__area">{area}</p>')
         out.append("  </div>")
         out.append("</div>")
         return "\n".join(out)

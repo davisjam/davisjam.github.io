@@ -4,7 +4,7 @@ items:
   - name: "MAGE"
     url: "https://davisjam.github.io/model-based-agentic-software-engineering/"
     deck: "Engineering software when implementation becomes abundant"
-  - name: "ScholAccess"
+  - name: "DocAble"
     url: "https://scholaccess.com"
     deck: "Automated document accessibility"
   - name: "1,000+ defects & vulnerabilities"
