@@ -83,6 +83,12 @@ body:has(.research-figure) .pub-list { max-width: 900px; }
    nav 117px tall on programme pages -- the word on one line, the chevron and
    label beneath it. A baseline-aligned flex row keeps the three parts on one
    line; the specificity here has to beat the theme's own selector. */
+/* NAV SCALES LESS THAN BODY. The root went 18px -> 20px, which is right for
+   reading but wrong for a horizontal bar: at 20px the links plus the enlarged
+   logo plus the contextual programme label overran 1280px. 0.9em holds the nav
+   at its previous 18px while body copy keeps the increase. */
+.masthead__menu-item a { font-size: 0.9em; }
+
 .masthead__menu-item.rps { display: flex; align-items: baseline; flex-wrap: nowrap; }
 .masthead__menu-item.rps > a { display: inline-block; }
 
@@ -102,7 +108,9 @@ body:has(.research-figure) .pub-list { max-width: 900px; }
      "Research" still reads as the destination and this reads as "you are
      here". Truncates rather than shoving Publications/Teaching around. */
   &__here { margin-left: .3em; color: #57534e; font-weight: 400;
-    max-width: 14rem; overflow: hidden; text-overflow: ellipsis;
+    /* 9rem, not 14: at the new root "Software Supply Chains" was long enough
+       to push the whole nav past 1280px. It truncates instead. */
+    max-width: 9rem; overflow: hidden; text-overflow: ellipsis;
     white-space: nowrap; vertical-align: bottom; display: inline-block; }
   &__here::before { content: "\00a0"; }
 
@@ -316,3 +324,7 @@ body:has(.research-figure) .pub-list { max-width: 900px; }
   max-width: 320px;
   display: block;
 }
+
+/* A long bare URL in running text (the CV has several) must wrap rather than
+   push the document sideways -- caught at 768px by the layout sweep. */
+.page__content a { overflow-wrap: anywhere; }
