@@ -93,7 +93,8 @@ sites:
     project_id: mage
     repository: davisjam/mage
     path: repos/mage
-    url: https://davisjam.github.io/mage/
+    url: https://davisjam.github.io/research/mage/
+    legacy_url: https://davisjam.github.io/mage/   # standalone site, retired in the consolidation
     profile: research-program
     title: Model-Based Agentic Software Engineering
     short_name: MAGE
@@ -151,7 +152,8 @@ sites:
     project_id: embedded-swe
     repository: davisjam/embedded-software-engineering
     path: repos/embedded-software-engineering
-    url: https://davisjam.github.io/embedded-software-engineering/
+    url: https://davisjam.github.io/research/embedded-swe/
+    legacy_url: https://davisjam.github.io/embedded-software-engineering/   # standalone site, retired in the consolidation
     profile: research-program
     title: Embedded Software Engineering
     short_name: Embedded SE
@@ -182,7 +184,8 @@ sites:
     project_id: failure-aware-sdlc
     repository: davisjam/failure-aware-software-development
     path: repos/failure-aware-software-development
-    url: https://davisjam.github.io/failure-aware-software-development/
+    url: https://davisjam.github.io/research/failure-aware-sdlc/
+    legacy_url: https://davisjam.github.io/failure-aware-software-development/   # standalone site, retired in the consolidation
     profile: research-program
     title: Failure-Aware Software Development
     short_name: FA-SDLC
@@ -214,7 +217,8 @@ sites:
     project_id: ptm-se
     repository: davisjam/software-engineering-pre-trained-models
     path: repos/software-engineering-pre-trained-models
-    url: https://davisjam.github.io/software-engineering-pre-trained-models/
+    url: https://davisjam.github.io/research/ptm-se/
+    legacy_url: https://davisjam.github.io/software-engineering-pre-trained-models/   # standalone site, retired in the consolidation
     profile: research-program
     title: Software Engineering for Pre-Trained Models
     short_name: PTMs
@@ -251,7 +255,8 @@ sites:
     project_id: software-supply-chain
     repository: davisjam/software-supply-chains
     path: repos/software-supply-chains
-    url: https://davisjam.github.io/software-supply-chains/
+    url: https://davisjam.github.io/research/software-supply-chain/
+    legacy_url: https://davisjam.github.io/software-supply-chains/   # standalone site, retired in the consolidation
     profile: research-program
     title: Software Supply Chains
     short_name: Supply Chains
@@ -295,7 +300,8 @@ sites:
     project_id: saferegex
     repository: davisjam/regular-expression-engineering
     path: repos/regular-expression-engineering
-    url: https://davisjam.github.io/regular-expression-engineering/
+    url: https://davisjam.github.io/research/saferegex/
+    legacy_url: https://davisjam.github.io/regular-expression-engineering/   # standalone site, retired in the consolidation
     profile: research-program
     title: Regular Expression Engineering
     short_name: Regex

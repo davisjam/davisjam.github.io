@@ -6,7 +6,7 @@
   slug: mage
   question: "How should we engineer software when implementation becomes abundant but engineering judgment remains scarce?"
   description: "Model-Based Agentic Software Engineering (MAGE) studies software engineering for increasingly capable AI agents. The central move is to externalize engineering knowledge into models, align delegated work with authoritative obligations, validate realizations against those models, and turn recurring human reasoning into reusable engineering capital."
-  url: https://davisjam.github.io/mage/
+  url: /research/mage/
   figure: /images/research/mage.svg
   figure_alt: "Scale creates the reasoning problem; commodity intelligence changes its economics. Modeling makes engineering properties explicit, alignment gives selected obligations authority, and governance conversion turns recurring judgment into structures later work can reuse. From the MAGE book."
   publications: 6
@@ -16,7 +16,7 @@
   slug: embedded-swe
   question: "Making analysis and assurance practical for embedded software."
   description: "Embedded systems combine high consequences with environments that make conventional software analysis unusually difficult. Our work has developed techniques for rehosting, dynamic analysis, static analysis, testing, and verification of embedded software. A current thrust is Unit Proofing: making component-level formal verification practical enough to use as an ordinary engineering tool."
-  url: https://davisjam.github.io/embedded-software-engineering/
+  url: /research/embedded-swe/
   figure: /images/research/embedded-swe.svg
   figure_alt: "Each stage established what the next one needed. Unit Proofing sits at the end of that line rather than beside it."
   publications: 10
@@ -26,7 +26,7 @@
   slug: failure-aware-sdlc
   question: "Learning systematically from the ways software systems fail."
   description: "Software failures contain engineering knowledge, but organizations and research communities often treat them as isolated events. This research studies failures empirically and asks how evidence from past failures can improve requirements, design, testing, processes, and engineering decisions before the next system fails in the same way."
-  url: https://davisjam.github.io/failure-aware-software-development/
+  url: /research/failure-aware-sdlc/
   figure: /images/research/failure-aware-sdlc.svg
   figure_alt: "The return path is what distinguishes learning from failure reporting: knowledge built into engineering structure changes how the next system is specified, designed, and validated."
   publications: 9
@@ -36,7 +36,7 @@
   slug: ptm-se
   question: "What changes about software engineering when the reused component is a learned model?"
   description: "Pre-trained models are increasingly reused as software dependencies, but their behavior, interfaces, provenance, compatibility, and failure modes differ substantially from conventional libraries. We study how models are discovered, selected, integrated, tested, secured, reproduced, and evolved as components of larger software systems."
-  url: https://davisjam.github.io/software-engineering-pre-trained-models/
+  url: /research/ptm-se/
   figure: /images/research/ptm-se.svg
   figure_alt: "Compatibility and trust are not stages a project finishes. They run the length of a reused model's life, from selection through the upstream changes that arrive after integration."
   publications: 20
@@ -46,7 +46,7 @@
   slug: software-supply-chain
   question: "How can software reuse remain trustworthy at ecosystem scale?"
   description: "Modern software is assembled from components produced by many actors across package registries, repositories, build systems, and increasingly model and agent ecosystems. We study the foundations and applications of trustworthy software supply chains, including provenance and signing, dependency risk, package confusion, adoption and usability, and mechanisms for making reuse safer."
-  url: https://davisjam.github.io/software-supply-chains/
+  url: /research/software-supply-chain/
   figure: /images/research/software-supply-chain.svg
   figure_alt: "Evidence attaches to different edges: identity to the producer, provenance and signatures to the artifact, policy to the consuming system. Signing establishes one edge; whether the accumulated evidence suffices is decided in context."
   publications: 15
@@ -56,7 +56,7 @@
   slug: saferegex
   question: "Small programs expose surprisingly large software-engineering problems."
   description: "Regular expressions are reused across languages, libraries, and ecosystems, yet developers struggle to understand their behavior, portability, performance, and security consequences. This body of work studies regexes as software artifacts, from reuse and developer comprehension to catastrophic backtracking, analysis, mitigation, and the semantics of modern regex engines."
-  url: https://davisjam.github.io/regular-expression-engineering/
+  url: /research/saferegex/
   figure: /images/research/saferegex.svg
   figure_alt: "Three lines of inquiry running concurrently rather than in succession. Together they showed that small reused artifacts carry hidden assumptions across languages, developers, and runtimes."
   publications: 15

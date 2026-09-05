@@ -81,6 +81,48 @@ understand — as a **research figure within the document**, not a giant identit
 device that turns the top of the page into a manifesto. Good drawings, not
 illustrated books.
 
+## 7a. Organize by claim, never by chronology
+
+**A research-program page must not default to a chronological publication
+list.** Chronology is an artifact of the publication record; the Publications
+page already answers *when this appeared*. A program page answers *what we have
+learned*.
+
+So the body is organized by the intellectual structure of the programme —
+questions, findings, methods, or stages of the argument — and publications hang
+beneath those claims as **evidence**:
+
+```text
+claim heading
+  -> paper title            (the link)
+     -> VENUE · YEAR        (small, muted, secondary)
+     -> what it contributed
+     -> artifacts
+```
+
+Giving years their own headings hands them a semantic job they should not have.
+A publication appears under exactly one claim per programme; if it seems to
+belong to two, the claims are not cleanly separated.
+
+## 7b. No intra-page navigation on a programme page
+
+A visitor arriving at *Research › FA-SDLC* has already navigated. A local
+navigation bar underneath the introduction makes the information architecture
+feel deeper than it is, and repeats what the breadcrumb already said.
+
+A programme page should be short and structurally legible enough not to need
+one. **If a page grows large enough to genuinely require intra-page navigation,
+that is evidence the intellectual object has outgrown a programme page** — and
+the question becomes whether it deserves a standalone body-of-knowledge site, as
+MAGE does.
+
+## 7c. Signature figures get the width
+
+These figures carry text and conceptual structure; they are not decorative
+images. Give a signature figure most of the content width, centred (~82%),
+rather than floating it in a narrow text column where it becomes unreadable and
+looks like an illustration beside missing text.
+
 ## 8. Section architecture
 
 Headings come from the research, not a shared template. `Foundations` is

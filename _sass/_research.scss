@@ -1,0 +1,35 @@
+/* Research-program pages.
+   The page inherits the site's shell, typography and palette; this adds only
+   what a program page needs.
+
+   Two rules encoded here, both deliberate:
+   1. The signature figure is a CONCEPTUAL diagram containing text and
+      structure, not a decorative image. It gets most of the content width,
+      centred -- floating it in a narrow half-column made it unreadable and made
+      the page look like an illustration beside missing text.
+   2. Venue and year are SECONDARY. They sit small and muted beneath the title,
+      because the page is organised by claim, not by chronology. */
+
+.research-crumb { color: #7a8288; font-size: 0.85em; margin-bottom: 0.3em;
+  .sep { color: #CEB888; margin: 0 0.35em; }
+  .here { color: #494e52; font-weight: 600; } }
+
+.research-question { font-size: 1.15em; color: #555960; margin: 0 0 1.4em;
+  max-width: 44em; }
+
+.research-figure { margin: 0 auto 2em; width: 82%; max-width: 60em;
+  img { width: 100%; height: auto; display: block; }
+  figcaption { font-size: 0.85em; color: #7a8288; margin-top: 0.7em;
+    padding-top: 0.7em; border-top: 1px solid #f2f3f3; } }
+@media (max-width: 37.5em) { .research-figure { width: 100%; } }
+
+.pub-list { margin: 0.6em 0 0; padding: 0; list-style: none; max-width: 48em;
+  li { padding: 0.65em 0; border-bottom: 1px solid #f2f3f3; }
+  li:last-child { border-bottom: 0; }
+  .pub-title { font-weight: 600; }
+  .venue { color: #7a8288; font-size: 0.82em; letter-spacing: 0.02em; }
+  .note { font-size: 0.95em; }
+  .award { font-size: 0.72em; color: #6d552f; background: #faf6ee;
+    border: 1px solid #CEB888; border-radius: 2px; padding: 0 0.3em; } }
+
+.research-external { margin-top: 2em; a { font-weight: 600; } }

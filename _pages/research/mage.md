@@ -1,0 +1,51 @@
+---
+layout: research-project
+title: "Model-Based Agentic Software Engineering"
+permalink: /research/mage/
+author_profile: true
+research_slug: "MAGE"
+question: "How should we engineer software when implementation becomes abundant but engineering judgment remains scarce?"
+figure: /assets/research/mage/mage-method.svg
+figure_alt: "Scale creates the reasoning problem; commodity intelligence changes its economics. Modeling makes engineering properties explicit, alignment gives selected obligations authority, and governance conversion turns recurring judgment into structures later work can reuse. From the MAGE book."
+figure_caption: "Scale creates the reasoning problem; commodity intelligence changes its economics. Modeling makes engineering properties explicit, alignment gives selected obligations authority, and governance conversion turns recurring judgment into structures later work can reuse. From the MAGE book."
+external_site: https://davisjam.github.io/model-based-agentic-software-engineering/
+external_label: "Explore the MAGE book, course, and framework"
+---
+
+Capable agents have made it much cheaper to produce working code. They have not made it cheaper to decide what should be built, which obligations govern it, how to read the resulting evidence, or whether the system is acceptable to ship.
+
+MAGE studies the engineering structures that make delegated implementation governable: making consequential knowledge explicit as models, giving selected obligations authority over what agents produce, validating realizations against those models, and turning recurring human judgment into structures that later work can reuse.
+
+## The engineering problem
+
+Capable agents have made producing working code much cheaper. They have not made it cheaper to decide what should be built, which obligations govern it, or whether the result is acceptable.
+
+<ul class="pub-list">
+  <li><span class="pub-title"><a href="https://davisjam.github.io/model-based-agentic-software-engineering/book/index.html">Model-Based Agentic Software Engineering</a></span><br><span class="note">The book-length statement of the framework.</span></li>
+  <li><span class="pub-title">Software Supply Chains are Dead: Use-Case-Oriented Regeneration</span><br><span class="note">Argues that when regeneration is cheap, reuse decisions change shape. The position that connects the supply-chain work to the agentic setting.</span></li>
+</ul>
+
+## What agents actually do
+
+Claims about delegated engineering need evidence about how agents behave on real systems.
+
+<ul class="pub-list">
+  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2506.01249">SysLLMatic: Large Language Models are Software System Optimizers</a></span><br><span class="venue">arXiv &middot; 2025</span><br><span class="note">Showed that language models can improve the measured performance of real software systems, and established the measurement setup the later agent-optimization work builds on.</span></li>
+  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2512.21757">How Do Agents Perform Code Optimization? An Empirical Study</a></span><br><span class="venue">International Mining Software Repositories Confe &middot; 2026</span><br><span class="note">Characterizes what agents actually do when asked to optimize code, which is the empirical ground for claims about where judgment still has to sit.</span></li>
+  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2603.14703">Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization</a></span><br><span class="venue">JAWs &middot; 2026</span><br><span class="note">Extends optimization from local edits to reasoning across a system, which is where delegated work starts to need explicit models rather than context.</span></li>
+</ul>
+
+## Infrastructure for governed work
+
+Delegated work needs somewhere to be discovered, verified, and reproduced.
+
+<ul class="pub-list">
+  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2510.03495">AgentHub: A Registry for Discoverable, Verifiable, and Reproducible AI Agents</a></span><br><span class="venue">JAWs &middot; 2026</span><br><span class="note">A registry for agents, treating discoverability, verification, and reproducibility as properties an agent ecosystem has to provide rather than properties individual users establish.</span></li>
+</ul>
+
+## Funding and support
+
+This work has been supported by:
+
+- **US National Science Foundation** — [CAREER: PTM-SEER: Software Engineering Foundations for Re-Using Pre-Trained Neural Models](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2541917) (#2541917)
+- **US National Science Foundation** — [RFE: Research: Developing and Piloting a Prompt Engineering Competency Framework for Software Engineering Education](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2452533) (#2452533)

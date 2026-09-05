@@ -1,0 +1,179 @@
+# data/program-structure.yaml — the intellectual organization of each program page.
+#
+# THE RULE (James, 260905): a research-program page must NOT default to a
+# chronological publication list. Chronology is an artifact of publications.json,
+# not the structure of the argument. The Publications page already answers "when
+# did this appear"; a program page must answer "what have we learned".
+#
+# So each program declares knowledge claims, and publications hang beneath them
+# as EVIDENCE. Venue and year become small secondary metadata.
+#
+#   claim heading
+#     -> paper title
+#        -> VENUE · YEAR   (muted)
+#        -> what it contributed
+#        -> artifacts
+#
+# A publication may appear under only one claim per program. If it seems to
+# belong to two, the claims are probably not cleanly separated.
+
+schema_version: 1
+
+programs:
+
+  # FA-SDLC is the exemplar: its papers already form a clean
+  # evidence -> knowledge -> engineering progression.
+  failure-aware-sdlc:
+    sections:
+      - title: Characterizing how software fails
+        prose: >-
+          Before failures can teach anything, we have to know what recurs. This
+          work asks what failure studies actually establish, and whether the
+          same engineering problems appear across systems and domains.
+        publications: [W-26, W-24]
+      - title: Building evidence from failures
+        prose: >-
+          Individual failures are useful evidence only if they can be
+          accumulated and analyzed. We study how to turn incident reports and
+          other records of failure into evidence about recurring engineering
+          problems.
+        publications: [C-21, W-20]
+      - title: Turning failure into engineering knowledge
+        prose: >-
+          Finding patterns is not enough. We study what can actually be learned
+          from failures, and how that knowledge can be represented so it
+          survives the incident that produced it.
+        publications: [C-9, C-25]
+      - title: Getting knowledge back into engineering decisions
+        prose: >-
+          The final problem is closing the loop. Even good evidence has little
+          value if it does not reach the people making decisions, or alter the
+          structures through which engineering proceeds.
+        publications: [W-21, R-3, W-18]
+
+  embedded-swe:
+    sections:
+      - title: What breaks in embedded analysis
+        prose: >-
+          Embedded software runs where failures are expensive, under conditions
+          that defeat the assumptions most analysis tools are built on. This
+          work establishes what actually goes wrong, and why the usual
+          techniques do not reach it.
+        publications: [C-30, W-17]
+      - title: Making the code reachable
+        prose: >-
+          Analysis cannot begin until the software can be executed and inspected
+          away from the hardware it was written for. Rehosting turns embedded
+          applications into something ordinary tools can work on.
+        publications: [W-16, C-15, R-2]
+      - title: Analysis at ecosystem scale
+        prose: >-
+          Once analysis is affordable, the question becomes what it finds when
+          pointed at many real projects rather than one.
+        publications: [C-17, W-3]
+      - title: From analysis to proof
+        prose: >-
+          A found defect is weaker than a guaranteed absence. The current thrust
+          asks whether component-level verification can be made cheap enough to
+          use as an ordinary engineering step.
+        publications: [W-11, C-10, C-1]
+
+  ptm-se:
+    sections:
+      - title: Models as reused artifacts
+        prose: >-
+          Developers increasingly build on models they did not train. This work
+          established that model reuse is a software-engineering problem, with
+          its own selection, integration, and maintenance questions.
+        publications: [W-15, C-29, J-4, J-2]
+      - title: Making the ecosystem measurable
+        prose: >-
+          Claims about how models are reused can only be tested against data.
+          These datasets and studies made the model ecosystem empirically
+          inspectable.
+        publications: [W-19, C-28, C-23, W-1]
+      - title: What travels with a reused model
+        prose: >-
+          A model carries assumptions, provenance, and risk that its interface
+          does not describe. This work examines what actually arrives with an
+          artifact obtained from a registry.
+        publications: [W-25, W-22, C-22, J-7, W-29, Pa-1]
+      - title: Reproducibility and downstream engineering
+        prose: >-
+          What downstream engineers can rely on, and what they must rebuild
+          themselves.
+        publications: [R-8, R-5, R-7, J-1, W-12, C-12]
+
+  software-supply-chain:
+    sections:
+      - title: What a secure supply chain requires
+        prose: >-
+          Before defending a supply chain, we need to say what property is being
+          established. This work sets out the security properties and the
+          attack stages they correspond to.
+        publications: [W-27, M-1]
+      - title: Identity, signing, and provenance
+        prose: >-
+          Signing can establish who vouched for an artifact. These studies
+          measure what signing actually establishes in practice, and at what
+          rate it is adopted.
+        publications: [C-26, C-16, C-3, R-1, C-2]
+      - title: Deciding what to trust
+        prose: >-
+          A valid signature does not tell a developer whether a producer is
+          trustworthy, or whether a dependency is appropriate here. This work
+          studies the decision itself.
+        publications: [C-13, W-7, W-6, W-20]
+      - title: Where the assumptions break
+        prose: >-
+          Ecosystems assume a familiar package name identifies a familiar
+          producer. Attackers exploit exactly that.
+        publications: [C-8]
+      - title: The same questions in newer ecosystems
+        prose: >-
+          Pre-trained models, research software, and agent registries inherit
+          the distribution problem before they inherit its defences.
+        publications: [C-12, W-5, W-8]
+
+  saferegex:
+    sections:
+      - title: Where the program began
+        prose: >-
+          The work started with a runtime problem: a single expensive input
+          could stall an entire event-driven server. That framing — performance
+          as a security property — set up everything that followed.
+        publications: [W-36, C-45]
+      - title: The scale of the problem
+        prose: >-
+          Measuring an ecosystem rather than an example turned a known
+          theoretical hazard into a demonstrated, widespread one.
+        publications: [C-44, C-18]
+      - title: What developers actually do
+        prose: >-
+          If regexes are hard to reason about, the difficulty is a
+          software-engineering finding, not a user error.
+        publications: [C-40, C-39, C-41, R-4]
+      - title: Defences and engine design
+        prose: >-
+          The final line of work asks what to change: the expression, the
+          sanitizer, or the engine itself.
+        publications: [W-34, C-36, C-33, C-31, C-4, W-4, W-33]
+
+  mage:
+    sections:
+      - title: The engineering problem
+        prose: >-
+          Capable agents have made producing working code much cheaper. They
+          have not made it cheaper to decide what should be built, which
+          obligations govern it, or whether the result is acceptable.
+        publications: [B-1, W-2]
+      - title: What agents actually do
+        prose: >-
+          Claims about delegated engineering need evidence about how agents
+          behave on real systems.
+        publications: [J-3, W-10, W-9]
+      - title: Infrastructure for governed work
+        prose: >-
+          Delegated work needs somewhere to be discovered, verified, and
+          reproduced.
+        publications: [W-5]

@@ -203,7 +203,9 @@ def research(sites, pubs, *_):
                  f"  slug: {pid}",
                  f"  question: {yq(' '.join(thesis.split()))}",
                  f"  description: {yq(' '.join(body.split()))}",
-                 f"  url: {site['url']}",
+                 # Consolidated: the card links to the page in THIS site, not
+                 # to a standalone project site.
+                 f"  url: /research/{pid}/",
                  f"  figure: /images/research/{pid}.svg",
                  f"  figure_alt: {yq(cap)}",
                  f"  publications: {n}", ""]
