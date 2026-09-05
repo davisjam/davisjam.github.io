@@ -23,69 +23,55 @@ emerging technologies, including AI, change the way software is built and engine
 My current research is organized around six programs.
 
 <style>
-/* Two ancestors cap this page, measured rather than guessed (checks/layout.py
-   --measure). At 1920 the grid was 770px wide at every viewport >= 1280:
-     #main          max-width 1280px, auto-margins 320px a side
-     article.page   padding-right 210.8px -- the Susy suffix(2 of 12), an empty
-                    column reserved for a right sidebar this site does not use
-   .page__inner-wrap / .page__content / .research-grid added nothing; they were
-   all exactly page-width minus that padding.
+/* THE READING MEASURE IS A PROPERTY OF PROSE, NOT OF THE PAGE.
 
-   The fix widens the ANCESTORS and keeps prose narrow, rather than shrinking
-   cards to fit a cap that should not apply to a full-width section. Scoped with
-   :has() so only this page is affected -- no layout or theme edits. */
-body:has(.research-grid) #main{max-width:min(1600px,calc(100vw - 3rem))}
-body:has(.research-grid) .page{padding-right:1em}
-/* Only the grid breaks out. Everything else stays at a reading measure -- prose
-   at 1500px would be unreadable, which is why the cap exists in the first place. */
-body:has(.research-grid) .page__content > *:not(.research-grid){max-width:48rem}
-/* Generated with the page. Restrained and academic on purpose: a thin rule, no
-   shadow, no rounded corners, no icons. The figures are diagrams, so the
-   thumbnail uses object-fit: contain -- cropping one would destroy it. */
-.research-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-  gap:1.5rem;margin:2rem 0}
-.research-card{position:relative;border:1px solid #ddd6cc;background:#fff;
-  display:flex;flex-direction:column}
-.research-card .thumb{background:#f6f4ef;border-bottom:1px solid #e4e0d8;
-  aspect-ratio:3/2;display:block;padding:.6rem}
-.research-card .thumb img{width:100%;height:100%;object-fit:contain;display:block}
-.research-card .body{padding:1.25rem;display:flex;flex-direction:column;flex:1}
-.research-card h2{margin:0 0 .5rem;font-size:1.2rem;line-height:1.25}
-.research-card h2 a{color:inherit;text-decoration:none}
-.research-question{font-style:italic;color:#57534e;margin:0 0 .6rem}
-.research-card p{margin:0 0 .75rem;font-size:.95rem}
-.research-card-footer{display:flex;justify-content:space-between;gap:1rem;
-  align-items:baseline;margin-top:auto;padding-top:.75rem;font-size:.9rem;
-  border-top:1px solid #e4e0d8}
-.research-card-footer .count{color:#57534e}
-/* Whole card clickable, without nesting interactive elements: the title anchor
-   is stretched over the card, so the accessible name and tab order stay
-   exactly one link per card. */
-.research-card h2 a::after{content:"";position:absolute;inset:0}
-.research-card:hover{border-color:#9a3f12}
-.research-card-footer a{position:relative;z-index:1}
-/* Compact example lines: indented, no bullets. Three headings each followed by
-   a sentence and 2-3 lines should not read as a second bibliography. */
-.other-works{margin:.4rem 0 1.4rem 1.5rem;line-height:1.75}
-.other-works .venue{color:#57534e;font-size:.92rem;white-space:nowrap}
-@media (max-width:760px){.research-grid{grid-template-columns:1fr}}
+   The research pages were applying a ~700px prose measure to the whole page,
+   so the figures, the programme grid and the publication lists were all
+   squeezed into a single narrow column while most of the window sat empty. The
+   page canvas is now broad and only the things that want a reading measure get
+   one. */
+.page__content { --page: 1180px; --prose: 760px; }
+.research-programs, .research-programs + *, .other-works { max-width: var(--page); }
+
+/* USE A GRID, DO NOT DRAW THE GRID (same rule as the People page).
+
+   These were bordered cards with a rule under the title and another above the
+   footer. None of those lines encoded anything: each programme already has its
+   own figure, a large title and generous space around it. Removing them lets
+   the signature figures -- which ARE the visual thesis of each programme --
+   become the first thing the eye lands on.
+
+   Column count emerges from available width; it is not decreed as 3x2. */
+.research-programs{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+  column-gap:2.5rem;row-gap:3.25rem;margin:2em 0 2.5em}
+.research-program{min-width:0}          /* long titles must not blow the track */
+.research-program__figure{display:block;border:1px solid #e4e0d8;background:#fff;
+  padding:.5rem;margin-bottom:.9rem}
+/* contain, never cover: cropping a diagram to make six rectangles match would
+   destroy the content. Figures keep their own aspect ratios. */
+.research-program__figure img{width:100%;height:auto;object-fit:contain;display:block}
+.research-program h2{margin:0 0 .35rem;font-size:1.15rem;line-height:1.3}
+.research-program h2 a{color:inherit;text-decoration:none}
+.research-program h2 a:hover{color:#8E6F3E}
+.research-program__q{margin:0 0 .9rem;font-size:.98rem;color:#44403c}
+/* No rule above the footer: the space above it already says the entry ended. */
+.research-program__foot{display:flex;justify-content:space-between;gap:1rem;
+  flex-wrap:wrap;margin:0;font-size:.88rem}
+.research-program__foot span{color:#57534e}
 </style>
 
-<div class="research-grid">
+
+<div class="research-programs">
 {% for program in site.data.research %}
-  <article class="research-card">
-    <span class="thumb"><img src="{{ program.figure | relative_url }}"
-         alt="{{ program.figure_alt }}" loading="lazy"></span>
-    <div class="body">
-      <h2><a href="{{ program.url }}">{{ program.title }}</a></h2>
-      <p class="research-question">{{ program.question }}</p>
-      <p>{{ program.description }}</p>
-      <div class="research-card-footer">
-        <a href="{{ program.url }}">Explore {{ program.short_title }} &rarr;</a>
-        <span class="count">{{ program.publications }} publications</span>
-      </div>
-    </div>
-  </article>
+  <div class="research-program">
+    <a class="research-program__figure" href="{{ program.url }}">
+      <img src="{{ program.figure | relative_url }}" alt="{{ program.figure_alt }}" loading="lazy">
+    </a>
+    <h2><a href="{{ program.url }}">{{ program.title }}</a></h2>
+    <p class="research-program__q">{{ program.question }}</p>
+    <p class="research-program__foot"><a href="{{ program.url }}">Explore
+      {{ program.short_title }} &rarr;</a><span>{{ program.publications }} publications</span></p>
+  </div>
 {% endfor %}
 </div>
 

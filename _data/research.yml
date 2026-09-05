@@ -5,58 +5,52 @@
   short_title: "MAGE"
   slug: mage
   question: "How should we engineer software when implementation becomes abundant but engineering judgment remains scarce?"
-  description: "Model-Based Agentic Software Engineering (MAGE) studies software engineering for increasingly capable AI agents. The central move is to externalize engineering knowledge into models, align delegated work with authoritative obligations, validate realizations against those models, and turn recurring human reasoning into reusable engineering capital."
   url: /research/mage/
-  figure: /images/research/mage.svg
-  figure_alt: ""
+  figure: /assets/research/mage/mage-method.svg
+  figure_alt: "The MAGE method — scale creates the enduring reasoning problem; commodity intelligence changes its economics; Modeling and Alignment turn engineering effort into capital rather than churn."
   publications: 6
 
 - title: "Embedded Software Engineering"
   short_title: "Embedded SE"
   slug: embedded-swe
-  question: "Making analysis and assurance practical for embedded software."
-  description: "Embedded systems combine high consequences with environments that make conventional software analysis unusually difficult. Our work has developed techniques for rehosting, dynamic analysis, static analysis, testing, and verification of embedded software. A current thrust is Unit Proofing: making component-level formal verification practical enough to use as an ordinary engineering tool."
+  question: "How can analysis and assurance become practical for embedded software?"
   url: /research/embedded-swe/
-  figure: /images/research/embedded-swe.svg
-  figure_alt: ""
+  figure: /assets/research/embedded-swe/research-lineage.svg
+  figure_alt: "Four lines of attack on reliable embedded software"
   publications: 10
 
 - title: "Failure-Aware Software Development"
   short_title: "FA-SDLC"
   slug: failure-aware-sdlc
-  question: "Learning systematically from the ways software systems fail."
-  description: "Software failures contain engineering knowledge, but organizations and research communities often treat them as isolated events. This research studies failures empirically and asks how evidence from past failures can improve requirements, design, testing, processes, and engineering decisions before the next system fails in the same way."
+  question: "What can we learn from the ways software systems fail?"
   url: /research/failure-aware-sdlc/
-  figure: /images/research/failure-aware-sdlc.svg
-  figure_alt: ""
+  figure: /assets/research/failure-aware-sdlc/failure-learning-loop.svg
+  figure_alt: "Learning from failure means changing the next system"
   publications: 9
 
 - title: "Software Engineering for Pre-Trained Models"
   short_title: "PTMs"
   slug: ptm-se
   question: "What changes about software engineering when the reused component is a learned model?"
-  description: "Pre-trained models are increasingly reused as software dependencies, but their behavior, interfaces, provenance, compatibility, and failure modes differ substantially from conventional libraries. We study how models are discovered, selected, integrated, tested, secured, reproduced, and evolved as components of larger software systems."
   url: /research/ptm-se/
-  figure: /images/research/ptm-se.svg
-  figure_alt: ""
+  figure: /assets/research/ptm-se/ptm-reuse-lifecycle.svg
+  figure_alt: "Reusing a model introduces new engineering obligations"
   publications: 20
 
 - title: "Software Supply Chains"
   short_title: "Supply Chains"
   slug: software-supply-chain
   question: "How can software reuse remain trustworthy at ecosystem scale?"
-  description: "Modern software is assembled from components produced by many actors across package registries, repositories, build systems, and increasingly model and agent ecosystems. We study the foundations and applications of trustworthy software supply chains, including provenance and signing, dependency risk, package confusion, adoption and usability, and mechanisms for making reuse safer."
   url: /research/software-supply-chain/
-  figure: /images/research/software-supply-chain.svg
-  figure_alt: ""
+  figure: /assets/research/software-supply-chain/trust-provenance-graph.svg
+  figure_alt: "Trustworthy reuse requires more than one kind of evidence"
   publications: 15
 
 - title: "Regular Expression Engineering"
   short_title: "Regex"
   slug: saferegex
-  question: "Small programs expose surprisingly large software-engineering problems."
-  description: "Regular expressions are reused across languages, libraries, and ecosystems, yet developers struggle to understand their behavior, portability, performance, and security consequences. This body of work studies regexes as software artifacts, from reuse and developer comprehension to catastrophic backtracking, analysis, mitigation, and the semantics of modern regex engines."
+  question: "What can small programs teach us about large software-engineering problems?"
   url: /research/saferegex/
-  figure: /images/research/saferegex.svg
-  figure_alt: ""
+  figure: /assets/research/saferegex/regex-microscope.svg
+  figure_alt: "A software-engineering microscope"
   publications: 15

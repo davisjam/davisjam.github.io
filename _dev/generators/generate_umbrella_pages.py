@@ -134,53 +134,43 @@ def cite(p: dict) -> str:
 
 
 CARD_CSS = """<style>
-/* Two ancestors cap this page, measured rather than guessed (checks/layout.py
-   --measure). At 1920 the grid was 770px wide at every viewport >= 1280:
-     #main          max-width 1280px, auto-margins 320px a side
-     article.page   padding-right 210.8px -- the Susy suffix(2 of 12), an empty
-                    column reserved for a right sidebar this site does not use
-   .page__inner-wrap / .page__content / .research-grid added nothing; they were
-   all exactly page-width minus that padding.
+/* THE READING MEASURE IS A PROPERTY OF PROSE, NOT OF THE PAGE.
 
-   The fix widens the ANCESTORS and keeps prose narrow, rather than shrinking
-   cards to fit a cap that should not apply to a full-width section. Scoped with
-   :has() so only this page is affected -- no layout or theme edits. */
-body:has(.research-grid) #main{max-width:min(1600px,calc(100vw - 3rem))}
-body:has(.research-grid) .page{padding-right:1em}
-/* Only the grid breaks out. Everything else stays at a reading measure -- prose
-   at 1500px would be unreadable, which is why the cap exists in the first place. */
-body:has(.research-grid) .page__content > *:not(.research-grid){max-width:48rem}
-/* Generated with the page. Restrained and academic on purpose: a thin rule, no
-   shadow, no rounded corners, no icons. The figures are diagrams, so the
-   thumbnail uses object-fit: contain -- cropping one would destroy it. */
-.research-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-  gap:1.5rem;margin:2rem 0}
-.research-card{position:relative;border:1px solid #ddd6cc;background:#fff;
-  display:flex;flex-direction:column}
-.research-card .thumb{background:#f6f4ef;border-bottom:1px solid #e4e0d8;
-  aspect-ratio:3/2;display:block;padding:.6rem}
-.research-card .thumb img{width:100%;height:100%;object-fit:contain;display:block}
-.research-card .body{padding:1.25rem;display:flex;flex-direction:column;flex:1}
-.research-card h2{margin:0 0 .5rem;font-size:1.2rem;line-height:1.25}
-.research-card h2 a{color:inherit;text-decoration:none}
-.research-question{font-style:italic;color:#57534e;margin:0 0 .6rem}
-.research-card p{margin:0 0 .75rem;font-size:.95rem}
-.research-card-footer{display:flex;justify-content:space-between;gap:1rem;
-  align-items:baseline;margin-top:auto;padding-top:.75rem;font-size:.9rem;
-  border-top:1px solid #e4e0d8}
-.research-card-footer .count{color:#57534e}
-/* Whole card clickable, without nesting interactive elements: the title anchor
-   is stretched over the card, so the accessible name and tab order stay
-   exactly one link per card. */
-.research-card h2 a::after{content:"";position:absolute;inset:0}
-.research-card:hover{border-color:#9a3f12}
-.research-card-footer a{position:relative;z-index:1}
-/* Compact example lines: indented, no bullets. Three headings each followed by
-   a sentence and 2-3 lines should not read as a second bibliography. */
-.other-works{margin:.4rem 0 1.4rem 1.5rem;line-height:1.75}
-.other-works .venue{color:#57534e;font-size:.92rem;white-space:nowrap}
-@media (max-width:760px){.research-grid{grid-template-columns:1fr}}
-</style>"""
+   The research pages were applying a ~700px prose measure to the whole page,
+   so the figures, the programme grid and the publication lists were all
+   squeezed into a single narrow column while most of the window sat empty. The
+   page canvas is now broad and only the things that want a reading measure get
+   one. */
+.page__content { --page: 1180px; --prose: 760px; }
+.research-programs, .research-programs + *, .other-works { max-width: var(--page); }
+
+/* USE A GRID, DO NOT DRAW THE GRID (same rule as the People page).
+
+   These were bordered cards with a rule under the title and another above the
+   footer. None of those lines encoded anything: each programme already has its
+   own figure, a large title and generous space around it. Removing them lets
+   the signature figures -- which ARE the visual thesis of each programme --
+   become the first thing the eye lands on.
+
+   Column count emerges from available width; it is not decreed as 3x2. */
+.research-programs{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+  column-gap:2.5rem;row-gap:3.25rem;margin:2em 0 2.5em}
+.research-program{min-width:0}          /* long titles must not blow the track */
+.research-program__figure{display:block;border:1px solid #e4e0d8;background:#fff;
+  padding:.5rem;margin-bottom:.9rem}
+/* contain, never cover: cropping a diagram to make six rectangles match would
+   destroy the content. Figures keep their own aspect ratios. */
+.research-program__figure img{width:100%;height:auto;object-fit:contain;display:block}
+.research-program h2{margin:0 0 .35rem;font-size:1.15rem;line-height:1.3}
+.research-program h2 a{color:inherit;text-decoration:none}
+.research-program h2 a:hover{color:#8E6F3E}
+.research-program__q{margin:0 0 .9rem;font-size:.98rem;color:#44403c}
+/* No rule above the footer: the space above it already says the entry ended. */
+.research-program__foot{display:flex;justify-content:space-between;gap:1rem;
+  flex-wrap:wrap;margin:0;font-size:.88rem}
+.research-program__foot span{color:#57534e}
+</style>
+"""
 
 
 def research(sites, pubs, *_):
@@ -193,22 +183,41 @@ def research(sites, pubs, *_):
     # from model/sites.yaml and data/publications.yaml.
     data = ["# GENERATED by davis-web generators/generate_umbrella_pages.py.",
             "# Source: model/sites.yaml + data/publications.yaml. Do not hand-edit.", ""]
+    import yaml as _y
+    import xml.etree.ElementTree as _ET
+    copy = _y.safe_load((ROOT / "data/program-copy.yaml").read_text())["programs"]
     for pid in order:
         site = by_pid[pid]
-        thesis, body = PROGRAM_COPY[pid]
         n = sum(1 for x in pubs["publications"] if pid in (x.get("projects") or []))
         fig = (site.get("figure") or {})
-        cap = " ".join((fig.get("caption") or "").split())
+
+        # SIGNATURE FIGURE IS ONE ARTIFACT. This used to emit
+        # /images/research/<pid>.svg -- a hand-copied duplicate of the real
+        # drawing. Four of the six had drifted, and the regex card was still
+        # showing the chronological arc months after the page moved to the
+        # microscope figure. The landing and the programme page now resolve the
+        # SAME path, so changing a figure necessarily changes both.
+        source = f"/assets/research/{pid}/{fig.get('id')}.svg"
+        svg = PAGES.parent / source.lstrip("/")
+        if not svg.exists():
+            raise SystemExit(f"{pid}: signature figure {source} does not exist")
+        root = _ET.parse(svg).getroot()
+        title_el = root.find("{http://www.w3.org/2000/svg}title")
+        alt = " ".join((title_el.text or "").split()) if title_el is not None else ""
+
+        # The landing question may be deliberately shorter than the page's --
+        # regex trades precision for intrigue here -- but it is still declared
+        # in the same record, never retyped into page source.
+        q = copy[pid].get("landing_question") or copy[pid]["question"]
         data += [f"- title: {yq(site['title'])}",
                  f"  short_title: {yq(site.get('short_name') or site['title'])}",
                  f"  slug: {pid}",
-                 f"  question: {yq(' '.join(thesis.split()))}",
-                 f"  description: {yq(' '.join(body.split()))}",
-                 # Consolidated: the card links to the page in THIS site, not
+                 f"  question: {yq(' '.join(q.split()))}",
+                 # Consolidated: the entry links to the page in THIS site, not
                  # to a standalone project site.
                  f"  url: /research/{pid}/",
-                 f"  figure: /images/research/{pid}.svg",
-                 f"  figure_alt: {yq(cap)}",
+                 f"  figure: {source}",
+                 f"  figure_alt: {yq(alt)}",
                  f"  publications: {n}", ""]
     (PAGES.parent / "_data").mkdir(exist_ok=True)
     (PAGES.parent / "_data/research.yml").write_text("\n".join(data))
@@ -237,26 +246,21 @@ My current research is organized around six programs.
 
     o.append(CARD_CSS)
     o.append("""
-<div class="research-grid">
+<div class="research-programs">
 {% for program in site.data.research %}
-  <article class="research-card">
-    <span class="thumb"><img src="{{ program.figure | relative_url }}"
-         alt="{{ program.figure_alt }}" loading="lazy"></span>
-    <div class="body">
-      <h2><a href="{{ program.url }}">{{ program.title }}</a></h2>
-      <p class="research-question">{{ program.question }}</p>
-      <p>{{ program.description }}</p>
-      <div class="research-card-footer">
-        <a href="{{ program.url }}">Explore {{ program.short_title }} &rarr;</a>
-        <span class="count">{{ program.publications }} publications</span>
-      </div>
-    </div>
-  </article>
+  <div class="research-program">
+    <a class="research-program__figure" href="{{ program.url }}">
+      <img src="{{ program.figure | relative_url }}" alt="{{ program.figure_alt }}" loading="lazy">
+    </a>
+    <h2><a href="{{ program.url }}">{{ program.title }}</a></h2>
+    <p class="research-program__q">{{ program.question }}</p>
+    <p class="research-program__foot"><a href="{{ program.url }}">Explore
+      {{ program.short_title }} &rarr;</a><span>{{ program.publications }} publications</span></p>
+  </div>
 {% endfor %}
 </div>
 """)
-
-    by_id = {p["id"]: p for p in pubs["publications"]}
+    by_id = {x["id"]: x for x in pubs["publications"]}
     o.append("\n## Other research\n\n"
              "My research also extends beyond these six programs, often through collaborations "
              "in which software-engineering questions intersect with other areas.\n")
@@ -474,37 +478,47 @@ def _num(n: int) -> str:
 def people(sites, pubs, awards, service, courses, teach=None, ppl=None):
     """The People page.
 
-    Current people are individuals; past undergraduate mentorship is a record of
-    outcomes. So graduate alumni are named comprehensively -- who trained here
-    and where they went IS the doctoral-mentoring result -- while undergraduate
-    work is represented at scale. There is deliberately no selected-undergraduate
-    list: with 27+ co-authors any selection implicitly ranks them.
+    Current researchers are people; graduate alumni are mentorship outcomes;
+    undergraduate participation is a programme at scale. Those three things want
+    three different visual grammars, and the page gives them three.
 
-    Empty categories are omitted entirely (no "none yet" placeholders), so the
-    page stays honest as the roster changes.
+    USE A GRID, DO NOT DRAW THE GRID. An earlier version wrapped every person in
+    a bordered cell, which turned a roster into a visible database table: the
+    borders encoded nothing -- not programme, not cohort, not advising -- they
+    merely revealed where the CSS boxes were. Every visible rule here has to
+    name what it communicates, and a cell boundary communicates nothing.
+
+    So: no card borders, no vertical rules, no shadows. Section headings and
+    whitespace carry the structure. Alumni are denser than current members
+    because they are a historical record rather than an introduction.
+
+    A person's NAME is their only link, and only when a verified LinkedIn URL
+    exists in the record -- never one constructed from a name.
     """
     P = ppl
     areas = P["area_phrases"]
 
-    def person(e):
+    def named(e, fallback_url=None):
+        url = e.get("linkedin") or e.get("name_url") or fallback_url
+        return f'<a href="{url}">{e["name"]}</a>' if url else e["name"]
+
+    def researcher(e):
         out = ['<div class="person">']
-        name = e["name"]
+        if e.get("photo"):
+            out.append(f'  <img class="person__photo" src="{e["photo"]}" '
+                       f'alt="Portrait of {e["name"]}">')
+        out.append('  <div class="person__text">')
+        out.append(f'    <p class="person__name">{named(e)}</p>')
+        meta = [e["degree"]] if e.get("degree") else []
+        if e.get("co_advisor"):
+            meta.append(f'co-advised with {e["co_advisor"]}')
+        if meta:
+            out.append(f'    <p class="person__meta">{" &middot; ".join(meta)}</p>')
         if e.get("affiliation"):
-            name += f' <span class="person__affil">{e["affiliation"]}</span>'
-        out.append(f'  <p class="person__name">{name}</p>')
-        if e.get("degree"):
-            line = f'{e["degree"]}, {P["department"]}'
-            if e.get("co_advisor"):
-                line += f' &middot; co-advised with {e["co_advisor"]}'
-            out.append(f'  <p class="person__degree">{line}</p>')
+            out.append(f'    <p class="person__meta">{e["affiliation"]}</p>')
         if e.get("area"):
-            out.append(f'  <p class="person__area">{areas[e["area"]]}</p>')
-        if e.get("role"):
-            out.append(f'  <p class="person__degree">{" ".join(e["role"].split())}</p>')
-        if e.get("links"):
-            out.append('  <p class="person__links">'
-                       + " · ".join(f'<a href="{l["url"]}">{l["label"]}</a>' for l in e["links"])
-                       + "</p>")
+            out.append(f'    <p class="person__area">{areas[e["area"]]}</p>')
+        out.append("  </div>")
         out.append("</div>")
         return "\n".join(out)
 
@@ -528,19 +542,24 @@ senior design, independent study, SURF, REU, and related programs.
 
     if P.get("faculty"):
         o.append("## Faculty\n")
-        o.append('<div class="people-grid">')
-        o += [person(e) for e in P["faculty"]]
-        o.append("</div>\n")
+        for e in P["faculty"]:
+            o.append('<div class="person person--solo">')
+            o.append(f'  <p class="person__name">{named(e)}</p>')
+            o.append(f'  <p class="person__meta">{" ".join(e["role"].split())}</p>')
+            if e.get("links"):
+                o.append('  <p class="person__links">'
+                         + " &middot; ".join(f'<a href="{l["url"]}">{l["label"]}</a>'
+                                             for l in e["links"]) + "</p>")
+            o.append("</div>\n")
 
     if P.get("graduate"):
         o.append("## Graduate researchers\n")
-        o.append('<div class="people-grid">')
-        o += [person(e) for e in P["graduate"]]
+        o.append('<div class="people-current">')
+        o += [researcher(e) for e in P["graduate"]]
         o.append("</div>\n")
 
     ug = P.get("undergraduate")
     if ug:
-        # Counts come from the Teaching page's record, never from a second copy.
         by_label = {s["label"]: s["value"] for s in teach["undergraduate_research"]["stats"]}
         counts = {"mentored": by_label["undergraduate researchers mentored"],
                   "authors": by_label["undergraduate research authors"],
@@ -549,30 +568,28 @@ senior design, independent study, SURF, REU, and related programs.
         o += [" ".join(x.split()).format(**counts) + "\n" for x in ug["paragraphs"]]
         if ug.get("link"):
             o.append(f"[{ug['link']['label']} →]({ug['link']['url']})\n")
-        if ug.get("current_teams"):
-            o.append("### Current undergraduate research teams\n")
-            for t in ug["current_teams"]:
-                o.append(f"**{t['title']}**  \n{' '.join(t['blurb'].split())}\n")
+        teams = ug.get("current_teams") or []
+        if teams:
+            o.append(f"### Current VIP team{'s' if len(teams) > 1 else ''}\n")
+            for t in teams:
+                title = (f'[{t["title"]}]({t["url"]})' if t.get("url") else t["title"])
+                o.append(f"**{title}**  \n{' '.join(t['blurb'].split())}\n")
 
     if P.get("alumni_graduate"):
+        # No lead sentence: "Alumni" explains itself.
         o.append("## Alumni\n")
-        o.append("Graduate alumni of the lab, and where they went.\n")
         o.append('<ul class="alumni">')
         for e in sorted(P["alumni_graduate"], key=lambda a: (-a["year"], a["name"])):
-            nm = e["name"]
-            if e.get("affiliation"):
-                nm += f' <span class="person__affil">{e["affiliation"]}</span>'
-            bits = [f'<span class="alumni__name">{nm}</span>'
+            bits = [f'<span class="alumni__name">{named(e)}</span>'
                     f' — {e["degree"]}, {e["year"]}']
-            detail = []
-            if e.get("area"):
-                detail.append(areas[e["area"]])
             if e.get("thesis"):
-                detail.append("&ldquo;" + " ".join(e["thesis"].split()) + "&rdquo;")
-            if detail:
-                bits.append(f'<br><span class="alumni__detail">{"; ".join(detail)}</span>')
-            if e.get("current_position"):
-                bits.append(f'<br><span class="alumni__now">{e["current_position"]}</span>')
+                bits.append('<br><span class="alumni__detail">&ldquo;'
+                            + " ".join(e["thesis"].split()) + "&rdquo;</span>")
+            elif e.get("area"):
+                bits.append(f'<br><span class="alumni__detail">{areas[e["area"]]}</span>')
+            if e.get("next_position"):
+                bits.append('<br><span class="alumni__next">Next position: '
+                            f'{e["next_position"]}</span>')
             o.append("  <li>" + "".join(bits) + "</li>")
         o.append("</ul>\n")
     return "\n".join(o)

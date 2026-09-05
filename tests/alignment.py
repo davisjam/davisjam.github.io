@@ -529,6 +529,43 @@ def crosssite(e: Engine, m) -> None:
                 o.fail(f"{p['id']} missing from {pr}", site["id"])
 
 
+def signature_figures(e: Engine, m) -> None:
+    """One drawing per programme, resolved identically everywhere.
+
+    Added 260905 after the landing page was found rendering
+    /images/research/<pid>.svg -- hand-copied duplicates of the real figures.
+    Four of six had drifted, and the regex entry was still showing the
+    chronological arc long after the page moved to the microscope figure. A
+    signature figure is ONE artifact; a second independently-editable copy of it
+    is a bug, not an optimisation.
+    """
+    import yaml as _y
+    o = e.obl("OBL-FIG-001",
+              "Landing and programme page resolve the same signature-figure file.",
+              ["repos/davisjam.github.io/_data/research.yml",
+               "repos/davisjam.github.io/_pages/research-*.md"])
+    site = ROOT / "repos/davisjam.github.io"
+    rec = _y.safe_load((site / "_data/research.yml").read_text()) or []
+    for prog in rec:
+        pid, landing = prog["slug"], prog.get("figure")
+        if not landing:
+            o.fail(f"{pid}: landing record names no signature figure"); continue
+        if not (site / landing.lstrip("/")).exists():
+            o.fail(f"{pid}: landing figure {landing} does not exist")
+        page = site / f"_pages/research-{pid}.md"
+        if not page.exists():
+            o.fail(f"{pid}: no programme page"); continue
+        head = page.read_text().split("---", 2)[1]
+        fm = _y.safe_load(head) or {}
+        if fm.get("figure") != landing:
+            o.fail(f"{pid}: landing shows {landing}, page shows {fm.get('figure')} "
+                   f"-- a signature figure must be one artifact")
+    # A hand-maintained thumbnail directory is exactly how the drift happened.
+    if (site / "images/research").exists():
+        o.fail("images/research/ exists again -- thumbnails must derive from "
+               "assets/research/, not be copied beside them")
+
+
 def records(e: Engine, m) -> None:
     o = e.obl("OBL-RECORD-001",
               "Umbrella pages render enumerative records, never hand-maintained lists.",
@@ -731,6 +768,7 @@ OPT_IN = {"DEPLOY"}          # network-dependent; see main()
 
 FAMILIES = {
     "DEPLOY": deployed,
+    "FIG": signature_figures,
     "STRUCT": structure,
     "LINK": links,
     "SCHOLARLY": scholarly, "FUND": funding, "PORTFOLIO": portfolio, "ROUTE": routes,

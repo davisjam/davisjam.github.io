@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import pathlib
 import sys
+import xml.etree.ElementTree as ET
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 UMBRELLA = ROOT / "repos/davisjam.github.io"
@@ -78,6 +79,22 @@ def main() -> int:
         pid = s["project_id"]
         c = copy[pid]
         fig = s.get("figure") or {}
+        # Alt text and the long description come FROM THE FIGURE, never from a
+        # caption field beside it. The embedded-swe caption still read "Each
+        # stage established what the next one needed" long after that figure was
+        # replaced by four parallel lines of attack -- it described a
+        # progression the new drawing exists to reject. A caption stored next to
+        # a figure is a second copy of what the figure says, and it rots. The
+        # SVG's own <title>/<desc> cannot.
+        svg = UMBRELLA / f"assets/research/{pid}/{fig.get('id')}.svg"
+        tree = ET.parse(svg).getroot()
+        ns = "{http://www.w3.org/2000/svg}"
+        def svg_text(tag):
+            el = tree.find(f"{ns}{tag}")
+            return " ".join((el.text or "").split()) if el is not None else ""
+        svg_title, svg_desc = svg_text("title"), svg_text("desc")
+        if not svg_title:
+            raise SystemExit(f"{pid}: {svg.name} has no <title>; alt text cannot be derived")
         mine = [p for p in pubs if pid in (p.get("projects") or [])]
         by_role: dict[str, list] = {}
         for p in mine:
@@ -94,8 +111,8 @@ def main() -> int:
              f"research_slug: {yfm(s.get('short_name') or s['title'])}",
              f"question: {yfm(c['question'])}",
              f"figure: /assets/research/{pid}/{fig.get('id')}.svg",
-             f"figure_alt: {yfm(' '.join((fig.get('caption') or '').split()))}",
-             f"figure_caption: {yfm(' '.join((fig.get('caption') or '').split()))}"]
+             f"figure_alt: {yfm(svg_title)}",
+             f"figure_desc: {yfm(svg_desc)}"]
         if pid == "mage":
             o += [f"external_site: {canonical['url']}",
                   'external_label: "Explore the MAGE book, course, and framework"']
