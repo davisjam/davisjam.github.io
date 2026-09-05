@@ -149,19 +149,27 @@ CARD_CSS = """<style>
 .research-programs{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
   column-gap:2.5rem;row-gap:3.25rem;margin:2em 0 2.5em}
 .research-program{min-width:0}          /* long titles must not blow the track */
+/* HIERARCHY: title, question, THEN figure. The figure used to come first,
+   which asked a visitor to decipher a diagram before knowing which programme
+   it belonged to -- and these drawings cannot be read at this size anyway.
+   Here the thumbnail is a visual signature for recognition and
+   differentiation; the title and question carry the meaning.
+
+   UNIFORM VIEWPORT: all six get the same height whatever their native aspect
+   ratio, so MAGE's tall figure does not tower over the others. object-fit
+   contain, never cover -- cropping a diagram to make rectangles match would
+   destroy it. The image is aria-hidden and untabbable: it is decorative here,
+   its content lives on the programme page, and the title link already carries
+   the accessible name. */
 .research-program__figure{display:block;border:1px solid #e4e0d8;background:#fff;
-  padding:.5rem;margin-bottom:.9rem}
-/* contain, never cover: cropping a diagram to make six rectangles match would
-   destroy the content. Figures keep their own aspect ratios. */
-.research-program__figure img{width:100%;height:auto;object-fit:contain;display:block}
-.research-program h2{margin:0 0 .35rem;font-size:1.15rem;line-height:1.3}
+  padding:.4rem;margin:0 0 .6rem;height:190px}
+.research-program__figure img{width:100%;height:100%;object-fit:contain;display:block}
+.research-program h2{margin:0 0 .3rem;font-size:1.15rem;line-height:1.3}
 .research-program h2 a{color:inherit;text-decoration:none}
-.research-program h2 a:hover{color:#8E6F3E}
-.research-program__q{margin:0 0 .9rem;font-size:.98rem;color:#44403c}
-/* No rule above the footer: the space above it already says the entry ended. */
-.research-program__foot{display:flex;justify-content:space-between;gap:1rem;
-  flex-wrap:wrap;margin:0;font-size:.88rem}
-.research-program__foot span{color:#57534e}
+.research-program h2 a:hover{color:#8E6F3E;text-decoration:underline}
+.research-program__q{margin:0 0 .85rem;font-size:.98rem;color:#44403c}
+/* No rule above it, no CTA beside it: the title is the link. */
+.research-program__foot{margin:0;font-size:.85rem;color:#57534e}
 </style>
 """
 
@@ -242,13 +250,12 @@ My current research is organized around six programs.
 <div class="research-programs">
 {% for program in site.data.research %}
   <div class="research-program">
-    <a class="research-program__figure" href="{{ program.url }}">
-      <img src="{{ program.figure | relative_url }}" alt="{{ program.figure_alt }}" loading="lazy">
-    </a>
     <h2><a href="{{ program.url }}">{{ program.title }}</a></h2>
     <p class="research-program__q">{{ program.question }}</p>
-    <p class="research-program__foot"><a href="{{ program.url }}">Explore
-      {{ program.short_title }} &rarr;</a><span>{{ program.publications }} publications</span></p>
+    <a class="research-program__figure" href="{{ program.url }}" tabindex="-1" aria-hidden="true">
+      <img src="{{ program.figure | relative_url }}" alt="" loading="lazy">
+    </a>
+    <p class="research-program__foot">{{ program.publications }} publications</p>
   </div>
 {% endfor %}
 </div>

@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- semantic-families: neutral, modeling, governance, failure -->
+<!-- semantic-families: neutral, governance, modeling -->
 <!-- Hand-authored SVG (label: trust-provenance-graph). Software Supply Chain Security.
      ONE JOB: trustworthy reuse requires more than one kind of evidence.
-     REPLACED 260905. The previous figure drew a single actor->artifact->consumer
-     path, which framed the programme as "the signing project". Three
-     complementary trust problems, resting on cross-cutting models and failure
-     evidence, is faithful to the work.
      NO ARROWS between the three columns: they are related places where trust
      must be established, not stages in an algorithm.
      Region labels are the SAME STRINGS as the page section headings
-     (data/program-structure.yaml figure_label), so the figure cannot drift from
-     the body. Canvas is white; the site component owns the border. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 700"
+     (data/program-structure.yaml figure_label), so the figure cannot drift
+     from the body. Canvas is white; the site component owns the border.
+
+     RESCALED 260905. Previously 156 words on a 1240 canvas with 13px minimum
+     text, which renders at 9.9px in the 940px page column and 5.3px on the
+     research landing — against 18px body copy. A figure is part of the page's
+     typography and cannot run its own scale.
+     Now ~80 words on a 1000 canvas with a 15px floor, so the smallest
+     substantive text renders at 14.1px. The words removed were the three-line
+     paragraph under each question, which restated the question, and the italic
+     keyword pairs, which read as a legend for a distinction that did not
+     exist. The questions were always the content. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 610"
      role="img" aria-labelledby="sscTitle sscDesc"
      font-family="Source Sans 3, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
   <title id="sscTitle">Trustworthy reuse requires more than one kind of evidence</title>
@@ -19,63 +25,47 @@
     Identity and provenance asks who produced an artifact and what evidence
     follows it. Distribution asks whether the consumer received what they
     intended. Trust in context asks what authority is warranted for a particular
-    use. Beneath them, cross-cutting work on security properties and failure
-    analysis establishes what those mechanisms need to achieve. The same trust
-    problems recur in pre-trained model, AI agent and research-software
-    ecosystems.</desc>
+    use. Beneath them, cross-cutting work on understanding supply-chain security
+    establishes what a defense should achieve and where real supply chains
+    break. The same trust problems recur in pre-trained model, AI agent and
+    research-software ecosystems.</desc>
 
-  <rect x="0" y="0" width="1240" height="700" fill="#ffffff"/>
+  <rect x="0" y="0" width="1000" height="610" fill="#ffffff"/>
 
-  <text x="40" y="46" font-size="25" font-weight="600" fill="#1c1917"
+  <text x="36" y="44" font-size="26" font-weight="600" fill="#1c1917"
         font-family="Source Serif 4, Charter, Georgia, serif">Trustworthy reuse requires more than one kind of evidence</text>
-  <text x="40" y="76" font-size="16" fill="#57534e">What evidence justifies what trust, for what use?</text>
+  <text x="36" y="74" font-size="17" fill="#57534e">What evidence justifies what trust, for what use?</text>
 
-  <rect x="40"  y="110" width="373" height="286" rx="2" fill="#ffffff" stroke="#57534e" stroke-width="1.3"/>
-  <rect x="433" y="110" width="373" height="286" rx="2" fill="#ffffff" stroke="#57534e" stroke-width="1.3"/>
-  <rect x="826" y="110" width="374" height="286" rx="2" fill="#ffffff" stroke="#57534e" stroke-width="1.3"/>
+  <rect x="36"  y="108" width="296" height="150" rx="2" fill="#ffffff" stroke="#57534e" stroke-width="1.3"/>
+  <rect x="352" y="108" width="296" height="150" rx="2" fill="#ffffff" stroke="#57534e" stroke-width="1.3"/>
+  <rect x="668" y="108" width="296" height="150" rx="2" fill="#ffffff" stroke="#57534e" stroke-width="1.3"/>
 
-  <rect x="40" y="440" width="1160" height="128" rx="2" fill="#e3f0e7" stroke="#1f7a4d" stroke-width="1.6"/>
-  <line x1="226" y1="396" x2="226" y2="440" stroke="#1f7a4d" stroke-width="1" stroke-dasharray="3 3"/>
-  <line x1="620" y1="396" x2="620" y2="440" stroke="#1f7a4d" stroke-width="1" stroke-dasharray="3 3"/>
-  <line x1="1013" y1="396" x2="1013" y2="440" stroke="#1f7a4d" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="184" y1="258" x2="184" y2="304" stroke="#1f7a4d" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="500" y1="258" x2="500" y2="304" stroke="#1f7a4d" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="816" y1="258" x2="816" y2="304" stroke="#1f7a4d" stroke-width="1" stroke-dasharray="3 3"/>
 
-  <text x="62" y="144" font-size="13" font-weight="600" fill="#9a3f12" letter-spacing="0.07em">IDENTITY &amp; PROVENANCE</text>
-  <text x="62" y="176" font-size="17" fill="#1c1917">Who produced this, and what</text>
-  <text x="62" y="198" font-size="17" fill="#1c1917">evidence follows the artifact?</text>
-  <text x="62" y="242" font-size="15" fill="#57534e">Signing and provenance bind</text>
-  <text x="62" y="264" font-size="15" fill="#57534e">evidence about origin and history</text>
-  <text x="62" y="286" font-size="15" fill="#57534e">to software.</text>
-  <text x="62" y="336" font-size="14" font-style="italic" fill="#14532d">identity, signing</text>
-  <text x="62" y="358" font-size="14" font-style="italic" fill="#14532d">provenance, usability</text>
+  <rect x="36" y="304" width="928" height="106" rx="2" fill="#e3f0e7" stroke="#1f7a4d" stroke-width="1.6"/>
 
-  <text x="455" y="144" font-size="13" font-weight="600" fill="#9a3f12" letter-spacing="0.07em">DISTRIBUTION</text>
-  <text x="455" y="176" font-size="17" fill="#1c1917">Did I receive what</text>
-  <text x="455" y="198" font-size="17" fill="#1c1917">I intended?</text>
-  <text x="455" y="242" font-size="15" fill="#57534e">Package ecosystems must connect</text>
-  <text x="455" y="264" font-size="15" fill="#57534e">developer intent to the right</text>
-  <text x="455" y="286" font-size="15" fill="#57534e">producer and artifact.</text>
-  <text x="455" y="336" font-size="14" font-style="italic" fill="#b23b3b">naming, metadata</text>
-  <text x="455" y="358" font-size="14" font-style="italic" fill="#b23b3b">package confusion</text>
+  <text x="60" y="146" font-size="15" font-weight="600" fill="#9a3f12" letter-spacing="0.06em">IDENTITY &amp; PROVENANCE</text>
+  <text x="60" y="188" font-size="19" fill="#1c1917">Who produced this,</text>
+  <text x="60" y="214" font-size="19" fill="#1c1917">and what follows it?</text>
 
-  <text x="848" y="144" font-size="13" font-weight="600" fill="#9a3f12" letter-spacing="0.07em">TRUST IN CONTEXT</text>
-  <text x="848" y="176" font-size="17" fill="#1c1917">What trust and authority</text>
-  <text x="848" y="198" font-size="17" fill="#1c1917">are warranted here?</text>
-  <text x="848" y="242" font-size="15" fill="#57534e">Evidence about origin does not</text>
-  <text x="848" y="264" font-size="15" fill="#57534e">determine what a dependency</text>
-  <text x="848" y="286" font-size="15" fill="#57534e">should be permitted to do.</text>
-  <text x="848" y="336" font-size="14" font-style="italic" fill="#14532d">context, reputation</text>
-  <text x="848" y="358" font-size="14" font-style="italic" fill="#14532d">dependency decisions</text>
+  <text x="376" y="146" font-size="15" font-weight="600" fill="#9a3f12" letter-spacing="0.06em">DISTRIBUTION</text>
+  <text x="376" y="188" font-size="19" fill="#1c1917">Did I receive what</text>
+  <text x="376" y="214" font-size="19" fill="#1c1917">I intended?</text>
 
-  <text x="62" y="474" font-size="13" font-weight="600" fill="#14532d" letter-spacing="0.07em">UNDERSTANDING SUPPLY-CHAIN SECURITY</text>
-  <text x="62" y="508" font-size="16" fill="#1c1917">What properties should a defense establish, and what do real failures</text>
-  <text x="62" y="530" font-size="16" fill="#1c1917">tell us about where supply chains break?</text>
-  <text x="700" y="508" font-size="14" font-style="italic" fill="#1f7a4d">security properties</text>
-  <text x="700" y="530" font-size="14" font-style="italic" fill="#1f7a4d">failure analysis, empirical evidence</text>
+  <text x="692" y="146" font-size="15" font-weight="600" fill="#9a3f12" letter-spacing="0.06em">TRUST IN CONTEXT</text>
+  <text x="692" y="188" font-size="19" fill="#1c1917">What authority is</text>
+  <text x="692" y="214" font-size="19" fill="#1c1917">warranted here?</text>
 
-  <text x="620" y="608" font-size="14" font-weight="600" fill="#9a3f12" letter-spacing="0.07em"
+  <text x="60" y="342" font-size="15" font-weight="600" fill="#14532d" letter-spacing="0.06em">UNDERSTANDING SUPPLY-CHAIN SECURITY</text>
+  <text x="60" y="380" font-size="19" fill="#1c1917">What should a defense establish, and where do real supply chains break?</text>
+
+  <text x="500" y="454" font-size="15" font-weight="600" fill="#9a3f12" letter-spacing="0.06em"
         text-anchor="middle">NEW ECOSYSTEMS</text>
-  <text x="620" y="632" font-size="15" fill="#57534e" text-anchor="middle">the same trust problems recur: pre-trained models, AI agents, research software</text>
+  <text x="500" y="482" font-size="18" fill="#57534e" text-anchor="middle">The same problems recur in pre-trained models, AI agents, and research software.</text>
 
-  <line x1="40" y1="656" x2="1200" y2="656" stroke="#e4e0d8" stroke-width="1"/>
-  <text x="40" y="680" font-size="15" fill="#1c1917">No single mechanism makes a dependency trustworthy. Trust emerges from evidence about origin and distribution, with controls fit to the use.</text>
+  <line x1="36" y1="530" x2="964" y2="530" stroke="#e4e0d8" stroke-width="1"/>
+  <text x="36" y="562" font-size="19" fill="#1c1917">No single mechanism makes a dependency trustworthy. Trust comes from evidence</text>
+  <text x="36" y="588" font-size="19" fill="#1c1917">about origin and distribution, with controls fit to the use.</text>
 </svg>

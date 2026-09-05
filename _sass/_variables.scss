@@ -98,11 +98,20 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
+/* PURDUE GOLD IS THE INTERACTIVE ACCENT. The theme's blue-teal read as an
+   arbitrary secondary brand and was one of the loudest signals on the page.
+   Aged Gold #8E6F3E is the accessible token (4.67:1 on white); Boilermaker
+   #CEB888 is 1.94:1 and stays a rule/accent colour, never type. Links keep an
+   underline so they are not identified by colour alone.
+   $info-color is left alone: it tints .notice panels, and a gold-tinted notice
+   would be a different change from a gold link. */
+$purdue-aged-gold           : #8E6F3E;
+$purdue-boilermaker-gold    : #CEB888;
+$link-color                 : $purdue-aged-gold;
 $link-color-hover           : mix(#000, $link-color, 25%);
 /* Mixing WHITE into an already-compliant link colour lands back under 4.5:1,
    so visited links darken instead of lightening. */
-$link-color-visited         : mix(#000, $link-color, 18%);
+$link-color-visited         : mix(#000, $link-color, 15%);
 $masthead-link-color        : $primary-color;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
