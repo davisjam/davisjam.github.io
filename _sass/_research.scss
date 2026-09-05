@@ -36,7 +36,7 @@ body:has(.research-figure) .pub-list { max-width: 900px; }
    2. Venue and year are SECONDARY. They sit small and muted beneath the title,
       because the page is organised by claim, not by chronology. */
 
-.research-crumb { color: #7a8288; font-size: 0.85em; margin-bottom: 0.3em;
+.research-crumb { color: #57534e; font-size: 0.85em; margin-bottom: 0.3em;
   .sep { color: #CEB888; margin: 0 0.35em; }
   .here { color: #494e52; font-weight: 600; } }
 
@@ -51,14 +51,14 @@ body:has(.research-figure) .pub-list { max-width: 900px; }
 .research-figure { margin: 0 auto 2em; width: 82%; max-width: 60em;
   .figure-frame { background: #fff; border: 1px solid #ddd6cc; padding: 1.5rem; }
   img, svg { display: block; width: 100%; height: auto; }
-  figcaption { font-size: 0.85em; color: #7a8288; margin-top: 0.75em; } }
+  figcaption { font-size: 0.85em; color: #57534e; margin-top: 0.75em; } }
 @media (max-width: 37.5em) { .research-figure { width: 100%; } }
 
 .pub-list { margin: 0.6em 0 0; padding: 0; list-style: none; max-width: 48em;
   li { padding: 0.65em 0; border-bottom: 1px solid #f2f3f3; }
   li:last-child { border-bottom: 0; }
   .pub-title { font-weight: 600; }
-  .venue { color: #7a8288; font-size: 0.82em; letter-spacing: 0.02em; }
+  .venue { color: #57534e; font-size: 0.82em; letter-spacing: 0.02em; }
   .note { font-size: 0.95em; }
   .award { font-size: 0.72em; color: #6d552f; background: #faf6ee;
     border: 1px solid #CEB888; border-radius: 2px; padding: 0 0.3em; } }
