@@ -301,8 +301,12 @@ body:has(.research-figure) .pub-list { max-width: 900px; }
    context. The SVG now declares width/height, and the height is pinned here so
    the lockup is sized by intent rather than by whatever the container infers. */
 .masthead__menu-logo {
-  height: 42px;
+  /* The old raster was 216x93 and the theme's max-width:150px rendered it at
+     roughly 150x65. This lockup is a flatter 3.05 ratio, so matching only the
+     height made it read much smaller. Sized to sit level with the old mark and
+     given room the theme's 150px cap would otherwise deny it. */
+  height: 80px;
   width: auto;
-  max-width: 240px;
+  max-width: 320px;
   display: block;
 }
