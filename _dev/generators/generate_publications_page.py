@@ -22,6 +22,8 @@ from __future__ import annotations
 import pathlib
 import sys
 
+import urllib.parse
+
 import _paths
 import yaml
 
@@ -101,8 +103,11 @@ def main() -> int:
             if t.get("pdf_url"):
                 bits.append(f'<a href="{t["pdf_url"]}"><i class="fas fa-file-pdf"></i></a>')
             if t.get("slides"):
+                # quote(): several decks have spaces in their names, and a raw
+                # space in an href does not resolve.
+                slides = urllib.parse.quote(t["slides"])
                 bits.append('<a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}'
-                            f'/publications/{t["slides"]}"><i class="fas fa-file-powerpoint"></i></a>')
+                            f'/publications/{slides}"><i class="fas fa-file-powerpoint"></i></a>')
             o[-1] = o[-1].rstrip() if not bits else o[-1]
             if bits:
                 o.append(" " + " ".join(bits))

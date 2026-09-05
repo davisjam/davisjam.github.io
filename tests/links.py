@@ -24,6 +24,7 @@ import pathlib
 import re
 import subprocess
 import sys
+import urllib.parse
 from collections import defaultdict
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -67,6 +68,21 @@ def main(argv=None) -> int:
                 continue
             seen[u].add(f.name)
 
+    # Local assets: a missing or unencoded /files/... target is a broken link
+    # the HTTP sweep never sees, because it only collects absolute URLs.
+    local_bad = []
+    for f in list((SITE / "_pages").glob("*.md")) + [SITE / "auto-publications.md"]:
+        if not f.exists():
+            continue
+        text = f.read_text()
+        paths = re.findall(r'(?:\]\(|href=")(/files/[^)"\s]+)', text)
+        paths += ["/files/" + m for m in
+                  re.findall(r'\{\{ site\.filesurl \}\}/([^)"\s]+)', text)]
+        for rel in set(paths):
+            target = SITE / urllib.parse.unquote(rel).lstrip("/")
+            if not target.exists():
+                local_bad.append((rel, f.name))
+
     urls = sorted(seen)
     print(f"\n== link check: {len(urls)} distinct links ==\n")
     dead, unclear = [], []
@@ -85,9 +101,12 @@ def main(argv=None) -> int:
               f"-- not treated as failures:")
         for url, code in sorted(unclear)[:10]:
             print(f"    {code or 'timeout':>7}  {url[:88]}")
-    if not dead:
-        print("  no dead links\n")
-    return 1 if dead else 0
+    for rel, src in sorted(local_bad):
+        print(f"  MISSING FILE  {rel}")
+        print(f"                referenced by {src}")
+    if not dead and not local_bad:
+        print("  no dead links, no missing local files\n")
+    return 1 if (dead or local_bad) else 0
 
 
 if __name__ == "__main__":
