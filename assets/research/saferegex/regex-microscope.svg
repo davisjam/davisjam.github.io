@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- semantic-families: neutral, modeling, failure -->
+<!-- Hand-authored SVG (label: regex-microscope). Regular Expression Engineering.
+     ONE JOB: one small artifact is examined from three directions at once, and
+     the research lives in the seams between them.
+     REPLACED 260905. The previous figure drew the publication chronology as an
+     arc, which made the programme look like a bunch of SE questions applied to
+     regex. The unusual thing is that the same tiny artifact is simultaneously a
+     formal object, a thing humans program, and an executable whose
+     implementation has systems and security consequences.
+     NO TRIANGLE. Three radial spokes 120 degrees apart, and no outer edges
+     whatsoever. Enclosing the hub would assert three bounded categories; the
+     spokes instead say three perspectives on one artifact, and the unbounded
+     sectors between them are where the seam results sit.
+     Canvas is WHITE: the site component owns the border and padding, so the
+     figure must not draw its own frame or tint. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 880"
+     role="img" aria-labelledby="rxTitle rxDesc"
+     font-family="Source Sans 3, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+  <title id="rxTitle">A software-engineering microscope</title>
+  <desc id="rxDesc">A regular expression, described as one line of software,
+    sits at the centre of three radial spokes with no enclosing triangle. The
+    spokes are three perspectives on the same artifact: regex theory asks what
+    it should mean, through semantics, language features and expressiveness;
+    human factors asks how people reason about it, through comprehension,
+    decision-making, reuse and repair; regex engines ask what happens when it
+    runs, through matching algorithms, performance, ReDoS and defenses. The
+    research results sit in the open sectors between the spokes. Between theory
+    and human factors, portability and composition asks whether meaning survives
+    movement and reuse. Between theory and engines, realization asks whether the
+    engine realizes the intended semantics safely. Between human factors and
+    engines, security in practice asks whether developers can recognize and
+    control pathological behavior.</desc>
+
+  <rect x="0" y="0" width="1240" height="880" fill="#ffffff"/>
+
+  <text x="40" y="46" font-size="25" font-weight="600" fill="#1c1917"
+        font-family="Source Serif 4, Charter, Georgia, serif">A software-engineering microscope</text>
+  <text x="40" y="74" font-size="16" fill="#57534e">One small artifact exposes the seams between theory, human reasoning, and implementation.</text>
+
+  <!-- Three spokes at 120 degrees. They stop short of the hub and end at a node;
+       there is deliberately no edge between any two nodes. -->
+  <line x1="620" y1="385" x2="620" y2="254" stroke="#57534e" stroke-width="1.4"/>
+  <line x1="559" y1="490" x2="446" y2="555" stroke="#57534e" stroke-width="1.4"/>
+  <line x1="681" y1="490" x2="794" y2="555" stroke="#57534e" stroke-width="1.4"/>
+
+  <circle cx="620" cy="245" r="6" fill="#57534e"/>
+  <circle cx="438" cy="560" r="6" fill="#57534e"/>
+  <circle cx="802" cy="560" r="6" fill="#57534e"/>
+
+  <!-- the object under the microscope -->
+  <circle cx="620" cy="455" r="70" fill="#faf1e6" stroke="#9a3f12" stroke-width="2.2"/>
+  <text x="620" y="450" font-size="19" font-weight="600" fill="#7f2f0c" text-anchor="middle">REGEX</text>
+  <text x="620" y="474" font-size="13" fill="#7f2f0c" text-anchor="middle">one line of software</text>
+
+  <!-- spoke 1: theory -->
+  <text x="620" y="152" font-size="13" font-weight="600" fill="#57534e" letter-spacing="0.07em" text-anchor="middle">REGEX THEORY</text>
+  <text x="620" y="182" font-size="18" fill="#1c1917" text-anchor="middle">What should it mean?</text>
+  <text x="620" y="208" font-size="14" font-style="italic" fill="#78716c" text-anchor="middle">Semantics · language features · expressiveness</text>
+
+  <!-- spoke 2: human factors -->
+  <text x="430" y="596" font-size="13" font-weight="600" fill="#57534e" letter-spacing="0.07em" text-anchor="end">HUMAN FACTORS</text>
+  <text x="430" y="626" font-size="18" fill="#1c1917" text-anchor="end">How do people reason about it?</text>
+  <text x="430" y="652" font-size="14" font-style="italic" fill="#78716c" text-anchor="end">Comprehension · decision-making</text>
+  <text x="430" y="672" font-size="14" font-style="italic" fill="#78716c" text-anchor="end">reuse · repair</text>
+
+  <!-- spoke 3: engines -->
+  <text x="810" y="596" font-size="13" font-weight="600" fill="#57534e" letter-spacing="0.07em">REGEX ENGINES</text>
+  <text x="810" y="626" font-size="18" fill="#1c1917">What happens when it runs?</text>
+  <text x="810" y="652" font-size="14" font-style="italic" fill="#78716c">Matching algorithms · performance</text>
+  <text x="810" y="672" font-size="14" font-style="italic" fill="#78716c">ReDoS · defenses</text>
+
+  <!-- The seams. These sit in the open sectors, which is the point: the results
+       are not inside any one discipline. -->
+  <text x="505" y="352" font-size="13" font-weight="600" fill="#9a3f12" letter-spacing="0.06em" text-anchor="end">PORTABILITY &amp; COMPOSITION</text>
+  <text x="505" y="376" font-size="14" fill="#44403c" text-anchor="end">Does meaning survive movement and reuse?</text>
+  <text x="505" y="396" font-size="13" fill="#78716c" text-anchor="end">Languages disagree; composition</text>
+  <text x="505" y="414" font-size="13" fill="#78716c" text-anchor="end">introduces new assumptions.</text>
+
+  <text x="735" y="352" font-size="13" font-weight="600" fill="#9a3f12" letter-spacing="0.06em">REALIZATION</text>
+  <text x="735" y="376" font-size="14" fill="#44403c">Does the engine realize the intended semantics safely?</text>
+  <text x="735" y="396" font-size="13" fill="#78716c">Implementation choices determine performance</text>
+  <text x="735" y="414" font-size="13" fill="#78716c">and can eliminate — or create — ReDoS.</text>
+
+  <text x="620" y="690" font-size="13" font-weight="600" fill="#9a3f12" letter-spacing="0.06em" text-anchor="middle">SECURITY IN PRACTICE</text>
+  <text x="620" y="714" font-size="14" fill="#44403c" text-anchor="middle">Can developers recognize and control pathological behavior?</text>
+  <text x="620" y="734" font-size="13" fill="#78716c" text-anchor="middle">Detection, explanation, sanitization, and repair</text>
+  <text x="620" y="752" font-size="13" fill="#78716c" text-anchor="middle">cross the human/runtime boundary.</text>
+
+  <line x1="40" y1="790" x2="1200" y2="790" stroke="#e4e0d8" stroke-width="1"/>
+  <text x="40" y="818" font-size="16" fill="#1c1917">The seams are the subject. A regex is small enough to inspect closely, while still exposing the</text>
+  <text x="40" y="840" font-size="16" fill="#1c1917">interactions among specification, human understanding, reuse, implementation, and security that</text>
+  <text x="40" y="862" font-size="16" fill="#1c1917">appear throughout software engineering.</text>
+</svg>

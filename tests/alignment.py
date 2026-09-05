@@ -667,7 +667,47 @@ def structure(e: Engine, m) -> None:
             o3.fail(f"{pid}: {x} appears under more than one section")
 
 
+def deployed(e: Engine, m) -> None:
+    """Is the published site actually the site in this repository?
+
+    Added after a Liquid syntax error made every build fail for several commits
+    while production quietly served a stale site. Nothing noticed: every other
+    family reads the REPO, so they stayed green on files that had never become a
+    website. This is the only obligation that compares the deployment against
+    the source.
+
+    Network-dependent, so it is opt-in: run with --family DEPLOY.
+    """
+    o = e.obl("OBL-DEPLOY-001",
+              "Each published page serves the content currently in this repository.",
+              ["data/program-structure.yaml", "https://davisjam.github.io/research/*/"])
+
+    import subprocess
+    import yaml as _y
+    spec = _y.safe_load((ROOT / "data/program-structure.yaml").read_text())["programs"]
+    for site in program_sites(m):
+        pid = site["project_id"]
+        want = (spec.get(pid) or {}).get("sections") or []
+        if not want:
+            continue
+        url = f"{ORIGIN}/research/{pid}/"
+        r = subprocess.run(["curl", "-s", "--max-time", "25", url],
+                           capture_output=True, text=True)
+        if r.returncode != 0 or not r.stdout.strip():
+            o.fail(f"{pid}: {url} did not respond"); continue
+        served = rendered(r.stdout)
+        # A heading that exists here but not there means the build did not run,
+        # or ran and failed, and the site is older than the repository.
+        missing = [s["title"] for s in want if s["title"] not in served]
+        if missing:
+            o.fail(f"{pid}: served page is STALE -- missing {missing[0]!r} "
+                   f"({len(missing)} of {len(want)} sections absent)")
+
+
+OPT_IN = {"DEPLOY"}          # network-dependent; see main()
+
 FAMILIES = {
+    "DEPLOY": deployed,
     "STRUCT": structure,
     "LINK": links,
     "SCHOLARLY": scholarly, "FUND": funding, "PORTFOLIO": portfolio, "ROUTE": routes,
@@ -689,6 +729,13 @@ def main(argv=None) -> int:
     m = load()
     e = Engine()
     for name, fn in FAMILIES.items():
+        # DEPLOY compares the SERVED site against this repo, so it is red for
+        # any work that is committed but not yet pushed -- i.e. during normal
+        # editing. Running it by default would train a reader to ignore a red
+        # result, which is exactly the habit that let the stale deploy persist.
+        # Opt in explicitly, or run it after pushing.
+        if name in OPT_IN and not (args.family and name in args.family):
+            continue
         if args.family and name not in args.family:
             continue
         fn(e, m)
