@@ -488,9 +488,15 @@ def people(sites, pubs, awards, service, courses, teach=None, ppl=None):
 
     def person(e):
         out = ['<div class="person">']
-        out.append(f'  <p class="person__name">{e["name"]}</p>')
+        name = e["name"]
+        if e.get("affiliation"):
+            name += f' <span class="person__affil">{e["affiliation"]}</span>'
+        out.append(f'  <p class="person__name">{name}</p>')
         if e.get("degree"):
-            out.append(f'  <p class="person__degree">{e["degree"]}</p>')
+            line = f'{e["degree"]}, {P["department"]}'
+            if e.get("co_advisor"):
+                line += f' &middot; co-advised with {e["co_advisor"]}'
+            out.append(f'  <p class="person__degree">{line}</p>')
         if e.get("area"):
             out.append(f'  <p class="person__area">{areas[e["area"]]}</p>')
         if e.get("role"):
@@ -534,8 +540,13 @@ senior design, independent study, SURF, REU, and related programs.
 
     ug = P.get("undergraduate")
     if ug:
+        # Counts come from the Teaching page's record, never from a second copy.
+        by_label = {s["label"]: s["value"] for s in teach["undergraduate_research"]["stats"]}
+        counts = {"mentored": by_label["undergraduate researchers mentored"],
+                  "authors": by_label["undergraduate research authors"],
+                  "senior_design": by_label["senior-design projects"]}
         o.append(f"## {ug['heading']}\n")
-        o += [" ".join(x.split()) + "\n" for x in ug["paragraphs"]]
+        o += [" ".join(x.split()).format(**counts) + "\n" for x in ug["paragraphs"]]
         if ug.get("link"):
             o.append(f"[{ug['link']['label']} →]({ug['link']['url']})\n")
         if ug.get("current_teams"):
@@ -548,7 +559,10 @@ senior design, independent study, SURF, REU, and related programs.
         o.append("Graduate alumni of the lab, and where they went.\n")
         o.append('<ul class="alumni">')
         for e in sorted(P["alumni_graduate"], key=lambda a: (-a["year"], a["name"])):
-            bits = [f'<span class="alumni__name">{e["name"]}</span>'
+            nm = e["name"]
+            if e.get("affiliation"):
+                nm += f' <span class="person__affil">{e["affiliation"]}</span>'
+            bits = [f'<span class="alumni__name">{nm}</span>'
                     f' — {e["degree"]}, {e["year"]}']
             detail = []
             if e.get("area"):

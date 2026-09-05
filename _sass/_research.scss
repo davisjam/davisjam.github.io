@@ -191,3 +191,12 @@
   &:focus-visible { outline: 2px solid #8E6F3E; outline-offset: 2px; }
   table { margin: 0; }
 }
+
+/* Service affiliation (US Navy, US Army, ...) sits beside the name: it is part
+   of who the person is, not a rank in the roster, so it stays quiet. */
+.person__affil {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: #8E6F3E;
+  white-space: nowrap;
+}
