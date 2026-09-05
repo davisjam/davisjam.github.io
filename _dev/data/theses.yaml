@@ -42,13 +42,17 @@ theses:
     Platforms
   degree: MSc
   year: 2023
+  pdf_url: /files/publications/Cramer-TrustAndSafetyInSMPs-2023-MScThesis.pdf
+  slides: Cramer-TrustAndSafetyInSMPs-2023-MScThesis-slides.pdf
 - author: Maxam
   title: Discovering U.S. Government Threat Hunting Processes and Improvements
   degree: MSc
   year: 2023
   slides: Maxam-ThreatHunt-2023-MScThesis-slides.pptx
+  pdf_url: /files/publications/Maxam-ThreatHunt-2023-MScThesis.pdf
 - author: Davis
   title: On the Impact and Defeat of Regular Expression Denial of Service
   degree: PhD
   year: 2020
   slides: Davis-Dissertation-OralDefense.pptx
+  pdf_url: /files/publications/Davis-Dissertation-2020.pdf

@@ -1427,6 +1427,9 @@ publications:
     authors: "D. Lugo and J.C. Davis"
     year: 2026
     paper_url: "https://arxiv.org/pdf/2606.07393"
+    projects: [mage]
+    role_in_project:
+      mage: core
     program_notes:
       mage: "Asks what the DoD software acquisition pathway assumes about how software is produced, through a scenario-based policy analysis."
   - id: R-5

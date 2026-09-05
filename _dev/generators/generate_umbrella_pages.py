@@ -27,6 +27,7 @@ def yq(v: str) -> str:
 
 
 import _paths
+import yaml
 
 # Resolved from whichever layout this copy sits in -- see _paths.py.
 ROOT = _paths.DATA.parent
@@ -499,6 +500,10 @@ def people(sites, pubs, awards, service, courses, teach=None, ppl=None):
     """
     P = ppl
     areas = P["area_phrases"]
+    # Deposited theses live in their own record; People links to them rather
+    # than restating the title. thesis_author is the explicit join key.
+    theses = {t["author"]: t for t in
+              yaml.safe_load((_paths.DATA / "theses.yaml").read_text())["theses"]}
 
     def named(e, fallback_url=None):
         url = e.get("linkedin") or e.get("name_url") or fallback_url
@@ -587,7 +592,13 @@ senior design, independent study, SURF, REU, and related programs.
         for e in sorted(P["alumni_graduate"], key=lambda a: (-a["year"], a["name"])):
             bits = [f'<span class="alumni__name">{named(e)}</span>'
                     f' — {e["degree"]}, {e["year"]}']
-            if e.get("thesis"):
+            th = theses.get(e.get("thesis_author") or "")
+            if th:
+                title = " ".join(th["title"].split())
+                url = th.get("pdf_url")
+                shown = f'<a href="{url}">{title}</a>' if url else title
+                bits.append(f'<br><span class="alumni__detail">&ldquo;{shown}&rdquo;</span>')
+            elif e.get("thesis"):
                 bits.append('<br><span class="alumni__detail">&ldquo;'
                             + " ".join(e["thesis"].split()) + "&rdquo;</span>")
             elif e.get("area"):

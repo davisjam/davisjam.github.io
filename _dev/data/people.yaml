@@ -110,6 +110,7 @@ alumni_graduate:
     area: ptm-se
     linkedin: https://www.linkedin.com/in/wenxin-jiang/
     next_position: Research engineer, Socket
+    thesis_author: Jiang
   - name: Tanmay Singla
     degree: M.S.
     year: 2026
@@ -128,6 +129,7 @@ alumni_graduate:
     area: embedded-swe
     linkedin: https://www.linkedin.com/in/parthvpatil/
     next_position: Manufacturing test engineer, Amazon Robotics
+    thesis_author: Patil
   - name: Jason Jones
     degree: M.S.
     year: 2024
@@ -136,6 +138,7 @@ alumni_graduate:
       Software Package Registries
     linkedin: https://www.linkedin.com/in/jonesjasonh/
     next_position: AI engineer, BotDojo
+    thesis_author: Jones
   - name: Taylor R. Schorlemmer
     degree: M.S.
     year: 2024
@@ -144,12 +147,14 @@ alumni_graduate:
       Signatures
     linkedin: https://www.linkedin.com/in/taylor-reeves-schorlemmer/
     next_position: US Army Cyber
+    thesis_author: Schorlemmer
   - name: William P. Maxam III
     degree: M.S.
     year: 2023
     thesis: Discovering U.S. Government Threat Hunting Processes and Improvements
     linkedin: https://www.linkedin.com/in/william-m-714184114/
     next_position: Instructor, US Coast Guard Academy
+    thesis_author: Maxam
   - name: Geoffrey Cramer
     degree: M.S.
     year: 2023
@@ -158,6 +163,7 @@ alumni_graduate:
       Media Platforms
     linkedin: https://www.linkedin.com/in/geoff-cramer/
     next_position: Software engineer, BlueSky
+    thesis_author: Cramer
 
 undergraduate:
   heading: Undergraduate research

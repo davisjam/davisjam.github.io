@@ -8,7 +8,7 @@
   url: /research/mage/
   figure: /assets/research/mage/mage-method.svg
   figure_alt: "The MAGE method — scale creates the enduring reasoning problem; commodity intelligence changes its economics; Modeling and Alignment turn engineering effort into capital rather than churn."
-  publications: 8
+  publications: 10
 
 - title: "Embedded Software Engineering"
   short_title: "Embedded Software"
@@ -44,7 +44,7 @@
   url: /research/software-supply-chain/
   figure: /assets/research/software-supply-chain/trust-provenance-graph.svg
   figure_alt: "Trustworthy reuse requires more than one kind of evidence"
-  publications: 16
+  publications: 17
 
 - title: "Regular Expression Engineering"
   short_title: "Regular Expressions"
