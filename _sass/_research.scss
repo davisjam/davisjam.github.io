@@ -140,11 +140,37 @@
     li:first-child, li:first-child a { font-weight: inherit; } }
   &.is-open &__menu { display: block; } }
 
-/* Specificity: theme is (0,2,1); these are (0,3,1) and (0,3,0). */
+/* THEME RESET FOR THE FLYOUT.
+
+   minimal-mistakes styles its nav with DESCENDANT selectors under
+   `.greedy-nav .visible-links`, so every one of them also matches inside this
+   menu, which is nested there in the DOM. Three have leaked so far and each
+   was found only by someone noticing the rendering:
+
+     li            display:table-cell   -> the menu laid out horizontally
+     li:first-child font-weight:bold    -> MAGE looked active on every page
+     li:first-child a  margin-left:0    -> and was outdented 20px besides
+     a             margin-left          -> items did not share a left edge
+
+   Patching them one at a time is losing whack-a-mole against a stylesheet
+   nobody here maintains, so this resets the whole surface the theme can reach.
+   Specificity: theme rules are (0,2,1); these are (0,3,1). */
 .greedy-nav .visible-links .rps__menu { display: none; }
-.greedy-nav .visible-links .rps__menu li { display: block; width: auto;
-  vertical-align: baseline; }
 .greedy-nav .visible-links .rps.is-open .rps__menu { display: block; }
+.greedy-nav .visible-links .rps__menu li,
+.greedy-nav .visible-links .rps__menu li:first-child,
+.greedy-nav .visible-links .rps__menu li:last-child {
+  display: block; width: auto; vertical-align: baseline;
+  font-weight: 400; margin: 0;
+}
+.greedy-nav .visible-links .rps__menu li a,
+.greedy-nav .visible-links .rps__menu li:first-child a,
+.greedy-nav .visible-links .rps__menu li:last-child a {
+  margin: 0; font-weight: 400; border-radius: 0;
+}
+.greedy-nav .visible-links .rps__menu li a[aria-current="page"] {
+  font-weight: 600; color: #7d6236; border-left-color: #8E6F3E;
+}
 /* The contextual programme label is supplementary location information, and
    below this width it is what pushes the nav past the viewport -- greedy-nav
    measures the bar without knowing about it. The page title says which
