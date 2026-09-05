@@ -1,127 +1,102 @@
 ---
 layout: single
-title: "Joining the Duality Lab"
+title: "Join the lab"
 permalink: /join-lab/
 author_profile: true
-redirect_from: 
 ---
 
-{% include base_path %}
+I am always interested in hearing from strong prospective researchers whose
+interests overlap with the Duality Lab's work.
 
-To get started, please send me an email...but read on!
+My group studies software engineering as an engineering discipline: how
+software-intensive systems fail, how they can be analyzed and assured, how reuse
+can remain trustworthy, and how increasingly capable AI changes the way software
+is engineered. Research in the group therefore requires both intellectual
+curiosity and the ability to understand and build real software systems.
 
-I receive a lot of email and sometimes things get lost. I have special email filters set up so that I won’t lose your introductory email, but you’ll need to follow these instructions to make it into the proper folder.
+Before contacting me, please read the [research pages](/research/) and identify
+the work that genuinely interests you.
 
-If I don’t respond after five business days, feel free to send a follow-up email. But double-check that you followed the instructions! Your email might not have made it into the right folder.
+## Graduate researchers
 
-## General information
+I work with Ph.D. and master's students in Purdue ECE whose interests overlap
+with the lab's research. I am also happy to hear from prospective students who
+are considering applying to Purdue.
 
-I bring a systems perspective to my software engineering research &mdash; I want to understand how to engineer complex computing systems.
-To conduct this kind of research, you must be a reasonably proficient software engineer.
-This background is necessary in human-subjects research (asking the right questions), in systems analysis research (knowing how to understand a system), and in systems-building research (building a reasonable prototype quickly).
-You will need good engineering fundamentals to make a contribution.
+Strong candidates usually have substantial software-engineering experience and
+evidence that they can learn independently. Research experience is valuable but
+not required; building nontrivial software, contributing to open-source
+projects, conducting empirical studies, or otherwise pursuing technically
+ambitious work can provide equally useful preparation.
 
-### Minimum requirements
+Research is a sustained commitment. Graduate researchers in the lab are expected
+to develop deep expertise in their research area, understand the relevant
+literature and systems, and progressively take intellectual ownership of their
+work.
 
-It is not my intention to discourage you, but I want you to understand what you are asking for, and to make you ready to be challenged.
-This table highlights the three main requirements for success in the research that my lab conducts.
+## Contacting me
 
-The most critical of these is *time*.
-If you have the will to learn, you can succeed in research -- but you must invest and persevere.
+If you would like to work with me, send me an email that answers four questions:
 
-<div class="table-scroll" role="region"
-     aria-label="What I look for in lab members" tabindex="0" markdown="1">
+1. **Why this lab?** Which of my research programs or recent papers interests
+   you, and why?
+2. **What have you done?** Point me to one to three pieces of work that best
+   demonstrate your preparation for research—software, publications, reports,
+   substantial projects, or similar work—and briefly explain your contribution.
+3. **What might you work on?** Read at least one recent paper from the lab and
+   tell me one question it makes you want to investigate.
+4. **What is your situation?** Tell me whether you are already at Purdue or are
+   considering applying, your degree program or intended program, and your
+   expected timeline.
 
-| Requirement | Description | Metric | How to get there |
-|-|-|-|-|
-| Time | "Research" means "contributing meaningfully to the collection of human knowledge". Progress is made through disciplined long-term focus. | I expect *graduate* research assistants to commit to 20+ hours/week on a project, with peaks and valleys tied to grant and paper deadlines. I expect *undergraduate* research assistants to work for around 10 hours/week, with peaks and valleys tied to exams and projects. | **Identify your priorities**. If you want to *be* a researcher, you may need to choose *not* to be something else (e.g. *not* participating in 5 clubs and 2 intramural leagues). |
-| Software fundamentals | You should be fluent in several programming languages (e.g. Python, JavaScript, and C/C++/Java). | You can write interesting programs with minimal reference to online documentation ([ref](https://softwareengineering.stackexchange.com/a/154884)). | **Practice**. There are lots of "30 days of code"-type curricula, e.g. [Advent of Code](https://adventofcode.com). Try the problems from [Cracking the Coding Interview](https://en.wikipedia.org/wiki/Cracking_the_Coding_Interview). |
-| Engineering knowledge | You should have a reasonable command of modern software engineering techniques (e.g. unit testing, CI, object-oriented programming, software registries, git, GitHub). | You have used these techniques on a non-trivial project that you can show me. | **Practice**. Use free versions of modern tools through GitHub. Read the book [Software Engineering at Google](https://learning.oreilly.com/library/view/software-engineering-at/9781492082781/) (free through the Purdue library) |
+Attach your CV or résumé.
 
-</div>
+If you are already a Purdue graduate student, use the subject line "Prospective
+researcher: current Purdue graduate student." If you are considering applying to
+Purdue for graduate study, use "Prospective researcher: graduate applicant."
 
-### Going beyond the minimum
+I receive a large volume of email and use filters to keep prospective-student
+messages from getting lost. Please include the word *xyzzy* somewhere in your
+message. If you have followed these instructions and have not heard from me
+after five business days, feel free to follow up.
 
-Beyond this general know-how, you will need to develop topic-specific skills as you engage in research.
-It is my job to point out the knowledge you need to acquire, but your job to develop it.
-I will not lecture you.
-For example:
-1. Some of my projects are focused on human subjects. If you wish to apply these methods (e.g. surveys, interviews, ethnographies), knowing about these research methods is a good substitute for some technical know-how. I will expect you to study these methods independently.
-2. Some of my projects involve machine learning. If you wish to study engineering failures in deep learning projects, then you will need to be an expert in deep learning first. If you join such a project, I will expect you to study the relevant material independently. 
+## Undergraduate researchers
 
-You might benefit from enrolling in pertinent courses, completing online certificates, or getting a textbook out of the library.
-If you need knowledge for research, you must not rely on Googling stuff and ChatGPT as a substitute for expertise.
-If you are not actively developing knowledge you need, I will ask you to leave.
+Undergraduate researchers join my group through Purdue's
+[Vertically Integrated Projects (VIP)](https://engineering.purdue.edu/VIP)
+program. My current VIP teams and available projects are listed through the
+program.
 
-## Instructions to apply
+If a team is full or registration is otherwise closed, I almost always approve
+force-add requests from students who want to join my VIP teams.
 
-Write me an email and tell me how you might fit into my team.
-There are detailed notes for graduate vs. undergraduate students further down, but I have the same general questions for everyone.
-Please organize your email with headings so I can read it.
+## What I look for
 
-1. Why are you interested in my lab in particular?
-2. What experience do you have in research? (e.g., teaching yourself new things, reading research papers)
-3. What experience do you have in engineering software? (*Have you worked professionally? Done an internship? Have you compiled the Linux kernel? Do you have an Android app to demonstrate? Have you read the Node.js source code? Have you contributed to an open-source project? Are you skilled in using a machine learning framework?*)
-4. How much time do you have available to work in my lab (hours/week), and how long do you anticipate doing so? (semesters, years?)
-5. Which project(s) listed on my website are you interested in? Why? (Or explain a project you would like to pursue under my mentorship)
+**Engineering ability.** You should be comfortable building and understanding
+nontrivial software. The particular languages and technologies matter less than
+evidence that you can work independently in unfamiliar systems.
 
-To help me get to know you better, please:
+**Intellectual independence.** Research continually requires learning things
+nobody has assigned you to learn. I will help identify useful directions,
+methods, and knowledge, but researchers are responsible for developing the
+expertise their work requires.
 
-- Attach a resume or CV.
-- Appoint me to 1-3 relevant and representative projects (e.g. open-source code), reports, or publications, and explain your role in the project. These should demonstrate your potential to conduct research in my lab. If you do not have anything to show along these lines (perhaps you are a first-year student?), your email should explain why you think you are prepared to engage in research.
-- Read one or more of my recent research publications and suggest some ideas for a follow-up study.
+**Sustained commitment.** Good research takes time. I value persistence, careful
+thinking, and sustained engagement much more than a long list of simultaneous
+activities.
 
-Finally, to match my email filter, please include the magic word *xyzzy* somewhere in your email.
+## How I mentor
 
-### Application notes for graduate students
+A research laboratory has two responsibilities: to create new knowledge and to
+create new researchers.
 
-If you are a *current* or *incoming* Purdue graduate student in the ECE department, send me the email described above, with the subject "*Prospective assistant: graduate (current)*".
+Research in the Duality Lab is learned through apprenticeship. I work with
+students to develop disciplined ways of thinking about research problems, strong
+empirical and engineering methods, and clear technical communication. As
+researchers become more experienced, I expect them to take increasing ownership
+of their questions, methods, and collaborations and to help mentor more junior
+members of the group.
 
-If you are *applying* to Purdue's ECE department for graduate work, send me the email described above, with the subject "*Prospective assistant: graduate (applicant)*".
-
-### Application notes for undergraduate students
-
-If you are a current Purdue undergraduate, send me the email described above, with the subject "*Prospective assistant: undergraduate*".
-I am happy to hear from undergraduate students in ECE, CS, CIT, and related majors, and further afield if you think it's a good fit.
-
-However, I do not do "freelance" mentoring. If you want to be an undergraduate researcher in my lab, you will need to use one of Purdue's mechanisms:
-- VIP teams (if I am leading one at the moment, e.g. the TensorFlow Model Garden team)
-- The [OUR Scholars](https://www.purdue.edu/undergrad-research/students/OUR-Scholars.php) academic-year program (requires my sponsorship)
-- The [SURF](https://engineering.purdue.edu/Engr/Research/EURO/SURF) summer research program (requires my sponsorship)
-- I am willing to consider an independent study, but only when you intend to springboard into the OUR Scholars or SURF programs.
-
-## Onboarding process
-
-If I like the looks of your application, I will set up an interview.
-If that goes well, I will ask you to work on something small for 4-6 weeks to get a sense of your commitment, interests, and skill set.
-Then we can discuss a longer-term relationship.
-
-Undergraduate students will generally be assigned to support an existing project. 
-You must learn to walk before you can run.
-
-## Philosophy of training
-
-Learning how to "do research" is a long journey. To help you understand what life will be like in my lab, let me tell you about my philosophy of training.
-
-A research laboratory has two responsibilities.
-  First, we create *new knowledge*.
-  Second, we create *new researchers*.
-
-Every lab member will contribute to the creation and sharing of new knowledge. This typically takes the form of understanding the state of the art (research literature) and of the practice (existing tools and systems), and then designing studies, implementing systems or studying humans, and writing up results.
-
-Research is learned through apprenticeship.
-  My lab members will become
-    **disciplined thinkers**,
-    **thoughtful researchers**,
-    and
-    **exemplary communicators**.
-  I will provide you with
-    one-on-one mentoring in these areas,
-    feedback to help you understand your strengths and weaknesses,
-    and
-    resources to help you improve.
-  In addition, senior lab members will be given opportunities to help train more junior lab members.
-
-My complete *Advisor-Advisee Compact* is available on request.
-
-[See who is currently in the lab →](/people/)
+The goal is not simply to complete a sequence of projects. It is to develop
+researchers capable of identifying important problems, determining what evidence
+would answer them, and carrying that work through rigorously.

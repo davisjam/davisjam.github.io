@@ -18,5 +18,8 @@ main:
   - title: "People"
     url: /people/
 
+  - title: "Join the lab"
+    url: /join-lab/
+
   - title: "Personal"
     url: /personal/

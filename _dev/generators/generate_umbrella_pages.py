@@ -280,11 +280,6 @@ My current research is organized around six programs.
         note = " — provisional application" if p["id"] == "Pa-1" else ""
         o.append(f"- {title} ({p.get('year', 'n.d.')}){note}")
     o.append("")
-
-    o.append("\n## The lab\n\n"
-             "I welcome graduate and undergraduate researchers interested in software engineering, "
-             "systems, security, and the engineering of AI-enabled systems.\n\n"
-             "[How to join the lab →](/join-lab/)\n")
     return "\n".join(o)
 
 
