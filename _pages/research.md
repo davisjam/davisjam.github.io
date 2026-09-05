@@ -10,24 +10,14 @@ author_profile: true
      Edit the narrative in that generator, or the facts in data/*.yaml.
      Hand edits here will be overwritten. -->
 
-<figure>
-  <img src="/images/research-portfolio.svg"
-       alt="Software-intensive systems yield engineering knowledge; structures built from it
-            improve how software is built, assured, and learned from, producing systems worth
-            trusting, which in turn become the next source of knowledge.">
-  <figcaption>Engineering knowledge is extracted from real systems and turned into structures
-  that improve the next ones. The loop is what makes this a sustained programme rather than a
-  sequence of projects.</figcaption>
-</figure>
+I study how to make software-intensive systems reliable and secure. I do this by
+systematically building systems and processes, watching them fail, and turning what we
+learn into better ways to engineer the next ones.
 
-I study how to engineer trustworthy software-intensive systems: how software fails, how
-engineering knowledge can make those failures less likely to recur, and how changing
-technologies alter the way software is built and governed.
-
-My work combines empirical software engineering, systems, security, program analysis, and
-increasingly AI. Across these areas, a recurring question is how we can turn knowledge — about
-requirements, failures, dependencies, environments, or engineering judgment — into structures
-that make better software easier to build.
+My research pursues this problem from several directions: how software fails in
+practice; how analysis and assurance can prevent failures; how dependencies and reused
+components can be understood and governed; and how changing technologies, including AI,
+alter the way software is built and engineered.
 
 My current research is organized around six programs.
 
