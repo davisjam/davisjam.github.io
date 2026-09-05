@@ -10,14 +10,15 @@ author_profile: true
      Edit the narrative in that generator, or the facts in data/*.yaml.
      Hand edits here will be overwritten. -->
 
-I study how to make software-intensive systems reliable and secure. I do this by
-systematically building systems and processes, watching them fail, and turning what we
-learn into better ways to engineer the next ones.
+I study how to make software-intensive systems reliable and secure. My research begins
+with engineering practice: I study how software is built and used, identify where existing
+assumptions and engineering methods break down, and turn those findings into new methods,
+tools, and ways of engineering software.
 
-My research pursues this problem from several directions: how software fails in
-practice; how analysis and assurance can prevent failures; how dependencies and reused
-components can be understood and governed; and how changing technologies, including AI,
-alter the way software is built and engineered.
+I pursue this problem from several directions: understanding how software fails in
+practice; developing analysis and assurance methods that prevent failures; making
+dependencies and reused components easier to understand and govern; and studying how
+emerging technologies, including AI, change the way software is built and engineered.
 
 My current research is organized around six programs.
 
