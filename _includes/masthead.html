@@ -19,12 +19,20 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-                                              >{{ program.title }}</a></li>
-                  {% endfor %}
+            {% if link.title == 'Research' %}
+              <li class="masthead__menu-item rps">
+                <a href="{{ domain }}{{ link.url }}">Research</a><button type="button"
+                  class="rps__btn" aria-expanded="false" aria-haspopup="true"
+                  aria-label="Research programmes">&#8250;</button>
+                <ul class="rps__menu">
+                  {%- for program in site.data.research -%}
+                  <li><a href="{{ domain }}{{ program.url }}"{% if program.short_title == page.research_slug %} aria-current="page"{% endif %}>{{ program.title }}</a></li>
+                  {%- endfor -%}
                 </ul>
               </li>
             {% else %}
-                          {% endif %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
