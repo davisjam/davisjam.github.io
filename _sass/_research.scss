@@ -140,47 +140,72 @@
 }
 
 /* ----------------------------------------------------------------- people page
-   Thin neutral borders, no rounded SaaS cards, no shadows. Photos are optional
-   throughout: nobody in the record has one yet, and a layout that only works
-   with images would break the moment a person joins without a headshot. */
+   USE A GRID, DO NOT DRAW THE GRID.
 
-.people-grid {
+   The first version put every person in a bordered cell, which turned a roster
+   into a visible database table. Those borders encoded nothing -- not research
+   programme, not cohort, not advising relationship -- they only revealed where
+   the CSS boxes were. They also made unequal content produce conspicuous empty
+   rectangles and invited the eye to compare cells instead of reading people.
+
+   The rule applied here: for every visible line, fill or rectangle, be able to
+   say what information it carries. "This is the edge of the component" is not
+   information. Structure comes from proximity, alignment, typography and
+   whitespace, in that order; rules only if those four fail.
+
+   Two columns, not three: three forced names like "Ricardo Andrés Calvo Méndez"
+   to wrap and shredded the research lines into narrow fragments. */
+
+.people-current {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1px;                        /* the gap IS the rule between cells */
-  background: #e4e0d8;
-  border: 1px solid #e4e0d8;
-  margin: 1.4em 0 2em;
+  grid-template-columns: repeat(2, minmax(0, 1fr));   /* minmax(0,·) so a long
+                                                         name cannot force
+                                                         horizontal overflow */
+  column-gap: 3rem;
+  row-gap: 2.5rem;
+  align-items: start;          /* top-align: do not centre a short entry inside
+                                  the height of a taller neighbour */
+  margin: 1.5em 0 2.4em;
+}
+
+@media (max-width: 46em) {
+  .people-current { grid-template-columns: 1fr; row-gap: 2rem; }
 }
 
 .person {
-  background: #fff;
-  padding: 1em 1.1em;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
   min-width: 0;
 
-  &__name   { margin: 0 0 0.2em; font-weight: 600; }
-  &__degree { margin: 0 0 0.3em; font-size: 0.86em; color: #57534e; }
-  &__area   { margin: 0; font-size: 0.9em; }
-  &__links  { margin: 0.5em 0 0; font-size: 0.84em; }
+  /* Only reserve the photo column when there is actually a photo, so a
+     text-only person does not sit beside an empty rectangle. */
+  &:has(.person__photo) { grid-template-columns: 96px minmax(0, 1fr); }
+
+  &__photo { width: 96px; height: 118px; object-fit: cover; display: block; }
+  &__text  { min-width: 0; }
+  &__name  { margin: 0 0 .2em; font-weight: 600; }
+  &__meta  { margin: 0 0 .1em; font-size: .86em; color: #57534e; }
+  &__area  { margin: .4em 0 0; }
+  &__links { margin: .45em 0 0; font-size: .9em; }
   p:last-child { margin-bottom: 0; }
 }
 
-/* Alumni are a compact vertical list, not cards: the interesting content is the
-   outcome line, and a grid of near-empty boxes would bury it. */
+.person--solo { display: block; margin: 1.1em 0 2.4em; }
+
+/* Alumni are a historical record, not an introduction, so they get a denser
+   grammar than current members: no photographs, no cards, and no rules --
+   vertical spacing alone separates the entries. Never a vertical rule. */
 .alumni {
   list-style: none;
   padding: 0;
-  margin: 1.2em 0 2em;
+  margin: 1.3em 0 2em;
 
-  > li {
-    padding: 0.8em 0;
-    border-bottom: 1px solid #f0ede7;
-    &:last-child { border-bottom: 0; }
-  }
-
+  > li { margin: 0 0 1.4em; }
   &__name   { font-weight: 600; }
-  &__detail { font-size: 0.9em; color: #57534e; }
-  &__now    { font-size: 0.9em; color: #8E6F3E; }
+  &__detail { display: inline-block; margin-top: .1em; font-size: .92em; color: #57534e; }
+  &__next   { display: inline-block; margin-top: .1em; font-size: .92em; color: #57534e; }
 }
 
 /* A wide table must scroll inside its own box rather than pushing the document
@@ -199,11 +224,3 @@
   table { margin: 0; }
 }
 
-/* Service affiliation (US Navy, US Army, ...) sits beside the name: it is part
-   of who the person is, not a rank in the roster, so it stays quiet. */
-.person__affil {
-  font-size: 0.8em;
-  font-weight: 400;
-  color: #8E6F3E;
-  white-space: nowrap;
-}
