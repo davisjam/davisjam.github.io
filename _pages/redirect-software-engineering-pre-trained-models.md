@@ -1,4 +1,5 @@
 ---
+layout: redirect
 title: "Software Engineering for Pre-Trained Models"
 permalink: /software-engineering-pre-trained-models/
 redirect_to: "/research/ptm-se/"

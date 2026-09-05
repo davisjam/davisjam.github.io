@@ -1,4 +1,5 @@
 ---
+layout: redirect
 title: "Embedded Software Engineering"
 permalink: /embedded-software-engineering/
 redirect_to: "/research/embedded-swe/"

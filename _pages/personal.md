@@ -3,9 +3,6 @@ layout: single
 title: "Personal"
 permalink: /personal/
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
 ## Heritage

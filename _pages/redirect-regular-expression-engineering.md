@@ -1,4 +1,5 @@
 ---
+layout: redirect
 title: "Regular Expression Engineering"
 permalink: /regular-expression-engineering/
 redirect_to: "/research/saferegex/"

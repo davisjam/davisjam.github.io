@@ -1,4 +1,5 @@
 ---
+layout: redirect
 title: "Software Supply Chains"
 permalink: /software-supply-chains/
 redirect_to: "/research/software-supply-chain/"

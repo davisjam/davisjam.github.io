@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{ site.locale | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  {%- comment -%}
+    PLUGIN-INDEPENDENT REDIRECT (260905).
+
+    These pages used `redirect_to:`, a jekyll-redirect-from feature -- and that
+    plugin is commented out in _config.yml and absent from the Gemfile, so it
+    has never run here. Every `redirect_from`/`redirect_to` on the site was
+    silently doing nothing: /resume 404s, and the six Phase-17 redirects staged
+    for the old programme URLs would have quietly failed the moment those repos
+    were deleted, turning a planned migration into six dead links.
+
+    Meta refresh plus rel=canonical needs no plugin and works on any static
+    host. The visible link is the accessible fallback: a reader whose browser
+    blocks the refresh, or who is using a screen reader, still gets somewhere.
+  {%- endcomment -%}
+  <meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url }}">
+  <link rel="canonical" href="{{ page.redirect_to | absolute_url }}">
+  <meta name="robots" content="noindex">
+  <title>{{ page.title | default: 'Redirecting' }}</title>
+</head>
+<body>
+  <p>This page has moved to
+    <a href="{{ page.redirect_to | relative_url }}">{{ page.redirect_to }}</a>.</p>
+</body>
+</html>

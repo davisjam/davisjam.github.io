@@ -1,4 +1,5 @@
 ---
+layout: redirect
 title: "Failure-Aware Software Development"
 permalink: /failure-aware-software-development/
 redirect_to: "/research/failure-aware-sdlc/"
