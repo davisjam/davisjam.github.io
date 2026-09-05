@@ -1,0 +1,54 @@
+# data/theses.yaml -- dissertations and theses supervised (plus my own).
+#
+# Modelled separately from publications.yaml because these are STUDENTS' works,
+# not my publication record; conflating them would inflate every per-programme
+# publication count. Recovered 260905 from auto-publications.md, which was the
+# only place they existed: that page was hand-frozen and about to be replaced by
+# a generator that would have silently dropped this section.
+#
+# The People page carries several of the same thesis titles for its alumni. That
+# is a genuine second surface, not drift -- People states an outcome, this states
+# the artifact -- but if they ever disagree, this file is the record.
+schema_version: 1
+
+theses:
+- author: Jiang
+  title: Trustworthy Reuse in the Machine Learning Model Supply Chain
+  degree: PhD
+  year: 2025
+  pdf_url: https://hammer.purdue.edu/articles/thesis/_b_TRUSTWORTHY_REUSE_IN_THE_MACHINE_LEARNING_MODEL_SUPPLY_CHAIN_b_/28897502?file=54137378
+  slides: Jiang-PreTrainedModels-PhD-Final Defense-May2025.pptx
+- author: Patil
+  title: 'Cross-Select: A Transformer Framework for Pre-Trained Model Recommendation'
+  degree: MSc
+  year: 2025
+  pdf_url: https://hammer.purdue.edu/articles/thesis/Cross-Select_A_Transformer_Framework_for_Per-Trained_Model_Recommendation/30921194?file=60565259
+  slides: Patil-CrossSelect-MSc2025-ThesisDefense-slides.pptx
+- author: Jones
+  title: A Quantitative Comparison of Pre-Trained Model Registries to Traditional
+    Software Package Registries
+  degree: MSc
+  year: 2024
+  pdf_url: https://hammer.purdue.edu/articles/thesis/A_Quantitative_Comparison_of_Pre-Trained_Model_Registries_to_Traditional_Software_Package_Registries/25686447/1
+  slides: Jones-QuantitativeComparisonOfPTMAndTraditionalPackageRegistries-2024-MScThesis-slides.pptx
+- author: Schorlemmer
+  title: 'Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures'
+  degree: MSc
+  year: 2024
+  pdf_url: https://hammer.purdue.edu/articles/thesis/Software_Supply_Chain_Security_Attacks_Defenses_and_the_Adoption_of_Signatures/25683681/1
+  slides: Schorlemmer-SoftwareSupplyChainSecurity-FocusedOnSigning-2024-MScThesis-slides.pptx
+- author: Cramer
+  title: An Empirical Study of Trust & Safety Engineering in Open-Source Social Media
+    Platforms
+  degree: MSc
+  year: 2023
+- author: Maxam
+  title: Discovering U.S. Government Threat Hunting Processes and Improvements
+  degree: MSc
+  year: 2023
+  slides: Maxam-ThreatHunt-2023-MScThesis-slides.pptx
+- author: Davis
+  title: On the Impact and Defeat of Regular Expression Denial of Service
+  degree: PhD
+  year: 2020
+  slides: Davis-Dissertation-OralDefense.pptx
