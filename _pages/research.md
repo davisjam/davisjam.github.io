@@ -23,17 +23,10 @@ emerging technologies, including AI, change the way software is built and engine
 My current research is organized around six programs.
 
 <style>
-/* THE READING MEASURE IS A PROPERTY OF PROSE, NOT OF THE PAGE.
+/* The width system lives in _sass/_research.scss, keyed on :has(), so the
+   landing and the programme pages share one definition.
 
-   The research pages were applying a ~700px prose measure to the whole page,
-   so the figures, the programme grid and the publication lists were all
-   squeezed into a single narrow column while most of the window sat empty. The
-   page canvas is now broad and only the things that want a reading measure get
-   one. */
-.page__content { --page: 1180px; --prose: 760px; }
-.research-programs, .research-programs + *, .other-works { max-width: var(--page); }
-
-/* USE A GRID, DO NOT DRAW THE GRID (same rule as the People page).
+   USE A GRID, DO NOT DRAW THE GRID (same rule as the People page).
 
    These were bordered cards with a rule under the title and another above the
    footer. None of those lines encoded anything: each programme already has its
