@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""Pre-push gate. Installed by `python3 tests/hooks/install.py`.
+
+Blocks a push that would fail to build. A failed Pages build is silent: the
+previous site stays published, so nothing appears wrong until someone reads the
+deployed HTML.
+"""
+import pathlib
+import subprocess
+import sys
+
+root = pathlib.Path(__file__).resolve().parent.parent.parent
+print("pre-push: checking syntax")
+sys.exit(subprocess.run([sys.executable, str(root / "tests/syntax.py")], cwd=root).returncode)
