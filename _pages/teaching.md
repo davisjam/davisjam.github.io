@@ -71,6 +71,8 @@ The goal is to train both researchers and engineers. Students learn to formulate
 
 Twenty-seven undergraduate mentees have become authors — including several lead authors — on peer-reviewed papers, posters, and a U.S. patent application. Engineering-focused students have also contributed artifacts used outside the university, including seven models accepted to Google's TensorFlow Model Garden.
 
+[Meet the lab →](/people/)
+
 ### Vertically Integrated Projects
 
 I have run undergraduate VIP research teams continuously since Fall 2020. These teams provide a persistent environment in which students at different stages can work together on research and engineering problems over multiple semesters.

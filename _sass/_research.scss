@@ -131,3 +131,47 @@
     color: #57534e;
   }
 }
+
+/* ----------------------------------------------------------------- people page
+   Thin neutral borders, no rounded SaaS cards, no shadows. Photos are optional
+   throughout: nobody in the record has one yet, and a layout that only works
+   with images would break the moment a person joins without a headshot. */
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1px;                        /* the gap IS the rule between cells */
+  background: #e4e0d8;
+  border: 1px solid #e4e0d8;
+  margin: 1.4em 0 2em;
+}
+
+.person {
+  background: #fff;
+  padding: 1em 1.1em;
+  min-width: 0;
+
+  &__name   { margin: 0 0 0.2em; font-weight: 600; }
+  &__degree { margin: 0 0 0.3em; font-size: 0.86em; color: #57534e; }
+  &__area   { margin: 0; font-size: 0.9em; }
+  &__links  { margin: 0.5em 0 0; font-size: 0.84em; }
+  p:last-child { margin-bottom: 0; }
+}
+
+/* Alumni are a compact vertical list, not cards: the interesting content is the
+   outcome line, and a grid of near-empty boxes would bury it. */
+.alumni {
+  list-style: none;
+  padding: 0;
+  margin: 1.2em 0 2em;
+
+  > li {
+    padding: 0.8em 0;
+    border-bottom: 1px solid #f0ede7;
+    &:last-child { border-bottom: 0; }
+  }
+
+  &__name   { font-weight: 600; }
+  &__detail { font-size: 0.9em; color: #57534e; }
+  &__now    { font-size: 0.9em; color: #8E6F3E; }
+}

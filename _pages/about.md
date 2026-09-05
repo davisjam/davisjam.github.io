@@ -31,3 +31,5 @@ Some fun facts:
 - I do much of the cooking for my household. I make a mean chili & cornbread.
 - I bike to work whenever possible ("nor rain nor snow nor sleet nor hail").
 - My pet is fermented.
+
+[Meet the people of Duality Lab →](/people/)

@@ -15,5 +15,8 @@ main:
   - title: "Service"
     url: /service/    
 
+  - title: "People"
+    url: /people/
+
   - title: "About"
     url: /about/

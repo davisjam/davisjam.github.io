@@ -40,7 +40,7 @@ def load():
     r = lambda p: yaml.safe_load((ROOT / p).read_text())
     return (r("model/sites.yaml"), r("data/publications.yaml"),
             r("data/awards.yaml"), r("data/service.yaml"), r("data/courses.yaml"),
-            r("data/teaching.yaml"))
+            r("data/teaching.yaml"), r("data/people.yaml"))
 
 
 # --------------------------------------------------------------------------- research
@@ -293,7 +293,7 @@ My current research is organized around six programs.
 
 # --------------------------------------------------------------------------- teaching
 
-def teaching(sites, pubs, awards, service, courses, teach):
+def teaching(sites, pubs, awards, service, courses, teach, ppl=None):
     """The Teaching page.
 
     The page's protagonist is the teaching programme. MAGE is rendered as an
@@ -393,7 +393,7 @@ author_profile: true
 
 # --------------------------------------------------------------------------- service
 
-def service_page(sites, pubs, awards, service, courses, teach=None):
+def service_page(sites, pubs, awards, service, courses, teach=None, ppl=None):
     """The Service page.
 
     One claim, four manifestations: I help run the institutions through which
@@ -471,14 +471,109 @@ def _num(n: int) -> str:
     return {1: "one", 2: "two", 3: "three", 4: "four", 5: "five"}.get(n, str(n))
 
 
+def people(sites, pubs, awards, service, courses, teach=None, ppl=None):
+    """The People page.
+
+    Current people are individuals; past undergraduate mentorship is a record of
+    outcomes. So graduate alumni are named comprehensively -- who trained here
+    and where they went IS the doctoral-mentoring result -- while undergraduate
+    work is represented at scale. There is deliberately no selected-undergraduate
+    list: with 27+ co-authors any selection implicitly ranks them.
+
+    Empty categories are omitted entirely (no "none yet" placeholders), so the
+    page stays honest as the roster changes.
+    """
+    P = ppl
+    areas = P["area_phrases"]
+
+    def person(e):
+        out = ['<div class="person">']
+        out.append(f'  <p class="person__name">{e["name"]}</p>')
+        if e.get("degree"):
+            out.append(f'  <p class="person__degree">{e["degree"]}</p>')
+        if e.get("area"):
+            out.append(f'  <p class="person__area">{areas[e["area"]]}</p>')
+        if e.get("role"):
+            out.append(f'  <p class="person__degree">{" ".join(e["role"].split())}</p>')
+        if e.get("links"):
+            out.append('  <p class="person__links">'
+                       + " · ".join(f'<a href="{l["url"]}">{l["label"]}</a>' for l in e["links"])
+                       + "</p>")
+        out.append("</div>")
+        return "\n".join(out)
+
+    o = [f"""---
+layout: single
+title: "People"
+permalink: /people/
+author_profile: true
+---
+
+{BANNER}
+
+Duality Lab is a software-engineering research group at Purdue University. Our work is
+carried out by graduate and undergraduate researchers working across the lab's research
+programs.
+
+Mentorship is a central part of the lab. Graduate researchers develop independent research
+programs, while undergraduate researchers participate through sustained research teams,
+senior design, independent study, SURF, REU, and related programs.
+"""]
+
+    if P.get("faculty"):
+        o.append("## Faculty\n")
+        o.append('<div class="people-grid">')
+        o += [person(e) for e in P["faculty"]]
+        o.append("</div>\n")
+
+    if P.get("graduate"):
+        o.append("## Graduate researchers\n")
+        o.append('<div class="people-grid">')
+        o += [person(e) for e in P["graduate"]]
+        o.append("</div>\n")
+
+    ug = P.get("undergraduate")
+    if ug:
+        o.append(f"## {ug['heading']}\n")
+        o += [" ".join(x.split()) + "\n" for x in ug["paragraphs"]]
+        if ug.get("link"):
+            o.append(f"[{ug['link']['label']} →]({ug['link']['url']})\n")
+        if ug.get("current_teams"):
+            o.append("### Current undergraduate research teams\n")
+            for t in ug["current_teams"]:
+                o.append(f"**{t['title']}**  \n{' '.join(t['blurb'].split())}\n")
+
+    if P.get("alumni_graduate"):
+        o.append("## Alumni\n")
+        o.append("Graduate alumni of the lab, and where they went.\n")
+        o.append('<ul class="alumni">')
+        for e in sorted(P["alumni_graduate"], key=lambda a: (-a["year"], a["name"])):
+            bits = [f'<span class="alumni__name">{e["name"]}</span>'
+                    f' — {e["degree"]}, {e["year"]}']
+            detail = []
+            if e.get("area"):
+                detail.append(areas[e["area"]])
+            if e.get("thesis"):
+                detail.append("&ldquo;" + " ".join(e["thesis"].split()) + "&rdquo;")
+            if detail:
+                bits.append(f'<br><span class="alumni__detail">{"; ".join(detail)}</span>')
+            if e.get("current_position"):
+                bits.append(f'<br><span class="alumni__now">{e["current_position"]}</span>')
+            o.append("  <li>" + "".join(bits) + "</li>")
+        o.append("</ul>\n")
+    return "\n".join(o)
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("page", nargs="*", choices=["research", "teaching", "service"], default=None)
+    ap.add_argument("page", nargs="*",
+                    choices=["research", "teaching", "service", "people"], default=None)
     args = ap.parse_args(argv)
     data = load()
-    want = args.page or ["research", "teaching", "service"]
-    fns = {"research": research, "teaching": teaching, "service": service_page}
+    want = args.page or ["research", "teaching", "service", "people"]
+    fns = {"research": research, "teaching": teaching, "service": service_page,
+           "people": people}
     for name in want:
         out = PAGES / f"{name}.md"
         out.write_text(fns[name](*data))

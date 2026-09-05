@@ -118,3 +118,5 @@ Research is learned through apprenticeship.
   In addition, senior lab members will be given opportunities to help train more junior lab members.
 
 My complete *Advisor-Advisee Compact* is available on request.
+
+[See who is currently in the lab →](/people/)
