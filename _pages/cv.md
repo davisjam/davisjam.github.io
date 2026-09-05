@@ -36,7 +36,7 @@ The complete curriculum vitae is available as a PDF:
 * **Intern**, Microsoft Research (RiSE group: Cloud Security), Summer 2019 —
   mentored by [Patrice Godefroid](https://www.microsoft.com/en-us/research/people/pg/)
 * **Intern**, IBM Research (Storage), Almaden, Summer 2018 — mentored by
-  [Deepavali Bhagwat](https://researcher.watson.ibm.com/researcher/view.php?person=us-deepavali)
+  Deepavali Bhagwat
 * **Software Engineer**, IBM, 2012–2017 — the
   [GPFS](https://en.wikipedia.org/wiki/GPFS) file system
 

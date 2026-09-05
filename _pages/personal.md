@@ -12,7 +12,7 @@ I earned my PhD in Computer Science from Virginia Tech in 2020, advised by
 interned at Microsoft Research with
 [Patrice Godefroid](https://www.microsoft.com/en-us/research/people/pg/) and at
 IBM Research Almaden with
-[Deepavali Bhagwat](https://researcher.watson.ibm.com/researcher/view.php?person=us-deepavali).
+Deepavali Bhagwat.
 Before graduate school, I was a software engineer at IBM from 2012 to 2015,
 working on the [GPFS](https://en.wikipedia.org/wiki/GPFS) file system.
 
