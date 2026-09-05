@@ -22,7 +22,7 @@
     establishes one of these edges. Whether the accumulated evidence justifies
     relying on the dependency is a decision made in context.</desc>
 
-  <rect x="0" y="0" width="1200" height="540" fill="#fdfcf9"/>
+  <rect x="0" y="0" width="1200" height="540" fill="#ffffff"/>
 
   <defs>
     <marker id="sN" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">

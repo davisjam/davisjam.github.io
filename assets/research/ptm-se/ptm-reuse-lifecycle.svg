@@ -17,7 +17,7 @@
     artifact really interoperates as claimed; and trust, meaning the assumptions
     and risks that travel with an artifact produced elsewhere.</desc>
 
-  <rect x="0" y="0" width="1200" height="520" fill="#fdfcf9"/>
+  <rect x="0" y="0" width="1200" height="520" fill="#ffffff"/>
 
   <defs>
     <marker id="pN" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">

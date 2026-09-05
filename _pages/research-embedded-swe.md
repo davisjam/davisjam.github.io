@@ -14,7 +14,7 @@ Embedded software runs where failures are expensive, and in conditions that defe
 
 Our work has attacked that gap in stages. We studied defects in real embedded network stacks, built rehosting infrastructure so firmware can execute away from its target hardware, and applied static analysis at a scale where it finds hundreds of defects across many projects. A current thrust, Unit Proofing, asks whether component-level formal verification can be made cheap enough to use as an ordinary engineering step rather than a special occasion.
 
-## What breaks in embedded analysis
+## Understanding embedded failures
 
 Embedded software runs where failures are expensive, under conditions that defeat the assumptions most analysis tools are built on. This work establishes what actually goes wrong, and why the usual techniques do not reach it.
 
@@ -42,7 +42,7 @@ Once analysis is affordable, the question becomes what it finds when pointed at 
   <li><span class="pub-title"><a href="https://arxiv.org/pdf/2510.02185">Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen</a></span><br><span class="venue">FSE-Industry &middot; 2026</span><br><span class="note">False positives are what make automated fuzz-driver generation unusable in practice; this reports what reducing them took inside Google's OSS-Fuzz-Gen.</span></li>
 </ul>
 
-## From analysis to proof
+## From defect detection to guarantees
 
 A found defect is weaker than a guaranteed absence. The current thrust asks whether component-level verification can be made cheap enough to use as an ordinary engineering step.
 

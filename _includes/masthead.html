@@ -19,30 +19,49 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            {% comment %}
-              On a research-program page the Research item becomes
-              `Research > Current Program`, with the program half acting as a
-              switcher over the other programmes. Modifying the existing item
-              rather than adding a second breadcrumb keeps the navigation one
-              level deep -- the page title already said where you are.
-              The list is driven from _data/research.yml, the same source the
-              research cards use, so adding or renaming a programme updates both.
-            {% endcomment %}
-            {% if link.title == 'Research' and page.research_slug %}
-              <li class="masthead__menu-item research-switch">
-                <a href="{{ domain }}{{ link.url }}">Research</a><span class="sep">&rsaquo;</span><button
-                   type="button" class="research-switch__toggle" aria-expanded="false"
-                   aria-haspopup="true">{{ page.research_slug }} <span aria-hidden="true">&#9662;</span></button>
-                <ul class="research-switch__menu" role="menu">
-                  {% for program in site.data.research %}
-                    <li role="none"><a role="menuitem" href="{{ domain }}{{ program.url }}"
-                      {% if program.short_title == page.research_slug %}aria-current="page"{% endif %}
+                        {% if link.title == 'Research' and page.research_slug %}
+              {%- comment -%}
+                Compound item: `Research` stays an ordinary link; only the
+                programme label is a disclosure. The menu lists ONLY the six
+                programmes -- never the site nav, which stays where it is.
+              {%- endcomment -%}
+              <li class="masthead__menu-item rps">
+                <a href="{{ domain }}{{ link.url }}">Research</a><span class="rps__sep">&rsaquo;</span><button
+                  type="button" class="rps__btn" aria-expanded="false" aria-haspopup="true"
+                  >{{ page.research_slug }}<span class="rps__caret" aria-hidden="true">&#9662;</span></button>
+                <ul class="rps__menu">
+                  {%- for program in site.data.research -%}
+                  <li><a href="{{ domain }}{{ program.url }}"{% if program.short_title == page.research_slug %} aria-current="page"{% endif %}>{{ program.short_title }}</a></li>
+                  {%- endfor -%}
+                </ul>
+              </li>
+            {% else %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
                       >{{ program.title }}</a></li>
                   {% endfor %}
                 </ul>
               </li>
             {% else %}
+              {% if link.title == 'Research' and page.research_slug %}
+              {%- comment -%}
+                Compound item: `Research` stays an ordinary link; only the
+                programme label is a disclosure. The menu lists ONLY the six
+                programmes -- never the site nav, which stays where it is.
+              {%- endcomment -%}
+              <li class="masthead__menu-item rps">
+                <a href="{{ domain }}{{ link.url }}">Research</a><span class="rps__sep">&rsaquo;</span><button
+                  type="button" class="rps__btn" aria-expanded="false" aria-haspopup="true"
+                  >{{ page.research_slug }}<span class="rps__caret" aria-hidden="true">&#9662;</span></button>
+                <ul class="rps__menu">
+                  {%- for program in site.data.research -%}
+                  <li><a href="{{ domain }}{{ program.url }}"{% if program.short_title == page.research_slug %} aria-current="page"{% endif %}>{{ program.short_title }}</a></li>
+                  {%- endfor -%}
+                </ul>
+              </li>
+            {% else %}
               <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
             {% endif %}
           {% endfor %}
         </ul>

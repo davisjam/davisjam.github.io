@@ -19,7 +19,9 @@ layout: single
 
 {% if page.figure %}
 <figure class="research-figure">
-  <img src="{{ page.figure | relative_url }}" alt="{{ page.figure_alt }}">
+  <div class="figure-frame">
+    <img src="{{ page.figure | relative_url }}" alt="{{ page.figure_alt }}">
+  </div>
   {% if page.figure_caption %}<figcaption>{{ page.figure_caption }}</figcaption>{% endif %}
 </figure>
 {% endif %}

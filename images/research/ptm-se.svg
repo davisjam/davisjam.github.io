@@ -7,8 +7,6 @@
      stages you finish but properties you carry.
      Deliberately no neural-network imagery: no layered nodes, no brains. The
      visual vocabulary is the one used for software dependencies. -->
-<!-- Materialized from davisjam/software-engineering-pre-trained-models/figures/ptm-reuse-lifecycle.svg by davis-web
-     generators/generate_umbrella_pages.py. Do not hand-edit. -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520"
      role="img" aria-labelledby="ptmTitle ptmDesc"
      font-family="Source Sans 3, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
@@ -19,7 +17,7 @@
     artifact really interoperates as claimed; and trust, meaning the assumptions
     and risks that travel with an artifact produced elsewhere.</desc>
 
-  <rect x="0" y="0" width="1200" height="520" fill="#fdfcf9"/>
+  <rect x="0" y="0" width="1200" height="520" fill="#ffffff"/>
 
   <defs>
     <marker id="pN" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">

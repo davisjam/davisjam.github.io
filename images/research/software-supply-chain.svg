@@ -11,8 +11,6 @@
      Colour by role: neutral = the entities; modeling green = evidence that has been
      established; governance rust = the decision edge; failure red = the gap where
      evidence is absent. -->
-<!-- Materialized from davisjam/software-supply-chains/figures/trust-provenance-graph.svg by davis-web
-     generators/generate_umbrella_pages.py. Do not hand-edit. -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540"
      role="img" aria-labelledby="sscTitle sscDesc"
      font-family="Source Sans 3, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
@@ -24,7 +22,7 @@
     establishes one of these edges. Whether the accumulated evidence justifies
     relying on the dependency is a decision made in context.</desc>
 
-  <rect x="0" y="0" width="1200" height="540" fill="#fdfcf9"/>
+  <rect x="0" y="0" width="1200" height="540" fill="#ffffff"/>
 
   <defs>
     <marker id="sN" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">

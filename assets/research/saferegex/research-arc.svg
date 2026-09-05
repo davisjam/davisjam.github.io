@@ -22,7 +22,7 @@
     languages, developers, and runtimes, which motivated the later work on
     dependencies, reuse, and assurance.</desc>
 
-  <rect x="0" y="0" width="1200" height="560" fill="#fdfcf9"/>
+  <rect x="0" y="0" width="1200" height="560" fill="#ffffff"/>
 
   <!-- time axis -->
   <line x1="300" y1="428" x2="1140" y2="428" stroke="#57534e" stroke-width="1.5"/>
