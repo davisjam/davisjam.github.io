@@ -7,58 +7,42 @@ author_profile: true
 
 {% include base_path %}
 
-I hold a PhD in Computer Science from Virginia Tech (2020) under [Dr. Dongyoon Lee](https://www3.cs.stonybrook.edu/~dongyoon/).
-I also interned at
-  Microsoft Research (summer 2019 under [Patrice Godefroid](https://www.microsoft.com/en-us/research/people/pg/))
-  and
-  IBM Research Almaden (summer 2018 under [Deepavali Bhagwat](https://researcher.watson.ibm.com/researcher/view.php?person=us-deepavali))
-Before that, I was a software engineer at IBM (2012-2015) working on the [GPFS](https://en.wikipedia.org/wiki/GPFS) file system.
+<!-- This page was still the academicpages demo content: a fictional degree
+     from a fictional university, numbered placeholder skills, invented talks,
+     and a joke line about messaging accounts. It was serving publicly on a
+     tenure-case site, linked from the sidebar and from Personal. Replaced
+     260905 with the real record from JamesDavis_CV-40.pdf.
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+     Deliberately short. The full CV is a PDF that is already maintained; a
+     second, partial, hand-kept copy of it on this page is how the demo text
+     survived unnoticed for so long. Publications, Teaching and Service pages
+     carry those sections properly and are generated from data. -->
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+The complete curriculum vitae is available as a PDF:
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**[Download CV (PDF)]({{ base_path }}/files/professional/JamesDavis-CV.pdf)**
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Education
+
+* **Ph.D., Computer Science and Applications**, Virginia Tech, 2015–2020
+  Advised by [Dongyoon Lee](https://www3.cs.stonybrook.edu/~dongyoon/).
+* **B.Sc. Computer Science and B.Sc. Mathematics**, Clarkson University, 2008–2012
+
+## Professional experience
+
+* **Assistant Professor**, Purdue University — Elmore Family School of Electrical
+  and Computer Engineering, Fall 2020–present
+* **Graduate Research Assistant**, Virginia Tech, 2016–2020
+* **Intern**, Microsoft Research (RiSE group: Cloud Security), Summer 2019 —
+  mentored by [Patrice Godefroid](https://www.microsoft.com/en-us/research/people/pg/)
+* **Intern**, IBM Research (Storage), Almaden, Summer 2018 — mentored by
+  [Deepavali Bhagwat](https://researcher.watson.ibm.com/researcher/view.php?person=us-deepavali)
+* **Software Engineer**, IBM, 2012–2017 — the
+  [GPFS](https://en.wikipedia.org/wiki/GPFS) file system
+
+## Elsewhere on this site
+
+* [Publications](/publications/) — the complete scholarly record
+* [Teaching](/teaching/) — courses, curriculum, and undergraduate research
+* [Service](/service/) — research community, national, and institutional service
+* [People](/people/) — current researchers and graduate alumni

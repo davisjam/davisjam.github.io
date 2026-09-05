@@ -127,6 +127,31 @@ def check_svg(bad: list[str]) -> None:
             bad.append(f"{p.relative_to(ROOT)}: malformed SVG -- {e}")
 
 
+# Strings that only ever appear in the academicpages demo content. This exists
+# because /cv/ served the template's fictional degrees, numbered placeholder
+# skills and invented talks -- publicly, on a tenure-case site, linked from the
+# sidebar -- and nothing noticed. Grep is enough; the phrases are distinctive.
+TEMPLATE_TEXT = [
+    "GitHub University", "Version Control Theory", "Professor Git",
+    "Professor Hub", "Sub-skill", "Relevant Topic in Your Field",
+    "Teaching experience 1", "Duties included: Tagging issues",
+    "Duties included: Merging pull requests", "43 different slack teams",
+    "Institute for Testing Science", "London School of Testing",
+]
+
+
+def check_template_text(bad: list[str]) -> None:
+    """No page may ship the theme's placeholder content."""
+    for p in files(".md", ".markdown", ".html"):
+        if "_dev" in p.parts or "tests" in p.parts:
+            continue
+        text = p.read_text(errors="replace")
+        for phrase in TEMPLATE_TEXT:
+            if phrase in text:
+                bad.append(f"{p.relative_to(ROOT)}: academicpages placeholder text "
+                           f"still present -- {phrase!r}")
+
+
 def check_python(bad: list[str]) -> None:
     for p in files(".py"):
         try:
@@ -138,7 +163,8 @@ def check_python(bad: list[str]) -> None:
 def main() -> int:
     bad: list[str] = []
     for name, fn in [("liquid", check_liquid), ("front matter", check_front_matter),
-                     ("data", check_data), ("svg", check_svg), ("python", check_python)]:
+                     ("data", check_data), ("svg", check_svg),
+                     ("template text", check_template_text), ("python", check_python)]:
         before = len(bad)
         fn(bad)
         n = len(bad) - before
