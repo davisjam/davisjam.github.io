@@ -17,9 +17,15 @@ body:has(.research-programs) .page,
 body:has(.research-figure) .page { padding-right: 1em; }
 
 /* Prose gets the measure; the grid and the figure do not. */
+/* 36rem, not 48rem. The measure is in rem, so raising the root from 18px to
+   20px stretched this from 864px to 960px -- about 97 characters per line,
+   well past the 65-75 that reads comfortably. Bigger type wants a NARROWER
+   measure in rem, not a wider one: 36rem lands at 720px and ~73 characters.
+   This is why the page width was reassessed only after the type scale, and
+   why the answer was the opposite of "make the container wider". */
 body:has(.research-programs) .page__content > *:not(.research-programs),
 body:has(.research-figure) .page__content > *:not(.research-figure):not(.pub-list) {
-  max-width: 48rem;
+  max-width: 36rem;
 }
 body:has(.research-figure) .research-figure { width: min(100%, 940px); }
 body:has(.research-figure) .pub-list { max-width: 900px; }
