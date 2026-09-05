@@ -39,32 +39,28 @@
 
 .research-external { margin-top: 2em; a { font-weight: 600; } }
 
-/* Research-programme switcher. Deliberately tiny: one dropdown listing the six
-   sibling programmes, and nothing else. It is NOT the site navigation and must
-   never reuse the responsive drawer -- those are different controls that happen
-   to both contain links. */
+/* Research-programme flyout. A compact VERTICAL menu under `Research ›`,
+   available from every page -- someone on Teaching can reach a programme
+   without going via the Research landing page.
+
+   Not a horizontal strip of sibling tabs: that consumed the header's most
+   valuable dimension and gave six programmes the same weight as Home and
+   Publications. Dense rows, not 50px menu items. */
 .rps { position: relative;
-  &__sep { color: #CEB888; margin: 0 0.3em; }
-  &__btn { background: none; border: 0; padding: 0; font: inherit; color: inherit;
-    cursor: pointer; border-bottom: 2px solid transparent; }
-  &__caret { font-size: 0.7em; margin-left: 0.3em; }
-  &__btn:hover, &__btn[aria-expanded="true"] { border-bottom-color: #CEB888; }
-  &__btn:focus-visible { outline: 2px solid #8E6F3E; outline-offset: 3px; }
-  /* absolute, so opening never moves page content */
-  &__menu { display: none; position: absolute; top: calc(100% + 0.35em); left: 0;
-    z-index: 100; margin: 0; padding: 0.25em 0; list-style: none; width: max-content;
-    background: #fff; border: 1px solid #ddd6cc; box-shadow: 0 1px 3px rgba(0,0,0,.06);
+  &__btn { background: none; border: 0; padding: 0 0 0 .25em; font: inherit;
+    line-height: 1; color: #CEB888; cursor: pointer; }
+  &__btn:hover, &__btn[aria-expanded="true"] { color: #8E6F3E; }
+  &__btn:focus-visible { outline: 2px solid #8E6F3E; outline-offset: 2px; }
+  &__menu { display: none; position: absolute; top: calc(100% + .3em); left: 0;
+    z-index: 100; margin: 0; padding: .3rem 0; list-style: none;
+    width: max-content; min-width: 18rem; max-width: 24rem;
+    background: #fff; border: 1px solid #ddd6cc; box-shadow: 0 1px 4px rgba(0,0,0,.07);
     li { margin: 0; }
-    a { display: block; padding: 0.3em 1em; font-size: 0.9em; color: #494e52;
-      white-space: nowrap; }
+    a { display: block; padding: .4rem .75rem; line-height: 1.2; font-size: .88rem;
+      color: #494e52; border-left: 3px solid transparent; }
     a:hover, a:focus { background: #faf6ee; color: #6d552f; text-decoration: none; }
-    a[aria-current="page"] { font-weight: 700; } }
+    a[aria-current="page"] { font-weight: 700; border-left-color: #CEB888; } }
   &.is-open &__menu { display: block; } }
-/* The switcher is still a nav item, so on narrow widths the theme's greedy-nav
-   may relocate it into the collapsed menu. There an absolutely-positioned
-   dropdown would float wrongly, so it degrades to an inline indented list.
-   The global nav keeps handling itself; this only changes how the programme
-   list presents if it ends up inside it. */
 @media (max-width: 48em) {
-  .rps__menu { position: static; width: auto; border: 0; box-shadow: none;
-    border-left: 2px solid #CEB888; margin: 0.2em 0 0.2em 0.8em; } }
+  .rps__menu { position: static; min-width: 0; max-width: none; border: 0;
+    box-shadow: none; border-left: 2px solid #CEB888; margin: .2em 0 .2em .8em; } }

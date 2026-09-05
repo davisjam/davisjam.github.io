@@ -19,50 +19,12 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-                        {% if link.title == 'Research' and page.research_slug %}
-              {%- comment -%}
-                Compound item: `Research` stays an ordinary link; only the
-                programme label is a disclosure. The menu lists ONLY the six
-                programmes -- never the site nav, which stays where it is.
-              {%- endcomment -%}
-              <li class="masthead__menu-item rps">
-                <a href="{{ domain }}{{ link.url }}">Research</a><span class="rps__sep">&rsaquo;</span><button
-                  type="button" class="rps__btn" aria-expanded="false" aria-haspopup="true"
-                  >{{ page.research_slug }}<span class="rps__caret" aria-hidden="true">&#9662;</span></button>
-                <ul class="rps__menu">
-                  {%- for program in site.data.research -%}
-                  <li><a href="{{ domain }}{{ program.url }}"{% if program.short_title == page.research_slug %} aria-current="page"{% endif %}>{{ program.short_title }}</a></li>
-                  {%- endfor -%}
-                </ul>
-              </li>
-            {% else %}
-              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
-                      >{{ program.title }}</a></li>
+                                              >{{ program.title }}</a></li>
                   {% endfor %}
                 </ul>
               </li>
             {% else %}
-              {% if link.title == 'Research' and page.research_slug %}
-              {%- comment -%}
-                Compound item: `Research` stays an ordinary link; only the
-                programme label is a disclosure. The menu lists ONLY the six
-                programmes -- never the site nav, which stays where it is.
-              {%- endcomment -%}
-              <li class="masthead__menu-item rps">
-                <a href="{{ domain }}{{ link.url }}">Research</a><span class="rps__sep">&rsaquo;</span><button
-                  type="button" class="rps__btn" aria-expanded="false" aria-haspopup="true"
-                  >{{ page.research_slug }}<span class="rps__caret" aria-hidden="true">&#9662;</span></button>
-                <ul class="rps__menu">
-                  {%- for program in site.data.research -%}
-                  <li><a href="{{ domain }}{{ program.url }}"{% if program.short_title == page.research_slug %} aria-current="page"{% endif %}>{{ program.short_title }}</a></li>
-                  {%- endfor -%}
-                </ul>
-              </li>
-            {% else %}
-              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
-            {% endif %}
+                          {% endif %}
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -71,6 +33,4 @@
   </div>
 </div>
 
-{% if page.research_slug %}
 <script src="{{ base_path }}/assets/js/research-switch.js" defer></script>
-{% endif %}
