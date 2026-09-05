@@ -12,18 +12,19 @@
    default (767px), which is a strange thing for the site's most
    content-heavy pages to be.
 
-   42rem at the 20px root is ~840px and about 85 characters. Longer than the
-   65-75 ideal, chosen deliberately: on a wide display the tighter measure
-   read as a narrow ribbon in a large empty frame. Figures and grids opt out
-   entirely and use the full canvas. */
+   48rem at the 20px root is ~960px. That is long for pure prose (~97
+   characters against a 65-75 ideal) and is a deliberate trade: the measure
+   was leaving roughly 340px of dead gutter to its right on a wide display,
+   and a column of text floating in an empty frame reads worse than a long
+   line does. Figures and grids opt out entirely and use the full canvas. */
 #main { max-width: min(1600px, calc(100vw - 3rem)); }
 .page { padding-right: 1em; }
 
 .page__content > *:not(.research-programs):not(.research-figure):not(.people-current):not(.pub-list):not(.alumni):not(.teaching-stats):not(.table-scroll) {
-  max-width: 42rem;
+  max-width: 48rem;
 }
-.research-figure { width: min(100%, 1000px); }
-.pub-list, .alumni, .people-current { max-width: min(100%, 1100px); }
+.research-figure { width: min(100%, 1100px); }
+.pub-list, .alumni, .people-current { max-width: min(100%, 1200px); }
 
 /* Research-program pages.
    The page inherits the site's shell, typography and palette; this adds only
