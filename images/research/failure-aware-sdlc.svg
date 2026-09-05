@@ -85,7 +85,7 @@
   <text x="150" y="440" font-size="16" font-style="italic" fill="#9a3f12">changes the conditions under which the next system is built</text>
 
   <line x1="40" y1="472" x2="1200" y2="472" stroke="#e4e0d8" stroke-width="1"/>
-  <text x="40" y="502" font-size="16" fill="#1c1917">The unit of learning is not the incident or its fix, but the engineering change that survives it.</text>
+  <text x="40" y="502" font-size="16" fill="#1c1917">The unit of learning is not the incident nor its fix, but the engineering change that survives it.</text>
   <text x="40" y="524" font-size="16" fill="#1c1917">FA-SDLC studies how organizations extract generalizable knowledge from software failures and</text>
   <text x="40" y="546" font-size="16" fill="#1c1917">incorporate it into the engineering of subsequent systems.</text>
 </svg>

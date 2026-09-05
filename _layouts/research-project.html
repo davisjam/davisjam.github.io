@@ -10,12 +10,11 @@ layout: single
   external_site. The body carries the prose.
 {% endcomment %}
 
-<p class="research-crumb">
-  <a href="{{ '/research/' | relative_url }}">Research</a>
-  <span class="sep">&rsaquo;</span>
-  <span class="here">{{ page.research_slug | default: page.title }}</span>
-</p>
-
+{% comment %}
+  No breadcrumb here: the global header carries `Research > <programme>` with a
+  switcher. A second one under the title made the architecture look deeper than
+  it is.
+{% endcomment %}
 {% if page.question %}<p class="research-question">{{ page.question }}</p>{% endif %}
 
 {% if page.figure %}
