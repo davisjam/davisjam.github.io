@@ -98,7 +98,7 @@ My undergraduate mentees have received recognition at the departmental, national
 - **CRA CSGrad4US Fellowship**
 - **3× Google Open-Source Contributor Award**
 
-Mentees have gone on to graduate study at institutions including Stanford, Carnegie Mellon, UIUC, Michigan, Georgia Tech, and Penn, as well as engineering careers at organizations including Google, Meta, Apple, AWS, SpaceX, Tesla, and Garmin.
+Mentees have gone on to graduate study at institutions including Stanford, Carnegie Mellon, UIUC, Michigan, Georgia Tech, and Penn, as well as engineering careers at organizations including Google, Microsoft, Meta, Apple, NVIDIA, AWS, SpaceX, Tesla, Garmin, and Eli Lilly.
 
 ## Teaching and mentoring recognition
 
