@@ -109,6 +109,25 @@ def check_flyout(page, failures: list[str]) -> None:
     if n != 6:
         failures.append(f"flyout: menu lists {n} programmes, expected 6")
 
+    # THE MENU MUST BE A VERTICAL STACK. Checking only that it opens missed a
+    # real defect twice: the theme lays out `.visible-links li` as table-cells
+    # via a descendant selector, so the flyout rendered as a horizontal row
+    # running off the page -- open, populated, correct aria, and completely
+    # wrong. Six stacked rows are far taller than wide and must fit the window.
+    box = page.evaluate("""() => {
+      const m = document.querySelector('.rps__menu'); const r = m.getBoundingClientRect();
+      const li = [...m.querySelectorAll('li')].map(e => Math.round(e.getBoundingClientRect().top));
+      return {w: Math.round(r.width), h: Math.round(r.height),
+              rows: new Set(li).size, vw: window.innerWidth};
+    }""")
+    if box["rows"] < 6:
+        failures.append(f"flyout: items share {box['rows']} row(s), expected 6 stacked "
+                        f"-- the menu is laying out horizontally")
+    if box["w"] > 460:
+        failures.append(f"flyout: menu is {box['w']}px wide (expected a compact column)")
+    if box["w"] > box["vw"] - 20:
+        failures.append(f"flyout: menu ({box['w']}px) overruns the {box['vw']}px viewport")
+
     page.keyboard.press("Escape")
     page.wait_for_timeout(120)
     if page.query_selector(".rps__menu").is_visible():
