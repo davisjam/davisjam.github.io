@@ -58,5 +58,5 @@
   description: "Regular expressions are reused across languages, libraries, and ecosystems, yet developers struggle to understand their behavior, portability, performance, and security consequences. This body of work studies regexes as software artifacts, from reuse and developer comprehension to catastrophic backtracking, analysis, mitigation, and the semantics of modern regex engines."
   url: /research/saferegex/
   figure: /images/research/saferegex.svg
-  figure_alt: "Three lines of inquiry running concurrently rather than in succession. Together they showed that small reused artifacts carry hidden assumptions across languages, developers, and runtimes."
+  figure_alt: "Regular expressions make the seams between specification, human reasoning, and implementation unusually easy to observe."
   publications: 15

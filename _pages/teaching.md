@@ -32,7 +32,7 @@ My undergraduate software-engineering course uses a substantial team project to 
 
 I designed and piloted the course as part of Purdue ECE's expanded software-engineering curriculum and continue to serve as its lead instructor. Rather than teaching a particular development process or technology stack, the course asks students to learn how to make and defend engineering decisions as technologies, requirements, teams, and constraints change.
 
-[Purdue course catalog →](https://selfservice.mypurdue.purdue.edu/prod/bwckctlg.p_disp_course_detail?cat_term_in=202610&subj_code_in=ECE&crse_numb_in=30861)
+[Purdue course catalog →](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=814&show=true&type=undergrad)
 
 <aside class="course-inset" markdown="1">
 <p class="course-inset__eyebrow">OPEN COURSE MATERIALS</p>
@@ -45,11 +45,13 @@ The course uses Model-Based Agentic Software Engineering as a primary text and a
 [Explore the reference course →](https://davisjam.github.io/model-based-agentic-software-engineering/teach/) [Read MAGE →](https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book.pdf)
 </aside>
 
-### ECE 50861 — Advanced Software Engineering
+### ECE 50874 — Advanced Software Engineering
 
 My graduate software-engineering course moves from building software that works toward reasoning systematically about whether software is robust. Students study methods for identifying and managing engineering risk, evaluating evidence about software systems, and establishing confidence in important system properties.
 
 The course draws on software-engineering research, industrial practice, and international engineering standards, asking students to reason critically about both the methods engineers use and the evidence those methods produce.
+
+[Purdue course catalog →](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=777&show=true&type=grad)
 
 ## Undergraduate research as teaching
 

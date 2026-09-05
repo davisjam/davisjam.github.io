@@ -394,10 +394,24 @@ author_profile: true
 # --------------------------------------------------------------------------- service
 
 def service_page(sites, pubs, awards, service, courses, teach=None):
+    """The Service page.
+
+    One claim, four manifestations: I help run the institutions through which
+    software-engineering research and education happen.
+
+    Two deliberate omissions (James, 260905). There is no program-committee
+    table and no journal list -- an educated reader who sees ICSE / FSE / USENIX
+    Security / ISSTA / ASE already knows the level and breadth, and the years
+    turn it into a CV transcription. And there is no "Recognition for service"
+    section at the bottom: the reviewer awards render beside the reviewing they
+    recognize, which is where they mean something.
+
+    `purdue.additional` is intentionally not rendered -- see service.yaml.
+    """
     L, RC, NP, PU = (service["leadership"], service["research_community"],
                      service["national_professional"], service["purdue"])
 
-    o = [f'''---
+    o = [f"""---
 layout: single
 title: "Service"
 permalink: /service/
@@ -406,81 +420,55 @@ author_profile: true
 
 {BANNER}
 
-I contribute to the institutions that make research and education possible: reviewing and
-organizing research venues, mentoring researchers, building scholarly communities, reviewing
-research for public agencies, and helping develop Purdue's educational programs.
+I help run the institutions through which software-engineering research and education happen.
 
-My professional service is concentrated in software engineering and security, particularly the
-conferences and communities in which my group works.
-
-## Leadership, mentoring, and community building
-
-I increasingly contribute by helping organize the communities in which research happens. This
-includes leadership in major research venues, workshops that develop researchers and emerging
-areas, and local communities that help researchers exchange ideas and support one another.
-
-### Conference and workshop leadership
-''']
+## Research leadership and community building
+"""]
     for e in L["conference"]:
         o.append(f"- **{e['role']}**, {e['venue']} ({e['years']})")
-    for s in L["sustained"]:
-        steps = "; ".join(f"{p['role']} {p['years']}" for p in s["progression"])
-        o.append(f"- **{s['venue']}** — {steps}")
-    o.append("\n### Community building at Purdue\n")
-    for e in L["community_building"]:
-        o.append(f"- **{e['role']}**, {e['what']} ({e['years']})")
+    for e in L["sustained"]:
+        prog = "; ".join(f"{x['role']} ({x['years']})" for x in e["progression"])
+        o.append(f"- **{e['venue']}** — {prog}")
+    o.append("")
+    o.append("I also build research community locally, organizing peer mentoring and "
+             "writing groups for junior faculty, a reading group, and visits by "
+             "researchers whose work my group learns from.\n")
 
-    o.append("\n## Research community service\n\n"
-             "Peer review is part of the infrastructure of research. I serve regularly on technical "
-             "program committees in software engineering and security, including ICSE, FSE, USENIX "
-             "Security, ISSTA, and ASE, as well as related venues in systems, security, and "
-             "software engineering.\n\n### Major technical program committees\n")
-    o.append("| Venue | Years |\n|---|---|")
-    for e in RC["major_program_committees"]:
-        yrs = " · ".join(str(y) for y in e["years"])
-        if e.get("extra"):
-            yrs += f" · {e['extra']}"
-        o.append(f"| {e['venue']} | {yrs} |")
+    o.append("## Research community service\n")
+    venues = [c.get("short", c["venue"]) for c in RC["major_program_committees"]]
+    listed = ", ".join(venues[:-1]) + f", and {venues[-1]}"
+    o.append("Peer review is part of the infrastructure of research. I regularly serve on "
+             f"program committees in software engineering and security, including {listed}, "
+             "as well as related venues.\n")
 
-    o.append("\n<details>\n<summary><strong>Additional conference and referee service</strong></summary>\n")
-    for e in RC["other_refereeing"]:
-        yrs = ", ".join(str(y) for y in e["years"])
-        o.append(f"- {e['role']}, {e['venue']} ({yrs})")
-    o.append("\n</details>\n")
+    rev = [a for a in awards["awards"]["service"] if a.get("reviewer")]
+    o.append(f"My reviewing has been recognized with {_num(len(rev))} reviewer awards:\n")
+    for a in sorted(rev, key=lambda a: -a["year"]):
+        o.append(f"- {a['title']} · {a['year']}")
+    o.append("")
 
-    o.append("\n### Journal reviewing\n")
-    for j in RC["journals"]:
-        o.append(f"- {j}")
-
-    o.append("\n## National and professional service\n\n"
-             "I also contribute to research and professional infrastructure beyond individual "
-             "publication venues, including reviewing research for the National Science Foundation "
-             "and contributing to professional guidance for software engineering.\n")
+    o.append("## National and professional service\n")
     for e in NP:
         yrs = ", ".join(str(y) for y in e["years"])
         what = f" — {e['what']}" if e.get("what") else ""
-        o.append(f"- **{e['body']}** · {e['role']}{what} ({yrs})")
-
-    o.append("\n## Service at Purdue\n\n"
-             "At Purdue, I contribute particularly to software-engineering curriculum development, "
-             "program assessment, faculty hiring, graduate education, and faculty community "
-             "building.\n\n### Curriculum and program development\n")
-    for e in PU["curriculum_and_programs"]:
-        role = f"{e['role']}, " if e.get("role") else ""
-        star = "**" if e.get("prominent") else ""
-        o.append(f"- {star}{role}{e['what']}{star} ({e['years']})")
-    o.append("\n### Faculty and graduate community\n")
-    for e in PU["faculty_and_graduate_community"]:
-        o.append(f"- {e.get('role','Member')}, {e['what']} ({e['years']})")
-    o.append("\n### Faculty hiring\n")
-    hires = "; ".join(f"{e['what']} ({e['years']})" for e in PU["faculty_hiring"])
-    o.append(f"Purdue ECE faculty search committees — {hires}.\n")
-
-    o.append("\n## Recognition for service\n")
-    for a in sorted(awards["awards"]["service"], key=lambda a: -a["year"]):
-        o.append(f"- **{a['year']}** · {a['title']}")
+        note = f"  \n  {e['note']}" if e.get("note") else ""
+        o.append(f"- **{e['role']}**, {e['body']}{what} ({yrs}){note}")
+    for e in RC.get("editorial", []):
+        o.append(f"- **{e['role']}**, {e['venue']}")
     o.append("")
+
+    o.append("## Institutional service at Purdue\n")
+    o.append("At Purdue, I contribute primarily where software engineering intersects with "
+             "program development, institutional assessment, and emerging changes in "
+             "engineering practice.\n")
+    for e in PU["institutional"]:
+        o.append(f"**{e['what']}** ({e['years']})  ")
+        o.append(" ".join(e["detail"].split()) + "\n")
     return "\n".join(o)
+
+
+def _num(n: int) -> str:
+    return {1: "one", 2: "two", 3: "three", 4: "four", 5: "five"}.get(n, str(n))
 
 
 def main(argv=None) -> int:

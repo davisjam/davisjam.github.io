@@ -533,7 +533,14 @@ def records(e: Engine, m) -> None:
     o = e.obl("OBL-RECORD-001",
               "Umbrella pages render enumerative records, never hand-maintained lists.",
               ["model/ssot-records.md", "repos/davisjam.github.io/_pages/*.md"])
-    o2 = e.obl("OBL-RECORD-002", "Every canonical service record reaches the Service page.",
+    # The Service page is a SELECTION over an exhaustive record, not a rendering
+    # of all of it (James, 260905). So the guarantee is no longer "everything is
+    # on the page" -- it is "nothing left the page by accident": each bucket is
+    # either fully rendered, or named in service.yaml's `record_only` with a
+    # reason. That keeps the original protection (no silent record loss) while
+    # allowing the page to be edited.
+    o2 = e.obl("OBL-RECORD-002",
+               "Every canonical service record is rendered, or declared record-only with a reason.",
                ["data/service.yaml", "repos/davisjam.github.io/_pages/service.md"])
     o3 = e.obl("OBL-RECORD-003", "Course numbers on the Teaching page match the model.",
                ["data/courses.yaml", "repos/davisjam.github.io/_pages/teaching.md"])
@@ -547,12 +554,28 @@ def records(e: Engine, m) -> None:
     svc = pages / "service.md"
     if svc.exists():
         t = svc.read_text()
-        for pc in m["service"]["research_community"]["major_program_committees"]:
-            if pc["venue"] not in t:
+        declared = m["service"].get("record_only") or {}
+        for path, reason in declared.items():
+            if len(" ".join(str(reason).split())) < 40:
+                o2.fail(f"record_only {path!r} needs a real reason, not {reason!r}")
+        def bucket(path):
+            cur = m["service"]
+            for k in path.split("."):
+                cur = cur[k]
+            return cur
+        # A venue may render under its short name (ESEC/FSE -> FSE); that is
+        # rendered, not missing.
+        for pc in bucket("research_community.major_program_committees"):
+            if pc["venue"] not in t and pc.get("short", pc["venue"]) not in t:
                 o2.fail(f"program committee {pc['venue']!r} not rendered")
-        for j in m["service"]["research_community"]["journals"]:
-            if j.split("(")[0].strip() not in t:
-                o2.fail(f"journal {j!r} not rendered")
+        for path in ("research_community.journals", "research_community.other_refereeing",
+                     "purdue.additional"):
+            if path in declared:
+                continue
+            for item in bucket(path):
+                label = item if isinstance(item, str) else (item.get("venue") or item["what"])
+                if label.split("(")[0].strip() not in t:
+                    o2.fail(f"{path} entry {label!r} is neither rendered nor declared record-only")
     tch = pages / "teaching.md"
     if tch.exists():
         t = tch.read_text()
