@@ -21,9 +21,9 @@ senior design, independent study, SURF, REU, and related programs.
 ## Faculty
 
 <div class="person person--solo">
-  <p class="person__name"><a href="/about/">James C. Davis, PhD</a></p>
+  <p class="person__name"><a href="/personal/">James C. Davis, PhD</a></p>
   <p class="person__meta">Assistant Professor, Elmore Family School of Electrical and Computer Engineering, Purdue University</p>
-  <p class="person__links"><a href="/about/">About</a> &middot; <a href="/cv/">CV</a> &middot; <a href="https://scholar.google.com/citations?user=VSAWPQ4AAAAJ">Google Scholar</a></p>
+  <p class="person__links"><a href="/personal/">Personal</a> &middot; <a href="/cv/">CV</a> &middot; <a href="https://scholar.google.com/citations?user=VSAWPQ4AAAAJ">Google Scholar</a></p>
 </div>
 
 ## Graduate researchers
