@@ -294,3 +294,15 @@ body:has(.research-figure) .pub-list { max-width: 900px; }
 /* Desktop only. On a phone the sidebar stacks ABOVE the page content, and six
    more entries there would bury whatever the visitor came for. */
 @media (max-width: 64em) { .practice { display: none; } }
+
+/* The masthead logo went to 0x0 when it became an SVG. The theme only sets
+   max-width:150px and otherwise relies on a raster's intrinsic pixel size,
+   which an SVG carrying just a viewBox does not supply in this table-cell
+   context. The SVG now declares width/height, and the height is pinned here so
+   the lockup is sized by intent rather than by whatever the container infers. */
+.masthead__menu-logo {
+  height: 42px;
+  width: auto;
+  max-width: 240px;
+  display: block;
+}
