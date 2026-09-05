@@ -167,7 +167,7 @@ def findings() -> list[Finding]:
     floor_px, ceiling_px = _band()
     ref_w = _reference_width()
     out: list[Finding] = []
-    for svg in sorted(ASSETS.glob("*.svg")):
+    for svg in _figure_scan_root.figures(ASSETS):
         if _in_scope(svg.name):
             try:
                 out.extend(analyze(svg, floor_px, ceiling_px, ref_w))

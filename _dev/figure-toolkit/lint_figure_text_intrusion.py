@@ -251,7 +251,7 @@ def _in_scope(name: str) -> bool:
 def findings() -> list[Violation]:
     faces = lfo.load_faces()
     out: list[Violation] = []
-    for svg in sorted(ASSETS.glob("*.svg")):
+    for svg in _figure_scan_root.figures(ASSETS):
         if _in_scope(svg.name):
             try:
                 out.extend(analyze(svg, faces))

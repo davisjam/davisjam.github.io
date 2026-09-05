@@ -39,7 +39,8 @@ def load():
     import yaml
     r = lambda p: yaml.safe_load((ROOT / p).read_text())
     return (r("model/sites.yaml"), r("data/publications.yaml"),
-            r("data/awards.yaml"), r("data/service.yaml"), r("data/courses.yaml"))
+            r("data/awards.yaml"), r("data/service.yaml"), r("data/courses.yaml"),
+            r("data/teaching.yaml"))
 
 
 # --------------------------------------------------------------------------- research
@@ -292,12 +293,34 @@ My current research is organized around six programs.
 
 # --------------------------------------------------------------------------- teaching
 
-def teaching(sites, pubs, awards, service, courses):
-    canon = next(s for s in sites["sites"] if s["id"] == "model-based-agentic-software-engineering")
-    book = canon["landmarks"]["book"]
-    course_mirror = canon["landmarks"]["course_mirror"]
+def teaching(sites, pubs, awards, service, courses, teach):
+    """The Teaching page.
 
-    o = [f'''---
+    The page's protagonist is the teaching programme. MAGE is rendered as an
+    INSET inside the ECE 30861 section rather than as a heading of its own:
+    making it an h3 sibling of the course titles would assert, typographically,
+    that it is a third course. It is course infrastructure.
+
+    Recognition is generated from data/awards.yaml (`teaching` + `mentoring`)
+    so the page cannot drift from the award record. Student outcomes come from
+    data/teaching.yaml because they are awards to STUDENTS, which awards.yaml
+    does not model.
+    """
+    def para(xs):
+        return [" ".join(str(x).split()) + "\n" for x in xs]
+
+    def stats(rows):
+        out = ['<div class="teaching-stats" markdown="0">']
+        for r in rows:
+            out.append(f'  <div class="teaching-stat"><span class="teaching-stat__value">'
+                       f'{r["value"]}</span><span class="teaching-stat__label">'
+                       f'{r["label"]}</span></div>')
+        out.append("</div>\n")
+        return out
+
+    by_id = {c["id"]: c for c in courses["courses"]}
+
+    o = [f"""---
 layout: single
 title: "Teaching"
 permalink: /teaching/
@@ -305,82 +328,72 @@ author_profile: true
 ---
 
 {BANNER}
+"""]
+    o += para(teach["opener"])
 
-I teach software engineering as an engineering discipline. Students should learn not only what
-to do and how to do it, but why, when, and how else.
+    cl = teach["curricular_leadership"]
+    o.append(f"## {cl['heading']}\n")
+    o += para(cl["paragraphs"])
 
-My courses therefore emphasize substantial engineering problems rather than isolated exercises.
-Students work individually and in teams, make decisions under incomplete information, build and
-evaluate real systems, and learn to justify their choices. I use project-based learning to create
-opportunities to practice the technical, organizational, and professional judgment that software
-engineering requires.
+    cs = teach["courses"]
+    o.append(f"## {cs['heading']}\n")
+    for entry in cs["entries"]:
+        c = by_id[entry["id"]]
+        o.append(f"### {c['number']} — {c['title']}\n")
+        o += para(entry["paragraphs"])
+        if entry.get("catalog_url"):
+            o.append(f"[Purdue course catalog →]({entry['catalog_url']})\n")
+        ins = entry.get("inset")
+        if ins:
+            o.append('<aside class="course-inset" markdown="1">')
+            o.append(f'<p class="course-inset__eyebrow">{ins["eyebrow"]}</p>')
+            o.append(f'#### {ins["title"]}\n')
+            o += para(ins["paragraphs"])
+            o.append(" ".join(f"[{l['label']} →]({l['url']})" for l in ins["links"]))
+            o.append("</aside>\n")
 
-## Model-Based Agentic Software Engineering
+    ur = teach["undergraduate_research"]
+    o.append(f"## {ur['heading']}\n")
+    o += para(ur["paragraphs"])
+    o += stats(ur["stats"])
+    o += para(ur["closing"])
 
-*A software-engineering text for an era of increasingly capable agents.*
+    vip = teach["vip"]
+    o.append(f"### {vip['heading']}\n")
+    o += para(vip["paragraphs"])
+    for t in vip["teams"]:
+        o.append(f"**{t['title']}**  \n{' '.join(t['blurb'].split())}\n")
 
-*Model-Based Agentic Software Engineering* develops a framework for engineering software when
-agents can perform substantial implementation work. It asks what engineers must make explicit,
-how delegated work should be governed, how evidence and obligations acquire authority, and what
-professional judgment remains when realization becomes inexpensive.
-
-[Read MAGE →]({book})
-
-## Teach with MAGE
-
-*Open materials for teaching software engineering around modeling, alignment, evidence,
-autonomous work, and professional responsibility.*
-
-Teach with MAGE provides reusable course materials organized around this view of software
-engineering. It includes the Purdue ECE 30861 Software Engineering reference course: lectures,
-readings, project materials, assessment structure, and a semester-long engineering project.
-
-[Explore Teach with MAGE →]({course_mirror})
-
-## Courses
-''']
-
-    featured = [c for c in courses["courses"] if c.get("featured")]
-    others = [c for c in courses["courses"] if not c.get("featured")]
-
-    o.append("\n### ECE 30861 — Software Engineering\n\n"
-             "My undergraduate software-engineering course uses a substantial team project to "
-             "connect software process, requirements, architecture, implementation, validation, "
-             "deployment, security, maintenance, and professional judgment. I designed and piloted "
-             "the course as part of Purdue ECE's expanded software-engineering curriculum and have "
-             "served as its lead instructor.\n\n"
-             f"[Course materials →]({course_mirror})\n")
-    o.append("\n### ECE 50861 — Advanced Software Engineering\n\n"
-             "My graduate software-engineering course examines software-engineering research and "
-             "practice at greater depth, with an emphasis on reasoning about software systems, "
-             "evaluating engineering evidence, and engaging critically with current research and "
-             "methods.\n")
-
-    o.append("\n### Also taught\n")
-    for c in others:
-        terms = ", ".join(c.get("terms", []))
-        num = f"{c['number']} — " if c.get("number") else ""
-        o.append(f"- {num}{c['title']} ({terms})")
+    so = teach["student_outcomes"]
+    o.append(f"## {so['heading']}\n")
+    o += para([so["lead"]])
+    for it in so["items"]:
+        when = f"**{it['when']}** · " if it.get("when") else ""
+        o.append(f"- {when}**{it['title']}**"
+                 + (f"  \n  {' '.join(it['detail'].split())}" if it.get("detail") else ""))
     o.append("")
+    o += para(so["closing"])
 
-    o.append("\n## Teaching beyond the classroom\n\n"
-             "My teaching extends into curriculum development and research mentoring. At Purdue, I "
-             "have helped develop the software-engineering curriculum across undergraduate and "
-             "graduate programs, and have supervised undergraduate researchers through individual "
-             "research, Vertically Integrated Projects, and senior design.\n")
-
-    o.append("\n## Recognition\n")
+    rec = teach["recognition"]
+    o.append(f"## {rec['heading']}\n")
     for a in sorted(awards["awards"]["teaching"] + awards["awards"]["mentoring"],
                     key=lambda a: -a["year"]):
-        note = f" — {a['note']}" if a.get("note") else ""
+        note = f"  \n  {a['note']}" if a.get("note") else ""
         o.append(f"- **{a['year']}** · {a['title']}{note}")
     o.append("")
+    o += para(rec["closing"])
+
+    sot = teach["sotl"]
+    o.append(f"## {sot['heading']}\n")
+    o += para(sot["paragraphs"])
+    o += stats(sot["stats"])
+    o += para(sot["closing"])
     return "\n".join(o)
 
 
 # --------------------------------------------------------------------------- service
 
-def service_page(sites, pubs, awards, service, courses):
+def service_page(sites, pubs, awards, service, courses, teach=None):
     L, RC, NP, PU = (service["leadership"], service["research_community"],
                      service["national_professional"], service["purdue"])
 

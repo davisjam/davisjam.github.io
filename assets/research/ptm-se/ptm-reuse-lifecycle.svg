@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- semantic-families: neutral, modeling, governance, failure -->
+<!-- semantic-families: neutral, governance, failure -->
 <!-- Hand-authored SVG (label: ptm-reuse-lifecycle). SE for Pre-Trained Models.
      ONE JOB: a reused model breaks several assumptions that make ordinary
      software reuse cheap, and each has to be re-established downstream.

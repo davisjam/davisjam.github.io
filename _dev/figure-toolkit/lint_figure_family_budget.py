@@ -70,7 +70,7 @@ def _declared_families(text: str) -> frozenset[str] | None:
 def findings() -> list[str]:
     out: list[str] = []
     valid = dtk.semantic_families()
-    for svg in sorted(ASSETS.glob("*.svg")):
+    for svg in _figure_scan_root.figures(ASSETS):
         text = svg.read_text(encoding="utf-8")
         declared = _declared_families(text)
         # Which families does the figure actually use (by hex)?

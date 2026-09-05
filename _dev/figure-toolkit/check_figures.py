@@ -78,9 +78,18 @@ def main(argv: list[str] | None = None) -> int:
         print(f"figure check: no such directory: {root}")
         return 1
 
-    figures = sorted(root.glob("*.svg"))
+    figures = _figure_scan_root.figures(root)
     print(f"== figure check -- {len(figures)} figure(s) in {root} ==")
     if not figures:
+        # An empty CONVENTIONAL root is the documented new-site case and passes.
+        # An empty EXPLICIT root is a mistake: someone named a directory to
+        # check, and checking nothing there must not report success. This is how
+        # `check_figures.py assets/research/` used to pass -- the figures are one
+        # level down, the scan did not recurse, and the green was meaningless.
+        if args.root:
+            print(f"   nothing to check under {root} -- but a directory was named "
+                  f"explicitly, so this is treated as a bad invocation, not a pass")
+            return 1
         print("   no figures to check")
         return 0
 

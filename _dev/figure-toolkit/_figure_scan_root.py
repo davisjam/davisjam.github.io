@@ -25,6 +25,20 @@ import pathlib
 ENV_VAR = "FIGURE_SCAN_ROOT"
 
 
+def figures(root: pathlib.Path) -> list[pathlib.Path]:
+    """Every figure at or below ``root``, sorted.
+
+    RECURSIVE on purpose (260905). The sensors were written with
+    ``root.glob("*.svg")``, which was right for the book, where every figure sat
+    directly in ``book/assets``. The portfolio nests them one level deeper, as
+    ``assets/research/<slug>/<figure>.svg`` -- so pointing a sensor at the
+    obvious parent, ``assets/research/``, matched nothing and every sensor
+    reported success. A check that passes because it examined nothing is worse
+    than no check, because it is indistinguishable from a real pass.
+    """
+    return sorted(p for p in root.rglob("*.svg") if p.is_file())
+
+
 def scan_root() -> pathlib.Path:
     """Directory the sensors glob ``*.svg`` from."""
     explicit = os.environ.get(ENV_VAR)
