@@ -22,6 +22,24 @@ alter the way software is built and engineered.
 My current research is organized around six programs.
 
 <style>
+/* Two ancestors cap this page, measured rather than guessed (checks/layout.py
+   --measure). At 1920 the grid was 770px wide at every viewport >= 1280:
+     #main          max-width 1280px, auto-margins 320px a side
+     article.page   padding-right 210.8px -- the Susy suffix(2 of 12), an empty
+                    column reserved for a right sidebar this site does not use
+   .page__inner-wrap / .page__content / .research-grid added nothing; they were
+   all exactly page-width minus that padding.
+
+   The fix widens the ANCESTORS and keeps prose narrow, rather than shrinking
+   cards to fit a cap that should not apply to a full-width section. Scoped with
+   :has() so only this page is affected -- no layout or theme edits. */
+body:has(.research-grid) #main{max-width:min(1600px,calc(100vw - 3rem))}
+@media (min-width:1200px){
+  body:has(.research-grid) .page{padding-right:1em}
+}
+/* Only the grid breaks out. Everything else stays at a reading measure -- prose
+   at 1500px would be unreadable, which is why the cap exists in the first place. */
+body:has(.research-grid) .page__content > *:not(.research-grid){max-width:48rem}
 /* Generated with the page. Restrained and academic on purpose: a thin rule, no
    shadow, no rounded corners, no icons. The figures are diagrams, so the
    thumbnail uses object-fit: contain -- cropping one would destroy it. */
@@ -47,6 +65,10 @@ My current research is organized around six programs.
 .research-card h2 a::after{content:"";position:absolute;inset:0}
 .research-card:hover{border-color:#9a3f12}
 .research-card-footer a{position:relative;z-index:1}
+/* Compact example lines: indented, no bullets. Three headings each followed by
+   a sentence and 2-3 lines should not read as a second bibliography. */
+.other-works{margin:.4rem 0 1.4rem 1.5rem;line-height:1.75}
+.other-works .venue{color:#57534e;font-size:.92rem;white-space:nowrap}
 @media (max-width:760px){.research-grid{grid-template-columns:1fr}}
 </style>
 
@@ -69,31 +91,33 @@ My current research is organized around six programs.
 </div>
 
 
-## Other research and contributions
+## Other research
 
-My research has also extended beyond these six programs, often through collaborations in which software-engineering questions intersect with other areas.
-
-
-**Efficient machine learning and computer systems.** I have worked on efficient computer vision, edge inference, software optimization, stream processing, and the energy consequences of software and machine-learning systems.
-
-- *AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens* — The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 -- Findings Track (CVPR-Findings) · 2026
-- *Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms* — The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 -- Findings Track (CVPR-Findings) · 2026
-- *LadderSym: A Multimodal Interleaved Transformer for Music Practice Error Detection* — Proceedings of the International Conference on Learning Representations (ICLR) · 2026
+My research also extends beyond these six programs, often through collaborations in which software-engineering questions intersect with other areas.
 
 
-**Software security, reliability, and systems.** Other work has examined GraphQL, provenance, privacy and regulatory compliance, trust and safety, anti-phishing interventions, and software testing and reliability.
+**Software security, reliability, and systems.** I have studied software security and reliability across areas including GraphQL, provenance, privacy, trust and safety, anti-phishing interventions, and software testing. Examples include:
 
-- *Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale* — Proceedings of the ACM Web Conference (WWW) · 2026
-- *Engineering Patterns for Trust and Safety on Social Media Platforms: A Case Study of Mastodon and Diaspora* — Journal of Systems and Software (JSS) · 2025
-- *An Exploratory Mixed-Methods Study on General Data Protection Regulation (GDPR) Compliance in Open-Source Software* — Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM) · 2024
+<div class="other-works">
+<a href="https://arxiv.org/pdf/2506.19899">Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale</a> <span class="venue">(WWW ’26)</span><br>
+<a href="/files/publications/CramerMaxamDavis-TrustAndSafetyEngineeringInSMPs-JSS2025.pdf">Engineering Patterns for Trust and Safety on Social Media Platforms: A Case Study of Mastodon and Diaspora</a> <span class="venue">(JSS ’25)</span><br>
+<a href="/files/publications/ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20.pdf">A Principled Approach to GraphQL Query Cost Analysis</a> <span class="venue">(ESEC/FSE ’20)</span><br>
+</div>
 
+**Efficient computing systems.** My work on efficient computing systems includes adaptive models, inference optimization, edge computing, and energy efficiency:
 
-**Engineering education.** I study and develop ways to teach software engineering, systems thinking, security, and professional engineering practice, including project-based learning and the use of AI in software-engineering education.
+<div class="other-works">
+<a href="https://arxiv.org/pdf/2511.18105">AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens</a> <span class="venue">(CVPR-Findings ’26)</span><br>
+<a href="https://arxiv.org/pdf/2407.05941">Pruning One More Token is Enough: Leveraging Latency-Workload Non-Linearities for Vision Transformers on the Edge</a> <span class="venue">(WACV ’25)</span><br>
+<a href="/files/publications/FuGhaffarDavisLee-EdgeWise-ATC19.pdf">EdgeWise: A Better Stream Processing Engine for the Edge</a> <span class="venue">(USENIX ATC ’19)</span><br>
+</div>
 
-- *Fostering Systems Thinking through Engineering Study Abroad Programs* — European Journal of Engineering Education (EJEE) · 2024
-- *Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency* — Annual Conference of the American Society for Engineering Education (ASEE) · 2024
-- *An Exploratory Study on Upper-Level Computing Students' Use of Large Language Models as Tools in a Semester-Long Project* — Annual Conference of the American Society for Engineering Education (ASEE) · 2024
+**Engineering education.** I study how software engineering and systems thinking can be taught through project-based learning and increasingly capable AI tools:
 
+<div class="other-works">
+<a href="https://arxiv.org/pdf/2404.16632">Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency</a> <span class="venue">(ASEE ’24)</span><br>
+<a href="https://arxiv.org/pdf/2403.18679">An Exploratory Study on Upper-Level Computing Students&#x27; Use of Large Language Models as Tools in a Semester-Long Project</a> <span class="venue">(ASEE ’24)</span><br>
+</div>
 
 The complete record is on the [Publications](/publications/) page.
 
