@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- semantic-families: neutral, modeling, governance, failure -->
+<!-- Hand-authored SVG (label: research-arc). Regular Expression Engineering.
+     ONE JOB: one artifact class, examined along three axes over eight years,
+     reached conclusions that motivated the later reuse and assurance work.
+     HISTORY GENRE, and deliberately a typeset CHRONOLOGY rather than a
+     conceptual diagram (model/figures.md §2). This program's maturity IS the
+     argument: a box-and-arrow model would flatten a body of work that actually
+     accumulated in time. Three lanes carry the three axes; the reader should see
+     that they run concurrently and converge, not that one replaced another.
+     Colour by role: neutral = the axes; modeling green = what the program
+     established; failure red = the security thread; governance rust = what it
+     handed forward. -->
+<!-- Materialized from davisjam/regular-expression-engineering/figures/research-arc.svg by davis-web
+     generators/generate_umbrella_pages.py. Do not hand-edit. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560"
+     role="img" aria-labelledby="arcTitle arcDesc"
+     font-family="Source Sans 3, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+  <title id="arcTitle">The regular-expression research arc, 2017 to 2026</title>
+  <desc id="arcDesc">Three concurrent lines of inquiry into regular expressions:
+    reuse and portability, human understanding, and execution and security. Each
+    ran across most of the period rather than succeeding the others. Together
+    they established that small reused artifacts carry hidden assumptions across
+    languages, developers, and runtimes, which motivated the later work on
+    dependencies, reuse, and assurance.</desc>
+
+  <rect x="0" y="0" width="1200" height="560" fill="#fdfcf9"/>
+
+  <!-- time axis -->
+  <line x1="300" y1="428" x2="1140" y2="428" stroke="#57534e" stroke-width="1.5"/>
+  <line x1="300" y1="422" x2="300" y2="434" stroke="#57534e" stroke-width="1.5"/>
+  <line x1="510" y1="422" x2="510" y2="434" stroke="#57534e" stroke-width="1.5"/>
+  <line x1="720" y1="422" x2="720" y2="434" stroke="#57534e" stroke-width="1.5"/>
+  <line x1="930" y1="422" x2="930" y2="434" stroke="#57534e" stroke-width="1.5"/>
+  <line x1="1140" y1="422" x2="1140" y2="434" stroke="#57534e" stroke-width="1.5"/>
+
+  <!-- lanes -->
+  <line x1="300" y1="176" x2="1030" y2="176" stroke="#57534e" stroke-width="1.5"/>
+  <line x1="300" y1="266" x2="900" y2="266" stroke="#57534e" stroke-width="1.5"/>
+  <line x1="300" y1="356" x2="1140" y2="356" stroke="#b23b3b" stroke-width="1.5"/>
+
+  <!-- milestone markers -->
+  <circle cx="330"  cy="176" r="6" fill="#1f7a4d"/>
+  <circle cx="560"  cy="176" r="6" fill="#1f7a4d"/>
+  <circle cx="1010" cy="176" r="6" fill="#1f7a4d"/>
+  <circle cx="480"  cy="266" r="6" fill="#1f7a4d"/>
+  <circle cx="760"  cy="266" r="6" fill="#1f7a4d"/>
+  <circle cx="330"  cy="356" r="6" fill="#b23b3b"/>
+  <circle cx="640"  cy="356" r="6" fill="#b23b3b"/>
+  <circle cx="880"  cy="356" r="6" fill="#b23b3b"/>
+  <circle cx="1110" cy="356" r="6" fill="#b23b3b"/>
+
+  <!-- what it handed forward -->
+  <rect x="300" y="462" width="840" height="56" rx="3" fill="#faf1e6" stroke="#9a3f12" stroke-width="2"/>
+
+  <!-- text last -->
+  <text x="40" y="52" font-size="24" font-weight="600" fill="#1c1917"
+        font-family="Source Serif 4, Charter, Georgia, serif">Eight years on one artifact class</text>
+  <text x="40" y="80" font-size="16" fill="#57534e">Three axes, running concurrently. A mature programme, and the maturity is the point.</text>
+
+  <text x="40" y="170" font-size="17" font-weight="600" fill="#1c1917">Reuse and portability</text>
+  <text x="40" y="192" font-size="14" fill="#57534e">the same expression, elsewhere</text>
+  <text x="40" y="260" font-size="17" font-weight="600" fill="#1c1917">Human understanding</text>
+  <text x="40" y="282" font-size="14" fill="#57534e">what developers actually do</text>
+  <text x="40" y="350" font-size="17" font-weight="600" fill="#b23b3b">Execution and security</text>
+  <text x="40" y="372" font-size="14" fill="#b23b3b">what the engine does with it</text>
+
+  <text x="330"  y="158" font-size="14" fill="#14532d" text-anchor="middle">portability</text>
+  <text x="560"  y="158" font-size="14" fill="#14532d" text-anchor="middle">lingua franca?</text>
+  <text x="1010" y="158" font-size="14" fill="#14532d" text-anchor="middle">composition</text>
+  <text x="480"  y="248" font-size="14" fill="#14532d" text-anchor="middle">regexes are hard</text>
+  <text x="760"  y="248" font-size="14" fill="#14532d" text-anchor="middle">generalisability</text>
+  <text x="330"  y="338" font-size="14" fill="#b23b3b" text-anchor="middle">ecosystem ReDoS</text>
+  <text x="640"  y="338" font-size="14" fill="#b23b3b" text-anchor="middle">memoisation</text>
+  <text x="880"  y="338" font-size="14" fill="#b23b3b" text-anchor="middle">sanitisation</text>
+  <text x="1110" y="338" font-size="14" fill="#b23b3b" text-anchor="middle">backreferences</text>
+
+  <text x="300"  y="452" font-size="13" fill="#57534e" text-anchor="middle">2017</text>
+  <text x="510"  y="452" font-size="13" fill="#57534e" text-anchor="middle">2019</text>
+  <text x="720"  y="452" font-size="13" fill="#57534e" text-anchor="middle">2021</text>
+  <text x="930"  y="452" font-size="13" fill="#57534e" text-anchor="middle">2023</text>
+  <text x="1140" y="452" font-size="13" fill="#57534e" text-anchor="middle">2026</text>
+
+  <text x="322" y="486" font-size="16" font-weight="600" fill="#7f2f0c">What this programme handed forward</text>
+  <text x="322" y="508" font-size="15" fill="#9a3f12">Small reused artifacts carry hidden assumptions across languages, developers, and runtimes.</text>
+</svg>

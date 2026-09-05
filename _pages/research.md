@@ -21,59 +21,52 @@ alter the way software is built and engineered.
 
 My current research is organized around six programs.
 
+<style>
+/* Generated with the page. Restrained and academic on purpose: a thin rule, no
+   shadow, no rounded corners, no icons. The figures are diagrams, so the
+   thumbnail uses object-fit: contain -- cropping one would destroy it. */
+.research-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:1.5rem;margin:2rem 0}
+.research-card{position:relative;border:1px solid #ddd6cc;background:#fff;
+  display:flex;flex-direction:column}
+.research-card .thumb{background:#f6f4ef;border-bottom:1px solid #e4e0d8;
+  aspect-ratio:3/2;display:block;padding:.6rem}
+.research-card .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+.research-card .body{padding:1.25rem;display:flex;flex-direction:column;flex:1}
+.research-card h2{margin:0 0 .5rem;font-size:1.2rem;line-height:1.25}
+.research-card h2 a{color:inherit;text-decoration:none}
+.research-question{font-style:italic;color:#57534e;margin:0 0 .6rem}
+.research-card p{margin:0 0 .75rem;font-size:.95rem}
+.research-card-footer{display:flex;justify-content:space-between;gap:1rem;
+  align-items:baseline;margin-top:auto;padding-top:.75rem;font-size:.9rem;
+  border-top:1px solid #e4e0d8}
+.research-card-footer .count{color:#57534e}
+/* Whole card clickable, without nesting interactive elements: the title anchor
+   is stretched over the card, so the accessible name and tab order stay
+   exactly one link per card. */
+.research-card h2 a::after{content:"";position:absolute;inset:0}
+.research-card:hover{border-color:#9a3f12}
+.research-card-footer a{position:relative;z-index:1}
+@media (max-width:760px){.research-grid{grid-template-columns:1fr}}
+</style>
 
-## Model-Based Agentic Software Engineering
-
-*How should we engineer software when implementation becomes abundant but engineering judgment remains scarce?*
-
-Model-Based Agentic Software Engineering (MAGE) studies software engineering for increasingly capable AI agents. The central move is to externalize engineering knowledge into models, align delegated work with authoritative obligations, validate realizations against those models, and turn recurring human reasoning into reusable engineering capital.
-
-[Explore Model-Based Agentic Software Engineering →](https://davisjam.github.io/mage/) · 6 publications
-
-
-## Embedded Software Engineering
-
-*Making analysis and assurance practical for embedded software.*
-
-Embedded systems combine high consequences with environments that make conventional software analysis unusually difficult. Our work has developed techniques for rehosting, dynamic analysis, static analysis, testing, and verification of embedded software. A current thrust is Unit Proofing: making component-level formal verification practical enough to use as an ordinary engineering tool.
-
-[Explore Embedded Software Engineering →](https://davisjam.github.io/embedded-software-engineering/) · 10 publications
-
-
-## Failure-Aware Software Development
-
-*Learning systematically from the ways software systems fail.*
-
-Software failures contain engineering knowledge, but organizations and research communities often treat them as isolated events. This research studies failures empirically and asks how evidence from past failures can improve requirements, design, testing, processes, and engineering decisions before the next system fails in the same way.
-
-[Explore Failure-Aware Software Development →](https://davisjam.github.io/failure-aware-software-development/) · 9 publications
-
-
-## Software Engineering for Pre-Trained Models
-
-*What changes about software engineering when the reused component is a learned model?*
-
-Pre-trained models are increasingly reused as software dependencies, but their behavior, interfaces, provenance, compatibility, and failure modes differ substantially from conventional libraries. We study how models are discovered, selected, integrated, tested, secured, reproduced, and evolved as components of larger software systems.
-
-[Explore Software Engineering for Pre-Trained Models →](https://davisjam.github.io/software-engineering-pre-trained-models/) · 20 publications
-
-
-## Software Supply Chains
-
-*How can software reuse remain trustworthy at ecosystem scale?*
-
-Modern software is assembled from components produced by many actors across package registries, repositories, build systems, and increasingly model and agent ecosystems. We study the foundations and applications of trustworthy software supply chains, including provenance and signing, dependency risk, package confusion, adoption and usability, and mechanisms for making reuse safer.
-
-[Explore Software Supply Chains →](https://davisjam.github.io/software-supply-chains/) · 15 publications
-
-
-## Regular Expression Engineering
-
-*Small programs expose surprisingly large software-engineering problems.*
-
-Regular expressions are reused across languages, libraries, and ecosystems, yet developers struggle to understand their behavior, portability, performance, and security consequences. This body of work studies regexes as software artifacts, from reuse and developer comprehension to catastrophic backtracking, analysis, mitigation, and the semantics of modern regex engines.
-
-[Explore Regular Expression Engineering →](https://davisjam.github.io/regular-expression-engineering/) · 15 publications
+<div class="research-grid">
+{% for program in site.data.research %}
+  <article class="research-card">
+    <span class="thumb"><img src="{{ program.figure | relative_url }}"
+         alt="{{ program.figure_alt }}" loading="lazy"></span>
+    <div class="body">
+      <h2><a href="{{ program.url }}">{{ program.title }}</a></h2>
+      <p class="research-question">{{ program.question }}</p>
+      <p>{{ program.description }}</p>
+      <div class="research-card-footer">
+        <a href="{{ program.url }}">Explore {{ program.short_title }} &rarr;</a>
+        <span class="count">{{ program.publications }} publications</span>
+      </div>
+    </div>
+  </article>
+{% endfor %}
+</div>
 
 
 ## Other research and contributions

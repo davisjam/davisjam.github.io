@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- semantic-families: neutral, failure, modeling, governance -->
+<!-- Hand-authored SVG (label: failure-learning-loop). Failure-Aware Software Development.
+     ONE JOB: failure knowledge is a feedback system that changes subsequent
+     engineering, not a bug database. The return edge is the whole argument, so it
+     is the most prominent stroke in the figure; without it this is just a
+     left-to-right pipeline and the claim collapses.
+     Colour by role: failure red = the failure itself; neutral = the analytical
+     stages; modeling green = knowledge that has become reusable; governance rust
+     = the return edge that changes practice. -->
+<!-- Materialized from davisjam/failure-aware-software-development/figures/failure-learning-loop.svg by davis-web
+     generators/generate_umbrella_pages.py. Do not hand-edit. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500"
+     role="img" aria-labelledby="loopTitle loopDesc"
+     font-family="Source Sans 3, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+  <title id="loopTitle">The failure-to-engineering feedback loop</title>
+  <desc id="loopDesc">A failure produces evidence, which is analysed into reusable
+    knowledge, which is built into engineering structure. That structure feeds
+    back to change how subsequent systems are specified, designed, and validated,
+    so the same class of failure is less likely to recur. The return path is what
+    distinguishes this from simply recording defects.</desc>
+
+  <rect x="0" y="0" width="1200" height="500" fill="#fdfcf9"/>
+
+  <defs>
+    <marker id="aN" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#57534e"/>
+    </marker>
+    <marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#9a3f12"/>
+    </marker>
+  </defs>
+
+  <!-- stages -->
+  <rect x="30"  y="150" width="190" height="76" rx="3" fill="#fbeaea" stroke="#b23b3b" stroke-width="1.5"/>
+  <rect x="280" y="150" width="190" height="76" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="530" y="150" width="190" height="76" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="780" y="150" width="190" height="76" rx="3" fill="#e3f0e7" stroke="#1f7a4d" stroke-width="1.5"/>
+  <rect x="990" y="290" width="190" height="76" rx="3" fill="#faf1e6" stroke="#9a3f12" stroke-width="2.5"/>
+
+  <!-- forward edges -->
+  <line x1="220" y1="188" x2="272" y2="188" stroke="#57534e" stroke-width="1.5" marker-end="url(#aN)"/>
+  <line x1="470" y1="188" x2="522" y2="188" stroke="#57534e" stroke-width="1.5" marker-end="url(#aN)"/>
+  <line x1="720" y1="188" x2="772" y2="188" stroke="#57534e" stroke-width="1.5" marker-end="url(#aN)"/>
+  <!-- knowledge becomes structure -->
+  <path d="M 970 188 L 1085 188 L 1085 282" fill="none" stroke="#1f7a4d" stroke-width="1.5" marker-end="url(#aN)"/>
+
+  <!-- THE RETURN EDGE: structure changes how the next system is built -->
+  <path d="M 990 328 L 125 328 L 125 234" fill="none" stroke="#9a3f12" stroke-width="2.5"
+        marker-end="url(#aR)"/>
+
+  <!-- text last -->
+  <text x="30" y="52" font-size="24" font-weight="600" fill="#1c1917"
+        font-family="Source Serif 4, Charter, Georgia, serif">Failure as engineering evidence</text>
+  <text x="30" y="80" font-size="16" fill="#57534e">The return path is the point. Without it, this is a defect log.</text>
+
+  <text x="125" y="182" font-size="18" font-weight="600" fill="#b23b3b" text-anchor="middle">Failure</text>
+  <text x="125" y="206" font-size="14" fill="#b23b3b" text-anchor="middle">in a real system</text>
+  <text x="375" y="182" font-size="18" font-weight="600" fill="#1c1917" text-anchor="middle">Evidence</text>
+  <text x="375" y="206" font-size="14" fill="#57534e" text-anchor="middle">reports, artifacts, accounts</text>
+  <text x="625" y="182" font-size="18" font-weight="600" fill="#1c1917" text-anchor="middle">Analysis</text>
+  <text x="625" y="206" font-size="14" fill="#57534e" text-anchor="middle">what recurs, what generalises</text>
+  <text x="875" y="182" font-size="18" font-weight="600" fill="#14532d" text-anchor="middle">Reusable knowledge</text>
+  <text x="875" y="206" font-size="14" fill="#1f7a4d" text-anchor="middle">not tied to one incident</text>
+  <text x="1085" y="322" font-size="18" font-weight="600" fill="#7f2f0c" text-anchor="middle">Engineering</text>
+  <text x="1085" y="344" font-size="18" font-weight="600" fill="#7f2f0c" text-anchor="middle">structure</text>
+
+  <text x="540" y="352" font-size="15" font-style="italic" fill="#9a3f12">specification · design · validation · governance</text>
+  <text x="540" y="374" font-size="15" fill="#57534e">— so the next system starts further along</text>
+
+  <line x1="30" y1="412" x2="1170" y2="412" stroke="#e4e0d8" stroke-width="1"/>
+  <text x="30" y="444" font-size="16" fill="#1c1917">A failure that only produces a fix teaches nothing twice. FA-SDLC studies how</text>
+  <text x="30" y="466" font-size="16" fill="#1c1917">organisations close this loop, and what it costs them when they do not.</text>
+</svg>

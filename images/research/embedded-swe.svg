@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- semantic-families: neutral, modeling, governance -->
+<!-- Hand-authored SVG (label: research-lineage). Embedded Software Engineering.
+     ONE JOB: Unit Proofing is the culmination of a sustained lineage, not a
+     disconnected new brand. History genre, so the shape is a chain: each stage
+     establishes something the next one needs, and the current thrust sits at the
+     end of that chain rather than beside it.
+     Colour by role: neutral = empirical and analysis groundwork; modeling green
+     = the move to proof; governance rust = the current thrust. -->
+<!-- Materialized from davisjam/embedded-software-engineering/figures/research-lineage.svg by davis-web
+     generators/generate_umbrella_pages.py. Do not hand-edit. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470"
+     role="img" aria-labelledby="lineageTitle lineageDesc"
+     font-family="Source Sans 3, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+  <title id="lineageTitle">Research lineage of Embedded Software Engineering</title>
+  <desc id="lineageDesc">Five stages in sequence: embedded validation and defect
+    studies, rehosting and dynamic analysis, static analysis at scale,
+    compositional bounded model checking, and Unit Proofing with AutoSOUP. Each
+    stage feeds the next, so Unit Proofing appears as the culmination of a
+    sustained line of work rather than a separate new effort.</desc>
+
+  <rect x="0" y="0" width="1200" height="470" fill="#fdfcf9"/>
+
+  <!-- ── boxes ─────────────────────────────────────────────────────────── -->
+  <!-- neutral: empirical + analysis groundwork -->
+  <rect x="20"  y="150" width="200" height="76" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="260" y="150" width="200" height="76" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <rect x="500" y="150" width="200" height="76" rx="3" fill="#f6f4ef" stroke="#57534e" stroke-width="1.5"/>
+  <!-- modeling green: the move to proof -->
+  <rect x="740" y="150" width="200" height="76" rx="3" fill="#e3f0e7" stroke="#1f7a4d" stroke-width="1.5"/>
+  <!-- governance rust: the current thrust -->
+  <rect x="980" y="150" width="200" height="76" rx="3" fill="#faf1e6" stroke="#9a3f12" stroke-width="2.5"/>
+
+  <!-- ── connectors ────────────────────────────────────────────────────── -->
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#57534e"/>
+    </marker>
+    <marker id="arRust" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#9a3f12"/>
+    </marker>
+  </defs>
+  <line x1="220" y1="188" x2="252" y2="188" stroke="#57534e" stroke-width="1.5" marker-end="url(#ar)"/>
+  <line x1="460" y1="188" x2="492" y2="188" stroke="#57534e" stroke-width="1.5" marker-end="url(#ar)"/>
+  <line x1="700" y1="188" x2="732" y2="188" stroke="#57534e" stroke-width="1.5" marker-end="url(#ar)"/>
+  <line x1="940" y1="188" x2="972" y2="188" stroke="#9a3f12" stroke-width="2" marker-end="url(#arRust)"/>
+
+  <!-- ── text (painted last: labels sit on top of every fill) ──────────── -->
+  <text x="20" y="52" font-size="24" font-weight="600" fill="#1c1917"
+        font-family="Source Serif 4, Charter, Georgia, serif">Where Unit Proofing came from</text>
+  <text x="20" y="80" font-size="16" fill="#57534e">Each stage established what the next one needed.</text>
+
+  <text x="120"  y="130" font-size="13" fill="#57534e" text-anchor="middle">2021</text>
+  <text x="360"  y="130" font-size="13" fill="#57534e" text-anchor="middle">2022</text>
+  <text x="600"  y="130" font-size="13" fill="#57534e" text-anchor="middle">2023</text>
+  <text x="840"  y="130" font-size="13" fill="#57534e" text-anchor="middle">2025</text>
+  <text x="1080" y="130" font-size="13" fill="#9a3f12" text-anchor="middle">now</text>
+
+  <text x="120"  y="182" font-size="18" font-weight="600" fill="#1c1917" text-anchor="middle">Validation</text>
+  <text x="120"  y="206" font-size="14" fill="#57534e" text-anchor="middle">defect studies</text>
+  <text x="360"  y="182" font-size="18" font-weight="600" fill="#1c1917" text-anchor="middle">Rehosting</text>
+  <text x="360"  y="206" font-size="14" fill="#57534e" text-anchor="middle">dynamic analysis</text>
+  <text x="600"  y="182" font-size="18" font-weight="600" fill="#1c1917" text-anchor="middle">Static analysis</text>
+  <text x="600"  y="206" font-size="14" fill="#57534e" text-anchor="middle">at ecosystem scale</text>
+  <text x="840"  y="182" font-size="18" font-weight="600" fill="#14532d" text-anchor="middle">Bounded proof</text>
+  <text x="840"  y="206" font-size="14" fill="#1f7a4d" text-anchor="middle">compositional, per unit</text>
+  <text x="1080" y="178" font-size="18" font-weight="600" fill="#7f2f0c" text-anchor="middle">Unit Proofing</text>
+  <text x="1080" y="202" font-size="14" fill="#9a3f12" text-anchor="middle">AutoSOUP generates</text>
+  <text x="1080" y="219" font-size="14" fill="#9a3f12" text-anchor="middle">the proofs</text>
+
+  <!-- what each stage established -->
+  <text x="120"  y="266" font-size="13" fill="#57534e" text-anchor="middle">real defects hide in</text>
+  <text x="120"  y="283" font-size="13" fill="#57534e" text-anchor="middle">packet-handling code</text>
+  <text x="360"  y="266" font-size="13" fill="#57534e" text-anchor="middle">firmware can run off</text>
+  <text x="360"  y="283" font-size="13" fill="#57534e" text-anchor="middle">its target hardware</text>
+  <text x="600"  y="266" font-size="13" fill="#57534e" text-anchor="middle">analysis is cheap</text>
+  <text x="600"  y="283" font-size="13" fill="#57534e" text-anchor="middle">enough to run broadly</text>
+  <text x="840"  y="266" font-size="13" fill="#57534e" text-anchor="middle">a component can carry</text>
+  <text x="840"  y="283" font-size="13" fill="#57534e" text-anchor="middle">a real guarantee</text>
+  <text x="1080" y="266" font-size="13" fill="#57534e" text-anchor="middle">the guarantee can be</text>
+  <text x="1080" y="283" font-size="13" fill="#57534e" text-anchor="middle">made routine</text>
+
+  <line x1="20" y1="330" x2="1180" y2="330" stroke="#e4e0d8" stroke-width="1"/>
+  <text x="20" y="364" font-size="16" fill="#1c1917">Strong component-level guarantees became reachable by making each</text>
+  <text x="20" y="386" font-size="16" fill="#1c1917">prior obstacle cheap: run it, analyse it, bound it, then generate it.</text>
+  <text x="20" y="424" font-size="13" fill="#57534e">Simplified view of one line of work. Only the stages needed for this argument are shown.</text>
+</svg>
