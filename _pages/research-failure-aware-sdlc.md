@@ -3,7 +3,7 @@ layout: research-project
 title: "Failure-Aware Software Development"
 permalink: /research/failure-aware-sdlc/
 author_profile: true
-research_slug: "Failure-Aware Software"
+research_slug: "FA-SDLC"
 question: "What can we learn from the ways software systems fail?"
 figure: /assets/research/failure-aware-sdlc/failure-learning-loop.svg
 figure_alt: "Learning from failure means changing the next system"

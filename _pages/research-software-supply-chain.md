@@ -3,7 +3,7 @@ layout: research-project
 title: "Software Supply Chains"
 permalink: /research/software-supply-chain/
 author_profile: true
-research_slug: "Software Supply Chains"
+research_slug: "SW Supply Chains"
 question: "How can software reuse remain trustworthy at ecosystem scale?"
 figure: /assets/research/software-supply-chain/trust-provenance-graph.svg
 figure_alt: "Trustworthy reuse requires more than one kind of evidence"

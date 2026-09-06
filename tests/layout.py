@@ -62,9 +62,18 @@ PROBE = """() => {
     }
     return false;
   };
+  // Deliberately off-screen-until-focused: the skip link and any visually
+  // hidden text sit at left:-9999px BY DESIGN. Reading that as an overflow
+  // reported 112 failures the moment the skip link landed. Matched by class
+  // rather than by "is far off to the left", because a genuine overflow can
+  // look identical from a bounding box.
+  const offscreenByDesign = el =>
+    el.classList.contains('skip-link') || el.classList.contains('sr-only') ||
+    !!el.closest('.skip-link, .sr-only');
   const offenders = [...document.querySelectorAll('body *')]
     .filter(el => el.offsetParent !== null || el.tagName === 'BODY')
     .filter(el => !scrollable(el))
+    .filter(el => !offscreenByDesign(el))
     .map(el => { const r = el.getBoundingClientRect();
       return {tag: el.tagName, cls: (typeof el.className === 'string' ? el.className : ''),
               left: Math.round(r.left), right: Math.round(r.right), w: Math.round(r.width)}; })

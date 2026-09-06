@@ -473,3 +473,14 @@
   outline: 2px solid #8E6F3E;
   outline-offset: 2px;
 }
+
+/* Masthead width follows the page canvas, not the theme's $x-large.
+   The bar has to hold: logo + seven top-level links + the expanded programme
+   slug on a research page, with no hamburger. The theme capped it far below
+   #main, so Join the lab and Personal were being evicted on a full-screen
+   browser with obvious space to spare -- the cap, not the content, was the
+   constraint. Sized to the same min(1600px, 100vw - 3rem) as the content
+   canvas so the two agree. */
+.masthead__inner-wrap {
+  max-width: min(1600px, calc(100vw - 3rem));
+}

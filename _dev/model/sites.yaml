@@ -59,6 +59,9 @@ sites:
     url: https://davisjam.github.io/model-based-agentic-software-engineering/
     profile: canonical-resource
     title: Model-Based Agentic Software Engineering
+    # short_name IS the navbar slug: the masthead reads it via
+    # _data/research.yml. Keep these short -- the bar has to fit every
+    # top-level link plus the longest of these expanded.
     short_name: MAGE
     status: active
     maturity: flagship
@@ -98,6 +101,9 @@ sites:
     profile: research-program
     site_status: retired   # standalone site superseded by the /research/ page
     title: Model-Based Agentic Software Engineering
+    # short_name IS the navbar slug: the masthead reads it via
+    # _data/research.yml. Keep these short -- the bar has to fit every
+    # top-level link plus the longest of these expanded.
     short_name: MAGE
     status: active
     maturity: current
@@ -159,7 +165,7 @@ sites:
     profile: research-program
     site_status: retired   # standalone site superseded by the /research/ page
     title: Embedded Software Engineering
-    short_name: Embedded Software
+    short_name: Embedded SWE
     status: active
     maturity: current
     default_branch: main
@@ -194,7 +200,7 @@ sites:
     profile: research-program
     site_status: retired   # standalone site superseded by the /research/ page
     title: Failure-Aware Software Development
-    short_name: Failure-Aware Software
+    short_name: FA-SDLC
     status: active
     maturity: current
     default_branch: main
@@ -229,7 +235,7 @@ sites:
     profile: research-program
     site_status: retired   # standalone site superseded by the /research/ page
     title: Software Engineering for Pre-Trained Models
-    short_name: Pre-Trained Models
+    short_name: SWE for PTMs
     status: active
     maturity: current
     default_branch: main
@@ -269,7 +275,7 @@ sites:
     profile: research-program
     site_status: retired   # standalone site superseded by the /research/ page
     title: Software Supply Chains
-    short_name: Software Supply Chains
+    short_name: SW Supply Chains
     status: active
     maturity: current
     default_branch: main
@@ -316,7 +322,7 @@ sites:
     profile: research-program
     site_status: retired   # standalone site superseded by the /research/ page
     title: Regular Expression Engineering
-    short_name: Regular Expressions
+    short_name: Regex Engineering
     # NAMING DECISION (260904): the program is referred to as "SafeRegex" in
     # planning notes, but the repo, URL, and site title stay descriptive.
     # `safe-regex` on npm is Substack's well-known ReDoS-detection package in

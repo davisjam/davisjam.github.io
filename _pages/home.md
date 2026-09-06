@@ -8,7 +8,7 @@ redirect_from:
   - /home.html
 ---
 
-**I am recruiting *graduate* and *undergraduate* research assistants (esp. PhD). See [lab page](research/) for details.**
+**I am recruiting *graduate* and *undergraduate* research assistants (esp. PhD). See [Join the lab](/join-lab/) for details.**
 {: .notice--info}
 
 ## Lab overview
