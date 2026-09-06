@@ -402,6 +402,7 @@
    neighbouring line, so two adjacent rows of icons end up with intersecting
    hit areas and the wrong one wins. */
 .author__urls a,
+.author__urls-wrapper a,
 .page__content a:has(> i.fas),
 .page__content a:has(> i.fab),
 .page__content a:has(> i.ai) {

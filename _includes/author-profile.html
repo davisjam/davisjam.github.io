@@ -24,19 +24,19 @@
   <div class="author__urls-wrapper">
 
     {% if author.email %}
-      <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope fa-lg" aria-hidden="true"></i></a>
+      <a href="mailto:{{ author.email }}" aria-label="Email James Davis"><i class="fas fa-fw fa-envelope fa-lg" aria-hidden="true"></i></a>
     {% endif %}
     {% if author.twitter %}
-      <a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter fa-lg" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/{{ author.twitter }}" aria-label="James Davis on Twitter"><i class="fab fa-fw fa-twitter fa-lg" aria-hidden="true"></i></a>
     {% endif %}
     {% if author.googlescholar %}
-      <a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-lg"></i></a>
+      <a href="{{ author.googlescholar }}" aria-label="James Davis on Google Scholar"><i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i></a>
     {% endif %}
     {% if author.github %}
-      <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github fa-lg" aria-hidden="true"></i></a>
+      <a href="https://github.com/{{ author.github }}" aria-label="James Davis on GitHub"><i class="fab fa-fw fa-github fa-lg" aria-hidden="true"></i></a>
     {% endif %}
 
-    <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/professional/JamesDavis-CV.pdf"><i class="ai ai-fw ai-cv ai-lg" style="vertical-align: middle"></i></a>
+    <a href="{{ site.url }}{{ site.baseurl }}{{ site.filesurl }}/professional/JamesDavis-CV.pdf" aria-label="Download CV (PDF)"><i class="ai ai-fw ai-cv ai-lg" style="vertical-align: middle" aria-hidden="true"></i></a>
 
     <!--
       {% if author.employer %}
