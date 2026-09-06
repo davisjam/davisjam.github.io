@@ -232,7 +232,8 @@ To see them organized approximately by project, see [here](/research).
  <a href="https://davisjam.github.io/files/publications/HuJiaoKocherWuLiuDavisThiruvathukalLu-LPCVC-Computer2023.pdf" aria-label="PDF: Evolution of Winning Solutions in the 2021 Low-Power Computer Vision Challenge"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Applying Experiential Learning Theory to Understand Study Abroad Leaders' Experiences Using Real-Time Perspectives*.  
  K. Davis, J. Deters, D. Ozkan, **Davis**, and H. Murzi.  
- Frontiers: The Interdisciplinary Journal of Study Abroad, Vol. 34, No. 2 (Frontiers) 2022.
+ Frontiers: The Interdisciplinary Journal of Study Abroad, Vol. 34, No. 2 (Frontiers) 2022.  
+ <a href="https://doi.org/10.36366/frontiers.v34i2.654" aria-label="PDF: Applying Experiential Learning Theory to Understand Study Abroad Leaders' Experiences Using Real-Time Perspectives"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Tree-based Unidirectional Neural Networks for Low-Power Computer Vision*.  
  A. Goel, C. Tung, N. Eliopoulos, A. Wang, **Davis**, G.K. Thiruvathukal, and Y.H. Lu.  
  IEEE Design & Test 2022.  
