@@ -245,21 +245,36 @@ programs:
           have not made it cheaper to decide what should be built, which
           obligations govern it, or whether the result is acceptable.
         publications: [B-1, R-1, W-2]
-      - title: What agents actually do
+      # ONE section, not two. "What agents actually do" implied these papers were
+      # the empirical basis for MAGE's general claims about delegated
+      # engineering; they are not. "Infrastructure for governed work" was worse
+      # -- it made AgentHub and SAGE read as components of a MAGE reference
+      # architecture, an architecture the research record does not support.
+      #
+      # The honest axis is framework -> worked systems and empirical experience
+      # -> broader implications, NOT theory -> agent behaviour -> required
+      # infrastructure. The prose below deliberately permits different
+      # relationships to MAGE -- formative evidence, an embodied principle, an
+      # antecedent system, adjacent concerns -- rather than flattening them into
+      # architectural layers.
+      - title: Systems and studies behind MAGE
         prose: >-
-          Claims about delegated engineering need evidence about how agents
-          behave on real systems.
-        publications: [J-3, W-10, W-9, R-2]
-      - title: Infrastructure for governed work
-        prose: >-
-          Delegated work needs somewhere to be discovered, verified, and
-          reproduced.
-        publications: [W-5, R-7]
+          MAGE did not begin as an abstract framework. It grew partly from
+          building and studying agentic software systems and confronting the
+          engineering problems that appeared when implementation became cheap.
+          The projects below supplied worked examples, empirical evidence, and
+          recurring problems that informed the framework; several also
+          illustrate principles that MAGE later makes explicit.
+        publications: [R-2, R-7, J-3, W-10, W-9, W-5]
+      # This one stays, because it makes a conceptual move rather than inventing
+      # a taxonomy: the acquisition work asks a MAGE-shaped question at a
+      # different institutional boundary.
       - title: Implications beyond conventional engineering
         prose: >-
-          The shift does not stop at the engineering team. Institutions that
-          acquire software face the same imbalance: producing a capability has
-          become cheaper, while deciding what to acquire, and on what evidence,
-          has not. We are beginning to ask what the framework implies for the
-          organisations that buy and field software rather than write it.
+          MAGE's implications extend beyond the engineering team. Institutions
+          that acquire software face the same changing economics: producing a
+          capability has become cheaper, while deciding what to acquire, which
+          obligations govern it, and what evidence justifies acceptance has not.
+          We are beginning to study what this shift means for organisations that
+          acquire and field software rather than build it themselves.
         publications: [R-4]

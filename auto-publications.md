@@ -259,7 +259,8 @@ To see them organized approximately by project, see [here](/research).
  <a href="https://arxiv.org/pdf/2512.21757" aria-label="PDF: How Do Agents Perform Code Optimization? An Empirical Study"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Software Supply Chains are Dead: Use-Case-Oriented Regeneration*.  
  T. Singla and **Davis**.  
- Proceedings of the 20th International Symposium on Empirical Software Engineering and Measurement - Emerging Results, Vision, and Reflection Track (ESEM-ERVR) 2026.
+ Proceedings of the 20th International Symposium on Empirical Software Engineering and Measurement - Emerging Results, Vision, and Reflection Track (ESEM-ERVR) 2026.  
+ <a href="https://arxiv.org/pdf/2607.13021" aria-label="PDF: Software Supply Chains are Dead: Use-Case-Oriented Regeneration"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen*.  
  ACM International Conference on the Foundations of Software Engineering -- Industry track (FSE-Industry) 2026.  
  <a href="https://arxiv.org/pdf/2510.02185" aria-label="PDF: Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>

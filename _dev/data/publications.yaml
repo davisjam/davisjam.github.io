@@ -753,11 +753,10 @@ publications:
     links:
       paper: "https://arxiv.org/pdf/2506.01249"
     program_notes:
-      mage: "Showed that language models can improve the measured performance of real software systems, and established the measurement setup the later agent-optimization work builds on."
+      mage: "A worked agentic system for optimizing real software, and an early demonstration of how capable models can cheaply search implementation alternatives while measurement remains external to the agent."
     projects: [mage]
     role_in_project:
-      mage: core
-
+      mage: "A worked agentic system for optimizing real software, and an early demonstration of how capable models can cheaply search implementation alternatives while measurement remains external to the agent."
   - id: J-4
     type: journal
     title: "'I see models being a whole other thing': An Empirical Study of Pre-Trained Model Naming Conventions and A Tool for Enhancing Naming Consistency"
@@ -910,11 +909,10 @@ publications:
     paper_url: https://arxiv.org/pdf/2607.13021
     authors: "T. Singla and J.C. Davis"
     program_notes:
-      mage: "Argues that when regeneration is cheap, reuse decisions change shape. The position that connects the supply-chain work to the agentic setting."
+      mage: "Explores how cheap regeneration changes the economics of reuse, connecting earlier software-supply-chain research to the agentic setting."
     projects: [mage]
     role_in_project:
-      mage: core
-
+      mage: "Explores how cheap regeneration changes the economics of reuse, connecting earlier software-supply-chain research to the agentic setting."
   - id: W-3
     type: workshop
     title: "Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen"
@@ -952,11 +950,11 @@ publications:
     links:
       paper: "https://arxiv.org/pdf/2510.03495"
     program_notes:
-      mage: "A registry for agents, treating discoverability, verification, and reproducibility as properties an agent ecosystem has to provide rather than properties individual users establish."
+      mage: "Explores another recurring MAGE concern at ecosystem scale: making consequential properties explicit enough that agent artifacts can be discovered, verified, and reproduced."
       software-supply-chain: "Agent ecosystems are beginning to distribute executable capability, and they inherit the registry trust problem before they inherit its defences."
     projects: [mage, software-supply-chain]
     role_in_project:
-      mage: core
+      mage: "Explores another recurring MAGE concern at ecosystem scale: making consequential properties explicit enough that agent artifacts can be discovered, verified, and reproduced."
       software-supply-chain: application
 
   - id: W-6
@@ -1013,11 +1011,10 @@ publications:
     links:
       paper: "https://arxiv.org/pdf/2603.14703"
     program_notes:
-      mage: "Extends optimization from local edits to reasoning across a system, which is where delegated work starts to need explicit models rather than context."
+      mage: "Extends agentic optimization beyond isolated edits to system-level reasoning, where representation, coordination, and validation become increasingly consequential."
     projects: [mage]
     role_in_project:
-      mage: core
-
+      mage: "Extends agentic optimization beyond isolated edits to system-level reasoning, where representation, coordination, and validation become increasingly consequential."
   - id: W-10
     type: workshop
     title: "How Do Agents Perform Code Optimization? An Empirical Study"
@@ -1027,11 +1024,10 @@ publications:
     links:
       paper: "https://arxiv.org/pdf/2512.21757"
     program_notes:
-      mage: "Characterizes what agents actually do when asked to optimize code, which is the empirical ground for claims about where judgment still has to sit."
+      mage: "Studies how agents actually perform optimization, including the strategies and limitations that appear when they work against real software."
     projects: [mage]
     role_in_project:
-      mage: core
-
+      mage: "Studies how agents actually perform optimization, including the strategies and limitations that appear when they work against real software."
   - id: W-11
     type: workshop
     title: "A Unit Proofing Framework for Code-level Verification: A Research Agenda"
@@ -1415,9 +1411,9 @@ publications:
     paper_url: "https://arxiv.org/pdf/2608.25174"
     projects: [mage]
     role_in_project:
-      mage: core
+      mage: "An 8-page condensed statement of the MAGE theory."
     program_notes:
-      mage: "An 8-page condensed version of the MAGE theory."
+      mage: "An 8-page condensed statement of the MAGE theory."
   - id: R-2
     type: report
     title: "Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering"
@@ -1426,9 +1422,9 @@ publications:
     paper_url: "https://arxiv.org/pdf/2607.01087"
     projects: [mage]
     role_in_project:
-      mage: core
+      mage: "The most direct worked case behind MAGE: a study of what happens when agent-produced implementation becomes cheap while specification, validation, exception handling, and engineering judgment remain scarce."
     program_notes:
-      mage: "A case study in governing agent-produced work on a real system."
+      mage: "The most direct worked case behind MAGE: a study of what happens when agent-produced implementation becomes cheap while specification, validation, exception handling, and engineering judgment remain scarce."
   - id: R-3
     type: report
     title: "Reproducibility is Not Enough: Artifact Verifiability in Decentralized-Build Package Ecosystems"
@@ -1476,9 +1472,9 @@ publications:
     paper_url: "https://arxiv.org/pdf/2607.01102"
     projects: [mage]
     role_in_project:
-      mage: core
+      mage: "A worked example of the Modeling Principle: agents manipulate an explicit graph representation of a software diagram rather than treating the diagram as an opaque picture."
     program_notes:
-      mage: "A worked example of building on the framework: editing software diagrams as structured graphs rather than as pictures."
+      mage: "A worked example of the Modeling Principle: agents manipulate an explicit graph representation of a software diagram rather than treating the diagram as an opaque picture."
   - id: R-8
     type: report
     title: "A Longitudinal Study of Usability in Identity-Based Software Signing"

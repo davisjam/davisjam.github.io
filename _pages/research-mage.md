@@ -22,33 +22,26 @@ Capable agents have made producing working code much cheaper. They have not made
 
 <ul class="pub-list">
   <li><span class="pub-title"><a href="https://davisjam.github.io/model-based-agentic-software-engineering/book/index.html">Model-Based Agentic Software Engineering (The MAGE Book)</a></span><br><span class="note">The book-length statement of the framework.</span></li>
-  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2608.25174">Model-Based Agentic Software Engineering</a></span><br><span class="venue">2026</span><br><span class="note">An 8-page condensed version of the MAGE theory.</span></li>
-  <li><span class="pub-title">Software Supply Chains are Dead: Use-Case-Oriented Regeneration</span><br><span class="venue">ESEM-ERVR &middot; 2026</span><br><span class="note">Argues that when regeneration is cheap, reuse decisions change shape. The position that connects the supply-chain work to the agentic setting.</span></li>
+  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2608.25174">Model-Based Agentic Software Engineering</a></span><br><span class="venue">2026</span><br><span class="note">An 8-page condensed statement of the MAGE theory.</span></li>
+  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2607.13021">Software Supply Chains are Dead: Use-Case-Oriented Regeneration</a></span><br><span class="venue">ESEM-ERVR &middot; 2026</span><br><span class="note">Explores how cheap regeneration changes the economics of reuse, connecting earlier software-supply-chain research to the agentic setting.</span></li>
 </ul>
 
-## What agents actually do
+## Systems and studies behind MAGE
 
-Claims about delegated engineering need evidence about how agents behave on real systems.
-
-<ul class="pub-list">
-  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2506.01249">SysLLMatic: Large Language Models are Software System Optimizers</a></span><br><span class="venue">arXiv &middot; 2025</span><br><span class="note">Showed that language models can improve the measured performance of real software systems, and established the measurement setup the later agent-optimization work builds on.</span></li>
-  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2512.21757">How Do Agents Perform Code Optimization? An Empirical Study</a></span><br><span class="venue">International Mining Software Repositories Confe &middot; 2026</span><br><span class="note">Characterizes what agents actually do when asked to optimize code, which is the empirical ground for claims about where judgment still has to sit.</span></li>
-  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2603.14703">Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization</a></span><br><span class="venue">JAWs &middot; 2026</span><br><span class="note">Extends optimization from local edits to reasoning across a system, which is where delegated work starts to need explicit models rather than context.</span></li>
-  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2607.01087">Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering</a></span><br><span class="venue">2026</span><br><span class="note">A case study in governing agent-produced work on a real system.</span></li>
-</ul>
-
-## Infrastructure for governed work
-
-Delegated work needs somewhere to be discovered, verified, and reproduced.
+MAGE did not begin as an abstract framework. It grew partly from building and studying agentic software systems and confronting the engineering problems that appeared when implementation became cheap. The projects below supplied worked examples, empirical evidence, and recurring problems that informed the framework; several also illustrate principles that MAGE later makes explicit.
 
 <ul class="pub-list">
-  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2510.03495">AgentHub: A Registry for Discoverable, Verifiable, and Reproducible AI Agents</a></span><br><span class="venue">JAWs &middot; 2026</span><br><span class="note">A registry for agents, treating discoverability, verification, and reproducibility as properties an agent ecosystem has to provide rather than properties individual users establish.</span></li>
-  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2607.01102">SAGE: Structured Agentic Graph Editing for Software Diagrams</a></span><br><span class="venue">2026</span><br><span class="note">A worked example of building on the framework: editing software diagrams as structured graphs rather than as pictures.</span></li>
+  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2607.01087">Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering</a></span><br><span class="venue">2026</span><br><span class="note">The most direct worked case behind MAGE: a study of what happens when agent-produced implementation becomes cheap while specification, validation, exception handling, and engineering judgment remain scarce.</span></li>
+  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2607.01102">SAGE: Structured Agentic Graph Editing for Software Diagrams</a></span><br><span class="venue">2026</span><br><span class="note">A worked example of the Modeling Principle: agents manipulate an explicit graph representation of a software diagram rather than treating the diagram as an opaque picture.</span></li>
+  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2506.01249">SysLLMatic: Large Language Models are Software System Optimizers</a></span><br><span class="venue">arXiv &middot; 2025</span><br><span class="note">A worked agentic system for optimizing real software, and an early demonstration of how capable models can cheaply search implementation alternatives while measurement remains external to the agent.</span></li>
+  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2512.21757">How Do Agents Perform Code Optimization? An Empirical Study</a></span><br><span class="venue">International Mining Software Repositories Confe &middot; 2026</span><br><span class="note">Studies how agents actually perform optimization, including the strategies and limitations that appear when they work against real software.</span></li>
+  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2603.14703">Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization</a></span><br><span class="venue">JAWs &middot; 2026</span><br><span class="note">Extends agentic optimization beyond isolated edits to system-level reasoning, where representation, coordination, and validation become increasingly consequential.</span></li>
+  <li><span class="pub-title"><a href="https://arxiv.org/pdf/2510.03495">AgentHub: A Registry for Discoverable, Verifiable, and Reproducible AI Agents</a></span><br><span class="venue">JAWs &middot; 2026</span><br><span class="note">Explores another recurring MAGE concern at ecosystem scale: making consequential properties explicit enough that agent artifacts can be discovered, verified, and reproduced.</span></li>
 </ul>
 
 ## Implications beyond conventional engineering
 
-The shift does not stop at the engineering team. Institutions that acquire software face the same imbalance: producing a capability has become cheaper, while deciding what to acquire, and on what evidence, has not. We are beginning to ask what the framework implies for the organisations that buy and field software rather than write it.
+MAGE's implications extend beyond the engineering team. Institutions that acquire software face the same changing economics: producing a capability has become cheaper, while deciding what to acquire, which obligations govern it, and what evidence justifies acceptance has not. We are beginning to study what this shift means for organisations that acquire and field software rather than build it themselves.
 
 <ul class="pub-list">
   <li><span class="pub-title"><a href="https://arxiv.org/pdf/2606.07393">Is US Defense Acquisition Ready to Acquire AI-Enabled Capabilities? Assessing the DoD Software Acquisition Pathway Through a Scenario-Based Policy Analysis</a></span><br><span class="venue">2026</span><br><span class="note">Asks what the DoD software acquisition pathway assumes about how software is produced, through a scenario-based policy analysis.</span></li>
