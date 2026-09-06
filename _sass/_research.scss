@@ -416,3 +416,22 @@
 /* The sidebar row is a list of icons; keep them from crowding once each one
    claims its full target box. */
 .author__urls li { margin-bottom: 0.15em; }
+
+/* Skip link (WCAG 2.4.1). Off-screen until focused rather than display:none,
+   which would take it out of the tab order and defeat the purpose. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 1000;
+  padding: 0.6em 1em;
+  background: #fff;
+  color: #7d6236;
+  border: 2px solid #8E6F3E;
+  font-weight: 600;
+  text-decoration: none;
+}
+.skip-link:focus {
+  left: 0.5rem;
+  top: 0.5rem;
+}

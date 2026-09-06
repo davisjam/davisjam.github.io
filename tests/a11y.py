@@ -7,7 +7,7 @@
 
 This site is subject to a legal accessibility obligation, so this is a gate,
 not an advisory. It runs the same engine and pinned version as the MAGE site
-(axe-core 4.12.1) against WCAG 2.0/2.1/2.2 A and AA.
+(axe-core 4.12.1) against WCAG 2.0/2.1/2.2 A and AA, plus best practice.
 
 WHY PLAYWRIGHT RATHER THAN SELENIUM. MAGE drives axe through
 @axe-core/webdriverjs + chromedriver. axe-core is engine-agnostic -- it is a
@@ -39,10 +39,16 @@ SITE = ROOT / "repos/davisjam.github.io"
 AXE = SITE / "node_modules/axe-core/axe.min.js"
 ORIGIN = "https://davisjam.github.io"
 
-# WCAG 2.0/2.1/2.2 A and AA. `best-practice` is deliberately excluded: it is
-# advice, not conformance, and mixing it in makes a legal-obligation gate
-# impossible to read.
-TAGS = ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"]
+# WCAG 2.0/2.1/2.2 A and AA, plus axe's best-practice set.
+#
+# best-practice was excluded at first on the argument that advice does not
+# belong in a conformance gate. That was the wrong call and James said so: the
+# bar is "accessible", not "provably not liable". best-practice is where
+# heading order, landmark structure, region coverage and duplicate-id checks
+# live -- the things that make a page navigable by screen reader rather than
+# merely conformant on paper. Impact is still reported per rule, so a
+# best-practice finding is visible as such and can be judged on its merits.
+TAGS = ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa", "best-practice"]
 
 VIEWPORTS = [("desktop", 1440, 900), ("mobile", 375, 812)]
 IMPACT_ORDER = {"critical": 0, "serious": 1, "moderate": 2, "minor": 3, None: 4}
@@ -120,7 +126,7 @@ def main(argv=None) -> int:
 
     total = sum(len(v) for v in findings.values())
     print(f"\n== axe-core {len(urls)} page(s) x {len(VIEWPORTS)} viewports "
-          f"[WCAG 2.0/2.1/2.2 A + AA] ==\n")
+          f"[WCAG 2.0/2.1/2.2 A + AA + best-practice] ==\n")
     if not findings:
         print("  no violations\n")
         return 0
