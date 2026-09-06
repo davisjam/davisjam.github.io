@@ -719,6 +719,28 @@ def self_sufficient(e: Engine, m) -> None:
                        f"ROOT / {lit!r} -- ROOT differs between layouts; "
                        f"use _sitepath.DATA or _sitepath.SITE")
 
+    # EVERY FILE A SHIPPED GENERATOR READS MUST SHIP WITH IT.
+    #
+    # The generators moved into _dev so the site could rebuild itself without
+    # davis-web. Their DATA did not entirely follow: abstracts.json,
+    # cv-extract.json, openalex-cache.json and patents-verification.md stayed
+    # behind, referenced by build_publications.py, enrich_openalex.py and
+    # fetch_abstracts.py. Nothing failed, because those are refresh tools rather
+    # than page builders and nobody had run them from here -- the breakage was
+    # scheduled for whenever davis-web was deleted and someone next needed to
+    # re-derive publications.
+    #
+    # Checked by reading the generators rather than by listing expected files:
+    # a hand-kept list is the thing that goes stale, and this is the same
+    # false-green shape as a check that scans nothing.
+    import re as _re
+    for gen in sorted((dev / "generators").glob("*.py")):
+        for m in _re.finditer(r'"([\w.-]+\.(?:json|yaml))"', gen.read_text()):
+            name = m.group(1)
+            if not list(dev.rglob(name)) and not list(SITE.glob(name)):
+                o.fail(f"_dev/generators/{gen.name} reads {name}, which is not "
+                       f"in the site -- it would break once davis-web is gone")
+
     for need in ("generators/_paths.py", "generators/generate_umbrella_pages.py",
                  "generators/generate_research_pages.py", "model/sites.yaml",
                  "figure-toolkit/check_figures.py", "README.md"):

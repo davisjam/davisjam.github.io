@@ -21,6 +21,7 @@ certificate store and fails CERTIFICATE_VERIFY_FAILED against HTTPS APIs.
 from __future__ import annotations
 
 import argparse
+import _paths
 import difflib
 import json
 import pathlib
@@ -29,9 +30,13 @@ import subprocess
 import sys
 import urllib.parse
 
-ROOT = ROOT = pathlib.Path(__file__).resolve().parent.parent
-EXTRACT = ROOT / "data/cv-extract.json"
-CACHE = ROOT / "data/openalex-cache.json"
+# Resolved for BOTH layouts -- these used ROOT plus a literal davis-web path,
+# so they ran only from the orchestrator and would break the moment the site
+# had to rebuild itself without it.
+DATA, SITE = _paths.DATA, _paths.SITE
+ROOT = SITE.parent          # message text only; no path is built from it
+EXTRACT = DATA / "cv-extract.json"
+CACHE = DATA / "openalex-cache.json"
 MAILTO = "davisjam@purdue.edu"          # polite pool: faster, higher rate limit
 
 # Types OpenAlex will not have, or where a match would be noise.

@@ -907,6 +907,7 @@ publications:
     title: "Software Supply Chains are Dead: Use-Case-Oriented Regeneration"
     venue: "Proceedings of the 20th International Symposium on Empirical Software Engineering and Measurement - Emerging Results, Vision, and Reflection Track (ESEM-ERVR)"
     year: 2026
+    paper_url: https://arxiv.org/pdf/2607.13021
     authors: "T. Singla and J.C. Davis"
     program_notes:
       mage: "Argues that when regeneration is cheap, reuse decisions change shape. The position that connects the supply-chain work to the agentic setting."

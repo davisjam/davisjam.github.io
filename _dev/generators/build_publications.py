@@ -22,14 +22,19 @@ Output:
 from __future__ import annotations
 
 import json
+import _paths
 import pathlib
 import re
 import sys
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
-PJ = ROOT / "repos/davisjam.github.io/markdown_generator/publications.json"
-CV = ROOT / "data/cv-extract.json"
-OUT = ROOT / "data/publications.yaml"
+# Resolved for BOTH layouts -- these used ROOT plus a literal davis-web path,
+# so they ran only from the orchestrator and would break the moment the site
+# had to rebuild itself without it.
+DATA, SITE = _paths.DATA, _paths.SITE
+ROOT = SITE.parent          # only for messages; no path is built from it
+PJ = SITE / "markdown_generator/publications.json"
+CV = DATA / "cv-extract.json"
+OUT = DATA / "publications.yaml"
 
 # --- program membership ------------------------------------------------------
 # Authoritative source: James's six-program directive (260904, second message),
@@ -173,7 +178,7 @@ def load_notes() -> dict:
     be able to lose them.
     """
     import yaml
-    f = ROOT / "data/program-notes.yaml"
+    f = DATA / "program-notes.yaml"
     if not f.exists():
         return {}
     raw = yaml.safe_load(f.read_text()).get("notes") or {}

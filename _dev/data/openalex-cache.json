@@ -1,0 +1,700 @@
+{
+ "B-1": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "B-2": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "C-1": {
+  "_match_score": 1.0,
+  "cited_by_count": 1,
+  "doi": "10.48550/arxiv.2605.10712",
+  "openalex_id": "https://openalex.org/W7160925737",
+  "venue_openalex": "arXiv (Cornell University)",
+  "year_openalex": 2026
+ },
+ "C-10": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "C-11": {
+  "_match_score": 1.0,
+  "cited_by_count": 0,
+  "doi": "10.48550/arxiv.2510.08580",
+  "oa_pdf": "https://arxiv.org/pdf/2510.08580",
+  "openalex_id": "https://openalex.org/W4417112975",
+  "venue_openalex": "arXiv (Cornell University)",
+  "year_openalex": 2025
+ },
+ "C-12": {
+  "_match_score": 1.0,
+  "cited_by_count": 3,
+  "doi": "10.1145/3719027.3765037",
+  "oa_pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3765037",
+  "openalex_id": "https://openalex.org/W4416549336",
+  "year_openalex": 2025
+ },
+ "C-13": {
+  "_match_score": 0.974,
+  "cited_by_count": 2,
+  "doi": "10.1109/icse55347.2025.00148",
+  "openalex_id": "https://openalex.org/W4411552436",
+  "year_openalex": 2025
+ },
+ "C-14": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "C-15": {
+  "_match_score": 0.897,
+  "cited_by_count": 0,
+  "doi": "10.48550/arxiv.2503.17588",
+  "oa_pdf": "https://arxiv.org/pdf/2503.17588",
+  "openalex_id": "https://openalex.org/W4415067721",
+  "venue_openalex": "arXiv (Cornell University)",
+  "year_openalex": 2025
+ },
+ "C-16": {
+  "_match_score": 1.0,
+  "cited_by_count": 1,
+  "doi": "10.48550/arxiv.2406.08198",
+  "oa_pdf": "https://arxiv.org/pdf/2406.08198",
+  "openalex_id": "https://openalex.org/W4399657483",
+  "venue_openalex": "arXiv (Cornell University)",
+  "year_openalex": 2024
+ },
+ "C-17": {
+  "_match_score": 1.0,
+  "cited_by_count": 4,
+  "doi": "10.1145/3728923",
+  "oa_pdf": "https://dl.acm.org/doi/pdf/10.1145/3728923",
+  "openalex_id": "https://openalex.org/W4411523106",
+  "venue_openalex": "Proceedings of the ACM on software engineering.",
+  "year_openalex": 2025
+ },
+ "C-18": {
+  "_match_score": 0.965,
+  "cited_by_count": 4,
+  "doi": "10.1145/3708821.3733912",
+  "openalex_id": "https://openalex.org/W4413176238",
+  "year_openalex": 2025
+ },
+ "C-19": {
+  "_match_score": 1.0,
+  "cited_by_count": 2,
+  "doi": "10.1109/wacv61041.2025.00695",
+  "openalex_id": "https://openalex.org/W4409262720",
+  "year_openalex": 2025
+ },
+ "C-2": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "C-20": {
+  "_match_score": 1.0,
+  "cited_by_count": 1,
+  "doi": "10.1109/wacv61041.2025.00767",
+  "openalex_id": "https://openalex.org/W4409262524",
+  "year_openalex": 2025
+ },
+ "C-21": {
+  "_match_score": 1.0,
+  "cited_by_count": 3,
+  "doi": "10.1145/3691620.3695022",
+  "openalex_id": "https://openalex.org/W4403536712",
+  "year_openalex": 2024
+ },
+ "C-22": {
+  "_match_score": 1.0,
+  "cited_by_count": 28,
+  "doi": "10.1145/3650212.3680374",
+  "openalex_id": "https://openalex.org/W4402457382",
+  "year_openalex": 2024
+ },
+ "C-23": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "C-24": {
+  "_match_score": 1.0,
+  "cited_by_count": 27,
+  "doi": "10.1145/3674805.3686692",
+  "openalex_id": "https://openalex.org/W4403413491",
+  "year_openalex": 2024
+ },
+ "C-25": {
+  "_match_score": 1.0,
+  "cited_by_count": 2,
+  "doi": "10.1145/3660770",
+  "openalex_id": "https://openalex.org/W4400582574",
+  "venue_openalex": "Proceedings of the ACM on software engineering.",
+  "year_openalex": 2024
+ },
+ "C-26": {
+  "_match_score": 1.0,
+  "cited_by_count": 8,
+  "doi": "10.1109/sp54263.2024.00215",
+  "openalex_id": "https://openalex.org/W4402264558",
+  "year_openalex": 2024
+ },
+ "C-27": {
+  "_match_score": 1.0,
+  "cited_by_count": 1,
+  "doi": "10.48550/arxiv.2402.12252",
+  "oa_pdf": "https://arxiv.org/pdf/2402.12252",
+  "openalex_id": "https://openalex.org/W4391988177",
+  "venue_openalex": "arXiv (Cornell University)",
+  "year_openalex": 2024
+ },
+ "C-28": {
+  "_match_score": 1.0,
+  "cited_by_count": 15,
+  "doi": "10.1145/3643991.3644907",
+  "openalex_id": "https://openalex.org/W4400266869",
+  "year_openalex": 2024
+ },
+ "C-29": {
+  "_match_score": 1.0,
+  "cited_by_count": 68,
+  "doi": "10.1109/icse48619.2023.00206",
+  "openalex_id": "https://openalex.org/W4384345640",
+  "year_openalex": 2023
+ },
+ "C-3": {
+  "_match_score": 1.0,
+  "cited_by_count": 0,
+  "doi": "10.5281/zenodo.17961619",
+  "openalex_id": "https://openalex.org/W7115950192",
+  "venue_openalex": "Zenodo (CERN European Organization for Nuclear Research)",
+  "year_openalex": 2025
+ },
+ "C-30": {
+  "_match_score": 1.0,
+  "cited_by_count": 11,
+  "doi": "10.1109/ase56229.2023.00095",
+  "openalex_id": "https://openalex.org/W4388502423",
+  "year_openalex": 2023
+ },
+ "C-31": {
+  "_match_score": 1.0,
+  "cited_by_count": 5,
+  "doi": "10.1109/sp46215.2023.10179442",
+  "openalex_id": "https://openalex.org/W4385080315",
+  "year_openalex": 2023
+ },
+ "C-32": {
+  "_match_score": 1.0,
+  "cited_by_count": 3,
+  "doi": "10.1145/3531437.3539723",
+  "openalex_id": "https://openalex.org/W4285676422",
+  "year_openalex": 2022
+ },
+ "C-33": {
+  "_match_score": 1.0,
+  "cited_by_count": 19,
+  "doi": "10.1145/3510003.3510047",
+  "oa_pdf": "https://dl.acm.org/doi/pdf/10.1145/3510003.3510047",
+  "openalex_id": "https://openalex.org/W4284670904",
+  "venue_openalex": "Proceedings of the 44th International Conference on Software Engineering",
+  "year_openalex": 2022
+ },
+ "C-34": {
+  "_match_score": 0.968,
+  "cited_by_count": 6,
+  "doi": "10.1109/saner53432.2022.00103",
+  "openalex_id": "https://openalex.org/W4286530341",
+  "venue_openalex": "2022 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+  "year_openalex": 2022
+ },
+ "C-35": {
+  "_status": "no-title"
+ },
+ "C-36": {
+  "_match_score": 1.0,
+  "cited_by_count": 23,
+  "doi": "10.1109/sp40001.2021.00032",
+  "openalex_id": "https://openalex.org/W3156862845",
+  "year_openalex": 2021
+ },
+ "C-37": {
+  "_match_score": 1.0,
+  "cited_by_count": 15,
+  "doi": "10.1145/3368089.3409670",
+  "openalex_id": "https://openalex.org/W3104260925",
+  "year_openalex": 2020
+ },
+ "C-38": {
+  "_match_score": 1.0,
+  "cited_by_count": 45,
+  "doi": "10.14778/3415478.3415556",
+  "openalex_id": "https://openalex.org/W3086791196",
+  "venue_openalex": "Proceedings of the VLDB Endowment",
+  "year_openalex": 2020
+ },
+ "C-39": {
+  "_match_score": 1.0,
+  "cited_by_count": 19,
+  "doi": "10.1109/ase.2019.00048",
+  "openalex_id": "https://openalex.org/W3000250989",
+  "year_openalex": 2019
+ },
+ "C-4": {
+  "_match_score": 1.0,
+  "cited_by_count": 0,
+  "oa_pdf": "https://arxiv.org/pdf/2602.21459",
+  "openalex_id": "https://openalex.org/W7131731727",
+  "venue_openalex": "arXiv (Cornell University)",
+  "year_openalex": 2026
+ },
+ "C-40": {
+  "_match_score": 1.0,
+  "cited_by_count": 61,
+  "doi": "10.1109/ase.2019.00047",
+  "openalex_id": "https://openalex.org/W2999135213",
+  "year_openalex": 2019
+ },
+ "C-41": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "C-42": {
+  "_match_score": 1.0,
+  "cited_by_count": 1,
+  "doi": "10.1007/978-3-030-33702-5_1",
+  "oa_pdf": "https://arxiv.org/pdf/1907.13012",
+  "openalex_id": "https://openalex.org/W2966311618",
+  "venue_openalex": "Lecture notes in computer science",
+  "year_openalex": 2019
+ },
+ "C-43": {
+  "_match_score": 1.0,
+  "cited_by_count": 31,
+  "openalex_id": "https://openalex.org/W2960347246",
+  "venue_openalex": "USENIX Annual Technical Conference",
+  "year_openalex": 2019
+ },
+ "C-44": {
+  "_match_score": 1.0,
+  "cited_by_count": 100,
+  "doi": "10.1145/3236024.3236027",
+  "oa_pdf": "https://dl.acm.org/doi/pdf/10.1145/3236024.3236027",
+  "openalex_id": "https://openalex.org/W2899462170",
+  "year_openalex": 2018
+ },
+ "C-45": {
+  "_match_score": 1.0,
+  "cited_by_count": 26,
+  "openalex_id": "https://openalex.org/W2889480272",
+  "venue_openalex": "USENIX Security Symposium",
+  "year_openalex": 2018
+ },
+ "C-46": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "C-5": {
+  "_match_score": 1.0,
+  "cited_by_count": 0,
+  "oa_pdf": "https://arxiv.org/pdf/2511.18105",
+  "openalex_id": "https://openalex.org/W7106783115",
+  "venue_openalex": "arXiv (Cornell University)",
+  "year_openalex": 2025
+ },
+ "C-6": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "C-7": {
+  "_match_score": 1.0,
+  "cited_by_count": 3,
+  "doi": "10.1145/3774904.3792467",
+  "openalex_id": "https://openalex.org/W4416679398",
+  "year_openalex": 2026
+ },
+ "C-8": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "C-9": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "J-1": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "J-10": {
+  "_match_score": 1.0,
+  "cited_by_count": 23,
+  "doi": "10.1016/j.jss.2021.110905",
+  "oa_pdf": "https://www.sciencedirect.com/science/article/am/pii/S0164121221000029?via%3Dihub",
+  "openalex_id": "https://openalex.org/W3120235480",
+  "venue_openalex": "Journal of Systems and Software",
+  "year_openalex": 2021
+ },
+ "J-11": {
+  "_match_score": 1.0,
+  "cited_by_count": 4,
+  "doi": "10.23860/jiee.02.01.01",
+  "openalex_id": "https://openalex.org/W3092298359",
+  "venue_openalex": "Journal of international engineering education.",
+  "year_openalex": 2020
+ },
+ "J-2": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "J-3": {
+  "_match_score": 1.0,
+  "cited_by_count": 1,
+  "doi": "10.2139/ssrn.5592427",
+  "openalex_id": "https://openalex.org/W4415079047",
+  "venue_openalex": "SSRN Electronic Journal",
+  "year_openalex": 2025
+ },
+ "J-4": {
+  "_match_score": 1.0,
+  "cited_by_count": 0,
+  "doi": "10.1007/s10664-025-10711-4",
+  "oa_pdf": "https://link.springer.com/content/pdf/10.1007/s10664-025-10711-4.pdf",
+  "openalex_id": "https://openalex.org/W4413441951",
+  "venue_openalex": "Empirical Software Engineering",
+  "year_openalex": 2025
+ },
+ "J-5": {
+  "_match_score": 1.0,
+  "cited_by_count": 3,
+  "doi": "10.1016/j.jss.2024.112322",
+  "openalex_id": "https://openalex.org/W4406410917",
+  "venue_openalex": "Journal of Systems and Software",
+  "year_openalex": 2025
+ },
+ "J-6": {
+  "_match_score": 1.0,
+  "cited_by_count": 2,
+  "doi": "10.1080/03043797.2024.2434168",
+  "openalex_id": "https://openalex.org/W4405120511",
+  "venue_openalex": "European Journal of Engineering Education",
+  "year_openalex": 2024
+ },
+ "J-7": {
+  "_match_score": 1.0,
+  "cited_by_count": 20,
+  "doi": "10.1007/s10664-024-10521-0",
+  "oa_pdf": "https://link.springer.com/content/pdf/10.1007/s10664-024-10521-0.pdf",
+  "openalex_id": "https://openalex.org/W4401981660",
+  "venue_openalex": "Empirical Software Engineering",
+  "year_openalex": 2024
+ },
+ "J-8": {
+  "_status": "no-title"
+ },
+ "J-9": {
+  "_match_score": 1.0,
+  "cited_by_count": 47,
+  "doi": "10.1007/s10664-021-10083-5",
+  "openalex_id": "https://openalex.org/W3206481103",
+  "venue_openalex": "Florence Research (University of Florence)",
+  "year_openalex": 2022
+ },
+ "M-1": {
+  "_match_score": 1.0,
+  "cited_by_count": 0,
+  "doi": "10.48550/arxiv.2407.03949",
+  "oa_pdf": "https://arxiv.org/pdf/2407.03949",
+  "openalex_id": "https://openalex.org/W4400434217",
+  "venue_openalex": "arXiv (Cornell University)",
+  "year_openalex": 2024
+ },
+ "M-2": {
+  "_match_score": 1.0,
+  "cited_by_count": 2,
+  "doi": "10.1109/mc.2023.3250246",
+  "openalex_id": "https://openalex.org/W4385525170",
+  "venue_openalex": "Computer",
+  "year_openalex": 2023
+ },
+ "M-3": {
+  "_match_score": 1.0,
+  "cited_by_count": 2,
+  "doi": "10.1109/mdat.2022.3217016",
+  "openalex_id": "https://openalex.org/W4312306950",
+  "venue_openalex": "IEEE Design and Test",
+  "year_openalex": 2022
+ },
+ "R-1": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "R-2": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "R-3": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "R-4": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "R-5": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "R-6": {
+  "_match_score": 1.0,
+  "cited_by_count": 1,
+  "doi": "10.48550/arxiv.2410.09241",
+  "oa_pdf": "https://arxiv.org/pdf/2410.09241",
+  "openalex_id": "https://openalex.org/W4403564506",
+  "venue_openalex": "arXiv (Cornell University)",
+  "year_openalex": 2024
+ },
+ "R-7": {
+  "_match_score": 1.0,
+  "cited_by_count": 0,
+  "doi": "10.48550/arxiv.2404.18801",
+  "oa_pdf": "https://arxiv.org/pdf/2404.18801",
+  "openalex_id": "https://openalex.org/W4396570276",
+  "venue_openalex": "arXiv (Cornell University)",
+  "year_openalex": 2024
+ },
+ "R-8": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "W-1": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "W-10": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "W-11": {
+  "_match_score": 1.0,
+  "cited_by_count": 2,
+  "doi": "10.1109/icse-nier66352.2025.00013",
+  "openalex_id": "https://openalex.org/W4411173024",
+  "year_openalex": 2025
+ },
+ "W-12": {
+  "_match_score": 1.0,
+  "cited_by_count": 1,
+  "doi": "10.1109/icse-nier66352.2025.00031",
+  "openalex_id": "https://openalex.org/W4411173710",
+  "year_openalex": 2025
+ },
+ "W-13": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "W-14": {
+  "_match_score": 1.0,
+  "cited_by_count": 9,
+  "doi": "10.18260/1-2--46557",
+  "oa_pdf": "https://peer.asee.org/46557.pdf",
+  "openalex_id": "https://openalex.org/W4401286478",
+  "year_openalex": 2024
+ },
+ "W-15": {
+  "_match_score": 1.0,
+  "cited_by_count": 22,
+  "doi": "10.1109/jva60410.2023.00015",
+  "openalex_id": "https://openalex.org/W4390874818",
+  "year_openalex": 2023
+ },
+ "W-16": {
+  "_match_score": 1.0,
+  "cited_by_count": 5,
+  "doi": "10.1109/dsn-s58398.2023.00031",
+  "openalex_id": "https://openalex.org/W4385730945",
+  "year_openalex": 2023
+ },
+ "W-17": {
+  "_match_score": 1.0,
+  "cited_by_count": 9,
+  "doi": "10.1145/3589610.3596271",
+  "oa_pdf": "https://dl.acm.org/doi/pdf/10.1145/3589610.3596271",
+  "openalex_id": "https://openalex.org/W4380489032",
+  "year_openalex": 2023
+ },
+ "W-18": {
+  "_match_score": 1.0,
+  "cited_by_count": 1,
+  "doi": "10.1145/3611643.3613075",
+  "oa_pdf": "https://dl.acm.org/doi/pdf/10.1145/3611643.3613075",
+  "openalex_id": "https://openalex.org/W4389158812",
+  "year_openalex": 2023
+ },
+ "W-19": {
+  "_match_score": 1.0,
+  "cited_by_count": 15,
+  "doi": "10.1109/msr59073.2023.00021",
+  "openalex_id": "https://openalex.org/W4384009684",
+  "year_openalex": 2023
+ },
+ "W-2": {
+  "_match_score": 1.0,
+  "cited_by_count": 0,
+  "oa_pdf": "https://arxiv.org/pdf/2607.13021",
+  "openalex_id": "https://openalex.org/W7169473642",
+  "venue_openalex": "arXiv (Cornell University)",
+  "year_openalex": 2026
+ },
+ "W-20": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "W-21": {
+  "_match_score": 1.0,
+  "cited_by_count": 6,
+  "doi": "10.1109/serp4iot59158.2023.00011",
+  "openalex_id": "https://openalex.org/W4385301055",
+  "year_openalex": 2023
+ },
+ "W-22": {
+  "_match_score": 0.947,
+  "cited_by_count": 33,
+  "doi": "10.1145/3560835.3564547",
+  "oa_pdf": "https://dl.acm.org/doi/pdf/10.1145/3560835.3564547",
+  "openalex_id": "https://openalex.org/W4308562533",
+  "year_openalex": 2022
+ },
+ "W-23": {
+  "_match_score": 0.994,
+  "cited_by_count": 21,
+  "doi": "10.1109/asp-dac52403.2022.9712574",
+  "openalex_id": "https://openalex.org/W3204336764",
+  "venue_openalex": "2022 27th Asia and South Pacific Design Automation Conference (ASP-DAC)",
+  "year_openalex": 2022
+ },
+ "W-24": {
+  "_match_score": 1.0,
+  "cited_by_count": 20,
+  "doi": "10.1145/3551349.3559545",
+  "oa_pdf": "https://dl.acm.org/doi/pdf/10.1145/3551349.3559545",
+  "openalex_id": "https://openalex.org/W4283720448",
+  "year_openalex": 2022
+ },
+ "W-25": {
+  "_match_score": 1.0,
+  "cited_by_count": 10,
+  "doi": "10.1145/3540250.3560881",
+  "oa_pdf": "https://dl.acm.org/doi/pdf/10.1145/3540250.3560881",
+  "openalex_id": "https://openalex.org/W4308731250",
+  "venue_openalex": "Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
+  "year_openalex": 2022
+ },
+ "W-26": {
+  "_match_score": 1.0,
+  "cited_by_count": 14,
+  "doi": "10.1145/3540250.3560879",
+  "oa_pdf": "https://dl.acm.org/doi/pdf/10.1145/3540250.3560879",
+  "openalex_id": "https://openalex.org/W4297676335",
+  "venue_openalex": "Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
+  "year_openalex": 2022
+ },
+ "W-27": {
+  "_match_score": 1.0,
+  "cited_by_count": 47,
+  "doi": "10.1145/3560835.3564556",
+  "oa_pdf": "https://dl.acm.org/doi/pdf/10.1145/3560835.3564556",
+  "openalex_id": "https://openalex.org/W4308562555",
+  "year_openalex": 2022
+ },
+ "W-28": {
+  "_match_score": 1.0,
+  "cited_by_count": 4,
+  "doi": "10.1145/3551349.3559517",
+  "oa_pdf": "https://dl.acm.org/doi/pdf/10.1145/3551349.3559517",
+  "openalex_id": "https://openalex.org/W4313563559",
+  "year_openalex": 2022
+ },
+ "W-29": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "W-3": {
+  "_match_score": 1.0,
+  "cited_by_count": 0,
+  "doi": "10.1145/3803437.3805205",
+  "openalex_id": "https://openalex.org/W7169588553",
+  "year_openalex": 2026
+ },
+ "W-30": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "W-31": {
+  "_match_score": 1.0,
+  "cited_by_count": 3,
+  "doi": "10.1109/di-cps56137.2022.00008",
+  "openalex_id": "https://openalex.org/W4283640975",
+  "year_openalex": 2022
+ },
+ "W-32": {
+  "_match_score": 1.0,
+  "cited_by_count": 5,
+  "doi": "10.1145/3468264.3477221",
+  "oa_pdf": "https://dl.acm.org/doi/pdf/10.1145/3468264.3477221",
+  "openalex_id": "https://openalex.org/W3194657474",
+  "year_openalex": 2021
+ },
+ "W-33": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "W-34": {
+  "_match_score": 1.0,
+  "cited_by_count": 17,
+  "doi": "10.1145/3338906.3342509",
+  "openalex_id": "https://openalex.org/W2968966662",
+  "year_openalex": 2019
+ },
+ "W-35": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "W-36": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "W-4": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "W-5": {
+  "_match_score": 1.0,
+  "cited_by_count": 0,
+  "doi": "10.48550/arxiv.2510.03495",
+  "oa_pdf": "https://arxiv.org/pdf/2510.03495",
+  "openalex_id": "https://openalex.org/W4414969203",
+  "venue_openalex": "arXiv (Cornell University)",
+  "year_openalex": 2025
+ },
+ "W-6": {
+  "_match_score": 1.0,
+  "cited_by_count": 0,
+  "doi": "10.48550/arxiv.2505.18760",
+  "oa_pdf": "https://arxiv.org/pdf/2505.18760",
+  "openalex_id": "https://openalex.org/W4414581667",
+  "venue_openalex": "arXiv (Cornell University)",
+  "year_openalex": 2025
+ },
+ "W-7": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "W-8": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ },
+ "W-9": {
+  "_best_score": 0.0,
+  "_status": "no-match"
+ }
+}

@@ -1,0 +1,2643 @@
+{
+ "C-1": {
+  "raw": "P.C. Amusuo, R. Calvo, D. Anandayuvaraj, T. Le Lievre, K. Kolyakov, E. Jorgensen, A. Machiry, and J.C. Davis. AutoSOUP: Safety-Oriented Unit Proof Generation for Component-level Memory-Safety Verification. Proceedings of the 33rd ACM Conference on Computer and Communications Security (CCS’26). 15 pages.",
+  "authors": "P.C. Amusuo, R. Calvo, D. Anandayuvaraj, T. Le Lievre, K. Kolyakov, E. Jorgensen, A. Machiry, and J.C. Davis",
+  "title": "AutoSOUP: Safety-Oriented Unit Proof Generation for Component-level Memory-Safety Verification",
+  "pj": null
+ },
+ "C-2": {
+  "raw": "C. Okafor, J.C. Davis, and S. Torres-Arias. Context-Aware Trust Verification for Identity-Based Software Signing. Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE’26). 21.2% acceptance rate (265/1,236). 13 pages.",
+  "authors": "C. Okafor, J.C. Davis, and S. Torres-Arias",
+  "title": "Context-Aware Trust Verification for Identity-Based Software Signing",
+  "pj": null
+ },
+ "C-3": {
+  "raw": "K.G. Kalu, S. Okorafor, T. Singla, S. Chen, S. Torres-Arias, and J.C. Davis. Why Johnny Adopts Identity-Based Software Signing: A Usability Case Study of Sigstore. Proceedings of the 35th USENIX Security Symposium (USENIX Security’26). 13.2% acceptance rate (364/2,754). 20 pages.",
+  "authors": "K.G. Kalu, S. Okorafor, T. Singla, S. Chen, S. Torres-Arias, and J.C. Davis",
+  "title": "Why Johnny Adopts Identity-Based Software Signing: A Usability Case Study of Sigstore",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Kalu",
+    "Okorafor",
+    "Singla",
+    "Chen",
+    "Torres-Arias",
+    "**Davis**"
+   ],
+   "title": "Why Johnny Adopts Identity-Based Software Signing: A Usability Case Study of Sigstore",
+   "venue": "Proceedings of the 35th USENIX Security Symposium (SECURITY)",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2503.00271",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "C-4": {
+  "raw": "Y. Liu, B. Çakar, A. Agrawal, M. Seo, J.C. Davis, and Dongyoon Lee. Regular Expression Denial of Service Induced by Backreferences. Proceedings of the 35th USENIX Security Symposium (USENIX Security’26). 13.2% acceptance rate (364/2,754). 20 pages.",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "arxiv",
+   "authors": [
+    "Liu",
+    "Çakar",
+    "Agarwal",
+    "Seo",
+    "**Davis**",
+    "Lee"
+   ],
+   "title": "Regular Expression Denial of Service Induced by Backreferences",
+   "venue": "arXiv",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2602.21459",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "C-5": {
+  "raw": "P. Jajal, N.J. Eliopoulos, B.S.H. Chou, G.K. Thiruvathukal, Y.H. Lu, and J.C. Davis. AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens. The IEEE/CVF Conference on Computer Vision and Pattern Recognition — Findings Track (2026). 35.3% acceptance rate ((4,090+1,600)/16,092). 11 pages.",
+  "authors": "P. Jajal, N.J. Eliopoulos, B.S.H. Chou, G.K. Thiruvathukal, Y.H. Lu, and J.C. Davis",
+  "title": "AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Jajal",
+    "Eliopoulos",
+    "Chou",
+    "Thiruvathukal",
+    "Lu",
+    "**Davis**"
+   ],
+   "title": "AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens",
+   "venue": "The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 -- Findings Track (CVPR-Findings)",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2511.18105",
+   "artifactURL": "https://github.com/pjjajal/adaperceiver-public",
+   "videoURL": ""
+  }
+ },
+ "C-6": {
+  "raw": "P. Jajal*, N. Eliopoulos*, B.S.H. Chou, G.K. Thiruvathukal, J.C. Davis, and Y.H. Lu. Inference-Time Alignment of Diffusion Models with Evolutionary Algorithms. The IEEE/CVF Conference on Computer Vision and Pattern Recognition — Findings Track (2026). 35.3% acceptance rate ((4,090+1,600)/16,092). 12 pages.",
+  "authors": "P. Jajal*, N. Eliopoulos*, B.S.H. Chou, G.K. Thiruvathukal, J.C. Davis, and Y.H. Lu",
+  "title": "Inference-Time Alignment of Diffusion Models with Evolutionary Algorithms",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Jajal",
+    "Eliopoulos",
+    "Chou",
+    "Thiruvathukal",
+    "**Davis**",
+    "Lu"
+   ],
+   "title": "Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms",
+   "venue": "The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 -- Findings Track (CVPR-Findings)",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2506.00299",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "C-7": {
+  "raw": "A. Rozema and J.C. Davis. Anti-Phishing Training (Still) Does Not Work: A Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale. Proceedings of the ACM Web Conference 2026 (WWW’26). 20.1% acceptance rate (676/3,370). 12 pages.",
+  "authors": "A. Rozema and J.C. Davis",
+  "title": "Anti-Phishing Training (Still) Does Not Work: A Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Rozema",
+    "**Davis**"
+   ],
+   "title": "Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale",
+   "venue": "Proceedings of the ACM Web Conference (WWW)",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2506.19899",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": "https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395"
+  }
+ },
+ "C-8": {
+  "raw": "W. Jiang, B. Çakar, M. Lysenko, and J.C. Davis. ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale. Proceedings of the 48th International Conference on Software Engineering (ICSE’26). 21.8% acceptance rate (321/1,469). 13 pages. 2 Here and elsewhere, my research mentees are underlined. These are students whose work I supervised during the research project. My name is given in bold. In these publication venues, the final author (“anchor author”) provides the primary intellectual supervision of the work. 3 In my research areas, top-tier conferences are the most prestigious venues for publication, with some journals considered comparable. The ICORE rankings are an international ranking system of conferences in which A* venues are “best” and A venues are “reputable” venues; for either category, the peer reviewers are recognized experts in the field. Acceptance rates of ∼10–25% across 100+ submissions are a good indicator of conference quality. Page 6/23",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Jiang",
+    "Cakar",
+    "Lysenko",
+    "**Davis**"
+   ],
+   "title": "ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale",
+   "venue": "Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE)",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2502.20528",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "C-9": {
+  "raw": "D. Anandayuvaraj, T. Singla, Z. Hammadeh, A. Lund, A. Holloway, and J.C. Davis. Learning From Software Failures: A Case Study at a National Space Research Center. Proceedings of the 48th International Conference on Software Engineering (ICSE’26). 21.8% acceptance rate (321/1,469). 13 pages.",
+  "authors": "D. Anandayuvaraj, T. Singla, Z. Hammadeh, A. Lund, A. Holloway, and J.C. Davis",
+  "title": "Learning From Software Failures: A Case Study at a National Space Research Center",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Anandayuvaraj",
+    "Singla",
+    "Hammadeh",
+    "Lund",
+    "Holloway",
+    "**Davis**"
+   ],
+   "title": "Learning From Software Failures: A Case Study at a National Space Research Center",
+   "venue": "Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE)",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2509.06301",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "C-10": {
+  "raw": "P.C. Amusuo, O. Cochell, T. Le Lievre, P.V. Patil, A. Machiry, and J.C. Davis. Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification. Proceedings of the 48th International Conference on Software Engineering (ICSE’26). 21.8% acceptance rate (321/1,469). 13 pages.",
+  "authors": "P.C. Amusuo, O. Cochell, T. Le Lievre, P.V. Patil, A. Machiry, and J.C. Davis",
+  "title": "Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Amusuo",
+    "Cochell",
+    "Le Lievre",
+    "Patil",
+    "Machiry",
+    "**Davis**"
+   ],
+   "title": "Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification",
+   "venue": "Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE)",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2503.13762",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "C-11": {
+  "raw": "B.S.H. Chou, P. Jajal, N.J. Eliopoulos, J.C. Davis, G.K. Thiruvathukal, K.Y.J. Yun, and Y.H. Lu. LadderSym: A Multimodal Interleaved Transformer for Music Practice Error Detection. Proceedings of the Fourteenth International Conference on Learning Representations (ICLR’26). 28% acceptance rate (5,000/18,000). 22 pages.",
+  "authors": "B.S.H. Chou, P. Jajal, N.J. Eliopoulos, J.C. Davis, G.K. Thiruvathukal, K.Y.J. Yun, and Y.H. Lu",
+  "title": "LadderSym: A Multimodal Interleaved Transformer for Music Practice Error Detection",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Chou",
+    "Jajal",
+    "Eliopoulos",
+    "**Davis**",
+    "Thiruvathukal",
+    "Yun",
+    "Lu"
+   ],
+   "title": "LadderSym: A Multimodal Interleaved Transformer for Music Practice Error Detection",
+   "venue": "Proceedings of the International Conference on Learning Representations (ICLR)",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2510.08580",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "C-12": {
+  "raw": "A. Kellas, N. Christou, W. Jiang, P. Li, L. Simon, Y. David, V. Kemerlis, J.C. Davis, and J. Yang. PickleBall: Secure Deserialization of Pickle-based Machine Learning Models. Proceedings of the 32nd ACM Conference on Computer and Communications Security (CCS’25). 13.9% acceptance rate (316/2,278). 16 pages. Best Artifact Award.",
+  "authors": "A. Kellas, N. Christou, W. Jiang, P. Li, L. Simon, Y. David, V. Kemerlis, J.C. Davis, and J. Yang",
+  "title": "PickleBall: Secure Deserialization of Pickle-based Machine Learning Models",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Kellas",
+    "Christou",
+    "Jiang",
+    "Li",
+    "Simon",
+    "David",
+    "Kemerlis",
+    "**Davis**",
+    "Yang"
+   ],
+   "title": "PickleBall: Secure Deserialization of Pickle-based Machine Learning Models",
+   "venue": "Proceedings of the 32nd ACM Conference on Computer and Communications Security (CCS)",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2508.15987",
+   "slidesBasename": "KellasChristouJiangLiSimonDavidKemerlisDavisYang-PickleBall-CCS2025-slides.pptx",
+   "artifactURL": "https://zenodo.org/records/16974645",
+   "videoURL": "",
+   "blogURL": "https://davisjam.medium.com/pickleball-secure-deserialization-of-pickle-based-machine-learning-models-a089113e6b0f",
+   "bestArtifactAward": true
+  }
+ },
+ "C-13": {
+  "raw": "P.C. Amusuo, K.A. Robinson, T. Singla, H. Peng, A. Machiry, S. Torres-Arias, L. Simon, and J.C. Davis. ZTDJAV A : Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies. Proceedings of the 47th International Conference on Software Engineering (ICSE’25). 24% acceptance rate (248/1031). 13 pages.",
+  "authors": "P.C. Amusuo, K.A. Robinson, T. Singla, H. Peng, A. Machiry, S. Torres-Arias, L. Simon, and J.C. Davis",
+  "title": "ZTDJAV A : Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Amusuo",
+    "Robinson",
+    "Singla",
+    "Peng",
+    "Machiry",
+    "Torres-Arias",
+    "Simon",
+    "**Davis**"
+   ],
+   "title": "ZTD-JAVA: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies",
+   "venue": "Proceedings of the ACM/IEEE 47th International Conference on Software Engineering (ICSE)",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2310.14117",
+   "slidesBasename": "AmusuoRobinsonSinglaPengMachiryTorresAriasSimonDavis-ZeroTrustDependencies-ICSE2025-slides.pptx",
+   "artifactURL": "https://doi.org/10.5281/zenodo.14436182",
+   "videoURL": "",
+   "blogURL": "https://davisjam.medium.com/mitigating-software-supply-chain-vulnerabilities-with-zero-trust-dependencies-06f950497cfe"
+  }
+ },
+ "C-14": {
+  "raw": "B.S.H. Chou, P. Jajal, N.J. Eliopoulos, T. Nadolsky, C.Y. Yang, N. Ravi, J.C. Davis, K.Y.J. Yun, and Y.H. Lu. A Musician’s Muse: Detecting Performance Errors with Transformers. Proceedings of the 39th Annual AAAI Conference on Artificial Intelligence (AAAI’25). 23% acceptance rate (3,032/12,957). 11 pages.",
+  "authors": "B.S.H. Chou, P. Jajal, N.J. Eliopoulos, T. Nadolsky, C.Y. Yang, N. Ravi, J.C. Davis, K.Y.J. Yun, and Y.H. Lu",
+  "title": "A Musician’s Muse: Detecting Performance Errors with Transformers",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Chou",
+    "Jajal",
+    "Eliopoulos",
+    "Nadolsky",
+    "Yang",
+    "Ravi",
+    "**Davis**",
+    "Yun",
+    "Lu"
+   ],
+   "title": "Detecting Music Performance Errors with Transformers",
+   "venue": "Proceedings of the 39th Annual AAAI Conference on Artificial Intelligence (AAAI)",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2501.02030",
+   "slidesBasename": "",
+   "artifactURL": "https://github.com/ben2002chou/Polytune",
+   "videoURL": ""
+  }
+ },
+ "C-15": {
+  "raw": "S.R. Tanksalkar, S. Muralee, D.M.S.H. Danduri, P. Amusuo, A. Bianchi, J.C. Davis, and A. Machiry. LEMIX: Enabling Testing of Embedded Applications as Linux Applications. Proceedings of the 34th USENIX Security Symposium (USENIX Security’25). 17.1% acceptance rate (407/2,385). 30 pages.",
+  "authors": "S.R. Tanksalkar, S. Muralee, D.M.S.H. Danduri, P. Amusuo, A. Bianchi, J.C. Davis, and A. Machiry",
+  "title": "LEMIX: Enabling Testing of Embedded Applications as Linux Applications",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Tanksalkar",
+    "Muralee",
+    "Danduri",
+    "Amusuo",
+    "Bianchi",
+    "**Davis**",
+    "Machiry"
+   ],
+   "title": "LEMIX: Enabling Testing of Embedded Applications as Linux Applications",
+   "venue": "Proceedings of the 34th USENIX Security Symposium (SECURITY)",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2503.17588",
+   "slidesBasename": "Tanksalkar-LEMIX-USENIX25-slides.pptx",
+   "artifactURL": "https://zenodo.org/records/15611391",
+   "blogURL": "https://davisjam.medium.com/lemix-enabling-testing-of-embedded-applications-as-linux-applications-895f85131cd8",
+   "videoURL": ""
+  }
+ },
+ "C-16": {
+  "raw": "K. Kalu, T. Singla, C. Okafor, S. Torres-Arias, and J.C. Davis. An Industry Interview Study of Software Signing for Supply Chain Security. Proceedings of the 34th USENIX Security Symposium (USENIX Security’25). 17.1% acceptance rate (407/2,385). 18 pages.",
+  "authors": "K. Kalu, T. Singla, C. Okafor, S. Torres-Arias, and J.C. Davis",
+  "title": "An Industry Interview Study of Software Signing for Supply Chain Security",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Kalu",
+    "Singla",
+    "Okafor",
+    "Torres-Arias",
+    "**Davis**"
+   ],
+   "title": "An Industry Interview Study of Software Signing for Supply Chain Security",
+   "venue": "Proceedings of the 34th USENIX Security Symposium (SECURITY)",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2406.08198",
+   "slidesBasename": "Kalu-SigningInterviewStudy-USENIXSecurity25-slides.pptx",
+   "artifactURL": "https://zenodo.org/records/14766721",
+   "videoURL": "",
+   "blogURL": "https://davisjam.medium.com/an-industry-interview-study-of-software-signing-for-supply-chain-security-8666d27539f8"
+  }
+ },
+ "C-17": {
+  "raw": "M. Shen, A. Pillai, B.A. Yuan, J.C. Davis, and A. Machiry. Finding 709 Defects in 258 Projects: An Experience Report on Applying CodeQL to Open-Source Embedded Software (Experience Paper). Proceedings of the 34th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA’25). 21% acceptance rate (115/553). 22 pages.",
+  "authors": "M. Shen, A. Pillai, B.A. Yuan, J.C. Davis, and A. Machiry",
+  "title": "Finding 709 Defects in 258 Projects: An Experience Report on Applying CodeQL to Open-Source Embedded Software (Experience Paper)",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Shen",
+    "Yuan",
+    "Pillai",
+    "Zhang",
+    "**Davis**",
+    "Machiry"
+   ],
+   "title": "Usage and Effectiveness of Static Analysis in Open-Source Embedded Software: CodeQL Finds Hundreds of Defects",
+   "venue": "Proceedings of the 34th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2310.00205",
+   "slidesBasename": "",
+   "artifactURL": "https://github.com/purs3lab/ISSTA-2025-EMBOSS-Artifact",
+   "videoURL": ""
+  }
+ },
+ "C-18": {
+  "raw": "M.H.M. Bhuiyan*, B. Çakar*, E. Burmane, J.C. Davis, and C.A. Staicu. SoK: A Literature and Engineering Review of Regular Expression Denial of Service. Proceedings of the 20th ACM ASIA Conference on Computer and Communications Security (AsiaCCS) Cycle 2 (AsiaCCS’25). 20% acceptance rate (53/269). 22 pages.",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Bhuiyan",
+    "Cakar",
+    "Burmane",
+    "**Davis**",
+    "Staicu"
+   ],
+   "title": "SoK: A Literature and Engineering Review of Regular Expression Denial of Service",
+   "venue": "Proceedings of the 20th ACM ASIA Conference on Computer and Communications Security (AsiaCCS)",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2406.11618",
+   "slidesBasename": "BhuiyanCakarBurmaneDavisStaicu-SoK-ReDoS-AsiaCCS2025-slides.pptx",
+   "artifactURL": "https://zenodo.org/records/15515223",
+   "videoURL": "",
+   "blogURL": "https://davisjam.medium.com/sok-a-literature-and-engineering-review-of-regular-expression-denial-of-service-redos-e6b10ef547c7"
+  }
+ },
+ "C-19": {
+  "raw": "N. Eliopoulos, P. Jajal, J.C. Davis, G. Liu, G.K. Thiruvathukal, and Y.H. Lu. Pruning One More Token is Enough: Leveraging Latency-Workload Non-Linearities for Vision Transformers on the Edge. Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV’25). 37.8% acceptance rate (930/2,458). 12 pages. Page 7/23",
+  "authors": "N. Eliopoulos, P. Jajal, J.C. Davis, G. Liu, G.K. Thiruvathukal, and Y.H. Lu",
+  "title": "Pruning One More Token is Enough: Leveraging Latency-Workload Non-Linearities for Vision Transformers on the Edge",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Eliopoulos",
+    "Jajal",
+    "**Davis**",
+    "Liu",
+    "Thiruvathukal",
+    "Lu"
+   ],
+   "title": "Pruning One More Token is Enough: Leveraging Latency-Workload Non-Linearities for Vision Transformers on the Edge",
+   "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2407.05941",
+   "slidesBasename": "Eliopoulos-WACV2025-poster.pdf",
+   "artifactURL": "https://zenodo.org/records/14160539",
+   "videoURL": "",
+   "blogURL": "https://davisjam.medium.com/pruning-one-more-token-is-enough-9bef04dc799b"
+  }
+ },
+ "C-20": {
+  "raw": "P. Jajal, N. Eliopoulos, B. Chou, G.K. Thiruvathukal, J.C. Davis, and Y.H. Lu. Token Turing Machines are Efficient Vision Models. Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV’25). 37.8% acceptance rate (930/2,458). 12 pages.",
+  "authors": "P. Jajal, N. Eliopoulos, B. Chou, G.K. Thiruvathukal, J.C. Davis, and Y.H. Lu",
+  "title": "Token Turing Machines are Efficient Vision Models",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Jajal",
+    "Eliopoulos",
+    "Chou",
+    "Thiruvathukal",
+    "**Davis**",
+    "Lu"
+   ],
+   "title": "Token Turing Machines are Efficient Vision Models",
+   "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2409.07613",
+   "slidesBasename": "Jajal-WACV2025-poster.pdf",
+   "artifactURL": "https://github.com/pjjajal/EfficientTTMs",
+   "videoURL": ""
+  }
+ },
+ "C-21": {
+  "raw": "D. Anandayuvaraj, M. Campbell, A. Tewari, and J.C. Davis. FAIL: Analyzing Software Failures from the News Using LLMs. Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE’24). 26% acceptance rate (154/587). 13 pages.",
+  "authors": "D. Anandayuvaraj, M. Campbell, A. Tewari, and J.C. Davis",
+  "title": "FAIL: Analyzing Software Failures from the News Using LLMs",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Anandayuvaraj",
+    "Campbell",
+    "Tewari",
+    "**Davis**"
+   ],
+   "title": "FAIL: Analyzing Software Failures from the News Using LLMs",
+   "venue": "Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+   "year": 2024,
+   "paperBasename": "https://arxiv.org/pdf/2406.08221",
+   "slidesBasename": "",
+   "artifactURL": "https://github.com/PurdueDualityLab/ASE24-FAIL-FailureAnalysisInvestigationWithLLMs",
+   "videoURL": "",
+   "blogURL": "https://davisjam.medium.com/fail-analyzing-software-failures-from-the-news-using-llms-630b7905f07e"
+  }
+ },
+ "C-22": {
+  "raw": "P. Jajal, W. Jiang, A. Tewari, E. Kocinare, J. Woo, A. Sarraf, Y.H. Lu, G.K. Thiruvathukal, and J.C. Davis. Interoperability in Deep Learning: A User Survey and Failure Analysis of ONNX Model Converters. Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA’24). 21% acceptance rate (143/694). 13 pages.",
+  "authors": "P. Jajal, W. Jiang, A. Tewari, E. Kocinare, J. Woo, A. Sarraf, Y.H. Lu, G.K. Thiruvathukal, and J.C. Davis",
+  "title": "Interoperability in Deep Learning: A User Survey and Failure Analysis of ONNX Model Converters",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Jajal",
+    "Jiang",
+    "Tewari",
+    "Kocinare",
+    "Woo",
+    "Sarraf",
+    "Lu",
+    "Thiruvathukal",
+    "**Davis**"
+   ],
+   "title": "Interoperability in Deep Learning: A User Survey and Failure Analysis of ONNX Model Converters",
+   "venue": "Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)",
+   "year": 2024,
+   "paperBasename": "https://arxiv.org/pdf/2303.17708",
+   "slidesBasename": "JajalJiangTewariKocinareWooSarrafLuThiruvathukalDavis-ONNXInteroperability-ISSTA2024-slides.pptx",
+   "artifactURL": "https://zenodo.org/records/12667479",
+   "videoURL": ""
+  }
+ },
+ "C-23": {
+  "raw": "J. Jones, W. Jiang, N. Synovic, G.K. Thiruvathukal, and J.C. Davis. What do we know about Hugging Face? A systematic literature review and quantitative validation of qualitative claims. Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM’24). 24% acceptance rate (34/139). 12 pages.",
+  "authors": "J. Jones, W. Jiang, N. Synovic, G.K. Thiruvathukal, and J.C. Davis",
+  "title": "What do we know about Hugging Face? A systematic literature review and quantitative validation of qualitative claims",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Jones",
+    "Jiang",
+    "Synovic",
+    "Thiruvathukal",
+    "**Davis**"
+   ],
+   "title": "What do we know about Hugging Face? A systematic literature review and quantitative validation of qualitative claims",
+   "venue": "Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)",
+   "year": 2024,
+   "paperBasename": "https://arxiv.org/pdf/2406.08205",
+   "slidesBasename": "JonesJiangSynovicThiruvathukalDavis-HuggingFaceSLR-ESEM2024-slides.pptx",
+   "artifactURL": "https://zenodo.org/records/13631840",
+   "videoURL": ""
+  }
+ },
+ "C-24": {
+  "raw": "L. Franke, H. Liang, S. Farzanehpour, A. Brantly, J.C. Davis, and C. Brown. An Exploratory Mixedmethods Study on General Data Protection Regulation (GDPR) Compliance in Open-Source Software. Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM’24). 24% acceptance rate (34/139). 12 pages.",
+  "authors": "L. Franke, H. Liang, S. Farzanehpour, A. Brantly, J.C. Davis, and C. Brown",
+  "title": "An Exploratory Mixedmethods Study on General Data Protection Regulation (GDPR) Compliance in Open-Source Software",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Franke",
+    "Liang",
+    "Farzanehpour",
+    "Brantly",
+    "**Davis**",
+    "Brown"
+   ],
+   "title": "An Exploratory Mixed-Methods Study on General Data Protection Regulation (GDPR) Compliance in Open-Source Software",
+   "venue": "Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)",
+   "year": 2024,
+   "paperBasename": "https://arxiv.org/pdf/2406.14724",
+   "slidesBasename": "FrankeLiangFarzanehpourBrantlyDavisBrown-GDPRInOSS-ESEM2024-slides.pptx",
+   "artifactURL": "https://github.com/code-world-no-blanket/ESEM24-GDPR-OSS-Impact",
+   "videoURL": ""
+  }
+ },
+ "C-25": {
+  "raw": "J. Chen, D. Anandayuvaraj, J.C. Davis, and S. Rahaman. On the Contents and Utility of IoT Cybersecurity Guidelines. Proceedings of the ACM on Software Engineering (PACMSE), Issue FSE 2024 (FSE’24). 26% acceptance rate (121/474). 24 pages.",
+  "authors": "J. Chen, D. Anandayuvaraj, J.C. Davis, and S. Rahaman",
+  "title": "On the Contents and Utility of IoT Cybersecurity Guidelines",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Chen",
+    "Anandayuvaraj",
+    "**Davis**",
+    "Rahaman"
+   ],
+   "title": "On the Contents and Utility of IoT Cybersecurity Guidelines",
+   "venue": "Proceedings of the ACM on Software Engineering (PACMSE), Issue FSE 2024 (FSE)",
+   "year": 2024,
+   "paperBasename": "https://arxiv.org/pdf/2310.01653",
+   "slidesBasename": "",
+   "artifactURL": "https://github.com/jessechen09/fse2024-66-on-the-contents-and-utility-of-IoT-cybersecurity-guidelines",
+   "videoURL": "",
+   "blogURL": "https://davisjam.medium.com/on-the-contents-and-utility-of-iot-cybersecurity-guidelines-9a0479949ba3"
+  }
+ },
+ "C-26": {
+  "raw": "T.R. Schorlemmer, K.G. Kalu, L. Chigges, K.M. Ko, E.A.M.A. Ishgair, S. Bagchi, S. Torres-Arias, and J.C. Davis. Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors. Proceedings of the 45th IEEE Symposium on Security and Privacy (IEEE S&P’24). 18% acceptance rate (261/1463). 16 pages.",
+  "authors": "T.R. Schorlemmer, K.G. Kalu, L. Chigges, K.M. Ko, E.A.M.A. Ishgair, S. Bagchi, S. Torres-Arias, and J.C. Davis",
+  "title": "Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Schorlemmer",
+    "Kalu",
+    "Chigges",
+    "Ko",
+    "Ishgair",
+    "Bagchi",
+    "Torres-Arias",
+    "**Davis**"
+   ],
+   "title": "Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors",
+   "venue": "Proceedings of the 45th IEEE Symposium on Security and Privacy (S&P)",
+   "year": 2024,
+   "paperBasename": "https://arxiv.org/pdf/2401.14635",
+   "slidesBasename": "SchorlemmerKaluChiggesKoIshgairBagchiTorresAriasDavis-SigningMeasurements-IEEE-SP24-slides.pptx",
+   "artifactURL": "https://github.com/PurdueDualityLab/signature-adoption",
+   "videoURL": "",
+   "blogURL": "https://medium.com/@davisjam/signing-in-four-public-software-package-registries-quantity-quality-and-influencing-factors-7af4b416b6db"
+  }
+ },
+ "C-27": {
+  "raw": "W. Maxam and J.C. Davis. An Interview Study on Third-Party Cyber Threat Hunting Processes in the U.S. Department of Homeland Security. Proceedings of the 33rd USENIX Security Symposium (USENIX Security’24). 18% acceptance rate (382/2176). 18 pages.",
+  "authors": "W. Maxam and J.C. Davis",
+  "title": "An Interview Study on Third-Party Cyber Threat Hunting Processes in the U.S",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Maxam",
+    "**Davis**"
+   ],
+   "title": "An Interview Study on Third-Party Cyber Threat Hunting Processes in the U.S. Department of Homeland Security",
+   "venue": "Proceedings of the 33rd USENIX Security Symposium (SECURITY)",
+   "year": 2024,
+   "paperBasename": "https://arxiv.org/pdf/2402.12252",
+   "slidesBasename": "MaxamDavis-ThreatHunt-USENIXSecurity2024-slides.pptx",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "C-28": {
+  "raw": "W. Jiang, J. Yasmin, J. Jones, N. Synovic, J. Kuo, N. Bielanski, Y. Tian, G.K. Thiruvathukal, and J.C. Davis. PeaTMOSS: A Dataset and Initial Analysis of Pre-Trained Models in Open-Source Software. Proceedings of the 21st Annual Conference on Mining Software Repositories (MSR’24). 29% acceptance rate (42/146). 13 pages.",
+  "authors": "W. Jiang, J. Yasmin, J. Jones, N. Synovic, J. Kuo, N. Bielanski, Y. Tian, G.K. Thiruvathukal, and J.C. Davis",
+  "title": "PeaTMOSS: A Dataset and Initial Analysis of Pre-Trained Models in Open-Source Software",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Jiang",
+    "Yasmin",
+    "Jones",
+    "Synovic",
+    "Kuo",
+    "Bielanski",
+    "Tian",
+    "Thiruvathukal",
+    "**Davis**"
+   ],
+   "title": "PeaTMOSS: A Dataset and Initial Analysis of Pre-Trained Models in Open-Source Software",
+   "venue": "Proceedings of the 21st Annual Conference on Mining Software Repositories (MSR)",
+   "year": 2024,
+   "paperBasename": "https://arxiv.org/pdf/2402.00699",
+   "slidesBasename": "JiangYasminJonesSynovicKuoBielanskiTianThiruvathukalDavis-PeaTMOSS-MSR24-slides.pptx",
+   "artifactURL": "https://github.com/PurdueDualityLab/PeaTMOSS-Artifact",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "C-29": {
+  "raw": "W. Jiang, N. Synovic, M. Hyatt, T.R. Schorlemmer, R. Sethi, Y.H. Lu, G.K. Thiruvathukal, and J.C. Davis. An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry. Proceedings of the ACM/IEEE 45th International Conference on Software Engineering (ICSE’23). 26% acceptance rate (208/796). 13 pages.",
+  "authors": "W. Jiang, N. Synovic, M. Hyatt, T.R. Schorlemmer, R. Sethi, Y.H. Lu, G.K. Thiruvathukal, and J.C. Davis",
+  "title": "An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Jiang",
+    "Synovic",
+    "Hyatt",
+    "Schorlemmer",
+    "Sethi",
+    "Lu",
+    "Thiruvathukal",
+    "**Davis**"
+   ],
+   "title": "An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry",
+   "venue": "Proceedings of the ACM/IEEE 45th International Conference on Software Engineering (ICSE)",
+   "year": 2023,
+   "paperBasename": "https://arxiv.org/pdf/2303.02552",
+   "slidesBasename": "JiangSynovicHyattSchorlemmerSethiLuThiruvathukalDavis-ICSE23-PTMReuseInHuggingFace-slides.pptx",
+   "artifactURL": "https://doi.org/10.5281/zenodo.7555464",
+   "videoURL": "",
+   "blogURL": "https://medium.com/@davisjam/an-empirical-study-of-pre-trained-model-reuse-in-the-hugging-face-deep-learning-model-registry-6ccfb0e58809"
+  }
+ },
+ "C-30": {
+  "raw": "P.C. Amusuo, R.A.C. Méndez, Z. Xu, A. Machiry, and J.C. Davis. Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks. Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE’23). 21% acceptance rate (134/629). 13 pages.",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Amusuo",
+    "Méndez",
+    "Xu",
+    "Machiry",
+    "**Davis**"
+   ],
+   "title": "Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks",
+   "venue": "Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+   "year": 2023,
+   "paperBasename": "https://arxiv.org/pdf/2308.10965",
+   "slidesBasename": "AmusuoMendezXuMachiryDavis-EmNetTest-ASE2023-slides.pptx",
+   "artifactURL": "https://doi.org/10.5281/zenodo.8247917",
+   "videoURL": "",
+   "blogURL": "https://davisjam.medium.com/systematically-detecting-packet-validation-vulnerabilities-in-embedded-network-stacks-4a9954ff393d"
+  }
+ },
+ "C-31": {
+  "raw": "S.A. Hassan, Z. Aamir, D. Lee, J.C. Davis, and F. Servant. Improving Developers’ Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies. Proceedings of the 44th IEEE Symposium on Security and Privacy (IEEE S&P’23). 17.1% acceptance rate (196/1,147). 18 pages. Page 8/23",
+  "authors": "S.A. Hassan, Z. Aamir, D. Lee, J.C. Davis, and F. Servant",
+  "title": "Improving Developers’ Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Hassan",
+    "Aamir",
+    "Lee",
+    "**Davis**",
+    "Servant"
+   ],
+   "title": "Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies",
+   "venue": "Proceedings of the 44th IEEE Symposium on Security and Privacy (S&P)",
+   "year": 2023,
+   "paperBasename": "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1178&context=ecepubs",
+   "slidesBasename": "HassanAamirLeeDavisServant-ReDoSUsability-SP23-slides.pptx",
+   "artifactURL": "https://doi.org/10.5281/zenodo.7419006",
+   "videoURL": "https://www.youtube.com/watch?v=It8QodA2zd8",
+   "blogURL": ""
+  }
+ },
+ "C-32": {
+  "raw": "A. Goel, C. Tung, N. Eliopoulos, X. Hu, G.K. Thiruvathukal, J.C. Davis, and Y.H. Lu. Directed Acyclic Graph-based Neural Networks for Tunable Low-Power Computer Vision. Proceedings of the ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED’22). 24% acceptance rate (23/96). 6 pages.",
+  "authors": "A. Goel, C. Tung, N. Eliopoulos, X. Hu, G.K. Thiruvathukal, J.C. Davis, and Y.H. Lu",
+  "title": "Directed Acyclic Graph-based Neural Networks for Tunable Low-Power Computer Vision",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Goel",
+    "Tung",
+    "Eliopoulos",
+    "Hu",
+    "Thiruvathukal",
+    "**Davis**",
+    "Lu"
+   ],
+   "title": "Directed Acyclic Graph-based Neural Networks for Tunable Low-Power Computer Vision",
+   "venue": "ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED)",
+   "year": 2022,
+   "paperBasename": "GoelTungEliopoulosHuThiruvathukalDavisLu-DAGHNNs-ISLPED2022.pdf",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "C-33": {
+  "raw": "E. Barlas, X. Du, and J.C. Davis. Exploiting Input Sanitization for Regex Denial of Service. Proceedings of the ACM/IEEE 44th International Conference on Software Engineering (ICSE’22). 26% acceptance rate (197/751). 13 pages.",
+  "authors": "E. Barlas, X. Du, and J.C. Davis",
+  "title": "Exploiting Input Sanitization for Regex Denial of Service",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Barlas",
+    "Du",
+    "**Davis**"
+   ],
+   "title": "Exploiting Input Sanitization for Regex Denial of Service",
+   "venue": "Proceedings of the ACM/IEEE 44th International Conference on Software Engineering (ICSE)",
+   "year": 2022,
+   "paperBasename": "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1179&context=ecepubs",
+   "slidesBasename": "BarlasDuDavis-WebREDOS-ICSE2022-slides.pptx",
+   "artifactURL": "https://doi.org/10.5281/zenodo.5916441",
+   "videoURL": "https://youtu.be/6fCBGQhBf2I",
+   "blogURL": "https://davisjam.medium.com/exploiting-input-sanitization-for-regex-denial-of-service-2366ff8c7c42"
+  }
+ },
+ "C-34": {
+  "raw": "Q. Xu, J.C. Davis, Y.C. Hu, and A. Jindal. An Empirical Study on the Impact of Parameters on Mobile App Energy Usage. Proceedings of the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER’22). 36% acceptance rate (72/199). 12 pages.",
+  "authors": "Q. Xu, J.C. Davis, Y.C. Hu, and A. Jindal",
+  "title": "An Empirical Study on the Impact of Parameters on Mobile App Energy Usage",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Xu",
+    "**Davis**",
+    "Hu",
+    "Jindal"
+   ],
+   "title": "An Empirical Study on the Impact of Parameters on Mobile App Energy Usage",
+   "venue": "Proceedings of the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+   "year": 2022,
+   "paperBasename": "XuDavisHuJindal-AndroidDeepParameters-SANER2022.pdf",
+   "slidesBasename": "XuDavisHuJindal-AndroidDeepParameters-SANER2022-slides.pdf",
+   "artifactURL": "https://doi.org/10.5281/zenodo.5823364",
+   "videoURL": "https://www.youtube.com/watch?v=kJr4vOdfddk",
+   "blogURL": ""
+  }
+ },
+ "C-35": {
+  "raw": "A. Goel, C. Tung, X. Hu, H. Wang, J.C. Davis, Thiruvathukal, and Lu. Low-Power Multi-Camera Object Re-Identification using Hierarchical Neural Networks. Proceedings of the ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED’21). 26.1% acceptance rate (23/88). 6 pages.",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Goel",
+    "Tung",
+    "Hu",
+    "Wang",
+    "**Davis**",
+    "Thiruvathukal",
+    "Lu"
+   ],
+   "title": "Low-Power Multi-Camera Object Re-Identication using Hierarchical Neural Networks",
+   "venue": "ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED)",
+   "year": 2021,
+   "paperBasename": "GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21.pdf",
+   "slidesBasename": "GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21-slides.pptx",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": "https://davisjam.medium.com/low-power-multi-camera-object-re-identification-using-hierarchical-neural-networks-275663db83d6"
+  }
+ },
+ "C-36": {
+  "raw": "J.C. Davis, F. Servant, and D. Lee. Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS). Proceedings of the 42nd IEEE Symposium on Security and Privacy (IEEE S&P’21). 12% acceptance rate (115/952). 17 pages.",
+  "authors": "J.C. Davis, F. Servant, and D. Lee",
+  "title": "Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "**Davis**",
+    "Servant",
+    "Lee"
+   ],
+   "title": "Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)",
+   "venue": "IEEE Security & Privacy (S&P)",
+   "year": 2021,
+   "paperBasename": "DavisServantLee-SelectiveMemo-IEEE-SP21.pdf",
+   "slidesBasename": "DavisServantLee-SelectiveMemo-IEEE-SP21-slides.pptx",
+   "artifactURL": "https://doi.org/10.5281/zenodo.4718966",
+   "videoURL": "https://www.youtube.com/channel/UC6pXMS7qre9GZW7A7FVM90Q",
+   "blogURL": "https://medium.com/@davisjam/using-selective-memoization-to-defeat-regular-expression-denial-of-service-f7acbbd34792"
+  }
+ },
+ "C-37": {
+  "raw": "A. Cha, E. Wittern, G. Baudart, J.C. Davis, L. Mandel, and J. Laredo. A Principled Approach to GraphQL Query Cost Analysis. Proceedings of the 28th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE’20). 28% acceptance rate (101/360). 12 pages. ACM Distinguished Paper Award.",
+  "authors": "A. Cha, E. Wittern, G. Baudart, J.C. Davis, L. Mandel, and J. Laredo",
+  "title": "A Principled Approach to GraphQL Query Cost Analysis",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Cha",
+    "Wittern",
+    "Baudart",
+    "**Davis**",
+    "Mandel",
+    "Laredo"
+   ],
+   "title": "A Principled Approach to GraphQL Query Cost Analysis",
+   "venue": "Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)",
+   "year": 2020,
+   "bestPaperAward": true,
+   "paperBasename": "ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20.pdf",
+   "slidesBasename": "ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20-slides.pptx",
+   "videoURL": "https://www.youtube.com/watch?v=gHzgEKeRidk",
+   "blogURL": "https://medium.com/@davisjam/a-principled-approach-to-graphql-query-cost-analysis-8c7243de42c1"
+  }
+ },
+ "C-38": {
+  "raw": "L. Rupprecht, J.C. Davis, C. Arnold, Y. Gur, and D. Bhagwat. Improving Reproducibility of Data Science Pipelines through Transparent Provenance Capture. Proceedings of the 46th International Conference on Very Large Data Bases (VLDB’20–Industry track). 20.6% acceptance rate (241/1,172). 15 pages.",
+  "authors": "L. Rupprecht, J.C. Davis, C. Arnold, Y. Gur, and D. Bhagwat",
+  "title": "Improving Reproducibility of Data Science Pipelines through Transparent Provenance Capture",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Rupprecht",
+    "**Davis**",
+    "Arnold",
+    "Gur",
+    "Bhagwat"
+   ],
+   "title": "Improving Reproducibility of Data Science Pipelines through Transparent Provenance Capture",
+   "venue": "Proceedings of the 46th International Conference on Very Large Databases: Industry track (VLDB-Industry)",
+   "year": 2020,
+   "paperBasename": "RupprechtDavisArnoldGurBhagwat-Ursprung-VLDB20.pdf",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "C-39": {
+  "raw": "J.C. Davis, D. Moyer, A. Kazerouni, and D. Lee. Testing Regex Generalizability And Its Implications: A Large-Scale Many-Language Measurement Study. Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE’19). 21% acceptance rate (91/435). 13 pages.",
+  "authors": "J.C. Davis, D. Moyer, A. Kazerouni, and D. Lee",
+  "title": "Testing Regex Generalizability And Its Implications: A Large-Scale Many-Language Measurement Study",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "**Davis**",
+    "Moyer",
+    "Kazerouni",
+    "Lee"
+   ],
+   "title": "Testing Regex Generalizability And Its Implications: A Large-Scale Many-Language Measurement Study",
+   "venue": "Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+   "year": 2019,
+   "paperBasename": "DavisMoyerKazerouniLee-RegexGeneralizability-ASE19.pdf",
+   "slidesBasename": "DavisMoyerKazerouniLee-RegexGeneralizability-ASE19-slides.pptx",
+   "artifactURL": "https://zenodo.org/record/3424961",
+   "videoURL": "https://www.youtube.com/watch?v=HQq6iXTjk1I",
+   "blogURL": "https://medium.com/@davisjam/testing-regex-generalizability-and-its-implications-ase19-63da1edadcdb"
+  }
+ },
+ "C-40": {
+  "raw": "L. Michael, J. Donohue, J.C. Davis, D. Lee, and F. Servant. Regexes are Hard: Decision-making, Difficulties, and Risks in Programming Regular Expressions. Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE’19). 21% acceptance rate (91/435). 12 pages. ACM Distinguished Paper Award.",
+  "authors": "L. Michael, J. Donohue, J.C. Davis, D. Lee, and F. Servant",
+  "title": "Regexes are Hard: Decision-making, Difficulties, and Risks in Programming Regular Expressions",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Michael",
+    "Donohue",
+    "**Davis**",
+    "Lee",
+    "Servant"
+   ],
+   "title": "Regexes are Hard: Decision-making, Difficulties, and Risks in Programming Regular Expressions",
+   "venue": "Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+   "year": 2019,
+   "bestPaperAward": true,
+   "paperBasename": "MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf",
+   "slidesBasename": "MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19-slides.pptx",
+   "artifactURL": "https://zenodo.org/record/3424069",
+   "videoURL": "https://www.youtube.com/watch?v=EWIPCaGfvb0",
+   "blogURL": "https://medium.com/@davisjam/regexes-are-hard-e7933ae3122d"
+  }
+ },
+ "C-41": {
+  "raw": "J.C. Davis, L. Michael, C. Coghlan, F. Servant, and D. Lee. Are Regular Expressions a Lingua Franca? An Empirical Study on the Re-use and Portability of Regular Expressions. Proceedings of the 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE’19). 24% acceptance rate (97/371). 12 pages.",
+  "authors": "J.C. Davis, L. Michael, C. Coghlan, F. Servant, and D. Lee",
+  "title": "Are Regular Expressions a Lingua Franca? An Empirical Study on the Re-use and Portability of Regular Expressions",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "**Davis**",
+    "Michael",
+    "Coghlan",
+    "Servant",
+    "Lee"
+   ],
+   "title": "Why Aren't Regular Expressions a Lingua Franca? An Empirical Study on the Re-use and Portability of Regular Expressions",
+   "venue": "Proceedings of the 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)",
+   "year": 2019,
+   "paperBasename": "DavisMichaelCoghlanServantLee-LinguaFranca-ESECFSE19.pdf",
+   "slidesBasename": "DavisMichaelCoghlanServantLee-LinguaFranca-ESECFSE19-slides.pptx",
+   "artifactURL": "https://doi.org/10.5281/zenodo.3257777",
+   "videoURL": "",
+   "blogURL": "https://medium.com/@davisjam/why-arent-regexes-a-lingua-franca-esecfse19-a36348df3a2"
+  }
+ },
+ "C-42": {
+  "raw": "E. Wittern, A. Cha, J.C. Davis, G. Baudart, L. Mandel. An Empirical Study of GraphQL Schemas. Proceedings of the 17th International Conference on Service-Oriented Computing (ICSOC’19). 15% acceptance rate (28/183). 16 pages.",
+  "authors": "E. Wittern, A. Cha, J.C. Davis, G. Baudart, L. Mandel",
+  "title": "An Empirical Study of GraphQL Schemas",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Wittern",
+    "Cha",
+    "**Davis**",
+    "Baudart",
+    "Mandel"
+   ],
+   "title": "An Empirical Study of GraphQL Schemas",
+   "venue": "Proceedings of the 17th International Conference on Service-Oriented Computing (ICSOC)",
+   "year": 2019,
+   "paperBasename": "WitternChaDavisBaudartMandel-EmpiricalGraphQL-ICSOC19.pdf",
+   "slidesBasename": "WitternChaDavisBaudartMandel-EmpiricalGraphQL-ICSOC19-slides-modified.pptx",
+   "videoURL": "https://www.youtube.com/watch?v=9-CnPyrtjic&feature=youtu.be",
+   "blogURL": "https://medium.com/@davisjam/empirical-study-graphql-icsoc19-29038c48da5"
+  }
+ },
+ "C-43": {
+  "raw": "X. Fu, T. Ghaffar, J.C. Davis, and D. Lee. EdgeWise: A Better Stream Processing Engine for the Edge. 2019 USENIX Annual Technical Conference (USENIX ATC’19). 20% acceptance rate (71/356). 17 pages.",
+  "authors": "X. Fu, T. Ghaffar, J.C. Davis, and D. Lee",
+  "title": "EdgeWise: A Better Stream Processing Engine for the Edge. 2019 USENIX Annual Technical Conference (USENIX ATC’19). 20% acceptance rate (71/356). 17 pages",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Fu",
+    "Ghaffar",
+    "**Davis**",
+    "Lee"
+   ],
+   "title": "EdgeWise: A Better Stream Processing Engine for the Edge",
+   "venue": "Proceedings of the 2019 USENIX Annual Technical Conference (USENIX ATC)",
+   "year": 2019,
+   "paperBasename": "FuGhaffarDavisLee-EdgeWise-ATC19.pdf",
+   "slidesBasename": "FuGhaffarDavisLee-EdgeWise-ATC19-slides.pptx",
+   "artifactURL": "https://github.com/VTLeeLab/EdgeWise-ATC-19",
+   "videoURL": "",
+   "blogURL": "https://medium.com/@davisjam/edgewise-a-better-stream-processing-engine-for-the-edge-898cc0d3e5fe"
+  }
+ },
+ "C-44": {
+  "raw": "J.C. Davis, C. Coghlan, F. Servant, and D. Lee. The Impact of Regular Expression Denial of Service (REDOS) in Practice: an Empirical Study at the Ecosystem Scale. Proceedings of the 26th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE’18). 21% acceptance rate (61/289). 11 pages. ACM Distinguished Paper Award. Page 9/23",
+  "authors": "J.C. Davis, C. Coghlan, F. Servant, and D. Lee",
+  "title": "The Impact of Regular Expression Denial of Service (REDOS) in Practice: an Empirical Study at the Ecosystem Scale",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "**Davis**",
+    "Coghlan",
+    "Servant",
+    "Lee"
+   ],
+   "title": "The Impact of Regular Expression Denial of Service (REDOS) in Practice: an Empirical Study at the Ecosystem Scale",
+   "venue": "Proceedings of the 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)",
+   "year": 2018,
+   "bestPaperAward": true,
+   "paperBasename": "DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf",
+   "slidesBasename": "DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18-slides.pptx",
+   "artifactURL": "https://doi.org/10.5281/zenodo.1294300",
+   "videoURL": "",
+   "blogURL": "https://medium.com/@davisjam/introduction-987fdc4c7b0"
+  }
+ },
+ "C-45": {
+  "raw": "J.C. Davis, E.R. Williamson, and D. Lee. A Sense of Time for JavaScript and Node.js: First-Class Timeouts as a Cure for Event Handler Poisoning. Proceedings of the 27th USENIX Security Symposium (USENIX Security’18). 19% acceptance rate (100/520). 17 pages.",
+  "authors": "J.C. Davis, E.R. Williamson, and D. Lee",
+  "title": "A Sense of Time for JavaScript and Node.js: First-Class Timeouts as a Cure for Event Handler Poisoning",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "**Davis**",
+    "Williamson",
+    "Lee"
+   ],
+   "title": "A Sense of Time for JavaScript and Node.js: First-Class Timeouts as a Cure for Event Handler Poisoning",
+   "venue": "Proceedings of the 27th USENIX Security Symposium (SECURITY)",
+   "year": 2018,
+   "paperBasename": "DavisWilliamsonLee-SenseOfTime-USENIXSecurity18.pdf",
+   "slidesBasename": "DavisWilliamsonLee-SenseOfTime-USENIXSecurity18-slides.pptx",
+   "artifactURL": "https://github.com/VTLeeLab/node-cure",
+   "videoURL": "https://www.usenix.org/conference/usenixsecurity18/presentation/davis"
+  }
+ },
+ "C-46": {
+  "raw": "J.C. Davis, A. Thekumparampil, and D. Lee. Node.fz: Fuzzing the Server-Side Event-Driven Architecture. Proceedings of the Twelfth European Conference on Computer Systems (EuroSys’17). 21% acceptance rate (41/200). 16 pages. REFEREED JOURNAL ARTICLES4",
+  "authors": "J.C. Davis, A. Thekumparampil, and D. Lee",
+  "title": "Node.fz: Fuzzing the Server-Side Event-Driven Architecture",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "**Davis**",
+    "Thekumparampil",
+    "Lee"
+   ],
+   "title": "Node.fz: Fuzzing the server-side event-driven architecture",
+   "venue": "Proceedings of the European Conference on Computer Systems (EuroSys)",
+   "year": 2017,
+   "paperBasename": "DavisThekumparampilLee-NodeFz-EuroSys17.pdf",
+   "slidesBasename": "DavisThekumparampilLee-NodeFz-EuroSys17-slides.pptx",
+   "artifactURL": "https://github.com/VTLeeLab/NodeFz",
+   "videoURL": ""
+  }
+ },
+ "J-1": {
+  "raw": "H. Gao, M. Zahedi, W. Jiang, H.Y. Lin, J.C. Davis, and C. Treude. AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges. Empirical Software Engineering, 2026 (EMSE’26). 44 pages.",
+  "authors": "H. Gao, M. Zahedi, W. Jiang, H.Y. Lin, J.C. Davis, and C. Treude",
+  "title": "AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges",
+  "pj": {
+   "type": "arxiv",
+   "authors": [
+    "Gao",
+    "Zahedi",
+    "Jiang",
+    "Lin",
+    "**Davis**",
+    "Treude"
+   ],
+   "title": "AI Safety in the Eyes of the Downstream Developer: A First Look at Concerns, Practices, and Challenges",
+   "venue": "arXiv",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2503.19444",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "J-2": {
+  "raw": "J. Yasmin, W. Jiang, J.C. Davis, and Y. Tian. Software Dependencies 2.0: An Empirical Study of Reuse and Integration of Pre-Trained Models in Open-Source Projects. Empirical Software Engineering, 2026 (EMSE’26). 61 pages.",
+  "authors": "J. Yasmin, W. Jiang, J.C. Davis, and Y. Tian",
+  "title": "Software Dependencies 2.0: An Empirical Study of Reuse and Integration of Pre-Trained Models in Open-Source Projects",
+  "pj": {
+   "type": "arxiv",
+   "authors": [
+    "Yasmin",
+    "Jiang",
+    "**Davis**",
+    "Tian"
+   ],
+   "title": "Software Dependencies 2.0: An Empirical Study of Reuse and Integration of Pre-Trained Models in Open-Source Projects",
+   "venue": "arXiv",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2509.06085",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "J-3": {
+  "raw": "H. Peng, A. Gupte, R. Hasler, N. Eliopoulos, C. Ho, R. Mantri, L. Deng, K. Läufer, G.K. Thiruvathukal, and J.C. Davis. SysLLMatic: Large Language Models are Software System Optimizers. Journal of Systems and Software, 2026 (JSS’26). 30 pages.",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "arxiv",
+   "authors": [
+    "Peng",
+    "Gupte",
+    "Hasler",
+    "Eliopoulos",
+    "Ho",
+    "Mantri",
+    "Deng",
+    "Läufer",
+    "Thiruvathukal",
+    "**Davis**"
+   ],
+   "title": "SysLLMatic: Large Language Models are Software System Optimizers",
+   "venue": "arXiv",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2506.01249",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "J-4": {
+  "raw": "W. Jiang, M. Kim, C. Cheung, H. Kim, G.K. Thiruvathukal, and J.C. Davis. “I see models being a whole other thing”: An Empirical Study of Pre-Trained Model Naming Conventions and A Tool for Enhancing Naming Consistency. Empirical Software Engineering, 2025 (EMSE’25). 67 pages.",
+  "authors": "W. Jiang, M. Kim, C. Cheung, H. Kim, G.K. Thiruvathukal, and J.C. Davis",
+  "title": "“I see models being a whole other thing”: An Empirical Study of Pre-Trained Model Naming Conventions and A Tool for Enhancing Naming Consistency",
+  "pj": {
+   "type": "journal",
+   "authors": [
+    "Jiang",
+    "Kim",
+    "Cheung",
+    "Kim",
+    "Thiruvathukal",
+    "**Davis**"
+   ],
+   "title": "'I see models being a whole other thing': An Empirical Study of Pre-Trained Model Naming Conventions and A Tool for Enhancing Naming Consistency",
+   "venue": "Empirical Software Engineering (EMSE)",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2310.01642",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "J-5": {
+  "raw": "G. Cramer, W. Maxam, and J.C. Davis. Engineering Patterns for Trust and Safety on Social Media Platforms: A Case Study of Mastodon and Diaspora. Journal of Systems and Software, 2025 (JSS’25). 22 pages.",
+  "authors": "G. Cramer, W. Maxam, and J.C. Davis",
+  "title": "Engineering Patterns for Trust and Safety on Social Media Platforms: A Case Study of Mastodon and Diaspora",
+  "pj": {
+   "type": "journal",
+   "authors": [
+    "Cramer",
+    "Maxam",
+    "**Davis**"
+   ],
+   "title": "Engineering Patterns for Trust and Safety on Social Media Platforms: A Case Study of Mastodon and Diaspora",
+   "venue": "Journal of Systems and Software (JSS)",
+   "year": 2025,
+   "paperBasename": "CramerMaxamDavis-TrustAndSafetyEngineeringInSMPs-JSS2025.pdf",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "J-6": {
+  "raw": "D. Özkan, K. Davis, J.C. Davis, J. Deters, and H. Murzi. Fostering Systems Thinking through Engineering Study Abroad Programs. European Journal of Engineering Education, 2024 (EJEE’24). 26 pages.",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "journal",
+   "authors": [
+    "Özkan",
+    "Davis",
+    "**Davis**",
+    "Deters",
+    "Murzi"
+   ],
+   "title": "Fostering Systems Thinking through Engineering Study Abroad Programs",
+   "venue": "European Journal of Engineering Education (EJEE)",
+   "year": 2024,
+   "paperBasename": "https://www.tandfonline.com/doi/full/10.1080/03043797.2024.2434168",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "J-7": {
+  "raw": "W. Jiang, V. Banna, N. Vivek, A. Goel, N. Synovic, G.K. Thiruvathukal, and J.C. Davis. Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision. Empirical Software Engineering, 2024 (EMSE’24). 63 pages.",
+  "authors": "W. Jiang, V. Banna, N. Vivek, A. Goel, N. Synovic, G.K. Thiruvathukal, and J.C. Davis",
+  "title": "Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision",
+  "pj": {
+   "type": "journal",
+   "authors": [
+    "Jiang",
+    "Banna",
+    "Vivek",
+    "Goel",
+    "Synovic",
+    "Thiruvathukal",
+    "**Davis**"
+   ],
+   "title": "Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision",
+   "venue": "Empirical Software Engineering (EMSE)",
+   "year": 2024,
+   "paperBasename": "https://link.springer.com/article/10.1007/s10664-024-10521-0",
+   "slidesBasename": "JiangBannaVivekGoelSynovicThiruvathukalDavis-CVReengineering-EMSE-ASESlides.pptx",
+   "artifactURL": "https://github.com/Wenxin-Jiang/EMSE-CVReengineering-Artifact",
+   "videoURL": ""
+  }
+ },
+ "J-8": {
+  "raw": "K. Davis, J. Deters, D. Özkan, J.C. Davis, and H. Murzi. Applying Experiential Learning Theory to Understand Study Abroad Leaders’ Experiences Using Real-Time Perspectives. Frontiers: The Interdisciplinary Journal of Study Abroad, Vol. 34, No. 2, 2022 (Frontiers’22). 31 pages.",
+  "authors": "",
+  "title": "",
+  "pj": null
+ },
+ "J-9": {
+  "raw": "S. Herbold, A. Trautsch, B. Ledel, A. Aghamohammadi, T.A. Ghaleb, K.K. Chahal, T. Bossenmaier, B. Nagaria, P. Makedonski, M.N. Ahmadabadi, K. Szabados, H. Spieker, M. Madeja, N. Hoy, V. Lenarduzzi, S. Wang, G. Rodriguez-Perez, R. Colomo-Palacios, R. Verdecchia, P. Singh, Y. Qin, D. Chakroborti, W. Davis, V. Walunj, H. Wu, D. Marcilio, O. Alam, A. Aldaeej, I. Amit, B. Turhan, S. Eismann, A.K. Wickert, I. Malavolta, M. Sulir, F. Fard, A.Z. Henley, S. Kourtzanidis, E. Tüzün, C. Treude, S.M. Shamasbi, I. Pashchenko, M. Wyrich, J.C. Davis, A. Serebrenik, E. Albrecht, E.U. Aktas, D. Strüber, and J. Erbel. A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits. Empirical Software Engineering, 2022 (EMSE’22). 55 pages. 4 In the field of software engineering research, four journals are considered peers of the top conferences, as evidenced by their inclusion in “journal first” tracks at those conferences. those journals are: ACM TOSEM, IEEE TSE, Springer EMSE, and Elsevier JSS. Page 10/23",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "journal",
+   "authors": [
+    "Herbold",
+    "Trautsch",
+    "Ledel",
+    "Aghamohammadi",
+    "Ghaleb",
+    "Chahal",
+    "Bossenmaier",
+    "Nagaria",
+    "Makedonski",
+    "Nili Ahmadabadi",
+    "Szabados",
+    "Spieker",
+    "Madeja",
+    "Hoy",
+    "Lenarduzzi",
+    "Wang",
+    "Rodríguez-Pérez",
+    "Colomo-Palacios",
+    "Verdecchia",
+    "Singh",
+    "Qin",
+    "Chakroborti",
+    "Davis",
+    "Walunj",
+    "Wu",
+    "Marcilio",
+    "Alam",
+    "Aldaeej",
+    "Amit",
+    "Turhan",
+    "Eismann",
+    "Wickert",
+    "Malavolta",
+    "Sulír",
+    "Fard",
+    "Henley",
+    "Kourtzanidis",
+    "Tuzun",
+    "Treude",
+    "Shamasbi",
+    "Pashchenko",
+    "Wyrich",
+    "**Davis**",
+    "Serebrenik",
+    "Albrecht",
+    "Aktas",
+    "Strüber",
+    "Erbel"
+   ],
+   "title": "A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits",
+   "venue": "Empirical Software Engineering (EMSE) (also presented at ICSE'22-JournalFirst)",
+   "year": 2021,
+   "paperBasename": "https://arxiv.org/pdf/2011.06244",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": "https://www.youtube.com/watch?v=JKYkw-nxE8M"
+  }
+ },
+ "J-10": {
+  "raw": "A. Kazerouni, J.C. Davis, A. Basak, C. Shaffer, F. Servant, and S. Edwards. Fast and Accurate Incremental Feedback for Students’ Software Tests Using Selective Mutation Analysis. Journal of Systems and Software, 2021 (JSS’21). 22 pages.",
+  "authors": "A. Kazerouni, J.C. Davis, A. Basak, C. Shaffer, F. Servant, and S. Edwards",
+  "title": "Fast and Accurate Incremental Feedback for Students’ Software Tests Using Selective Mutation Analysis",
+  "pj": {
+   "type": "journal",
+   "authors": [
+    "Kazerouni",
+    "**Davis**",
+    "Basak",
+    "Shaffer",
+    "Servant",
+    "Edwards"
+   ],
+   "title": "Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis",
+   "venue": "Journal of Systems and Software (JSS)",
+   "year": 2021,
+   "paperBasename": "KazerouniDavisBasakShafferServantEdwards-JSS21.pdf",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "J-11": {
+  "raw": "D. Özkan, K. Davis, J.C. Davis, M. James, H. Murzi, and D. Knight. Expectations and Experiences of Short-Term Study Abroad Leadership Teams. Journal of International Engineering Education, 2020 (JIEE’20). 34 pages. REFEREED MAGAZINE ARTICLES",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "journal",
+   "authors": [
+    "Ozkan",
+    "Davis",
+    "**Davis**",
+    "James",
+    "Murzi",
+    "Knight"
+   ],
+   "title": "Expectations and Experiences of Short-Term Study Abroad Leadership Teams",
+   "venue": "Journal of International Engineering Education (JIEE)",
+   "year": 2020,
+   "paperBasename": "OzkanDavisDavisJamesMurziKnight-JIEE20.pdf",
+   "slidesBasename": "OzkanDavisDavisJamesMurziKnight-JIEE20-slides.pptx",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "M-1": {
+  "raw": "T.R. Schorlemmer, E. Burmane, K. Kalu, S. Torres-Arias, and J.C. Davis. Establishing Provenance Before Coding: Traditional and Next-Gen Software Signing. IEEE Security & Privacy Magazine, special issue “Secure Software Before Codeing”, 2025 (IEEE S&P Magazine’25). 8 pages.",
+  "authors": "T.R. Schorlemmer, E. Burmane, K. Kalu, S. Torres-Arias, and J.C. Davis",
+  "title": "Establishing Provenance Before Coding: Traditional and Next-Gen Software Signing",
+  "pj": {
+   "type": "journal",
+   "authors": [
+    "Schorlemmer",
+    "Burmane",
+    "Kalu",
+    "Torres-Arias",
+    "**Davis**"
+   ],
+   "title": "Establishing Provenance Before Coding: Traditional and Next-Gen Software Signing",
+   "venue": "IEEE Security & Privacy Magazine -- Special Issue 'Secure Software Before Codeing'",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2407.03949",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "M-2": {
+  "raw": "X. Hu, Z. Jiao, A. Kocher, Z. Wu, J. Liu, J.C. Davis, G.K. Thiruvathukal, and Y.H. Lu. Evolution of Winning Solutions in the 2021 Low-Power Computer Vision Challenge. IEEE Computer, 2023 (Computer’23). 6 pages.",
+  "authors": "X. Hu, Z. Jiao, A. Kocher, Z. Wu, J. Liu, J.C. Davis, G.K. Thiruvathukal, and Y.H. Lu",
+  "title": "Evolution of Winning Solutions in the 2021 Low-Power Computer Vision Challenge",
+  "pj": {
+   "type": "journal",
+   "authors": [
+    "Hu",
+    "Jiao",
+    "Kocher",
+    "Wu",
+    "Liu",
+    "**Davis**",
+    "Thiruvathukal",
+    "Lu"
+   ],
+   "title": "Evolution of Winning Solutions in the 2021 Low-Power Computer Vision Challenge",
+   "venue": "IEEE Computer",
+   "year": 2023,
+   "paperBasename": "HuJiaoKocherWuLiuDavisThiruvathukalLu-LPCVC-Computer2023.pdf",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "M-3": {
+  "raw": "A. Goel, C. Tung, N. Eliopoulos, A. Wang, J.C. Davis, G.K. Thiruvathukal, and Y.H. Lu. Tree-based Unidirectional Neural Networks for Low-Power Computer Vision. IEEE Design & Test, 2022 (IEEE D&T’22). 6 pages. OTHER REFEREED WORKS: VISIONS, TOOLS, PRELIMINARY WORKS, COMPETITIONS",
+  "authors": "A. Goel, C. Tung, N. Eliopoulos, A. Wang, J.C. Davis, G.K. Thiruvathukal, and Y.H. Lu",
+  "title": "Tree-based Unidirectional Neural Networks for Low-Power Computer Vision",
+  "pj": {
+   "type": "journal",
+   "authors": [
+    "Goel",
+    "Tung",
+    "Eliopoulos",
+    "Wang",
+    "**Davis**",
+    "Thiruvathukal",
+    "Lu"
+   ],
+   "title": "Tree-based Unidirectional Neural Networks for Low-Power Computer Vision",
+   "venue": "IEEE Design & Test",
+   "year": 2022,
+   "paperBasename": "https://ieeexplore.ieee.org/document/9935301",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "W-1": {
+  "raw": "N. Synovic, K. Ryzka, A.V.V. Solari, K. Lyons, J.C. Davis, and G.K. Thiruvathukal. An Empirical Investigation of Pre-Trained Deep Learning Model Reuse in the Scientific Process. Proceedings of the 22nd IEEE International eScience Conference (short paper) (eScience’26). 6 pages.",
+  "authors": "N. Synovic, K. Ryzka, A.V.V. Solari, K. Lyons, J.C. Davis, and G.K. Thiruvathukal",
+  "title": "An Empirical Investigation of Pre-Trained Deep Learning Model Reuse in the Scientific Process",
+  "pj": null
+ },
+ "W-2": {
+  "raw": "T. Singla and J.C. Davis. Software Supply Chains are Dead: Use-Case-Oriented Regeneration. Proceedings of the 20th International Symposium on Empirical Software Engineering and Measurement – Emerging Results, Vision, and Reflection Track) (ESEM-ERVR’26). 12 pages.",
+  "authors": "T. Singla and J.C. Davis",
+  "title": "Software Supply Chains are Dead: Use-Case-Oriented Regeneration",
+  "pj": null
+ },
+ "W-3": {
+  "raw": "P. Amusuo, D. Liu, R.A.C. Méndez, J. Metzman, O. Chang, and J.C. Davis. Lessons from Mitigating False Positives in Google’s OSS-Fuzz-Gen. Proceedings of the ACM International Conference on the Foundations of Software Engineering (FSE) (FSE-Industry’26). 39% acceptance rate (66/171). 5 pages.",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Amusuo",
+    "Liu",
+    "Calvo",
+    "Metzman",
+    "Chang",
+    "**Davis**"
+   ],
+   "title": "Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen",
+   "venue": "ACM International Conference on the Foundations of Software Engineering -- Industry track (FSE-Industry)",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2510.02185",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "W-4": {
+  "raw": "B. Çakar, D. Lee, and J.C. Davis. Towards the Systematic Testing of Regular Expression Engines. The First Journal Ahead Workshop (co-located with the 2026 International Conference on Software Engineering). Recommended for journal extension; 30/79 papers. (ICSE-JAWs’26). 9 pages.",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "Çakar",
+    "Lee",
+    "**Davis**"
+   ],
+   "title": "Towards the Systematic Testing of Regular Expression Engines",
+   "venue": "ICSE Journal Ahead Workshop (JAWs)",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2603.00311",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "W-5": {
+  "raw": "E. Pautsch*, T. Singla*, P. Kumar, W. Jiang, H. Peng, B. Hassanshahi, K. Läufer, G.K. Thiruvathukal, and J.C. Davis. AgentHub: A Registry for Discoverable, Verifiable, and Reproducible AI Agents. The First Journal Ahead Workshop (co-located with the 2026 International Conference on Software Engineering). Recommended for journal extension; 30/79 papers. (ICSE-JAWs’26). 9 pages.",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "Pautsch",
+    "Singla",
+    "Jiang",
+    "Peng",
+    "Hassanshahi",
+    "Läufer",
+    "Thiruvathukal",
+    "**Davis**"
+   ],
+   "title": "AgentHub: A Registry for Discoverable, Verifiable, and Reproducible AI Agents",
+   "venue": "ICSE Journal Ahead Workshop (JAWs)",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2510.03495",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "W-6": {
+  "raw": "K.G. Kalu, S. Okorafor, B. Durak, K. Laine, R.C. Moreno, S. Torres-Arias, and J.C. Davis. ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain. The First Journal Ahead Workshop (co-located with the 2026 International Conference on Software Engineering). Recommended for journal extension; 30/79 papers. (ICSE-JAWs’26). 9 pages. Page 11/23",
+  "authors": "K.G. Kalu, S. Okorafor, B. Durak, K. Laine, R.C. Moreno, S. Torres-Arias, and J.C. Davis",
+  "title": "ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "Kalu",
+    "Okorafor",
+    "Durak",
+    "Laine",
+    "Moreno",
+    "Torres-Arias",
+    "**Davis**"
+   ],
+   "title": "ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain",
+   "venue": "ICSE Journal Ahead Workshop (JAWs)",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2505.18760",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "W-7": {
+  "raw": "T. Singla, B. Çakar, P.C. Amusuo, and J.C. Davis. Towards a Benchmark for Dependency DecisionMaking. The First Journal Ahead Workshop (co-located with the 2026 International Conference on Software Engineering) (ICSE-JAWs’26). 5 pages.",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "Singla",
+    "Çakar",
+    "Amusuo",
+    "**Davis**"
+   ],
+   "title": "Towards a Benchmark for Dependency Decision-Making",
+   "venue": "ICSE Journal Ahead Workshop (JAWs)",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2601.00205",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "W-8": {
+  "raw": "K. Kalu, S. Rattan, T.R. Schorlemmer, G.K. Thiruvathukal, J.C. Carver, and J.C. Davis. Operationalizing Research Software for Supply Chain Security. The First Journal Ahead Workshop (co-located with the 2026 International Conference on Software Engineering) (ICSE-JAWs’26). 5 pages.",
+  "authors": "K. Kalu, S. Rattan, T.R. Schorlemmer, G.K. Thiruvathukal, J.C. Carver, and J.C. Davis",
+  "title": "Operationalizing Research Software for Supply Chain Security",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "Kalu",
+    "Rattan",
+    "Schorlemmer",
+    "Thiruvathukal",
+    "Carver",
+    "**Davis**"
+   ],
+   "title": "Operationalizing Research Software for Supply Chain Security",
+   "venue": "ICSE Journal Ahead Workshop (JAWs)",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2601.20980",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "W-9": {
+  "raw": "H. Peng, P.V. Patil, A.Z. Qiu, G.K. Thiruvathukal, and J.C. Davis. Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization. The First Journal Ahead Workshop (co-located with the 2026 International Conference on Software Engineering) (ICSE-JAWs’26). 5 pages.",
+  "authors": "H. Peng, P.V. Patil, A.Z. Qiu, G.K. Thiruvathukal, and J.C. Davis",
+  "title": "Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "Peng",
+    "Patil",
+    "Qiu",
+    "Thiruvathukal",
+    "**Davis**"
+   ],
+   "title": "Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization",
+   "venue": "ICSE Journal Ahead Workshop (JAWs)",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2603.14703",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "W-10": {
+  "raw": "H. Peng, A. Zhong, R.A.C. Méndez, K.G. Kalu, and J.C. Davis. How Do Agents Perform Code Optimization? An Empirical Study. Proceedings of the 23rd International Mining Software Repositories Conference — Mining Challenge track (MSR-Mining’26). 53% acceptance rate (62/116). 5 pages.",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "Peng",
+    "Zhong",
+    "Méndez",
+    "Kalu",
+    "**Davis**"
+   ],
+   "title": "How Do Agents Perform Code Optimization? An Empirical Study",
+   "venue": "Proceedings of the 23rd International Mining Software Repositories Conference -- Mining Challenge track (MSR-MiningChallenge)",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2512.21757",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "W-11": {
+  "raw": "P.C. Amusuo, P.V. Patil, O. Cochell, T. Le Lievre, and J.C. Davis. A Unit Proofing Framework for Codelevel Verification: A Research Agenda. Proceedings of the ACM/IEEE 47th International Conference on Software Engineering — New Ideas and Emerging Results track (ICSE-NIER’25). 26% acceptance rate (25/97). 5 pages.",
+  "authors": "P.C. Amusuo, P.V. Patil, O. Cochell, T. Le Lievre, and J.C. Davis",
+  "title": "A Unit Proofing Framework for Codelevel Verification: A Research Agenda",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Amusuo",
+    "Patil",
+    "Cochell",
+    "Le Lievre",
+    "**Davis**"
+   ],
+   "title": "A Unit Proofing Framework for Code-level Verification: A Research Agenda",
+   "venue": "Proceedings of the 47th IEEE/ACM International Conference on Software Engineering - New Ideas and Emerging Results Track (ICSE-NIER)",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2410.14818",
+   "slidesBasename": "AmusuoPatilCochellLeLievreDavis-UnitProofing-ICSE-2025-NIER-slides.pptx",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "W-12": {
+  "raw": "P.V. Patil, W. Jiang, H. Peng, D. Lugo, K.G. Kalu, J. LeBlanc, L. Smith, H. Heo, N. Aou, and J.C. Davis. Recommending Pre-Trained Models for IoT Devices. Proceedings of the 7th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT’25). 5 pages.",
+  "authors": "P.V. Patil, W. Jiang, H. Peng, D. Lugo, K.G. Kalu, J. LeBlanc, L. Smith, H. Heo, N. Aou, and J.C. Davis",
+  "title": "Recommending Pre-Trained Models for IoT Devices",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "Patil",
+    "Jiang",
+    "Peng",
+    "Lugo",
+    "Kalu",
+    "LeBlanc",
+    "Smith",
+    "Heo",
+    "Aou",
+    "**Davis**"
+   ],
+   "title": "Recommending Pre-Trained Models for IoT Devices",
+   "venue": "Proceedings of the 7th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT)",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2412.18972",
+   "slidesBasename": "PatilJiangPengLugoKaluLeBlancSmithHeoAouDavis-PTMRecommendation-SERP4IoT2025.pptx",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "W-13": {
+  "raw": "S. Joshi, P. Mukherjee, K.A. Davis, and J.C. Davis. Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency. Proceedings of the 2024 Annual Conference and Exposition of the American Society for Engineering Education (ASEE’24). ∼50% acceptance rate (12 papers presented). 31 pages. Best Paper Award, Software Engineering Division (given to 1 out of 12 papers).",
+  "authors": "S. Joshi, P. Mukherjee, K.A. Davis, and J.C. Davis",
+  "title": "Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Joshi",
+    "Mukherjee",
+    "Davis",
+    "**Davis**"
+   ],
+   "title": "Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency",
+   "venue": "Annual Conference of the American Society for Engineering Education (ASEE)",
+   "year": 2024,
+   "paperBasename": "https://arxiv.org/pdf/2404.16632",
+   "slidesBasename": "JoshiMukherjeeDavisDavis-ThreatModeling-ASEE2024-slides.pptx",
+   "artifactURL": "",
+   "bestPaperAward": true,
+   "videoURL": ""
+  }
+ },
+ "W-14": {
+  "raw": "B.A. Tanay, L. Arinze, S. Joshi, K.A. Davis, and J.C. Davis. An Exploratory Study on Upper-Level Computing Students’ Use of Large Language Models as Tools in a Semester-Long Project. Proceedings of the 2024 Annual Conference and Exposition of the American Society for Engineering Education (ASEE’24). ∼50% acceptance rate (12 papers presented). 27 pages.",
+  "authors": "B.A. Tanay, L. Arinze, S. Joshi, K.A. Davis, and J.C. Davis",
+  "title": "An Exploratory Study on Upper-Level Computing Students’ Use of Large Language Models as Tools in a Semester-Long Project",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Tanay",
+    "Arinze",
+    "Joshi",
+    "Davis",
+    "**Davis**"
+   ],
+   "title": "An Exploratory Study on Upper-Level Computing Students' Use of Large Language Models as Tools in a Semester-Long Project",
+   "venue": "Annual Conference of the American Society for Engineering Education (ASEE)",
+   "year": 2024,
+   "paperBasename": "https://arxiv.org/pdf/2403.18679",
+   "slidesBasename": "TanayArinzeJoshiDavisDavis-LLMEducation-ASEE2024-slides.pptx",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "W-15": {
+  "raw": "J.C. Davis, P. Jajal, W. Jiang, T.R. Schorlemmer, N. Synovic, and G.K. Thiruvathukal. Reusing Deep Learning Models: Challenges and Directions in Software Engineering. Proceedings of the IEEE John Vincent Atanasoff Symposium on Modern Computing (JVA’23). 12 pages.",
+  "authors": "J.C. Davis, P. Jajal, W. Jiang, T.R. Schorlemmer, N. Synovic, and G.K. Thiruvathukal",
+  "title": "Reusing Deep Learning Models: Challenges and Directions in Software Engineering",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "**Davis**",
+    "Jajal",
+    "Jiang",
+    "Schorlemmer",
+    "Synovic",
+    "Thiruvathukal"
+   ],
+   "title": "Reusing Deep Learning Models: Challenges and Directions in Software Engineering",
+   "venue": "Proceedings of the IEEE John Vincent Atanasoff Symposium on Modern Computing (JVA’23)",
+   "year": 2023,
+   "paperBasename": "DavisJajalJiangSchorlemmerSynovicThiruvathukal-DNNReuse-JVA23.pdf",
+   "slidesBasename": "DavisJajalJiangSchorlemmerSynovicThiruvathukal-DNNReuse-JVA23-slides.pdf",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "W-16": {
+  "raw": "J. Srinivasan, S.R. Tanksalkar, P. Amusuo, J.C. Davis, and A. Machiry. Towards Rehosting Embedded Applications as Linux Applications. Proceedings of the 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks — Disrupt track (DSN-Disrupt’23). 47% acceptance rate (17/36). 5 pages.",
+  "authors": "J. Srinivasan, S.R. Tanksalkar, P. Amusuo, J.C. Davis, and A. Machiry",
+  "title": "Towards Rehosting Embedded Applications as Linux Applications",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Srinivasan",
+    "Tanksalkar",
+    "Amusuo",
+    "**Davis**",
+    "Machiry"
+   ],
+   "title": "Towards Rehosting Embedded Applications as Linux Applications",
+   "venue": "Proceedings of the 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks — Disrupt track (DSN-Disrupt)",
+   "year": 2023,
+   "paperBasename": "SrinivasanTanksalkarAmusuoDavisMachiry-Rehosting-DSN2023.pdf",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "W-17": {
+  "raw": "M. Shen, J.C. Davis, and A. Machiry. Towards Automated Identification of Layering Violations in Embedded Applications (WIP). Proceedings of the 24th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems — Work-In-Progress Track (LCTESWIP’23). 40% acceptance rate (14/35). 5 pages.",
+  "authors": "M. Shen, J.C. Davis, and A. Machiry",
+  "title": "Towards Automated Identification of Layering Violations in Embedded Applications (WIP)",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Shen",
+    "**Davis**",
+    "Machiry"
+   ],
+   "title": "Towards Automated Identification of Layering Violations in Embedded Applications (WIP)",
+   "venue": "Proceedings of the 24th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES)",
+   "year": 2023,
+   "paperBasename": "ShenDavisMachiry-NCMAs-LCTES23.pdf",
+   "slidesBasename": "ShenDavisMachiry-NCMAs-LCTES23-slides.pptx",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "W-18": {
+  "raw": "K.G. Kalu, T.R. Schorlemmer, S. Chen, K.A. Robinson, and J.C. Davis. Reflecting on the use of the Policy-Process-Product Theory in Empirical Software Engineering. Proceedings of the 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering — Ideas, Visions, and Reflections track (ESEC/FSE-IVR’23). 48% acceptance rate (13/27). 5 pages. Page 12/23",
+  "authors": "K.G. Kalu, T.R. Schorlemmer, S. Chen, K.A. Robinson, and J.C. Davis",
+  "title": "Reflecting on the use of the Policy-Process-Product Theory in Empirical Software Engineering",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Kalu",
+    "Schorlemmer",
+    "Chen",
+    "Robinson",
+    "Kocinare",
+    "**Davis**"
+   ],
+   "title": "Reflecting on the use of the Policy-Process-Product Theory in Empirical Software Engineering",
+   "venue": "Proceedings of the 31st ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR)",
+   "year": 2023,
+   "paperBasename": "KaluSchorlemmerChenRobinsonKocinareDavis-PPPTheory-FSEIVR2023.pdf",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": "https://davisjam.medium.com/reflecting-on-the-use-of-the-policy-process-product-theory-b95c4957840c"
+  }
+ },
+ "W-19": {
+  "raw": "W. Jiang*, N. Synovic*, P. Jajal, T.R. Schorlemmer, A. Tewari, B. Pareek, G.K. Thiruvathukal, and J.C. Davis. PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages. Proceedings of the 20th Annual Conference on Mining Software Repositories — Data and Tool Showcase Track (MSRData’23). 54% acceptance rate (23/42). 5 pages.",
+  "authors": "W. Jiang*, N. Synovic*, P. Jajal, T.R. Schorlemmer, A. Tewari, B. Pareek, G.K. Thiruvathukal, and J.C. Davis",
+  "title": "PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Jiang",
+    "Synovic",
+    "Jajal",
+    "Schorlemmer",
+    "Tewari",
+    "Pareek",
+    "Thiruvathukal",
+    "**Davis**"
+   ],
+   "title": "PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages",
+   "venue": "Proceedings of the 20th Annual Conference on Mining Software Repositories — Data and Tool Showcase Track (MSR-Data’23)",
+   "year": 2023,
+   "paperBasename": "https://arxiv.org/pdf/2303.08934",
+   "slidesBasename": "Jiang-PTMTorrent-MSR23-slides.pptx",
+   "artifactURL": "https://doi.org/10.5281/zenodo.7570357",
+   "videoURL": "",
+   "blogURL": "https://medium.com/@davisjam/an-empirical-study-of-pre-trained-model-reuse-in-the-hugging-face-deep-learning-model-registry-6ccfb0e58809"
+  }
+ },
+ "W-20": {
+  "raw": "T. Singla, D. Anandayuvaraj, K.G. Kalu, T.R. Schorlemmer, and J.C. Davis. An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures. Proceedings of the 2nd ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED’23). 67% acceptance rate (14/21). 11 pages.",
+  "authors": "T. Singla, D. Anandayuvaraj, K.G. Kalu, T.R. Schorlemmer, and J.C. Davis",
+  "title": "An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "Singla",
+    "Anandayuvaraj",
+    "Kalu",
+    "Schorlemmer",
+    "**Davis**"
+   ],
+   "title": "An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures",
+   "venue": "Proceedings of the 2nd ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)",
+   "year": 2023,
+   "paperBasename": "SinglaAnandayuvarajKaluSchorlemmerDavis-LLMsForSupplyChainFailureAnalysis-SCORED2023.pdf",
+   "slidesBasename": "SinglaAnandayuvarajKaluSchorlemmerDavis-LLMsForSupplyChainFailureAnalysis-SCORED2023-slides.pptx",
+   "artifactURL": "https://zenodo.org/record/8365116",
+   "videoURL": ""
+  }
+ },
+ "W-21": {
+  "raw": "D. Anandayuvaraj, P. Thulluri, J. Figueroa, H. Shandilya, and J.C. Davis. Incorporating Failure Knowledge into Design Decisions for IoT Systems: A Controlled Experiment on Novices. Proceedings of the 5th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT’23). 5 pages.",
+  "authors": "D. Anandayuvaraj, P. Thulluri, J. Figueroa, H. Shandilya, and J.C. Davis",
+  "title": "Incorporating Failure Knowledge into Design Decisions for IoT Systems: A Controlled Experiment on Novices",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "Anandayuvaraj",
+    "Thulluri",
+    "Figueroa",
+    "Shandilya",
+    "**Davis**"
+   ],
+   "title": "Incorporating Failure Knowledge into Design Decisions for IoT Systems: A Controlled Experiment on Novices",
+   "venue": "Proceedings of the 5th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT)",
+   "year": 2023,
+   "paperBasename": "AnandayuvarajThulluriFigueroaShandilyaDavis-FailureKnowledgeAndDesignDecisions-SERP4IoT2023.pdf",
+   "slidesBasename": "AnandayuvarajThulluriFigueroaShandilyaDavis-FailureKnowledgeAndDesignDecisions-SERP4IoT2023-slides.pptx",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": "https://davisjam.medium.com/incorporating-failure-knowledge-into-design-decisions-for-iot-systems-a-controlled-experiment-825464c55f59"
+  }
+ },
+ "W-22": {
+  "raw": "W. Jiang, N. Synovic, R. Sethi, A. Indarapu, M. Hyatt, T.R. Schorlemmer, G.K. Thiruvathukal, and J.C. Davis. An Empirical Study of Artifacts and Security Practices in the Pre-trained Model Supply Chain. Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED’22). 57% acceptance rate (12/21). 10 pages.",
+  "authors": "W. Jiang, N. Synovic, R. Sethi, A. Indarapu, M. Hyatt, T.R. Schorlemmer, G.K. Thiruvathukal, and J.C. Davis",
+  "title": "An Empirical Study of Artifacts and Security Practices in the Pre-trained Model Supply Chain",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "Jiang",
+    "Synovic",
+    "Sethi",
+    "Indarapu",
+    "Hyatt",
+    "Schorlemmer",
+    "Thiruvathukal",
+    "**Davis**"
+   ],
+   "title": "An Empirical Study of Artifacts and Security Practices in the Pre-trained Model Supply Chain",
+   "venue": "Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)",
+   "year": 2022,
+   "paperBasename": "JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukalDavis-PTMSupplyChain-SCORED22.pdf",
+   "slidesBasename": "JiangSynovicSethiIndarapuHyattSchorlemmerThiruvathukalDavis-PTMSupplyChain-SCORED22-slides.pptx",
+   "artifactURL": "https://github.com/PurdueDualityLab/SCORED22-PTMSupplyChain",
+   "videoURL": "",
+   "blogURL": "https://davisjam.medium.com/an-empirical-study-of-artifacts-and-security-risks-in-the-pre-trained-model-supply-chain-2c75fd99942b"
+  }
+ },
+ "W-23": {
+  "raw": "A. Goel, C. Tung, X. Hu, G.K. Thiruvathukal, J.C. Davis, and Y.H. Lu. Efficient Computer Vision on Edge Devices with Pipeline-Parallel Hierarchical Neural Networks. Proceedings of the 27th Asia and South Pacific Design Automation Conference (ASP-DAC’22). 37% acceptance rate (95/260). 6 pages.",
+  "authors": "A. Goel, C. Tung, X. Hu, G.K. Thiruvathukal, J.C. Davis, and Y.H. Lu",
+  "title": "Efficient Computer Vision on Edge Devices with Pipeline-Parallel Hierarchical Neural Networks",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Goel",
+    "Tung",
+    "Hu",
+    "Thiruvathukal",
+    "**Davis**",
+    "Lu"
+   ],
+   "title": "Efficient Computer Vision on Edge Devices with Pipeline-Parallel Hierarchical Neural Network",
+   "venue": "Proceedings of the 27th Asia and South Pacific Design Automation Conference (ASP-DAC)",
+   "year": 2022,
+   "paperBasename": "GoelTungHuThiruvathukalDavisLu-ASPDAC2022.pdf",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "W-24": {
+  "raw": "D. Anandayuvaraj and J.C. Davis. Reflecting on Recurring Failures in IoT Development. Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering — New Ideas and Emerging Results track (ASE-NIER’22). 36% acceptance rate (18/50). 5 pages.",
+  "authors": "D. Anandayuvaraj and J.C. Davis",
+  "title": "Reflecting on Recurring Failures in IoT Development",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Anandayuvaraj",
+    "**Davis**"
+   ],
+   "title": "Reflecting on Recurring Failures in IoT Development",
+   "venue": "Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering: New Ideas and Emerging Results track (ASE-NIER)",
+   "year": 2022,
+   "paperBasename": "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1180&context=ecepubs",
+   "slidesBasename": "AnandayuvarajDavis-RecurringFailuresInIoT-ASE22NIER-slides.pptx",
+   "artifactURL": "https://tinyurl.com/3h2c85rc",
+   "videoURL": "",
+   "blogURL": "https://davisjam.medium.com/reflecting-on-recurring-failures-in-iot-development-68df5b45a837"
+  }
+ },
+ "W-25": {
+  "raw": "D. Montes, P. Peerapatanapokin, J. Schultz, C. Guo, W. Jiang, and J.C. Davis. Discrepancies among Pre-trained Deep Neural Networks: A New Threat to Model Zoo Reliability. Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering — Ideas, Visions, and Reflections track (ESEC/FSE-IVR’22). 25% acceptance rate (7/28). 5 pages.",
+  "authors": "D. Montes, P. Peerapatanapokin, J. Schultz, C. Guo, W. Jiang, and J.C. Davis",
+  "title": "Discrepancies among Pre-trained Deep Neural Networks: A New Threat to Model Zoo Reliability",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Montes",
+    "Peerapatanapokin",
+    "Schultz",
+    "Guo",
+    "Jiang",
+    "**Davis**"
+   ],
+   "title": "Discrepancies among Pre-trained Deep Neural Networks: A New Threat to Model Zoo Reliability",
+   "venue": "Proceedings of the 30th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR)",
+   "year": 2022,
+   "paperBasename": "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1181&context=ecepubs",
+   "slidesBasename": "MontesPeerapatanapokinSchultzGuoJiangDavis-ModelZoo-FSE22IVR-slides.pptx",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "W-26": {
+  "raw": "P. Amusuo, A. Sharma, S.R. Rao, A. Vincent, and J.C. Davis. Reflections on Software Failure Analysis. Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering — Ideas, Visions, and Reflections track (ESEC/FSE-IVR’22). 25% acceptance rate (7/28). 6 pages.",
+  "authors": "P. Amusuo, A. Sharma, S.R. Rao, A. Vincent, and J.C. Davis",
+  "title": "Reflections on Software Failure Analysis",
+  "pj": {
+   "type": "conference",
+   "authors": [
+    "Amusuo",
+    "Sharma",
+    "Rao",
+    "Vincent",
+    "**Davis**"
+   ],
+   "title": "Reflections on Software Failure Analysis",
+   "venue": "Proceedings of the 30th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR)",
+   "year": 2022,
+   "paperBasename": "https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1183&context=ecepubs",
+   "slidesBasename": "AmusuoSharmaRaoVincentDavis-SoftwareFailureAnalysis-FSE22IVR-slides.pptx",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": "https://davisjam.medium.com/reflections-on-software-failure-analysis-cd28d57539ba"
+  }
+ },
+ "W-27": {
+  "raw": "C. Okafor*, T.R. Schorlemmer*, S. Torres-Arias, and J.C. Davis. SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties. Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED’22). 57% acceptance rate (12/21). 10 pages.",
+  "authors": "C. Okafor*, T.R. Schorlemmer*, S. Torres-Arias, and J.C. Davis",
+  "title": "SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "Okafor",
+    "Schorlemmer",
+    "Torres-Arias",
+    "**Davis**"
+   ],
+   "title": "SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties",
+   "venue": "Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)",
+   "year": 2022,
+   "paperBasename": "https://arxiv.org/pdf/2406.10109",
+   "slidesBasename": "OkaforSchorlemmerTorresAriasDavis-SupplyChainSoK-SCORED22-slides.pptx",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": "https://medium.com/p/6a0c897d5777"
+  }
+ },
+ "W-28": {
+  "raw": "N. Synovic, M. Hyatt, R. Sethi, S. Thota, Shilpika, A.J. Miller, W. Jiang, E.S. Amobi, A. Pinderski, K. Läufer, N.J. Hayward, N. Klingensmith, J.C. Davis, and G.K. Thiruvathukal. Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics. Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering — Demonstrations track (ASE-Tool Demonstrations’22). 56% acceptance rate (23/41). 4 pages.",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "Synovic",
+    "Hyatt",
+    "Sethi",
+    "Thota",
+    "Shilpika",
+    "Miller",
+    "Jiang",
+    "Pinderski",
+    "Läufer",
+    "Hayward",
+    "Klingensmith",
+    "**Davis**",
+    "Thiruvathukal"
+   ],
+   "title": "Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics",
+   "venue": "Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering: Demonstrations track (ASE-Demonstrations)",
+   "year": 2022,
+   "paperBasename": "SynovicHyattSethiThotaShilpikaMillerJiangPinderskiLauferHaywardKlingensmithDavisThiruvathukal-LongitudinalMetrics-ASE22Demo.pdf",
+   "slidesBasename": "",
+   "artifactURL": "https://github.com/SoftwareSystemsLaboratory/prime",
+   "videoURL": "https://youtu.be/YigEHy3_JCo",
+   "blogURL": ""
+  }
+ },
+ "W-29": {
+  "raw": "N. Gopalakrishna, D. Anandayuvaraj, A. Detti, F. Bland, S. Rahaman, and J.C. Davis. “If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices. Proceedings of the 4th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT’22). 8 pages. Page 13/23",
+  "authors": "N. Gopalakrishna, D. Anandayuvaraj, A. Detti, F. Bland, S. Rahaman, and J.C. Davis",
+  "title": "“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "Gopalakrishna",
+    "Anandayuvaraj",
+    "Detti",
+    "Bland",
+    "Rahaman",
+    "**Davis**"
+   ],
+   "title": "“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices",
+   "venue": "Proceedings of the 4th International Workshop on Software Engineering Research & Practices for the Internet of Things (SERP4IoT)",
+   "year": 2022,
+   "paperBasename": "GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT.pdf",
+   "slidesBasename": "GopalakrishnaAnandayuvarajDettiBlandRahamanDavis-SWEngSecurityMLOnIoT-slides.pptx",
+   "artifactURL": "https://doi.org/10.5281/zenodo.6383066",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "W-30": {
+  "raw": "J.C. Davis, P. Amusuo, and J.R. Bushagour. Experience Paper: A First Offering of Software Engineering. Proceedings of the 1st International Workshop on Designing and Running Project-Based Courses in Software Engineering Education (ICSE-DREE’22). 5 pages.",
+  "authors": "J.C. Davis, P. Amusuo, and J.R. Bushagour",
+  "title": "Experience Paper: A First Offering of Software Engineering",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "**Davis**",
+    "Amusuo",
+    "Bushagour"
+   ],
+   "title": "Experience Paper: A First Offering of Software Engineering",
+   "venue": "Proceedings of the 1st International Workshop on Designing and Running Project-Based Courses in Software Engineering Education (DREE)",
+   "year": 2022,
+   "paperBasename": "DavisAmusuoBushagour-ExperienceIn461.pdf",
+   "slidesBasename": "DavisAmusuoBushagour-ExperienceIn461-slides.pptx",
+   "artifactURL": "https://doi.org/10.5281/zenodo.5828087",
+   "videoURL": "https://youtu.be/HeMwfk1Ina0",
+   "blogURL": ""
+  }
+ },
+ "W-31": {
+  "raw": "N. Veselsky, J. West, I. Ahlgren, A. Goel, W. Jiang, K. Lee, Y. Kim, J.C. Davis, G.K. Thiruvathukal, and N. Klingensmith. Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach. Proceedings of the 2nd Workshop on Data-Driven and Intelligent Cyber-Physical Systems for Smart Cities (DI-CPS) (DI-CPS’22). 6 pages.",
+  "authors": "N. Veselsky, J. West, I. Ahlgren, A. Goel, W. Jiang, K. Lee, Y. Kim, J.C. Davis, G.K. Thiruvathukal, and N. Klingensmith",
+  "title": "Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach",
+  "pj": {
+   "type": "poster",
+   "authors": [
+    "Veselsky",
+    "West",
+    "Ahlgren",
+    "Goel",
+    "Jiang",
+    "Lee",
+    "Kim",
+    "**Davis**",
+    "Thiruvathukal",
+    "Klingensmith"
+   ],
+   "title": "Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach",
+   "venue": "Proceedings of the 23rd Annual International Workshop on Mobile Computing Systems and Application (HotMobile)",
+   "year": 2022,
+   "paperBasename": "VeselskyWestAhlgrenGoelJiangLeeKimDavisThiruvathukalKlingensmith-V2VTrust-HotMobile.pdf",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "W-32": {
+  "raw": "J.M. Winkler, A. Agarwal, C. Tung, D.R. Ugalde, Y.J. Jung, and J.C. Davis. A Replication of “DeepBugs: A Learning Approach to Name-based Bug Detection”. Proceedings of the 29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE’21 Artifact). 1 pages.",
+  "authors": "J.M. Winkler, A. Agarwal, C. Tung, D.R. Ugalde, Y.J. Jung, and J.C. Davis",
+  "title": "A Replication of “DeepBugs: A Learning Approach to Name-based Bug Detection”",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "Winkler",
+    "Agarwal",
+    "Tung",
+    "Ugalde",
+    "Jung",
+    "**Davis**"
+   ],
+   "title": "A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'",
+   "venue": "Proceedings of the 29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Artifacts Track (ESEC/FSE-Artifacts)",
+   "year": 2021,
+   "paperBasename": "https://github.com/PurdueDualityLab/deepbugs-jr/blob/develop/paper/Deepbugs_Replication_Paper_Abstract.pdf",
+   "slidesBasename": "",
+   "artifactURL": "https://doi.org/10.5281/zenodo.5110820",
+   "videoURL": "",
+   "blogURL": "https://davisjam.medium.com/a-partial-replication-of-deepbugs-a-learning-approach-to-name-based-bug-detection-1e35421a69e"
+  }
+ },
+ "W-33": {
+  "raw": "J.C. Davis. On the Impact and Defeat of Regex DoS. ACM Student Research Competition, 2019–2020 Grand Finals. Second place, graduate student division.",
+  "authors": "J.C. Davis",
+  "title": "On the Impact and Defeat of Regex DoS",
+  "pj": null
+ },
+ "W-34": {
+  "raw": "J.C. Davis. Rethinking Regex Engines to Address ReDoS. ACM Student Research Competition, 2019– 2020 at ESEC/FSE’19. First place, graduate student division.",
+  "authors": "J.C. Davis",
+  "title": "Rethinking Regex Engines to Address ReDoS",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "**Davis**"
+   ],
+   "title": "Rethinking Regex Engines to Address ReDoS",
+   "venue": "Proceedings of the 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE'19) --- Student research competition.",
+   "year": 2019,
+   "paperBasename": "Davis-RethinkingRegexEngines-FSE19-SRC-paper.pdf",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "W-35": {
+  "raw": "L. Rupprecht, J.C. Davis, C. Arnold, A. Lubbock, D. Tyson, and D. Bhagwat. Ursprung: Provenance for Large-Scale Analytics Environments. Proceedings of the 2019 International Conference on Management of Data (SIGMOD’19 Demo). 4 pages.",
+  "authors": "L. Rupprecht, J.C. Davis, C. Arnold, A. Lubbock, D. Tyson, and D. Bhagwat",
+  "title": "Ursprung: Provenance for Large-Scale Analytics Environments",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "Rupprecht",
+    "**Davis**",
+    "Lubbock",
+    "Tyson",
+    "Bhagwat"
+   ],
+   "title": "Ursprung: Provenance for Large-Scale Analytics Environments",
+   "venue": "Proceedings of the 2019 International Conference on Management of Data: Demonstrations track (SIGMOD-Demonstrations)",
+   "year": 2019,
+   "paperBasename": "RupprechtDavisetal-SIGMOD-Demo-19.pdf",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "W-36": {
+  "raw": "J.C. Davis, G. Kildow, and D. Lee. The Case of the Poisoned Event Handler: Weaknesses in the Node.js Event-Driven Architecture. Proceedings of the 10th European Workshop on Systems Security (EuroSec’17). 38% acceptance rate (9/24). 6 pages. PATENTS [Pa-1] W. Jiang, C. Cheung, H. Kim, M. Kim, and J.C. Davis. A method for identifying naming mismatches in neural networks based on their architectural properties. Purdue University, U.S. provisional patent application 63/813,549. Filed May 28, 2025. [Pa-2] J.C. Davis and W. Davis. Determining a validity of an event emitter based on a rule. IBM, US Patent 11,875,185 B2. Granted Jan. 16, 2024. [Pa-3] W. Davis and J.C. Davis. Verification of the Integrity of Data Files Stored in Copy-on-Write (CoW) Based File System Snapshots. IBM, U.S. patent 11,176,090 B2. Granted Nov. 16, 2021. [Pa-4] J.C. Davis and W. Davis. Injection of Simulated Hardware Failure(s) in a File System for Establishing File System Tolerance-to-Storage-Failure(s). IBM, U.S. patent 11,023,341 B2. Granted Jun. 1, 2021. [Pa-5] J.C. Davis, L. Rupprecht, D. Bhagwat, C. Arnold, and W. Sawdon. Performing Hierarchical Provenance Collection. IBM, U.S. patent 10,891,174 B1. Granted Jan. 12, 2021. [Pa-6] J.C. Davis, W. Davis. File Metadata Verification in a Distributed File System. IBM, U.S. patent 10,678,755 B2. Granted Jun. 9, 2020. [Pa-7] W. Davis and J.C. Davis. Testing of Lock Managers in Computing Environments. IBM, U.S patent 10,061,777 B1. Granted Aug. 28, 2018. [Pa-8] J.C. Davis, W. Davis, and F. Knop. Detection of File Corruption in a Distributed File System. IBM, U.S. patent 10,025,788. Granted Jul. 17, 2018. Page 14/23 BOOKS AND BOOK CHAPTERS",
+  "authors": "J.C. Davis, G. Kildow, and D. Lee",
+  "title": "The Case of the Poisoned Event Handler: Weaknesses in the Node.js Event-Driven Architecture",
+  "pj": {
+   "type": "workshop",
+   "authors": [
+    "**Davis**",
+    "Kildow",
+    "Lee"
+   ],
+   "title": "The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture",
+   "venue": "Proceedings of the 10th European Workshop on Systems Security (EuroSec)",
+   "year": 2017,
+   "paperBasename": "DavisKildowLee-EHP-EuroSec17.pdf",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "B-1": {
+  "raw": "J.C. Davis. (2026). Model-Based Agentic Software Engineering. Book manuscript. https://davisjam. github.io/model-based-agentic-software-engineering/book/index.html",
+  "authors": "J.C. Davis",
+  "title": "(2026)",
+  "pj": null
+ },
+ "B-2": {
+  "raw": "J.C. Davis. (2023). Epilogue: The Computer Engineer as Tool-User. In Y.H. Lu & G.K. Thiruvathukal, Intermediate C Programming (2nd edition, pp. 439–442). CRC Press. TECHNICAL REPORTS",
+  "authors": "J.C. Davis",
+  "title": "(2023)",
+  "pj": null
+ },
+ "R-1": {
+  "raw": "K. Kalu, H. Tran, S. Torres-Arias, S. Jeong, and J.C. Davis. A Longitudinal Study of Usability in Identity-Based Software Signing. https://arxiv.org/pdf/2603.17133. 2026.",
+  "authors": "K. Kalu, H. Tran, S. Torres-Arias, S. Jeong, and J.C. Davis",
+  "title": "A Longitudinal Study of Usability in Identity-Based Software Signing. https://arxiv.org/pdf/2603.17133. 2026",
+  "pj": {
+   "type": "arxiv",
+   "authors": [
+    "Kalu",
+    "Tran",
+    "Torres-Arias",
+    "Jeong",
+    "**Davis**"
+   ],
+   "title": "A Longitudinal Study of Usability in Identity-Based Software Signing",
+   "venue": "arXiv",
+   "year": 2026,
+   "paperBasename": "https://arxiv.org/pdf/2603.17133",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "R-2": {
+  "raw": "S. Muralee, S. Cherupattamoolayil, J.C. Davis, A. Bianchi, and A. Machiry. Reactive Bottom-Up Testing. https://arxiv.org/pdf/2509.03711. 2025.",
+  "authors": "S. Muralee, S. Cherupattamoolayil, J.C. Davis, A. Bianchi, and A. Machiry",
+  "title": "Reactive Bottom-Up Testing. https://arxiv.org/pdf/2509.03711. 2025",
+  "pj": {
+   "type": "arxiv",
+   "authors": [
+    "Muralee",
+    "Cherupattamoolayil",
+    "**Davis**",
+    "Bianchi",
+    "Machiry"
+   ],
+   "title": "Reactive Bottom-Up Testing",
+   "venue": "arXiv",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2509.03711",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "R-3": {
+  "raw": "J.C. Davis, S. Chen, H. Peng, P. Amusuo, and K. Kalu. A Guide to Stakeholder Analysis for Cybersecurity Researchers. https://arxiv.org/pdf/2508.14796. 2025.",
+  "authors": "J.C. Davis, S. Chen, H. Peng, P. Amusuo, and K. Kalu",
+  "title": "A Guide to Stakeholder Analysis for Cybersecurity Researchers. https://arxiv.org/pdf/2508.14796. 2025",
+  "pj": {
+   "type": "arxiv",
+   "authors": [
+    "**Davis**",
+    "Chen",
+    "Peng",
+    "Amusuo",
+    "Kalu"
+   ],
+   "title": "A Guide to Stakeholder Analysis for Cybersecurity Researchers",
+   "venue": "arXiv",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2508.14796",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "R-4": {
+  "raw": "B. Çakar, C. Sale, S. Chen, E. Burmane, D. Lee, and J.C. Davis. Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies. https://arxiv.org/pdf/2503.20579. 2025.",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "arxiv",
+   "authors": [
+    "Çakar",
+    "Sale",
+    "Chen",
+    "Burmane",
+    "Lee",
+    "**Davis**"
+   ],
+   "title": "Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies",
+   "venue": "arXiv",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2503.20579",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "R-5": {
+  "raw": "N. Ravi, A. Goel, J.C. Davis, and G.K. Thiruvathukal. Improving the Reproducibility of Deep Learning Software: An Initial Investigation through a Case Study Analysis. https://arxiv.org/pdf/2505.03165. 2025.",
+  "authors": "N. Ravi, A. Goel, J.C. Davis, and G.K. Thiruvathukal",
+  "title": "Improving the Reproducibility of Deep Learning Software: An Initial Investigation through a Case Study Analysis. https://arxiv.org/pdf/2505.03165. 2025",
+  "pj": null
+ },
+ "R-6": {
+  "raw": "H. Peng, A. Gupte, N. Eliopoulos, C. Ho, R. Mantri, L. Deng, W. Jiang, Y.H. Lu, K. Läufer, G.K. Thiruvathukal, and J.C. Davis. Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions. https://arxiv.org/pdf/2410.09241. 2024.",
+  "authors": "",
+  "title": "",
+  "pj": {
+   "type": "arxiv",
+   "authors": [
+    "Peng",
+    "Gupte",
+    "Eliopoulos",
+    "Ho",
+    "Mantri",
+    "Deng",
+    "Jiang",
+    "Lu",
+    "Läufer",
+    "Thiruvathukal",
+    "**Davis**"
+   ],
+   "title": "Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions",
+   "venue": "arXiv",
+   "year": 2024,
+   "paperBasename": "https://arxiv.org/pdf/2410.09241",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "R-7": {
+  "raw": "V. Purohit, W. Jiang, A.R. Ravikiran, and J.C. Davis. A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden. https://arxiv.org/pdf/2404.18801. 2024.",
+  "authors": "V. Purohit, W. Jiang, A.R. Ravikiran, and J.C. Davis",
+  "title": "A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden. https://arxiv.org/pdf/2404.18801. 2024",
+  "pj": {
+   "type": "arxiv",
+   "authors": [
+    "Purohit",
+    "Jiang",
+    "Ravikiran",
+    "**Davis**"
+   ],
+   "title": "A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden",
+   "venue": "arXiv",
+   "year": 2024,
+   "paperBasename": "https://arxiv.org/pdf/2404.18801",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "R-8": {
+  "raw": "V. Banna, A. Chinnakotla, Z. Yan, A. Vegesana, N. Vivek, K. Krishnappa, W. Jiang, Y.H. Lu, G.K. Thiruvathukal, and J.C. Davis. An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors. https://arxiv.org/abs/2107.00821. 2021. POSTERS",
+  "authors": "V. Banna, A. Chinnakotla, Z. Yan, A. Vegesana, N. Vivek, K. Krishnappa, W. Jiang, Y.H. Lu, G.K. Thiruvathukal, and J.C. Davis",
+  "title": "An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors. https://arxiv.org/abs/2107.00821. 2021",
+  "pj": {
+   "type": "arxiv",
+   "authors": [
+    "Banna",
+    "Chinnakotla",
+    "Yan",
+    "Vegesana",
+    "Vivek",
+    "Krishnappa",
+    "Jiang",
+    "Lu",
+    "Thiruvathukal",
+    "**Davis**"
+   ],
+   "title": "An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors",
+   "venue": "arXiv",
+   "year": 2021,
+   "paperBasename": "https://arxiv.org/pdf/2107.00821",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "Ps-1": {
+  "raw": "M. Ahmed, M. Abdelmouty, M. Kim, G. Kandula, A. Park, and J.C. Davis. Advancing Jailbreak Strategies: A Hybrid Approach to Exploiting LLM Vulnerabilities. Poster Session of the IEEE Secure Development Conference (IEEE SecDev–Poster’25).",
+  "authors": "M. Ahmed, M. Abdelmouty, M. Kim, G. Kandula, A. Park, and J.C. Davis",
+  "title": "Advancing Jailbreak Strategies: A Hybrid Approach to Exploiting LLM Vulnerabilities",
+  "pj": {
+   "type": "poster",
+   "authors": [
+    "Ahmed",
+    "Abdelmouty",
+    "Kim",
+    "Kandula",
+    "Park",
+    "**Davis**"
+   ],
+   "title": "Advancing Jailbreak Strategies: A Hybrid Approach to Exploiting LLM Vulnerabilities and Bypassing Modern Defenses",
+   "venue": "IEEE Secure Development Conference (SecDev) -- Poster Track",
+   "year": 2025,
+   "paperBasename": "https://arxiv.org/pdf/2506.21972",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "Ps-2": {
+  "raw": "K.G. Kalu and J.C. Davis. Investigating Software Provenance Consistency in the Open Source Publishing Pipeline. Poster Session of the 34th USENIX Security Symposium (USENIX Security–Poster’25).",
+  "authors": "K.G. Kalu and J.C. Davis",
+  "title": "Investigating Software Provenance Consistency in the Open Source Publishing Pipeline",
+  "pj": null
+ },
+ "Ps-3": {
+  "raw": "B. Çakar, C. Sale, S. Chen, E. Burmane, D. Lee, and J.C. Davis. Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies. The 12th Greater Chicago Area Systems Research Workshop (GCASR’25). Page 15/23",
+  "authors": "",
+  "title": "",
+  "pj": null
+ },
+ "Ps-4": {
+  "raw": "H. Peng, A. Gupte, R. Hasler, K. Läufer, G.K. Thiruvathukal, and J.C. Davis. Towards Scalable and Performance-Aware Code Optimization with LLMs. The 12th Greater Chicago Area Systems Research Workshop (GCASR’25).",
+  "authors": "",
+  "title": "",
+  "pj": null
+ },
+ "Ps-5": {
+  "raw": "L. Yadava, P. Kumar, Z. Homrich, R. Potta, P. Kapila, and J.C. Davis. Optimizing Multi-Agent Collaboration in Software Engineering. The 12th Greater Chicago Area Systems Research Workshop (GCASR’25).",
+  "authors": "L. Yadava, P. Kumar, Z. Homrich, R. Potta, P. Kapila, and J.C. Davis",
+  "title": "Optimizing Multi-Agent Collaboration in Software Engineering",
+  "pj": null
+ },
+ "Ps-6": {
+  "raw": "K.G. Kalu, S. Torres-Arias, and J.C. Davis. Software Signing: Practical Adoption, Challenges, and Tooling Usability. 2025 Purdue CERIAS Symposium (CERIAS’25). Award: Best Poster — 1st-place.",
+  "authors": "K.G. Kalu, S. Torres-Arias, and J.C. Davis",
+  "title": "Software Signing: Practical Adoption, Challenges, and Tooling Usability. 2025 Purdue CERIAS Symposium (CERIAS’25)",
+  "pj": null
+ },
+ "Ps-7": {
+  "raw": "N. Synovic, K. Ryzka, A.V. Solari, J.C. Davis, and G.K. Thiruvathukal. Exploring Deep Neural Network Reuse in Computational Natural Science. The Loyola University Chicago Undergraduate Research and Engagement Symposium (2025).",
+  "authors": "N. Synovic, K. Ryzka, A.V. Solari, J.C. Davis, and G.K. Thiruvathukal",
+  "title": "Exploring Deep Neural Network Reuse in Computational Natural Science",
+  "pj": null
+ },
+ "Ps-8": {
+  "raw": "L. Franke, H. Liang, A. Brantly, J.C. Davis, and C. Brown. A First Look at the General Data Protection Regulation (GDPR) in Open-Source Software. Proceedings of the ACM/IEEE 46th International Conference on Software Engineering — Poster Track (ICSE-Poster’24).",
+  "authors": "L. Franke, H. Liang, A. Brantly, J.C. Davis, and C. Brown",
+  "title": "A First Look at the General Data Protection Regulation (GDPR) in Open-Source Software",
+  "pj": {
+   "type": "poster",
+   "authors": [
+    "Franke",
+    "Liang",
+    "Brantly",
+    "**Davis**",
+    "Brown"
+   ],
+   "title": "A First Look at the General Data Protection Regulation (GDPR) in Open-Source Software",
+   "venue": "Proceedings of the ACM/IEEE 46th International Conference on Software Engineering -- Poster Track (ICSE-Poster)",
+   "year": 2024,
+   "paperBasename": "https://arxiv.org/pdf/2401.14629",
+   "slidesBasename": "FrankeLiangBrantlyDavisBrown-GDPRAndOSS-ICSEPoster2024-slides-poster.pptx",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "Ps-9": {
+  "raw": "S.R. Tanksalkar, J. Srinivasan, S. Danduri, P. Amusuo, J.C. Davis, and A. Machiry. LeMix: Rehosting Embedded Systems as Linux Applications for Effective Vulnerability Detection. 2024 Purdue CERIAS Symposium (CERIAS’24). Award: Best Poster — 1st-place.",
+  "authors": "S.R. Tanksalkar, J. Srinivasan, S. Danduri, P. Amusuo, J.C. Davis, and A. Machiry",
+  "title": "LeMix: Rehosting Embedded Systems as Linux Applications for Effective Vulnerability Detection. 2024 Purdue CERIAS Symposium (CERIAS’24)",
+  "pj": null
+ },
+ "Ps-10": {
+  "raw": "K.G. Kalu, S. Torres-Arias, and J.C. Davis. Navigating Software Supply Chain Risks: Practitioner Perspectives on Software Signing. 2024 Purdue CERIAS Symposium (CERIAS’24).",
+  "authors": "K.G. Kalu, S. Torres-Arias, and J.C. Davis",
+  "title": "Navigating Software Supply Chain Risks: Practitioner Perspectives on Software Signing. 2024 Purdue CERIAS Symposium (CERIAS’24)",
+  "pj": null
+ },
+ "Ps-11": {
+  "raw": "T.R. Schorlemmer, W. Jiang, and J.C. Davis. Machine Learning Supply Chain Security. 2023 Purdue CERIAS Symposium (CERIAS’23). Award: Best Poster — 2nd-place.",
+  "authors": "T.R. Schorlemmer, W. Jiang, and J.C. Davis",
+  "title": "Machine Learning Supply Chain Security. 2023 Purdue CERIAS Symposium (CERIAS’23)",
+  "pj": null
+ },
+ "Ps-12": {
+  "raw": "W. Jiang, T.R. Schorlemmer, and J.C. Davis. Trustworthy Re-use of Pre-trained Neural Networks. 2023 Purdue CERIAS Symposium (CERIAS’23).",
+  "authors": "W. Jiang, T.R. Schorlemmer, and J.C. Davis",
+  "title": "Trustworthy Re-use of Pre-trained Neural Networks. 2023 Purdue CERIAS Symposium (CERIAS’23)",
+  "pj": null
+ },
+ "Ps-13": {
+  "raw": "W. Maxam and J.C. Davis. Plan for an evaluation of government cyber threat hunting processes. 2022 Purdue CERIAS Symposium (CERIAS’22).",
+  "authors": "W. Maxam and J.C. Davis",
+  "title": "Plan for an evaluation of government cyber threat hunting processes. 2022 Purdue CERIAS Symposium (CERIAS’22)",
+  "pj": null
+ },
+ "Ps-14": {
+  "raw": "N. Hornbrook and J.C. Davis. An Intercultural Engineering Module for Software Engineers. 2021 Annual Colloquium for International Engineering Education (ACIEE’21).",
+  "authors": "N. Hornbrook and J.C. Davis",
+  "title": "An Intercultural Engineering Module for Software Engineers. 2021 Annual Colloquium for International Engineering Education (ACIEE’21)",
+  "pj": {
+   "type": "poster",
+   "authors": [
+    "Hornbrook",
+    "**Davis**"
+   ],
+   "title": "An Intercultural Engineering Module for Software Engineers",
+   "venue": "2021 Annual Colloquium for International Engineering Education (ACIEE)",
+   "year": 2021,
+   "paperBasename": "HornbrookDavis-InterculturalLearningModule-ACIEE2021.pdf",
+   "slidesBasename": "HornbrookDavis-InterculturalLearningModule-ACIEE2021-slides.pptx",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "Ps-15": {
+  "raw": "N. Vivek, A. Chinnakotla, V. Banna, A. Vegesana, Z. Yan, J.C. Davis, Y.H. Lu, and G.K. Thiruvathukal. Exemplars for Machine Learning: Towards Software Engineering & Reproducibility. SIAM Conference on Computational Science and Engineering (CSE’21). COURSES DESIGNED* OR RE-DESIGNED† † ECE 461 – Software Engineering Launched Fall 2021",
+  "authors": "N. Vivek, A. Chinnakotla, V. Banna, A. Vegesana, Z. Yan, J.C. Davis, Y.H. Lu, and G.K. Thiruvathukal",
+  "title": "Exemplars for Machine Learning: Towards Software Engineering & Reproducibility",
+  "pj": {
+   "type": "poster",
+   "authors": [
+    "Vivek",
+    "Chinnakotla",
+    "Banna",
+    "Vegesana",
+    "Yan",
+    "**Davis**",
+    "Lu",
+    "Thiruvathukal"
+   ],
+   "title": "Exemplars for Machine Learning: Towards Software Engineering & Reproducibility",
+   "venue": "SIAM Conference on Computational Science and Engineering (CSE)",
+   "year": 2020,
+   "paperBasename": "",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": "",
+   "blogURL": ""
+  }
+ },
+ "Pa-1": {
+  "raw": "A method for identifying naming mismatches in neural networks based on their architectural properties",
+  "authors": "Jiang, Cheung, Kim, Kim, **Davis**",
+  "title": "A method for identifying naming mismatches in neural networks based on their architectural properties",
+  "pj": {
+   "type": "patent",
+   "authors": [
+    "Jiang",
+    "Cheung",
+    "Kim",
+    "Kim",
+    "**Davis**"
+   ],
+   "title": "A method for identifying naming mismatches in neural networks based on their architectural properties",
+   "venue": "US provisional patent application, held by Purdue University",
+   "year": 2025,
+   "paperBasename": "",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "Pa-2": {
+  "raw": "Determining a validity of an event emitter based on a rule",
+  "authors": "**Davis**, Davis",
+  "title": "Determining a validity of an event emitter based on a rule",
+  "pj": {
+   "type": "patent",
+   "authors": [
+    "**Davis**",
+    "Davis"
+   ],
+   "title": "Determining a validity of an event emitter based on a rule",
+   "venue": "US patent, held by IBM",
+   "year": 2021,
+   "paperBasename": "https://patents.google.com/patent/US20220374265A1/en",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "Pa-3": {
+  "raw": "Verification of the Integrity of Data Files Stored in Copy-on-Write (CoW) Based File System Snapshots",
+  "authors": "Davis, **Davis**",
+  "title": "Verification of the Integrity of Data Files Stored in Copy-on-Write (CoW) Based File System Snapshots",
+  "pj": {
+   "type": "patent",
+   "authors": [
+    "Davis",
+    "**Davis**"
+   ],
+   "title": "Verification of the Integrity of Data Files Stored in Copy-on-Write (CoW) Based File System Snapshots",
+   "venue": "US patent, held by IBM",
+   "year": 2021,
+   "paperBasename": "https://patents.google.com/patent/US11176090B2/en",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "Pa-4": {
+  "raw": "Injection of simulated hardware failure(s) in a file system for establishing file system tolerance-to-storage-failure(s)",
+  "authors": "**Davis**, Davis",
+  "title": "Injection of simulated hardware failure(s) in a file system for establishing file system tolerance-to-storage-failure(s)",
+  "pj": {
+   "type": "patent",
+   "authors": [
+    "**Davis**",
+    "Davis"
+   ],
+   "title": "Injection of simulated hardware failure(s) in a file system for establishing file system tolerance-to-storage-failure(s)",
+   "venue": "US patent, held by IBM",
+   "year": 2021,
+   "paperBasename": "https://patents.google.com/patent/US11023341B2/en",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "Pa-5": {
+  "raw": "Performing hierarchical provenance collection",
+  "authors": "**Davis**, Rupprecht, Bhagwat, Arnold, Sawdon",
+  "title": "Performing hierarchical provenance collection",
+  "pj": {
+   "type": "patent",
+   "authors": [
+    "**Davis**",
+    "Rupprecht",
+    "Bhagwat",
+    "Arnold",
+    "Sawdon"
+   ],
+   "title": "Performing hierarchical provenance collection",
+   "venue": "US patent, held by IBM",
+   "year": 2021,
+   "paperBasename": "https://patents.google.com/patent/US10891174B1/en",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "Pa-6": {
+  "raw": "File metadata verification in a distributed file system",
+  "authors": "**Davis**, Davis",
+  "title": "File metadata verification in a distributed file system",
+  "pj": {
+   "type": "patent",
+   "authors": [
+    "**Davis**",
+    "Davis"
+   ],
+   "title": "File metadata verification in a distributed file system",
+   "venue": "US patent, held by IBM",
+   "year": 2020,
+   "paperBasename": "https://patents.google.com/patent/US10642796B2/en",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "Pa-7": {
+  "raw": "Testing of lock managers in computing environments",
+  "authors": "Davis, **Davis**",
+  "title": "Testing of lock managers in computing environments",
+  "pj": {
+   "type": "patent",
+   "authors": [
+    "Davis",
+    "**Davis**"
+   ],
+   "title": "Testing of lock managers in computing environments",
+   "venue": "US patent, held by IBM",
+   "year": 2020,
+   "paperBasename": "https://patents.google.com/patent/US10614040B2/en",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ },
+ "Pa-8": {
+  "raw": "Detection of file corruption in a distributed file system",
+  "authors": "**Davis**, Davis, Knop",
+  "title": "Detection of file corruption in a distributed file system",
+  "pj": {
+   "type": "patent",
+   "authors": [
+    "**Davis**",
+    "Davis",
+    "Knop"
+   ],
+   "title": "Detection of file corruption in a distributed file system",
+   "venue": "US patent, held by IBM",
+   "year": 2018,
+   "paperBasename": "https://patents.google.com/patent/US10229121B2/en",
+   "slidesBasename": "",
+   "artifactURL": "",
+   "videoURL": ""
+  }
+ }
+}

@@ -25,15 +25,20 @@ rate-limited run can simply be re-run.
 from __future__ import annotations
 
 import argparse
+import _paths
 import json
 import pathlib
 import subprocess
 import sys
 import time
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
-CACHE = ROOT / "data/openalex-cache.json"
-OUT = ROOT / "data/abstracts.json"
+# Resolved for BOTH layouts -- these used ROOT plus a literal davis-web path,
+# so they ran only from the orchestrator and would break the moment the site
+# had to rebuild itself without it.
+DATA, SITE = _paths.DATA, _paths.SITE
+ROOT = SITE.parent          # message text only; no path is built from it
+CACHE = DATA / "openalex-cache.json"
+OUT = DATA / "abstracts.json"
 S2 = "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,abstract"
 
 

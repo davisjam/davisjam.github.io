@@ -32,6 +32,7 @@ plausible score for an entirely wrong fact.
 from __future__ import annotations
 
 import argparse
+import _paths
 import pathlib
 import re
 import sys
@@ -41,9 +42,13 @@ import sys
 # "tuned for precision" and measured ~45% -- 28 of 51 refs were wrong. It was
 # checks/news_refs.py, reading independent evidence, that established this; the
 # matcher's own confidence signal did not.
-ROOT = pathlib.Path(__file__).resolve().parent.parent
-HOME = ROOT / "repos/davisjam.github.io/_pages/home.md"
-OUT = ROOT / "data/news.yaml"
+# Resolved for BOTH layouts -- these used ROOT plus a literal davis-web path,
+# so they ran only from the orchestrator and would break the moment the site
+# had to rebuild itself without it.
+DATA, PAGES, SITE = _paths.DATA, _paths.PAGES, _paths.SITE
+ROOT = SITE.parent          # message text only; no path is built from it
+HOME = PAGES / "home.md"
+OUT = DATA / "news.yaml"
 
 # An ANNOUNCEMENT reports that a work landed; a CITE merely points at one while
 # reporting something else ("Geoff heads to Bluesky ... a follow-up from our
@@ -224,9 +229,9 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
 
     import yaml
-    pubs = yaml.safe_load((ROOT / "data/publications.yaml").read_text())["publications"]
-    awards = yaml.safe_load((ROOT / "data/awards.yaml").read_text())["awards"]
-    grants = yaml.safe_load((ROOT / "data/funding.yaml").read_text())["grants"]
+    pubs = yaml.safe_load((DATA / "publications.yaml").read_text())["publications"]
+    awards = yaml.safe_load((DATA / "awards.yaml").read_text())["awards"]
+    grants = yaml.safe_load((DATA / "funding.yaml").read_text())["grants"]
 
     items = parse_home()
     rows, stats = [], {"publication": 0, "award": 0, "grant": 0, "authored": 0}

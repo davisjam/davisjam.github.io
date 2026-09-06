@@ -14,21 +14,31 @@ unchanged -- there is nothing to derive it from.
 from __future__ import annotations
 
 import argparse
+import _paths
+import _pubrefs
 import pathlib
 import re
 import sys
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
-HOME = ROOT / "repos/davisjam.github.io/_pages/home.md"
+# Resolved for BOTH layouts -- these used ROOT plus a literal davis-web path,
+# so they ran only from the orchestrator and would break the moment the site
+# had to rebuild itself without it.
+DATA, PAGES, SITE = _paths.DATA, _paths.PAGES, _paths.SITE
+ROOT = SITE.parent          # message text only; no path is built from it
+HOME = PAGES / "home.md"
 
 
 def load():
     import yaml
-    r = lambda p: yaml.safe_load((ROOT / p).read_text())
-    pubs = {p["id"]: p for p in r("data/publications.yaml")["publications"]}
-    grants = {g["id"]: g for g in r("data/funding.yaml")["grants"]}
-    awards = {a["id"]: a for cat in r("data/awards.yaml")["awards"].values() for a in cat}
-    return r("data/news.yaml")["news"], pubs, grants, awards
+    # DATA, not ROOT/"data/...". This lambda was the last ROOT-relative reader
+    # in the file and it is why --write raised FileNotFoundError from inside the
+    # site while every other path had been converted: one helper, four call
+    # sites, all of them wrong in the layout that has to survive.
+    r = lambda p: yaml.safe_load((DATA / p).read_text())
+    pubs = {p["id"]: p for p in r("publications.yaml")["publications"]}
+    grants = {g["id"]: g for g in r("funding.yaml")["grants"]}
+    awards = {a["id"]: a for cat in r("awards.yaml")["awards"].values() for a in cat}
+    return r("news.yaml")["news"], pubs, grants, awards
 
 
 def short_venue(v: str) -> str:
@@ -49,7 +59,10 @@ def render(item: dict, pubs, grants, awards) -> str:
         venue = short_venue(p.get("venue"))
         year = p.get("year")
         where = f"{venue} {year}" if venue and year else (venue or str(year or ""))
-        link = (p.get("links") or {}).get("paper") or (p.get("links") or {}).get("blog")
+        # Sixth consumer of "where does this record's link come from" -- see
+        # _pubrefs. Reading links.paper directly here is why a paper_url set on
+        # the record did not reach the news line.
+        link = _pubrefs.paper_link(p) or (p.get("links") or {}).get("blog")
         title = f"[{p['title']}]({link})" if link else p["title"]
         fact = f"*{title}*" + (f" — {where}." if where else ".")
     elif ref in awards:
@@ -94,13 +107,27 @@ def main(argv=None) -> int:
 
     by_year: dict[int, list[str]] = {}
     for it in news:
-        by_year.setdefault(it["year"], []).append(render(it, pubs, grants, awards))
+        # str(): the record carries years both quoted and bare, so grouping on
+        # the raw value gives int and str keys that will not sort against each
+        # other. Four-digit years sort identically as text.
+        by_year.setdefault(str(it["year"]), []).append(render(it, pubs, grants, awards))
     out = ["# Announcements", "",
+           "This disorganized list summarizes my research, teaching, and service activities.", "",
            "<!-- GENERATED from davis-web/data/news.yaml by generators/render_news.py.",
            "     Facts come from the canonical records; bylines are authored there. -->", ""]
-    for yr in sorted(by_year, reverse=True):
-        out.append(f"## {yr}")
+    # <details>/<summary> per year, newest open. Native elements: keyboard
+    # operable, announce their own expanded state, no ARIA and no JavaScript to
+    # fall out of sync with what is on screen. markdown="1" so kramdown still
+    # renders the bullets inside.
+    years = sorted(by_year, reverse=True)
+    for yr in years:
+        op = " open" if yr == years[0] else ""
+        out.append(f'<details class="news-year" markdown="1"{op}>')
+        out.append(f'<summary><h3 class="news-year__label">{yr}</h3></summary>')
+        out.append("")
         out += [f"- {line}" for line in by_year[yr]]
+        out.append("")
+        out.append("</details>")
         out.append("")
     text = HOME.read_text()
     HOME.write_text(text[:text.find("# Announcements")] + "\n".join(out))
