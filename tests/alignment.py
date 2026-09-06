@@ -41,11 +41,12 @@ import json
 import pathlib
 
 import _frontmatter
+import _sitepath
 import re
 import sys
 from dataclasses import dataclass, field
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
+ROOT, SITE, DATA_DIR = _sitepath.ROOT, _sitepath.SITE, _sitepath.DATA
 ORIGIN = "https://davisjam.github.io"
 
 ERROR, WARNING, ADVISORY = "ERROR", "WARNING", "ADVISORY"
@@ -86,10 +87,14 @@ class Engine:
 
 def load():
     import yaml
-    r = lambda p: yaml.safe_load((ROOT / p).read_text())
-    return {"sites": r("model/sites.yaml"), "pubs": r("data/publications.yaml"),
-            "fund": r("data/funding.yaml"), "service": r("data/service.yaml"),
-            "awards": r("data/awards.yaml"), "courses": r("data/courses.yaml")}
+    r = lambda p: yaml.safe_load(pathlib.Path(p).read_text())
+    # Resolved through _sitepath so this works from the orchestrator and from
+    # the copy inside the site; `r` takes an absolute path now, not a
+    # root-relative string.
+    M = DATA_DIR.parent / "model"
+    return {"sites": r(M / "sites.yaml"), "pubs": r(DATA_DIR / "publications.yaml"),
+            "fund": r(DATA_DIR / "funding.yaml"), "service": r(DATA_DIR / "service.yaml"),
+            "awards": r(DATA_DIR / "awards.yaml"), "courses": r(DATA_DIR / "courses.yaml")}
 
 
 def text_of(h: str) -> str:
@@ -207,8 +212,8 @@ def portfolio(e: Engine, m) -> None:
     o3 = e.obl("OBL-PORTFOLIO-003",
                "Project titles on the Research page match the model exactly.",
                ["model/sites.yaml", "repos/davisjam.github.io/_pages/research.md"])
-    page = ROOT / "repos/davisjam.github.io/_pages/research.md"
-    cards = ROOT / "repos/davisjam.github.io/_data/research.yml"
+    page = SITE / "_pages/research.md"
+    cards = SITE / "_data/research.yml"
     if not page.exists():
         o.fail("Research page missing"); return
     src = page.read_text()
@@ -236,7 +241,7 @@ def portfolio(e: Engine, m) -> None:
         n = sum(1 for x in m["pubs"]["publications"] if pid in (x.get("projects") or []))
         if e.get("publications") != n:
             o.fail(f"{pid} card claims {e.get('publications')} publications, model has {n}")
-        fig = ROOT / "repos/davisjam.github.io" / str(e.get("figure", "")).lstrip("/")
+        fig = SITE / str(e.get("figure", "")).lstrip("/")
         if not fig.exists():
             o.fail(f"{pid} card thumbnail missing: {e.get('figure')}")
         if len((e.get("figure_alt") or "").strip()) < 20:
@@ -544,7 +549,7 @@ def publications_page(e: Engine, m) -> None:
     o = e.obl("OBL-PUBS-001",
               "The Publications page renders every record in publications.yaml.",
               ["_dev/data/publications.yaml", "auto-publications.md"])
-    site = ROOT / "repos/davisjam.github.io"
+    site = SITE
     page = site / "auto-publications.md"
     if not page.exists():
         o.fail("auto-publications.md is missing"); return
@@ -577,7 +582,18 @@ def self_sufficient(e: Engine, m) -> None:
     o = e.obl("OBL-SELF-001",
               "The site carries its own generators, models and authored records.",
               ["repos/davisjam.github.io/_dev/"])
-    dev = ROOT / "repos/davisjam.github.io/_dev"
+    dev = SITE / "_dev"
+    # The checks must RUN from inside the site, not merely be present: each one
+    # hardcoded SITE = ROOT/"repos/davisjam.github.io", correct from the
+    # orchestrator and wrong from here, and a11y.py's tool-absent skip turned
+    # that into a silent pass on the accessibility gate.
+    for chk in ("a11y.py", "alignment.py", "layout.py", "links.py", "syntax.py",
+                "_sitepath.py", "_frontmatter.py"):
+        if not (SITE / "tests" / chk).exists():
+            o.fail(f"tests/{chk} is missing -- the site cannot check itself")
+    sp = SITE / "tests/_sitepath.py"
+    if sp.exists() and 'root / "repos/davisjam.github.io"' not in sp.read_text():
+        o.fail("tests/_sitepath.py no longer detects the orchestrator layout")
     for need in ("generators/_paths.py", "generators/generate_umbrella_pages.py",
                  "generators/generate_research_pages.py", "model/sites.yaml",
                  "figure-toolkit/check_figures.py", "README.md"):
@@ -610,7 +626,7 @@ def signature_figures(e: Engine, m) -> None:
               "Landing and programme page resolve the same signature-figure file.",
               ["repos/davisjam.github.io/_data/research.yml",
                "repos/davisjam.github.io/_pages/research-*.md"])
-    site = ROOT / "repos/davisjam.github.io"
+    site = SITE
     rec = _y.safe_load((site / "_data/research.yml").read_text()) or []
     for prog in rec:
         pid, landing = prog["slug"], prog.get("figure")
@@ -646,7 +662,7 @@ def records(e: Engine, m) -> None:
                ["data/service.yaml", "repos/davisjam.github.io/_pages/service.md"])
     o3 = e.obl("OBL-RECORD-003", "Course numbers on the Teaching page match the model.",
                ["data/courses.yaml", "repos/davisjam.github.io/_pages/teaching.md"])
-    pages = ROOT / "repos/davisjam.github.io/_pages"
+    pages = SITE / "_pages"
     for name in ("research", "teaching", "service"):
         f = pages / f"{name}.md"
         if not f.exists():
@@ -712,7 +728,7 @@ def links(e: Engine, m) -> None:
     by_title: dict[str, list] = {}
     for p in pubs:
         by_title.setdefault(" ".join(p["title"].split()), []).append(p)
-    umbrella = ROOT / "repos/davisjam.github.io"
+    umbrella = SITE
 
     for s in program_sites(m):
         f = built(s)
@@ -764,8 +780,8 @@ def structure(e: Engine, m) -> None:
                ["data/program-structure.yaml", "data/publications.yaml"])
 
     import yaml as _y
-    spec = _y.safe_load((ROOT / "data/program-structure.yaml").read_text())["programs"]
-    pages = ROOT / "repos/davisjam.github.io/_pages"
+    spec = _y.safe_load((DATA_DIR / "program-structure.yaml").read_text())["programs"]
+    pages = SITE / "_pages"
     for site in program_sites(m):
         pid = site["project_id"]
         prog = spec.get(pid)
@@ -818,7 +834,7 @@ def deployed(e: Engine, m) -> None:
 
     import subprocess
     import yaml as _y
-    spec = _y.safe_load((ROOT / "data/program-structure.yaml").read_text())["programs"]
+    spec = _y.safe_load((DATA_DIR / "program-structure.yaml").read_text())["programs"]
     for site in program_sites(m):
         pid = site["project_id"]
         want = (spec.get(pid) or {}).get("sections") or []

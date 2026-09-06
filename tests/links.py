@@ -27,8 +27,9 @@ import sys
 import urllib.parse
 from collections import defaultdict
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
-SITE = ROOT / "repos/davisjam.github.io"
+import _sitepath
+
+ROOT, SITE = _sitepath.ROOT, _sitepath.SITE
 ORIGIN = "https://davisjam.github.io"
 
 

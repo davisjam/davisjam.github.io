@@ -34,8 +34,9 @@ import json
 import pathlib
 import sys
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
-SITE = ROOT / "repos/davisjam.github.io"
+import _sitepath
+
+ROOT, SITE = _sitepath.ROOT, _sitepath.SITE
 AXE = SITE / "node_modules/axe-core/axe.min.js"
 ORIGIN = "https://davisjam.github.io"
 
@@ -82,6 +83,13 @@ def main(argv=None) -> int:
     ap.add_argument("--json", help="write full results here")
     args = ap.parse_args(argv)
 
+    if not (SITE / "_pages").is_dir():
+        # Not an environment problem: the checker is looking in the wrong place,
+        # and returning the skip code here would report a silent pass on a gate
+        # that scanned nothing. Exactly how this check sat inert in the pre-push
+        # hook until someone ran the hook by hand.
+        print(f"FATAL: {SITE} does not look like the site (no _pages/)")
+        return 1
     if not AXE.exists():
         print(f"axe-core not installed at {AXE}\n"
               f"  cd {SITE} && npm install --no-save axe-core@4.12.1")
