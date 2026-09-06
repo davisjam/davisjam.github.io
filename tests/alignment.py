@@ -661,7 +661,7 @@ def self_sufficient(e: Engine, m) -> None:
     # orchestrator and wrong from here, and a11y.py's tool-absent skip turned
     # that into a silent pass on the accessibility gate.
     for chk in ("a11y.py", "alignment.py", "layout.py", "links.py", "syntax.py",
-                "_sitepath.py", "_frontmatter.py"):
+                "news_refs.py", "_sitepath.py", "_frontmatter.py"):
         if not (SITE / "tests" / chk).exists():
             o.fail(f"tests/{chk} is missing -- the site cannot check itself")
     sp = SITE / "tests/_sitepath.py"
@@ -698,13 +698,26 @@ def self_sufficient(e: Engine, m) -> None:
         except SyntaxError:
             continue        # syntax.py is the gate for that, not this obligation
         for node in ast.walk(tree):
-            if (isinstance(node, ast.BinOp) and isinstance(node.op, ast.Div)
+            if not (isinstance(node, ast.BinOp) and isinstance(node.op, ast.Div)
                     and isinstance(node.right, ast.Constant)
-                    and isinstance(node.right.value, str)
-                    and "repos/davisjam.github.io" in node.right.value):
+                    and isinstance(node.right.value, str)):
+                continue
+            lit = node.right.value
+            base = node.left.id if isinstance(node.left, ast.Name) else None
+            if "repos/davisjam.github.io" in lit:
                 o.fail(f"tests/{chk.name}:{node.lineno} builds a path from "
-                       f"{node.right.value!r} -- use _sitepath.SITE, or it "
-                       f"silently scans nothing when run from inside the site")
+                       f"{lit!r} -- use _sitepath.SITE, or it silently scans "
+                       f"nothing when run from inside the site")
+            # ROOT is the one anchor that MEANS something different in each
+            # layout, so a literal hung off it is the bug. news_refs.py read
+            # ROOT/"data/news.yaml" and had therefore never once run in-site;
+            # it raised FileNotFoundError the first time anyone tried. The
+            # first version of this check only banned the repos/ literal and
+            # sailed straight past it, which is why it is generalised here.
+            elif base == "ROOT" and lit.split("/")[0] in ("data", "model", "generators"):
+                o.fail(f"tests/{chk.name}:{node.lineno} builds a path from "
+                       f"ROOT / {lit!r} -- ROOT differs between layouts; "
+                       f"use _sitepath.DATA or _sitepath.SITE")
 
     for need in ("generators/_paths.py", "generators/generate_umbrella_pages.py",
                  "generators/generate_research_pages.py", "model/sites.yaml",

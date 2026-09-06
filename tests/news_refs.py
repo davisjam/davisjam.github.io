@@ -32,7 +32,13 @@ import pathlib
 import re
 import sys
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
+import _sitepath
+
+# DATA, not ROOT/"data": the authored records live at davis-web/data from the
+# orchestrator and at <site>/_dev/data from inside the site. Hardcoding the
+# first meant this check had never once run in-site -- it raised
+# FileNotFoundError on a path that does not exist there.
+ROOT, SITE, DATA = _sitepath.ROOT, _sitepath.SITE, _sitepath.DATA
 
 ARXIV = re.compile(r"arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5})", re.I)
 # Venue as authors write it in news: **ICSE-NIER'25**, ASEE 2024, JSS'21
@@ -70,13 +76,13 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
 
     import yaml
-    news = yaml.safe_load((ROOT / "data/news.yaml").read_text())["news"]
+    news = yaml.safe_load((DATA / "news.yaml").read_text())["news"]
     pubs = {p["id"]: p for p in
-            yaml.safe_load((ROOT / "data/publications.yaml").read_text())["publications"]}
+            yaml.safe_load((DATA / "publications.yaml").read_text())["publications"]}
     grants = {g["id"]: g for g in
-              yaml.safe_load((ROOT / "data/funding.yaml").read_text())["grants"]}
+              yaml.safe_load((DATA / "funding.yaml").read_text())["grants"]}
     awards = {a["id"]: a for cat in
-              yaml.safe_load((ROOT / "data/awards.yaml").read_text())["awards"].values()
+              yaml.safe_load((DATA / "awards.yaml").read_text())["awards"].values()
               for a in cat}
 
     errors: list[tuple[str, str]] = []
