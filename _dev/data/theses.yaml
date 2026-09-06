@@ -12,6 +12,13 @@
 schema_version: 1
 
 theses:
+- author: Amusuo
+  title: Systematic and Scalable Memory Safety Assurance for Embedded Software Systems
+  degree: PhD
+  year: 2026
+  pdf_url: https://hammer.purdue.edu/articles/thesis/Systematic_and_Scalable_Memory_Safety_Assurance_for_Embedded_Software_Systems/33076745?file=66994349
+  department: Electrical & Computer Engineering
+  institution: Purdue University
 - author: Jiang
   title: Trustworthy Reuse in the Machine Learning Model Supply Chain
   degree: PhD

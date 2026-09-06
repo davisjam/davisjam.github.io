@@ -568,6 +568,47 @@ def publications_page(e: Engine, m) -> None:
         if " ".join(t["title"].split()).lower()[:48] not in text:
             o.fail(f"thesis absent from the page: {t['title'][:46]}")
 
+    # Same family, so it runs from here: PUBS maps to a single function.
+    patents(e, m)
+
+
+def patents(e: Engine, m) -> None:
+    """A patent is identified by its number; the URL is a function of it.
+
+    These records used to carry patent_number AND paper_url AND links.record --
+    three surfaces for one fact -- and they disagreed. Three of eight cited a
+    SIBLING continuation: same title, real grant, different number. Every URL
+    resolved and every title matched, so nothing looked wrong from the page, and
+    only comparing against CV-40 showed it. A fourth had a URL and no number,
+    and that got written down as an open question for James when the answer was
+    inside the URL.
+
+    Storing the number alone and deriving the link makes disagreement
+    impossible, so what remains to enforce is that nobody puts a URL back.
+    """
+    o = e.obl("OBL-PUBS-002",
+              "Patents store a number, not a hand-written URL.",
+              ["data/publications.yaml", "generators/generate_publications_page.py"])
+    import yaml as _y
+    pubs = _y.safe_load((DATA_DIR / "publications.yaml").read_text())["publications"]
+    for p in (x for x in pubs if str(x.get("id", "")).startswith("Pa-")):
+        pid = p["id"]
+        for field, val in (("paper_url", p.get("paper_url")),
+                           ("links", p.get("links"))):
+            if val and "patents.google.com" in str(val):
+                o.fail(f"{pid} hand-writes a patents.google.com URL in {field} -- "
+                       f"store patent_number and let the generator derive it")
+        # A provisional application is not published, so it has a serial and no
+        # page. Requiring a grant number would be wrong; requiring one or the
+        # other is what catches a record with neither.
+        if not p.get("patent_number") and not p.get("application_number"):
+            o.fail(f"{pid} has neither patent_number nor application_number -- "
+                   f"nothing identifies it and no link can be derived")
+        num = p.get("patent_number")
+        if num and not re.fullmatch(r"[A-Z]{2}\d+[A-Z]\d?", str(num)):
+            o.fail(f"{pid} patent_number {num!r} is not a grant number -- "
+                   f"a derived URL would 404")
+
 
 def self_sufficient(e: Engine, m) -> None:
     """The site must be able to regenerate itself with no external repo.

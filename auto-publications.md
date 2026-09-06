@@ -453,7 +453,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Determining a validity of an event emitter based on a rule*.  
  **Davis**, Davis.  
  US patent, held by IBM 2024.  
- <a href="https://patents.google.com/patent/US20220374265A1/en" aria-label="PDF: Determining a validity of an event emitter based on a rule"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+ <a href="https://patents.google.com/patent/US11875185B2/en" aria-label="PDF: Determining a validity of an event emitter based on a rule"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Verification of the Integrity of Data Files Stored in Copy-on-Write (CoW) Based File System Snapshots*.  
  Davis, **Davis**.  
  US patent, held by IBM 2021.  
@@ -469,15 +469,15 @@ To see them organized approximately by project, see [here](/research).
 1. *File metadata verification in a distributed file system*.  
  **Davis**, Davis.  
  US patent, held by IBM 2020.  
- <a href="https://patents.google.com/patent/US10642796B2/en" aria-label="PDF: File metadata verification in a distributed file system"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+ <a href="https://patents.google.com/patent/US10678755B2/en" aria-label="PDF: File metadata verification in a distributed file system"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Testing of lock managers in computing environments*.  
  Davis, **Davis**.  
- US patent, held by IBM 2020.  
- <a href="https://patents.google.com/patent/US10614040B2/en" aria-label="PDF: Testing of lock managers in computing environments"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+ US patent, held by IBM 2018.  
+ <a href="https://patents.google.com/patent/US10061777B1/en" aria-label="PDF: Testing of lock managers in computing environments"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Detection of file corruption in a distributed file system*.  
  **Davis**, Davis, Knop.  
- US patent, held by IBM 2019.  
- <a href="https://patents.google.com/patent/US10229121B2/en" aria-label="PDF: Detection of file corruption in a distributed file system"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+ US patent, held by IBM 2018.  
+ <a href="https://patents.google.com/patent/US10025788B2/en" aria-label="PDF: Detection of file corruption in a distributed file system"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 
 ## Posters
 
@@ -522,6 +522,10 @@ To see them organized approximately by project, see [here](/research).
 
 ### Doctoral
 
+1. *Systematic and Scalable Memory Safety Assurance for Embedded Software Systems*.  
+ **Amusuo**.  
+ PhD, Electrical & Computer Engineering, Purdue University 2026.  
+ <a href="https://hammer.purdue.edu/articles/thesis/Systematic_and_Scalable_Memory_Safety_Assurance_for_Embedded_Software_Systems/33076745?file=66994349" aria-label="PDF: Systematic and Scalable Memory Safety Assurance for Embedded Software Systems"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Trustworthy Reuse in the Machine Learning Model Supply Chain*.  
  **Jiang**.  
  PhD, Electrical & Computer Engineering, Purdue University 2025.  

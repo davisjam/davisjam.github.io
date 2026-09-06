@@ -45,6 +45,26 @@ def _label(text: str) -> str:
                 .replace("<", "&lt;").replace(">", "&gt;"))
 
 
+def _patent_url(p: dict) -> str | None:
+    """Google Patents URL derived from the grant number.
+
+    Patents used to carry the number AND a hand-written URL AND a links.record,
+    three surfaces for one fact, and they disagreed. Three records cited a
+    SIBLING continuation -- same title, real grant, different number -- which
+    resolves and reads correctly, so nothing looked wrong. One record had a URL
+    and no number at all, and that got written down as a question for James when
+    it was sitting in the URL.
+
+    The number is the identity and the URL is a function of it, so the number is
+    now the only thing stored. Deriving it here means they cannot drift.
+
+    Provisional applications have no published page, so Pa-1 correctly yields
+    nothing rather than a link to a 404.
+    """
+    num = p.get("patent_number")
+    return f"https://patents.google.com/patent/{num}/en" if num else None
+
+
 def entry(p: dict) -> list[str]:
     """One numbered item: title, authors, venue, link -- the page's own shape."""
     out = [f"1. *{' '.join(p['title'].split())}*.  "]
@@ -57,7 +77,7 @@ def entry(p: dict) -> list[str]:
     tail = " ".join(x for x in [" ".join(str(venue).split()), str(year) if year else ""] if x)
     if tail:
         out.append(f" {tail}.  ")
-    url = p.get("paper_url") or (p.get("links") or {}).get("record")
+    url = p.get("paper_url") or (p.get("links") or {}).get("record") or _patent_url(p)
     if url:
         # An anchor wrapping only an icon has no accessible name -- axe reported
         # 258 of these. The label names the specific paper rather than saying

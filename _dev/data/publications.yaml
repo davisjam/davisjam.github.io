@@ -1576,6 +1576,7 @@ publications:
     authors: "Jiang, Cheung, Kim, Kim, **Davis**"
     venue: "US provisional patent application, held by Purdue University"
     year: 2025
+    application_number: "63/813,549"
     program_notes:
       ptm-se: "Identifies naming mismatches from a network's architecture, making the naming problem detectable rather than only observable."
     projects: [ptm-se]
@@ -1588,88 +1589,49 @@ publications:
     authors: "**Davis**, Davis"
     venue: "US patent, held by IBM"
     year: 2024
-    paper_url: "https://patents.google.com/patent/US20220374265A1/en"
-    links:
-      paper: "https://patents.google.com/patent/US20220374265A1/en"
     patent_number: US11875185B2
-    links:
-      record: "https://patents.google.com/patent/US11875185B2/en"
-
   - id: Pa-3
     type: patent
     title: "Verification of the Integrity of Data Files Stored in Copy-on-Write (CoW) Based File System Snapshots"
     authors: "Davis, **Davis**"
     venue: "US patent, held by IBM"
     year: 2021
-    paper_url: "https://patents.google.com/patent/US11176090B2/en"
-    links:
-      paper: "https://patents.google.com/patent/US11176090B2/en"
     patent_number: US11176090B2
-    links:
-      record: "https://patents.google.com/patent/US11176090B2/en"
-
   - id: Pa-4
     type: patent
     title: "Injection of simulated hardware failure(s) in a file system for establishing file system tolerance-to-storage-failure(s)"
     authors: "**Davis**, Davis"
     venue: "US patent, held by IBM"
     year: 2021
-    paper_url: "https://patents.google.com/patent/US11023341B2/en"
-    links:
-      paper: "https://patents.google.com/patent/US11023341B2/en"
-
+    patent_number: US11023341B2
   - id: Pa-5
     type: patent
     title: "Performing hierarchical provenance collection"
     authors: "**Davis**, Rupprecht, Bhagwat, Arnold, Sawdon"
     venue: "US patent, held by IBM"
     year: 2021
-    paper_url: "https://patents.google.com/patent/US10891174B1/en"
-    links:
-      paper: "https://patents.google.com/patent/US10891174B1/en"
     patent_number: US10891174B1
-    links:
-      record: "https://patents.google.com/patent/US10891174B1/en"
-
   - id: Pa-6
     type: patent
     title: "File metadata verification in a distributed file system"
     authors: "**Davis**, Davis"
     venue: "US patent, held by IBM"
     year: 2020
-    paper_url: "https://patents.google.com/patent/US10642796B2/en"
-    links:
-      paper: "https://patents.google.com/patent/US10642796B2/en"
-    patent_number: US10642796B2
-    links:
-      record: "https://patents.google.com/patent/US10642796B2/en"
-
+    patent_number: US10678755B2
   - id: Pa-7
     type: patent
     title: "Testing of lock managers in computing environments"
     authors: "Davis, **Davis**"
     venue: "US patent, held by IBM"
-    year: 2020
-    paper_url: "https://patents.google.com/patent/US10614040B2/en"
-    links:
-      paper: "https://patents.google.com/patent/US10614040B2/en"
-    patent_number: US10614039B2
-    links:
-      record: "https://patents.google.com/patent/US10614039B2/en"
-
+    year: 2018
+    patent_number: US10061777B1
   - id: Pa-8
     type: patent
     title: "Detection of file corruption in a distributed file system"
     authors: "**Davis**, Davis, Knop"
     venue: "US patent, held by IBM"
-    year: 2019
-    paper_url: "https://patents.google.com/patent/US10229121B2/en"
-    links:
-      paper: "https://patents.google.com/patent/US10229121B2/en"
-    patent_number: US10229121B2
-    links:
-      record: "https://patents.google.com/patent/US10229121B2/en"
-
+    year: 2018
+    patent_number: US10025788B2
   - id: Ps-1
     type: poster
     title: "Advancing Jailbreak Strategies: A Hybrid Approach to Exploiting LLM Vulnerabilities and Bypassing Modern Defenses"
