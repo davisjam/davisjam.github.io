@@ -574,3 +574,35 @@
   font-size: 1em;
 }
 .news-year > summary + * { margin-top: 0.2em; }
+
+
+/* The sidebar scrolls on its own, independently of the page.
+
+   It is already position:sticky, but sticky alone does not help here: the rail
+   is ~1150px tall against a 900px viewport, so its lower part -- the funders,
+   and the tail of the practice rail -- simply cannot be reached while it is
+   stuck. Giving it its own scroll area is what makes the whole rail reachable
+   without scrolling the article.
+
+   Desktop only, for the same reason the practice rail is: below 64em the
+   sidebar stacks ABOVE the page content, where a fixed-height scroll box would
+   put a small scrolling window between the visitor and what they came for.
+
+   tabindex="0" is on the element in _includes/sidebar.html. A region with its
+   own scrollbar must be focusable or a keyboard user cannot scroll it -- WCAG
+   2.1.1, and axe's scrollable-region-focusable, which this repo's gate runs. */
+@media (min-width: 64em) {
+  .sidebar.sticky {
+    max-height: calc(100vh - 3rem);
+    overflow-y: auto;
+    /* Room for the scrollbar so text does not sit under it. */
+    padding-right: 0.4rem;
+    /* Thin, and only where supported; the default gutter is heavy beside
+       editorial type. */
+    scrollbar-width: thin;
+  }
+  .sidebar.sticky:focus-visible {
+    outline: 2px solid #8E6F3E;
+    outline-offset: 2px;
+  }
+}
