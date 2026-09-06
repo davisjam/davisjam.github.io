@@ -389,3 +389,29 @@
 /* A long bare URL in running text (the CV has several) must wrap rather than
    push the document sideways -- caught at 768px by the layout sweep. */
 .page__content a { overflow-wrap: anywhere; }
+
+/* ------------------------------------------------- tap targets (WCAG 2.5.8)
+   Standalone icon links were 23x20 in the sidebar and 13x20 on Publications,
+   under the 24x24 minimum. Inline links inside a sentence are exempt by the
+   success criterion -- their height is constrained by the surrounding
+   line-height -- so this deliberately targets only the icons, which are not
+   in a sentence and have no such excuse.
+
+   inline-flex with a min box rather than padding: padding on an inline anchor
+   grows the clickable area without moving the glyph, but it also overlaps the
+   neighbouring line, so two adjacent rows of icons end up with intersecting
+   hit areas and the wrong one wins. */
+.author__urls a,
+.page__content a:has(> i.fas),
+.page__content a:has(> i.fab),
+.page__content a:has(> i.ai) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  min-height: 24px;
+}
+
+/* The sidebar row is a list of icons; keep them from crowding once each one
+   claims its full target box. */
+.author__urls li { margin-bottom: 0.15em; }
