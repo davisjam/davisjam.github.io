@@ -87,9 +87,10 @@ graduate:
     research: Phishing measurements and tooling
   - name: Berk Çakar
     degree: Ph.D. student
-    # Not resolvable from the authors field (C-8 has none recorded), but the
-    # news byline for C-8 names him and C-8 is tagged software-supply-chain.
-    area: software-supply-chain
+    # Was inferred as software-supply-chain from the C-8 news byline; James
+    # 260905 gives the actual area, which spans two programmes and so is free
+    # text rather than a programme lookup.
+    research: Software engineering for domain-specific constructs (regexes, PTMs)
   - name: Huiyun Peng
     degree: Ph.D. student
     research: Agentic software engineering

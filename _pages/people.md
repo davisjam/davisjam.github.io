@@ -76,7 +76,7 @@ senior design, independent study, SURF, REU, and related programs.
   <div class="person__text">
     <p class="person__name">Berk Çakar</p>
     <p class="person__meta">Ph.D. student</p>
-    <p class="person__area">Software supply chains, signing, and trustworthy reuse</p>
+    <p class="person__area">Software engineering for domain-specific constructs (regexes, PTMs)</p>
   </div>
 </div>
 <div class="person">

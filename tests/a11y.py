@@ -113,6 +113,22 @@ def main(argv=None) -> int:
                          "where": label, "target": "-", "help": str(exc)[:80]})
                     page.close()
                     continue
+                # WAIT FOR greedy-nav TO SETTLE before scanning. It evicts nav
+                # items one at a time after load, so a scan at networkidle can
+                # catch the masthead mid-eviction. That produced a target-size
+                # failure on one page at one viewport which did not survive
+                # three re-runs -- and it BLOCKED a push. A gate that fails
+                # randomly is a gate people switch off, so this is worth more
+                # than the second it costs.
+                try:
+                    page.wait_for_function(
+                        """() => { const d = document.documentElement;
+                             const w = d.scrollWidth;
+                             if (window.__lastW === w) { return ++window.__stable > 2; }
+                             window.__lastW = w; window.__stable = 0; return false; }""",
+                        timeout=5000)
+                except Exception:
+                    pass
                 page.wait_for_timeout(400)
                 page.add_script_tag(content=axe_js)
                 res = page.evaluate(
