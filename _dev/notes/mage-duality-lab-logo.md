@@ -79,7 +79,7 @@ Add the lab logo as a NEW first child, before that link:
 
     '<nav class="v3-nav" aria-label="Primary">\n'
     '  <a class="v3-nav-lab" href="https://davisjam.github.io/">'
-    '<img src="/images/logo.svg" alt="Duality Lab — James C. Davis" '
+    '<img src="https://davisjam.github.io/images/logo.svg" alt="Duality Lab — James C. Davis" '
     'width="116" height="38"></a>\n'
     '  <a class="v3-nav-home" href="index.html">'      # unchanged from here
     ...
@@ -98,7 +98,7 @@ would overpower it.
 
     f"<main>\n"
     f'<a class="v3-nav-lab v3-nav-lab--crumb" href="https://davisjam.github.io/">'
-    f'<img src="/images/logo.svg" alt="Duality Lab \u2014 James C. Davis" '
+    f'<img src="https://davisjam.github.io/images/logo.svg" alt="Duality Lab \u2014 James C. Davis" '
     f'width="76" height="25"></a>\n'
     f"{crumb}\n{sub}{body}\n..."
 

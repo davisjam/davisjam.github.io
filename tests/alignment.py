@@ -932,11 +932,11 @@ def links(e: Engine, m) -> None:
 def external_consumers(e: Engine, m) -> None:
     """Assets another site references must not move without warning.
 
-    The MAGE site reaches the lab logo at /images/logo.svg. That resolves
-    because GitHub Pages serves THIS repo at the domain root and project repos
-    under /<repo>/, so a root-absolute path from a MAGE page lands here -- one
-    file, no copy, no sync step. (MAGE has no images/ of its own; that path
-    404s there, which is what makes the reference unambiguous.)
+    The MAGE site reaches the lab logo at the full URI
+    https://davisjam.github.io/images/logo.svg -- one file, no copy, no sync
+    step. The full form rather than a root-absolute path because the latter
+    404s under a local preview server, and a logo that looks broken through
+    every development session invites someone to vendor a copy.
 
     The cost of the arrangement is a dependency pointing the wrong way for
     enforcement: the consumer holds the controls, the producer has none. Rename

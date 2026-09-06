@@ -17,21 +17,30 @@ The logo has exactly one copy:
     live:  https://davisjam.github.io/images/logo.svg
     shape: SVG, viewBox "0 0 1160 380" (~3:1 wordmark), 3.8 KB
 
-**Reference it at `/images/logo.svg`. Do NOT copy the file into this repo.**
+**Reference it at the full URI `https://davisjam.github.io/images/logo.svg`.
+Do NOT copy the file into this repo.**
 
-Both sites are served from the same GitHub Pages origin — the homepage at
-`davisjam.github.io/`, this site at
-`davisjam.github.io/model-based-agentic-software-engineering/` — so a
-root-absolute path resolves across both. That is real single-sourcing: one
-file, one deploy, no sync step. It also works at any page depth, so unlike a
-vendored asset it needs no `rel_root` threading.
+One file, one deploy, no sync step — and unlike a vendored asset it needs no
+`rel_root` threading, because an absolute URI is depth-independent.
+
+A root-absolute `/images/logo.svg` would also resolve in production, since
+GitHub Pages serves the homepage at the domain root and this site under
+`/model-based-agentic-software-engineering/`. It is NOT used, for one reason
+that matters daily: it 404s under a local preview server, because nothing
+serves the homepage at localhost. The logo would look broken through every
+development session, and a broken-looking logo invites someone to "fix" it by
+vendoring a copy — precisely what this arrangement exists to prevent. The full
+URI renders identically in local preview, in production, and from a `file://`
+open.
 
 A vendored copy would drift the first time the logo is revised, and the drift
 is invisible because a stale logo still renders perfectly. Do not create one.
 
-Caveat to record in a comment, not to solve now: this holds only while MAGE is
-served under `davisjam.github.io`. If it moves to its own domain, switch to the
-absolute `https://davisjam.github.io/images/logo.svg` — still one source.
+Caveat to record in a comment, not to solve now: the URI hardcodes the
+homepage's host. If THAT site ever moves to a custom domain the reference must
+follow — one edit, still one source. This is the trade taken deliberately over
+root-absolute, which instead breaks if MAGE moves. MAGE is the more likely to
+move, and only the root-absolute form fails in local preview.
 
 ## Scope
 
@@ -53,7 +62,7 @@ Add a NEW first child before the existing `v3-nav-home` link:
 
         '<nav class="v3-nav" aria-label="Primary">\n'
         '  <a class="v3-nav-lab" href="https://davisjam.github.io/">'
-        '<img src="/images/logo.svg" alt="Duality Lab — James C. Davis" '
+        '<img src="https://davisjam.github.io/images/logo.svg" alt="Duality Lab — James C. Davis" '
         'width="116" height="38"></a>\n'
         '  <a class="v3-nav-home" href="index.html">'      # unchanged below
 
@@ -63,7 +72,7 @@ Add a NEW first child before the existing `v3-nav-home` link:
 
             f"<main>\n"
             f'<a class="v3-nav-lab v3-nav-lab--crumb" href="https://davisjam.github.io/">'
-            f'<img src="/images/logo.svg" alt="Duality Lab — James C. Davis" '
+            f'<img src="https://davisjam.github.io/images/logo.svg" alt="Duality Lab — James C. Davis" '
             f'width="76" height="25"></a>\n'
             f"{crumb}\n{sub}{body}\n{_site_footer(rel_root)}\n</main>\n</body>\n</html>\n")
 
@@ -99,7 +108,7 @@ Alongside the other `.v3-nav-*` rules (~line 2371, beside `.v3-nav-hat`):
      matching `*logo*.svg` / `*logo*.png` outside `node_modules`. This is what
      makes vendoring impossible to land rather than merely discouraged.
   2. Every generated page whose header this task touches references
-     `src="/images/logo.svg"` exactly — catching both a removed logo and a
+     `src="https://davisjam.github.io/images/logo.svg"` exactly — catching both a removed logo and a
      path rewritten to a relative or vendored one.
 
 **Tier-2, `tests/external.py`** (network; SKIP when offline, FAIL under
