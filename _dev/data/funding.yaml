@@ -43,6 +43,8 @@ grants:
     sponsor: US National Science Foundation
     number: "2526621"
     title: "Collaborative Research: SaTC 2.0: RES: AIGIS: Securing the Deep Learning Model Supply Chain"
+    start: 2026
+    end: 2030
     role: Purdue PI (Columbia University is lead)
     url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2526621
     projects: [ptm-se]
@@ -51,6 +53,8 @@ grants:
     sponsor: US National Science Foundation
     number: "2504445"
     title: "OAC Core: Cyberinfrastructure for Multi-Stream Architectures Applied to Computer Vision"
+    start: 2025
+    end: 2028
     role: Co-PI
     url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2504445
     projects: []          # efficient-ML cluster; no asserted program edge
@@ -59,6 +63,8 @@ grants:
     sponsor: US National Science Foundation
     number: "2452533"
     title: "RFE: Research: Developing and Piloting a Prompt Engineering Competency Framework for Software Engineering Education"
+    start: 2025
+    end: 2028
     role: Co-PI
     url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2452533
     projects: [mage]
@@ -70,6 +76,8 @@ grants:
     sponsor: US National Science Foundation
     number: "2537308"
     title: "Collaborative Research: Planning: CROSS: Building a Community aROund Securing the Research Software Supply Chain"
+    start: 2025
+    end: 2027
     role: PI (Purdue is lead)
     url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2537308
     projects: [software-supply-chain]
@@ -108,6 +116,8 @@ grants:
     sponsor: US National Science Foundation
     number: "2343596"
     title: "Collaborative Research: EAGER: CET: Exploring The Risks and Rewards of Large Language Models in Enabling Energy-Efficient Data Center Software Infrastructure"
+    start: 2024
+    end: 2026
     role: Purdue PI
     url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2343596
     projects: []          # energy-efficiency work; edge not asserted
@@ -124,6 +134,8 @@ grants:
     sponsor: US National Science Foundation
     number: "2512797"
     title: "Travel: NSF Student Travel Grant for 2025 International Conference on Software Engineering"
+    start: 2024
+    end: 2025
     role: PI
     projects: []
 
@@ -154,6 +166,8 @@ grants:
     sponsor: US National Science Foundation
     number: "2135156"
     title: "Collaborative Research: SaTC: CORE: Small: Improving Sanitization and Avoiding Denial of Service Through Correct and Safe Regexes"
+    start: 2022
+    end: 2025
     role: PI (Purdue is lead)
     url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2135156
     projects: [saferegex]
@@ -163,6 +177,8 @@ grants:
     sponsor: US National Science Foundation
     number: "2229703"
     title: "POSE: Phase I: Scoping An Open-Source Ecosystem Around Proactive Software Supply Chain Monitoring"
+    start: 2022
+    end: 2023
     role: Co-PI
     url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2229703
     projects: [software-supply-chain]
@@ -194,6 +210,8 @@ grants:
     sponsor: US National Science Foundation
     number: "2107230"
     title: "Collaborative Research: OAC Core: Advancing Low-Power Computer Vision at the Edge"
+    start: 2021
+    end: 2024
     role: Co-PI
     url: https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2107230
     projects: []          # efficient-ML cluster

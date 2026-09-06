@@ -181,6 +181,25 @@ def funding(e: Engine, m) -> None:
     o3 = e.obl("OBL-FUND-003",
                "No site names a sponsor absent from its modeled grant edges.",
                ["data/funding.yaml", "repos/*/index.html"])
+    # OBL-FUND-004: every grant is dated, and the dates are ordered.
+    #
+    # Nine of twenty-four -- every NSF-numbered award, CAREER and AIGIS among
+    # them -- carried no start year. Nothing renders wrong today because nothing
+    # sorts on it; the funders rail groups by sponsor. But a null start is a
+    # defect waiting for the first date-ordered view, and it would sort the two
+    # largest awards to the bottom or drop them. Dates come from CV-40's
+    # EXTERNAL GRANTS blocks, which state a span for every award.
+    o4 = e.obl("OBL-FUND-004",
+               "Every grant carries an ordered date span.",
+               ["data/funding.yaml"])
+    for g in m["fund"]["grants"]:
+        start, end = g.get("start"), g.get("end")
+        if not start:
+            o4.fail(f"{g['id']} has no start year -- any date-ordered view "
+                    f"mis-sorts or drops it: {str(g.get('title'))[:44]}")
+        elif end and end < start:
+            o4.fail(f"{g['id']} ends ({end}) before it starts ({start})")
+
     for s in live_sites(m):
         f = built(s)
         if not f.exists():
