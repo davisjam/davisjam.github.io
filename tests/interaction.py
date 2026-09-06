@@ -177,7 +177,12 @@ def main(argv=None) -> int:
         browser = pw.chromium.launch()
         for url in urls:
             slug = url.rstrip("/").rsplit("/", 1)[-1] or "home"
-            page = browser.new_page(viewport={"width": 1280, "height": 900})
+            # 1440, not 1280. The flyout is a hover affordance on the nav bar,
+            # and below 1400 the bar collapses to the hamburger by design -- so
+            # at 1280 this was hovering a chevron inside a closed menu, measuring
+            # 0x0. Testing a hover behaviour at a width where hover is not the
+            # interaction was asserting nothing.
+            page = browser.new_page(viewport={"width": 1440, "height": 900})
             page.goto(url, wait_until="networkidle", timeout=45000)
 
             before = len(failures)

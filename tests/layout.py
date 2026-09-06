@@ -120,6 +120,69 @@ PROBE = """() => {
 }"""
 
 
+def check_navigation(browser, failures: list[str]) -> None:
+    """The navigation bar must be whole on a laptop and collapsed on a phone.
+
+    Pinned because the margin is thin and the failure is silent. The bar's items
+    total ~1413px with a programme slug expanded, against 1340px of masthead at
+    1440 -- 26px of slack. The next nav label, or a longer programme name, spends
+    it, and the symptom is a link quietly missing from the bar rather than
+    anything that looks broken.
+
+    The longest slug is used deliberately: it is the worst case, and the bar is
+    only correct if the worst case fits.
+
+    This also guards the reason nav-breakpoint.js exists. greedy-nav evicted
+    items and could not restore them -- available space had to exceed the whole
+    previous list width, never an individual item's -- so items disappeared
+    permanently after any transient narrow moment during load.
+    """
+    url = ORIGIN + "/research/software-supply-chain/"
+    probe = """() => ({h: document.querySelectorAll('.greedy-nav .hidden-links > li').length,
+                       v: document.querySelectorAll('.greedy-nav .visible-links > li').length,
+                       burger: document.querySelector('.greedy-nav button').classList.contains('hidden'),
+                       over: document.documentElement.scrollWidth - document.documentElement.clientWidth})"""
+
+    for w in (1440, 1512, 1920):
+        page = browser.new_page(viewport={"width": w, "height": 900})
+        page.goto(url, wait_until="networkidle"); page.wait_for_timeout(800)
+        r = page.evaluate(probe)
+        if r["h"]:
+            failures.append(f"FAIL  nav @{w}: {r['h']} item(s) hidden on a laptop "
+                            f"-- the bar must be whole above 1400px")
+        if not r["burger"]:
+            failures.append(f"FAIL  nav @{w}: hamburger shown on a laptop")
+        if r["over"] > 0:
+            failures.append(f"FAIL  nav @{w}: masthead overflows by {r['over']}px")
+        page.close()
+
+    for w in (375, 768, 1280):
+        page = browser.new_page(viewport={"width": w, "height": 812})
+        page.goto(url, wait_until="networkidle"); page.wait_for_timeout(800)
+        r = page.evaluate(probe)
+        if r["burger"]:
+            failures.append(f"FAIL  nav @{w}: no hamburger below 1400px")
+        # The logo is site identity and must never be behind the toggle: losing
+        # it is how the masthead collapsed to nothing on phones before.
+        if r["v"] != 1:
+            failures.append(f"FAIL  nav @{w}: {r['v']} item(s) in the bar, want the logo alone")
+        if r["over"] > 0:
+            failures.append(f"FAIL  nav @{w}: masthead overflows by {r['over']}px")
+
+        # The six programmes hang off a hover flyout, and a phone cannot hover.
+        # They stay reachable because the collapsed menu links to /research/,
+        # which lists them -- two taps rather than a nested submenu. That is a
+        # deliberate choice, so it is asserted rather than assumed: without this
+        # link the programmes become unreachable on a phone entirely.
+        page.click(".greedy-nav button")
+        page.wait_for_timeout(300)
+        if not page.evaluate("() => [...document.querySelectorAll('.hidden-links a')]"
+                             ".some(a => (a.getAttribute('href') || '').endsWith('/research/'))"):
+            failures.append(f"FAIL  nav @{w}: collapsed menu has no link to /research/ "
+                            f"-- the six programmes are unreachable without hover")
+        page.close()
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -159,6 +222,7 @@ def main(argv=None) -> int:
     failures: list[str] = []
     with sync_playwright() as pw:
         browser = pw.chromium.launch()
+        check_navigation(browser, failures)
         for url in urls:
             slug = url.rstrip("/").rsplit("/", 1)[-1] or "home"
             for w, h in VIEWPORTS:
