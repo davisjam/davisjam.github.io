@@ -357,17 +357,6 @@
    which an SVG carrying just a viewBox does not supply in this table-cell
    context. The SVG now declares width/height, and the height is pinned here so
    the lockup is sized by intent rather than by whatever the container infers. */
-/* MOBILE BUDGET. greedy-nav measures (nav width - hamburger width) and evicts
-   items until the rest fit. It treats the logo as just another <li>, so at
-   375px a 244px logo left ~54px of budget, everything was evicted INCLUDING the
-   logo, .visible-links emptied, and the whole masthead collapsed to zero height
-   -- taking the hamburger with it. Shrinking the logo below 30em restores the
-   budget. This is the containment, not the cure: the cure is to stop greedy-nav
-   treating site identity as an evictable link. */
-@media (max-width: 30em) {
-  .masthead__menu-logo { height: 40px; max-width: 130px; }
-}
-
 .masthead__menu-logo {
   /* The old raster was 216x93 and the theme's max-width:150px rendered it at
      roughly 150x65. This lockup is a flatter 3.05 ratio, so matching only the
@@ -377,6 +366,24 @@
   width: auto;
   max-width: 320px;
   display: block;
+}
+
+/* MOBILE BUDGET -- and this must come AFTER the rule above, not before it:
+   same specificity, so source order decides, and my first attempt at this sat
+   above and lost silently.
+
+   greedy-nav computes (nav width - button width - 30) and then recurses,
+   evicting .visible-links' LAST child until the remainder fit. There is no
+   termination guard, and the logo is just another <li> to it: at 375px the
+   budget is ~236px against a 244px logo, so eviction ran until the list was
+   EMPTY -- logo included -- the masthead collapsed to zero height, and the
+   hamburger inside it went to zero with it. Nothing on the page was tappable.
+
+   A 130px logo sits inside the budget, so the loop terminates with the logo
+   still visible and every link behind the hamburger, which is the behaviour
+   you want on a phone anyway. */
+@media (max-width: 30em) {
+  .masthead__menu-logo { height: 40px; max-width: 130px; }
 }
 
 /* A long bare URL in running text (the CV has several) must wrap rather than
