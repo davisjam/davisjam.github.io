@@ -15,6 +15,8 @@ Per viewport it asserts:
   no-doc-overflow      documentElement.scrollWidth <= clientWidth
   no-element-overflow  no element's box extends past the viewport, unless it sits
                        inside a scrollable container (where that is the point)
+  masthead-survives    the nav has height, the logo was not evicted into the
+                       hidden menu, and the hamburger is tappable when it matters
   cards-in-bounds      every research card sits inside its grid container
   images-in-bounds     no card image overflows its media box
   column-count         the card grid uses a sensible number of columns for the
@@ -68,6 +70,25 @@ PROBE = """() => {
               left: Math.round(r.left), right: Math.round(r.right), w: Math.round(r.width)}; })
     .filter(x => x.w > 0 && (x.left < -1 || x.right > vw + 1));
 
+  // THE MASTHEAD MUST SURVIVE ITS OWN LAYOUT ALGORITHM.
+  // greedy-nav evicts .visible-links' last child, recursively and without a
+  // termination guard, until the remainder fit. The logo is just another <li>
+  // to it, so an over-wide logo made it evict everything -- logo included --
+  // leaving an empty list, a zero-height masthead, and a hamburger that was
+  // present, correct and zero pixels tall. No overflow check can see that:
+  // nothing overflowed, there was simply nothing left.
+  const nav = document.querySelector('.greedy-nav');
+  const logo = document.querySelector('.masthead__menu-logo');
+  const navBtn = document.querySelector('.greedy-nav button');
+  const hiddenCount = document.querySelectorAll('.greedy-nav .hidden-links > li').length;
+  const masthead = nav ? {
+    navH: Math.round(nav.getBoundingClientRect().height),
+    logoEvicted: !!(logo && logo.closest('.hidden-links')),
+    logoH: logo ? Math.round(logo.getBoundingClientRect().height) : 0,
+    btnH: navBtn ? Math.round(navBtn.getBoundingClientRect().height) : 0,
+    hiddenCount: hiddenCount,
+  } : null;
+
   const grid = document.querySelector('.research-grid');
   let columns = null, cardsOut = [], imgsOut = [];
   if (grid) {
@@ -85,7 +106,7 @@ PROBE = """() => {
   const page = document.querySelector('.page');
   const box = el => el ? Math.round(el.getBoundingClientRect().width) : null;
   return {scrollWidth: de.scrollWidth, clientWidth: de.clientWidth, vw,
-          offenders: offenders.slice(0, 8), columns, cardsOut, imgsOut,
+          offenders: offenders.slice(0, 8), columns, cardsOut, imgsOut, masthead,
           mainW: box(main), pageW: box(page), gridW: box(grid)};
 }"""
 
@@ -138,6 +159,21 @@ def main(argv=None) -> int:
                 except Exception as exc:
                     failures.append(f"{slug} @{w}: load failed ({str(exc)[:60]})")
                     page.close(); continue
+                # WAIT FOR greedy-nav TO SETTLE. It evicts nav items one at a
+                # time, recursively, after load -- so measuring at networkidle
+                # can catch it mid-eviction and report an overflow that exists
+                # for a few frames and then does not. That produced a phantom
+                # failure on one page at one width, which is worse than no
+                # check: it teaches you to re-run until green.
+                try:
+                    page.wait_for_function(
+                        """() => { const d = document.documentElement;
+                             const w = d.scrollWidth;
+                             if (window.__lastW === w) { return ++window.__stable > 2; }
+                             window.__lastW = w; window.__stable = 0; return false; }""",
+                        timeout=5000)
+                except Exception:
+                    pass          # settled or not, measure what is there
                 r = page.evaluate(PROBE)
                 if shots:
                     page.screenshot(path=str(shots / f"{slug}-{w}x{h}.png"), full_page=True)
@@ -146,6 +182,17 @@ def main(argv=None) -> int:
                     print(f"  {slug:<38} {w:>5}px  main={r['mainW']} page={r['pageW']} "
                           f"grid={r['gridW']} cols={r['columns']}")
                 else:
+                    m = r.get("masthead")
+                    if m:
+                        if m["navH"] < 20:
+                            failures.append(f"{slug} @{w}: masthead collapsed to "
+                                            f"{m['navH']}px -- nothing in it is reachable")
+                        if m["logoEvicted"]:
+                            failures.append(f"{slug} @{w}: the logo was evicted into the "
+                                            f"hidden menu -- site identity is not a nav link")
+                        if m["hiddenCount"] and m["btnH"] < 20:
+                            failures.append(f"{slug} @{w}: {m['hiddenCount']} links are behind "
+                                            f"a hamburger only {m['btnH']}px tall")
                     if r["scrollWidth"] > r["clientWidth"] + 1:
                         failures.append(f"{slug} @{w}: document overflows "
                                         f"({r['scrollWidth']} > {r['clientWidth']})")
