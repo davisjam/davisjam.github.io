@@ -735,9 +735,21 @@ def self_sufficient(e: Engine, m) -> None:
     # false-green shape as a check that scans nothing.
     import re as _re
     for gen in sorted((dev / "generators").glob("*.py")):
-        for m in _re.finditer(r'"([\w.-]+\.(?:json|yaml))"', gen.read_text()):
-            name = m.group(1)
-            if not list(dev.rglob(name)) and not list(SITE.glob(name)):
+        # Slashes allowed. The first version matched only bare filenames, which
+        # happened to work because the generators had just been converted to
+        # DATA / "file.json" -- a nested DATA / "sub/file.json" would have
+        # slipped straight past. A control that passes because of an unrelated
+        # cleanup is not a control.
+        for m in _re.finditer(r'"([\w./-]+\.(?:json|yaml))"', gen.read_text()):
+            name = m.group(1).rsplit("/", 1)[-1]
+            # rglob on the SITE, not glob. publications.json lives at
+            # markdown_generator/publications.json -- present, but invisible to
+            # a top-level-only search, so the check reported a file as missing
+            # that was sitting right there. A control that cries wolf gets
+            # ignored exactly as fast as one that sleeps.
+            here = [q for q in SITE.rglob(name)
+                    if "node_modules" not in q.parts and ".git" not in q.parts]
+            if not list(dev.rglob(name)) and not here:
                 o.fail(f"_dev/generators/{gen.name} reads {name}, which is not "
                        f"in the site -- it would break once davis-web is gone")
 
