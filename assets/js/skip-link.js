@@ -15,7 +15,10 @@
   var link = document.querySelector('.skip-link');
   if (!link) return;
   link.addEventListener('click', function (e) {
-    var target = document.querySelector(link.getAttribute('href'));
+    // #content is the article body; #main also wraps the sidebar, whose
+    // nine links the skip is meant to jump. Fall back if a layout lacks it.
+    var target = document.querySelector(link.getAttribute('href'))
+              || document.querySelector('#main');
     if (!target) return;
     e.preventDefault();
     e.stopPropagation();
