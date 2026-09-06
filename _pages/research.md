@@ -114,8 +114,8 @@ The complete record is on the [Publications](/publications/) page.
 - A method for identifying naming mismatches in neural networks based on their architectural properties (2025) — provisional application
 - [Determining a validity of an event emitter based on a rule](https://patents.google.com/patent/US11875185B2/en) (2024)
 - [Verification of the Integrity of Data Files Stored in Copy-on-Write (CoW) Based File System Snapshots](https://patents.google.com/patent/US11176090B2/en) (2021)
-- Injection of simulated hardware failure(s) in a file system for establishing file system tolerance-to-storage-failure(s) (2021)
+- [Injection of simulated hardware failure(s) in a file system for establishing file system tolerance-to-storage-failure(s)](https://patents.google.com/patent/US11023341B2/en) (2021)
 - [Performing hierarchical provenance collection](https://patents.google.com/patent/US10891174B1/en) (2021)
-- [File metadata verification in a distributed file system](https://patents.google.com/patent/US10642796B2/en) (2020)
-- [Testing of lock managers in computing environments](https://patents.google.com/patent/US10614039B2/en) (2020)
-- [Detection of file corruption in a distributed file system](https://patents.google.com/patent/US10229121B2/en) (2019)
+- [File metadata verification in a distributed file system](https://patents.google.com/patent/US10678755B2/en) (2020)
+- [Testing of lock managers in computing environments](https://patents.google.com/patent/US10061777B1/en) (2018)
+- [Detection of file corruption in a distributed file system](https://patents.google.com/patent/US10025788B2/en) (2018)

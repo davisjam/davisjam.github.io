@@ -27,6 +27,7 @@ def yq(v: str) -> str:
 
 
 import _paths
+import _pubrefs
 import yaml
 
 # Resolved from whichever layout this copy sits in -- see _paths.py.
@@ -131,7 +132,7 @@ def cite(p: dict) -> str:
     # Emit HTML, not Markdown: kramdown does not process Markdown inside a
     # block-level <div>, so [text](url) would render literally.
     import html as _h
-    link = p.get("paper_url")
+    link = _pubrefs.paper_link(p)
     t = _h.escape(p["title"])
     title = f'<a href="{_h.escape(str(link), quote=True)}">{t}</a>' if link else t
     return f'{title} <span class="venue">({where})</span>' if where else title
@@ -288,7 +289,7 @@ My current research is organized around six programs.
     # patents visually outweigh everything else on the page.
     o.append("\n## Patents\n")
     for p in pats:
-        rec = (p.get("links") or {}).get("record")
+        rec = _pubrefs.paper_link(p)
         title = f"[{p['title']}]({rec})" if rec else p["title"]
         note = " — provisional application" if p["id"] == "Pa-1" else ""
         o.append(f"- {title} ({p.get('year', 'n.d.')}){note}")

@@ -1353,7 +1353,7 @@ publications:
   - id: W-33
     type: workshop
     title: "On the Impact and Defeat of Regex DoS"
-    venue: "ACM Student Research Competition, Grand Finals - second place, graduate student division"
+    venue: "ACM Student Research Competition (Grand Finals)"
     year: 2020
     authors: "J.C. Davis"
     program_notes:

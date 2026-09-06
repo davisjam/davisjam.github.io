@@ -37,6 +37,7 @@ width, navigation vocabulary.
 from __future__ import annotations
 
 import html
+import _pubrefs
 
 # Measured from davisjam.github.io, plus the Purdue palette. Every rule below
 # refers to these; no literal colour appears twice.
@@ -261,7 +262,7 @@ def bibliography(entries: list[dict], project: str) -> str:
                              for a in (p.get("awards") or []))
             # The TITLE is the link. A separate [Paper] chip beside a linked
             # title is redundant, and it is what let unlinked titles hide.
-            url = p.get("paper_url")
+            url = _pubrefs.paper_link(p)
             t = f'<a href="{esc(url)}">{esc(p["title"])}</a>' if url else esc(p["title"])
             out.append(f'<div class="ti">{t}{awards}</div>')
             if p.get("venue"):
@@ -270,7 +271,7 @@ def bibliography(entries: list[dict], project: str) -> str:
             if note:
                 out.append(f'<div class="note">{esc(note)}</div>')
             # Only DISTINCT artifacts, never a second route to the paper itself.
-            resolved = p.get("paper_url")
+            resolved = _pubrefs.paper_link(p)
             links = [(n, u) for n, u in (p.get("links") or {}).items()
                      if u and u != resolved and n not in ("paper", "record")
                      and not str(u).startswith("/files/")]

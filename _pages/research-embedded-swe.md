@@ -49,7 +49,7 @@ A found defect is weaker than a guaranteed absence. The current thrust asks whet
 <ul class="pub-list">
   <li><span class="pub-title"><a href="https://arxiv.org/pdf/2410.14818">A Unit Proofing Framework for Code-level Verification: A Research Agenda</a></span><br><span class="venue">ICSE-NIER &middot; 2025</span><br><span class="note">Sets out the Unit Proofing agenda: design-level verification does not expose implementation defects, so verification has to reach the code.</span></li>
   <li><span class="pub-title"><a href="https://arxiv.org/pdf/2503.13762">Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification</a></span><br><span class="venue">ICSE &middot; 2026</span><br><span class="note">Asked whether unit proofs work rather than assuming they do, and measured compositional bounded model checking for memory safety on real code.</span></li>
-  <li><span class="pub-title">AutoSOUP: Safety-Oriented Unit Proof Generation for Component-level Memory-Safety Verification</span><br><span class="note">AutoSOUP generates the proofs. Automating construction is what moves unit proofing from a technique that works to one a team can afford to use.</span></li>
+  <li><span class="pub-title">AutoSOUP: Safety-Oriented Unit Proof Generation for Component-level Memory-Safety Verification</span><br><span class="venue">CCS &middot; 2026</span><br><span class="note">AutoSOUP generates the proofs. Automating construction is what moves unit proofing from a technique that works to one a team can afford to use.</span></li>
 </ul>
 
 ## Funding and support

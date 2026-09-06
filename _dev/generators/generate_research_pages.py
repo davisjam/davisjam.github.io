@@ -25,6 +25,7 @@ import sys
 import xml.etree.ElementTree as ET
 
 import _paths
+import _pubrefs
 
 # Resolved from whichever layout this copy sits in -- see _paths.py.
 ROOT = _paths.DATA.parent
@@ -48,7 +49,7 @@ def short_venue(v: str) -> str:
 
 
 def pub_li(p: dict, project: str) -> str:
-    url = p.get("paper_url")
+    url = _pubrefs.paper_link(p)
     # A record may render under a different name on one programme page: the MAGE
     # book and its condensed paper share a title, and on /research/mage/ they sit
     # in the same section, so the book says which one it is. The canonical title

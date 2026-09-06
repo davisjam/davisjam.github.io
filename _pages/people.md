@@ -111,7 +111,7 @@ Students study the reuse, integration, reliability, and security of pre-trained 
 ## Alumni
 
 <ul class="alumni">
-  <li><span class="alumni__name"><a href="https://www.linkedin.com/in/paschal-amusuo-134146b3/">Paschal C. Amusuo</a></span> — Ph.D., 2026<br><span class="alumni__detail">Reliability and security of embedded software</span><br><span class="alumni__next">Next position: Google</span></li>
+  <li><span class="alumni__name"><a href="https://www.linkedin.com/in/paschal-amusuo-134146b3/">Paschal C. Amusuo</a></span> — Ph.D., 2026<br><span class="alumni__detail">&ldquo;<a href="https://hammer.purdue.edu/articles/thesis/Systematic_and_Scalable_Memory_Safety_Assurance_for_Embedded_Software_Systems/33076745?file=66994349">Systematic and Scalable Memory Safety Assurance for Embedded Software Systems</a>&rdquo;</span><br><span class="alumni__next">Next position: Google</span></li>
   <li><span class="alumni__name"><a href="https://www.linkedin.com/in/wenxin-jiang/">Wenxin Jiang</a></span> — Ph.D., 2025<br><span class="alumni__detail">&ldquo;<a href="https://hammer.purdue.edu/articles/thesis/_b_TRUSTWORTHY_REUSE_IN_THE_MACHINE_LEARNING_MODEL_SUPPLY_CHAIN_b_/28897502?file=54137378">Trustworthy Reuse in the Machine Learning Model Supply Chain</a>&rdquo;</span><br><span class="alumni__next">Next position: Research engineer, Socket</span></li>
   <li class="alumni__split" aria-hidden="true"></li>
   <li><span class="alumni__name"><a href="https://www.linkedin.com/in/sofia-okorafor-b7ba12251/">Sofia Okorafor</a></span> — M.S., 2026<br><span class="alumni__detail">Software supply chains, signing, and trustworthy reuse</span><br><span class="alumni__next">Next position: US Navy Cyber</span></li>

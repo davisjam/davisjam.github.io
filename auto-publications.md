@@ -370,7 +370,7 @@ To see them organized approximately by project, see [here](/research).
  <a href="https://github.com/PurdueDualityLab/deepbugs-jr/blob/develop/paper/Deepbugs_Replication_Paper_Abstract.pdf" aria-label="PDF: A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *On the Impact and Defeat of Regex DoS*.  
  **Davis**.  
- ACM Student Research Competition, Grand Finals - second place, graduate student division 2020.
+ ACM Student Research Competition (Grand Finals) 2020.
 1. *Rethinking Regex Engines to Address ReDoS*.  
  **Davis**.  
  Proceedings of the 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE'19) --- Student research competition. 2019.  

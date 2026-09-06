@@ -62,7 +62,7 @@ ReDoS is not a defect in any single layer. It appears when a formal property, a 
 
 <ul class="pub-list">
   <li><span class="pub-title"><a href="https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1179&context=ecepubs">Exploiting Input Sanitization for Regex Denial of Service</a></span><br><span class="venue">ICSE &middot; 2022</span><br><span class="note">Published sanitization logic tells an attacker which inputs reach the matcher, turning a usability feature into an exploitation aid.</span></li>
-  <li><span class="pub-title">On the Impact and Defeat of Regex DoS</span><br><span class="note">The Student Research Competition statement of the ReDoS problem and its defences.</span></li>
+  <li><span class="pub-title">On the Impact and Defeat of Regex DoS</span><br><span class="venue">ACM Student Research Competition (Grand Finals) &middot; 2020</span><br><span class="note">The Student Research Competition statement of the ReDoS problem and its defences.</span></li>
 </ul>
 
 ## What the regex microscope revealed
