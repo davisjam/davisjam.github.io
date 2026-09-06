@@ -39,6 +39,7 @@ publications:
     title: "AutoSOUP: Safety-Oriented Unit Proof Generation for Component-level Memory-Safety Verification"
     venue: "Proceedings of the 33rd ACM Conference on Computer and Communications Security (CCS)"
     year: 2026
+    paper_url: https://arxiv.org/pdf/2605.10712
     authors: "P.C. Amusuo, R. Calvo, D. Anandayuvaraj, T. Le Lievre, K. Kolyakov, E. Jorgensen, A. Machiry, and J.C. Davis"
     program_notes:
       embedded-swe: "AutoSOUP generates the proofs. Automating construction is what moves unit proofing from a technique that works to one a team can afford to use."
@@ -51,6 +52,7 @@ publications:
     title: "Context-Aware Trust Verification for Identity-Based Software Signing"
     venue: "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE)"
     year: 2026
+    paper_url: https://arxiv.org/pdf/2406.15596v2
     authors: "C. Okafor, J.C. Davis, and S. Torres-Arias"
     program_notes:
       software-supply-chain: "Verification that accounts for context: what a signature means depends on what is being installed where."

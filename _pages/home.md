@@ -39,8 +39,8 @@ This disorganized list summarizes my research, teaching, and service activities.
 - A short paper on pre-trained model reuse in the scientific process is accepted to **eScience'26**. Congrats to Nicholas, Kamil, Armando, Kevin, George, and the team!
 - NSF funds my CAREER award, PTM-SEER, on software engineering foundations for re-using pre-trained neural models. Thank you, US taxpayers! [NSF #2541917](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2541917)
 - NSF funds AIGIS, a SaTC 2.0 project on securing the deep learning model supply chain. Thank you, US taxpayers! [NSF #2526621](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2526621)
-- Paschal's paper on safety-oriented unit proof generation is accepted to **CCS'26**. Congrats Paschal and the team!
-- Chinenye's paper on context-aware trust verification for identity-based signing is accepted to **ASE'26**. Congrats Chinenye!
+- Paschal's paper on safety-oriented unit proof generation is accepted to **CCS'26**. Congrats Paschal and the team! [Preprint](https://arxiv.org/pdf/2605.10712)
+- Chinenye's paper on context-aware trust verification for identity-based signing is accepted to **ASE'26**. Congrats Chinenye! [Preprint](https://arxiv.org/pdf/2406.15596v2)
 - Paschal defends the PhD. Congrats, Dr. Amusuo! On to Google.
 - Tanmay defends the MSc thesis. Congrats, Master Tanmay!
 - Sofia defends the MSc thesis. Congrats, Master Sofia!

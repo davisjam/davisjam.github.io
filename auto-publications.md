@@ -16,7 +16,8 @@ To see them organized approximately by project, see [here](/research).
 
 1. *AutoSOUP: Safety-Oriented Unit Proof Generation for Component-level Memory-Safety Verification*.  
  P.C. Amusuo, R. Calvo, D. Anandayuvaraj, T. Le Lievre, K. Kolyakov, E. Jorgensen, A. Machiry, and **Davis**.  
- Proceedings of the 33rd ACM Conference on Computer and Communications Security (CCS) 2026.
+ Proceedings of the 33rd ACM Conference on Computer and Communications Security (CCS) 2026.  
+ <a href="https://arxiv.org/pdf/2605.10712" aria-label="PDF: AutoSOUP: Safety-Oriented Unit Proof Generation for Component-level Memory-Safety Verification"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification*.  
  P.C. Amusuo, O. Cochell, T. Le Lievre, P.V. Patil, A. Machiry, and **Davis**.  
  Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE) 2026.  
@@ -27,7 +28,8 @@ To see them organized approximately by project, see [here](/research).
  <a href="https://arxiv.org/pdf/2510.08580" aria-label="PDF: LadderSym: A Multimodal Interleaved Transformer for Music Practice Error Detection"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Context-Aware Trust Verification for Identity-Based Software Signing*.  
  C. Okafor, **Davis**, and S. Torres-Arias.  
- Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE) 2026.
+ Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE) 2026.  
+ <a href="https://arxiv.org/pdf/2406.15596v2" aria-label="PDF: Context-Aware Trust Verification for Identity-Based Software Signing"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Why Johnny Adopts Identity-Based Software Signing: A Usability Case Study of Sigstore*.  
  K.G. Kalu, S. Okorafor, T. Singla, S. Chen, S. Torres-Arias, and **Davis**.  
  Proceedings of the 35th USENIX Security Symposium (SECURITY) 2026.  
