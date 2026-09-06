@@ -517,12 +517,22 @@ To see them organized approximately by project, see [here](/research).
 1. *LeMix: Rehosting Embedded Systems as Linux Applications for Effective Vulnerability Detection. 2024 Purdue CERIAS Symposium (CERIAS’24)*.  
  S.R. Tanksalkar, J. Srinivasan, S. Danduri, P. Amusuo, **Davis**, and A. Machiry.
 
-## Dissertations and theses
+## Theses
+
+
+### Doctoral
 
 1. *Trustworthy Reuse in the Machine Learning Model Supply Chain*.  
  **Jiang**.  
  PhD, Electrical & Computer Engineering, Purdue University 2025.  
  <a href="https://hammer.purdue.edu/articles/thesis/_b_TRUSTWORTHY_REUSE_IN_THE_MACHINE_LEARNING_MODEL_SUPPLY_CHAIN_b_/28897502?file=54137378" aria-label="PDF: Trustworthy Reuse in the Machine Learning Model Supply Chain"><i class="fas fa-file-pdf" aria-hidden="true"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Jiang-PreTrainedModels-PhD-Final%20Defense-May2025.pptx" aria-label="Slides: Trustworthy Reuse in the Machine Learning Model Supply Chain"><i class="fas fa-file-powerpoint" aria-hidden="true"></i></a>
+1. *On the Impact and Defeat of Regular Expression Denial of Service*.  
+ **Davis**.  
+ PhD, Computer Science and Applications, Virginia Tech 2020.  
+ <a href="/files/publications/Davis-Dissertation-2020.pdf" aria-label="PDF: On the Impact and Defeat of Regular Expression Denial of Service"><i class="fas fa-file-pdf" aria-hidden="true"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-Dissertation-OralDefense.pptx" aria-label="Slides: On the Impact and Defeat of Regular Expression Denial of Service"><i class="fas fa-file-powerpoint" aria-hidden="true"></i></a>
+
+### Master's
+
 1. *Cross-Select: A Transformer Framework for Pre-Trained Model Recommendation*.  
  **Patil**.  
  MSc, Electrical & Computer Engineering, Purdue University 2025.  
@@ -543,7 +553,3 @@ To see them organized approximately by project, see [here](/research).
  **Maxam**.  
  MSc, Electrical & Computer Engineering, Purdue University 2023.  
  <a href="/files/publications/Maxam-ThreatHunt-2023-MScThesis.pdf" aria-label="PDF: Discovering U.S. Government Threat Hunting Processes and Improvements"><i class="fas fa-file-pdf" aria-hidden="true"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Maxam-ThreatHunt-2023-MScThesis-slides.pptx" aria-label="Slides: Discovering U.S. Government Threat Hunting Processes and Improvements"><i class="fas fa-file-powerpoint" aria-hidden="true"></i></a>
-1. *On the Impact and Defeat of Regular Expression Denial of Service*.  
- **Davis**.  
- PhD, Electrical & Computer Engineering, Purdue University 2020.  
- <a href="/files/publications/Davis-Dissertation-2020.pdf" aria-label="PDF: On the Impact and Defeat of Regular Expression Denial of Service"><i class="fas fa-file-pdf" aria-hidden="true"></i></a> <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/Davis-Dissertation-OralDefense.pptx" aria-label="Slides: On the Impact and Defeat of Regular Expression Denial of Service"><i class="fas fa-file-powerpoint" aria-hidden="true"></i></a>

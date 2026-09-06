@@ -104,28 +104,40 @@ def main() -> int:
     # Students' theses live in their own record -- see data/theses.yaml for why.
     theses = yaml.safe_load((_paths.DATA / "theses.yaml").read_text())["theses"]
     if theses:
-        o += ["", "## Dissertations and theses", ""]
-        for t in sorted(theses, key=lambda x: (-(x.get("year") or 0), x["author"])):
-            o.append(f"1. *{' '.join(t['title'].split())}*.  ")
-            o.append(f" **{t['author']}**.  ")
-            o.append(f" {t['degree']}, Electrical & Computer Engineering, "
-                     f"Purdue University {t['year']}.  ")
-            bits = []
-            if t.get("pdf_url"):
-                lab = _label(f'PDF: {" ".join(t["title"].split())}')
-                bits.append(f'<a href="{t["pdf_url"]}" aria-label="{lab}">'
-                            f'<i class="fas fa-file-pdf" aria-hidden="true"></i></a>')
-            if t.get("slides"):
-                # quote(): several decks have spaces in their names, and a raw
-                # space in an href does not resolve.
-                slides = urllib.parse.quote(t["slides"])
-                lab = _label(f'Slides: {" ".join(t["title"].split())}')
-                bits.append('<a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}'
-                            f'/publications/{slides}" aria-label="{lab}">'
-                            f'<i class="fas fa-file-powerpoint" aria-hidden="true"></i></a>')
-            o[-1] = o[-1].rstrip() if not bits else o[-1]
-            if bits:
-                o.append(" " + " ".join(bits))
+        o += ["", "## Theses", ""]
+        # Doctoral before master's. A single year-sorted list interleaved them,
+        # which reads as though the two are the same kind of work.
+        groups = [("Doctoral", [t for t in theses if t["degree"].lower().startswith("ph")]),
+                  ("Master's", [t for t in theses if not t["degree"].lower().startswith("ph")])]
+        for label, rows in groups:
+            if not rows:
+                continue
+            o += ["", f"### {label}", ""]
+            for t in sorted(rows, key=lambda x: (-(x.get("year") or 0), x["author"])):
+                o.append(f"1. *{' '.join(t['title'].split())}*.  ")
+                o.append(f" **{t['author']}**.  ")
+                # Institution comes from the record: this template hardcoded
+                # "Electrical & Computer Engineering, Purdue University" for
+                # every thesis, which rendered James's own Virginia Tech
+                # dissertation as a Purdue ECE one.
+                o.append(f" {t['degree']}, {t.get('department', '')}, "
+                         f"{t.get('institution', '')} {t['year']}.  ")
+                bits = []
+                if t.get("pdf_url"):
+                    lab = _label(f'PDF: {" ".join(t["title"].split())}')
+                    bits.append(f'<a href="{t["pdf_url"]}" aria-label="{lab}">'
+                                f'<i class="fas fa-file-pdf" aria-hidden="true"></i></a>')
+                if t.get("slides"):
+                    # quote(): several decks have spaces in their names, and a
+                    # raw space in an href does not resolve.
+                    slides = urllib.parse.quote(t["slides"])
+                    lab = _label(f'Slides: {" ".join(t["title"].split())}')
+                    bits.append('<a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}'
+                                f'/publications/{slides}" aria-label="{lab}">'
+                                f'<i class="fas fa-file-powerpoint" aria-hidden="true"></i></a>')
+                o[-1] = o[-1].rstrip() if not bits else o[-1]
+                if bits:
+                    o.append(" " + " ".join(bits))
 
     out = _paths.SITE / "auto-publications.md"
     out.write_text("\n".join(o) + "\n")

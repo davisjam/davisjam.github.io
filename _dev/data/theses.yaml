@@ -18,12 +18,16 @@ theses:
   year: 2025
   pdf_url: https://hammer.purdue.edu/articles/thesis/_b_TRUSTWORTHY_REUSE_IN_THE_MACHINE_LEARNING_MODEL_SUPPLY_CHAIN_b_/28897502?file=54137378
   slides: Jiang-PreTrainedModels-PhD-Final Defense-May2025.pptx
+  department: Electrical & Computer Engineering
+  institution: Purdue University
 - author: Patil
   title: 'Cross-Select: A Transformer Framework for Pre-Trained Model Recommendation'
   degree: MSc
   year: 2025
   pdf_url: https://hammer.purdue.edu/articles/thesis/Cross-Select_A_Transformer_Framework_for_Per-Trained_Model_Recommendation/30921194?file=60565259
   slides: Patil-CrossSelect-MSc2025-ThesisDefense-slides.pptx
+  department: Electrical & Computer Engineering
+  institution: Purdue University
 - author: Jones
   title: A Quantitative Comparison of Pre-Trained Model Registries to Traditional
     Software Package Registries
@@ -31,12 +35,16 @@ theses:
   year: 2024
   pdf_url: https://hammer.purdue.edu/articles/thesis/A_Quantitative_Comparison_of_Pre-Trained_Model_Registries_to_Traditional_Software_Package_Registries/25686447/1
   slides: Jones-QuantitativeComparisonOfPTMAndTraditionalPackageRegistries-2024-MScThesis-slides.pptx
+  department: Electrical & Computer Engineering
+  institution: Purdue University
 - author: Schorlemmer
   title: 'Software Supply Chain Security: Attacks, Defenses, and the Adoption of Signatures'
   degree: MSc
   year: 2024
   pdf_url: https://hammer.purdue.edu/articles/thesis/Software_Supply_Chain_Security_Attacks_Defenses_and_the_Adoption_of_Signatures/25683681/1
   slides: Schorlemmer-SoftwareSupplyChainSecurity-FocusedOnSigning-2024-MScThesis-slides.pptx
+  department: Electrical & Computer Engineering
+  institution: Purdue University
 - author: Cramer
   title: An Empirical Study of Trust & Safety Engineering in Open-Source Social Media
     Platforms
@@ -44,15 +52,21 @@ theses:
   year: 2023
   pdf_url: /files/publications/Cramer-TrustAndSafetyInSMPs-2023-MScThesis.pdf
   slides: Cramer-TrustAndSafetyInSMPs-2023-MScThesis-slides.pdf
+  department: Electrical & Computer Engineering
+  institution: Purdue University
 - author: Maxam
   title: Discovering U.S. Government Threat Hunting Processes and Improvements
   degree: MSc
   year: 2023
   slides: Maxam-ThreatHunt-2023-MScThesis-slides.pptx
   pdf_url: /files/publications/Maxam-ThreatHunt-2023-MScThesis.pdf
+  department: Electrical & Computer Engineering
+  institution: Purdue University
 - author: Davis
   title: On the Impact and Defeat of Regular Expression Denial of Service
   degree: PhD
   year: 2020
   slides: Davis-Dissertation-OralDefense.pptx
   pdf_url: /files/publications/Davis-Dissertation-2020.pdf
+  department: Computer Science and Applications
+  institution: Virginia Tech
