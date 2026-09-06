@@ -81,9 +81,12 @@
    line; the specificity here has to beat the theme's own selector. */
 /* NAV SCALES LESS THAN BODY. The root went 18px -> 20px, which is right for
    reading but wrong for a horizontal bar: at 20px the links plus the enlarged
-   logo plus the contextual programme label overran 1280px. 0.9em holds the nav
-   at its previous 18px while body copy keeps the increase. */
-.masthead__menu-item a { font-size: 0.9em; }
+   logo plus the contextual programme label overran 1280px, so this was pinned
+   to 0.9em. Raised 20% to 1.08em -- the bar read too quiet next to the
+   enlarged logo. The extra width is absorbed by greedy-nav moving one more
+   item behind the hamburger, which is the mechanism working rather than the
+   document overflowing. Verified across all eight sweep widths. */
+.masthead__menu-item a { font-size: 1.08em; }
 
 .masthead__menu-item.rps { display: flex; align-items: baseline; flex-wrap: nowrap; }
 .masthead__menu-item.rps > a { display: inline-block; }
