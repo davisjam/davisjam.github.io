@@ -35,6 +35,8 @@ This disorganized list summarizes my research, teaching, and service activities.
 <details class="news-year" markdown="1" open>
 <summary><h3 class="news-year__label">2026</h3></summary>
 
+- Tanmay's paper arguing that cheap regeneration reshapes the software supply chain is accepted to the **ESEM'26** Emerging Results, Vision, and Reflection track. Congrats Tanmay!
+- A short paper on pre-trained model reuse in the scientific process is accepted to **eScience'26**. Congrats to Nicholas, Kamil, Armando, Kevin, George, and the team!
 - NSF funds my CAREER award, PTM-SEER, on software engineering foundations for re-using pre-trained neural models. Thank you, US taxpayers! [NSF #2541917](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2541917)
 - NSF funds AIGIS, a SaTC 2.0 project on securing the deep learning model supply chain. Thank you, US taxpayers! [NSF #2526621](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2526621)
 - Paschal's paper on safety-oriented unit proof generation is accepted to **CCS'26**. Congrats Paschal and the team!
