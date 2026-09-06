@@ -401,8 +401,17 @@
 /* The logo is the largest single item in the bar, so its size decides whether
    everything else fits. Full size only where there is room for the whole bar
    beside it. */
+/* Laptop band. The bar needs 1413px of items and a 1440px screen offers 1340,
+   so 73px has to come from somewhere. It comes from the logo and the padding
+   around it -- the largest non-link items -- rather than from the links, whose
+   size James set deliberately, or from the expanded programme slug, which is
+   the thing the bar exists to show. */
 @media (max-width: 100em) {   /* < 1600px */
-  .masthead__menu-logo { height: 56px; max-width: 180px; }
+  .masthead__menu-logo { height: 44px; max-width: 104px; }
+  .greedy-nav .visible-links .masthead__menu-item--lg { padding-right: 0.4rem; }
+  .greedy-nav .visible-links .masthead__menu-item a {
+    margin-left: 0.15rem; padding-left: 0.15rem; padding-right: 0.15rem;
+  }
 }
 @media (max-width: 30em) {    /* phones */
   .masthead__menu-logo { height: 40px; max-width: 130px; }

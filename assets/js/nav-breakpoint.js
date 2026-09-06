@@ -27,10 +27,12 @@
      the original order -- capture it once, before anything else runs. */
   var order = [].slice.call(visible.children).concat([].slice.call(hidden.children));
 
-  /* Below this the bar cannot hold the logo, seven links and an expanded
-     programme slug, so it collapses. Measured, not guessed: see the responsive
-     logo sizes in _research.scss, which this rides on. */
-  var FULL_BAR = 1200;
+  /* Measured, not guessed. The bar's items total 1413px with a programme slug
+     expanded. A 1440px screen offers 1340px of masthead, and the laptop-band
+     logo sizing in _research.scss reclaims the difference. A 1280px screen
+     offers 1180px -- 233px short, which is more than the expanded slug is
+     wide, so no amount of trimming fits it and it collapses honestly instead. */
+  var FULL_BAR = 1400;
 
   function apply() {
     var full = window.innerWidth >= FULL_BAR;
