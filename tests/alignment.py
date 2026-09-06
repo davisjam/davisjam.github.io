@@ -594,6 +594,45 @@ def self_sufficient(e: Engine, m) -> None:
     sp = SITE / "tests/_sitepath.py"
     if sp.exists() and 'root / "repos/davisjam.github.io"' not in sp.read_text():
         o.fail("tests/_sitepath.py no longer detects the orchestrator layout")
+
+    # PRESENCE IS NOT ENOUGH -- the resolver has to actually be used. layout.py
+    # shipped in tests/, imported nothing, computed its own ROOT and then globbed
+    # ROOT/"repos/davisjam.github.io/_pages". From inside the site that directory
+    # does not exist, so the glob returned nothing, the sweep silently narrowed
+    # to the home page, and it reported "no overflow" across 1 page rather than
+    # 14. A green run over almost no pages, which is worse than a red one.
+    #
+    # So the path literal is banned everywhere except the resolver that has to
+    # know it. Checked as text because the failure is textual: a hardcoded path
+    # that happens to be right from one working directory.
+    # PARSED, not searched. Two textual attempts failed in opposite directions:
+    # a plain substring search flagged the comments explaining why not to use the
+    # path, and skipping comments and string tokens to fix that removed the
+    # literal the defect actually lives in -- so it passed a deliberately
+    # reintroduced bug. The distinction is not comment-vs-code, it is "a string
+    # used to build a path" vs "a string that talks about one", which no amount
+    # of grepping separates.
+    #
+    # The AST separates them exactly: a pathlib path is built with the / operator,
+    # so ROOT / "repos/davisjam.github.io/_pages" is a BinOp whose right operand
+    # is that literal, while prose and failure messages never are.
+    import ast
+    for chk in sorted((SITE / "tests").glob("*.py")):
+        if chk.name == "_sitepath.py":
+            continue        # the resolver is the one file that must know the path
+        try:
+            tree = ast.parse(chk.read_text(errors="replace"))
+        except SyntaxError:
+            continue        # syntax.py is the gate for that, not this obligation
+        for node in ast.walk(tree):
+            if (isinstance(node, ast.BinOp) and isinstance(node.op, ast.Div)
+                    and isinstance(node.right, ast.Constant)
+                    and isinstance(node.right.value, str)
+                    and "repos/davisjam.github.io" in node.right.value):
+                o.fail(f"tests/{chk.name}:{node.lineno} builds a path from "
+                       f"{node.right.value!r} -- use _sitepath.SITE, or it "
+                       f"silently scans nothing when run from inside the site")
+
     for need in ("generators/_paths.py", "generators/generate_umbrella_pages.py",
                  "generators/generate_research_pages.py", "model/sites.yaml",
                  "figure-toolkit/check_figures.py", "README.md"):

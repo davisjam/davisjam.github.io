@@ -33,9 +33,13 @@ import json
 import pathlib
 
 import _frontmatter
+import _sitepath
 import sys
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
+# Both, via the shared resolver -- this module used to compute ROOT itself and
+# then hardcode ROOT/"repos/davisjam.github.io", which is the exact defect
+# _sitepath exists to prevent.
+ROOT, SITE = _sitepath.ROOT, _sitepath.SITE
 ORIGIN = "https://davisjam.github.io"
 
 VIEWPORTS = [(320, 800), (375, 812), (768, 1024), (1024, 768),
@@ -203,7 +207,14 @@ def main(argv=None) -> int:
         # false-green shape as check_figures.py scanning zero figures. Reading
         # permalinks means a new page is covered the moment it is written.
         urls = [f"{ORIGIN}/"]
-        for md in sorted((ROOT / "repos/davisjam.github.io/_pages").glob("*.md")):
+        # SITE, not ROOT/"repos/davisjam.github.io" -- that hardcoded path is
+        # correct from the orchestrator and wrong from the copy inside the
+        # site, where it resolved to a directory that does not exist. The
+        # glob then yielded nothing, the sweep fell back to the home page
+        # alone, and printed "no overflow" over 1 page instead of 14. Same
+        # false-green shape this very comment block warns about, one line
+        # below where it was written.
+        for md in sorted((SITE / "_pages").glob("*.md")):
             fm = _frontmatter.load(md)
             if fm is None:
                 continue
