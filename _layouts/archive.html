@@ -15,7 +15,7 @@ layout: default
 <div id="main" role="main" tabindex="-1">
   {% include sidebar.html %}
 
-  <div class="archive">
+  <div class="archive" id="content" tabindex="-1">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
