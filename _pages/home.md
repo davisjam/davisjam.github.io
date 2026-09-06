@@ -26,15 +26,14 @@ Two values inform our research:
 
 We publish our research in the premier venues for software engineering (ICSE, FSE, ASE) and cybersecurity (S&P, USENIX).
 
-I am grateful to the sponsors of our research: the US National Science Foundation, Google, Cisco, Qualcomm, OpenAI, Socket, and Rolls Royce.
-
 Use the links at the top to learn more about our activities.
 
 ## Announcements
 
 This disorganized list summarizes my research, teaching, and service activities.
 
-### 2026
+<details class="news-year" markdown="1" open>
+<summary><h3 class="news-year__label">2026</h3></summary>
 
 - I receive two distinct teaching honors from Purdue: Purdue's 2026 College of Engineering, and University, Faculty Excellence Award for Early Career Teaching. Huzzah!
 - Paschal's paper on reducing false-positive crashes in OSS-Fuzz-Gen is accepted to FSE-Industry'26. Congrats! [preprint](https://arxiv.org/pdf/2510.02185)
@@ -52,7 +51,9 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Intel donates equipment to support my research on the educational use of GenAI, associated with [NSF #2452533](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2452533&HistoricalAwards=false). Thank you, Intel.
 - Drew's paper on anti-phishing training will appear at WWW'26. Congrats Drew! To learn more, see the [Preprint](https://arxiv.org/pdf/2506.19899) or the [Blog version](https://davisjam.medium.com/phishing-training-still-isnt-working-so-why-are-we-still-paying-for-it-5cb914c5c395).
 
-### 2025
+</details>
+<details class="news-year" markdown="1">
+<summary><h3 class="news-year__label">2025</h3></summary>
 
 - Geoff heads to Bluesky as a Trust & Safety Engineer. A very cool follow-up from our [JSS'25 paper](https://davisjam.github.io//files/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf) on Trust & Safety!
 - Parth defends his MSc thesis. Congrats, Master Parth! Parth will work at Amazon Robotics after graduation.
@@ -106,7 +107,9 @@ This disorganized list summarizes my research, teaching, and service activities.
 - One paper accepted to **AAAI'25**: A tool to help musicians detect errors in their performance. Congrats to Ben, Purvish, Nick, and the team! [Preprint](https://arxiv.org/pdf/2501.02030)
 - Two papers accepted to **WACV'25**: (1) optimizing token pruning approaches for edge devices, and (2) evaluating multi-stream architectures for vision transformer. Congrats to Nick, Purvish, and the team! [Preprint 1](https://arxiv.org/pdf/2409.07613), [Preprint 2](https://arxiv.org/pdf/2407.05941)
 
-### 2024
+</details>
+<details class="news-year" markdown="1">
+<summary><h3 class="news-year__label">2024</h3></summary>
 
 - One education research paper accepted to **EJEE'24**: Fostering Systems Thinking through Engineering Study Abroad Programs. Congrats to Desen and the RSAP team!
 - At a **Dagstuhl 2024** (regex matching & indexing), I gave a talk on "Regular Expression Denial of Service: Past, Present, and Future".
@@ -140,7 +143,9 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Poster on GDPR: **ICSE-Poster 2024**. Congrats to the Virginia Tech collaborators!
 - Presentation at Michigan Tech University about software engineering with pre-trained models
 
-### 2023
+</details>
+<details class="news-year" markdown="1">
+<summary><h3 class="news-year__label">2023</h3></summary>
 
 - Presentation at Carnegie Mellon University about software engineering with pre-trained models
 - Paper on applying large language models to cybersecurity failures: **SCORED 2023**. Congrats to Tanmay, Dharun and the team!
@@ -173,7 +178,9 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Paper on secure regular expressions: **S&P 2023**
 - Google renews support for our research on software engineering for machine learning
 
-### 2022
+</details>
+<details class="news-year" markdown="1">
+<summary><h3 class="news-year__label">2022</h3></summary>
 
 - Paper on engineering education: Frontiers journal on study abroad (**Frontiers 2022**). Congrats Kirsten!
 - Cisco funds research on software engineering for pre-trained neural network models
@@ -195,7 +202,9 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Paper on secure software supply chains: **SCORED 2022**. Congrats Chinenye+Taylor!
 - Paper on secure regular expressions: **ICSE 2022**. Congrats Efe+Xin!
 
-### 2021
+</details>
+<details class="news-year" markdown="1">
+<summary><h3 class="news-year__label">2021</h3></summary>
 
 - **Rolls Royce** funds research on embedded systems security.
 - **Google** funds research on software engineering for machine learning.
@@ -210,8 +219,12 @@ This disorganized list summarizes my research, teaching, and service activities.
 - Serving on the ASE 2021 PC, Technical track. Distinguished reviewer award!
 - Serving on the ESEC/FSE 2021 PC, Artifact track.
 
-### 2020
+</details>
+<details class="news-year" markdown="1">
+<summary><h3 class="news-year__label">2020</h3></summary>
 
 - Poster on software engineering for machine learning: **SIAM CSE 2020**. Congrats Naveen!
 - Paper on engineering education: JIEE journal (**JIEE 2020**). Congrats Desen!
 - The Duality Lab is founded. Hello world.
+
+</details>

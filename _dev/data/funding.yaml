@@ -212,6 +212,19 @@ grants:
     role: Co-PI
     start: 2020
     projects: [ptm-se]
+  - id: GK-1
+    sponsor: Intel
+    title: "Gift of Laptops for Educational Research on Local LLMs for Education"
+    role: PI
+    start: 2026
+    end: 2026
+    kind: gift-in-kind
+    projects: []
+    note: >-
+      Equipment rather than funds, so it sits outside the CV's EXTERNAL GRANTS
+      total and was missing here too -- which is why the site credited seven
+      sponsors when there are eight. The acknowledgement is owed regardless of
+      the instrument. CV-40 lists it under GIFTS IN KIND as GK-1.
 
 # ---------------------------------------------------------------------------
 # Programs with no asserted umbrella grant. Recorded so the absence is a

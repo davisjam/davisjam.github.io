@@ -518,3 +518,59 @@
 .greedy-nav .visible-links .masthead__menu-item--lg a { padding: 0; margin-left: 0; }
 .greedy-nav .visible-links .masthead__menu-item:first-child a { margin-left: 0; }
 .greedy-nav .visible-links .rps__menu a { margin-left: 0; }
+
+
+/* Funders rail. Same editorial register as the practice rail above it -- no
+   box, no badges, no logos. See _includes/author-profile.html for why names
+   rather than marks. */
+.funders {
+  margin-top: 1.6em;
+  padding-top: 1.2em;
+  border-top: 1px solid rgba(0, 0, 0, 0.09);
+}
+.funders__eyebrow {
+  font-size: 0.68em;
+  letter-spacing: 0.09em;
+  color: #8E6F3E;          /* Aged Gold: 4.67:1, the only gold that passes AA on type */
+  margin: 0 0 0.4em;
+}
+.funders__list {
+  font-size: 0.82em;
+  line-height: 1.5;
+  color: #4a4a4a;
+  margin: 0;
+}
+
+/* News years as accordions. <details>/<summary> is keyboard-operable and
+   announces its own expanded state natively, so this is styling only -- no
+   ARIA, no JavaScript, nothing to keep in sync with the visual state. */
+.news-year {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+.news-year > summary {
+  cursor: pointer;
+  list-style: none;         /* replaced below, so the marker can be positioned */
+  padding: 0.5em 0;
+  /* 24x24 is the WCAG 2.2 AA target-size floor and a bare heading row can fall
+     under it at small type. */
+  min-height: 24px;
+}
+.news-year > summary::-webkit-details-marker { display: none; }
+.news-year > summary::before {
+  content: "\25B8";        /* right-pointing triangle; rotates when open */
+  display: inline-block;
+  width: 1em;
+  color: #8E6F3E;
+  transition: transform 0.15s ease;
+}
+.news-year[open] > summary::before { transform: rotate(90deg); }
+.news-year > summary:focus-visible {
+  outline: 2px solid #8E6F3E;
+  outline-offset: 2px;
+}
+.news-year__label {
+  display: inline;
+  margin: 0;
+  font-size: 1em;
+}
+.news-year > summary + * { margin-top: 0.2em; }

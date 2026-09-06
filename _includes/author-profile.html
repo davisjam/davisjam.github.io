@@ -152,4 +152,26 @@
     {% endfor %}
   </div>
   {% endif %}
+
+  {%- comment -%}
+    Funders. Text, not logos, and deliberately so. NSF is ten of twenty-four
+    awards and restricts use of its mark by non-NSF entities without written
+    authorisation -- the sanctioned form of credit is a text acknowledgement.
+    A logo rail would therefore either omit the dominant funder or use its mark
+    improperly. The corporate marks carry the same endorsement-reading risk in
+    milder form. Names cost nothing and say the same thing.
+
+    Generated from the funding record, never typed here: a hand-written copy is
+    how the site came to credit seven sponsors when there were eight.
+  {%- endcomment -%}
+  {% if site.data.funders %}
+  <div class="funders">
+    <p class="funders__eyebrow">{{ site.data.funders.heading | upcase }}</p>
+    <p class="funders__list">
+      {%- for s in site.data.funders.sponsors -%}
+        {{ s.name }}{% unless forloop.last %} · {% endunless %}
+      {%- endfor -%}
+    </p>
+  </div>
+  {% endif %}
 </div>
