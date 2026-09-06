@@ -925,6 +925,33 @@ def links(e: Engine, m) -> None:
         elif " " in str(u) or str(u).count("http") > 1:
             o5.fail(f"{p['id']} malformed paper_url: {u[:60]}")
 
+    # Same family: LINK maps to a single function.
+    external_consumers(e, m)
+
+
+def external_consumers(e: Engine, m) -> None:
+    """Assets another site references must not move without warning.
+
+    The MAGE site reaches the lab logo at /images/logo.svg. That resolves
+    because GitHub Pages serves THIS repo at the domain root and project repos
+    under /<repo>/, so a root-absolute path from a MAGE page lands here -- one
+    file, no copy, no sync step. (MAGE has no images/ of its own; that path
+    404s there, which is what makes the reference unambiguous.)
+
+    The cost of the arrangement is a dependency pointing the wrong way for
+    enforcement: the consumer holds the controls, the producer has none. Rename
+    this file and the other site renders a broken image, with nothing here
+    failing. So the producer side is pinned too. It is the only signal that
+    would reach whoever does the renaming, and it costs one stat call.
+    """
+    o = e.obl("OBL-LINK-006",
+              "Assets other sites reference stay where those sites expect them.",
+              ["images/logo.svg"])
+    for rel, who in (("images/logo.svg", "the MAGE site header"),):
+        if not (SITE / rel).is_file():
+            o.fail(f"{rel} is missing or moved -- {who} references it at "
+                   f"/{rel} and would render a broken image")
+
 
 def structure(e: Engine, m) -> None:
     """The figure and the page body must name the same things."""
