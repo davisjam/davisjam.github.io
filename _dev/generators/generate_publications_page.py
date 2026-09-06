@@ -39,6 +39,12 @@ SECTIONS = [
 ]
 
 
+def _label(text: str) -> str:
+    """Safe for an HTML attribute: quotes and angle brackets would break it."""
+    return (text.replace("&", "&amp;").replace('"', "&quot;")
+                .replace("<", "&lt;").replace(">", "&gt;"))
+
+
 def entry(p: dict) -> list[str]:
     """One numbered item: title, authors, venue, link -- the page's own shape."""
     out = [f"1. *{' '.join(p['title'].split())}*.  "]
@@ -53,7 +59,12 @@ def entry(p: dict) -> list[str]:
         out.append(f" {tail}.  ")
     url = p.get("paper_url") or (p.get("links") or {}).get("record")
     if url:
-        out.append(f' <a href="{url}"><i class="fas fa-file-pdf"></i></a>')
+        # An anchor wrapping only an icon has no accessible name -- axe reported
+        # 258 of these. The label names the specific paper rather than saying
+        # "PDF" 136 times, which would be technically conformant and useless.
+        label = _label(f'PDF: {" ".join(p["title"].split())}')
+        out.append(f' <a href="{url}" aria-label="{label}">'
+                   f'<i class="fas fa-file-pdf" aria-hidden="true"></i></a>')
     # strip the trailing two-space break from whichever line ended up last
     out[-1] = out[-1].rstrip()
     if not url:
@@ -101,13 +112,17 @@ def main() -> int:
                      f"Purdue University {t['year']}.  ")
             bits = []
             if t.get("pdf_url"):
-                bits.append(f'<a href="{t["pdf_url"]}"><i class="fas fa-file-pdf"></i></a>')
+                lab = _label(f'PDF: {" ".join(t["title"].split())}')
+                bits.append(f'<a href="{t["pdf_url"]}" aria-label="{lab}">'
+                            f'<i class="fas fa-file-pdf" aria-hidden="true"></i></a>')
             if t.get("slides"):
                 # quote(): several decks have spaces in their names, and a raw
                 # space in an href does not resolve.
                 slides = urllib.parse.quote(t["slides"])
+                lab = _label(f'Slides: {" ".join(t["title"].split())}')
                 bits.append('<a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}'
-                            f'/publications/{slides}"><i class="fas fa-file-powerpoint"></i></a>')
+                            f'/publications/{slides}" aria-label="{lab}">'
+                            f'<i class="fas fa-file-powerpoint" aria-hidden="true"></i></a>')
             o[-1] = o[-1].rstrip() if not bits else o[-1]
             if bits:
                 o.append(" " + " ".join(bits))

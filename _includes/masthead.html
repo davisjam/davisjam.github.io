@@ -4,11 +4,12 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <button type="button" aria-label="Toggle the rest of the navigation"><div class="navicon" aria-hidden="true"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">
             {% if site.title_mastheadImage %} 
-              <img class="masthead__menu-logo" src="{{ site.title_mastheadImage }}"></img>
+              <img class="masthead__menu-logo" src="{{ site.title_mastheadImage }}"
+                   alt="Duality Lab — home">
             {% else %}
               {{ site.title }}
             {% endif %}
