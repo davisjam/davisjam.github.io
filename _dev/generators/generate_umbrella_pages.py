@@ -588,8 +588,21 @@ senior design, independent study, SURF, REU, and related programs.
     if P.get("alumni_graduate"):
         # No lead sentence: "Alumni" explains itself.
         o.append("## Alumni\n")
+        # Doctoral alumni first, then master's, separated by a rule. The two
+        # are different mentoring relationships and a single year-sorted list
+        # interleaved them -- a Ph.D. and an M.S. from the same year read as
+        # equivalent when they are not.
+        by_degree = {"phd": [], "ms": []}
+        for e in P["alumni_graduate"]:
+            by_degree["phd" if e["degree"].lower().startswith("ph") else "ms"].append(e)
         o.append('<ul class="alumni">')
-        for e in sorted(P["alumni_graduate"], key=lambda a: (-a["year"], a["name"])):
+        ordered = (sorted(by_degree["phd"], key=lambda a: (-a["year"], a["name"]))
+                   + [None]
+                   + sorted(by_degree["ms"], key=lambda a: (-a["year"], a["name"])))
+        for e in ordered:
+            if e is None:
+                o.append('  <li class="alumni__split" aria-hidden="true"></li>')
+                continue
             bits = [f'<span class="alumni__name">{named(e)}</span>'
                     f' — {e["degree"]}, {e["year"]}']
             th = theses.get(e.get("thesis_author") or "")

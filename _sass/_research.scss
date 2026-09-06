@@ -306,6 +306,19 @@
   margin: 1.3em 0 2em;
 
   > li { margin: 0 0 1.4em; }
+
+  /* Doctoral / master's divider. Short and faint on purpose: it marks a change
+     of kind, not a section break, so it should be quieter than a heading and
+     narrower than the column. aria-hidden because the grouping is carried by
+     the degree on every entry -- a screen reader gains nothing from an empty
+     list item. */
+  &__split {
+    list-style: none;
+    width: 5rem;
+    height: 0;
+    margin: 0.3em 0 1.6em;
+    border-top: 1px solid #ddd6cc;
+  }
   &__name   { font-weight: 600; }
   &__detail { display: inline-block; margin-top: .1em; font-size: .92em; color: #57534e; }
   &__next   { display: inline-block; margin-top: .1em; font-size: .92em; color: #57534e; }
