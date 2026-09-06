@@ -35,6 +35,15 @@ This disorganized list summarizes my research, teaching, and service activities.
 <details class="news-year" markdown="1" open>
 <summary><h3 class="news-year__label">2026</h3></summary>
 
+- NSF funds my CAREER award, PTM-SEER, on software engineering foundations for re-using pre-trained neural models. Thank you, US taxpayers! [NSF #2541917](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2541917)
+- NSF funds AIGIS, a SaTC 2.0 project on securing the deep learning model supply chain. Thank you, US taxpayers! [NSF #2526621](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2526621)
+- Paschal's paper on safety-oriented unit proof generation is accepted to **CCS'26**. Congrats Paschal and the team!
+- Chinenye's paper on context-aware trust verification for identity-based signing is accepted to **ASE'26**. Congrats Chinenye!
+- Paschal defends the PhD. Congrats, Dr. Amusuo! On to Google.
+- Tanmay defends the MSc thesis. Congrats, Master Tanmay!
+- Sofia defends the MSc thesis. Congrats, Master Sofia!
+- Kelechi passes the preliminary exam. Congrats, PhD Candidate Kalu!
+- Daniel passes the preliminary exam. Congrats, PhD Candidate Lugo!
 - I receive two distinct teaching honors from Purdue: Purdue's 2026 College of Engineering, and University, Faculty Excellence Award for Early Career Teaching. Huzzah!
 - Paschal's paper on reducing false-positive crashes in OSS-Fuzz-Gen is accepted to FSE-Industry'26. Congrats! [preprint](https://arxiv.org/pdf/2510.02185)
 - Ben will intern at Google X this summer. Enjoy the adventure!
@@ -55,6 +64,9 @@ This disorganized list summarizes my research, teaching, and service activities.
 <details class="news-year" markdown="1">
 <summary><h3 class="news-year__label">2025</h3></summary>
 
+- Socket funds a gift on typosquat detection in open-source ecosystems. Thanks, Socket!
+- Rolls-Royce funds work on securing software implementations through system fuzz testing and modular formal methods. Thank you, Rolls-Royce!
+- Ricardo joins the lab as a PhD student. Welcome, Ricardo!
 - Geoff heads to Bluesky as a Trust & Safety Engineer. A very cool follow-up from our [JSS'25 paper](https://davisjam.github.io//files/publications/CramerMaxamLiDavis-TrustAndSafetyEngineeringInSMPs.pdf) on Trust & Safety!
 - Parth defends his MSc thesis. Congrats, Master Parth! Parth will work at Amazon Robotics after graduation.
 - Lab alum Arav Tewari will intern at OpenAI in Summer 2026 -- sounds amazing :-)
@@ -111,6 +123,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 <details class="news-year" markdown="1">
 <summary><h3 class="news-year__label">2024</h3></summary>
 
+- NSF funds an EAGER project exploring the risks and rewards of LLMs for engineering education. Thank you, US taxpayers! [NSF #2343596](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2343596)
 - One education research paper accepted to **EJEE'24**: Fostering Systems Thinking through Engineering Study Abroad Programs. Congrats to Desen and the RSAP team!
 - At a **Dagstuhl 2024** (regex matching & indexing), I gave a talk on "Regular Expression Denial of Service: Past, Present, and Future".
 - One paper accepted to **ASE'24**: applying LLMs to conduct software failure analysis from news articles. Congrats to Dharun and the team!

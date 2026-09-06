@@ -591,6 +591,19 @@ def patents(e: Engine, m) -> None:
               ["data/publications.yaml", "generators/generate_publications_page.py"])
     import yaml as _y
     pubs = _y.safe_load((DATA_DIR / "publications.yaml").read_text())["publications"]
+    # A peer-reviewed record has to say WHERE and WHEN. C-1 and C-2 -- the CCS
+    # and ASE papers, the two newest and most selective on the list -- carried a
+    # title and an author string and nothing else, so the page printed them as
+    # bare titles while every neighbour showed its venue. Nothing looked broken;
+    # they just quietly read as less than they are.
+    for rec in pubs:
+        if rec.get("type") not in ("conference", "journal", "workshop"):
+            continue
+        for field in ("venue", "year"):
+            if not rec.get(field):
+                o.fail(f"{rec['id']} ({rec.get('type')}) has no {field} -- it "
+                       f"prints as a bare title: {str(rec.get('title'))[:44]}")
+
     for p in (x for x in pubs if str(x.get("id", "")).startswith("Pa-")):
         pid = p["id"]
         for field, val in (("paper_url", p.get("paper_url")),

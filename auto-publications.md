@@ -14,6 +14,9 @@ To see them organized approximately by project, see [here](/research).
 
 ## Peer-reviewed conference papers, full and short
 
+1. *AutoSOUP: Safety-Oriented Unit Proof Generation for Component-level Memory-Safety Verification*.  
+ P.C. Amusuo, R. Calvo, D. Anandayuvaraj, T. Le Lievre, K. Kolyakov, E. Jorgensen, A. Machiry, and **Davis**.  
+ Proceedings of the 33rd ACM Conference on Computer and Communications Security (CCS) 2026.
 1. *Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification*.  
  P.C. Amusuo, O. Cochell, T. Le Lievre, P.V. Patil, A. Machiry, and **Davis**.  
  Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE) 2026.  
@@ -22,6 +25,9 @@ To see them organized approximately by project, see [here](/research).
  B.S.H. Chou, P. Jajal, N.J. Eliopoulos, **Davis**, G.K. Thiruvathukal, K.Y.J. Yun, and Y.H. Lu.  
  Proceedings of the International Conference on Learning Representations (ICLR) 2026.  
  <a href="https://arxiv.org/pdf/2510.08580" aria-label="PDF: LadderSym: A Multimodal Interleaved Transformer for Music Practice Error Detection"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+1. *Context-Aware Trust Verification for Identity-Based Software Signing*.  
+ C. Okafor, **Davis**, and S. Torres-Arias.  
+ Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE) 2026.
 1. *Why Johnny Adopts Identity-Based Software Signing: A Usability Case Study of Sigstore*.  
  K.G. Kalu, S. Okorafor, T. Singla, S. Chen, S. Torres-Arias, and **Davis**.  
  Proceedings of the 35th USENIX Security Symposium (SECURITY) 2026.  
@@ -185,10 +191,6 @@ To see them organized approximately by project, see [here](/research).
  **Davis**, A. Thekumparampil, and D. Lee.  
  Proceedings of the European Conference on Computer Systems (EuroSys) 2017.  
  <a href="https://davisjam.github.io/files/publications/DavisThekumparampilLee-NodeFz-EuroSys17.pdf" aria-label="PDF: Node.fz: Fuzzing the server-side event-driven architecture"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
-1. *AutoSOUP: Safety-Oriented Unit Proof Generation for Component-level Memory-Safety Verification*.  
- P.C. Amusuo, R. Calvo, D. Anandayuvaraj, T. Le Lievre, K. Kolyakov, E. Jorgensen, A. Machiry, and **Davis**.
-1. *Context-Aware Trust Verification for Identity-Based Software Signing*.  
- C. Okafor, **Davis**, and S. Torres-Arias.
 
 ## Peer-reviewed journal and magazine papers
 
@@ -226,6 +228,9 @@ To see them organized approximately by project, see [here](/research).
  X. Hu, Z. Jiao, A. Kocher, Z. Wu, J. Liu, **Davis**, G.K. Thiruvathukal, and Y.H. Lu.  
  IEEE Computer 2023.  
  <a href="https://davisjam.github.io/files/publications/HuJiaoKocherWuLiuDavisThiruvathukalLu-LPCVC-Computer2023.pdf" aria-label="PDF: Evolution of Winning Solutions in the 2021 Low-Power Computer Vision Challenge"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+1. *Applying Experiential Learning Theory to Understand Study Abroad Leaders' Experiences Using Real-Time Perspectives*.  
+ K. Davis, J. Deters, D. Ozkan, **Davis**, and H. Murzi.  
+ Frontiers: The Interdisciplinary Journal of Study Abroad, Vol. 34, No. 2 (Frontiers) 2022.
 1. *Tree-based Unidirectional Neural Networks for Low-Power Computer Vision*.  
  A. Goel, C. Tung, N. Eliopoulos, A. Wang, **Davis**, G.K. Thiruvathukal, and Y.H. Lu.  
  IEEE Design & Test 2022.  
@@ -240,13 +245,18 @@ To see them organized approximately by project, see [here](/research).
 1. *Expectations and Experiences of Short-Term Study Abroad Leadership Teams*.  
  Journal of International Engineering Education (JIEE) 2020.  
  <a href="https://davisjam.github.io/files/publications/OzkanDavisDavisJamesMurziKnight-JIEE20.pdf" aria-label="PDF: Expectations and Experiences of Short-Term Study Abroad Leadership Teams"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
-1. *Applying Experiential Learning Theory to Understand Study Abroad Leaders' Experiences Using Real-Time Perspectives*.
 
 ## Peer-reviewed workshop papers
 
+1. *An Empirical Investigation of Pre-Trained Deep Learning Model Reuse in the Scientific Process*.  
+ N. Synovic, K. Ryzka, A.V.V. Solari, K. Lyons, **Davis**, and G.K. Thiruvathukal.  
+ Proceedings of the 22nd IEEE International eScience Conference (short paper) (eScience) 2026.
 1. *How Do Agents Perform Code Optimization? An Empirical Study*.  
  Proceedings of the 23rd International Mining Software Repositories Conference -- Mining Challenge track (MSR-MiningChallenge) 2026.  
  <a href="https://arxiv.org/pdf/2512.21757" aria-label="PDF: How Do Agents Perform Code Optimization? An Empirical Study"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+1. *Software Supply Chains are Dead: Use-Case-Oriented Regeneration*.  
+ T. Singla and **Davis**.  
+ Proceedings of the 20th International Symposium on Empirical Software Engineering and Measurement - Emerging Results, Vision, and Reflection Track (ESEM-ERVR) 2026.
 1. *Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen*.  
  ACM International Conference on the Foundations of Software Engineering -- Industry track (FSE-Industry) 2026.  
  <a href="https://arxiv.org/pdf/2510.02185" aria-label="PDF: Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
@@ -358,6 +368,9 @@ To see them organized approximately by project, see [here](/research).
  J.M. Winkler, A. Agarwal, C. Tung, D.R. Ugalde, Y.J. Jung, and **Davis**.  
  Proceedings of the 29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Artifacts Track (ESEC/FSE-Artifacts) 2021.  
  <a href="https://github.com/PurdueDualityLab/deepbugs-jr/blob/develop/paper/Deepbugs_Replication_Paper_Abstract.pdf" aria-label="PDF: A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+1. *On the Impact and Defeat of Regex DoS*.  
+ **Davis**.  
+ ACM Student Research Competition, Grand Finals - second place, graduate student division 2020.
 1. *Rethinking Regex Engines to Address ReDoS*.  
  **Davis**.  
  Proceedings of the 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE'19) --- Student research competition. 2019.  
@@ -370,12 +383,6 @@ To see them organized approximately by project, see [here](/research).
  **Davis**, G. Kildow, and D. Lee.  
  Proceedings of the 10th European Workshop on Systems Security (EuroSec) 2017.  
  <a href="https://davisjam.github.io/files/publications/DavisKildowLee-EHP-EuroSec17.pdf" aria-label="PDF: The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
-1. *An Empirical Investigation of Pre-Trained Deep Learning Model Reuse in the Scientific Process*.  
- N. Synovic, K. Ryzka, A.V.V. Solari, K. Lyons, **Davis**, and G.K. Thiruvathukal.
-1. *Software Supply Chains are Dead: Use-Case-Oriented Regeneration*.  
- T. Singla and **Davis**.
-1. *On the Impact and Defeat of Regex DoS*.  
- **Davis**.
 
 ## Books and book chapters
 

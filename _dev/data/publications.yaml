@@ -37,6 +37,8 @@ publications:
   - id: C-1
     type: conference
     title: "AutoSOUP: Safety-Oriented Unit Proof Generation for Component-level Memory-Safety Verification"
+    venue: "Proceedings of the 33rd ACM Conference on Computer and Communications Security (CCS)"
+    year: 2026
     authors: "P.C. Amusuo, R. Calvo, D. Anandayuvaraj, T. Le Lievre, K. Kolyakov, E. Jorgensen, A. Machiry, and J.C. Davis"
     program_notes:
       embedded-swe: "AutoSOUP generates the proofs. Automating construction is what moves unit proofing from a technique that works to one a team can afford to use."
@@ -47,6 +49,8 @@ publications:
   - id: C-2
     type: conference
     title: "Context-Aware Trust Verification for Identity-Based Software Signing"
+    venue: "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE)"
+    year: 2026
     authors: "C. Okafor, J.C. Davis, and S. Torres-Arias"
     program_notes:
       software-supply-chain: "Verification that accounts for context: what a signature means depends on what is being installed where."
@@ -807,6 +811,9 @@ publications:
   - id: J-8
     type: journal
     title: "Applying Experiential Learning Theory to Understand Study Abroad Leaders' Experiences Using Real-Time Perspectives"
+    authors: "K. Davis, J. Deters, D. Ozkan, J.C. Davis, and H. Murzi"
+    venue: "Frontiers: The Interdisciplinary Journal of Study Abroad, Vol. 34, No. 2 (Frontiers)"
+    year: 2022
     cluster: engineering-education
 
   - id: J-9
@@ -823,6 +830,8 @@ publications:
   - id: J-10
     type: journal
     title: "Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis"
+    venue: "Frontiers: The Interdisciplinary Journal of Study Abroad, Vol. 34, No. 2 (Frontiers)"
+    year: 2022
     authors: "A. Kazerouni, J.C. Davis, A. Basak, C. Shaffer, F. Servant, and S. Edwards"
     venue: "Journal of Systems and Software (JSS)"
     year: 2021
@@ -881,6 +890,8 @@ publications:
   - id: W-1
     type: workshop
     title: "An Empirical Investigation of Pre-Trained Deep Learning Model Reuse in the Scientific Process"
+    venue: "Proceedings of the 22nd IEEE International eScience Conference (short paper) (eScience)"
+    year: 2026
     authors: "N. Synovic, K. Ryzka, A.V.V. Solari, K. Lyons, J.C. Davis, and G.K. Thiruvathukal"
     program_notes:
       ptm-se: "An early empirical look at pre-trained model reuse in the wild."
@@ -891,6 +902,8 @@ publications:
   - id: W-2
     type: workshop
     title: "Software Supply Chains are Dead: Use-Case-Oriented Regeneration"
+    venue: "Proceedings of the 20th International Symposium on Empirical Software Engineering and Measurement - Emerging Results, Vision, and Reflection Track (ESEM-ERVR)"
+    year: 2026
     authors: "T. Singla and J.C. Davis"
     program_notes:
       mage: "Argues that when regeneration is cheap, reuse decisions change shape. The position that connects the supply-chain work to the agentic setting."
@@ -1340,6 +1353,8 @@ publications:
   - id: W-33
     type: workshop
     title: "On the Impact and Defeat of Regex DoS"
+    venue: "ACM Student Research Competition, Grand Finals - second place, graduate student division"
+    year: 2020
     authors: "J.C. Davis"
     program_notes:
       saferegex: "The Student Research Competition statement of the ReDoS problem and its defences."

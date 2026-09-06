@@ -17,6 +17,10 @@ publications:
     type: book
     title: "Model-Based Agentic Software Engineering"
     authors: "J.C. Davis"
+    # R-1 is the condensed paper of the same name; on the MAGE page the
+    # two sit together, so the book says which one it is.
+    program_titles:
+      mage: "Model-Based Agentic Software Engineering (The MAGE Book)"
     program_notes:
       mage: "The book-length statement of the framework."
     paper_url: "https://davisjam.github.io/model-based-agentic-software-engineering/book/index.html"
@@ -33,6 +37,8 @@ publications:
   - id: C-1
     type: conference
     title: "AutoSOUP: Safety-Oriented Unit Proof Generation for Component-level Memory-Safety Verification"
+    venue: "Proceedings of the 33rd ACM Conference on Computer and Communications Security (CCS)"
+    year: 2026
     authors: "P.C. Amusuo, R. Calvo, D. Anandayuvaraj, T. Le Lievre, K. Kolyakov, E. Jorgensen, A. Machiry, and J.C. Davis"
     program_notes:
       embedded-swe: "AutoSOUP generates the proofs. Automating construction is what moves unit proofing from a technique that works to one a team can afford to use."
@@ -43,6 +49,8 @@ publications:
   - id: C-2
     type: conference
     title: "Context-Aware Trust Verification for Identity-Based Software Signing"
+    venue: "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE)"
+    year: 2026
     authors: "C. Okafor, J.C. Davis, and S. Torres-Arias"
     program_notes:
       software-supply-chain: "Verification that accounts for context: what a signature means depends on what is being installed where."
@@ -803,6 +811,9 @@ publications:
   - id: J-8
     type: journal
     title: "Applying Experiential Learning Theory to Understand Study Abroad Leaders' Experiences Using Real-Time Perspectives"
+    authors: "K. Davis, J. Deters, D. Ozkan, J.C. Davis, and H. Murzi"
+    venue: "Frontiers: The Interdisciplinary Journal of Study Abroad, Vol. 34, No. 2 (Frontiers)"
+    year: 2022
     cluster: engineering-education
 
   - id: J-9
@@ -819,6 +830,8 @@ publications:
   - id: J-10
     type: journal
     title: "Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis"
+    venue: "Frontiers: The Interdisciplinary Journal of Study Abroad, Vol. 34, No. 2 (Frontiers)"
+    year: 2022
     authors: "A. Kazerouni, J.C. Davis, A. Basak, C. Shaffer, F. Servant, and S. Edwards"
     venue: "Journal of Systems and Software (JSS)"
     year: 2021
@@ -877,6 +890,8 @@ publications:
   - id: W-1
     type: workshop
     title: "An Empirical Investigation of Pre-Trained Deep Learning Model Reuse in the Scientific Process"
+    venue: "Proceedings of the 22nd IEEE International eScience Conference (short paper) (eScience)"
+    year: 2026
     authors: "N. Synovic, K. Ryzka, A.V.V. Solari, K. Lyons, J.C. Davis, and G.K. Thiruvathukal"
     program_notes:
       ptm-se: "An early empirical look at pre-trained model reuse in the wild."
@@ -887,6 +902,8 @@ publications:
   - id: W-2
     type: workshop
     title: "Software Supply Chains are Dead: Use-Case-Oriented Regeneration"
+    venue: "Proceedings of the 20th International Symposium on Empirical Software Engineering and Measurement - Emerging Results, Vision, and Reflection Track (ESEM-ERVR)"
+    year: 2026
     authors: "T. Singla and J.C. Davis"
     program_notes:
       mage: "Argues that when regeneration is cheap, reuse decisions change shape. The position that connects the supply-chain work to the agentic setting."
@@ -1336,6 +1353,8 @@ publications:
   - id: W-33
     type: workshop
     title: "On the Impact and Defeat of Regex DoS"
+    venue: "ACM Student Research Competition, Grand Finals - second place, graduate student division"
+    year: 2020
     authors: "J.C. Davis"
     program_notes:
       saferegex: "The Student Research Competition statement of the ReDoS problem and its defences."
@@ -1386,6 +1405,78 @@ publications:
 
   - id: R-1
     type: report
+    title: "Model-Based Agentic Software Engineering"
+    authors: "J.C. Davis, K. Kalu, H. Peng, and P.V. Patil"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2608.25174"
+    projects: [mage]
+    role_in_project:
+      mage: core
+    program_notes:
+      mage: "An 8-page condensed version of the MAGE theory."
+  - id: R-2
+    type: report
+    title: "Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering"
+    authors: "J.C. Davis, P. Amusuo, T. Singla, B. Çakar, and K.A. Davis"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2607.01087"
+    projects: [mage]
+    role_in_project:
+      mage: core
+    program_notes:
+      mage: "A case study in governing agent-produced work on a real system."
+  - id: R-3
+    type: report
+    title: "Reproducibility is Not Enough: Artifact Verifiability in Decentralized-Build Package Ecosystems"
+    authors: "O. Solarin, K. Kalu, J.C. Davis, and P. Amusuo"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2608.18180"
+    projects: [software-supply-chain]
+    role_in_project:
+      software-supply-chain: core
+    program_notes:
+      software-supply-chain: "Asks whether a reproducible build is enough to establish that the artifact you received is the one that was built."
+  - id: R-4
+    type: report
+    title: "Is US Defense Acquisition Ready to Acquire AI-Enabled Capabilities? Assessing the DoD Software Acquisition Pathway Through a Scenario-Based Policy Analysis"
+    authors: "D. Lugo and J.C. Davis"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2606.07393"
+    projects: [mage]
+    role_in_project:
+      mage: core
+    program_notes:
+      mage: "Asks what the DoD software acquisition pathway assumes about how software is produced, through a scenario-based policy analysis."
+  - id: R-5
+    type: report
+    title: "Measuring Delivery Consistency in Practice: A DORA Extension from a Multi-Platform Release Setting"
+    authors: "L. Parente and J.C. Davis"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2606.00364"
+  - id: R-6
+    type: report
+    title: "AgOSS: A Dataset and Multi-Layer Characterization of Open-Source Agricultural Software"
+    authors: "V. Dudhaiya, M. Golovenchits, A. Bannerjee, and J.C. Davis"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2609.02591"
+    projects: [software-supply-chain]
+    role_in_project:
+      software-supply-chain: core
+    program_notes:
+      software-supply-chain: "A dataset and multi-layer characterization of open-source software in a domain the field rarely examines."
+  - id: R-7
+    type: report
+    title: "SAGE: Structured Agentic Graph Editing for Software Diagrams"
+    authors: "T. Sivertsen, N. Singh, and J.C. Davis"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2607.01102"
+    projects: [mage]
+    role_in_project:
+      mage: core
+    program_notes:
+      mage: "A worked example of building on the framework: editing software diagrams as structured graphs rather than as pictures."
+  - id: R-8
+    type: report
     title: "A Longitudinal Study of Usability in Identity-Based Software Signing"
     authors: "K. Kalu, H. Tran, S. Torres-Arias, S. Jeong, and J.C. Davis"
     venue: "arXiv"
@@ -1399,7 +1490,7 @@ publications:
     role_in_project:
       software-supply-chain: core
 
-  - id: R-2
+  - id: R-9
     type: report
     title: "Reactive Bottom-Up Testing"
     authors: "S. Muralee, S. Cherupattamoolayil, J.C. Davis, A. Bianchi, and A. Machiry"
@@ -1414,7 +1505,7 @@ publications:
     role_in_project:
       embedded-swe: core
 
-  - id: R-3
+  - id: R-10
     type: report
     title: "A Guide to Stakeholder Analysis for Cybersecurity Researchers"
     authors: "J.C. Davis, S. Chen, H. Peng, P. Amusuo, and K. Kalu"
@@ -1429,7 +1520,7 @@ publications:
     role_in_project:
       failure-aware-sdlc: core
 
-  - id: R-4
+  - id: R-11
     type: report
     title: "Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies"
     venue: "arXiv"
@@ -1443,8 +1534,9 @@ publications:
     role_in_project:
       saferegex: core
 
-  - id: R-5
+  - id: R-12
     type: report
+    year: 2025
     title: "Improving the Reproducibility of Deep Learning Software: An Initial Investigation through a Case Study Analysis. https://arxiv.org/pdf/2505.03165. 2025"
     authors: "N. Ravi, A. Goel, J.C. Davis, and G.K. Thiruvathukal"
     program_notes:
@@ -1453,7 +1545,7 @@ publications:
     role_in_project:
       ptm-se: core
 
-  - id: R-6
+  - id: R-13
     type: report
     title: "Large Language Models for Energy-Efficient Code: Emerging Results and Future Directions"
     venue: "arXiv"
@@ -1463,7 +1555,7 @@ publications:
       paper: "https://arxiv.org/pdf/2410.09241"
     cluster: efficient-ml-systems
 
-  - id: R-7
+  - id: R-14
     type: report
     title: "A Partial Replication of MaskFormer in TensorFlow on TPUs for the TensorFlow Model Garden"
     authors: "V. Purohit, W. Jiang, A.R. Ravikiran, and J.C. Davis"
@@ -1478,7 +1570,7 @@ publications:
     role_in_project:
       ptm-se: core
 
-  - id: R-8
+  - id: R-15
     type: report
     title: "An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors"
     authors: "V. Banna, A. Chinnakotla, Z. Yan, A. Vegesana, N. Vivek, K. Krishnappa, W. Jiang, Y.H. Lu, G.K. Thiruvathukal, and J.C. Davis"
@@ -1499,6 +1591,7 @@ publications:
     authors: "Jiang, Cheung, Kim, Kim, **Davis**"
     venue: "US provisional patent application, held by Purdue University"
     year: 2025
+    application_number: "63/813,549"
     program_notes:
       ptm-se: "Identifies naming mismatches from a network's architecture, making the naming problem detectable rather than only observable."
     projects: [ptm-se]
@@ -1511,88 +1604,49 @@ publications:
     authors: "**Davis**, Davis"
     venue: "US patent, held by IBM"
     year: 2024
-    paper_url: "https://patents.google.com/patent/US20220374265A1/en"
-    links:
-      paper: "https://patents.google.com/patent/US20220374265A1/en"
     patent_number: US11875185B2
-    links:
-      record: "https://patents.google.com/patent/US11875185B2/en"
-
   - id: Pa-3
     type: patent
     title: "Verification of the Integrity of Data Files Stored in Copy-on-Write (CoW) Based File System Snapshots"
     authors: "Davis, **Davis**"
     venue: "US patent, held by IBM"
     year: 2021
-    paper_url: "https://patents.google.com/patent/US11176090B2/en"
-    links:
-      paper: "https://patents.google.com/patent/US11176090B2/en"
     patent_number: US11176090B2
-    links:
-      record: "https://patents.google.com/patent/US11176090B2/en"
-
   - id: Pa-4
     type: patent
     title: "Injection of simulated hardware failure(s) in a file system for establishing file system tolerance-to-storage-failure(s)"
     authors: "**Davis**, Davis"
     venue: "US patent, held by IBM"
     year: 2021
-    paper_url: "https://patents.google.com/patent/US11023341B2/en"
-    links:
-      paper: "https://patents.google.com/patent/US11023341B2/en"
-
+    patent_number: US11023341B2
   - id: Pa-5
     type: patent
     title: "Performing hierarchical provenance collection"
     authors: "**Davis**, Rupprecht, Bhagwat, Arnold, Sawdon"
     venue: "US patent, held by IBM"
     year: 2021
-    paper_url: "https://patents.google.com/patent/US10891174B1/en"
-    links:
-      paper: "https://patents.google.com/patent/US10891174B1/en"
     patent_number: US10891174B1
-    links:
-      record: "https://patents.google.com/patent/US10891174B1/en"
-
   - id: Pa-6
     type: patent
     title: "File metadata verification in a distributed file system"
     authors: "**Davis**, Davis"
     venue: "US patent, held by IBM"
     year: 2020
-    paper_url: "https://patents.google.com/patent/US10642796B2/en"
-    links:
-      paper: "https://patents.google.com/patent/US10642796B2/en"
-    patent_number: US10642796B2
-    links:
-      record: "https://patents.google.com/patent/US10642796B2/en"
-
+    patent_number: US10678755B2
   - id: Pa-7
     type: patent
     title: "Testing of lock managers in computing environments"
     authors: "Davis, **Davis**"
     venue: "US patent, held by IBM"
-    year: 2020
-    paper_url: "https://patents.google.com/patent/US10614040B2/en"
-    links:
-      paper: "https://patents.google.com/patent/US10614040B2/en"
-    patent_number: US10614039B2
-    links:
-      record: "https://patents.google.com/patent/US10614039B2/en"
-
+    year: 2018
+    patent_number: US10061777B1
   - id: Pa-8
     type: patent
     title: "Detection of file corruption in a distributed file system"
     authors: "**Davis**, Davis, Knop"
     venue: "US patent, held by IBM"
-    year: 2019
-    paper_url: "https://patents.google.com/patent/US10229121B2/en"
-    links:
-      paper: "https://patents.google.com/patent/US10229121B2/en"
-    patent_number: US10229121B2
-    links:
-      record: "https://patents.google.com/patent/US10229121B2/en"
-
+    year: 2018
+    patent_number: US10025788B2
   - id: Ps-1
     type: poster
     title: "Advancing Jailbreak Strategies: A Hybrid Approach to Exploiting LLM Vulnerabilities and Bypassing Modern Defenses"
