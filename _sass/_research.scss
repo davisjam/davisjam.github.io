@@ -398,7 +398,13 @@
    A 130px logo sits inside the budget, so the loop terminates with the logo
    still visible and every link behind the hamburger, which is the behaviour
    you want on a phone anyway. */
-@media (max-width: 30em) {
+/* The logo is the largest single item in the bar, so its size decides whether
+   everything else fits. Full size only where there is room for the whole bar
+   beside it. */
+@media (max-width: 100em) {   /* < 1600px */
+  .masthead__menu-logo { height: 56px; max-width: 180px; }
+}
+@media (max-width: 30em) {    /* phones */
   .masthead__menu-logo { height: 40px; max-width: 130px; }
 }
 
