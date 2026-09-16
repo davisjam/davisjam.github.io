@@ -517,10 +517,17 @@ def accessibility(e: Engine, m) -> None:
                 o3.fail(f"heading jumps h{a} -> h{b}", s["id"])
         if "<figure" in h and "<figcaption" not in h:
             o4.fail("figure without a caption", s["id"])
-        for svg in (ROOT / s["path"] / "figures").glob("*.svg"):
-            t = svg.read_text()
-            if "<title" not in t or "<desc" not in t:
-                o5.fail(f"{svg.name} lacks <title>/<desc>", s["id"])
+    # The figures moved into the main site when the six programme repos were
+    # consolidated: assets/research/<programme>/*.svg. This still globbed
+    # <repo>/figures/, which for a retired site is never even visited -- so it
+    # examined ZERO svgs and passed. It was the empty-scan guard that surfaced
+    # it, on the same day the guard was written.
+    svgs = sorted((SITE / "assets/research").rglob("*.svg"))
+    o5.saw(len(svgs))
+    for svg in svgs:
+        t = svg.read_text(errors="replace")
+        if "<title" not in t or "<desc" not in t:
+            o5.fail(f"{svg.relative_to(SITE)} lacks <title>/<desc>")
 
 
 def seo(e: Engine, m) -> None:
@@ -728,7 +735,9 @@ def self_sufficient(e: Engine, m) -> None:
     # so ROOT / "repos/davisjam.github.io/_pages" is a BinOp whose right operand
     # is that literal, while prose and failure messages never are.
     import ast
-    for chk in sorted((SITE / "tests").glob("*.py")):
+    checks_here = sorted((SITE / "tests").glob("*.py"))
+    o.saw(len(checks_here))
+    for chk in checks_here:
         if chk.name == "_sitepath.py":
             continue        # the resolver is the one file that must know the path
         try:
