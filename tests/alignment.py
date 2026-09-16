@@ -68,13 +68,50 @@ class Obligation:
     severity: str = ERROR
     findings: list[Finding] = field(default_factory=list)
 
+    #: How many items this obligation actually examined. None means it never
+    #: said, which is itself worth knowing.
+    examined: int | None = None
+
     def fail(self, detail: str, where: str = "", severity: str | None = None) -> None:
         self.findings.append(Finding(self.id, severity or self.severity, detail, where))
+
+    def saw(self, n: int) -> int:
+        """Record how many items were examined, and pass the count through.
+
+        A check that examines NOTHING reports success. That is the single most
+        common way a gate in this repo has failed: the a11y scan took its
+        tool-absent branch and passed while scanning no pages; the layout sweep
+        globbed a path that did not exist and reported "no overflow" across one
+        page instead of fourteen; a figure scan missed a subdirectory; an id
+        regex never matched a lowercase second letter and reported a CV as
+        having no patents. Every one of them was GREEN.
+
+        Declaring the count turns "found no problems" into "found no problems
+        in N items", and a zero becomes visible instead of reassuring.
+        """
+        self.examined = n
+        return n
 
 
 class Engine:
     def __init__(self) -> None:
         self.obligations: list[Obligation] = []
+
+    def audit_empty_scans(self) -> None:
+        """Flag obligations that passed while examining zero items.
+
+        Deliberately a WARNING, not an ERROR: an empty scan is sometimes
+        legitimate (a category with no entries yet). The point is to make it
+        SAY so rather than present as a clean pass.
+        """
+        for o in self.obligations:
+            if o.findings or o.examined is None:
+                continue
+            if o.examined == 0:
+                o.fail("examined 0 items -- a check that scans nothing always "
+                       "passes; confirm this is genuinely empty and not a "
+                       "path, filter or pattern that matched nothing",
+                       severity=WARNING)
 
     def obl(self, oid: str, statement: str, evidence: list[str],
             severity: str = ERROR) -> Obligation:
@@ -623,6 +660,7 @@ def patents(e: Engine, m) -> None:
                 o.fail(f"{rec['id']} ({rec.get('type')}) has no {field} -- it "
                        f"prints as a bare title: {str(rec.get('title'))[:44]}")
 
+    o.saw(sum(1 for x in pubs if str(x.get("id", "")).startswith("Pa-")))
     for p in (x for x in pubs if str(x.get("id", "")).startswith("Pa-")):
         pid = p["id"]
         for field, val in (("paper_url", p.get("paper_url")),
@@ -950,7 +988,9 @@ def external_consumers(e: Engine, m) -> None:
     o = e.obl("OBL-LINK-006",
               "Assets other sites reference stay where those sites expect them.",
               ["images/logo.svg"])
-    for rel, who in (("images/logo.svg", "the MAGE site header"),):
+    referenced = (("images/logo.svg", "the MAGE site header"),)
+    o.saw(len(referenced))
+    for rel, who in referenced:
         if not (SITE / rel).is_file():
             o.fail(f"{rel} is missing or moved -- {who} references it at "
                    f"/{rel} and would render a broken image")
@@ -987,8 +1027,8 @@ def published_cv(e: Engine, m) -> None:
     if not shutil.which("pdftotext"):
         # Surfaced, not silently skipped. A quiet pass on a check that scanned
         # nothing is how the accessibility gate sat inert for a week.
-        o.warn("pdftotext not installed -- cannot verify the published CV "
-               "(brew install poppler)")
+        o.fail("pdftotext not installed -- cannot verify the published CV "
+               "(brew install poppler)", severity=WARNING)
         return
     try:
         text = subprocess.run(["pdftotext", "-layout", str(pdf), "-"],
@@ -1002,6 +1042,9 @@ def published_cv(e: Engine, m) -> None:
     # matched: the count came back zero and read as "this CV has no patents".
     # I reported exactly that to James about a CV that has all eight.
     cv = collections.Counter(p for p, _ in re.findall(r"\[([A-Z][A-Za-z]?)-(\d+)\]", text))
+    # If the pattern matches nothing the comparison below is vacuous and every
+    # prefix "mismatches" -- or, with an earlier pattern, silently agreed.
+    o.saw(sum(cv.values()))
     pubs = _y.safe_load((DATA_DIR / "publications.yaml").read_text())["publications"]
     rec = collections.Counter(r["id"].split("-")[0] for r in pubs)
     grants = _y.safe_load((DATA_DIR / "funding.yaml").read_text())["grants"]
@@ -1144,6 +1187,10 @@ def main(argv=None) -> int:
         if args.family and name not in args.family:
             continue
         fn(e, m)
+
+    # Turn a silent empty scan into a visible one -- see Obligation.saw for the
+    # six times a green result meant "examined nothing".
+    e.audit_empty_scans()
 
     if args.list:
         for o in e.obligations:
