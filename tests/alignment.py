@@ -187,7 +187,16 @@ def scholarly(e: Engine, m) -> None:
     o3 = e.obl("OBL-SCHOLARLY-003",
                "Rendered publication titles match the canonical record exactly.",
                ["data/publications.yaml", "repos/*/index.html"])
-    for s in live_sites(m):
+    # These obligations examine the standalone programme sites, all six of
+    # which are now retired -- so this iterates nothing and every one of
+    # them passes. Declaring the count makes the vacuum visible instead of
+    # presenting as a clean result.
+    _live = live_sites(m)
+    o.saw(len(_live))
+    o2.saw(len(_live))
+    o3.saw(len(_live))
+
+    for s in _live:
         f = built(s)
         if not f.exists():
             o.fail("site not built", s["id"]); continue
@@ -321,7 +330,18 @@ def routes(e: Engine, m) -> None:
                ["repos/*/index.html"])
     o5 = e.obl("OBL-ROUTE-005", "Every jump-navigation fragment resolves to a section id.",
                ["repos/*/index.html"])
-    for s in live_sites(m):
+    # These obligations examine the standalone programme sites, all six of
+    # which are now retired -- so this iterates nothing and every one of
+    # them passes. Declaring the count makes the vacuum visible instead of
+    # presenting as a clean result.
+    _live = live_sites(m)
+    o.saw(len(_live))
+    o2.saw(len(_live))
+    o3.saw(len(_live))
+    o4.saw(len(_live))
+    o5.saw(len(_live))
+
+    for s in _live:
         f = built(s)
         if not f.exists():
             continue
@@ -436,7 +456,16 @@ def design(e: Engine, m) -> None:
                ["repos/*/index.html"])
     EYEBROW = [r"a research programme of", r"a research project of james",
                r"a duality lab initiative", r"research initiative"]
-    for s in live_sites(m):
+    # These obligations examine the standalone programme sites, all six of
+    # which are now retired -- so this iterates nothing and every one of
+    # them passes. Declaring the count makes the vacuum visible instead of
+    # presenting as a clean result.
+    _live = live_sites(m)
+    o.saw(len(_live))
+    o2.saw(len(_live))
+    o3.saw(len(_live))
+
+    for s in _live:
         f = built(s)
         if not f.exists():
             continue
