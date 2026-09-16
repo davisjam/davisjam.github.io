@@ -862,6 +862,9 @@ def records(e: Engine, m) -> None:
             if c.get("legacy_number") and c.get("featured") and c["legacy_number"] in t:
                 o3.fail(f"obsolete course number {c['legacy_number']} still published")
 
+    # Same family: RECORD maps to a single function.
+    published_cv(e, m)
+
 
 def links(e: Engine, m) -> None:
     """Whenever a specific paper is NAMED, its title links to a readable copy."""
@@ -951,6 +954,69 @@ def external_consumers(e: Engine, m) -> None:
         if not (SITE / rel).is_file():
             o.fail(f"{rel} is missing or moved -- {who} references it at "
                    f"/{rel} and would render a broken image")
+
+
+def published_cv(e: Engine, m) -> None:
+    """The served CV must be the FULL CV, not a proposal biosketch.
+
+    Written after publishing the wrong one (260906). "The CV is updated" meant a
+    newer file was ready; the newest by timestamp was a grant-proposal biosketch
+    that drops PATENTS entirely along with internal grants, gifts in kind,
+    talks, service and awards, and cuts workshop papers from 36 to 15. For
+    twenty minutes the site served a CV with no patents while the Publications
+    page listed eight.
+
+    A page count cannot tell those apart -- 19 against 25 reads as a trim
+    whichever it is. What distinguishes them is agreement with the records:
+    these were built FROM the full CV, so the full CV matches them on every
+    entry prefix and an abridged one cannot. That check was available the whole
+    time and would have settled it before the push rather than after.
+
+    Counting bracketed CV ids rather than parsing entries, because the ids are
+    the CV's own stable keys -- the same ones publications.yaml and funding.yaml
+    are keyed on, which is what makes the comparison meaningful.
+    """
+    import collections, re, shutil, subprocess, yaml as _y
+    o = e.obl("OBL-RECORD-004",
+              "The published CV agrees with the records built from it.",
+              ["files/professional/JamesDavis-CV.pdf", "data/publications.yaml"])
+    pdf = SITE / "files/professional/JamesDavis-CV.pdf"
+    if not pdf.is_file():
+        o.fail("files/professional/JamesDavis-CV.pdf is missing -- the site links it")
+        return
+    if not shutil.which("pdftotext"):
+        # Surfaced, not silently skipped. A quiet pass on a check that scanned
+        # nothing is how the accessibility gate sat inert for a week.
+        o.warn("pdftotext not installed -- cannot verify the published CV "
+               "(brew install poppler)")
+        return
+    try:
+        text = subprocess.run(["pdftotext", "-layout", str(pdf), "-"],
+                              capture_output=True, text=True, timeout=60).stdout
+    except (OSError, subprocess.SubprocessError) as exc:
+        o.fail(f"could not read the published CV: {exc}")
+        return
+
+    # [A-Z][A-Za-z]? -- the second letter may be LOWERCASE. The CV numbers
+    # patents Pa-N and presentations Ps-N, which [A-Z]{1,2} silently never
+    # matched: the count came back zero and read as "this CV has no patents".
+    # I reported exactly that to James about a CV that has all eight.
+    cv = collections.Counter(p for p, _ in re.findall(r"\[([A-Z][A-Za-z]?)-(\d+)\]", text))
+    pubs = _y.safe_load((DATA_DIR / "publications.yaml").read_text())["publications"]
+    rec = collections.Counter(r["id"].split("-")[0] for r in pubs)
+    grants = _y.safe_load((DATA_DIR / "funding.yaml").read_text())["grants"]
+    for g in grants:
+        rec[g["id"].split("-")[0]] += 1
+
+    # Only prefixes the records own. The CV also numbers impact items (I-) and
+    # internal grants (IG-), which have no record here and are not evidence of
+    # anything being wrong.
+    for prefix in sorted(rec):
+        want, got = rec[prefix], cv.get(prefix, 0)
+        if got != want:
+            o.fail(f"published CV lists {got} {prefix}- entries, the records hold "
+                   f"{want} -- a mismatch on every prefix is the signature of an "
+                   f"abridged or proposal-format CV rather than the full one")
 
 
 def structure(e: Engine, m) -> None:
