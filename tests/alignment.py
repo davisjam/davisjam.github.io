@@ -1006,6 +1006,61 @@ def links(e: Engine, m) -> None:
 
     # Same family: LINK maps to a single function.
     external_consumers(e, m)
+    book_links(e, m)
+
+
+def book_links(e: Engine, m) -> None:
+    """Every reference to a book points at the same place.
+
+    The MAGE book was named in three records and they had drifted to two
+    different URLs, neither the canonical one: teaching.yaml and the sites.yaml
+    landmark said book/mage-book.pdf, while publication B-1 said
+    book/index.html. That last one serves a page titled "Moved" -- a redirect
+    stub, not the book -- so the Publications page linked the MAGE Book to a
+    placeholder.
+
+    A status check cannot catch that: a stub returns a perfectly healthy 200,
+    and links.py duly reported no dead links. What is checkable without the
+    network is AGREEMENT -- if all three surfaces must be identical, then
+    fixing one fixes the set, and a drifting one is named immediately.
+
+    sites.yaml holds the canonical value because the landmark is the
+    site-descriptive record; the others are consumers.
+    """
+    import yaml as _y
+    o = e.obl("OBL-LINK-007",
+              "Every record naming a book points at the same URL.",
+              ["model/sites.yaml", "data/teaching.yaml", "data/publications.yaml"])
+    # Same derivation the loader uses (line ~131); there is no module-level
+    # MODEL constant.
+    sites_p = DATA_DIR.parent / "model" / "sites.yaml"
+    if not sites_p.exists():
+        return          # the model is absent in the in-site layout; nothing to join on
+    sites = _y.safe_load(sites_p.read_text())
+    # sites.yaml holds sites as a LIST under "sites", not a mapping.
+    canon = None
+    for s in sites.get("sites", []):
+        if isinstance(s, dict) and isinstance(s.get("landmarks"), dict):
+            canon = canon or s["landmarks"].get("book")
+    if not canon:
+        o.fail("model/sites.yaml has no landmarks.book -- nothing to join on")
+        return
+
+    seen = {"model/sites.yaml landmarks.book": canon}
+    teach = _y.safe_load((DATA_DIR / "teaching.yaml").read_text())
+    for b in (teach.get("textbooks") or {}).get("books", []):
+        if b.get("url") and "mage-book" in b["url"]:
+            seen[f"data/teaching.yaml textbooks[{b['title'][:24]}]"] = b["url"]
+    pubs = _y.safe_load((DATA_DIR / "publications.yaml").read_text())["publications"]
+    for r in pubs:
+        u = r.get("paper_url") or ""
+        if "model-based-agentic-software-engineering/book" in u:
+            seen[f"data/publications.yaml {r['id']}"] = u
+
+    for where, url in seen.items():
+        if url != canon:
+            o.fail(f"{where} points at {url.rsplit('/book/', 1)[-1]!r}, "
+                   f"but the canonical book URL is {canon.rsplit('/book/', 1)[-1]!r}")
 
 
 def external_consumers(e: Engine, m) -> None:

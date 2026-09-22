@@ -21,7 +21,7 @@ MAGE studies the engineering structures that make delegated implementation gover
 Capable agents have made producing working code much cheaper. They have not made it cheaper to decide what should be built, which obligations govern it, or whether the result is acceptable.
 
 <ul class="pub-list">
-  <li><span class="pub-title"><a href="https://davisjam.github.io/model-based-agentic-software-engineering/book/index.html">Model-Based Agentic Software Engineering (The MAGE Book)</a></span><br><span class="note">The book-length statement of the framework.</span></li>
+  <li><span class="pub-title"><a href="https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book/index.html">Model-Based Agentic Software Engineering (The MAGE Book)</a></span><br><span class="note">The book-length statement of the framework.</span></li>
   <li><span class="pub-title"><a href="https://arxiv.org/pdf/2608.25174">Model-Based Agentic Software Engineering</a></span><br><span class="venue">2026</span><br><span class="note">An 8-page condensed statement of the MAGE theory.</span></li>
   <li><span class="pub-title"><a href="https://arxiv.org/pdf/2607.13021">Software Supply Chains are Dead: Use-Case-Oriented Regeneration</a></span><br><span class="venue">ESEM-ERVR &middot; 2026</span><br><span class="note">Explores how cheap regeneration changes the economics of reuse, connecting earlier software-supply-chain research to the agentic setting.</span></li>
 </ul>

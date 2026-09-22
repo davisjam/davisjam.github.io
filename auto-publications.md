@@ -392,7 +392,7 @@ To see them organized approximately by project, see [here](/research).
 
 1. *Model-Based Agentic Software Engineering*.  
  **Davis**.  
- <a href="https://davisjam.github.io/model-based-agentic-software-engineering/book/index.html" aria-label="PDF: Model-Based Agentic Software Engineering"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+ <a href="https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book/index.html" aria-label="PDF: Model-Based Agentic Software Engineering"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Epilogue: The Computer Engineer as Tool-User*.  
  **Davis**.
 

@@ -34,11 +34,11 @@ In early 2026, coding agents became sufficiently capable as to substantially cha
 
 I responded by writing and openly publishing two complementary textbooks.
 
-### Software Engineering Handbook
+### [Software Engineering Handbook](https://davisjam.github.io/model-based-agentic-software-engineering/book/se-handbook/index.html)
 
 The Software Engineering Handbook develops the foundations needed to exercise informed control over software systems: engineering process, teamwork, requirements, specification, architecture, design, validation, and engineering decision-making. It asks what engineers need to know and do when producing the implementation is no longer necessarily the difficult part.
 
-### [Model-Based Agentic Software Engineering (MAGE)](https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book.pdf)
+### [Model-Based Agentic Software Engineering (MAGE)](https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book/index.html)
 
 Model-Based Agentic Software Engineering (MAGE) begins where the Handbook leaves off. The Handbook develops the enduring activities through which engineers understand and control software systems; MAGE asks how those activities must be organized when capable agents can perform much of the realization. It develops Modeling, Alignment, and related structures for supervising delegated work while engineers retain informed control and responsibility.
 
