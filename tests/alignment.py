@@ -129,7 +129,31 @@ def load():
     # the copy inside the site; `r` takes an absolute path now, not a
     # root-relative string.
     M = DATA_DIR.parent / "model"
-    return {"sites": r(M / "sites.yaml"), "pubs": r(DATA_DIR / "publications.yaml"),
+
+    def _resolve(node, lm):
+        """Substitute {{landmark:NAME}} throughout a loaded record.
+
+        The checks are CONSUMERS of these records just as the generators are, so
+        they need the same substitution. Doing it at load time -- one funnel --
+        rather than at each obligation is what keeps a raw token from reaching a
+        check that reasons about URLs: OBL-LINK-002 and OBL-LINK-005 both
+        reported nonsense against the literal token before this existed.
+        """
+        if isinstance(node, str):
+            return re.sub(r"\{\{landmark:([a-z_]+)\}\}",
+                          lambda m: lm.get(m.group(1), m.group(0)), node)
+        if isinstance(node, list):
+            return [_resolve(x, lm) for x in node]
+        if isinstance(node, dict):
+            return {k: _resolve(v, lm) for k, v in node.items()}
+        return node
+
+    sites = r(M / "sites.yaml")
+    lm = {}
+    for _s in sites.get("sites", []):
+        lm.update(_s.get("landmarks") or {})
+
+    return {"sites": sites, "pubs": _resolve(r(DATA_DIR / "publications.yaml"), lm),
             "fund": r(DATA_DIR / "funding.yaml"), "service": r(DATA_DIR / "service.yaml"),
             "awards": r(DATA_DIR / "awards.yaml"), "courses": r(DATA_DIR / "courses.yaml")}
 
@@ -1010,57 +1034,59 @@ def links(e: Engine, m) -> None:
 
 
 def book_links(e: Engine, m) -> None:
-    """Every reference to a book points at the same place.
+    """A book URL exists in exactly one place.
 
-    The MAGE book was named in three records and they had drifted to two
-    different URLs, neither the canonical one: teaching.yaml and the sites.yaml
-    landmark said book/mage-book.pdf, while publication B-1 said
-    book/index.html. That last one serves a page titled "Moved" -- a redirect
-    stub, not the book -- so the Publications page linked the MAGE Book to a
-    placeholder.
+    The MAGE book was written literally into three records and drifted to two
+    values, one of which pointed at a redirect stub titled "Moved" -- so the
+    Publications page linked the book to a placeholder. No status check could
+    see it: a stub returns a healthy 200.
 
-    A status check cannot catch that: a stub returns a perfectly healthy 200,
-    and links.py duly reported no dead links. What is checkable without the
-    network is AGREEMENT -- if all three surfaces must be identical, then
-    fixing one fixes the set, and a drifting one is named immediately.
+    The first attempt at a fix was a PARITY check -- keep the copies, fail when
+    they disagree. That is the weakest rung available. It still permits N
+    copies, reports only after the fact, and needs extending every time someone
+    adds a surface.
 
-    sites.yaml holds the canonical value because the landmark is the
-    site-descriptive record; the others are consumers.
+    This enforces the unification instead. The URL lives once, in the sites.yaml
+    landmark block; every other record writes {{landmark:NAME}} and the value is
+    substituted at generation time (generators/_landmarks.py). So the check is
+    not "do the copies agree" but "is there a second copy at all" -- a ban on
+    the literal, which makes disagreement unrepresentable rather than detected.
     """
-    import yaml as _y
     o = e.obl("OBL-LINK-007",
-              "Every record naming a book points at the same URL.",
-              ["model/sites.yaml", "data/teaching.yaml", "data/publications.yaml"])
-    # Same derivation the loader uses (line ~131); there is no module-level
-    # MODEL constant.
+              "Book and course-mirror URLs live only in the sites.yaml landmark block.",
+              ["model/sites.yaml", "generators/_landmarks.py"])
     sites_p = DATA_DIR.parent / "model" / "sites.yaml"
     if not sites_p.exists():
-        return          # the model is absent in the in-site layout; nothing to join on
+        return          # the model is absent in the in-site layout
+
+    import yaml as _y
     sites = _y.safe_load(sites_p.read_text())
-    # sites.yaml holds sites as a LIST under "sites", not a mapping.
-    canon = None
-    for s in sites.get("sites", []):
-        if isinstance(s, dict) and isinstance(s.get("landmarks"), dict):
-            canon = canon or s["landmarks"].get("book")
-    if not canon:
-        o.fail("model/sites.yaml has no landmarks.book -- nothing to join on")
+    known = {}
+    for site in sites.get("sites", []):
+        for k, v in (site.get("landmarks") or {}).items():
+            if k in known and known[k] != v:
+                o.fail(f"landmark {k!r} is defined twice with different values")
+            known[k] = v
+    if not known:
+        o.fail("model/sites.yaml defines no landmarks -- nothing to reference")
         return
 
-    seen = {"model/sites.yaml landmarks.book": canon}
-    teach = _y.safe_load((DATA_DIR / "teaching.yaml").read_text())
-    for b in (teach.get("textbooks") or {}).get("books", []):
-        if b.get("url") and "mage-book" in b["url"]:
-            seen[f"data/teaching.yaml textbooks[{b['title'][:24]}]"] = b["url"]
-    pubs = _y.safe_load((DATA_DIR / "publications.yaml").read_text())["publications"]
-    for r in pubs:
-        u = r.get("paper_url") or ""
-        if "model-based-agentic-software-engineering/book" in u:
-            seen[f"data/publications.yaml {r['id']}"] = u
+    # Any record that inlines a landmark's value has re-created the copy.
+    for rec in sorted(DATA_DIR.glob("*.yaml")):
+        body = rec.read_text(errors="replace")
+        for name, url in known.items():
+            if url in body:
+                o.fail(f"data/{rec.name} inlines the {name!r} landmark URL -- "
+                       f"write {{{{landmark:{name}}}}} instead so it stays "
+                       f"defined in one place")
 
-    for where, url in seen.items():
-        if url != canon:
-            o.fail(f"{where} points at {url.rsplit('/book/', 1)[-1]!r}, "
-                   f"but the canonical book URL is {canon.rsplit('/book/', 1)[-1]!r}")
+    # A reference to a landmark that does not exist would render an empty href.
+    for rec in sorted(DATA_DIR.glob("*.yaml")):
+        for name in set(re.findall(r"\{\{landmark:([a-z_]+)\}\}",
+                                   rec.read_text(errors="replace"))):
+            if name not in known:
+                o.fail(f"data/{rec.name} references unknown landmark {name!r} "
+                       f"-- known: {sorted(known)}")
 
 
 def external_consumers(e: Engine, m) -> None:

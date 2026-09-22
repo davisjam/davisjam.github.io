@@ -23,7 +23,7 @@ publications:
       mage: "Model-Based Agentic Software Engineering (The MAGE Book)"
     program_notes:
       mage: "The book-length statement of the framework."
-    paper_url: "https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book/index.html"
+    paper_url: "{{landmark:book}}"
     projects: [mage]
     role_in_project:
       mage: core

@@ -56,7 +56,7 @@ courses:
       learn not only how software is realized, but how engineers specify what should be built, preserve
       important knowledge outside the implementation, establish evidence about consequential properties,
       supervise delegated work, and decide when a system is ready to be admitted into use.'
-    - The course materials are openly available through [Teach with MAGE](https://davisjam.github.io/model-based-agentic-software-engineering/teach/).
+    - The course materials are openly available through [Teach with MAGE]({{landmark:course_mirror}}).
   - id: ece-50874
     catalog_url: https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=777&show=true&type=grad
     paragraphs:
@@ -164,14 +164,14 @@ textbooks:
   - I responded by writing and openly publishing two complementary textbooks.
   books:
   - title: Software Engineering Handbook
-    url: https://davisjam.github.io/model-based-agentic-software-engineering/book/se-handbook/index.html
+    url: "{{landmark:handbook}}"
     paragraphs:
     - 'The Software Engineering Handbook develops the foundations needed to exercise informed control
       over software systems: engineering process, teamwork, requirements, specification, architecture,
       design, validation, and engineering decision-making. It asks what engineers need to know and do
       when producing the implementation is no longer necessarily the difficult part.'
   - title: Model-Based Agentic Software Engineering (MAGE)
-    url: https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book/index.html
+    url: "{{landmark:book}}"
     paragraphs:
     - Model-Based Agentic Software Engineering (MAGE) begins where the Handbook leaves off. The Handbook
       develops the enduring activities through which engineers understand and control software systems;
@@ -179,5 +179,5 @@ textbooks:
       It develops Modeling, Alignment, and related structures for supervising delegated work while engineers
       retain informed control and responsibility.
   closing:
-  - Both books are instantiated in the openly published [Teach with MAGE](https://davisjam.github.io/model-based-agentic-software-engineering/teach/)
+  - Both books are instantiated in the openly published [Teach with MAGE]({{landmark:course_mirror}})
     course materials.

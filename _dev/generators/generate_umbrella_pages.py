@@ -26,6 +26,7 @@ def yq(v: str) -> str:
     return '"' + str(v).replace("\\", "\\\\").replace('"', '\\"') + '"'
 
 
+import _landmarks
 import _paths
 import _pubrefs
 import yaml
@@ -321,8 +322,12 @@ def teaching(sites, pubs, awards, service, courses, teach, ppl=None):
     data/teaching.yaml because they are awards to STUDENTS, which awards.yaml
     does not model.
     """
+    _lm = _landmarks.landmarks()
+
     def para(xs):
-        return [" ".join(str(x).split()) + "\n" for x in xs]
+        # Every narrative string funnels through here, so resolving landmark
+        # references at this one point covers the whole page.
+        return [_landmarks.resolve(" ".join(str(x).split()), _lm) + "\n" for x in xs]
 
     def stats(rows):
         out = ['<div class="teaching-stats" markdown="0">']
@@ -369,7 +374,8 @@ author_profile: true
     o += para(tb["paragraphs"])
     for bk in tb["books"]:
         # A book with no url renders unlinked rather than pointing at a guess.
-        title = f"[{bk['title']}]({bk['url']})" if bk.get("url") else bk["title"]
+        url = _landmarks.resolve(bk["url"], _lm) if bk.get("url") else None
+        title = f"[{bk['title']}]({url})" if url else bk["title"]
         o.append(f"### {title}\n")
         o += para(bk["paragraphs"])
     o += para(tb["closing"])

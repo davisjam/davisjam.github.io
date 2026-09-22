@@ -24,6 +24,7 @@ import sys
 
 import urllib.parse
 
+import _landmarks
 import _paths
 import _pubrefs
 import yaml

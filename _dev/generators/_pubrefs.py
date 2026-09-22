@@ -13,6 +13,8 @@ added once.
 
 from __future__ import annotations
 
+import _landmarks
+
 
 def paper_link(p: dict) -> str | None:
     """The best URL for a record, or None when there genuinely isn't one.
@@ -23,7 +25,12 @@ def paper_link(p: dict) -> str | None:
     """
     url = p.get("paper_url") or (p.get("links") or {}).get("record")
     if url:
-        return url
+        # A record may name a landmark instead of inlining a URL. Resolving HERE
+        # rather than in one page's renderer means every consumer of this helper
+        # -- publications, research pages, news, the standalone-site template --
+        # gets it. Doing it per-page is how a token reaches production as
+        # literal text in an href.
+        return _landmarks.resolve(url)
 
     # Patents identify by grant number and the URL is a function of it.
     # Provisional applications have no published page, so they resolve to None
