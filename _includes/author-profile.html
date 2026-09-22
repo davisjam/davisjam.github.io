@@ -26,8 +26,17 @@
     {% if author.email %}
       <a href="mailto:{{ author.email }}" aria-label="Email James Davis"><i class="fas fa-fw fa-envelope fa-lg" aria-hidden="true"></i></a>
     {% endif %}
-    {% if author.twitter %}
-      <a href="https://twitter.com/{{ author.twitter }}" aria-label="James Davis on Twitter"><i class="fab fa-fw fa-twitter fa-lg" aria-hidden="true"></i></a>
+    {% if author.linkedin %}
+      {%- comment -%}
+        fa-linkedin-in, not fa-linkedin: the former is the glyph alone, the
+        latter a filled brand square. Beside an envelope, a mortarboard and the
+        GitHub cat -- all outline glyphs -- the square reads as a sticker rather
+        than a member of the set.
+
+        No brand colour. Every icon here inherits the site link colour, which is
+        why the row reads as one typographic set instead of a sheet of logos.
+      {%- endcomment -%}
+      <a href="https://www.linkedin.com/in/{{ author.linkedin }}/" aria-label="James Davis on LinkedIn"><i class="fab fa-fw fa-linkedin-in fa-lg" aria-hidden="true"></i></a>
     {% endif %}
     {% if author.googlescholar %}
       <a href="{{ author.googlescholar }}" aria-label="James Davis on Google Scholar"><i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i></a>
