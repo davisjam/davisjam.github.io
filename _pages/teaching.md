@@ -14,6 +14,36 @@ I teach software engineering as an engineering discipline. My students learn not
 
 My courses therefore center on substantial engineering problems rather than isolated exercises. Students make decisions under incomplete information, work individually and in teams, build and evaluate real systems, and learn to justify their choices. I extend the same philosophy beyond individual courses through curriculum development and sustained undergraduate research mentoring.
 
+## Courses
+
+### [ECE 30861 — Software Engineering](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=814&show=true&type=undergrad)
+
+My undergraduate software-engineering course teaches students how to exercise informed control over consequential software systems. Students study software process, teamwork, requirements, specification, architecture, design, validation, deployment, security, maintenance, and engineering decision-making while building and evaluating a substantial system in teams.
+
+The course addresses a central problem for contemporary software engineering: implementation can be delegated to capable agents, but responsibility for the resulting system cannot. Students therefore learn not only how software is realized, but how engineers specify what should be built, preserve important knowledge outside the implementation, establish evidence about consequential properties, supervise delegated work, and decide when a system is ready to be admitted into use.
+
+The course materials are openly available through [Teach with MAGE](https://davisjam.github.io/model-based-agentic-software-engineering/teach/).
+
+### [ECE 50874 — Advanced Software Engineering](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=777&show=true&type=grad)
+
+ECE 50874 is the graduate sequel to ECE 30861. Where the undergraduate course develops the core activities of software engineering, the graduate course uses engineering standards, notably IEC 61508, to structure the problem of software assurance. Students examine more advanced techniques and research for establishing evidence about software systems, reasoning about risk, and determining what confidence different forms of evidence actually justify.
+
+## Textbooks
+
+In early 2026, coding agents became sufficiently capable as to substantially change software engineering work. To learn the new nature of the discipline, I spent six months saturating four Claude Max 20× accounts while building a large production software system. Implementation had become dramatically cheaper, but the engineer's responsibility for the resulting system had not. The central problem was increasingly one of control and supervision: how can engineers understand and direct work produced at machine speed, establish that consequential properties hold, recognize when assumptions fail, and intervene when necessary?
+
+I responded by writing and openly publishing two complementary textbooks.
+
+### Software Engineering Handbook
+
+The Software Engineering Handbook develops the foundations needed to exercise informed control over software systems: engineering process, teamwork, requirements, specification, architecture, design, validation, and engineering decision-making. It asks what engineers need to know and do when producing the implementation is no longer necessarily the difficult part.
+
+### [Model-Based Agentic Software Engineering (MAGE)](https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book.pdf)
+
+Model-Based Agentic Software Engineering (MAGE) begins where the Handbook leaves off. The Handbook develops the enduring activities through which engineers understand and control software systems; MAGE asks how those activities must be organized when capable agents can perform much of the realization. It develops Modeling, Alignment, and related structures for supervising delegated work while engineers retain informed control and responsibility.
+
+Both books are instantiated in the openly published [Teach with MAGE](https://davisjam.github.io/model-based-agentic-software-engineering/teach/) course materials.
+
 ## Curricular leadership
 
 I have helped build Purdue ECE's software-engineering curriculum across undergraduate and graduate education.
@@ -23,29 +53,6 @@ When I joined Purdue in 2020 as ECE's first faculty member specializing in softw
 These courses now serve more than 250 students each year. Demand for the undergraduate course led ECE to add a second section in Indianapolis, and four other ECE faculty have taught courses using the resulting curriculum and materials.
 
 My curricular work also extends to program-level assessment and improvement. I served on ECE's Undergraduate Curriculum Committee and subsequently helped lead the successful 2025 ABET review for Computer Engineering, with responsibility for documenting and evaluating the program's continuous-improvement process.
-
-## Courses I teach
-
-### [ECE 30861 — Software Engineering](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=814&show=true&type=undergrad)
-
-My undergraduate software-engineering course uses a substantial team project to connect software process, requirements and specification, architecture, implementation, validation and assurance, deployment, security, maintenance, and professional judgment.
-
-<aside class="course-inset" markdown="1">
-#### Teach with MAGE
-
-In 2026, I spent about six months using four Claude Max 20× accounts essentially full-time while building a large production software system. That experience changed how I thought about software engineering: implementation had become dramatically cheaper, but engineering judgment had not.
-
-I wrote [Model-Based Agentic Software Engineering (MAGE)](https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book.pdf) to work through the consequences, and then substantially redesigned ECE 30861 around the same question: what should software-engineering education teach when capable agents can produce implementation cheaply, but people remain responsible for requirements, models, evidence, tradeoffs, and consequences?
-
-I publish the course materials openly through [Teach with MAGE](https://davisjam.github.io/model-based-agentic-software-engineering/teach/), including lectures, readings, project materials, assessments, and the semester-long engineering project.
-
-</aside>
-
-### [ECE 50874 — Advanced Software Engineering](https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=777&show=true&type=grad)
-
-My graduate software-engineering course moves from building software that works toward reasoning systematically about whether software is robust. Students study methods for identifying and managing engineering risk, evaluating evidence about software systems, and establishing confidence in important system properties.
-
-The course draws on software-engineering research, industrial practice, and international engineering standards, notably IEC 61508, asking students to reason critically about both the methods engineers use and the evidence those methods produce.
 
 ## Undergraduate research as teaching
 

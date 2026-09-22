@@ -302,10 +302,19 @@ My current research is organized around six programs.
 def teaching(sites, pubs, awards, service, courses, teach, ppl=None):
     """The Teaching page.
 
-    The page's protagonist is the teaching programme. MAGE is rendered as an
-    INSET inside the ECE 30861 section rather than as a heading of its own:
-    making it an h3 sibling of the course titles would assert, typographically,
-    that it is a third course. It is course infrastructure.
+    The page's protagonist is the teaching programme, and the ORDER carries the
+    argument: what I teach -> what I have made available to others -> what I
+    have built institutionally -> how I teach through research -> outcomes ->
+    recognition -> scholarship. Courses come first so a visitor meets the actual
+    teaching before the institutional case; leading with curricular leadership
+    made the page open like a promotion dossier.
+
+    MAGE was previously an INSET inside ECE 30861, on the reasoning that an h3
+    sibling of the course titles would assert it was a third course. Textbooks
+    is now a section of its own, which resolves that differently and better: the
+    books are not course infrastructure subordinate to 30861, they are published
+    artifacts in their own right, and the six-month story that motivates them
+    has exactly one home here rather than interrupting the course description.
 
     Recognition is generated from data/awards.yaml (`teaching` + `mentoring`)
     so the page cannot drift from the award record. Student outcomes come from
@@ -337,10 +346,6 @@ author_profile: true
 """]
     o += para(teach["opener"])
 
-    cl = teach["curricular_leadership"]
-    o.append(f"## {cl['heading']}\n")
-    o += para(cl["paragraphs"])
-
     cs = teach["courses"]
     o.append(f"## {cs['heading']}\n")
     for entry in cs["entries"]:
@@ -358,6 +363,20 @@ author_profile: true
             o.append(f'#### {ins["title"]}\n')
             o += para(ins["paragraphs"])
             o.append("</aside>\n")
+
+    tb = teach["textbooks"]
+    o.append(f"## {tb['heading']}\n")
+    o += para(tb["paragraphs"])
+    for bk in tb["books"]:
+        # A book with no url renders unlinked rather than pointing at a guess.
+        title = f"[{bk['title']}]({bk['url']})" if bk.get("url") else bk["title"]
+        o.append(f"### {title}\n")
+        o += para(bk["paragraphs"])
+    o += para(tb["closing"])
+
+    cl = teach["curricular_leadership"]
+    o.append(f"## {cl['heading']}\n")
+    o += para(cl["paragraphs"])
 
     ur = teach["undergraduate_research"]
     o.append(f"## {ur['heading']}\n")
