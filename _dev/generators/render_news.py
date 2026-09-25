@@ -14,6 +14,7 @@ unchanged -- there is nothing to derive it from.
 from __future__ import annotations
 
 import argparse
+import _landmarks
 import _paths
 import _pubrefs
 import pathlib
@@ -73,7 +74,10 @@ def render(item: dict, pubs, grants, awards) -> str:
         fact = f"{g['sponsor']} funds *{g['title']}*"
         fact += f" (#{g['number']})." if g.get("number") else "."
     else:
-        return item.get("text", "")
+        # Authored items may name a landmark; ref-based ones are already
+        # resolved inside _pubrefs.paper_link. This is the only other path text
+        # reaches the page by, so it is the only other place that needs it.
+        return _landmarks.resolve(item.get("text", ""))
 
     return (fact + " " + byline).strip()
 

@@ -24,6 +24,7 @@ nowhere is worse than a failed build.
 
 from __future__ import annotations
 
+import functools
 import re
 
 import yaml
@@ -33,7 +34,16 @@ import _paths
 _TOKEN = re.compile(r"\{\{landmark:([a-z_]+)\}\}")
 
 
+@functools.lru_cache(maxsize=1)
+def _landmark_items() -> tuple[tuple[str, str], ...]:
+    return tuple(_read_landmarks().items())
+
+
 def landmarks() -> dict[str, str]:
+    return dict(_landmark_items())
+
+
+def _read_landmarks() -> dict[str, str]:
     """The landmark block, flattened across sites. Names are unique by
     construction -- the check that enforces that is OBL-LINK-007."""
     sites = yaml.safe_load((_paths.DATA.parent / "model" / "sites.yaml").read_text())
