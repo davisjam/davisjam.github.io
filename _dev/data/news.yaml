@@ -2,7 +2,7 @@ schema_version: 1
 news:
 - year: "2026"
   kind: authored
-  text: "MIT Press offers me a contract for the [MAGE book]({{landmark:book}}). What an honor!"
+  text: "MIT Press offers me a contract for the [MAGE book]({{landmark:book}}). Let's learn how to engineer with agents!"
 - year: '2026'
   kind: publication
   ref: W-2
