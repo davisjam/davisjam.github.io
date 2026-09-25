@@ -1,5 +1,8 @@
 schema_version: 1
 news:
+- year: "2026"
+  kind: authored
+  text: "MIT Press offers me a contract for the MAGE book. What an honor!"
 - year: '2026'
   kind: publication
   ref: W-2
