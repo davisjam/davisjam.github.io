@@ -696,6 +696,41 @@ def publications_page(e: Engine, m) -> None:
     patents(e, m)
 
 
+def hook_freshness(e: Engine, m) -> None:
+    """The installed pre-push hook matches the source it was installed from.
+
+    tests/hooks/pre-push is the SOURCE; .git/hooks/pre-push is a copy made by
+    install.py. Editing the source changes nothing until it is reinstalled, and
+    nothing says so -- the push runs the old copy and prints the old steps.
+
+    That happened on 261005. alignment.py was added to the source hook, the
+    change was verified by running the source directly, and the push that landed
+    it ran WITHOUT the new gate. The output said "checking syntax" and
+    "accessibility scan" with no obligations line, which is the only reason it
+    was noticed.
+
+    This can only fire when the hook is installed and stale, since an absent
+    hook never runs the check -- but stale-and-silent is precisely the failure
+    worth catching. A hook that no longer matches its source is a gate nobody
+    knows is off.
+    """
+    o = e.obl("OBL-SELF-002",
+              "The installed pre-push hook matches tests/hooks/pre-push.",
+              ["tests/hooks/pre-push", ".git/hooks/pre-push"])
+    src = SITE / "tests/hooks/pre-push"
+    installed = SITE / ".git/hooks/pre-push"
+    if not src.exists():
+        o.fail("tests/hooks/pre-push is missing -- the gate has no source")
+        return
+    if not installed.exists():
+        return          # not installed; nothing is claiming to gate anything
+    o.saw(1)
+    if installed.read_text(errors="replace") != src.read_text(errors="replace"):
+        o.fail("the installed .git/hooks/pre-push differs from "
+               "tests/hooks/pre-push -- run `python3 tests/hooks/install.py`. "
+               "Until then the push gate runs the older copy")
+
+
 def patents(e: Engine, m) -> None:
     """A patent is identified by its number; the URL is a function of it.
 
@@ -801,6 +836,8 @@ def self_sufficient(e: Engine, m) -> None:
     # so ROOT / "repos/davisjam.github.io/_pages" is a BinOp whose right operand
     # is that literal, while prose and failure messages never are.
     import ast
+    hook_freshness(e, m)
+
     checks_here = sorted((SITE / "tests").glob("*.py"))
     o.saw(len(checks_here))
     for chk in checks_here:
