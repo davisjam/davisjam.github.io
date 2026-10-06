@@ -715,7 +715,12 @@ def patents(e: Engine, m) -> None:
     for rec in pubs:
         if rec.get("type") not in ("conference", "journal", "workshop"):
             continue
-        for field in ("venue", "year"):
+        # authors alongside venue/year: a peer-reviewed record states WHO, WHERE
+        # and WHEN. Fifteen records had no author list -- ConfuGuard and the ASE
+        # packet-validation paper among them -- and the page rendered title and
+        # venue with the authorship line simply absent. Nothing looked broken,
+        # which is why it survived a full publication-record sync.
+        for field in ("authors", "venue", "year"):
             if not rec.get(field):
                 o.fail(f"{rec['id']} ({rec.get('type')}) has no {field} -- it "
                        f"prints as a bare title: {str(rec.get('title'))[:44]}")

@@ -35,6 +35,7 @@ To see them organized approximately by project, see [here](/research).
  Proceedings of the 35th USENIX Security Symposium (SECURITY) 2026.  
  <a href="https://arxiv.org/pdf/2503.00271" aria-label="PDF: Why Johnny Adopts Identity-Based Software Signing: A Usability Case Study of Sigstore"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Regular Expression Denial of Service Induced by Backreferences*.  
+ Y. Liu, B. Çakar, A. Agrawal, M. Seo, **Davis**, and Dongyoon Lee.  
  arXiv 2026.  
  <a href="https://arxiv.org/pdf/2602.21459" aria-label="PDF: Regular Expression Denial of Service Induced by Backreferences"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens*.  
@@ -50,6 +51,7 @@ To see them organized approximately by project, see [here](/research).
  Proceedings of the ACM Web Conference (WWW) 2026.  
  <a href="https://arxiv.org/pdf/2506.19899" aria-label="PDF: Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale*.  
+ W. Jiang, B. Çakar, M. Lysenko, and **Davis**.  
  Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE) 2026.  
  <a href="https://arxiv.org/pdf/2502.20528" aria-label="PDF: ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Learning From Software Failures: A Case Study at a National Space Research Center*.  
@@ -81,6 +83,7 @@ To see them organized approximately by project, see [here](/research).
  Proceedings of the 34th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2025.  
  <a href="https://arxiv.org/pdf/2310.00205" aria-label="PDF: Usage and Effectiveness of Static Analysis in Open-Source Embedded Software: CodeQL Finds Hundreds of Defects"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
+ M.H.M. Bhuiyan*, B. Çakar*, E. Burmane, **Davis**, and C.A. Staicu.  
  Proceedings of the 20th ACM ASIA Conference on Computer and Communications Security (AsiaCCS) 2025.  
  <a href="https://arxiv.org/pdf/2406.11618" aria-label="PDF: SoK: A Literature and Engineering Review of Regular Expression Denial of Service"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Pruning One More Token is Enough: Leveraging Latency-Workload Non-Linearities for Vision Transformers on the Edge*.  
@@ -128,6 +131,7 @@ To see them organized approximately by project, see [here](/research).
  Proceedings of the ACM/IEEE 45th International Conference on Software Engineering (ICSE) 2023.  
  <a href="https://arxiv.org/pdf/2303.02552" aria-label="PDF: An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks*.  
+ P.C. Amusuo, R.A.C. Méndez, Z. Xu, A. Machiry, and **Davis**.  
  Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE) 2023.  
  <a href="https://arxiv.org/pdf/2308.10965" aria-label="PDF: Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies*.  
@@ -147,6 +151,7 @@ To see them organized approximately by project, see [here](/research).
  Proceedings of the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER) 2022.  
  <a href="https://davisjam.github.io/files/publications/XuDavisHuJindal-AndroidDeepParameters-SANER2022.pdf" aria-label="PDF: An Empirical Study on the Impact of Parameters on Mobile App Energy Usage"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Low-Power Multi-Camera Object Re-Identication using Hierarchical Neural Networks*.  
+ A. Goel, C. Tung, X. Hu, H. Wang, **Davis**, Thiruvathukal, and Lu.  
  ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED) 2021.  
  <a href="https://davisjam.github.io/files/publications/GoelTungHuWangDavisThiruvathukalLu-HNN-ISLPED21.pdf" aria-label="PDF: Low-Power Multi-Camera Object Re-Identication using Hierarchical Neural Networks"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Using Selective Memoization to Defeat Regular Expression Denial of Service (ReDoS)*.  
@@ -205,6 +210,7 @@ To see them organized approximately by project, see [here](/research).
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2509.06085" aria-label="PDF: Software Dependencies 2.0: An Empirical Study of Reuse and Integration of Pre-Trained Models in Open-Source Projects"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *SysLLMatic: Large Language Models are Software System Optimizers*.  
+ H. Peng, A. Gupte, R. Hasler, N. Eliopoulos, C. Ho, R. Mantri, L. Deng, K. Läufer, G.K. Thiruvathukal, and **Davis**.  
  arXiv 2025.  
  <a href="https://arxiv.org/pdf/2506.01249" aria-label="PDF: SysLLMatic: Large Language Models are Software System Optimizers"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *'I see models being a whole other thing': An Empirical Study of Pre-Trained Model Naming Conventions and A Tool for Enhancing Naming Consistency*.  
@@ -220,6 +226,7 @@ To see them organized approximately by project, see [here](/research).
  IEEE Security & Privacy Magazine -- Special Issue 'Secure Software Before Codeing' 2025.  
  <a href="https://arxiv.org/pdf/2407.03949" aria-label="PDF: Establishing Provenance Before Coding: Traditional and Next-Gen Software Signing"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Fostering Systems Thinking through Engineering Study Abroad Programs*.  
+ D. Özkan, K. Davis, **Davis**, J. Deters, and H. Murzi.  
  European Journal of Engineering Education (EJEE) 2024.  
  <a href="https://www.tandfonline.com/doi/full/10.1080/03043797.2024.2434168" aria-label="PDF: Fostering Systems Thinking through Engineering Study Abroad Programs"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision*.  
@@ -243,9 +250,11 @@ To see them organized approximately by project, see [here](/research).
  Journal of Systems and Software (JSS) 2021.  
  <a href="https://davisjam.github.io/files/publications/KazerouniDavisBasakShafferServantEdwards-JSS21.pdf" aria-label="PDF: Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits*.  
+ S. Herbold, A. Trautsch, B. Ledel, A. Aghamohammadi, T.A. Ghaleb, K.K. Chahal, T. Bossenmaier, B. Nagaria, P. Makedonski, M.N. Ahmadabadi, K. Szabados, H. Spieker, M. Madeja, N. Hoy, V. Lenarduzzi, S. Wang, G. Rodriguez-Perez, R. Colomo-Palacios, R. Verdecchia, P. Singh, Y. Qin, D. Chakroborti, W. Davis, V. Walunj, H. Wu, D. Marcilio, O. Alam, A. Aldaeej, I. Amit, B. Turhan, S. Eismann, A.K. Wickert, I. Malavolta, M. Sulir, F. Fard, A.Z. Henley, S. Kourtzanidis, E. Tüzün, C. Treude, S.M. Shamasbi, I. Pashchenko, M. Wyrich, **Davis**, A. Serebrenik, E. Albrecht, E.U. Aktas, D. Strüber, and J. Erbel.  
  Empirical Software Engineering (EMSE) (also presented at ICSE'22-JournalFirst) 2021.  
  <a href="https://arxiv.org/pdf/2011.06244" aria-label="PDF: A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Expectations and Experiences of Short-Term Study Abroad Leadership Teams*.  
+ D. Özkan, K. Davis, **Davis**, M. James, H. Murzi, and D. Knight.  
  Journal of International Engineering Education (JIEE) 2020.  
  <a href="https://davisjam.github.io/files/publications/OzkanDavisDavisJamesMurziKnight-JIEE20.pdf" aria-label="PDF: Expectations and Experiences of Short-Term Study Abroad Leadership Teams"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 
@@ -255,6 +264,7 @@ To see them organized approximately by project, see [here](/research).
  N. Synovic, K. Ryzka, A.V.V. Solari, K. Lyons, **Davis**, and G.K. Thiruvathukal.  
  Proceedings of the 22nd IEEE International eScience Conference (short paper) (eScience) 2026.
 1. *How Do Agents Perform Code Optimization? An Empirical Study*.  
+ H. Peng, A. Zhong, R.A.C. Méndez, K.G. Kalu, and **Davis**.  
  Proceedings of the 23rd International Mining Software Repositories Conference -- Mining Challenge track (MSR-MiningChallenge) 2026.  
  <a href="https://arxiv.org/pdf/2512.21757" aria-label="PDF: How Do Agents Perform Code Optimization? An Empirical Study"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Software Supply Chains are Dead: Use-Case-Oriented Regeneration*.  
@@ -262,12 +272,15 @@ To see them organized approximately by project, see [here](/research).
  Proceedings of the 20th International Symposium on Empirical Software Engineering and Measurement - Emerging Results, Vision, and Reflection Track (ESEM-ERVR) 2026.  
  <a href="https://arxiv.org/pdf/2607.13021" aria-label="PDF: Software Supply Chains are Dead: Use-Case-Oriented Regeneration"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen*.  
+ P. Amusuo, D. Liu, R.A.C. Méndez, J. Metzman, O. Chang, and **Davis**.  
  ACM International Conference on the Foundations of Software Engineering -- Industry track (FSE-Industry) 2026.  
  <a href="https://arxiv.org/pdf/2510.02185" aria-label="PDF: Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Towards the Systematic Testing of Regular Expression Engines*.  
+ B. Çakar, D. Lee, and **Davis**.  
  ICSE Journal Ahead Workshop (JAWs) 2026.  
  <a href="https://arxiv.org/pdf/2603.00311" aria-label="PDF: Towards the Systematic Testing of Regular Expression Engines"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *AgentHub: A Registry for Discoverable, Verifiable, and Reproducible AI Agents*.  
+ E. Pautsch*, T. Singla*, P. Kumar, W. Jiang, H. Peng, B. Hassanshahi, K. Läufer, G.K. Thiruvathukal, and **Davis**.  
  ICSE Journal Ahead Workshop (JAWs) 2026.  
  <a href="https://arxiv.org/pdf/2510.03495" aria-label="PDF: AgentHub: A Registry for Discoverable, Verifiable, and Reproducible AI Agents"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain*.  
@@ -275,6 +288,7 @@ To see them organized approximately by project, see [here](/research).
  ICSE Journal Ahead Workshop (JAWs) 2026.  
  <a href="https://arxiv.org/pdf/2505.18760" aria-label="PDF: ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Towards a Benchmark for Dependency Decision-Making*.  
+ T. Singla, B. Çakar, P.C. Amusuo, and **Davis**.  
  ICSE Journal Ahead Workshop (JAWs) 2026.  
  <a href="https://arxiv.org/pdf/2601.00205" aria-label="PDF: Towards a Benchmark for Dependency Decision-Making"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Operationalizing Research Software for Supply Chain Security*.  
@@ -354,6 +368,7 @@ To see them organized approximately by project, see [here](/research).
  Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2022.  
  <a href="https://arxiv.org/pdf/2406.10109" aria-label="PDF: SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics*.  
+ N. Synovic, M. Hyatt, R. Sethi, S. Thota, Shilpika, A.J. Miller, W. Jiang, E.S. Amobi, A. Pinderski, K. Läufer, N.J. Hayward, N. Klingensmith, **Davis**, and G.K. Thiruvathukal.  
  Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering: Demonstrations track (ASE-Demonstrations) 2022.  
  <a href="https://davisjam.github.io/files/publications/SynovicHyattSethiThotaShilpikaMillerJiangPinderskiLauferHaywardKlingensmithDavisThiruvathukal-LongitudinalMetrics-ASE22Demo.pdf" aria-label="PDF: Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *“If security is required”: Engineering and Security Practices for Machine Learning-based IoT Devices*.  

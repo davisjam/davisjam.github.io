@@ -77,6 +77,7 @@ publications:
 
   - id: C-4
     type: conference
+    authors: "Y. Liu, B. Çakar, A. Agrawal, M. Seo, J.C. Davis, and Dongyoon Lee"
     title: "Regular Expression Denial of Service Induced by Backreferences"
     venue: "arXiv"
     year: 2026
@@ -126,6 +127,7 @@ publications:
 
   - id: C-8
     type: conference
+    authors: "W. Jiang, B. Çakar, M. Lysenko, and J.C. Davis"
     title: "ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale"
     venue: "Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE)"
     year: 2026
@@ -280,6 +282,7 @@ publications:
 
   - id: C-18
     type: conference
+    authors: "M.H.M. Bhuiyan*, B. Çakar*, E. Burmane, J.C. Davis, and C.A. Staicu"
     title: "SoK: A Literature and Engineering Review of Regular Expression Denial of Service"
     venue: "Proceedings of the 20th ACM ASIA Conference on Computer and Communications Security (AsiaCCS)"
     year: 2025
@@ -460,6 +463,7 @@ publications:
 
   - id: C-30
     type: conference
+    authors: "P.C. Amusuo, R.A.C. Méndez, Z. Xu, A. Machiry, and J.C. Davis"
     title: "Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks"
     venue: "Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)"
     year: 2023
@@ -535,6 +539,7 @@ publications:
 
   - id: C-35
     type: conference
+    authors: "A. Goel, C. Tung, X. Hu, H. Wang, J.C. Davis, Thiruvathukal, and Lu"
     title: "Low-Power Multi-Camera Object Re-Identication using Hierarchical Neural Networks"
     venue: "ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED)"
     year: 2021
@@ -746,6 +751,7 @@ publications:
 
   - id: J-3
     type: journal
+    authors: "H. Peng, A. Gupte, R. Hasler, N. Eliopoulos, C. Ho, R. Mantri, L. Deng, K. Läufer, G.K. Thiruvathukal, and J.C. Davis"
     title: "SysLLMatic: Large Language Models are Software System Optimizers"
     venue: "arXiv"
     year: 2025
@@ -785,6 +791,7 @@ publications:
 
   - id: J-6
     type: journal
+    authors: "D. Özkan, K. Davis, J.C. Davis, J. Deters, and H. Murzi"
     title: "Fostering Systems Thinking through Engineering Study Abroad Programs"
     venue: "European Journal of Engineering Education (EJEE)"
     year: 2024
@@ -820,6 +827,7 @@ publications:
 
   - id: J-9
     type: journal
+    authors: "S. Herbold, A. Trautsch, B. Ledel, A. Aghamohammadi, T.A. Ghaleb, K.K. Chahal, T. Bossenmaier, B. Nagaria, P. Makedonski, M.N. Ahmadabadi, K. Szabados, H. Spieker, M. Madeja, N. Hoy, V. Lenarduzzi, S. Wang, G. Rodriguez-Perez, R. Colomo-Palacios, R. Verdecchia, P. Singh, Y. Qin, D. Chakroborti, W. Davis, V. Walunj, H. Wu, D. Marcilio, O. Alam, A. Aldaeej, I. Amit, B. Turhan, S. Eismann, A.K. Wickert, I. Malavolta, M. Sulir, F. Fard, A.Z. Henley, S. Kourtzanidis, E. Tüzün, C. Treude, S.M. Shamasbi, I. Pashchenko, M. Wyrich, J.C. Davis, A. Serebrenik, E. Albrecht, E.U. Aktas, D. Strüber, and J. Erbel"
     title: "A Fine-grained Data Set and Analysis of Tangling in Bug Fixing Commits"
     venue: "Empirical Software Engineering (EMSE) (also presented at ICSE'22-JournalFirst)"
     year: 2021
@@ -844,6 +852,7 @@ publications:
 
   - id: J-11
     type: journal
+    authors: "D. Özkan, K. Davis, J.C. Davis, M. James, H. Murzi, and D. Knight"
     title: "Expectations and Experiences of Short-Term Study Abroad Leadership Teams"
     venue: "Journal of International Engineering Education (JIEE)"
     year: 2020
@@ -915,6 +924,7 @@ publications:
       mage: "Explores how cheap regeneration changes the economics of reuse, connecting earlier software-supply-chain research to the agentic setting."
   - id: W-3
     type: workshop
+    authors: "P. Amusuo, D. Liu, R.A.C. Méndez, J. Metzman, O. Chang, and J.C. Davis"
     title: "Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen"
     venue: "ACM International Conference on the Foundations of Software Engineering -- Industry track (FSE-Industry)"
     year: 2026
@@ -929,6 +939,7 @@ publications:
 
   - id: W-4
     type: workshop
+    authors: "B. Çakar, D. Lee, and J.C. Davis"
     title: "Towards the Systematic Testing of Regular Expression Engines"
     venue: "ICSE Journal Ahead Workshop (JAWs)"
     year: 2026
@@ -943,6 +954,7 @@ publications:
 
   - id: W-5
     type: workshop
+    authors: "E. Pautsch*, T. Singla*, P. Kumar, W. Jiang, H. Peng, B. Hassanshahi, K. Läufer, G.K. Thiruvathukal, and J.C. Davis"
     title: "AgentHub: A Registry for Discoverable, Verifiable, and Reproducible AI Agents"
     venue: "ICSE Journal Ahead Workshop (JAWs)"
     year: 2026
@@ -974,6 +986,7 @@ publications:
 
   - id: W-7
     type: workshop
+    authors: "T. Singla, B. Çakar, P.C. Amusuo, and J.C. Davis"
     title: "Towards a Benchmark for Dependency Decision-Making"
     venue: "ICSE Journal Ahead Workshop (JAWs)"
     year: 2026
@@ -1017,6 +1030,7 @@ publications:
       mage: "Extends agentic optimization beyond isolated edits to system-level reasoning, where representation, coordination, and validation become increasingly consequential."
   - id: W-10
     type: workshop
+    authors: "H. Peng, A. Zhong, R.A.C. Méndez, K.G. Kalu, and J.C. Davis"
     title: "How Do Agents Perform Code Optimization? An Empirical Study"
     venue: "Proceedings of the 23rd International Mining Software Repositories Conference -- Mining Challenge track (MSR-MiningChallenge)"
     year: 2026
@@ -1287,6 +1301,7 @@ publications:
 
   - id: W-28
     type: workshop
+    authors: "N. Synovic, M. Hyatt, R. Sethi, S. Thota, Shilpika, A.J. Miller, W. Jiang, E.S. Amobi, A. Pinderski, K. Läufer, N.J. Hayward, N. Klingensmith, J.C. Davis, and G.K. Thiruvathukal"
     title: "Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics"
     venue: "Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering: Demonstrations track (ASE-Demonstrations)"
     year: 2022
