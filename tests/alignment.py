@@ -686,6 +686,14 @@ def publications_page(e: Engine, m) -> None:
         if re.match(r"^\s+(\d+\.|[-*+])\s", line):
             o.fail(f"auto-publications.md:{n} continuation line parses as a new "
                    f"list item: {line.strip()[:40]!r} -- escape the marker")
+        # An UNESCAPED lone asterisk is Markdown emphasis. Equal-contribution
+        # markers come in pairs, so two of them bind and italicise everything
+        # between -- W-27 rendered "T.R. Schorlemmer, S" in italics. Author
+        # names carry no formatting but the Davis bolding, so a stray single
+        # asterisk on a rendered line is always wrong.
+        if re.search(r"(?<![\\*])\*(?!\*)", line):
+            o.fail(f"auto-publications.md:{n} has an unescaped lone asterisk, "
+                   f"which renders as emphasis: {line.strip()[:48]!r}")
 
     pubs = _y.safe_load((site / "_dev/data/publications.yaml").read_text())["publications"]
     # omit_from_page marks a record deliberately kept but not shown -- the same

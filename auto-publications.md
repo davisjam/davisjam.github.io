@@ -43,7 +43,7 @@ To see them organized approximately by project, see [here](/research).
  The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 -- Findings Track (CVPR-Findings) 2026.  
  <a href="https://arxiv.org/pdf/2511.18105" aria-label="PDF: AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms*.  
- P. Jajal*, N. Eliopoulos*, B.S.H. Chou, G.K. Thiruvathukal, **Davis**, and Y.H. Lu.  
+ P. Jajal\*, N. Eliopoulos\*, B.S.H. Chou, G.K. Thiruvathukal, **Davis**, and Y.H. Lu.  
  The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 -- Findings Track (CVPR-Findings) 2026.  
  <a href="https://arxiv.org/pdf/2506.00299" aria-label="PDF: Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale*.  
@@ -83,7 +83,7 @@ To see them organized approximately by project, see [here](/research).
  Proceedings of the 34th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2025.  
  <a href="https://arxiv.org/pdf/2310.00205" aria-label="PDF: Usage and Effectiveness of Static Analysis in Open-Source Embedded Software: CodeQL Finds Hundreds of Defects"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *SoK: A Literature and Engineering Review of Regular Expression Denial of Service*.  
- M.H.M. Bhuiyan*, B. Çakar*, E. Burmane, **Davis**, and C.A. Staicu.  
+ M.H.M. Bhuiyan\*, B. Çakar\*, E. Burmane, **Davis**, and C.A. Staicu.  
  Proceedings of the 20th ACM ASIA Conference on Computer and Communications Security (AsiaCCS) 2025.  
  <a href="https://arxiv.org/pdf/2406.11618" aria-label="PDF: SoK: A Literature and Engineering Review of Regular Expression Denial of Service"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Pruning One More Token is Enough: Leveraging Latency-Workload Non-Linearities for Vision Transformers on the Edge*.  
@@ -280,7 +280,7 @@ To see them organized approximately by project, see [here](/research).
  ICSE Journal Ahead Workshop (JAWs) 2026.  
  <a href="https://arxiv.org/pdf/2603.00311" aria-label="PDF: Towards the Systematic Testing of Regular Expression Engines"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *AgentHub: A Registry for Discoverable, Verifiable, and Reproducible AI Agents*.  
- E. Pautsch*, T. Singla*, P. Kumar, W. Jiang, H. Peng, B. Hassanshahi, K. Läufer, G.K. Thiruvathukal, and **Davis**.  
+ E. Pautsch\*, T. Singla\*, P. Kumar, W. Jiang, H. Peng, B. Hassanshahi, K. Läufer, G.K. Thiruvathukal, and **Davis**.  
  ICSE Journal Ahead Workshop (JAWs) 2026.  
  <a href="https://arxiv.org/pdf/2510.03495" aria-label="PDF: AgentHub: A Registry for Discoverable, Verifiable, and Reproducible AI Agents"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *ARMS: A Vision for Actor Reputation Metric Systems in the Open-Source Software Supply Chain*.  
@@ -332,7 +332,7 @@ To see them organized approximately by project, see [here](/research).
  Proceedings of the 31st ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR) 2023.  
  <a href="https://davisjam.github.io/files/publications/KaluSchorlemmerChenRobinsonKocinareDavis-PPPTheory-FSEIVR2023.pdf" aria-label="PDF: Reflecting on the use of the Policy-Process-Product Theory in Empirical Software Engineering"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages*.  
- W. Jiang*, N. Synovic*, P. Jajal, T.R. Schorlemmer, A. Tewari, B. Pareek, G.K. Thiruvathukal, and **Davis**.  
+ W. Jiang\*, N. Synovic\*, P. Jajal, T.R. Schorlemmer, A. Tewari, B. Pareek, G.K. Thiruvathukal, and **Davis**.  
  Proceedings of the 20th Annual Conference on Mining Software Repositories — Data and Tool Showcase Track (MSR-Data’23) 2023.  
  <a href="https://arxiv.org/pdf/2303.08934" aria-label="PDF: PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *An Empirical Study on Using Large Language Models to Analyze Software Supply Chain Security Failures*.  
@@ -364,7 +364,7 @@ To see them organized approximately by project, see [here](/research).
  Proceedings of the 30th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Ideas, Visions, and Reflections track (ESEC/FSE-IVR) 2022.  
  <a href="https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1183&context=ecepubs" aria-label="PDF: Reflections on Software Failure Analysis"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties*.  
- C. Okafor*, T.R. Schorlemmer*, S. Torres-Arias, and **Davis**.  
+ C. Okafor\*, T.R. Schorlemmer\*, S. Torres-Arias, and **Davis**.  
  Proceedings of the 1st ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED) 2022.  
  <a href="https://arxiv.org/pdf/2406.10109" aria-label="PDF: SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics*.  

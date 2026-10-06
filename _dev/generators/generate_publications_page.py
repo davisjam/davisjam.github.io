@@ -53,7 +53,15 @@ def entry(p: dict) -> list[str]:
     out = [f"1. *{' '.join(p['title'].split())}*.  "]
     if p.get("authors"):
         # The page bolds Davis; the record stores a plain author string.
-        au = " ".join(str(p["authors"]).split()).replace("J.C. Davis", "**Davis**")
+        au = " ".join(str(p["authors"]).split())
+        # A LONE asterisk marks equal contribution; a PAIR is Markdown emphasis.
+        # Five records carry two co-first-author markers each, so the pair bound
+        # together and italicised everything between them -- W-27 rendered
+        # "T.R. Schorlemmer, S" in italics. Escape singles, leave "**" alone so
+        # the Davis bolding below (and the patents, which store it directly)
+        # still renders.
+        au = re.sub(r"(?<!\*)\*(?!\*)", r"\\*", au)
+        au = au.replace("J.C. Davis", "**Davis**")
         out.append(f" {au}.  ")
     venue = p.get("venue") or ""
     year = p.get("year")
