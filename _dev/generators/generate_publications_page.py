@@ -20,6 +20,7 @@ sidebar's "8 U.S. patents" links to it.
 from __future__ import annotations
 
 import pathlib
+import re
 import sys
 
 import urllib.parse
@@ -58,6 +59,13 @@ def entry(p: dict) -> list[str]:
     year = p.get("year")
     tail = " ".join(x for x in [" ".join(str(venue).split()), str(year) if year else ""] if x)
     if tail:
+        # Escape a leading "NNNN." -- a line that begins with digits and a
+        # period IS an ordered-list marker in Markdown, so a record with a year
+        # and no venue silently starts a new list item and pushes everything
+        # after it into a phantom entry. The Software Engineering Handbook, the
+        # first record here with a bare year, rendered its PDF icon as book 3.
+        if re.match(r"^\d+\.", f"{tail}."):
+            tail = tail + "\\"
         out.append(f" {tail}.  ")
     url = _pubrefs.paper_link(p)
     if url:

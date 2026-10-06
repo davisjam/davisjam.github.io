@@ -411,38 +411,38 @@ To see them organized approximately by project, see [here](/research).
  <a href="https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book/mage-book.pdf" aria-label="PDF: Model-Based Agentic Software Engineering"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Software Engineering Handbook*.  
  **Davis**.  
- 2026.  
+ 2026\.  
  <a href="https://davisjam.github.io/model-based-agentic-software-engineering/book/se-handbook/software-engineering-handbook.pdf" aria-label="PDF: Software Engineering Handbook"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 
 ## Technical reports
 
 1. *Model-Based Agentic Software Engineering*.  
  **Davis**, K. Kalu, H. Peng, and P.V. Patil.  
- 2026.  
+ 2026\.  
  <a href="https://arxiv.org/pdf/2608.25174" aria-label="PDF: Model-Based Agentic Software Engineering"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering*.  
  **Davis**, P. Amusuo, T. Singla, B. Çakar, and K.A. Davis.  
- 2026.  
+ 2026\.  
  <a href="https://arxiv.org/pdf/2607.01087" aria-label="PDF: Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Reproducibility is Not Enough: Artifact Verifiability in Decentralized-Build Package Ecosystems*.  
  O. Solarin, K. Kalu, **Davis**, and P. Amusuo.  
- 2026.  
+ 2026\.  
  <a href="https://arxiv.org/pdf/2608.18180" aria-label="PDF: Reproducibility is Not Enough: Artifact Verifiability in Decentralized-Build Package Ecosystems"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Is US Defense Acquisition Ready to Acquire AI-Enabled Capabilities? Assessing the DoD Software Acquisition Pathway Through a Scenario-Based Policy Analysis*.  
  D. Lugo and **Davis**.  
- 2026.  
+ 2026\.  
  <a href="https://arxiv.org/pdf/2606.07393" aria-label="PDF: Is US Defense Acquisition Ready to Acquire AI-Enabled Capabilities? Assessing the DoD Software Acquisition Pathway Through a Scenario-Based Policy Analysis"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Measuring Delivery Consistency in Practice: A DORA Extension from a Multi-Platform Release Setting*.  
  L. Parente and **Davis**.  
- 2026.  
+ 2026\.  
  <a href="https://arxiv.org/pdf/2606.00364" aria-label="PDF: Measuring Delivery Consistency in Practice: A DORA Extension from a Multi-Platform Release Setting"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *AgOSS: A Dataset and Multi-Layer Characterization of Open-Source Agricultural Software*.  
  V. Dudhaiya, M. Golovenchits, A. Bannerjee, and **Davis**.  
- 2026.  
+ 2026\.  
  <a href="https://arxiv.org/pdf/2609.02591" aria-label="PDF: AgOSS: A Dataset and Multi-Layer Characterization of Open-Source Agricultural Software"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *SAGE: Structured Agentic Graph Editing for Software Diagrams*.  
  T. Sivertsen, N. Singh, and **Davis**.  
- 2026.  
+ 2026\.  
  <a href="https://arxiv.org/pdf/2607.01102" aria-label="PDF: SAGE: Structured Agentic Graph Editing for Software Diagrams"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *A Longitudinal Study of Usability in Identity-Based Software Signing*.  
  K. Kalu, H. Tran, S. Torres-Arias, S. Jeong, and **Davis**.  
@@ -457,7 +457,7 @@ To see them organized approximately by project, see [here](/research).
  <a href="https://arxiv.org/pdf/2503.20579" aria-label="PDF: Is Reuse All You Need? A Systematic Comparison of Regular Expression Composition Strategies"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Improving the Reproducibility of Deep Learning Software: An Initial Investigation through a Case Study Analysis. https://arxiv.org/pdf/2505.03165. 2025*.  
  N. Ravi, A. Goel, **Davis**, and G.K. Thiruvathukal.  
- 2025.
+ 2025\.
 1. *Reactive Bottom-Up Testing*.  
  S. Muralee, S. Cherupattamoolayil, **Davis**, A. Bianchi, and A. Machiry.  
  arXiv 2025.  
