@@ -86,6 +86,8 @@ sites:
     landmarks:
       book: https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book/index.html
       handbook: https://davisjam.github.io/model-based-agentic-software-engineering/book/se-handbook/index.html
+      book_pdf: https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book/mage-book.pdf
+      handbook_pdf: https://davisjam.github.io/model-based-agentic-software-engineering/book/se-handbook/software-engineering-handbook.pdf
       course_mirror: https://davisjam.github.io/model-based-agentic-software-engineering/teach/
     figure_source_of_truth: true   # the house figure vocabulary is extracted FROM here
 

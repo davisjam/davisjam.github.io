@@ -403,13 +403,16 @@ To see them organized approximately by project, see [here](/research).
  Proceedings of the 10th European Workshop on Systems Security (EuroSec) 2017.  
  <a href="https://davisjam.github.io/files/publications/DavisKildowLee-EHP-EuroSec17.pdf" aria-label="PDF: The case of the poisoned event handler: Weaknesses in the Node.js event-driven architecture"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 
-## Books and book chapters
+## Books
 
 1. *Model-Based Agentic Software Engineering*.  
  **Davis**.  
- <a href="https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book/index.html" aria-label="PDF: Model-Based Agentic Software Engineering"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
-1. *Epilogue: The Computer Engineer as Tool-User*.  
- **Davis**.
+ Under contract with MIT Press, expected 2027.  
+ <a href="https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book/mage-book.pdf" aria-label="PDF: Model-Based Agentic Software Engineering"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+1. *Software Engineering Handbook*.  
+ **Davis**.  
+ 2026.  
+ <a href="https://davisjam.github.io/model-based-agentic-software-engineering/book/se-handbook/software-engineering-handbook.pdf" aria-label="PDF: Software Engineering Handbook"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 
 ## Technical reports
 

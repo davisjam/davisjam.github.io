@@ -34,7 +34,7 @@ SECTIONS = [
     ("Peer-reviewed conference papers, full and short", None, ("C",)),
     ("Peer-reviewed journal and magazine papers", None, ("J", "M")),
     ("Peer-reviewed workshop papers", None, ("W",)),
-    ("Books and book chapters", None, ("B",)),
+    ("Books", None, ("B",)),
     ("Technical reports", None, ("R",)),
     ("US patents", "us-patents", ("Pa",)),
     ("Posters", None, ("Ps",)),
@@ -88,10 +88,18 @@ def main() -> int:
          'To see them organized approximately by project, see [here](/research).', '']
 
     placed = 0
+    excluded: set[str] = set()      # rejected by a section predicate, by design
     for heading, anchor, prefixes in SECTIONS:
         rows: list[dict] = []
         for pre in prefixes:
-            rows += by_prefix.get(pre, [])
+            for r in by_prefix.get(pre, []):
+                # omit_from_page is the single declared fact for "kept in the
+                # record, deliberately not shown". OBL-PUBS-001 reads the same
+                # field, so the page and the check cannot disagree about it.
+                if r.get("omit_from_page"):
+                    excluded.add(r["id"])
+                else:
+                    rows.append(r)
         if not rows:
             continue
         rows.sort(key=lambda p: (-(p.get("year") or 0), p["id"]))
@@ -143,9 +151,18 @@ def main() -> int:
 
     out = _paths.SITE / "auto-publications.md"
     out.write_text("\n".join(o) + "\n")
-    missing = len(pubs) - placed
-    print(f"  wrote {out.name}: {placed} of {len(pubs)} records"
-          + (f"  ({missing} unplaced -- unknown id prefix)" if missing else ""))
+    # Two different things used to be conflated here. A record can be absent
+    # because no section claims its prefix -- a real fault, and the reason this
+    # returns 1 -- or because a section's predicate deliberately rejected it.
+    # Reporting the second as "unknown id prefix" is a false diagnostic, and
+    # returning 1 for it would fail the build on an intended exclusion.
+    missing = len(pubs) - placed - len(excluded)
+    note = ""
+    if excluded:
+        note += f"  ({len(excluded)} excluded by section filter: {', '.join(sorted(excluded))})"
+    if missing:
+        note += f"  ({missing} UNPLACED -- no section claims the prefix)"
+    print(f"  wrote {out.name}: {placed} of {len(pubs)} records{note}")
     if missing:
         seen = {p["id"].split("-")[0] for p in pubs}
         known = {x for _, _, pre in SECTIONS for x in pre}

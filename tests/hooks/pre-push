@@ -1,10 +1,20 @@
 #!/usr/bin/env python3
 """Pre-push gate. Installed by `python3 tests/hooks/install.py`.
 
-Two checks, in cost order:
+Three checks, in cost order:
 
-  syntax.py   local and instant -- blocks anything that cannot build
-  a11y.py     axe-core over the DEPLOYED site
+  syntax.py     local and instant -- blocks anything that cannot build
+  alignment.py  local, ~7s -- the record obligations
+  a11y.py       axe-core over the DEPLOYED site
+
+alignment.py was advisory until 261005: it held the obligations but ran only
+when someone invoked it, so a record could lose its authors, its venue or its
+year and reach production unchallenged. Fifteen publications had in fact done
+exactly that, and the gap surfaced only because James noticed one of them on
+the page. A check nobody runs is a check that does not exist.
+
+It exits non-zero on ERROR alone -- warnings, including the vacuous-pass
+notices, do not block a push.
 
 The accessibility scan is a gate rather than an advisory because this site
 carries a legal obligation. It is skipped when the browser or engine is absent
@@ -24,6 +34,11 @@ root = pathlib.Path(__file__).resolve().parent.parent.parent
 
 print("pre-push: checking syntax")
 rc = subprocess.run([sys.executable, str(root / "tests/syntax.py")], cwd=root).returncode
+if rc:
+    sys.exit(rc)
+
+print("pre-push: record obligations")
+rc = subprocess.run([sys.executable, str(root / "tests/alignment.py")], cwd=root).returncode
 if rc:
     sys.exit(rc)
 

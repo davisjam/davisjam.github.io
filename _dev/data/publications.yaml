@@ -23,17 +23,33 @@ publications:
       mage: "Model-Based Agentic Software Engineering (The MAGE Book)"
     program_notes:
       mage: "The book-length statement of the framework."
-    paper_url: "{{landmark:book}}"
+    venue: "Under contract with MIT Press, expected"
+    year: 2027
+    paper_url: "{{landmark:book_pdf}}"
     projects: [mage]
     role_in_project:
       mage: core
 
   - id: B-2
-    type: book
+    type: chapter
+    # A chapter contributed to someone else's book, listed beside two
+    # authored textbooks. Kept in the record -- it is a real CV entry and
+    # OBL-RECORD-004 counts B- prefixes against the CV -- but not shown.
+    omit_from_page: true
     title: "Epilogue: The Computer Engineer as Tool-User"
     authors: "J.C. Davis"
     cluster: engineering-education
 
+  - id: B-3
+    type: book
+    title: "Software Engineering Handbook"
+    authors: "J.C. Davis"
+    year: 2026
+    paper_url: "{{landmark:handbook_pdf}}"
+    # Published openly and not yet in CV-40, so OBL-RECORD-004 would read
+    # the record as one ahead of the CV. Declared rather than silently
+    # tolerated -- the check still catches an abridged CV.
+    not_yet_in_cv: true
   - id: C-1
     type: conference
     title: "AutoSOUP: Safety-Oriented Unit Proof Generation for Component-level Memory-Safety Verification"
