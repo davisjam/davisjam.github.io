@@ -447,10 +447,10 @@ To see them organized approximately by project, see [here](/research).
  T. Sivertsen, N. Singh, and **Davis**.  
  2026\.  
  <a href="https://arxiv.org/pdf/2607.01102" aria-label="PDF: SAGE: Structured Agentic Graph Editing for Software Diagrams"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
-1. *A Longitudinal Study of Usability in Identity-Based Software Signing*.  
+1. *Identity-Based Signing Shifts, Not Solves, Usability: Evidence from Five Identity-Based Signing Ecosystems*.  
  K. Kalu, H. Tran, S. Torres-Arias, S. Jeong, and **Davis**.  
  arXiv 2026.  
- <a href="https://arxiv.org/pdf/2603.17133" aria-label="PDF: A Longitudinal Study of Usability in Identity-Based Software Signing"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+ <a href="https://arxiv.org/pdf/2603.17133" aria-label="PDF: Identity-Based Signing Shifts, Not Solves, Usability: Evidence from Five Identity-Based Signing Ecosystems"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *A Guide to Stakeholder Analysis for Cybersecurity Researchers*.  
  **Davis**, S. Chen, H. Peng, P. Amusuo, and K. Kalu.  
  arXiv 2025.  

@@ -1511,7 +1511,7 @@ publications:
       mage: "A worked example of the Modeling Principle: agents manipulate an explicit graph representation of a software diagram rather than treating the diagram as an opaque picture."
   - id: R-8
     type: report
-    title: "A Longitudinal Study of Usability in Identity-Based Software Signing"
+    title: "Identity-Based Signing Shifts, Not Solves, Usability: Evidence from Five Identity-Based Signing Ecosystems"
     authors: "K. Kalu, H. Tran, S. Torres-Arias, S. Jeong, and J.C. Davis"
     venue: "arXiv"
     year: 2026
