@@ -80,6 +80,7 @@ publications:
     type: conference
     title: "Why Johnny Adopts Identity-Based Software Signing: A Usability Case Study of Sigstore"
     authors: "K.G. Kalu, S. Okorafor, T. Singla, S. Chen, S. Torres-Arias, and J.C. Davis"
+    slides: "Kalu-SigstoreUsabilityCaseStudy-USENIXSecurity26-slides.pptx"
     venue: "Proceedings of the 35th USENIX Security Symposium (SECURITY)"
     year: 2026
     paper_url: "https://arxiv.org/pdf/2503.00271"
@@ -919,6 +920,7 @@ publications:
     title: "An Empirical Investigation of Pre-Trained Deep Learning Model Reuse in the Scientific Process"
     venue: "Proceedings of the 22nd IEEE International eScience Conference (short paper) (eScience)"
     year: 2026
+    paper_url: "https://arxiv.org/pdf/2603.13584"
     authors: "N. Synovic, K. Ryzka, A.V.V. Solari, K. Lyons, J.C. Davis, and G.K. Thiruvathukal"
     program_notes:
       ptm-se: "An early empirical look at pre-trained model reuse in the wild."

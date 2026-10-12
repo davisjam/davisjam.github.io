@@ -38,9 +38,10 @@ This disorganized list summarizes my research, teaching, and service activities.
 <details class="news-year" markdown="1" open>
 <summary><h3 class="news-year__label">2026</h3></summary>
 
+- *[Regular Expression Denial of Service Induced by Backreferences](https://arxiv.org/pdf/2602.21459)* — USENIX Security Symposium (USENIX Security) 2026. Congrats Berk and the team!
 - MIT Press offers me a contract for the [MAGE book](https://davisjam.github.io/model-based-agentic-software-engineering/book/mage-book/index.html). Let's learn how to engineer with agents!
 - *[Software Supply Chains are Dead: Use-Case-Oriented Regeneration](https://arxiv.org/pdf/2607.13021)* — ESEM-ERVR 2026. Congrats Tanmay!
-- *An Empirical Investigation of Pre-Trained Deep Learning Model Reuse in the Scientific Process* — IEEE International eScience Conference (short paper) (eScience) 2026. Congrats to Nicholas, Kamil, Armando, Kevin, George, and the team!
+- *[An Empirical Investigation of Pre-Trained Deep Learning Model Reuse in the Scientific Process](https://arxiv.org/pdf/2603.13584)* — IEEE International eScience Conference (short paper) (eScience) 2026. Congrats to Nicholas, Kamil, Armando, Kevin, George, and the team!
 - US National Science Foundation funds *CAREER: PTM-SEER: Software Engineering Foundations for Re-Using Pre-Trained Neural Models* (#2541917). Thank you, US taxpayers!
 - US National Science Foundation funds *Collaborative Research: SaTC 2.0: RES: AIGIS: Securing the Deep Learning Model Supply Chain* (#2526621). Thank you, US taxpayers!
 - *[AutoSOUP: Safety-Oriented Unit Proof Generation for Component-level Memory-Safety Verification](https://arxiv.org/pdf/2605.10712)* — CCS 2026. Congrats Paschal and the team!

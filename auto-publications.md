@@ -34,6 +34,7 @@ To see them organized approximately by project, see [here](/research).
  K.G. Kalu, S. Okorafor, T. Singla, S. Chen, S. Torres-Arias, and **Davis**.  
  Proceedings of the 35th USENIX Security Symposium (SECURITY) 2026.  
  <a href="https://arxiv.org/pdf/2503.00271" aria-label="PDF: Why Johnny Adopts Identity-Based Software Signing: A Usability Case Study of Sigstore"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+ <a href="{{ site.url }}{{ site.baseurl }}/{{ site.filesurl }}/publications/Kalu-SigstoreUsabilityCaseStudy-USENIXSecurity26-slides.pptx" aria-label="Slides: Why Johnny Adopts Identity-Based Software Signing: A Usability Case Study of Sigstore"><i class="fas fa-file-powerpoint" aria-hidden="true"></i></a>
 1. *Regular Expression Denial of Service Induced by Backreferences*.  
  Y. Liu, B. Çakar, A. Agrawal, M. Seo, **Davis**, and Dongyoon Lee.  
  Proceedings of the 35th USENIX Security Symposium (USENIX Security) 2026.  
@@ -262,7 +263,8 @@ To see them organized approximately by project, see [here](/research).
 
 1. *An Empirical Investigation of Pre-Trained Deep Learning Model Reuse in the Scientific Process*.  
  N. Synovic, K. Ryzka, A.V.V. Solari, K. Lyons, **Davis**, and G.K. Thiruvathukal.  
- Proceedings of the 22nd IEEE International eScience Conference (short paper) (eScience) 2026.
+ Proceedings of the 22nd IEEE International eScience Conference (short paper) (eScience) 2026.  
+ <a href="https://arxiv.org/pdf/2603.13584" aria-label="PDF: An Empirical Investigation of Pre-Trained Deep Learning Model Reuse in the Scientific Process"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *How Do Agents Perform Code Optimization? An Empirical Study*.  
  H. Peng, A. Zhong, R.A.C. Méndez, K.G. Kalu, and **Davis**.  
  Proceedings of the 23rd International Mining Software Repositories Conference -- Mining Challenge track (MSR-MiningChallenge) 2026.  
