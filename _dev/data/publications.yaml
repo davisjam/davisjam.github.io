@@ -200,6 +200,7 @@ publications:
 
   - id: C-12
     type: conference
+    award: "Best Artifact Award"
     title: "PickleBall: Secure Deserialization of Pickle-based Machine Learning Models"
     authors: "A. Kellas, N. Christou, W. Jiang, P. Li, L. Simon, Y. David, V. Kemerlis, J.C. Davis, and J. Yang"
     venue: "Proceedings of the 32nd ACM Conference on Computer and Communications Security (CCS)"
@@ -586,6 +587,7 @@ publications:
 
   - id: C-37
     type: conference
+    award: "ACM Distinguished Paper Award"
     title: "A Principled Approach to GraphQL Query Cost Analysis"
     authors: "A. Cha, E. Wittern, G. Baudart, J.C. Davis, L. Mandel, and J. Laredo"
     venue: "Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)"
@@ -629,6 +631,7 @@ publications:
 
   - id: C-40
     type: conference
+    award: "ACM Distinguished Paper Award"
     title: "Regexes are Hard: Decision-making, Difficulties, and Risks in Programming Regular Expressions"
     authors: "L. Michael, J. Donohue, J.C. Davis, D. Lee, and F. Servant"
     venue: "Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)"
@@ -691,6 +694,7 @@ publications:
 
   - id: C-44
     type: conference
+    award: "ACM Distinguished Paper Award"
     title: "The Impact of Regular Expression Denial of Service (REDOS) in Practice: an Empirical Study at the Ecosystem Scale"
     authors: "J.C. Davis, C. Coghlan, F. Servant, and D. Lee"
     venue: "Proceedings of the 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)"
@@ -1092,6 +1096,7 @@ publications:
 
   - id: W-13
     type: workshop
+    award: "Best Paper Award, Software Engineering Division"
     title: "Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency"
     authors: "S. Joshi, P. Mukherjee, K.A. Davis, and J.C. Davis"
     venue: "Annual Conference of the American Society for Engineering Education (ASEE)"

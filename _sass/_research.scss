@@ -606,3 +606,20 @@
     outline-offset: 2px;
   }
 }
+
+
+/* Publication award marker. Quiet by design: these sit in a numbered list of
+   136 entries, and a loud badge on five of them would read as decoration
+   rather than distinction. Aged Gold is the only gold that passes AA on type
+   (4.67:1); Boilermaker Gold is rule-only. */
+.pub-award {
+  display: inline-block;
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #8E6F3E;
+  border: 1px solid rgba(142, 111, 62, 0.45);
+  border-radius: 2px;
+  padding: 0.05em 0.45em;
+  white-space: nowrap;
+}

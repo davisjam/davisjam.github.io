@@ -62,6 +62,7 @@ To see them organized approximately by project, see [here](/research).
 1. *PickleBall: Secure Deserialization of Pickle-based Machine Learning Models*.  
  A. Kellas, N. Christou, W. Jiang, P. Li, L. Simon, Y. David, V. Kemerlis, **Davis**, and J. Yang.  
  Proceedings of the 32nd ACM Conference on Computer and Communications Security (CCS) 2025.  
+ <span class="pub-award">Best Artifact Award</span>  
  <a href="https://arxiv.org/pdf/2508.15987" aria-label="PDF: PickleBall: Secure Deserialization of Pickle-based Machine Learning Models"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *ZTD-JAVA: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies*.  
  P.C. Amusuo, K.A. Robinson, T. Singla, H. Peng, A. Machiry, S. Torres-Arias, L. Simon, and **Davis**.  
@@ -162,6 +163,7 @@ To see them organized approximately by project, see [here](/research).
 1. *A Principled Approach to GraphQL Query Cost Analysis*.  
  A. Cha, E. Wittern, G. Baudart, **Davis**, L. Mandel, and J. Laredo.  
  Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2020.  
+ <span class="pub-award">ACM Distinguished Paper Award</span>  
  <a href="https://davisjam.github.io/files/publications/ChaWitternBaudartDavisMandelLaredo-PrincipledGraphQL-ESECFSE20.pdf" aria-label="PDF: A Principled Approach to GraphQL Query Cost Analysis"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Improving Reproducibility of Data Science Pipelines through Transparent Provenance Capture*.  
  L. Rupprecht, **Davis**, C. Arnold, Y. Gur, and D. Bhagwat.  
@@ -174,6 +176,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Regexes are Hard: Decision-making, Difficulties, and Risks in Programming Regular Expressions*.  
  L. Michael, J. Donohue, **Davis**, D. Lee, and F. Servant.  
  Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE) 2019.  
+ <span class="pub-award">ACM Distinguished Paper Award</span>  
  <a href="https://davisjam.github.io/files/publications/MichaelDonohueDavisLeeServant-RegexesAreHard-ASE19.pdf" aria-label="PDF: Regexes are Hard: Decision-making, Difficulties, and Risks in Programming Regular Expressions"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Why Aren't Regular Expressions a Lingua Franca? An Empirical Study on the Re-use and Portability of Regular Expressions*.  
  **Davis**, L. Michael, C. Coghlan, F. Servant, and D. Lee.  
@@ -190,6 +193,7 @@ To see them organized approximately by project, see [here](/research).
 1. *The Impact of Regular Expression Denial of Service (REDOS) in Practice: an Empirical Study at the Ecosystem Scale*.  
  **Davis**, C. Coghlan, F. Servant, and D. Lee.  
  Proceedings of the 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2018.  
+ <span class="pub-award">ACM Distinguished Paper Award</span>  
  <a href="https://davisjam.github.io/files/publications/DavisCoghlanServantLee-EcosystemREDOS-ESECFSE18.pdf" aria-label="PDF: The Impact of Regular Expression Denial of Service (REDOS) in Practice: an Empirical Study at the Ecosystem Scale"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *A Sense of Time for JavaScript and Node.js: First-Class Timeouts as a Cure for Event Handler Poisoning*.  
  **Davis**, E.R. Williamson, and D. Lee.  
@@ -312,6 +316,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency*.  
  S. Joshi, P. Mukherjee, K.A. Davis, and **Davis**.  
  Annual Conference of the American Society for Engineering Education (ASEE) 2024.  
+ <span class="pub-award">Best Paper Award, Software Engineering Division</span>  
  <a href="https://arxiv.org/pdf/2404.16632" aria-label="PDF: Introducing Systems Thinking as a Framework for Teaching and Assessing Threat Modeling Competency"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *An Exploratory Study on Upper-Level Computing Students' Use of Large Language Models as Tools in a Semester-Long Project*.  
  B.A. Tanay, L. Arinze, S. Joshi, K.A. Davis, and **Davis**.  
@@ -392,7 +397,7 @@ To see them organized approximately by project, see [here](/research).
 1. *Rethinking Regex Engines to Address ReDoS*.  
  **Davis**.  
  Proceedings of the 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE'19) --- Student research competition. 2019.  
- Second place, ACM Student Research Competition Grand Finals.  
+ <span class="pub-award">Second place, ACM Student Research Competition Grand Finals</span>  
  <a href="https://davisjam.github.io/files/publications/Davis-RethinkingRegexEngines-FSE19-SRC-paper.pdf" aria-label="PDF: Rethinking Regex Engines to Address ReDoS"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Ursprung: Provenance for Large-Scale Analytics Environments*.  
  L. Rupprecht, **Davis**, C. Arnold, A. Lubbock, D. Tyson, and D. Bhagwat.  

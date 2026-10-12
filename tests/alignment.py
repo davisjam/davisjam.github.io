@@ -778,6 +778,38 @@ def patents(e: Engine, m) -> None:
     # title and an author string and nothing else, so the page printed them as
     # bare titles while every neighbour showed its venue. Nothing looked broken;
     # they just quietly read as less than they are.
+
+    # Award markers existed on the OLD page as bestPaperAward / bestArtifactAward
+    # flags in markdown_generator/publications.json, and were lost in the move to
+    # the generated page -- James noticed they were gone. The legacy file is still
+    # the only independent record of which papers carry one, so it is checked
+    # against until it is retired.
+    legacy = SITE / "markdown_generator/publications.json"
+    if legacy.exists():
+        import json as _j
+        raw = "\n".join(l for l in legacy.read_text().splitlines()
+                        if not l.lstrip().startswith("#"))
+        try:
+            old_pubs = _j.loads(raw)["publications"]
+        except Exception as exc:
+            o.fail(f"markdown_generator/publications.json is unreadable: {exc}")
+            old_pubs = []
+        norm = lambda t: re.sub(r"[^a-z0-9]", "", (t or "").lower())
+        have = {norm(p["title"]): p for p in pubs}
+        o.saw(len(old_pubs))
+        for x in old_pubs:
+            if not (x.get("bestPaperAward") or x.get("bestArtifactAward")):
+                continue
+            k = norm(x.get("title"))
+            rec = have.get(k) or next((v for kk, v in have.items()
+                                       if kk.startswith(k[:34])), None)
+            if rec is None:
+                o.fail(f"legacy record flags an award on a paper absent from the "
+                       f"record: {str(x.get('title'))[:46]}")
+            elif not rec.get("award"):
+                o.fail(f"{rec['id']} carried an award on the old page and has no "
+                       f"award field now: {rec['title'][:44]}")
+
     for rec in pubs:
         if rec.get("type") not in ("conference", "journal", "workshop"):
             continue

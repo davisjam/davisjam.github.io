@@ -79,7 +79,10 @@ def entry(p: dict) -> list[str]:
     # work appeared. W-34 carries the Grand Finals placement that W-33 used to
     # occupy as a separate entry.
     if p.get("award"):
-        out.append(f' {" ".join(str(p["award"]).split())}.  ')
+        # A span, not the old '[Best Paper Award](){: .btn}'. That was an anchor
+        # with an empty href -- a link that goes nowhere, announced to a screen
+        # reader as a link. The marker is a label, so it is marked up as one.
+        out.append(f' <span class="pub-award">{_label(" ".join(str(p["award"]).split()))}</span>  ')
     url = _pubrefs.paper_link(p)
     if url:
         # An anchor wrapping only an icon has no accessible name -- axe reported
