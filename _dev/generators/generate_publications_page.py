@@ -88,7 +88,7 @@ def entry(p: dict) -> list[str]:
         # a second convention for one thing is how these drift apart.
         deck = urllib.parse.quote(p["slides"])
         lab = _label(f'Slides: {" ".join(p["title"].split())}')
-        out.append(' <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}'
+        out.append(' <a href="{{ site.url }}{{ site.baseurl }}/{{ site.filesurl }}'
                    f'/publications/{deck}" aria-label="{lab}">'
                    f'<i class="fas fa-file-powerpoint" aria-hidden="true"></i></a>')
     # strip the trailing two-space break from whichever line ended up last
@@ -166,7 +166,7 @@ def main() -> int:
                     # raw space in an href does not resolve.
                     slides = urllib.parse.quote(t["slides"])
                     lab = _label(f'Slides: {" ".join(t["title"].split())}')
-                    bits.append('<a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}'
+                    bits.append('<a href="{{ site.url }}{{ site.baseurl }}/{{ site.filesurl }}'
                                 f'/publications/{slides}" aria-label="{lab}">'
                                 f'<i class="fas fa-file-powerpoint" aria-hidden="true"></i></a>')
                 o[-1] = o[-1].rstrip() if not bits else o[-1]
