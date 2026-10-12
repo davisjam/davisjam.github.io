@@ -228,7 +228,7 @@ programs:
           vulnerability — and the ecosystem study, the anti-pattern work, and the
           backreference results above each show, from a different direction, that
           addressing one view alone leaves the others open.
-        publications: [C-33, W-33]
+        publications: [C-33]
       - title: What the regex microscope revealed
         prose: >-
           Across these studies, the recurring lesson is that even very small

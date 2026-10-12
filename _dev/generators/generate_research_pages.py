@@ -144,6 +144,12 @@ def main() -> int:
                 rec = by_id.get(rid)
                 if rec is None:
                     raise SystemExit(f"{pid}: {rid} is not in the publication record")
+                if rec.get("omit_from_page"):
+                    raise SystemExit(
+                        f"{pid}: section {sec['title']!r} lists {rid}, which is "
+                        f"marked omit_from_page -- the structure says show it "
+                        f"here and the record says never show it. Remove it "
+                        f"from the section or clear the flag.")
                 o.append(pub_li(rec, pid))
             o.append("</ul>\n")
 
