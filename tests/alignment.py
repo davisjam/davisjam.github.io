@@ -1313,8 +1313,12 @@ def structure(e: Engine, m) -> None:
                         f"(section {sec['title']!r})")
             placed += sec["publications"]
 
+        # omit_from_page records are not rendered anywhere, so "placed under no
+        # section" is their intended state rather than a gap. Fourth check to
+        # need this: a cross-cutting flag means every consumer must learn it.
         modeled = {p["id"] for p in m["pubs"]["publications"]
-                   if pid in (p.get("projects") or [])}
+                   if pid in (p.get("projects") or [])
+                   and not p.get("omit_from_page")}
         for x in sorted(modeled - set(placed)):
             o3.fail(f"{pid}: {x} is modeled for the programme but placed under no section")
         for x in sorted(set(placed) - modeled):
