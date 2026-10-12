@@ -95,7 +95,7 @@ publications:
     type: conference
     authors: "Y. Liu, B. Çakar, A. Agrawal, M. Seo, J.C. Davis, and Dongyoon Lee"
     title: "Regular Expression Denial of Service Induced by Backreferences"
-    venue: "arXiv"
+    venue: "Proceedings of the 35th USENIX Security Symposium (USENIX Security)"
     year: 2026
     paper_url: "https://arxiv.org/pdf/2602.21459"
     links:
@@ -1438,6 +1438,7 @@ publications:
     type: report
     title: "Model-Based Agentic Software Engineering"
     authors: "J.C. Davis, K. Kalu, H. Peng, and P.V. Patil"
+    slides: "DavisKaluPengPatil-MAGE-JAWs-ASE2026.pptx"
     year: 2026
     paper_url: "https://arxiv.org/pdf/2608.25174"
     projects: [mage]

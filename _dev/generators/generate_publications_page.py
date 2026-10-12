@@ -83,6 +83,14 @@ def entry(p: dict) -> list[str]:
         label = _label(f'PDF: {" ".join(p["title"].split())}')
         out.append(f' <a href="{url}" aria-label="{label}">'
                    f'<i class="fas fa-file-pdf" aria-hidden="true"></i></a>')
+    if p.get("slides"):
+        # Same field and markup the theses section uses -- a deck is a deck, and
+        # a second convention for one thing is how these drift apart.
+        deck = urllib.parse.quote(p["slides"])
+        lab = _label(f'Slides: {" ".join(p["title"].split())}')
+        out.append(' <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}'
+                   f'/publications/{deck}" aria-label="{lab}">'
+                   f'<i class="fas fa-file-powerpoint" aria-hidden="true"></i></a>')
     # strip the trailing two-space break from whichever line ended up last
     out[-1] = out[-1].rstrip()
     if not url:

@@ -1096,6 +1096,15 @@ def links(e: Engine, m) -> None:
         if local.startswith("files/"):
             if not (umbrella / local).exists():
                 o3.fail(f"{p['id']} points at a missing hosted PDF: {u}")
+
+        # A deck is hosted the same way and 404s the same way. R-1 is the first
+        # publication to carry one -- only theses did before -- so this would
+        # otherwise have gone unchecked.
+        if p.get("slides"):
+            deck = umbrella / "files/publications" / p["slides"]
+            if not deck.exists():
+                o3.fail(f"{p['id']} points at a missing slide deck: "
+                        f"files/publications/{p['slides']}")
         elif not str(u).startswith(("http://", "https://")):
             o5.fail(f"{p['id']} paper_url is neither absolute nor site-rooted: {u}")
         elif " " in str(u) or str(u).count("http") > 1:

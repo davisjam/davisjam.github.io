@@ -36,7 +36,7 @@ To see them organized approximately by project, see [here](/research).
  <a href="https://arxiv.org/pdf/2503.00271" aria-label="PDF: Why Johnny Adopts Identity-Based Software Signing: A Usability Case Study of Sigstore"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Regular Expression Denial of Service Induced by Backreferences*.  
  Y. Liu, B. Çakar, A. Agrawal, M. Seo, **Davis**, and Dongyoon Lee.  
- arXiv 2026.  
+ Proceedings of the 35th USENIX Security Symposium (USENIX Security) 2026.  
  <a href="https://arxiv.org/pdf/2602.21459" aria-label="PDF: Regular Expression Denial of Service Induced by Backreferences"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens*.  
  P. Jajal, N.J. Eliopoulos, B.S.H. Chou, G.K. Thiruvathukal, Y.H. Lu, and **Davis**.  
@@ -420,6 +420,7 @@ To see them organized approximately by project, see [here](/research).
  **Davis**, K. Kalu, H. Peng, and P.V. Patil.  
  2026\.  
  <a href="https://arxiv.org/pdf/2608.25174" aria-label="PDF: Model-Based Agentic Software Engineering"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+ <a href="{{ site.url }}/{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisKaluPengPatil-MAGE-JAWs-ASE2026.pptx" aria-label="Slides: Model-Based Agentic Software Engineering"><i class="fas fa-file-powerpoint" aria-hidden="true"></i></a>
 1. *Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering*.  
  **Davis**, P. Amusuo, T. Singla, B. Çakar, and K.A. Davis.  
  2026\.  
