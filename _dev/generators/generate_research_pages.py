@@ -104,7 +104,10 @@ def main() -> int:
         svg_title, svg_desc = svg_text("title"), svg_text("desc")
         if not svg_title:
             raise SystemExit(f"{pid}: {svg.name} has no <title>; alt text cannot be derived")
-        mine = [p for p in pubs if pid in (p.get("projects") or [])]
+        # omit_from_page means not shown ANYWHERE. Honouring it only on the
+        # Publications page would drop a record there and keep it here.
+        mine = [p for p in pubs if pid in (p.get("projects") or [])
+                and not p.get("omit_from_page")]
         by_role: dict[str, list] = {}
         for p in mine:
             by_role.setdefault((p.get("role_in_project") or {}).get(pid, "core"), []).append(p)

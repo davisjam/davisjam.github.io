@@ -1089,7 +1089,11 @@ def links(e: Engine, m) -> None:
     for p in pubs:
         u = p.get("paper_url")
         if not u:
-            if p.get("type") in ("conference", "journal", "workshop", "magazine"):
+            # A record that is not shown cannot present a broken link, so a
+            # missing URL on one is not a finding -- it is noise that makes the
+            # real ones easier to ignore.
+            if (p.get("type") in ("conference", "journal", "workshop", "magazine")
+                    and not p.get("omit_from_page")):
                 o4.fail(f"{p['id']} ({p.get('type')}) has no paper_url: {p['title'][:52]}")
             continue
         local = str(u).replace("https://davisjam.github.io/", "")

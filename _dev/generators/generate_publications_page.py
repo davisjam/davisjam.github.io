@@ -75,6 +75,11 @@ def entry(p: dict) -> list[str]:
         if re.match(r"^\d+\.", f"{tail}."):
             tail = tail + "\\"
         out.append(f" {tail}.  ")
+    # An award sits after the venue and before the links: it qualifies where the
+    # work appeared. W-34 carries the Grand Finals placement that W-33 used to
+    # occupy as a separate entry.
+    if p.get("award"):
+        out.append(f' {" ".join(str(p["award"]).split())}.  ')
     url = _pubrefs.paper_link(p)
     if url:
         # An anchor wrapping only an icon has no accessible name -- axe reported

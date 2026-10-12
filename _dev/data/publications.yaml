@@ -1386,6 +1386,7 @@ publications:
   - id: W-33
     type: workshop
     title: "On the Impact and Defeat of Regex DoS"
+    omit_from_page: true
     venue: "ACM Student Research Competition (Grand Finals)"
     year: 2020
     authors: "J.C. Davis"
@@ -1398,6 +1399,7 @@ publications:
   - id: W-34
     type: workshop
     title: "Rethinking Regex Engines to Address ReDoS"
+    award: "Second place, ACM Student Research Competition Grand Finals"
     authors: "J.C. Davis"
     venue: "Proceedings of the 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE'19) --- Student research competition."
     year: 2019

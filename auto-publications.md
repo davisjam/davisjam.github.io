@@ -389,12 +389,10 @@ To see them organized approximately by project, see [here](/research).
  J.M. Winkler, A. Agarwal, C. Tung, D.R. Ugalde, Y.J. Jung, and **Davis**.  
  Proceedings of the 29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering: Artifacts Track (ESEC/FSE-Artifacts) 2021.  
  <a href="https://github.com/PurdueDualityLab/deepbugs-jr/blob/develop/paper/Deepbugs_Replication_Paper_Abstract.pdf" aria-label="PDF: A Replication of 'DeepBugs: A Learning Approach to Name-based Bug Detection'"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
-1. *On the Impact and Defeat of Regex DoS*.  
- **Davis**.  
- ACM Student Research Competition (Grand Finals) 2020.
 1. *Rethinking Regex Engines to Address ReDoS*.  
  **Davis**.  
  Proceedings of the 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE'19) --- Student research competition. 2019.  
+ Second place, ACM Student Research Competition Grand Finals.  
  <a href="https://davisjam.github.io/files/publications/Davis-RethinkingRegexEngines-FSE19-SRC-paper.pdf" aria-label="PDF: Rethinking Regex Engines to Address ReDoS"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Ursprung: Provenance for Large-Scale Analytics Environments*.  
  L. Rupprecht, **Davis**, C. Arnold, A. Lubbock, D. Tyson, and D. Bhagwat.  
