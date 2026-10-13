@@ -51,6 +51,7 @@ To see them organized approximately by project, see [here](/research).
  A. Rozema and **Davis**.  
  Proceedings of the ACM Web Conference (WWW) 2026.  
  <a href="https://arxiv.org/pdf/2506.19899" aria-label="PDF: Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+ <a href="{{ site.url }}{{ site.baseurl }}/{{ site.filesurl }}/publications/RozemaDavis-AntiPhishingTraining-WWW2026-poster.pdf" aria-label="Poster: Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale"><i class="fas fa-file-image" aria-hidden="true"></i></a>
 1. *ConfuGuard: Using Metadata to Detect Active and Stealthy Package Confusion Attacks Accurately and at Scale*.  
  W. Jiang, B. Çakar, M. Lysenko, and **Davis**.  
  Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE) 2026.  

@@ -92,13 +92,18 @@ def entry(p: dict) -> list[str]:
         out.append(f' <a href="{url}" aria-label="{label}">'
                    f'<i class="fas fa-file-pdf" aria-hidden="true"></i></a>')
     if p.get("slides"):
-        # Same field and markup the theses section uses -- a deck is a deck, and
-        # a second convention for one thing is how these drift apart.
-        deck = urllib.parse.quote(p["slides"])
-        lab = _label(f'Slides: {" ".join(p["title"].split())}')
+        # The KIND comes from the filename, because the repo's naming convention
+        # already encodes it: "...-poster.pdf" against "...-slides.pptx". A
+        # poster shown with a PowerPoint icon and announced as "Slides" is wrong
+        # twice over, and C-7's WWW poster is the first PDF to use this field.
+        name = p["slides"]
+        kind, icon = (("Poster", "fa-file-image") if "poster" in name.lower()
+                      else ("Slides", "fa-file-powerpoint"))
+        deck = urllib.parse.quote(name)
+        lab = _label(f'{kind}: {" ".join(p["title"].split())}')
         out.append(' <a href="{{ site.url }}{{ site.baseurl }}/{{ site.filesurl }}'
                    f'/publications/{deck}" aria-label="{lab}">'
-                   f'<i class="fas fa-file-powerpoint" aria-hidden="true"></i></a>')
+                   f'<i class="fas {icon}" aria-hidden="true"></i></a>')
     # strip the trailing two-space break from whichever line ended up last
     out[-1] = out[-1].rstrip()
     if not url:

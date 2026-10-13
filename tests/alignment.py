@@ -1141,6 +1141,16 @@ def links(e: Engine, m) -> None:
             if not deck.exists():
                 o3.fail(f"{p['id']} points at a missing slide deck: "
                         f"files/publications/{p['slides']}")
+            # The RENDERER derives the icon and the label from this filename --
+            # "poster" in the name means a poster, anything else a deck. That
+            # makes the naming convention load-bearing, so a PDF that does not
+            # say what it is would silently get a PowerPoint icon and be
+            # announced as "Slides".
+            low = p["slides"].lower()
+            if low.endswith(".pdf") and "poster" not in low:
+                o3.fail(f"{p['id']} attaches a PDF whose name does not say what "
+                        f"it is: {p['slides']} -- the renderer reads 'poster' "
+                        f"from the filename and would call this one slides")
         elif not str(u).startswith(("http://", "https://")):
             o5.fail(f"{p['id']} paper_url is neither absolute nor site-rooted: {u}")
         elif " " in str(u) or str(u).count("http") > 1:

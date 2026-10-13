@@ -134,6 +134,7 @@ publications:
     type: conference
     title: "Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale"
     authors: "A. Rozema and J.C. Davis"
+    slides: "RozemaDavis-AntiPhishingTraining-WWW2026-poster.pdf"
     venue: "Proceedings of the ACM Web Conference (WWW)"
     year: 2026
     paper_url: "https://arxiv.org/pdf/2506.19899"
