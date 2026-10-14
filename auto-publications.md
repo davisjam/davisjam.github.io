@@ -43,6 +43,7 @@ To see them organized approximately by project, see [here](/research).
  P. Jajal, N.J. Eliopoulos, B.S.H. Chou, G.K. Thiruvathukal, Y.H. Lu, and **Davis**.  
  The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 -- Findings Track (CVPR-Findings) 2026.  
  <a href="https://arxiv.org/pdf/2511.18105" aria-label="PDF: AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+ <a href="{{ site.url }}{{ site.baseurl }}/{{ site.filesurl }}/publications/JajalEliopoulosChouThiruvathukalLuDavis-AdaPerceiver-CVPR2026-poster.pptx" aria-label="Poster: AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens"><i class="fas fa-file-image" aria-hidden="true"></i></a>
 1. *Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms*.  
  P. Jajal\*, N. Eliopoulos\*, B.S.H. Chou, G.K. Thiruvathukal, **Davis**, and Y.H. Lu.  
  The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 -- Findings Track (CVPR-Findings) 2026.  
