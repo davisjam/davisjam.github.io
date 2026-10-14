@@ -47,6 +47,7 @@ To see them organized approximately by project, see [here](/research).
  P. Jajal\*, N. Eliopoulos\*, B.S.H. Chou, G.K. Thiruvathukal, **Davis**, and Y.H. Lu.  
  The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 -- Findings Track (CVPR-Findings) 2026.  
  <a href="https://arxiv.org/pdf/2506.00299" aria-label="PDF: Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+ <a href="{{ site.url }}{{ site.baseurl }}/{{ site.filesurl }}/publications/JajalEliopoulosChouThiruvathukalDavisLu-DiffusionAlignment-CVPR2026-poster.pdf" aria-label="Poster: Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms"><i class="fas fa-file-image" aria-hidden="true"></i></a>
 1. *Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale*.  
  A. Rozema and **Davis**.  
  Proceedings of the ACM Web Conference (WWW) 2026.  

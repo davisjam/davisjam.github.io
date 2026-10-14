@@ -123,6 +123,7 @@ publications:
     type: conference
     title: "Inference-Time Alignment of Diffusion Models via Evolutionary Algorithms"
     authors: "P. Jajal*, N. Eliopoulos*, B.S.H. Chou, G.K. Thiruvathukal, J.C. Davis, and Y.H. Lu"
+    slides: "JajalEliopoulosChouThiruvathukalDavisLu-DiffusionAlignment-CVPR2026-poster.pdf"
     venue: "The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 -- Findings Track (CVPR-Findings)"
     year: 2026
     paper_url: "https://arxiv.org/pdf/2506.00299"
