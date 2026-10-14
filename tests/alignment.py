@@ -702,8 +702,15 @@ def publications_page(e: Engine, m) -> None:
     absent = [p for p in pubs
               if not p.get("omit_from_page")
               and " ".join(p["title"].split()).lower()[:48] not in text]
+    # Titles are NOT unique -- B-1 (the book), W-37 (the workshop paper) and
+    # R-1 (its preprint) are all "Model-Based Agentic Software Engineering". So
+    # finding the title on the page does not mean the OMITTED record is what put
+    # it there. Only flag when no visible record shares that title.
+    visible_titles = {" ".join(p["title"].split()).lower()[:48]
+                      for p in pubs if not p.get("omit_from_page")}
     shown = [p for p in pubs if p.get("omit_from_page")
-             and " ".join(p["title"].split()).lower()[:48] in text]
+             and " ".join(p["title"].split()).lower()[:48] in text
+             and " ".join(p["title"].split()).lower()[:48] not in visible_titles]
     for p in shown:
         o.fail(f"{p['id']} is marked omit_from_page but appears on the page")
     for p in absent[:8]:

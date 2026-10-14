@@ -244,7 +244,7 @@ programs:
           Capable agents have made producing working code much cheaper. They
           have not made it cheaper to decide what should be built, which
           obligations govern it, or whether the result is acceptable.
-        publications: [B-1, R-1, W-2]
+        publications: [B-1, W-37, W-2]
       # ONE section, not two. "What agents actually do" implied these papers were
       # the empirical basis for MAGE's general claims about delegated
       # engineering; they are not. "Infrastructure for governed work" was worse

@@ -922,6 +922,23 @@ publications:
       paper: "https://ieeexplore.ieee.org/document/9935301"
     cluster: efficient-ml-systems
 
+  - id: W-37
+    type: workshop
+    title: "Model-Based Agentic Software Engineering"
+    authors: "J.C. Davis, K.G. Kalu, H. Peng, and P.V. Patil"
+    venue: "ASE Journal Ahead Workshop (JAWs)"
+    year: 2026
+    paper_url: "https://arxiv.org/pdf/2608.25174"
+    slides: "DavisKaluPengPatil-MAGE-JAWs-ASE2026-slides.pptx"
+    projects: [mage]
+    role_in_project:
+      mage: "An 8-page condensed statement of the MAGE theory."
+    program_notes:
+      mage: "An 8-page condensed statement of the MAGE theory."
+    # Accepted after CV-40 was published, which still lists this work as the
+    # preprint R-1. The CV will renumber the W- series when it catches up; the
+    # id here is a key, not a position.
+    not_yet_in_cv: true
   - id: W-1
     type: workshop
     title: "An Empirical Investigation of Pre-Trained Deep Learning Model Reuse in the Scientific Process"
@@ -1449,8 +1466,8 @@ publications:
   - id: R-1
     type: report
     title: "Model-Based Agentic Software Engineering"
+    omit_from_page: true
     authors: "J.C. Davis, K. Kalu, H. Peng, and P.V. Patil"
-    slides: "DavisKaluPengPatil-MAGE-JAWs-ASE2026.pptx"
     year: 2026
     paper_url: "https://arxiv.org/pdf/2608.25174"
     projects: [mage]

@@ -284,6 +284,11 @@ To see them organized approximately by project, see [here](/research).
  P. Amusuo, D. Liu, R.A.C. Méndez, J. Metzman, O. Chang, and **Davis**.  
  ACM International Conference on the Foundations of Software Engineering -- Industry track (FSE-Industry) 2026.  
  <a href="https://arxiv.org/pdf/2510.02185" aria-label="PDF: Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+1. *Model-Based Agentic Software Engineering*.  
+ **Davis**, K.G. Kalu, H. Peng, and P.V. Patil.  
+ ASE Journal Ahead Workshop (JAWs) 2026.  
+ <a href="https://arxiv.org/pdf/2608.25174" aria-label="PDF: Model-Based Agentic Software Engineering"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+ <a href="{{ site.url }}{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisKaluPengPatil-MAGE-JAWs-ASE2026-slides.pptx" aria-label="Slides: Model-Based Agentic Software Engineering"><i class="fas fa-file-powerpoint" aria-hidden="true"></i></a>
 1. *Towards the Systematic Testing of Regular Expression Engines*.  
  B. Çakar, D. Lee, and **Davis**.  
  ICSE Journal Ahead Workshop (JAWs) 2026.  
@@ -424,11 +429,6 @@ To see them organized approximately by project, see [here](/research).
 
 ## Technical reports
 
-1. *Model-Based Agentic Software Engineering*.  
- **Davis**, K. Kalu, H. Peng, and P.V. Patil.  
- 2026\.  
- <a href="https://arxiv.org/pdf/2608.25174" aria-label="PDF: Model-Based Agentic Software Engineering"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
- <a href="{{ site.url }}{{ site.baseurl }}/{{ site.filesurl }}/publications/DavisKaluPengPatil-MAGE-JAWs-ASE2026.pptx" aria-label="Slides: Model-Based Agentic Software Engineering"><i class="fas fa-file-powerpoint" aria-hidden="true"></i></a>
 1. *Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering*.  
  **Davis**, P. Amusuo, T. Singla, B. Çakar, and K.A. Davis.  
  2026\.  
