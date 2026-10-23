@@ -27,7 +27,13 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          # 3.1 went EOL in March 2025 and setup-ruby stopped resolving it
+          # on the current runner image: the step began failing in under a
+          # second, nine days after the last green build, with no change to
+          # any build input. 3.3 rather than 3.4 because the Gemfile pins
+          # jekyll =3.9.3, and 3.4 drops csv/base64/logger from the default
+          # gems that Jekyll 3.x still expects.
+          ruby-version: '3.3'
           bundler-cache: true
           cache-version: 0
 
