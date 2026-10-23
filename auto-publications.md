@@ -429,6 +429,14 @@ To see them organized approximately by project, see [here](/research).
 
 ## Technical reports
 
+1. *Software Engineering in the Age of Delegation*.  
+ **Davis**, S. France, A.M. Kazerouni, A.M.M. Ahmed, L. Arinze, and K.A. Davis.  
+ Technical report 2026.  
+ <a href="https://davisjam.github.io/files/publications/DavisFranceKazerouniAhmedArinzeDavis-SoftwareEngineeringInTheAgeOfDelegation-TechReport2026.pdf" aria-label="PDF: Software Engineering in the Age of Delegation"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+1. *Open Source Software, Closed Software Factory*.  
+ **Davis**, W. Jiang, N. Synovic, and G.K. Thiruvathukal.  
+ Technical report 2026.  
+ <a href="https://davisjam.github.io/files/publications/DavisJiangSynovicThiruvathukal-OpenSourceClosedSoftwareFactory-TechReport2026.pdf" aria-label="PDF: Open Source Software, Closed Software Factory"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering*.  
  **Davis**, P. Amusuo, T. Singla, B. Çakar, and K.A. Davis.  
  2026\.  

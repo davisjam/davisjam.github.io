@@ -1463,6 +1463,22 @@ publications:
     role_in_project:
       saferegex: precursor
 
+  - id: R-16
+    type: report
+    title: "Software Engineering in the Age of Delegation"
+    authors: "J.C. Davis, S. France, A.M. Kazerouni, A.M.M. Ahmed, L. Arinze, and K.A. Davis"
+    venue: "Technical report"
+    year: 2026
+    paper_url: "https://davisjam.github.io/files/publications/DavisFranceKazerouniAhmedArinzeDavis-SoftwareEngineeringInTheAgeOfDelegation-TechReport2026.pdf"
+    not_yet_in_cv: true
+  - id: R-17
+    type: report
+    title: "Open Source Software, Closed Software Factory"
+    authors: "J.C. Davis, W. Jiang, N. Synovic, and G.K. Thiruvathukal"
+    venue: "Technical report"
+    year: 2026
+    paper_url: "https://davisjam.github.io/files/publications/DavisJiangSynovicThiruvathukal-OpenSourceClosedSoftwareFactory-TechReport2026.pdf"
+    not_yet_in_cv: true
   - id: R-1
     type: report
     title: "Model-Based Agentic Software Engineering"

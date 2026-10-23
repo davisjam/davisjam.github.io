@@ -2,6 +2,14 @@ schema_version: 1
 news:
 - year: "2026"
   kind: publication
+  ref: R-16
+  byline: "With Steve, Ayaan, Ayatallah, Lexy, and Kirsten."
+- year: "2026"
+  kind: publication
+  ref: R-17
+  byline: "With Wenxin, Nicholas, and George."
+- year: "2026"
+  kind: publication
   ref: C-4
   byline: "Congrats Berk and the team!"
 - year: "2026"
