@@ -437,6 +437,10 @@ To see them organized approximately by project, see [here](/research).
  **Davis**, W. Jiang, N. Synovic, and G.K. Thiruvathukal.  
  Technical report 2026.  
  <a href="https://davisjam.github.io/files/publications/DavisJiangSynovicThiruvathukal-OpenSourceClosedSoftwareFactory-TechReport2026.pdf" aria-label="PDF: Open Source Software, Closed Software Factory"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+1. *Small Harnesses, Default Checks, Limited Coverage: Bounded Model Checking in Practice*.  
+ K. Kolyakov, R. Calvo, **Davis**, and P.C. Amusuo.  
+ Technical report 2026.  
+ <a href="https://davisjam.github.io/files/publications/KolyakovCalvoDavisAmusuo-BoundedModelCheckingInPractice-TechReport2026.pdf" aria-label="PDF: Small Harnesses, Default Checks, Limited Coverage: Bounded Model Checking in Practice"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
 1. *Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering*.  
  **Davis**, P. Amusuo, T. Singla, B. Çakar, and K.A. Davis.  
  2026\.  

@@ -38,6 +38,7 @@ This disorganized list summarizes my research, teaching, and service activities.
 <details class="news-year" markdown="1" open>
 <summary><h3 class="news-year__label">2026</h3></summary>
 
+- *[Small Harnesses, Default Checks, Limited Coverage: Bounded Model Checking in Practice](https://davisjam.github.io/files/publications/KolyakovCalvoDavisAmusuo-BoundedModelCheckingInPractice-TechReport2026.pdf)* — Technical report 2026. With Kevin, Ricardo, and Paschal.
 - *[Software Engineering in the Age of Delegation](https://davisjam.github.io/files/publications/DavisFranceKazerouniAhmedArinzeDavis-SoftwareEngineeringInTheAgeOfDelegation-TechReport2026.pdf)* — Technical report 2026. With Steve, Ayaan, Ayatallah, Lexy, and Kirsten.
 - *[Open Source Software, Closed Software Factory](https://davisjam.github.io/files/publications/DavisJiangSynovicThiruvathukal-OpenSourceClosedSoftwareFactory-TechReport2026.pdf)* — Technical report 2026. With Wenxin, Nicholas, and George.
 - *[Regular Expression Denial of Service Induced by Backreferences](https://arxiv.org/pdf/2602.21459)* — USENIX Security Symposium (USENIX Security) 2026. Congrats Berk and the team!

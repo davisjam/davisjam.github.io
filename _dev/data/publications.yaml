@@ -1463,6 +1463,14 @@ publications:
     role_in_project:
       saferegex: precursor
 
+  - id: R-18
+    type: report
+    title: "Small Harnesses, Default Checks, Limited Coverage: Bounded Model Checking in Practice"
+    authors: "K. Kolyakov, R. Calvo, J.C. Davis, and P.C. Amusuo"
+    venue: "Technical report"
+    year: 2026
+    paper_url: "https://davisjam.github.io/files/publications/KolyakovCalvoDavisAmusuo-BoundedModelCheckingInPractice-TechReport2026.pdf"
+    not_yet_in_cv: true
   - id: R-16
     type: report
     title: "Software Engineering in the Age of Delegation"

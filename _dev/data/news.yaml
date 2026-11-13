@@ -2,6 +2,10 @@ schema_version: 1
 news:
 - year: "2026"
   kind: publication
+  ref: R-18
+  byline: "With Kevin, Ricardo, and Paschal."
+- year: "2026"
+  kind: publication
   ref: R-16
   byline: "With Steve, Ayaan, Ayatallah, Lexy, and Kirsten."
 - year: "2026"
